@@ -1,5 +1,110 @@
 {
-  "fighters": {},
+  "fighters": {
+    "alex-pereira": {
+      "name": "Alex Pereira",
+      "path": "ufc/fighters/alex-pereira.png"
+    },
+    "alexa-grasso": {
+      "name": "Alexa Grasso",
+      "path": "ufc/fighters/alexa-grasso.png"
+    },
+    "alexander-volkanovski": {
+      "name": "Alexander Volkanovski",
+      "path": "ufc/fighters/alexander-volkanovski.jpg"
+    },
+    "alexandre-pantoja": {
+      "name": "Alexandre Pantoja",
+      "path": "ufc/fighters/alexandre-pantoja.jpg"
+    },
+    "arman-tsarukyan": {
+      "name": "Arman Tsarukyan",
+      "path": "ufc/fighters/arman-tsarukyan.png"
+    },
+    "charles-oliveira": {
+      "name": "Charles Oliveira",
+      "path": "ufc/fighters/charles-oliveira.jpg"
+    },
+    "ciryl-gane": {
+      "name": "Ciryl Gane",
+      "path": "ufc/fighters/ciryl-gane.jpg"
+    },
+    "dricus-du-plessis": {
+      "name": "Dricus Du Plessis",
+      "path": "ufc/fighters/dricus-du-plessis.jpg"
+    },
+    "ilia-topuria": {
+      "name": "Ilia Topuria",
+      "path": "ufc/fighters/ilia-topuria.jpg"
+    },
+    "islam-makhachev": {
+      "name": "Islam Makhachev",
+      "path": "ufc/fighters/islam-makhachev.png"
+    },
+    "joshua-van": {
+      "name": "Joshua Van",
+      "path": "ufc/fighters/joshua-van.png"
+    },
+    "julianna-pena": {
+      "name": "Julianna Pena",
+      "path": "ufc/fighters/julianna-pena.jpg"
+    },
+    "justin-gaethje": {
+      "name": "Justin Gaethje",
+      "path": "ufc/fighters/justin-gaethje.jpg"
+    },
+    "kayla-harrison": {
+      "name": "Kayla Harrison",
+      "path": "ufc/fighters/kayla-harrison.jpg"
+    },
+    "khamzat-chimaev": {
+      "name": "Khamzat Chimaev",
+      "path": "ufc/fighters/khamzat-chimaev.png"
+    },
+    "mackenzie-dern": {
+      "name": "Mackenzie Dern",
+      "path": "ufc/fighters/mackenzie-dern.png"
+    },
+    "manon-fiorot": {
+      "name": "Manon Fiorot",
+      "path": "ufc/fighters/manon-fiorot.jpg"
+    },
+    "max-holloway": {
+      "name": "Max Holloway",
+      "path": "ufc/fighters/max-holloway.jpg"
+    },
+    "merab-dvalishvili": {
+      "name": "Merab Dvalishvili",
+      "path": "ufc/fighters/merab-dvalishvili.jpg"
+    },
+    "petr-yan": {
+      "name": "Petr Yan",
+      "path": "ufc/fighters/petr-yan.jpg"
+    },
+    "rose-namajunas": {
+      "name": "Rose Namajunas",
+      "path": "ufc/fighters/rose-namajunas.jpg"
+    },
+    "sean-o-malley": {
+      "name": "Sean O Malley",
+      "path": "ufc/fighters/sean-o-malley.jpg"
+    },
+    "sean-strickland": {
+      "name": "Sean Strickland",
+      "path": "ufc/fighters/sean-strickland.png"
+    },
+    "tatiana-suarez": {
+      "name": "Tatiana Suarez",
+      "path": "ufc/fighters/tatiana-suarez.jpg"
+    },
+    "valentina-shevchenko": {
+      "name": "Valentina Shevchenko",
+      "path": "ufc/fighters/valentina-shevchenko.jpg"
+    },
+    "zhang-weili": {
+      "name": "Zhang Weili",
+      "path": "ufc/fighters/zhang-weili.png"
+    }
+  },
   "competitions": {
     "brasileirao-serie-a": {
       "name": "Brasileirao Serie A",
