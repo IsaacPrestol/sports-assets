@@ -1,0 +1,28 @@
+name: Validate assets
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate assets
+        run: python scripts/validate_assets.py
+
+      - name: Rebuild indexes
+        run: python scripts/build_index.py
+
+      - name: Check generated indexes
+        run: git diff --exit-code data/
