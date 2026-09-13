@@ -1,1 +1,46 @@
-{}
+{
+  "brasileirao-serie-a": {
+    "name": "Brasileirao Serie A",
+    "path": "football/competitions/brasileirao-serie-a.png"
+  },
+  "bundesliga": {
+    "name": "Bundesliga",
+    "path": "football/competitions/bundesliga.png"
+  },
+  "eredivisie": {
+    "name": "Eredivisie",
+    "path": "football/competitions/eredivisie.png"
+  },
+  "laliga": {
+    "name": "Laliga",
+    "path": "football/competitions/laliga.png"
+  },
+  "liga-mx": {
+    "name": "Liga Mx",
+    "path": "football/competitions/liga-mx.png"
+  },
+  "liga-portugal": {
+    "name": "Liga Portugal",
+    "path": "football/competitions/liga-portugal.png"
+  },
+  "liga-profesional-argentina": {
+    "name": "Liga Profesional Argentina",
+    "path": "football/competitions/liga-profesional-argentina.png"
+  },
+  "ligue-1": {
+    "name": "Ligue 1",
+    "path": "football/competitions/ligue-1.png"
+  },
+  "mls": {
+    "name": "MLS",
+    "path": "football/competitions/mls.png"
+  },
+  "premier-league": {
+    "name": "Premier League",
+    "path": "football/competitions/premier-league.png"
+  },
+  "serie-a": {
+    "name": "Serie A",
+    "path": "football/competitions/serie-a.png"
+  }
+}
