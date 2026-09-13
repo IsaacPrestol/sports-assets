@@ -9,9 +9,21 @@
       "name": "Bundesliga",
       "path": "football/competitions/bundesliga.png"
     },
+    "copa-del-rey": {
+      "name": "Copa Del Rey",
+      "path": "football/competitions/copa-del-rey.png"
+    },
+    "copa-libertadores": {
+      "name": "Copa Libertadores",
+      "path": "football/competitions/copa-libertadores.png"
+    },
     "eredivisie": {
       "name": "Eredivisie",
       "path": "football/competitions/eredivisie.png"
+    },
+    "fifa-club-world-cup": {
+      "name": "FIFA Club World Cup",
+      "path": "football/competitions/fifa-club-world-cup.png"
     },
     "laliga": {
       "name": "Laliga",
@@ -44,6 +56,18 @@
     "serie-a": {
       "name": "Serie A",
       "path": "football/competitions/serie-a.png"
+    },
+    "uefa-champions-league": {
+      "name": "UEFA Champions League",
+      "path": "football/competitions/uefa-champions-league.png"
+    },
+    "uefa-conference-league": {
+      "name": "UEFA Conference League",
+      "path": "football/competitions/uefa-conference-league.png"
+    },
+    "uefa-europa-league": {
+      "name": "UEFA Europa League",
+      "path": "football/competitions/uefa-europa-league.png"
     }
   },
   "ufc-logos": {}
