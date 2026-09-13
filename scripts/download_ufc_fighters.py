@@ -19,27 +19,56 @@ SOURCES_FILE = ROOT / "data" / "sources.json"
 BUILD_INDEX = ROOT / "scripts" / "build_index.py"
 
 COMMONS_API = "https://commons.wikimedia.org/w/api.php"
-USER_AGENT = "sports-assets/1.0 (+https://github.com/IsaacPrestol/sports-assets)"
+USER_AGENT = "sports-assets/1.1 (+https://github.com/IsaacPrestol/sports-assets)"
 ALLOWED_MIME = {
     "image/jpeg": ".jpg",
     "image/png": ".png",
     "image/webp": ".webp",
 }
 
-PREFERRED_WORDS = ("portrait", "headshot", "profile", "face", "fighter")
-PENALTY_WORDS = (
-    "poster",
-    "logo",
-    "banner",
-    "fight night",
+SEARCH_SUFFIXES = (
+    "cropped",
+    "portrait",
+    "UFC",
     "weigh-in",
-    "weigh in",
-    "press conference",
-    "versus",
-    " vs ",
-    "crowd",
-    "octagon",
+    "fighter",
+    "",
 )
+
+PREFERRED_WORDS = {
+    "headshot": 16,
+    "portrait": 14,
+    "cropped": 12,
+    "profile": 9,
+    "fighter": 8,
+    "ufc": 8,
+    "weigh-in": 7,
+    "weigh in": 7,
+    "face": 6,
+}
+
+PENALTY_WORDS = {
+    "poster": 20,
+    "logo": 30,
+    "banner": 20,
+    "press conference": 10,
+    "versus": 12,
+    " vs ": 12,
+    "crowd": 12,
+    "octagon": 6,
+    "oval office": 35,
+    "white house": 35,
+    "president": 28,
+    "kremlin": 35,
+    "award ceremony": 30,
+    "award ceremonies": 30,
+    "award": 20,
+    "ceremony": 20,
+    "meeting": 18,
+    "group photo": 25,
+}
+
+DEFAULT_MIN_SCORE = 45.0
 
 
 def slugify(value: str) -> str:
@@ -94,7 +123,12 @@ def download_file(url: str, destination: Path, retries: int = 3) -> None:
 
 
 def search_commons(name: str, limit: int = 12) -> list[dict]:
-    queries = [f'"{name}" portrait', f'"{name}" UFC', f'"{name}"']
+    queries = []
+    for suffix in SEARCH_SUFFIXES:
+        query = f'"{name}" {suffix}'.strip()
+        if query not in queries:
+            queries.append(query)
+
     seen: set[str] = set()
     candidates: list[dict] = []
 
@@ -146,41 +180,62 @@ def search_commons(name: str, limit: int = 12) -> list[dict]:
                 }
             )
 
-        if candidates:
-            break
-
     return candidates
+
+
+def candidate_text(candidate: dict) -> str:
+    ext = candidate.get("extmetadata", {})
+    description = clean_html((ext.get("ImageDescription") or {}).get("value"))
+    return f"{candidate.get('title', '')} {description}".lower()
 
 
 def score_candidate(name: str, candidate: dict) -> float:
     title = candidate["title"].lower().replace("file:", "")
+    text = candidate_text(candidate)
     normalized_name = slugify(name).replace("-", " ")
     normalized_title = slugify(title).replace("-", " ")
 
     score = 0.0
     if normalized_name in normalized_title:
         score += 50
+    elif all(part in normalized_title for part in normalized_name.split()):
+        score += 38
 
-    for word in PREFERRED_WORDS:
-        if word in title:
-            score += 7
+    for word, points in PREFERRED_WORDS.items():
+        if word in text:
+            score += points
 
-    for word in PENALTY_WORDS:
-        if word in title:
-            score -= 8
+    for word, points in PENALTY_WORDS.items():
+        if word in text:
+            score -= points
 
     width = candidate.get("width") or 0
     height = candidate.get("height") or 0
     if width and height:
         ratio = width / height
-        if 0.55 <= ratio <= 0.95:
-            score += 10
+        if 0.58 <= ratio <= 0.88:
+            score += 14
+        elif 0.48 <= ratio <= 1.00:
+            score += 8
         elif 0.40 <= ratio <= 1.20:
-            score += 4
-        if height >= 700:
+            score += 3
+        else:
+            score -= 5
+
+        if height >= 900:
+            score += 5
+        elif height >= 700:
             score += 3
 
     return score
+
+
+def ranked_candidates(name: str, candidates: list[dict]) -> list[tuple[float, dict]]:
+    return sorted(
+        ((score_candidate(name, candidate), candidate) for candidate in candidates),
+        key=lambda item: item[0],
+        reverse=True,
+    )
 
 
 def commons_page_url(title: str) -> str:
@@ -188,7 +243,7 @@ def commons_page_url(title: str) -> str:
     return "https://commons.wikimedia.org/wiki/" + quote(title, safe=":_()-,")
 
 
-def metadata_record(name: str, candidate: dict, relative_path: str) -> dict:
+def metadata_record(name: str, candidate: dict, relative_path: str, score: float) -> dict:
     ext = candidate.get("extmetadata", {})
 
     def meta(key: str) -> str:
@@ -208,6 +263,7 @@ def metadata_record(name: str, candidate: dict, relative_path: str) -> dict:
         "license_url": meta("LicenseUrl"),
         "attribution_required": meta("AttributionRequired"),
         "description": meta("ImageDescription"),
+        "selection_score": round(score, 1),
     }
 
 
@@ -251,7 +307,14 @@ def remove_existing_assets(slug: str) -> None:
         (FIGHTERS_DIR / f"{slug}{extension}").unlink(missing_ok=True)
 
 
-def process_fighter(name: str, sources: dict, force: bool, dry_run: bool) -> tuple[bool, str]:
+def process_fighter(
+    name: str,
+    sources: dict,
+    force: bool,
+    dry_run: bool,
+    min_score: float,
+    show_top: int,
+) -> tuple[bool, str]:
     slug = slugify(name)
     current = existing_asset(slug)
     if current and not force:
@@ -259,23 +322,40 @@ def process_fighter(name: str, sources: dict, force: bool, dry_run: bool) -> tup
 
     candidates = search_commons(name)
     if not candidates:
-        return False, f"MISS -> {name}: no suitable Wikimedia Commons image found"
+        return False, f"MISS -> {name}: no reusable Wikimedia Commons image found"
 
-    selected = max(candidates, key=lambda item: score_candidate(name, item))
+    ranked = ranked_candidates(name, candidates)
+    best_score, selected = ranked[0]
+
+    if best_score < min_score:
+        top = "; ".join(
+            f"{candidate['title']} [{score:.1f}]"
+            for score, candidate in ranked[: max(1, show_top)]
+        )
+        return False, (
+            f"MISS -> {name}: best candidate scored {best_score:.1f} below minimum {min_score:.1f}. "
+            f"Top: {top}"
+        )
+
     extension = ALLOWED_MIME[selected["mime"]]
     destination = FIGHTERS_DIR / f"{slug}{extension}"
     relative_path = destination.relative_to(ROOT).as_posix()
 
     if dry_run:
-        score = score_candidate(name, selected)
-        return True, f"DRY -> {name}: {selected['title']} (score {score:.1f})"
+        if show_top > 1:
+            top = " | ".join(
+                f"#{index} {candidate['title']} [{score:.1f}]"
+                for index, (score, candidate) in enumerate(ranked[:show_top], start=1)
+            )
+            return True, f"DRY -> {name}: {top}"
+        return True, f"DRY -> {name}: {selected['title']} (score {best_score:.1f})"
 
     if force:
         remove_existing_assets(slug)
 
     download_file(selected["url"], destination)
-    sources[relative_path] = metadata_record(name, selected, relative_path)
-    return True, f"OK -> {destination.name} <= {selected['title']}"
+    sources[relative_path] = metadata_record(name, selected, relative_path, best_score)
+    return True, f"OK -> {destination.name} <= {selected['title']} (score {best_score:.1f})"
 
 
 def build_indexes() -> None:
@@ -309,6 +389,18 @@ def parse_args() -> argparse.Namespace:
         help="Search and show the selected Commons file without downloading it.",
     )
     parser.add_argument(
+        "--min-score",
+        type=float,
+        default=DEFAULT_MIN_SCORE,
+        help=f"Reject candidates below this score. Default: {DEFAULT_MIN_SCORE:.0f}.",
+    )
+    parser.add_argument(
+        "--show-top",
+        type=int,
+        default=1,
+        help="In dry-run mode, show the top N ranked candidates per fighter.",
+    )
+    parser.add_argument(
         "--no-index",
         action="store_true",
         help="Do not run scripts/build_index.py after downloading.",
@@ -335,7 +427,14 @@ def main() -> int:
     print(f"Processing {len(fighters)} UFC fighter(s)...")
     for index, name in enumerate(fighters, start=1):
         try:
-            ok, message = process_fighter(name, sources, args.force, args.dry_run)
+            ok, message = process_fighter(
+                name,
+                sources,
+                args.force,
+                args.dry_run,
+                args.min_score,
+                max(1, args.show_top),
+            )
             print(f"[{index}/{len(fighters)}] {message}")
             if ok:
                 success += 1
