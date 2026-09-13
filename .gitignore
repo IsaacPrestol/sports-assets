@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
+
+# Local-only fighter headshots from non-free sources.
+# Keep these out of the public repository.
+ufc/private-fighters/
