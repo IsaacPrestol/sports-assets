@@ -63,7 +63,7 @@
       "continent": "europe",
       "confederation": "UEFA",
       "country": null,
-      "logo": null,
+      "logo": "football/competitions/europe/uefa-super-cup.png",
       "collage": null
     },
     {
@@ -357,7 +357,7 @@
       "continent": "europe",
       "confederation": "UEFA",
       "country": null,
-      "logo": null,
+      "logo": "football/competitions/europe/uefa-euro.png",
       "collage": null
     },
     {
@@ -373,7 +373,7 @@
       "continent": "europe",
       "confederation": "UEFA",
       "country": null,
-      "logo": null,
+      "logo": "football/competitions/europe/uefa-nations-league.png",
       "collage": null
     },
     {
@@ -549,7 +549,7 @@
       "continent": "world",
       "confederation": "FIFA",
       "country": null,
-      "logo": null,
+      "logo": "football/competitions/world/fifa-world-cup.png",
       "collage": null
     },
     {

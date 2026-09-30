@@ -119,11 +119,29 @@
     "retrieved": null,
     "url": null
   },
+  "football/competitions/europe/uefa-euro.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc); no generic brand logo, uses most recent edition (EURO 2024)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/tournaments/1500x1500/uefa-euro-2024.34e73c25.png"
+  },
   "football/competitions/europe/uefa-europa-league.png": {
     "license": null,
     "notes": "Pre-existing asset; original source unknown",
     "retrieved": null,
     "url": null
+  },
+  "football/competitions/europe/uefa-nations-league.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/tournaments/1500x1500/uefa-nations-league.8093bd39.png"
+  },
+  "football/competitions/europe/uefa-super-cup.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/tournaments/1500x1500/uefa-super-cup.7bae0811.png"
   },
   "football/competitions/south-america/copa-libertadores.png": {
     "license": null,
@@ -136,5 +154,11 @@
     "notes": "Pre-existing asset; original source unknown",
     "retrieved": null,
     "url": null
+  },
+  "football/competitions/world/fifa-world-cup.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc); no generic brand logo, uses most recent edition (2026)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026.31d2489d.png"
   }
 }

@@ -13,6 +13,10 @@
       "name": "UEFA Conference League",
       "path": "football/competitions/europe/uefa-conference-league.png"
     },
+    "uefa-super-cup": {
+      "name": "UEFA Super Cup",
+      "path": "football/competitions/europe/uefa-super-cup.png"
+    },
     "premier-league": {
       "name": "Premier League",
       "path": "football/competitions/europe/premier-league.png"
@@ -85,9 +89,21 @@
       "name": "Trophée des Champions",
       "path": "football/competitions/europe/trophee-des-champions.png"
     },
+    "uefa-euro": {
+      "name": "UEFA European Championship",
+      "path": "football/competitions/europe/uefa-euro.png"
+    },
+    "uefa-nations-league": {
+      "name": "UEFA Nations League",
+      "path": "football/competitions/europe/uefa-nations-league.png"
+    },
     "copa-libertadores": {
       "name": "CONMEBOL Libertadores",
       "path": "football/competitions/south-america/copa-libertadores.png"
+    },
+    "fifa-world-cup": {
+      "name": "FIFA World Cup",
+      "path": "football/competitions/world/fifa-world-cup.png"
     },
     "fifa-club-world-cup": {
       "name": "FIFA Club World Cup",
