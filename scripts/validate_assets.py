@@ -3,9 +3,12 @@ import re
 import struct
 import sys
 
+from football_catalog import CATALOG_FILE, load_catalog, validate_catalog
+
 ROOT = Path(__file__).resolve().parents[1]
 ASSET_DIRS = [
     ROOT / "football" / "competitions",
+    ROOT / "football" / "collages",
     ROOT / "ufc" / "fighters",
     ROOT / "ufc" / "logos",
 ]
@@ -25,16 +28,13 @@ def png_dimensions(path: Path):
         return None
 
 
-def main():
-    errors = []
-    warnings = []
-    seen = {}
-
+def check_files(errors: list, warnings: list) -> None:
     for folder in ASSET_DIRS:
         if not folder.exists():
             continue
 
-        for path in folder.iterdir():
+        seen = {}
+        for path in sorted(folder.rglob("*")):
             if not path.is_file() or path.name.startswith("."):
                 continue
 
@@ -64,6 +64,24 @@ def main():
                         warnings.append(
                             f"Very large dimensions ({w}x{h}): {path.relative_to(ROOT)}"
                         )
+
+
+def check_catalog(errors: list, warnings: list) -> None:
+    try:
+        catalog = load_catalog()
+    except (OSError, ValueError) as exc:
+        errors.append(f"Cannot read {CATALOG_FILE.relative_to(ROOT).as_posix()}: {exc}")
+        return
+    catalog_errors, catalog_warnings = validate_catalog(ROOT, catalog)
+    errors.extend(catalog_errors)
+    warnings.extend(catalog_warnings)
+
+
+def main():
+    errors = []
+    warnings = []
+    check_files(errors, warnings)
+    check_catalog(errors, warnings)
 
     for warning in warnings:
         print("WARNING:", warning)
