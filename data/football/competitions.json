@@ -1,0 +1,572 @@
+{
+  "version": 1,
+  "competitions": [
+    {
+      "id": "uefa-champions-league",
+      "name": "UEFA Champions League",
+      "aliases": [
+        "Champions League",
+        "UCL",
+        "Liga de Campeones",
+        "Liga de Campeones de la UEFA"
+      ],
+      "type": "international",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": null,
+      "logo": "football/competitions/europe/uefa-champions-league.png",
+      "collage": null
+    },
+    {
+      "id": "uefa-europa-league",
+      "name": "UEFA Europa League",
+      "aliases": [
+        "Europa League",
+        "UEL",
+        "Liga Europa"
+      ],
+      "type": "international",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": null,
+      "logo": "football/competitions/europe/uefa-europa-league.png",
+      "collage": null
+    },
+    {
+      "id": "uefa-conference-league",
+      "name": "UEFA Conference League",
+      "aliases": [
+        "Conference League",
+        "UECL",
+        "UEFA Europa Conference League",
+        "Liga Conferencia"
+      ],
+      "type": "international",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": null,
+      "logo": "football/competitions/europe/uefa-conference-league.png",
+      "collage": null
+    },
+    {
+      "id": "uefa-super-cup",
+      "name": "UEFA Super Cup",
+      "aliases": [
+        "Supercopa de Europa",
+        "European Super Cup"
+      ],
+      "type": "super-cup",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": null,
+      "logo": null,
+      "collage": null
+    },
+    {
+      "id": "premier-league",
+      "name": "Premier League",
+      "aliases": [
+        "English Premier League",
+        "EPL",
+        "Barclays Premier League"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "GB-ENG",
+      "logo": null,
+      "collage": "football/collages/premier-league.png"
+    },
+    {
+      "id": "laliga",
+      "name": "LaLiga",
+      "aliases": [
+        "La Liga",
+        "LaLiga EA Sports",
+        "Primera División",
+        "Spanish La Liga"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "ES",
+      "logo": null,
+      "collage": "football/collages/laliga.png"
+    },
+    {
+      "id": "serie-a",
+      "name": "Serie A",
+      "aliases": [
+        "Italian Serie A",
+        "Serie A Enilive",
+        "Serie A TIM"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "IT",
+      "logo": null,
+      "collage": "football/collages/serie-a.png"
+    },
+    {
+      "id": "bundesliga",
+      "name": "Bundesliga",
+      "aliases": [
+        "German Bundesliga",
+        "1. Bundesliga"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "DE",
+      "logo": null,
+      "collage": "football/collages/bundesliga.png"
+    },
+    {
+      "id": "ligue-1",
+      "name": "Ligue 1",
+      "aliases": [
+        "French Ligue 1",
+        "Ligue 1 McDonald's"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "FR",
+      "logo": null,
+      "collage": "football/collages/ligue-1.png"
+    },
+    {
+      "id": "eredivisie",
+      "name": "Eredivisie",
+      "aliases": [
+        "Dutch Eredivisie",
+        "VriendenLoterij Eredivisie"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "NL",
+      "logo": null,
+      "collage": "football/collages/eredivisie.png"
+    },
+    {
+      "id": "liga-portugal",
+      "name": "Liga Portugal",
+      "aliases": [
+        "Liga Portugal Betclic",
+        "Primeira Liga",
+        "Portuguese Primeira Liga"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "PT",
+      "logo": null,
+      "collage": "football/collages/liga-portugal.png"
+    },
+    {
+      "id": "fa-cup",
+      "name": "FA Cup",
+      "aliases": [
+        "Emirates FA Cup",
+        "The FA Cup"
+      ],
+      "type": "cup",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "GB-ENG",
+      "logo": null,
+      "collage": null
+    },
+    {
+      "id": "efl-cup",
+      "name": "EFL Cup",
+      "aliases": [
+        "Carabao Cup",
+        "League Cup",
+        "English League Cup"
+      ],
+      "type": "cup",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "GB-ENG",
+      "logo": null,
+      "collage": null
+    },
+    {
+      "id": "community-shield",
+      "name": "FA Community Shield",
+      "aliases": [
+        "Community Shield"
+      ],
+      "type": "super-cup",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "GB-ENG",
+      "logo": null,
+      "collage": null
+    },
+    {
+      "id": "copa-del-rey",
+      "name": "Copa del Rey",
+      "aliases": [
+        "Spanish Cup",
+        "King's Cup"
+      ],
+      "type": "cup",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "ES",
+      "logo": "football/competitions/europe/copa-del-rey.png",
+      "collage": null
+    },
+    {
+      "id": "supercopa-de-espana",
+      "name": "Supercopa de España",
+      "aliases": [
+        "Spanish Super Cup",
+        "Supercopa de Espana"
+      ],
+      "type": "super-cup",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "ES",
+      "logo": null,
+      "collage": null
+    },
+    {
+      "id": "coppa-italia",
+      "name": "Coppa Italia",
+      "aliases": [
+        "Italian Cup",
+        "Coppa Italia Frecciarossa"
+      ],
+      "type": "cup",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "IT",
+      "logo": null,
+      "collage": null
+    },
+    {
+      "id": "supercoppa-italiana",
+      "name": "Supercoppa Italiana",
+      "aliases": [
+        "Italian Super Cup",
+        "Supercopa de Italia"
+      ],
+      "type": "super-cup",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "IT",
+      "logo": null,
+      "collage": null
+    },
+    {
+      "id": "dfb-pokal",
+      "name": "DFB-Pokal",
+      "aliases": [
+        "DFB Cup",
+        "German Cup",
+        "Copa de Alemania"
+      ],
+      "type": "cup",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "DE",
+      "logo": null,
+      "collage": null
+    },
+    {
+      "id": "dfl-supercup",
+      "name": "DFL-Supercup",
+      "aliases": [
+        "German Super Cup",
+        "Franz Beckenbauer Supercup",
+        "Supercopa de Alemania"
+      ],
+      "type": "super-cup",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "DE",
+      "logo": null,
+      "collage": null
+    },
+    {
+      "id": "coupe-de-france",
+      "name": "Coupe de France",
+      "aliases": [
+        "French Cup",
+        "Copa de Francia"
+      ],
+      "type": "cup",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "FR",
+      "logo": null,
+      "collage": null
+    },
+    {
+      "id": "trophee-des-champions",
+      "name": "Trophée des Champions",
+      "aliases": [
+        "French Super Cup",
+        "Supercopa de Francia"
+      ],
+      "type": "super-cup",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "FR",
+      "logo": null,
+      "collage": null
+    },
+    {
+      "id": "uefa-euro",
+      "name": "UEFA European Championship",
+      "aliases": [
+        "UEFA Euro",
+        "Euro",
+        "Eurocopa",
+        "European Championship"
+      ],
+      "type": "international",
+      "scope": "national-team",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": null,
+      "logo": null,
+      "collage": null
+    },
+    {
+      "id": "uefa-nations-league",
+      "name": "UEFA Nations League",
+      "aliases": [
+        "Nations League",
+        "Liga de Naciones",
+        "Liga de Naciones de la UEFA"
+      ],
+      "type": "international",
+      "scope": "national-team",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": null,
+      "logo": null,
+      "collage": null
+    },
+    {
+      "id": "copa-libertadores",
+      "name": "CONMEBOL Libertadores",
+      "aliases": [
+        "Copa Libertadores",
+        "Libertadores",
+        "Copa CONMEBOL Libertadores"
+      ],
+      "type": "international",
+      "scope": "club",
+      "continent": "south-america",
+      "confederation": "CONMEBOL",
+      "country": null,
+      "logo": "football/competitions/south-america/copa-libertadores.png",
+      "collage": null
+    },
+    {
+      "id": "copa-sudamericana",
+      "name": "CONMEBOL Sudamericana",
+      "aliases": [
+        "Copa Sudamericana",
+        "Sudamericana",
+        "Copa CONMEBOL Sudamericana"
+      ],
+      "type": "international",
+      "scope": "club",
+      "continent": "south-america",
+      "confederation": "CONMEBOL",
+      "country": null,
+      "logo": null,
+      "collage": null
+    },
+    {
+      "id": "brasileirao-serie-a",
+      "name": "Campeonato Brasileiro Série A",
+      "aliases": [
+        "Brasileirão",
+        "Brasileirão Série A",
+        "Brazilian Serie A",
+        "Série A Brasil"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "south-america",
+      "confederation": "CONMEBOL",
+      "country": "BR",
+      "logo": null,
+      "collage": "football/collages/brasileirao-serie-a.png"
+    },
+    {
+      "id": "liga-profesional-argentina",
+      "name": "Liga Profesional de Fútbol",
+      "aliases": [
+        "Liga Profesional Argentina",
+        "Liga Profesional",
+        "Primera División Argentina",
+        "Argentine Primera División"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "south-america",
+      "confederation": "CONMEBOL",
+      "country": "AR",
+      "logo": null,
+      "collage": "football/collages/liga-profesional-argentina.png"
+    },
+    {
+      "id": "copa-america",
+      "name": "Copa América",
+      "aliases": [
+        "CONMEBOL Copa América",
+        "Copa America"
+      ],
+      "type": "international",
+      "scope": "national-team",
+      "continent": "south-america",
+      "confederation": "CONMEBOL",
+      "country": null,
+      "logo": null,
+      "collage": null
+    },
+    {
+      "id": "liga-mx",
+      "name": "Liga MX",
+      "aliases": [
+        "Liga BBVA MX",
+        "Mexican Liga MX",
+        "Primera División de México"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "north-america",
+      "confederation": "CONCACAF",
+      "country": "MX",
+      "logo": null,
+      "collage": "football/collages/liga-mx.png"
+    },
+    {
+      "id": "mls",
+      "name": "Major League Soccer",
+      "aliases": [
+        "MLS"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "north-america",
+      "confederation": "CONCACAF",
+      "country": "US",
+      "logo": null,
+      "collage": "football/collages/mls.png"
+    },
+    {
+      "id": "concacaf-champions-cup",
+      "name": "Concacaf Champions Cup",
+      "aliases": [
+        "CONCACAF Champions League",
+        "Concacaf Champions League",
+        "Copa de Campeones de la Concacaf"
+      ],
+      "type": "international",
+      "scope": "club",
+      "continent": "north-america",
+      "confederation": "CONCACAF",
+      "country": null,
+      "logo": null,
+      "collage": null
+    },
+    {
+      "id": "concacaf-gold-cup",
+      "name": "Concacaf Gold Cup",
+      "aliases": [
+        "Gold Cup",
+        "Copa Oro",
+        "Copa Oro de la Concacaf"
+      ],
+      "type": "international",
+      "scope": "national-team",
+      "continent": "north-america",
+      "confederation": "CONCACAF",
+      "country": null,
+      "logo": null,
+      "collage": null
+    },
+    {
+      "id": "saudi-pro-league",
+      "name": "Saudi Pro League",
+      "aliases": [
+        "Roshn Saudi League",
+        "Saudi Professional League",
+        "Liga Profesional Saudí"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "asia",
+      "confederation": "AFC",
+      "country": "SA",
+      "logo": null,
+      "collage": null
+    },
+    {
+      "id": "fifa-world-cup",
+      "name": "FIFA World Cup",
+      "aliases": [
+        "World Cup",
+        "Copa Mundial",
+        "Mundial",
+        "Copa del Mundo"
+      ],
+      "type": "international",
+      "scope": "national-team",
+      "continent": "world",
+      "confederation": "FIFA",
+      "country": null,
+      "logo": null,
+      "collage": null
+    },
+    {
+      "id": "fifa-club-world-cup",
+      "name": "FIFA Club World Cup",
+      "aliases": [
+        "Club World Cup",
+        "Mundial de Clubes",
+        "Copa Mundial de Clubes"
+      ],
+      "type": "international",
+      "scope": "club",
+      "continent": "world",
+      "confederation": "FIFA",
+      "country": null,
+      "logo": "football/competitions/world/fifa-club-world-cup.png",
+      "collage": null
+    }
+  ]
+}
