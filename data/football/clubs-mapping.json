@@ -11,8 +11,8 @@
   },
   "Austria|FC Blau-Weiss Linz": {
     "id": "blau-weiss-linz",
-    "slug": null,
-    "source": "luukhopman"
+    "slug": "bw-linz",
+    "source": "football-logos"
   },
   "Austria|Grazer AK 1902": {
     "id": "grazer-ak",
@@ -80,14 +80,14 @@
     "source": "football-logos"
   },
   "Belgium|Beerschot V.A.": {
-    "id": "beerschot-v-a",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "beerschot",
+    "slug": "beerschot-wilrijk",
+    "source": "football-logos"
   },
   "Belgium|Beerschot VA": {
-    "id": "beerschot-va",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "beerschot",
+    "slug": "beerschot-wilrijk",
+    "source": "football-logos"
   },
   "Belgium|Cercle Brugge": {
     "id": "cercle-brugge",
@@ -150,9 +150,9 @@
     "source": "football-logos"
   },
   "Belgium|OH Leuven": {
-    "id": "oh-leuven",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "oud-heverlee-leuven",
+    "slug": "oud-heverlee-leuven",
+    "source": "football-logos"
   },
   "Belgium|Oud-Heverlee Leuven": {
     "id": "oud-heverlee-leuven",
@@ -385,9 +385,9 @@
     "source": "luukhopman"
   },
   "Croatia|NK Istra": {
-    "id": "istra",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "istra-1961",
+    "slug": "istra-1961",
+    "source": "football-logos"
   },
   "Croatia|NK Istra 1961": {
     "id": "istra-1961",
@@ -435,9 +435,9 @@
     "source": "football-logos"
   },
   "Czech Republic|Bohemians Prague 1905": {
-    "id": "bohemians-prague-1905",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "bohemians-praha",
+    "slug": "bohemians-praha",
+    "source": "football-logos"
   },
   "Czech Republic|FC Banik Ostrava": {
     "id": "banik",
@@ -445,9 +445,9 @@
     "source": "football-logos"
   },
   "Czech Republic|FC Bohemians Prague 1905": {
-    "id": "bohemians-prague-1905",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "bohemians-praha",
+    "slug": "bohemians-praha",
+    "source": "football-logos"
   },
   "Czech Republic|FC Hradec Kralove": {
     "id": "hradec-kralove",
@@ -555,14 +555,14 @@
     "source": "football-logos"
   },
   "Denmark|Aalborg BK": {
-    "id": "aalborg",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "aab",
+    "slug": "aab",
+    "source": "football-logos"
   },
   "Denmark|Aarhus GF": {
-    "id": "aarhus-gf",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "agf",
+    "slug": "agf",
+    "source": "football-logos"
   },
   "Denmark|Bröndby IF": {
     "id": "brondby",
@@ -605,9 +605,9 @@
     "source": "football-logos"
   },
   "Denmark|Odense BK": {
-    "id": "odense",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "odense-boldklub",
+    "slug": "odense-boldklub",
+    "source": "football-logos"
   },
   "Denmark|Odense Boldklub": {
     "id": "odense-boldklub",
@@ -640,9 +640,9 @@
     "source": "football-logos"
   },
   "Denmark|Vejle BK": {
-    "id": "vejle",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "vejle-boldklub",
+    "slug": "vejle-boldklub",
+    "source": "football-logos"
   },
   "Denmark|Vejle Boldklub": {
     "id": "vejle-boldklub",
@@ -1155,14 +1155,14 @@
     "source": "football-logos"
   },
   "Greece|AE Kifisias": {
-    "id": "ae-kifisias",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "kifisia",
+    "slug": "kifisia",
+    "source": "football-logos"
   },
   "Greece|AE Larisa": {
-    "id": "ae-larisa",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "larissa",
+    "slug": "larissa",
+    "source": "football-logos"
   },
   "Greece|AEK Athens": {
     "id": "aek-athens",
@@ -1315,14 +1315,14 @@
     "source": "football-logos"
   },
   "Hungary|Debreceni VSC": {
-    "id": "debreceni-vsc",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "debrecen",
+    "slug": "debrecen",
+    "source": "football-logos"
   },
   "Hungary|Diósgyőri VTK": {
-    "id": "diosgyori-vtk",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "diosgyor",
+    "slug": "diosgyor",
+    "source": "football-logos"
   },
   "Hungary|ETO FC Győr": {
     "id": "gyor",
@@ -1365,9 +1365,9 @@
     "source": "football-logos"
   },
   "Hungary|Zalaegerszegi TE FC": {
-    "id": "zalaegerszegi-te",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "zte",
+    "slug": "zte",
+    "source": "football-logos"
   },
   "Hungary|Újpest FC": {
     "id": "ujpest",
@@ -1420,9 +1420,9 @@
     "source": "football-logos"
   },
   "Israel|Ironi Kiryat Shmona": {
-    "id": "ironi-kiryat-shmona",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "hapoel-kiryat-shmona",
+    "slug": "hapoel-kiryat-shmona",
+    "source": "football-logos"
   },
   "Israel|Ironi Tiberias": {
     "id": "ironi-tiberias",
@@ -1810,9 +1810,9 @@
     "source": "football-logos"
   },
   "Norway|Hamarkameratene": {
-    "id": "hamarkameratene",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "hamkam",
+    "slug": "hamkam",
+    "source": "football-logos"
   },
   "Norway|IK Start": {
     "id": "start",
@@ -1870,9 +1870,9 @@
     "source": "football-logos"
   },
   "Norway|Tromsø IL": {
-    "id": "troms-il",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "tromso",
+    "slug": "tromso",
+    "source": "football-logos"
   },
   "Norway|Viking FK": {
     "id": "viking",
@@ -2005,9 +2005,9 @@
     "source": "football-logos"
   },
   "Poland|Termalica": {
-    "id": "termalica",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "bruk-bet-termalica-nieciecza",
+    "slug": "bruk-bet-termalica-nieciecza",
+    "source": "football-logos"
   },
   "Poland|Warta Poznan": {
     "id": "warta",
@@ -2215,12 +2215,12 @@
     "source": "football-logos"
   },
   "Romania|ACSC FC Arges": {
-    "id": "acsc-arges",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "arges-pitesti",
+    "slug": "arges-pitesti",
+    "source": "football-logos"
   },
   "Romania|ACSM Politehnica Iasi": {
-    "id": "acsm-politehnica-iasi",
+    "id": "poli-iasi",
     "slug": null,
     "source": "luukhopman"
   },
@@ -2240,9 +2240,9 @@
     "source": "football-logos"
   },
   "Romania|CS Universitatea Craiova": {
-    "id": "cs-universitatea-craiova",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "u-craiova",
+    "slug": "u-craiova",
+    "source": "football-logos"
   },
   "Romania|Corvinul Hunedoara": {
     "id": "corvinul-hunedoara",
@@ -2260,9 +2260,9 @@
     "source": "luukhopman"
   },
   "Romania|FC Dinamo 1948": {
-    "id": "dinamo-1948",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "dinamo-bucuresti",
+    "slug": "dinamo-bucuresti",
+    "source": "football-logos"
   },
   "Romania|FC Hermannstadt": {
     "id": "hermannstadt",
@@ -2275,14 +2275,14 @@
     "source": "football-logos"
   },
   "Romania|FC Rapid 1923": {
-    "id": "rapid-1923",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "rapid-bucuresti",
+    "slug": "rapid-bucuresti",
+    "source": "football-logos"
   },
   "Romania|FC Universitatea Cluj": {
-    "id": "universitatea-cluj",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "u-cluj",
+    "slug": "u-cluj",
+    "source": "football-logos"
   },
   "Romania|FC Voluntari": {
     "id": "voluntari",
@@ -2325,9 +2325,9 @@
     "source": "football-logos"
   },
   "Romania|Universitatea Craiova": {
-    "id": "universitatea-craiova",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "u-craiova",
+    "slug": "u-craiova",
+    "source": "football-logos"
   },
   "Russia|Akhmat Grozny": {
     "id": "akhmat",
@@ -2355,9 +2355,9 @@
     "source": "football-logos"
   },
   "Russia|CSKA Moscow": {
-    "id": "cska-moscow",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "cska-moskva",
+    "slug": "cska-moskva",
+    "source": "football-logos"
   },
   "Russia|Dinamo Makhachkala": {
     "id": "dynamo-makhachkala",
@@ -2385,7 +2385,7 @@
     "source": "football-logos"
   },
   "Russia|FC Pari Nizhniy Novgorod": {
-    "id": "pari-nizhniy-novgorod",
+    "id": "nizhny-novgorod",
     "slug": null,
     "source": "luukhopman"
   },
@@ -2465,14 +2465,14 @@
     "source": "football-logos"
   },
   "Russia|Spartak Moscow": {
-    "id": "spartak-moscow",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "spartak-moskva",
+    "slug": "spartak-moskva",
+    "source": "football-logos"
   },
   "Russia|Torpedo Moscow": {
-    "id": "torpedo-moscow",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "torpedo-moskva",
+    "slug": "torpedo-moskva",
+    "source": "football-logos"
   },
   "Russia|Ufa": {
     "id": "ufa",
@@ -2520,14 +2520,14 @@
     "source": "football-logos"
   },
   "Scotland|Heart of Midl.": {
-    "id": "heart-of-midl",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "hearts",
+    "slug": "hearts",
+    "source": "football-logos"
   },
   "Scotland|Heart of Midlothian FC": {
-    "id": "heart-of-midlothian",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "hearts",
+    "slug": "hearts",
+    "source": "football-logos"
   },
   "Scotland|Hibernian FC": {
     "id": "hibernian",
@@ -2705,9 +2705,9 @@
     "source": "football-logos"
   },
   "Serbia|Mladost": {
-    "id": "mladost",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "mladost-lucani",
+    "slug": "mladost-lucani",
+    "source": "football-logos"
   },
   "Serbia|OFK Beograd": {
     "id": "ofk-beograd",
@@ -2720,24 +2720,24 @@
     "source": "football-logos"
   },
   "Serbia|Radnik": {
-    "id": "radnik",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "radnik-surdulica",
+    "slug": "radnik-surdulica",
+    "source": "football-logos"
   },
   "Serbia|Red Star": {
-    "id": "red-star",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "crvena-zvezda",
+    "slug": "crvena-zvezda",
+    "source": "football-logos"
   },
   "Serbia|Red Star Belgrade": {
-    "id": "red-star-belgrade",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "crvena-zvezda",
+    "slug": "crvena-zvezda",
+    "source": "football-logos"
   },
   "Serbia|Spartak": {
-    "id": "spartak",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "spartak-subotica",
+    "slug": "spartak-subotica",
+    "source": "football-logos"
   },
   "Serbia|Vozdovac": {
     "id": "vozdovac",
@@ -3105,8 +3105,8 @@
     "source": "football-logos"
   },
   "Switzerland|Grasshopper Club Zurich": {
-    "id": "zurich",
-    "slug": "zurich",
+    "id": "grasshoppers",
+    "slug": "grasshoppers",
     "source": "football-logos"
   },
   "Switzerland|Servette FC": {
@@ -3230,9 +3230,9 @@
     "source": "luukhopman"
   },
   "Türkiye|Göztepe": {
-    "id": "goztepe",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "goztepe-izmir",
+    "slug": "goztepe-izmir",
+    "source": "football-logos"
   },
   "Türkiye|Hatayspor": {
     "id": "hatayspor",
@@ -3250,9 +3250,9 @@
     "source": "football-logos"
   },
   "Türkiye|Karagümrük": {
-    "id": "karagumruk",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "fatih-karagumruk",
+    "slug": "fatih-karagumruk",
+    "source": "football-logos"
   },
   "Türkiye|Kasimpasa": {
     "id": "kasimpasa",
@@ -3405,13 +3405,13 @@
     "source": "football-logos"
   },
   "Ukraine|Livyi Bereg Kyiv": {
-    "id": "livyi-bereg-kyiv",
-    "slug": null,
-    "source": "luukhopman"
+    "id": "livyi-bereh",
+    "slug": "livyi-bereh",
+    "source": "football-logos"
   },
   "Ukraine|Metalist 1925": {
-    "id": "metalist",
-    "slug": "metalist",
+    "id": "fc-metalist-1925-kharkiv",
+    "slug": "fc-metalist-1925-kharkiv",
     "source": "football-logos"
   },
   "Ukraine|Metalist 1925 Kharkiv": {
@@ -3455,9 +3455,9 @@
     "source": "football-logos"
   },
   "Ukraine|SK Dnipro-1": {
-    "id": "dnipro",
-    "slug": "dnipro",
-    "source": "football-logos"
+    "id": "dnipro-1",
+    "slug": null,
+    "source": "luukhopman"
   },
   "Ukraine|Shakhtar D.": {
     "id": "shakhtar",
