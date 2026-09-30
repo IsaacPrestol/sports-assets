@@ -176,6 +176,272 @@
       "collage": "football/collages/liga-portugal.png"
     },
     {
+      "id": "austrian-bundesliga",
+      "name": "Austrian Football Bundesliga",
+      "aliases": [
+        "Admiral Bundesliga",
+        "Austrian Bundesliga"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "AT",
+      "logo": "football/competitions/europe/austrian-bundesliga.png",
+      "collage": null
+    },
+    {
+      "id": "belgian-pro-league",
+      "name": "Belgian Pro League",
+      "aliases": [
+        "Jupiler Pro League",
+        "Belgian First Division A"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "BE",
+      "logo": "football/competitions/europe/belgian-pro-league.png",
+      "collage": null
+    },
+    {
+      "id": "bulgarian-first-league",
+      "name": "Bulgarian First League",
+      "aliases": [
+        "efbet Liga",
+        "First Professional Football League"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "BG",
+      "logo": "football/competitions/europe/bulgarian-first-league.png",
+      "collage": null
+    },
+    {
+      "id": "croatian-football-league",
+      "name": "Croatian Football League",
+      "aliases": [
+        "SuperSport HNL",
+        "HNL",
+        "Prva HNL"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "HR",
+      "logo": "football/competitions/europe/croatian-football-league.png",
+      "collage": null
+    },
+    {
+      "id": "czech-first-league",
+      "name": "Czech First League",
+      "aliases": [
+        "Chance Liga",
+        "Fortuna Liga"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "CZ",
+      "logo": "football/competitions/europe/czech-first-league.png",
+      "collage": null
+    },
+    {
+      "id": "danish-superliga",
+      "name": "Danish Superliga",
+      "aliases": [
+        "3F Superliga"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "DK",
+      "logo": "football/competitions/europe/danish-superliga.png",
+      "collage": null
+    },
+    {
+      "id": "greek-super-league",
+      "name": "Super League Greece",
+      "aliases": [
+        "Super League 1",
+        "Stoiximan Super League"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "GR",
+      "logo": "football/competitions/europe/greek-super-league.png",
+      "collage": null
+    },
+    {
+      "id": "israeli-premier-league",
+      "name": "Israeli Premier League",
+      "aliases": [
+        "Ligat ha'Al"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "IL",
+      "logo": "football/competitions/europe/israeli-premier-league.png",
+      "collage": null
+    },
+    {
+      "id": "eliteserien",
+      "name": "Eliteserien",
+      "aliases": [
+        "Norwegian Eliteserien"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "NO",
+      "logo": "football/competitions/europe/eliteserien.png",
+      "collage": null
+    },
+    {
+      "id": "ekstraklasa",
+      "name": "Ekstraklasa",
+      "aliases": [
+        "PKO BP Ekstraklasa",
+        "Polish Ekstraklasa"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "PL",
+      "logo": "football/competitions/europe/ekstraklasa.png",
+      "collage": null
+    },
+    {
+      "id": "romanian-liga-1",
+      "name": "Liga I",
+      "aliases": [
+        "Romanian SuperLiga",
+        "SuperLiga României"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "RO",
+      "logo": "football/competitions/europe/romanian-liga-1.png",
+      "collage": null
+    },
+    {
+      "id": "russian-premier-league",
+      "name": "Russian Premier League",
+      "aliases": [
+        "RPL",
+        "Mir Russian Premier League"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "RU",
+      "logo": "football/competitions/europe/russian-premier-league.png",
+      "collage": null
+    },
+    {
+      "id": "scottish-premiership",
+      "name": "Scottish Premiership",
+      "aliases": [
+        "SPFL Premiership",
+        "William Hill Premiership"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "GB-SCT",
+      "logo": "football/competitions/europe/scottish-premiership.png",
+      "collage": null
+    },
+    {
+      "id": "serbian-superliga",
+      "name": "Serbian SuperLiga",
+      "aliases": [
+        "Super liga Srbije",
+        "Mozzart Bet Super liga"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "RS",
+      "logo": "football/competitions/europe/serbian-superliga.png",
+      "collage": null
+    },
+    {
+      "id": "allsvenskan",
+      "name": "Allsvenskan",
+      "aliases": [
+        "Swedish Allsvenskan"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "SE",
+      "logo": "football/competitions/europe/allsvenskan.png",
+      "collage": null
+    },
+    {
+      "id": "swiss-super-league",
+      "name": "Swiss Super League",
+      "aliases": [
+        "Brack Super League"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "CH",
+      "logo": "football/competitions/europe/swiss-super-league.png",
+      "collage": null
+    },
+    {
+      "id": "super-lig",
+      "name": "Süper Lig",
+      "aliases": [
+        "Turkish Super Lig",
+        "Trendyol Süper Lig"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "TR",
+      "logo": "football/competitions/europe/super-lig.png",
+      "collage": null
+    },
+    {
+      "id": "ukrainian-premier-league",
+      "name": "Ukrainian Premier League",
+      "aliases": [
+        "UPL",
+        "Ukrainian Premier Liha"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "europe",
+      "confederation": "UEFA",
+      "country": "UA",
+      "logo": "football/competitions/europe/ukrainian-premier-league.png",
+      "collage": null
+    },
+    {
       "id": "fa-cup",
       "name": "FA Cup",
       "aliases": [

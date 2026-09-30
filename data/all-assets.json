@@ -45,6 +45,78 @@
       "name": "Liga Portugal",
       "path": "football/competitions/europe/liga-portugal.png"
     },
+    "austrian-bundesliga": {
+      "name": "Austrian Football Bundesliga",
+      "path": "football/competitions/europe/austrian-bundesliga.png"
+    },
+    "belgian-pro-league": {
+      "name": "Belgian Pro League",
+      "path": "football/competitions/europe/belgian-pro-league.png"
+    },
+    "bulgarian-first-league": {
+      "name": "Bulgarian First League",
+      "path": "football/competitions/europe/bulgarian-first-league.png"
+    },
+    "croatian-football-league": {
+      "name": "Croatian Football League",
+      "path": "football/competitions/europe/croatian-football-league.png"
+    },
+    "czech-first-league": {
+      "name": "Czech First League",
+      "path": "football/competitions/europe/czech-first-league.png"
+    },
+    "danish-superliga": {
+      "name": "Danish Superliga",
+      "path": "football/competitions/europe/danish-superliga.png"
+    },
+    "greek-super-league": {
+      "name": "Super League Greece",
+      "path": "football/competitions/europe/greek-super-league.png"
+    },
+    "israeli-premier-league": {
+      "name": "Israeli Premier League",
+      "path": "football/competitions/europe/israeli-premier-league.png"
+    },
+    "eliteserien": {
+      "name": "Eliteserien",
+      "path": "football/competitions/europe/eliteserien.png"
+    },
+    "ekstraklasa": {
+      "name": "Ekstraklasa",
+      "path": "football/competitions/europe/ekstraklasa.png"
+    },
+    "romanian-liga-1": {
+      "name": "Liga I",
+      "path": "football/competitions/europe/romanian-liga-1.png"
+    },
+    "russian-premier-league": {
+      "name": "Russian Premier League",
+      "path": "football/competitions/europe/russian-premier-league.png"
+    },
+    "scottish-premiership": {
+      "name": "Scottish Premiership",
+      "path": "football/competitions/europe/scottish-premiership.png"
+    },
+    "serbian-superliga": {
+      "name": "Serbian SuperLiga",
+      "path": "football/competitions/europe/serbian-superliga.png"
+    },
+    "allsvenskan": {
+      "name": "Allsvenskan",
+      "path": "football/competitions/europe/allsvenskan.png"
+    },
+    "swiss-super-league": {
+      "name": "Swiss Super League",
+      "path": "football/competitions/europe/swiss-super-league.png"
+    },
+    "super-lig": {
+      "name": "Süper Lig",
+      "path": "football/competitions/europe/super-lig.png"
+    },
+    "ukrainian-premier-league": {
+      "name": "Ukrainian Premier League",
+      "path": "football/competitions/europe/ukrainian-premier-league.png"
+    },
     "fa-cup": {
       "name": "FA Cup",
       "path": "football/competitions/europe/fa-cup.png"

@@ -5,6 +5,30 @@
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/saudi-arabia/1500x1500/saudi-professional-league.49a229c2.png"
   },
+  "football/competitions/europe/allsvenskan.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/sweden/1500x1500/allsvenskan.e7fc03e6.png"
+  },
+  "football/competitions/europe/austrian-bundesliga.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc); sponsored (Admiral) version",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/austria/1500x1500/austrian-football-bundesliga.018870a7.png"
+  },
+  "football/competitions/europe/belgian-pro-league.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc); sponsor-free Pro League mark (Jupiler version not used)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/belgium/1500x1500/belgian-pro-league.7e60399a.png"
+  },
+  "football/competitions/europe/bulgarian-first-league.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc); sponsored (efbet) version",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/bulgaria/1500x1500/parva-liga.75fd5f44.png"
+  },
   "football/competitions/europe/bundesliga.png": {
     "license": null,
     "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
@@ -35,6 +59,24 @@
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/france/1500x1500/french-cup.9c89ddb5.png"
   },
+  "football/competitions/europe/croatian-football-league.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc); sponsored (SuperSport) version",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/croatia/1500x1500/croatian-football-league.8cbdaaad.png"
+  },
+  "football/competitions/europe/czech-first-league.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc); sponsored (Chance) version",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/czech-republic/1500x1500/chance-liga.d1fda7ad.png"
+  },
+  "football/competitions/europe/danish-superliga.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/denmark/1500x1500/danish-super-liga.d0fbfbe8.png"
+  },
   "football/competitions/europe/dfb-pokal.png": {
     "license": null,
     "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
@@ -53,6 +95,18 @@
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/england/1500x1500/efl-cup.02ea7da4.png"
   },
+  "football/competitions/europe/ekstraklasa.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/ekstraklasa.720c715a.png"
+  },
+  "football/competitions/europe/eliteserien.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/norway/1500x1500/eliteserien.1c6f7176.png"
+  },
   "football/competitions/europe/eredivisie.png": {
     "license": "Public domain",
     "notes": "Rendered from SVG at 3840px; repo version carries sponsor",
@@ -64,6 +118,18 @@
     "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc); sponsored (Emirates) version, no sponsor-free logo available",
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/england/1500x1500/emirates-fa-cup.59d820fb.png"
+  },
+  "football/competitions/europe/greek-super-league.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/greece/1500x1500/super-league-1.39cc04a4.png"
+  },
+  "football/competitions/europe/israeli-premier-league.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc); Israel Professional Football League organisation logo",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/israel/1500x1500/israeli-premier-league.98ebfc56.png"
   },
   "football/competitions/europe/laliga.png": {
     "license": null,
@@ -89,11 +155,41 @@
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/england/1500x1500/english-premier-league.4d68127f.png"
   },
+  "football/competitions/europe/romanian-liga-1.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/romania/1500x1500/superliga.5da8252d.png"
+  },
+  "football/competitions/europe/russian-premier-league.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/russia/1500x1500/russian-premier-league.e60b701c.png"
+  },
+  "football/competitions/europe/scottish-premiership.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/scotland/1500x1500/scottish-premiership.8b306aff.png"
+  },
+  "football/competitions/europe/serbian-superliga.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/serbia/1500x1500/serbian-superliga.c38a227c.png"
+  },
   "football/competitions/europe/serie-a.png": {
     "license": null,
     "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/italy/1500x1500/serie-a.0e7a37ed.png"
+  },
+  "football/competitions/europe/super-lig.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/super-lig.6e4f33be.png"
   },
   "football/competitions/europe/supercopa-de-espana.png": {
     "license": null,
@@ -106,6 +202,12 @@
     "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/italy/1500x1500/italian-super-cup.16bbf3b9.png"
+  },
+  "football/competitions/europe/swiss-super-league.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/switzerland/1500x1500/swiss-football-league.f59fc2dc.png"
   },
   "football/competitions/europe/trophee-des-champions.png": {
     "license": "Public domain",
@@ -148,6 +250,12 @@
     "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/tournaments/1500x1500/uefa-super-cup.7bae0811.png"
+  },
+  "football/competitions/europe/ukrainian-premier-league.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/ukraine/1500x1500/ukrainian-premier-league.95588702.png"
   },
   "football/competitions/north-america/concacaf-champions-cup.png": {
     "license": null,

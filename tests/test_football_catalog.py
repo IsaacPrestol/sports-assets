@@ -248,6 +248,10 @@ class RealCatalogTest(unittest.TestCase):
         "league cup",
         "nations league",
         "liga de naciones",
+        "superliga",
+        "super league",
+        "premier liga",
+        "pro league",
     }
 
     def test_no_generic_aliases(self):
