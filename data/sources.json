@@ -1,1 +1,38 @@
-{}
+{
+  "football/competitions/europe/copa-del-rey.png": {
+    "license": null,
+    "notes": "Pre-existing asset; original source unknown",
+    "retrieved": null,
+    "url": null
+  },
+  "football/competitions/europe/uefa-champions-league.png": {
+    "license": null,
+    "notes": "Pre-existing asset; original source unknown",
+    "retrieved": null,
+    "url": null
+  },
+  "football/competitions/europe/uefa-conference-league.png": {
+    "license": null,
+    "notes": "Pre-existing asset; original source unknown",
+    "retrieved": null,
+    "url": null
+  },
+  "football/competitions/europe/uefa-europa-league.png": {
+    "license": null,
+    "notes": "Pre-existing asset; original source unknown",
+    "retrieved": null,
+    "url": null
+  },
+  "football/competitions/south-america/copa-libertadores.png": {
+    "license": null,
+    "notes": "Pre-existing asset; original source unknown",
+    "retrieved": null,
+    "url": null
+  },
+  "football/competitions/world/fifa-club-world-cup.png": {
+    "license": null,
+    "notes": "Pre-existing asset; original source unknown",
+    "retrieved": null,
+    "url": null
+  }
+}
