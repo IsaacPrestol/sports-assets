@@ -1,6 +1,9 @@
 from pathlib import Path
 import sys
+import tempfile
 import unittest
+
+from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
@@ -15,6 +18,7 @@ from football_clubs import (
     slug_name,
     slugify,
     strip_affixes,
+    validate_clubs,
 )
 
 
@@ -209,6 +213,90 @@ class ClubLookupTest(unittest.TestCase):
             {"id": "b", "name": "B", "aliases": [], "country": "ES", "league": None, "logo": None},
         ]
         self.assertEqual(club_assets(clubs), {"a": {"name": "A", "path": "football/clubs/es/a.png"}})
+
+
+LEAGUES = [{"id": "laliga", "type": "league"}, {"id": "copa-del-rey", "type": "cup"}]
+
+
+def club(**overrides):
+    entry = {"id": "real-madrid", "name": "Real Madrid", "aliases": [], "country": "ES",
+             "league": "laliga", "logo": None}
+    entry.update(overrides)
+    return entry
+
+
+class ValidateClubsTest(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.root = Path(self.tmp.name)
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def png(self, rel, size=(500, 500), alpha=0):
+        path = self.root / rel
+        path.parent.mkdir(parents=True, exist_ok=True)
+        Image.new("RGBA", size, (255, 0, 0, alpha)).save(path)
+        return rel
+
+    def validate(self, *clubs, mapping=None):
+        return validate_clubs(self.root, {"version": 1, "clubs": list(clubs)}, LEAGUES, mapping or {})
+
+    def test_valid(self):
+        logo = self.png("football/clubs/es/real-madrid.png")
+        self.assertEqual(self.validate(club(logo=logo)), ([], []))
+
+    def test_missing_logo_is_warning(self):
+        errors, warnings = self.validate(club())
+        self.assertEqual(errors, [])
+        self.assertEqual(len(warnings), 1)
+
+    def test_low_resolution_is_warning(self):
+        logo = self.png("football/clubs/es/real-madrid.png", size=(139, 181))
+        errors, warnings = self.validate(club(logo=logo))
+        self.assertEqual(errors, [])
+        self.assertTrue(any("low resolution" in w for w in warnings))
+
+    def test_bad_structure(self):
+        self.assertEqual(len(self.validate(club(country="Spain"))[0]), 1)
+        self.assertEqual(len(self.validate(club(id="Real Madrid"))[0]), 1)
+        entry = club()
+        del entry["league"]
+        self.assertEqual(len(self.validate(entry)[0]), 1)
+        self.assertEqual(len(validate_clubs(self.root, {}, LEAGUES, {})[0]), 1)
+
+    def test_league_must_be_a_league(self):
+        errors, _ = self.validate(club(league="copa-del-rey"))
+        self.assertTrue(any("league" in e for e in errors))
+
+    def test_duplicate_id(self):
+        errors, _ = self.validate(club(), club(name="Other"))
+        self.assertTrue(any("Duplicate id" in e for e in errors))
+
+    def test_logo_path_and_existence(self):
+        errors, _ = self.validate(club(logo="football/clubs/gb-eng/real-madrid.png"))
+        self.assertTrue(any("must be" in e for e in errors))
+        errors, _ = self.validate(club(logo="football/clubs/es/real-madrid.png"))
+        self.assertTrue(any("not found" in e for e in errors))
+
+    def test_opaque_logo(self):
+        logo = self.png("football/clubs/es/real-madrid.png", alpha=255)
+        errors, _ = self.validate(club(logo=logo))
+        self.assertTrue(any("transparent" in e for e in errors))
+
+    def test_orphan_image(self):
+        self.png("football/clubs/es/other.png")
+        errors, _ = self.validate(club())
+        self.assertTrue(any("not referenced" in e for e in errors))
+
+    def test_alias_collision_in_country(self):
+        errors, _ = self.validate(club(), club(id="other", name="Other", aliases=["Real Madrid"]))
+        self.assertTrue(any("collides" in e for e in errors))
+
+    def test_mapping_id_must_exist(self):
+        mapping = {"Spain|Ghost": {"id": "ghost", "source": "luukhopman", "slug": None}}
+        errors, _ = self.validate(club(), mapping=mapping)
+        self.assertTrue(any("ghost" in e for e in errors))
 
 
 if __name__ == "__main__":

@@ -1,15 +1,21 @@
 """Football clubs catalog helpers and the luukhopman/football-logos sync logic."""
 
+from pathlib import Path
 import difflib
+import json
 import re
 
-from football_catalog import ROOT, normalize_name
+from PIL import Image
+
+from football_catalog import ID_RE, ROOT, has_alpha, normalize_name
 
 CLUBS_FILE = ROOT / "data" / "football" / "clubs.json"
 CLUBS_LOOKUP_FILE = ROOT / "data" / "football" / "clubs-lookup.json"
 MAPPING_FILE = ROOT / "data" / "football" / "clubs-mapping.json"
 CLUBS_DIR = "football/clubs"
 COUNTRY_RE = re.compile(r"^[A-Z]{2}(?:-[A-Z]{3})?$")
+LOW_RES_SIDE = 400
+REQUIRED_FIELDS = ("id", "name", "aliases", "country", "league", "logo")
 AFFIXES = {
     "1", "ac", "afc", "as", "bk", "ca", "cd", "cf", "fc", "fk", "fsv", "hnk", "if",
     "kaa", "krc", "kv", "nk", "rc", "rcd", "sc", "sd", "sk", "ss", "ssc", "sv", "tsg",
@@ -236,3 +242,81 @@ def build_club_lookup(clubs: list[dict]) -> tuple[dict[str, dict[str, str]], lis
 
 def club_assets(clubs: list[dict]) -> dict[str, dict]:
     return {club["id"]: {"name": club["name"], "path": club["logo"]} for club in clubs if club["logo"]}
+
+
+def load_json(path: Path, default):
+    if not path.exists():
+        return default
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def _club_errors(entry) -> list[str]:
+    if not isinstance(entry, dict):
+        return [f"Club entry is not an object: {entry!r}"]
+    label = entry.get("id", "<no id>")
+    missing = [field for field in REQUIRED_FIELDS if field not in entry]
+    if missing:
+        return [f"Club '{label}' is missing field(s): {', '.join(missing)}"]
+    errors = []
+    if not isinstance(entry["id"], str) or not ID_RE.match(entry["id"]):
+        errors.append(f"Invalid club id: {entry['id']!r}")
+    if not isinstance(entry["name"], str) or not entry["name"].strip():
+        errors.append(f"Club '{label}' has an empty name")
+    if not isinstance(entry["aliases"], list) or not all(isinstance(a, str) for a in entry["aliases"]):
+        errors.append(f"Club '{label}' aliases must be a list of strings")
+    if not isinstance(entry["country"], str) or not COUNTRY_RE.match(entry["country"]):
+        errors.append(f"Club '{label}' has invalid country: {entry['country']!r}")
+    for field in ("league", "logo"):
+        if entry[field] is not None and not isinstance(entry[field], str):
+            errors.append(f"Club '{label}' {field} must be a string or null")
+    return errors
+
+
+def validate_clubs(root: Path, catalog, competitions: list[dict], mapping: dict) -> tuple[list[str], list[str]]:
+    clubs = catalog.get("clubs") if isinstance(catalog, dict) else None
+    if not isinstance(clubs, list):
+        return ["Clubs catalog must be an object with a 'clubs' list"], []
+    errors = [error for entry in clubs for error in _club_errors(entry)]
+    if errors:
+        return errors, []
+
+    warnings = []
+    ids = [club["id"] for club in clubs]
+    errors.extend(f"Duplicate id: '{i}'" for i in sorted({i for i in ids if ids.count(i) > 1}))
+    leagues = {c["id"] for c in competitions if c.get("type") == "league"}
+    referenced = set()
+    for entry in clubs:
+        club_id = entry["id"]
+        if entry["league"] is not None and entry["league"] not in leagues:
+            errors.append(f"Club '{club_id}' has unknown league: {entry['league']!r}")
+        logo = entry["logo"]
+        if logo is None:
+            warnings.append(f"Club '{club_id}' has no logo yet")
+            continue
+        referenced.add(logo)
+        expected = f"{CLUBS_DIR}/{entry['country'].lower()}/{club_id}.png"
+        if logo != expected:
+            errors.append(f"Club '{club_id}' logo must be '{expected}', got '{logo}'")
+        elif not (root / logo).is_file():
+            errors.append(f"Club '{club_id}' logo not found: {logo}")
+        elif not has_alpha(root / logo):
+            errors.append(f"Club '{club_id}' logo has no transparent pixels: {logo}")
+        else:
+            with Image.open(root / logo) as image:
+                if max(image.size) < LOW_RES_SIDE:
+                    warnings.append(f"Club '{club_id}' logo is low resolution {image.size}: {logo}")
+
+    clubs_dir = root / CLUBS_DIR
+    if clubs_dir.exists():
+        for path in sorted(clubs_dir.rglob("*")):
+            if path.is_file() and not path.name.startswith("."):
+                relative = path.relative_to(root).as_posix()
+                if relative not in referenced:
+                    errors.append(f"Image not referenced by the clubs catalog: {relative}")
+
+    errors.extend(build_club_lookup(clubs)[1])
+    known = set(ids)
+    for key in sorted(mapping):
+        if mapping[key]["id"] not in known:
+            errors.append(f"Mapping '{key}' points to unknown club '{mapping[key]['id']}'")
+    return errors, warnings
