@@ -48,6 +48,16 @@ class ProposeSlugTest(unittest.TestCase):
     def test_none(self):
         self.assertEqual(propose_slug("Kecskeméti TE", self.SLUGS), (None, "none"))
 
+    def test_slug_words_contained_in_name(self):
+        slugs = ["newcastle", "leicester", "gloucester-city", "west-ham", "evesham-united"]
+        self.assertEqual(propose_slug("Newcastle United", slugs), ("newcastle", "partial"))
+        self.assertEqual(propose_slug("Leicester City", slugs), ("leicester", "partial"))
+        self.assertEqual(propose_slug("West Ham United", slugs), ("west-ham", "partial"))
+
+    def test_partial_prefers_longest_slug(self):
+        slugs = ["real", "real-betis"]
+        self.assertEqual(propose_slug("Real Betis Balompié", slugs), ("real-betis", "partial"))
+
 
 class AutoAliasesTest(unittest.TestCase):
     def test_collects_names_slug_and_stripped_forms(self):

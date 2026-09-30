@@ -42,6 +42,10 @@ def propose_slug(name: str, slugs: list[str], cutoff: float = 0.8) -> tuple[str 
     target = strip_affixes(name)
     if target in candidates:
         return candidates[target], "exact"
+    words = set(target.split())
+    contained = [c for c in candidates if set(c.split()) <= words]
+    if contained:
+        return candidates[max(contained, key=lambda c: (len(c.split()), len(c)))], "partial"
     close = difflib.get_close_matches(target, list(candidates), n=1, cutoff=cutoff)
     if close:
         return candidates[close[0]], "fuzzy"

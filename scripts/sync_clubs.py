@@ -129,7 +129,7 @@ def plan() -> None:
     for folder, rows in by_country.items():
         render_sheet(rows, CACHE / f"review-{FL_COUNTRIES[folder]}.jpg")
 
-    counts = {kind: sum(p["match"] == kind for p in proposals.values()) for kind in ("exact", "fuzzy", "none")}
+    counts = {kind: sum(p["match"] == kind for p in proposals.values()) for kind in ("exact", "partial", "fuzzy", "none")}
     print(f"{len(proposals)} unmapped club(s): {counts}")
     print(f"Proposals: {PROPOSALS_FILE.relative_to(ROOT).as_posix()}; review sheets in {CACHE.relative_to(ROOT).as_posix()}/")
 
