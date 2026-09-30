@@ -1,4 +1,10 @@
 {
+  "football/competitions/asia/saudi-pro-league.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/saudi-arabia/1500x1500/saudi-professional-league.49a229c2.png"
+  },
   "football/competitions/europe/bundesliga.png": {
     "license": null,
     "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
@@ -143,11 +149,59 @@
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/tournaments/1500x1500/uefa-super-cup.7bae0811.png"
   },
+  "football/competitions/north-america/concacaf-champions-cup.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/tournaments/1500x1500/concacaf-champions-cup.ee6d5623.png"
+  },
+  "football/competitions/north-america/concacaf-gold-cup.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/tournaments/1500x1500/concacaf-gold-cup.8ff0eb3f.png"
+  },
+  "football/competitions/north-america/liga-mx.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/mexico/1500x1500/liga-mx.aa7dd397.png"
+  },
+  "football/competitions/north-america/mls.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/usa/1500x1500/mls.2211b328.png"
+  },
+  "football/competitions/south-america/brasileirao-serie-a.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/brazil/1500x1500/brazilian-serie-a.5cf5c902.png"
+  },
+  "football/competitions/south-america/copa-america.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc); no generic brand logo, uses most recent edition (USA 2024)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/tournaments/1500x1500/conmebol-copa-america-2024.5a0c5670.png"
+  },
   "football/competitions/south-america/copa-libertadores.png": {
     "license": null,
     "notes": "Pre-existing asset; original source unknown",
     "retrieved": null,
     "url": null
+  },
+  "football/competitions/south-america/copa-sudamericana.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/tournaments/1500x1500/conmebol-copa-sudamericana.1d4cf3df.png"
+  },
+  "football/competitions/south-america/liga-profesional-argentina.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/argentina/1500x1500/argentina-primera-division.818d8b2e.png"
   },
   "football/competitions/world/fifa-club-world-cup.png": {
     "license": null,

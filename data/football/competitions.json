@@ -405,7 +405,7 @@
       "continent": "south-america",
       "confederation": "CONMEBOL",
       "country": null,
-      "logo": null,
+      "logo": "football/competitions/south-america/copa-sudamericana.png",
       "collage": null
     },
     {
@@ -422,7 +422,7 @@
       "continent": "south-america",
       "confederation": "CONMEBOL",
       "country": "BR",
-      "logo": null,
+      "logo": "football/competitions/south-america/brasileirao-serie-a.png",
       "collage": "football/collages/brasileirao-serie-a.png"
     },
     {
@@ -439,7 +439,7 @@
       "continent": "south-america",
       "confederation": "CONMEBOL",
       "country": "AR",
-      "logo": null,
+      "logo": "football/competitions/south-america/liga-profesional-argentina.png",
       "collage": "football/collages/liga-profesional-argentina.png"
     },
     {
@@ -454,7 +454,7 @@
       "continent": "south-america",
       "confederation": "CONMEBOL",
       "country": null,
-      "logo": null,
+      "logo": "football/competitions/south-america/copa-america.png",
       "collage": null
     },
     {
@@ -470,7 +470,7 @@
       "continent": "north-america",
       "confederation": "CONCACAF",
       "country": "MX",
-      "logo": null,
+      "logo": "football/competitions/north-america/liga-mx.png",
       "collage": "football/collages/liga-mx.png"
     },
     {
@@ -484,7 +484,7 @@
       "continent": "north-america",
       "confederation": "CONCACAF",
       "country": "US",
-      "logo": null,
+      "logo": "football/competitions/north-america/mls.png",
       "collage": "football/collages/mls.png"
     },
     {
@@ -500,7 +500,7 @@
       "continent": "north-america",
       "confederation": "CONCACAF",
       "country": null,
-      "logo": null,
+      "logo": "football/competitions/north-america/concacaf-champions-cup.png",
       "collage": null
     },
     {
@@ -516,7 +516,7 @@
       "continent": "north-america",
       "confederation": "CONCACAF",
       "country": null,
-      "logo": null,
+      "logo": "football/competitions/north-america/concacaf-gold-cup.png",
       "collage": null
     },
     {
@@ -532,7 +532,7 @@
       "continent": "asia",
       "confederation": "AFC",
       "country": "SA",
-      "logo": null,
+      "logo": "football/competitions/asia/saudi-pro-league.png",
       "collage": null
     },
     {

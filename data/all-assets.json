@@ -101,6 +101,42 @@
       "name": "CONMEBOL Libertadores",
       "path": "football/competitions/south-america/copa-libertadores.png"
     },
+    "copa-sudamericana": {
+      "name": "CONMEBOL Sudamericana",
+      "path": "football/competitions/south-america/copa-sudamericana.png"
+    },
+    "brasileirao-serie-a": {
+      "name": "Campeonato Brasileiro Série A",
+      "path": "football/competitions/south-america/brasileirao-serie-a.png"
+    },
+    "liga-profesional-argentina": {
+      "name": "Liga Profesional de Fútbol",
+      "path": "football/competitions/south-america/liga-profesional-argentina.png"
+    },
+    "copa-america": {
+      "name": "Copa América",
+      "path": "football/competitions/south-america/copa-america.png"
+    },
+    "liga-mx": {
+      "name": "Liga MX",
+      "path": "football/competitions/north-america/liga-mx.png"
+    },
+    "mls": {
+      "name": "Major League Soccer",
+      "path": "football/competitions/north-america/mls.png"
+    },
+    "concacaf-champions-cup": {
+      "name": "Concacaf Champions Cup",
+      "path": "football/competitions/north-america/concacaf-champions-cup.png"
+    },
+    "concacaf-gold-cup": {
+      "name": "Concacaf Gold Cup",
+      "path": "football/competitions/north-america/concacaf-gold-cup.png"
+    },
+    "saudi-pro-league": {
+      "name": "Saudi Pro League",
+      "path": "football/competitions/asia/saudi-pro-league.png"
+    },
     "fifa-world-cup": {
       "name": "FIFA World Cup",
       "path": "football/competitions/world/fifa-world-cup.png"
