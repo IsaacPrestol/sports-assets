@@ -4,11 +4,13 @@ import struct
 import sys
 
 from football_catalog import CATALOG_FILE, load_catalog, validate_catalog
+from football_clubs import CLUBS_FILE, MAPPING_FILE, load_json, validate_clubs
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSET_DIRS = [
     ROOT / "football" / "competitions",
     ROOT / "football" / "collages",
+    ROOT / "football" / "clubs",
     ROOT / "ufc" / "fighters",
     ROOT / "ufc" / "logos",
 ]
@@ -77,11 +79,28 @@ def check_catalog(errors: list, warnings: list) -> None:
     warnings.extend(catalog_warnings)
 
 
+def check_clubs(errors: list, warnings: list) -> None:
+    try:
+        clubs = load_json(CLUBS_FILE, None)
+        mapping = load_json(MAPPING_FILE, {})
+        competitions = load_catalog()["competitions"]
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        errors.append(f"Cannot read clubs data: {exc}")
+        return
+    if clubs is None:
+        errors.append(f"Missing {CLUBS_FILE.relative_to(ROOT).as_posix()}")
+        return
+    club_errors, club_warnings = validate_clubs(ROOT, clubs, competitions, mapping)
+    errors.extend(club_errors)
+    warnings.extend(club_warnings)
+
+
 def main():
     errors = []
     warnings = []
     check_files(errors, warnings)
     check_catalog(errors, warnings)
+    check_clubs(errors, warnings)
 
     for warning in warnings:
         print("WARNING:", warning)

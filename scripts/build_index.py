@@ -3,6 +3,7 @@ import json
 import sys
 
 from football_catalog import LOOKUP_FILE, build_lookup, competition_assets, load_catalog
+from football_clubs import CLUBS_FILE, CLUBS_LOOKUP_FILE, build_club_lookup, club_assets, load_json
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
@@ -65,9 +66,18 @@ def main():
         sys.exit(1)
     write_json(LOOKUP_FILE, lookup)
 
+    clubs = load_json(CLUBS_FILE, {"clubs": []})["clubs"]
+    club_lookup, club_errors = build_club_lookup(clubs)
+    if club_errors:
+        for error in club_errors:
+            print("ERROR:", error)
+        sys.exit(1)
+    write_json(CLUBS_LOOKUP_FILE, club_lookup)
+
     all_assets = {
         "fighters": build_collection(COLLECTIONS["fighters"]),
         "competitions": competition_assets(competitions),
+        "clubs": club_assets(clubs),
         "ufc-logos": build_collection(COLLECTIONS["ufc-logos"]),
     }
     for collection in COLLECTIONS:
@@ -78,6 +88,7 @@ def main():
     for collection, items in all_assets.items():
         print(f"  {collection}: {len(items)} asset(s)")
     print(f"  competition lookup: {len(lookup)} name(s)")
+    print(f"  club lookup: {sum(len(t) for t in club_lookup.values())} name(s)")
 
 
 if __name__ == "__main__":
