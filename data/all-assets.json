@@ -41,9 +41,49 @@
       "name": "Liga Portugal",
       "path": "football/competitions/europe/liga-portugal.png"
     },
+    "fa-cup": {
+      "name": "FA Cup",
+      "path": "football/competitions/europe/fa-cup.png"
+    },
+    "efl-cup": {
+      "name": "EFL Cup",
+      "path": "football/competitions/europe/efl-cup.png"
+    },
+    "community-shield": {
+      "name": "FA Community Shield",
+      "path": "football/competitions/europe/community-shield.png"
+    },
     "copa-del-rey": {
       "name": "Copa del Rey",
       "path": "football/competitions/europe/copa-del-rey.png"
+    },
+    "supercopa-de-espana": {
+      "name": "Supercopa de España",
+      "path": "football/competitions/europe/supercopa-de-espana.png"
+    },
+    "coppa-italia": {
+      "name": "Coppa Italia",
+      "path": "football/competitions/europe/coppa-italia.png"
+    },
+    "supercoppa-italiana": {
+      "name": "Supercoppa Italiana",
+      "path": "football/competitions/europe/supercoppa-italiana.png"
+    },
+    "dfb-pokal": {
+      "name": "DFB-Pokal",
+      "path": "football/competitions/europe/dfb-pokal.png"
+    },
+    "dfl-supercup": {
+      "name": "DFL-Supercup",
+      "path": "football/competitions/europe/dfl-supercup.png"
+    },
+    "coupe-de-france": {
+      "name": "Coupe de France",
+      "path": "football/competitions/europe/coupe-de-france.png"
+    },
+    "trophee-des-champions": {
+      "name": "Trophée des Champions",
+      "path": "football/competitions/europe/trophee-des-champions.png"
     },
     "copa-libertadores": {
       "name": "CONMEBOL Libertadores",

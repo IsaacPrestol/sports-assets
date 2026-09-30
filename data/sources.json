@@ -5,17 +5,59 @@
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/germany/1500x1500/bundesliga.77719ba2.png"
   },
+  "football/competitions/europe/community-shield.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/fa-community-shield.8c01b463.png"
+  },
   "football/competitions/europe/copa-del-rey.png": {
     "license": null,
     "notes": "Pre-existing asset; original source unknown",
     "retrieved": null,
     "url": null
   },
+  "football/competitions/europe/coppa-italia.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/coppa-italia.5448be3f.png"
+  },
+  "football/competitions/europe/coupe-de-france.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/french-cup.9c89ddb5.png"
+  },
+  "football/competitions/europe/dfb-pokal.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/dfb-pokal.368025c3.png"
+  },
+  "football/competitions/europe/dfl-supercup.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/franz-beckenbauer-supercup.3048fb86.png"
+  },
+  "football/competitions/europe/efl-cup.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc); sponsored (Carabao) version, no sponsor-free logo available",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/efl-cup.02ea7da4.png"
+  },
   "football/competitions/europe/eredivisie.png": {
     "license": "Public domain",
     "notes": "Rendered from SVG at 3840px; repo version carries sponsor",
     "retrieved": "2026-09-30",
     "url": "https://commons.wikimedia.org/wiki/File:Eredivisie_nieuw_logo_2017-.svg"
+  },
+  "football/competitions/europe/fa-cup.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc); sponsored (Emirates) version, no sponsor-free logo available",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/emirates-fa-cup.59d820fb.png"
   },
   "football/competitions/europe/laliga.png": {
     "license": null,
@@ -46,6 +88,24 @@
     "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/italy/1500x1500/serie-a.0e7a37ed.png"
+  },
+  "football/competitions/europe/supercopa-de-espana.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/supercopa-de-espana.c434e515.png"
+  },
+  "football/competitions/europe/supercoppa-italiana.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/italian-super-cup.16bbf3b9.png"
+  },
+  "football/competitions/europe/trophee-des-champions.png": {
+    "license": "Public domain",
+    "notes": "Rendered from SVG at 3840px; not available in repo",
+    "retrieved": "2026-09-30",
+    "url": "https://commons.wikimedia.org/wiki/File:Troph%C3%A9e_des_Champions_logo_(2024).svg"
   },
   "football/competitions/europe/uefa-champions-league.png": {
     "license": null,

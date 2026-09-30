@@ -188,7 +188,7 @@
       "continent": "europe",
       "confederation": "UEFA",
       "country": "GB-ENG",
-      "logo": null,
+      "logo": "football/competitions/europe/fa-cup.png",
       "collage": null
     },
     {
@@ -204,7 +204,7 @@
       "continent": "europe",
       "confederation": "UEFA",
       "country": "GB-ENG",
-      "logo": null,
+      "logo": "football/competitions/europe/efl-cup.png",
       "collage": null
     },
     {
@@ -218,7 +218,7 @@
       "continent": "europe",
       "confederation": "UEFA",
       "country": "GB-ENG",
-      "logo": null,
+      "logo": "football/competitions/europe/community-shield.png",
       "collage": null
     },
     {
@@ -248,7 +248,7 @@
       "continent": "europe",
       "confederation": "UEFA",
       "country": "ES",
-      "logo": null,
+      "logo": "football/competitions/europe/supercopa-de-espana.png",
       "collage": null
     },
     {
@@ -263,7 +263,7 @@
       "continent": "europe",
       "confederation": "UEFA",
       "country": "IT",
-      "logo": null,
+      "logo": "football/competitions/europe/coppa-italia.png",
       "collage": null
     },
     {
@@ -278,7 +278,7 @@
       "continent": "europe",
       "confederation": "UEFA",
       "country": "IT",
-      "logo": null,
+      "logo": "football/competitions/europe/supercoppa-italiana.png",
       "collage": null
     },
     {
@@ -294,7 +294,7 @@
       "continent": "europe",
       "confederation": "UEFA",
       "country": "DE",
-      "logo": null,
+      "logo": "football/competitions/europe/dfb-pokal.png",
       "collage": null
     },
     {
@@ -310,7 +310,7 @@
       "continent": "europe",
       "confederation": "UEFA",
       "country": "DE",
-      "logo": null,
+      "logo": "football/competitions/europe/dfl-supercup.png",
       "collage": null
     },
     {
@@ -325,7 +325,7 @@
       "continent": "europe",
       "confederation": "UEFA",
       "country": "FR",
-      "logo": null,
+      "logo": "football/competitions/europe/coupe-de-france.png",
       "collage": null
     },
     {
@@ -340,7 +340,7 @@
       "continent": "europe",
       "confederation": "UEFA",
       "country": "FR",
-      "logo": null,
+      "logo": "football/competitions/europe/trophee-des-champions.png",
       "collage": null
     },
     {
