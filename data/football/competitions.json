@@ -79,7 +79,7 @@
       "continent": "europe",
       "confederation": "UEFA",
       "country": "GB-ENG",
-      "logo": null,
+      "logo": "football/competitions/europe/premier-league.png",
       "collage": "football/collages/premier-league.png"
     },
     {
@@ -96,7 +96,7 @@
       "continent": "europe",
       "confederation": "UEFA",
       "country": "ES",
-      "logo": null,
+      "logo": "football/competitions/europe/laliga.png",
       "collage": "football/collages/laliga.png"
     },
     {
@@ -112,7 +112,7 @@
       "continent": "europe",
       "confederation": "UEFA",
       "country": "IT",
-      "logo": null,
+      "logo": "football/competitions/europe/serie-a.png",
       "collage": "football/collages/serie-a.png"
     },
     {
@@ -127,7 +127,7 @@
       "continent": "europe",
       "confederation": "UEFA",
       "country": "DE",
-      "logo": null,
+      "logo": "football/competitions/europe/bundesliga.png",
       "collage": "football/collages/bundesliga.png"
     },
     {
@@ -142,7 +142,7 @@
       "continent": "europe",
       "confederation": "UEFA",
       "country": "FR",
-      "logo": null,
+      "logo": "football/competitions/europe/ligue-1.png",
       "collage": "football/collages/ligue-1.png"
     },
     {
@@ -157,7 +157,7 @@
       "continent": "europe",
       "confederation": "UEFA",
       "country": "NL",
-      "logo": null,
+      "logo": "football/competitions/europe/eredivisie.png",
       "collage": "football/collages/eredivisie.png"
     },
     {
@@ -173,7 +173,7 @@
       "continent": "europe",
       "confederation": "UEFA",
       "country": "PT",
-      "logo": null,
+      "logo": "football/competitions/europe/liga-portugal.png",
       "collage": "football/collages/liga-portugal.png"
     },
     {

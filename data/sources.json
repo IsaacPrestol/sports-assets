@@ -1,9 +1,51 @@
 {
+  "football/competitions/europe/bundesliga.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/bundesliga.77719ba2.png"
+  },
   "football/competitions/europe/copa-del-rey.png": {
     "license": null,
     "notes": "Pre-existing asset; original source unknown",
     "retrieved": null,
     "url": null
+  },
+  "football/competitions/europe/eredivisie.png": {
+    "license": "Public domain",
+    "notes": "Rendered from SVG at 3840px; repo version carries sponsor",
+    "retrieved": "2026-09-30",
+    "url": "https://commons.wikimedia.org/wiki/File:Eredivisie_nieuw_logo_2017-.svg"
+  },
+  "football/competitions/europe/laliga.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/la-liga.07ed875e.png"
+  },
+  "football/competitions/europe/liga-portugal.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/primeira-liga.ed56678a.png"
+  },
+  "football/competitions/europe/ligue-1.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/ligue-1.0cc44ebd.png"
+  },
+  "football/competitions/europe/premier-league.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/english-premier-league.4d68127f.png"
+  },
+  "football/competitions/europe/serie-a.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/serie-a.0e7a37ed.png"
   },
   "football/competitions/europe/uefa-champions-league.png": {
     "license": null,

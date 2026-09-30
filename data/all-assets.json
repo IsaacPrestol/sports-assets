@@ -13,6 +13,34 @@
       "name": "UEFA Conference League",
       "path": "football/competitions/europe/uefa-conference-league.png"
     },
+    "premier-league": {
+      "name": "Premier League",
+      "path": "football/competitions/europe/premier-league.png"
+    },
+    "laliga": {
+      "name": "LaLiga",
+      "path": "football/competitions/europe/laliga.png"
+    },
+    "serie-a": {
+      "name": "Serie A",
+      "path": "football/competitions/europe/serie-a.png"
+    },
+    "bundesliga": {
+      "name": "Bundesliga",
+      "path": "football/competitions/europe/bundesliga.png"
+    },
+    "ligue-1": {
+      "name": "Ligue 1",
+      "path": "football/competitions/europe/ligue-1.png"
+    },
+    "eredivisie": {
+      "name": "Eredivisie",
+      "path": "football/competitions/europe/eredivisie.png"
+    },
+    "liga-portugal": {
+      "name": "Liga Portugal",
+      "path": "football/competitions/europe/liga-portugal.png"
+    },
     "copa-del-rey": {
       "name": "Copa del Rey",
       "path": "football/competitions/europe/copa-del-rey.png"
