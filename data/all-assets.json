@@ -189,6 +189,38 @@
       "name": "Copa América",
       "path": "football/competitions/south-america/copa-america.png"
     },
+    "uruguayan-primera-division": {
+      "name": "Liga AUF Uruguaya",
+      "path": "football/competitions/south-america/uruguayan-primera-division.png"
+    },
+    "colombian-primera-a": {
+      "name": "Categoría Primera A",
+      "path": "football/competitions/south-america/colombian-primera-a.png"
+    },
+    "chilean-primera-division": {
+      "name": "Liga de Primera",
+      "path": "football/competitions/south-america/chilean-primera-division.png"
+    },
+    "paraguayan-primera-division": {
+      "name": "Paraguayan Primera División",
+      "path": "football/competitions/south-america/paraguayan-primera-division.png"
+    },
+    "peruvian-liga-1": {
+      "name": "Peruvian Liga 1",
+      "path": "football/competitions/south-america/peruvian-liga-1.png"
+    },
+    "ecuadorian-serie-a": {
+      "name": "LigaPro Serie A",
+      "path": "football/competitions/south-america/ecuadorian-serie-a.png"
+    },
+    "bolivian-primera-division": {
+      "name": "Bolivian Primera División",
+      "path": "football/competitions/south-america/bolivian-primera-division.png"
+    },
+    "venezuelan-primera-division": {
+      "name": "Liga FUTVE",
+      "path": "football/competitions/south-america/venezuelan-primera-division.png"
+    },
     "liga-mx": {
       "name": "Liga MX",
       "path": "football/competitions/north-america/liga-mx.png"
@@ -204,6 +236,22 @@
     "concacaf-gold-cup": {
       "name": "Concacaf Gold Cup",
       "path": "football/competitions/north-america/concacaf-gold-cup.png"
+    },
+    "canadian-premier-league": {
+      "name": "Canadian Premier League",
+      "path": "football/competitions/north-america/canadian-premier-league.png"
+    },
+    "costa-rican-primera-division": {
+      "name": "Liga FPD",
+      "path": "football/competitions/north-america/costa-rican-primera-division.png"
+    },
+    "guatemalan-liga-nacional": {
+      "name": "Liga Nacional de Guatemala",
+      "path": "football/competitions/north-america/guatemalan-liga-nacional.png"
+    },
+    "panamanian-football-league": {
+      "name": "Liga Panameña de Fútbol",
+      "path": "football/competitions/north-america/panamanian-football-league.png"
     },
     "saudi-pro-league": {
       "name": "Saudi Pro League",

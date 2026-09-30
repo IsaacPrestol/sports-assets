@@ -261,6 +261,25 @@ class RealCatalogTest(unittest.TestCase):
         "pro league",
     }
 
+    AMERICAN_LEAGUES = {
+        "brasileirao-serie-a": "BR", "liga-profesional-argentina": "AR",
+        "uruguayan-primera-division": "UY", "colombian-primera-a": "CO",
+        "chilean-primera-division": "CL", "paraguayan-primera-division": "PY",
+        "peruvian-liga-1": "PE", "ecuadorian-serie-a": "EC",
+        "bolivian-primera-division": "BO", "venezuelan-primera-division": "VE",
+        "liga-mx": "MX", "mls": "US", "canadian-premier-league": "CA",
+        "costa-rican-primera-division": "CR", "guatemalan-liga-nacional": "GT",
+        "panamanian-football-league": "PA",
+    }
+
+    def test_american_leagues_have_country_and_logo(self):
+        by_id = {c["id"]: c for c in load_catalog()["competitions"]}
+        for league_id, country in self.AMERICAN_LEAGUES.items():
+            competition = by_id.get(league_id)
+            self.assertIsNotNone(competition, league_id)
+            self.assertEqual((competition["type"], competition["country"]), ("league", country), league_id)
+            self.assertIsNotNone(competition["logo"], league_id)
+
     def test_no_generic_aliases(self):
         for competition in load_catalog()["competitions"]:
             for alias in competition["aliases"]:

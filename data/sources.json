@@ -3689,6 +3689,12 @@
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/ukraine/1500x1500/ukrainian-premier-league.95588702.png"
   },
+  "football/competitions/north-america/canadian-premier-league.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/canada/1500x1500/canadian-premier-league.d8802d74.png"
+  },
   "football/competitions/north-america/concacaf-champions-cup.png": {
     "license": null,
     "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
@@ -3700,6 +3706,18 @@
     "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/tournaments/1500x1500/concacaf-gold-cup.8ff0eb3f.png"
+  },
+  "football/competitions/north-america/costa-rican-primera-division.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc); sponsored (Promerica) version",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/costa-rica/1500x1500/primera-division.1784061c.png"
+  },
+  "football/competitions/north-america/guatemalan-liga-nacional.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/guatemala/1500x1500/liga-nacional-de-futbol-de-guatemala.f8aafe42.png"
   },
   "football/competitions/north-america/liga-mx.png": {
     "license": null,
@@ -3713,11 +3731,35 @@
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/usa/1500x1500/mls.2211b328.png"
   },
+  "football/competitions/north-america/panamanian-football-league.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/panama/1500x1500/panamanian-football-league.90294a35.png"
+  },
+  "football/competitions/south-america/bolivian-primera-division.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/bolivia/1500x1500/primera-division-de-bolivia.4488ebb7.png"
+  },
   "football/competitions/south-america/brasileirao-serie-a.png": {
     "license": null,
     "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/brazil/1500x1500/brazilian-serie-a.5cf5c902.png"
+  },
+  "football/competitions/south-america/chilean-primera-division.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc); sponsored (Mercado Libre) version",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/chile/1500x1500/liga-de-primera.fd0cc67c.png"
+  },
+  "football/competitions/south-america/colombian-primera-a.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc); sponsored (BetPlay) version",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/colombia/1500x1500/categoria-primera-a.0ee59ece.png"
   },
   "football/competitions/south-america/copa-america.png": {
     "license": null,
@@ -3737,11 +3779,41 @@
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/tournaments/1500x1500/conmebol-copa-sudamericana.1d4cf3df.png"
   },
+  "football/competitions/south-america/ecuadorian-serie-a.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/ecuador/1500x1500/liga-pro-serie-a.6c7995c5.png"
+  },
   "football/competitions/south-america/liga-profesional-argentina.png": {
     "license": null,
     "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/argentina/1500x1500/argentina-primera-division.818d8b2e.png"
+  },
+  "football/competitions/south-america/paraguayan-primera-division.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/paraguay/1500x1500/copa-de-primera.54030811.png"
+  },
+  "football/competitions/south-america/peruvian-liga-1.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/peru/1500x1500/peruvian-primera-division.beceb56f.png"
+  },
+  "football/competitions/south-america/uruguayan-primera-division.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/uruguay/1500x1500/liga-auf-uruguaya.2b36ada7.png"
+  },
+  "football/competitions/south-america/venezuelan-primera-division.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/venezuela/1500x1500/primera-division-de-venezuela.ee7b48e0.png"
   },
   "football/competitions/world/fifa-club-world-cup.png": {
     "license": null,

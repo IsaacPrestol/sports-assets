@@ -719,6 +719,126 @@
       "collage": null
     },
     {
+      "id": "uruguayan-primera-division",
+      "name": "Liga AUF Uruguaya",
+      "aliases": [
+        "Uruguayan Primera División",
+        "Campeonato Uruguayo"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "south-america",
+      "confederation": "CONMEBOL",
+      "country": "UY",
+      "logo": "football/competitions/south-america/uruguayan-primera-division.png",
+      "collage": null
+    },
+    {
+      "id": "colombian-primera-a",
+      "name": "Categoría Primera A",
+      "aliases": [
+        "Liga BetPlay",
+        "Liga BetPlay Dimayor",
+        "Colombian Primera A"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "south-america",
+      "confederation": "CONMEBOL",
+      "country": "CO",
+      "logo": "football/competitions/south-america/colombian-primera-a.png",
+      "collage": null
+    },
+    {
+      "id": "chilean-primera-division",
+      "name": "Liga de Primera",
+      "aliases": [
+        "Chilean Primera División",
+        "Campeonato Nacional de Chile",
+        "Liga de Primera Mercado Libre"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "south-america",
+      "confederation": "CONMEBOL",
+      "country": "CL",
+      "logo": "football/competitions/south-america/chilean-primera-division.png",
+      "collage": null
+    },
+    {
+      "id": "paraguayan-primera-division",
+      "name": "Paraguayan Primera División",
+      "aliases": [
+        "División de Honor",
+        "Copa de Primera"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "south-america",
+      "confederation": "CONMEBOL",
+      "country": "PY",
+      "logo": "football/competitions/south-america/paraguayan-primera-division.png",
+      "collage": null
+    },
+    {
+      "id": "peruvian-liga-1",
+      "name": "Peruvian Liga 1",
+      "aliases": [
+        "Liga 1 Perú",
+        "Peruvian Primera División"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "south-america",
+      "confederation": "CONMEBOL",
+      "country": "PE",
+      "logo": "football/competitions/south-america/peruvian-liga-1.png",
+      "collage": null
+    },
+    {
+      "id": "ecuadorian-serie-a",
+      "name": "LigaPro Serie A",
+      "aliases": [
+        "Ecuadorian Serie A",
+        "LigaPro"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "south-america",
+      "confederation": "CONMEBOL",
+      "country": "EC",
+      "logo": "football/competitions/south-america/ecuadorian-serie-a.png",
+      "collage": null
+    },
+    {
+      "id": "bolivian-primera-division",
+      "name": "Bolivian Primera División",
+      "aliases": [
+        "División Profesional de Bolivia"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "south-america",
+      "confederation": "CONMEBOL",
+      "country": "BO",
+      "logo": "football/competitions/south-america/bolivian-primera-division.png",
+      "collage": null
+    },
+    {
+      "id": "venezuelan-primera-division",
+      "name": "Liga FUTVE",
+      "aliases": [
+        "Venezuelan Primera División"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "south-america",
+      "confederation": "CONMEBOL",
+      "country": "VE",
+      "logo": "football/competitions/south-america/venezuelan-primera-division.png",
+      "collage": null
+    },
+    {
       "id": "liga-mx",
       "name": "Liga MX",
       "aliases": [
@@ -778,6 +898,65 @@
       "confederation": "CONCACAF",
       "country": null,
       "logo": "football/competitions/north-america/concacaf-gold-cup.png",
+      "collage": null
+    },
+    {
+      "id": "canadian-premier-league",
+      "name": "Canadian Premier League",
+      "aliases": [
+        "CPL"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "north-america",
+      "confederation": "CONCACAF",
+      "country": "CA",
+      "logo": "football/competitions/north-america/canadian-premier-league.png",
+      "collage": null
+    },
+    {
+      "id": "costa-rican-primera-division",
+      "name": "Liga FPD",
+      "aliases": [
+        "Costa Rican Primera División",
+        "Primera División de Costa Rica",
+        "Liga Promerica"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "north-america",
+      "confederation": "CONCACAF",
+      "country": "CR",
+      "logo": "football/competitions/north-america/costa-rican-primera-division.png",
+      "collage": null
+    },
+    {
+      "id": "guatemalan-liga-nacional",
+      "name": "Liga Nacional de Guatemala",
+      "aliases": [
+        "Liga Guate"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "north-america",
+      "confederation": "CONCACAF",
+      "country": "GT",
+      "logo": "football/competitions/north-america/guatemalan-liga-nacional.png",
+      "collage": null
+    },
+    {
+      "id": "panamanian-football-league",
+      "name": "Liga Panameña de Fútbol",
+      "aliases": [
+        "Panamanian Football League",
+        "LPF Panamá"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "north-america",
+      "confederation": "CONCACAF",
+      "country": "PA",
+      "logo": "football/competitions/north-america/panamanian-football-league.png",
       "collage": null
     },
     {
