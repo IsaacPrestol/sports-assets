@@ -52,3 +52,104 @@ def auto_aliases(name: str, names: list[str], slug: str | None) -> list[str]:
             seen.add(key)
             aliases.append(candidate)
     return aliases
+
+
+CURRENT_SEASON = "~current"
+
+COUNTRY_CODES = {
+    "Austria": "AT", "Belgium": "BE", "Bulgaria": "BG", "Croatia": "HR",
+    "Czech Republic": "CZ", "Denmark": "DK", "England": "GB-ENG", "France": "FR",
+    "Germany": "DE", "Greece": "GR", "Hungary": "HU", "Israel": "IL", "Italy": "IT",
+    "Netherlands": "NL", "Norway": "NO", "Poland": "PL", "Portugal": "PT",
+    "Romania": "RO", "Russia": "RU", "Scotland": "GB-SCT", "Serbia": "RS",
+    "Spain": "ES", "Sweden": "SE", "Switzerland": "CH", "Türkiye": "TR", "Ukraine": "UA",
+}
+
+FL_COUNTRIES = {
+    folder: folder.lower().replace(" ", "-") for folder in COUNTRY_CODES
+} | {"Türkiye": "turkey"}
+
+LEAGUE_IDS = {
+    "Austria - Bundesliga": "austrian-bundesliga",
+    "Belgium - Jupiler Pro League": "belgian-pro-league",
+    "Bulgaria - efbet Liga": "bulgarian-first-league",
+    "Croatia - SuperSport HNL": "croatian-football-league",
+    "Czech Republic - Chance Liga": "czech-first-league",
+    "Denmark - Superliga": "danish-superliga",
+    "England - Premier League": "premier-league",
+    "France - Ligue 1": "ligue-1",
+    "Germany - Bundesliga": "bundesliga",
+    "Greece - Super League 1": "greek-super-league",
+    "Israel - Ligat ha'Al": "israeli-premier-league",
+    "Italy - Serie A": "serie-a",
+    "Netherlands - Eredivisie": "eredivisie",
+    "Norway - Eliteserien": "eliteserien",
+    "Poland - PKO BP Ekstraklasa": "ekstraklasa",
+    "Portugal - Liga Portugal": "liga-portugal",
+    "Romania - SuperLiga": "romanian-liga-1",
+    "Russia - Premier Liga": "russian-premier-league",
+    "Scotland - Scottish Premiership": "scottish-premiership",
+    "Serbia - Super liga Srbije": "serbian-superliga",
+    "Spain - LaLiga": "laliga",
+    "Sweden - Allsvenskan": "allsvenskan",
+    "Switzerland - Super League": "swiss-super-league",
+    "Türkiye - Süper Lig": "super-lig",
+    "Ukraine - Premier Liga": "ukrainian-premier-league",
+}
+
+
+def luuk_index(paths: list[str]) -> dict[str, dict]:
+    clubs: dict[str, dict] = {}
+    for path in sorted(paths):
+        parts = path.split("/")
+        if not path.endswith(".png"):
+            continue
+        if parts[0] == "logos" and len(parts) == 3:
+            season, league_folder, filename = CURRENT_SEASON, parts[1], parts[2]
+        elif parts[0] == "history" and len(parts) == 4:
+            season, league_folder, filename = parts[1], parts[2], parts[3]
+        else:
+            continue
+        country_folder = league_folder.split(" - ")[0]
+        name = filename[: -len(".png")]
+        club = clubs.setdefault(f"{country_folder}|{name}", {
+            "country_folder": country_folder,
+            "name": name,
+            "league_folder": None,
+            "latest_season": "",
+            "latest_path": "",
+        })
+        if season == CURRENT_SEASON:
+            club["league_folder"] = league_folder
+        if season > club["latest_season"]:
+            club["latest_season"], club["latest_path"] = season, path
+    return clubs
+
+
+def propose(luuk: dict, mapping: dict, fl_slugs: dict[str, list[str]],
+            existing_ids: dict[str, str]) -> dict[str, dict]:
+    taken = dict(existing_ids)
+    groups: dict[tuple[str, str], str] = {}
+    proposals = {}
+    for key in sorted(luuk):
+        if key in mapping:
+            continue
+        club = luuk[key]
+        country = COUNTRY_CODES[club["country_folder"]]
+        slug, match = propose_slug(club["name"], fl_slugs.get(club["country_folder"], []))
+        base = slug or slugify(strip_affixes(club["name"]))
+        if (country, base) in groups:
+            club_id = groups[(country, base)]
+        elif base in taken and taken[base] != country:
+            club_id = f"{base}-{country.lower()}"
+        else:
+            club_id = base
+        groups[(country, base)] = club_id
+        taken.setdefault(club_id, country)
+        proposals[key] = {
+            "id": club_id,
+            "source": "football-logos" if slug else "luukhopman",
+            "slug": slug,
+            "match": match,
+        }
+    return proposals

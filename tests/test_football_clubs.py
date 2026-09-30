@@ -4,7 +4,15 @@ import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
-from football_clubs import auto_aliases, propose_slug, slug_name, slugify, strip_affixes
+from football_clubs import (
+    auto_aliases,
+    luuk_index,
+    propose,
+    propose_slug,
+    slug_name,
+    slugify,
+    strip_affixes,
+)
 
 
 class NamesTest(unittest.TestCase):
@@ -47,6 +55,61 @@ class AutoAliasesTest(unittest.TestCase):
 
     def test_excludes_duplicates_of_name(self):
         self.assertEqual(auto_aliases("Real Madrid", ["Real Madrid"], "real-madrid"), [])
+
+
+PATHS = [
+    "README.md",
+    "logos/Spain - LaLiga/Real Madrid.png",
+    "history/2024-25/Spain - LaLiga/Real Madrid.png",
+    "history/2023-24/Spain - LaLiga/UD Almería.png",
+    "history/2024-25/Czech Republic - Chance Liga/Banik Ostrava.png",
+    "history/2025-26/Czech Republic - Chance Liga/FC Banik Ostrava.png",
+]
+
+
+class LuukIndexTest(unittest.TestCase):
+    def test_current_club(self):
+        club = luuk_index(PATHS)["Spain|Real Madrid"]
+        self.assertEqual(club["league_folder"], "Spain - LaLiga")
+        self.assertEqual(club["latest_path"], "logos/Spain - LaLiga/Real Madrid.png")
+
+    def test_history_only_club(self):
+        club = luuk_index(PATHS)["Spain|UD Almería"]
+        self.assertIsNone(club["league_folder"])
+        self.assertEqual(club["latest_path"], "history/2023-24/Spain - LaLiga/UD Almería.png")
+
+    def test_ignores_non_logo_paths(self):
+        self.assertEqual(len(luuk_index(PATHS)), 4)
+
+
+class ProposeTest(unittest.TestCase):
+    def setUp(self):
+        self.luuk = luuk_index(PATHS)
+        self.fl = {"Spain": ["real-madrid", "almeria"], "Czech Republic": []}
+
+    def test_matches_and_ids(self):
+        proposals = propose(self.luuk, {}, self.fl, {})
+        self.assertEqual(proposals["Spain|Real Madrid"],
+                         {"id": "real-madrid", "source": "football-logos", "slug": "real-madrid", "match": "exact"})
+        self.assertEqual(proposals["Spain|UD Almería"]["id"], "almeria")
+
+    def test_name_variants_share_one_id(self):
+        proposals = propose(self.luuk, {}, self.fl, {})
+        self.assertEqual(proposals["Czech Republic|Banik Ostrava"]["id"], "banik-ostrava")
+        self.assertEqual(proposals["Czech Republic|FC Banik Ostrava"]["id"], "banik-ostrava")
+        self.assertEqual(proposals["Czech Republic|Banik Ostrava"]["source"], "luukhopman")
+
+    def test_skips_mapped_keys(self):
+        mapping = {"Spain|Real Madrid": {"id": "real-madrid", "source": "football-logos", "slug": "real-madrid"}}
+        self.assertNotIn("Spain|Real Madrid", propose(self.luuk, mapping, self.fl, {}))
+
+    def test_same_slug_in_other_country_gets_suffix(self):
+        proposals = propose(self.luuk, {}, self.fl, {"real-madrid": "GB-ENG"})
+        self.assertEqual(proposals["Spain|Real Madrid"]["id"], "real-madrid-es")
+
+    def test_existing_id_in_same_country_is_reused(self):
+        proposals = propose(self.luuk, {}, self.fl, {"real-madrid": "ES"})
+        self.assertEqual(proposals["Spain|Real Madrid"]["id"], "real-madrid")
 
 
 if __name__ == "__main__":
