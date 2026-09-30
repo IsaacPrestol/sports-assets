@@ -121,6 +121,16 @@ class HasAlphaTest(unittest.TestCase):
     def test_palette_with_transparency_has_alpha(self):
         self.assertTrue(has_alpha(save_png(self.root, "c.png", "P", transparency=0)))
 
+    def test_fully_opaque_rgba_has_no_transparency(self):
+        path = self.root / "opaque.png"
+        Image.new("RGBA", (8, 8), (255, 255, 255, 255)).save(path)
+        self.assertFalse(has_alpha(path))
+
+    def test_palette_with_unused_transparency_key_has_no_transparency(self):
+        path = self.root / "unused-key.png"
+        Image.new("P", (8, 8), 1).save(path, transparency=0)
+        self.assertFalse(has_alpha(path))
+
     def test_rgb_has_no_alpha(self):
         self.assertFalse(has_alpha(save_png(self.root, "d.png", "RGB")))
 

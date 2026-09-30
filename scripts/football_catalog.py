@@ -63,7 +63,8 @@ def competition_assets(competitions: list[dict]) -> dict[str, dict]:
 def has_alpha(path: Path) -> bool:
     try:
         with Image.open(path) as image:
-            return "A" in image.getbands() or "transparency" in image.info
+            alpha = image.convert("RGBA").getchannel("A")
+        return alpha.getextrema()[0] < 255
     except OSError:
         return False
 
