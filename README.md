@@ -13,6 +13,7 @@ sports-assets/
 │   │   ├── north-america/
 │   │   ├── asia/
 │   │   └── world/
+│   ├── clubs/                          # <país>/<id>.png (es, gb-eng, pt…)
 │   └── collages/
 ├── ufc/
 │   ├── fighters/
@@ -20,7 +21,10 @@ sports-assets/
 ├── data/
 │   ├── football/
 │   │   ├── competitions.json          # catálogo (fuente de verdad, se edita a mano)
-│   │   └── competitions-lookup.json   # generado: nombre normalizado → id
+│   │   ├── competitions-lookup.json   # generado: nombre normalizado → id
+│   │   ├── clubs.json                 # catálogo de clubes (lo actualiza sync_clubs.py)
+│   │   ├── clubs-mapping.json         # emparejamientos luukhopman → escudo, revisados
+│   │   └── clubs-lookup.json          # generado: país → nombre normalizado → id
 │   ├── fighters.json
 │   ├── ufc-logos.json
 │   ├── ufc-fighters-seed.json
@@ -29,6 +33,8 @@ sports-assets/
 ├── scripts/
 │   ├── build_index.py
 │   ├── football_catalog.py
+│   ├── football_clubs.py
+│   ├── sync_clubs.py
 │   ├── normalize_logo.py
 │   ├── download_ufc_fighters.py
 │   └── validate_assets.py
@@ -112,6 +118,45 @@ python scripts/normalize_logo.py descarga.png football/competitions/europe/lalig
 
 Después actualiza `logo` en el catálogo, registra el origen en `data/sources.json` y ejecuta `python scripts/build_index.py`.
 
+## Clubes de fútbol
+
+Escudos de los clubes de las 25 ligas europeas de [luukhopman/football-logos](https://github.com/luukhopman/football-logos): los de la temporada actual y los que han jugado en ellas desde 2021/22. Las imágenes vienen de [football-logos.cc](https://github.com/Leo4815162342/football-logos) (1024 px); si un club no está allí, se usa el PNG de luukhopman (139×181, la validación lo avisa como baja resolución).
+
+Los escudos están en `football/clubs/<país>/<id>.png`. La carpeta no cambia cuando un club sube o baja de categoría.
+
+`data/football/clubs.json`:
+
+| Campo | Descripción |
+|---|---|
+| `id` | identificador estable; coincide con el nombre del archivo |
+| `name` | nombre del club |
+| `aliases` | otros nombres habituales |
+| `country` | código ISO (`ES`, `GB-ENG`, `GB-SCT`…) |
+| `league` | id de su liga en `competitions.json` esta temporada, o `null` si no juega en ninguna de las 25 |
+| `logo` | ruta del escudo |
+
+### Uso desde una app
+
+1. Normaliza el nombre igual que con las competiciones (`"Real Madrid CF"` → `"real madrid cf"`).
+2. Búscalo en `data/football/clubs-lookup.json` **dentro de su país**: `lookup["ES"]["real madrid cf"]` → `real-madrid`. Hay nombres que se repiten entre países ("Sporting", "Dinamo"), por eso el país es obligatorio.
+3. Busca ese `id` en `data/football/clubs.json` para obtener `logo`.
+4. Construye la URL:
+
+```text
+https://cdn.jsdelivr.net/gh/IsaacPrestol/sports-assets@main/football/clubs/es/real-madrid.png
+```
+
+### Actualizar cada temporada
+
+```bash
+python scripts/sync_clubs.py plan      # propone escudos para los clubes nuevos y genera .cache/clubs/review-*.jpg
+python scripts/sync_clubs.py accept    # copia las propuestas a data/football/clubs-mapping.json
+# revisa las hojas y corrige en clubs-mapping.json los emparejamientos incorrectos
+python scripts/sync_clubs.py apply     # descarga escudos, actualiza clubs.json y la liga de cada club, y regenera índices
+```
+
+`apply` no sobrescribe escudos existentes ni los nombres y alias que se hayan editado a mano en `clubs.json`.
+
 ## Descargar imágenes de peleadores UFC
 
 El script `scripts/download_ufc_fighters.py` busca imágenes reutilizables en Wikimedia Commons, guarda la imagen en `ufc/fighters/`, registra autor, licencia y fuente en `data/sources.json`, y luego regenera los índices JSON.
@@ -173,7 +218,7 @@ pip install -r requirements.txt
 python -m unittest discover -s tests
 ```
 
-La validación falla si el catálogo apunta a un archivo inexistente, si hay imágenes sin entrada, si un logo no es transparente o si dos competiciones comparten un alias.
+La validación falla si un catálogo apunta a un archivo inexistente, si hay imágenes sin entrada, si un logo o escudo no es transparente, si dos competiciones (o dos clubes del mismo país) comparten un alias, o si un club apunta a una liga que no existe.
 
 ## Licencias
 
