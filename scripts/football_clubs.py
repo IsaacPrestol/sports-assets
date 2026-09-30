@@ -153,3 +153,86 @@ def propose(luuk: dict, mapping: dict, fl_slugs: dict[str, list[str]],
             "match": match,
         }
     return proposals
+
+
+def _drop_colliding_aliases(by_id: dict[str, dict], new_ids: set[str]) -> list[str]:
+    owners: dict[tuple[str, str], str] = {}
+    for club in by_id.values():
+        names = [club["id"], club["name"]]
+        if club["id"] not in new_ids:
+            names += club["aliases"]
+        for name in names:
+            owners.setdefault((club["country"], normalize_name(name)), club["id"])
+    skipped = []
+    for club_id in sorted(new_ids):
+        club = by_id[club_id]
+        kept = []
+        for alias in club["aliases"]:
+            key = (club["country"], normalize_name(alias))
+            owner = owners.setdefault(key, club_id)
+            if owner == club_id:
+                kept.append(alias)
+            else:
+                skipped.append(f"{club_id}: alias '{alias}' collides with '{owner}'")
+        club["aliases"] = kept
+    return skipped
+
+
+def merge_clubs(existing: list[dict], mapping: dict, luuk: dict,
+                missing_logos: set[str] = frozenset()) -> tuple[list[dict], list[str]]:
+    by_id = {club["id"]: dict(club) for club in existing}
+    keys_by_id: dict[str, list[str]] = {}
+    for key in sorted(mapping):
+        keys_by_id.setdefault(mapping[key]["id"], []).append(key)
+
+    new_ids = set()
+    for club_id, keys in keys_by_id.items():
+        entries = [luuk[key] for key in keys if key in luuk]
+        if not entries:
+            continue
+        country = COUNTRY_CODES[entries[0]["country_folder"]]
+        current = [entry for entry in entries if entry["league_folder"]]
+        league = LEAGUE_IDS[current[0]["league_folder"]] if current else None
+        logo = None if club_id in missing_logos else f"{CLUBS_DIR}/{country.lower()}/{club_id}.png"
+        if club_id in by_id:
+            by_id[club_id].update(league=league, logo=logo)
+            continue
+        latest = max(entries, key=lambda entry: entry["latest_season"])
+        slug = next((mapping[key]["slug"] for key in keys if mapping[key].get("slug")), None)
+        by_id[club_id] = {
+            "id": club_id,
+            "name": latest["name"],
+            "aliases": auto_aliases(latest["name"], [entry["name"] for entry in entries], slug),
+            "country": country,
+            "league": league,
+            "logo": logo,
+        }
+        new_ids.add(club_id)
+
+    skipped = _drop_colliding_aliases(by_id, new_ids)
+    clubs = sorted(by_id.values(), key=lambda club: (club["country"], club["id"]))
+    return clubs, skipped
+
+
+def build_club_lookup(clubs: list[dict]) -> tuple[dict[str, dict[str, str]], list[str]]:
+    lookup: dict[str, dict[str, str]] = {}
+    errors: list[str] = []
+    for club in clubs:
+        table = lookup.setdefault(club["country"], {})
+        for raw in [club["id"], club["name"], *club["aliases"]]:
+            key = normalize_name(raw)
+            if not key:
+                errors.append(f"Name '{raw}' of '{club['id']}' normalizes to an empty string")
+                continue
+            owner = table.setdefault(key, club["id"])
+            if owner != club["id"]:
+                errors.append(
+                    f"Name '{raw}' of '{club['id']}' collides with '{owner}' "
+                    f"in {club['country']} (key '{key}')"
+                )
+    sorted_lookup = {country: dict(sorted(table.items())) for country, table in sorted(lookup.items())}
+    return sorted_lookup, errors
+
+
+def club_assets(clubs: list[dict]) -> dict[str, dict]:
+    return {club["id"]: {"name": club["name"], "path": club["logo"]} for club in clubs if club["logo"]}
