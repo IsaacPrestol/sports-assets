@@ -1,4 +1,3436 @@
 {
+  "football/clubs/at/admira.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/austria/1500x1500/admira.3a78539c.png"
+  },
+  "football/clubs/at/altach.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/austria/1500x1500/altach.3d6b4e1a.png"
+  },
+  "football/clubs/at/austria-wien.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/austria/1500x1500/austria-wien.32c22479.png"
+  },
+  "football/clubs/at/blau-weiss-linz.png": {
+    "license": null,
+    "notes": "github.com/luukhopman/football-logos (139x181 fallback)",
+    "retrieved": "2026-09-30",
+    "url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2025-26/Austria%20-%20Bundesliga/FC%20Blau-Weiss%20Linz.png"
+  },
+  "football/clubs/at/grazer-ak.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/austria/1500x1500/grazer-ak.785fa61e.png"
+  },
+  "football/clubs/at/hartberg.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/austria/1500x1500/hartberg.315e7e79.png"
+  },
+  "football/clubs/at/klagenfurt.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/austria/1500x1500/klagenfurt.a36c274a.png"
+  },
+  "football/clubs/at/lask.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/austria/1500x1500/lask.31701bc3.png"
+  },
+  "football/clubs/at/lustenau.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/austria/1500x1500/lustenau.94235114.png"
+  },
+  "football/clubs/at/rapid-vienna.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/austria/1500x1500/rapid-vienna.04ac297b.png"
+  },
+  "football/clubs/at/ried.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/austria/1500x1500/ried.77bf2e1a.png"
+  },
+  "football/clubs/at/salzburg.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/austria/1500x1500/salzburg.f0af30d9.png"
+  },
+  "football/clubs/at/sturm-graz.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/austria/1500x1500/sturm-graz.a67c9799.png"
+  },
+  "football/clubs/at/tirol.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/austria/1500x1500/tirol.644cc681.png"
+  },
+  "football/clubs/at/wolfsberg.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/austria/1500x1500/wolfsberg.e6f46320.png"
+  },
+  "football/clubs/be/anderlecht.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/belgium/1500x1500/anderlecht.c417e19a.png"
+  },
+  "football/clubs/be/antwerp.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/belgium/1500x1500/antwerp.742342aa.png"
+  },
+  "football/clubs/be/beerschot.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/belgium/1500x1500/beerschot-wilrijk.0e6e05e0.png"
+  },
+  "football/clubs/be/beveren.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/belgium/1500x1500/beveren.d6f8bdc8.png"
+  },
+  "football/clubs/be/cercle-brugge.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/belgium/1500x1500/cercle-brugge.d5fac54b.png"
+  },
+  "football/clubs/be/charleroi.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/belgium/1500x1500/charleroi.89c50afa.png"
+  },
+  "football/clubs/be/club-brugge.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/belgium/1500x1500/club-brugge.d0728075.png"
+  },
+  "football/clubs/be/eupen.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/belgium/1500x1500/eupen.d7b5c7c4.png"
+  },
+  "football/clubs/be/fcv-dender-eh.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/belgium/1500x1500/fcv-dender-eh.48bf4ebb.png"
+  },
+  "football/clubs/be/genk.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/belgium/1500x1500/genk.b8cbd189.png"
+  },
+  "football/clubs/be/gent.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/belgium/1500x1500/gent.ef1b017e.png"
+  },
+  "football/clubs/be/kortrijk.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/belgium/1500x1500/kortrijk.99ad9142.png"
+  },
+  "football/clubs/be/lommel.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/belgium/1500x1500/lommel.48ca3d90.png"
+  },
+  "football/clubs/be/mechelen.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/belgium/1500x1500/mechelen.c4584292.png"
+  },
+  "football/clubs/be/oostende.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/belgium/1500x1500/oostende.d84078cf.png"
+  },
+  "football/clubs/be/oud-heverlee-leuven.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/belgium/1500x1500/oud-heverlee-leuven.fdac6e80.png"
+  },
+  "football/clubs/be/raal-la-louviere.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/belgium/1500x1500/raal-la-louviere.486d1ad0.png"
+  },
+  "football/clubs/be/rwd-molenbeek.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/belgium/1500x1500/rwd-molenbeek.1fdcaf3e.png"
+  },
+  "football/clubs/be/seraing.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/belgium/1500x1500/seraing.a0a7a145.png"
+  },
+  "football/clubs/be/sint-truidense.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/belgium/1500x1500/sint-truidense.8f4afcf8.png"
+  },
+  "football/clubs/be/standard-liege.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/belgium/1500x1500/standard-liege.b71a0f82.png"
+  },
+  "football/clubs/be/union-saint-gilloise.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/belgium/1500x1500/union-saint-gilloise.41e8808a.png"
+  },
+  "football/clubs/be/westerlo.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/belgium/1500x1500/westerlo.363758cb.png"
+  },
+  "football/clubs/be/zulte-waregem.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/belgium/1500x1500/zulte-waregem.87c22016.png"
+  },
+  "football/clubs/bg/arda.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/bulgaria/1500x1500/arda.e4ae837d.png"
+  },
+  "football/clubs/bg/beroe.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/bulgaria/1500x1500/beroe.c77e3f37.png"
+  },
+  "football/clubs/bg/botev-plovdiv.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/bulgaria/1500x1500/botev-plovdiv.9451e9e9.png"
+  },
+  "football/clubs/bg/botev-vratsa.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/bulgaria/1500x1500/botev-vratsa.2e5d6ce1.png"
+  },
+  "football/clubs/bg/cherno-more.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/bulgaria/1500x1500/cherno-more.54cd01c4.png"
+  },
+  "football/clubs/bg/cska-1948.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/bulgaria/1500x1500/cska-1948.7f3cbbb4.png"
+  },
+  "football/clubs/bg/cska-sofia.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/bulgaria/1500x1500/cska-sofia.f4f63462.png"
+  },
+  "football/clubs/bg/dunav.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/bulgaria/1500x1500/dunav.13b177f6.png"
+  },
+  "football/clubs/bg/hebar.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/bulgaria/1500x1500/hebar.45c969a1.png"
+  },
+  "football/clubs/bg/krumovgrad.png": {
+    "license": null,
+    "notes": "github.com/luukhopman/football-logos (139x181 fallback)",
+    "retrieved": "2026-09-30",
+    "url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2024-25/Bulgaria%20-%20efbet%20Liga/Krumovgrad.png"
+  },
+  "football/clubs/bg/levski.png": {
+    "license": null,
+    "notes": "github.com/luukhopman/football-logos (139x181 fallback)",
+    "retrieved": "2026-09-30",
+    "url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Bulgaria%20-%20efbet%20Liga/Levski%20Sofia.png"
+  },
+  "football/clubs/bg/lokomotiv-plovdiv.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/bulgaria/1500x1500/lokomotiv-plovdiv.639fda5a.png"
+  },
+  "football/clubs/bg/lokomotiv-sofia.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/bulgaria/1500x1500/lokomotiv-sofia.9031ee59.png"
+  },
+  "football/clubs/bg/ludogorets.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/bulgaria/1500x1500/ludogorets.520481fb.png"
+  },
+  "football/clubs/bg/montana.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/bulgaria/1500x1500/montana.6497d1eb.png"
+  },
+  "football/clubs/bg/pfc-dobrudzha-dobrich.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/bulgaria/1500x1500/pfc-dobrudzha-dobrich.6a14e155.png"
+  },
+  "football/clubs/bg/septemvri.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/bulgaria/1500x1500/septemvri.34173301.png"
+  },
+  "football/clubs/bg/slavia-sofia.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/bulgaria/1500x1500/slavia-sofia.5b154d0c.png"
+  },
+  "football/clubs/bg/spartak-varna.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/bulgaria/1500x1500/spartak-varna.27a15346.png"
+  },
+  "football/clubs/ch/basel.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/switzerland/1500x1500/basel.3c60cfda.png"
+  },
+  "football/clubs/ch/fc-stade-lausanne-ouchy.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/switzerland/1500x1500/fc-stade-lausanne-ouchy.e1d59eff.png"
+  },
+  "football/clubs/ch/grasshoppers.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/switzerland/1500x1500/grasshoppers.b89906d8.png"
+  },
+  "football/clubs/ch/lausanne-sport.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/switzerland/1500x1500/lausanne-sport.36a1d911.png"
+  },
+  "football/clubs/ch/lugano.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/switzerland/1500x1500/lugano.34f4e608.png"
+  },
+  "football/clubs/ch/luzern.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/switzerland/1500x1500/luzern.3aff4d6a.png"
+  },
+  "football/clubs/ch/servette.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/switzerland/1500x1500/servette.747d25a0.png"
+  },
+  "football/clubs/ch/sion.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/switzerland/1500x1500/sion.e21651c8.png"
+  },
+  "football/clubs/ch/st-gallen.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/switzerland/1500x1500/st-gallen.c4644616.png"
+  },
+  "football/clubs/ch/thun.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/switzerland/1500x1500/thun.27756fb8.png"
+  },
+  "football/clubs/ch/vaduz.png": {
+    "license": null,
+    "notes": "github.com/luukhopman/football-logos (139x181 fallback)",
+    "retrieved": "2026-09-30",
+    "url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Switzerland%20-%20Super%20League/FC%20Vaduz.png"
+  },
+  "football/clubs/ch/winterthur.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/switzerland/1500x1500/winterthur.c47e65f9.png"
+  },
+  "football/clubs/ch/young-boys.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/switzerland/1500x1500/young-boys.d5b49142.png"
+  },
+  "football/clubs/ch/yverdon-sport-fc.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/switzerland/1500x1500/yverdon-sport-fc.2f891b3b.png"
+  },
+  "football/clubs/ch/zurich.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/switzerland/1500x1500/zurich.9501b096.png"
+  },
+  "football/clubs/cz/artis-brno.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/czech-republic/1500x1500/artis-brno.da87bda7.png"
+  },
+  "football/clubs/cz/banik.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/czech-republic/1500x1500/banik.22fe6b7e.png"
+  },
+  "football/clubs/cz/bohemians-praha.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/czech-republic/1500x1500/bohemians-praha.a0307e7f.png"
+  },
+  "football/clubs/cz/ceske-budejovice.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/czech-republic/1500x1500/ceske-budejovice.3aa71230.png"
+  },
+  "football/clubs/cz/dukla.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/czech-republic/1500x1500/dukla.264bce79.png"
+  },
+  "football/clubs/cz/hradec-kralove.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/czech-republic/1500x1500/hradec-kralove.ad98d5e8.png"
+  },
+  "football/clubs/cz/jablonec.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/czech-republic/1500x1500/jablonec.984b98b9.png"
+  },
+  "football/clubs/cz/karvina.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/czech-republic/1500x1500/karvina.cbf728a5.png"
+  },
+  "football/clubs/cz/liberec.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/czech-republic/1500x1500/liberec.3262c251.png"
+  },
+  "football/clubs/cz/mlada-boleslav.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/czech-republic/1500x1500/mlada-boleslav.c76687f3.png"
+  },
+  "football/clubs/cz/olomouc.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/czech-republic/1500x1500/olomouc.bf6011fa.png"
+  },
+  "football/clubs/cz/pardubice.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/czech-republic/1500x1500/pardubice.4cef66c0.png"
+  },
+  "football/clubs/cz/slavia-praha.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/czech-republic/1500x1500/slavia-praha.8b22b81e.png"
+  },
+  "football/clubs/cz/slovacko.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/czech-republic/1500x1500/slovacko.24bc026c.png"
+  },
+  "football/clubs/cz/sparta-praha.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/czech-republic/1500x1500/sparta-praha.47c5f852.png"
+  },
+  "football/clubs/cz/teplice.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/czech-republic/1500x1500/teplice.9b63527f.png"
+  },
+  "football/clubs/cz/viktoria-plzen.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/czech-republic/1500x1500/viktoria-plzen.05eafdc2.png"
+  },
+  "football/clubs/cz/zbrojovka-brno.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/czech-republic/1500x1500/zbrojovka-brno.b8863064.png"
+  },
+  "football/clubs/cz/zlin.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/czech-republic/1500x1500/zlin.21fed338.png"
+  },
+  "football/clubs/de/arminia-bielefeld.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/arminia-bielefeld.0d6a00f5.png"
+  },
+  "football/clubs/de/augsburg.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/augsburg.d9c1d8e1.png"
+  },
+  "football/clubs/de/bayer-leverkusen.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/bayer-leverkusen.ada32552.png"
+  },
+  "football/clubs/de/bayern-munchen.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/bayern-munchen.1eac18e8.png"
+  },
+  "football/clubs/de/borussia-dortmund.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/borussia-dortmund.145250de.png"
+  },
+  "football/clubs/de/borussia-monchengladbach.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/borussia-monchengladbach.b7e9b162.png"
+  },
+  "football/clubs/de/darmstadt.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/darmstadt.9d66c765.png"
+  },
+  "football/clubs/de/eintracht-frankfurt.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/eintracht-frankfurt.7c29dd10.png"
+  },
+  "football/clubs/de/fc-heidenheim.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/fc-heidenheim.102ae86d.png"
+  },
+  "football/clubs/de/freiburg.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/freiburg.54adc1be.png"
+  },
+  "football/clubs/de/hamburger-sv.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/hamburger-sv.4429099c.png"
+  },
+  "football/clubs/de/hertha-bsc.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/hertha-bsc.e1e27349.png"
+  },
+  "football/clubs/de/hoffenheim.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/hoffenheim.2f2360de.png"
+  },
+  "football/clubs/de/holstein-kiel.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/holstein-kiel.278dbec8.png"
+  },
+  "football/clubs/de/koln.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/koln.a7446cd4.png"
+  },
+  "football/clubs/de/mainz-05.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/mainz-05.8c9e3bc2.png"
+  },
+  "football/clubs/de/paderborn.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/paderborn.9cefca17.png"
+  },
+  "football/clubs/de/rb-leipzig.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/rb-leipzig.ea056608.png"
+  },
+  "football/clubs/de/schalke-04.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/schalke-04.1bf03bd5.png"
+  },
+  "football/clubs/de/spvgg-greuther-furth.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/spvgg-greuther-furth.c140a149.png"
+  },
+  "football/clubs/de/st-pauli.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/st-pauli.4603e7f7.png"
+  },
+  "football/clubs/de/sv-elversberg.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/sv-elversberg.a3127b4f.png"
+  },
+  "football/clubs/de/union-berlin.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/union-berlin.c52a8c27.png"
+  },
+  "football/clubs/de/vfb-stuttgart.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/vfb-stuttgart.f5cd8411.png"
+  },
+  "football/clubs/de/vfl-bochum.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/vfl-bochum.80b48071.png"
+  },
+  "football/clubs/de/werder-bremen.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/werder-bremen.1f55046e.png"
+  },
+  "football/clubs/de/wolfsburg.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/wolfsburg.addfa528.png"
+  },
+  "football/clubs/dk/aab.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/denmark/1500x1500/aab.0ad28c4b.png"
+  },
+  "football/clubs/dk/agf.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/denmark/1500x1500/agf.760eec43.png"
+  },
+  "football/clubs/dk/brondby.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/denmark/1500x1500/brondby.c0d4f160.png"
+  },
+  "football/clubs/dk/copenhagen.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/denmark/1500x1500/copenhagen.70464c49.png"
+  },
+  "football/clubs/dk/fredericia.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/denmark/1500x1500/fredericia.1b223d4a.png"
+  },
+  "football/clubs/dk/horsens.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/denmark/1500x1500/horsens.d778f696.png"
+  },
+  "football/clubs/dk/hvidovre-if.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/denmark/1500x1500/hvidovre-if.69bf3318.png"
+  },
+  "football/clubs/dk/lyngby.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/denmark/1500x1500/lyngby.020b2050.png"
+  },
+  "football/clubs/dk/midtjylland.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/denmark/1500x1500/midtjylland.b0a8da1c.png"
+  },
+  "football/clubs/dk/nordsjaelland.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/denmark/1500x1500/nordsjaelland.d25fd4ca.png"
+  },
+  "football/clubs/dk/odense-boldklub.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/denmark/1500x1500/odense-boldklub.682b983a.png"
+  },
+  "football/clubs/dk/randers.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/denmark/1500x1500/randers.4cbdfb03.png"
+  },
+  "football/clubs/dk/silkeborg.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/denmark/1500x1500/silkeborg.2fcc8576.png"
+  },
+  "football/clubs/dk/sonderjyske.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/denmark/1500x1500/sonderjyske.16080606.png"
+  },
+  "football/clubs/dk/vejle-boldklub.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/denmark/1500x1500/vejle-boldklub.b6617372.png"
+  },
+  "football/clubs/dk/viborg.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/denmark/1500x1500/viborg.bc7c0207.png"
+  },
+  "football/clubs/es/alaves.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/deportivo.b5f18973.png"
+  },
+  "football/clubs/es/almeria.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/almeria.dba31246.png"
+  },
+  "football/clubs/es/athletic-club.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/athletic-club.ec38af57.png"
+  },
+  "football/clubs/es/atletico-madrid.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/atletico-madrid.1acb70ea.png"
+  },
+  "football/clubs/es/barcelona.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/barcelona.8e8b43a3.png"
+  },
+  "football/clubs/es/cadiz.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/cadiz.a6a140a3.png"
+  },
+  "football/clubs/es/celta.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/celta.06769d38.png"
+  },
+  "football/clubs/es/deportivo-la-coruna.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/deportivo-la-coruna.ce79f115.png"
+  },
+  "football/clubs/es/elche.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/elche.d494b9b9.png"
+  },
+  "football/clubs/es/espanyol.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/espanyol.f31c1354.png"
+  },
+  "football/clubs/es/getafe.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/getafe.5aed3f74.png"
+  },
+  "football/clubs/es/girona.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/girona.c049a8f9.png"
+  },
+  "football/clubs/es/granada.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/granada.a7f767e8.png"
+  },
+  "football/clubs/es/las-palmas.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/las-palmas.bb08f33f.png"
+  },
+  "football/clubs/es/leganes.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/leganes.c9dbb630.png"
+  },
+  "football/clubs/es/levante.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/levante.55058f42.png"
+  },
+  "football/clubs/es/malaga.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/malaga.97c04d99.png"
+  },
+  "football/clubs/es/mallorca.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/mallorca.1a826f5a.png"
+  },
+  "football/clubs/es/osasuna.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/osasuna.7f404bef.png"
+  },
+  "football/clubs/es/oviedo.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/oviedo.46d87170.png"
+  },
+  "football/clubs/es/racing.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/racing.0672ac12.png"
+  },
+  "football/clubs/es/rayo-vallecano.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/rayo-vallecano.4699fa09.png"
+  },
+  "football/clubs/es/real-betis.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/real-betis.ed508c3f.png"
+  },
+  "football/clubs/es/real-madrid.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/real-madrid.e34f5ba5.png"
+  },
+  "football/clubs/es/real-sociedad.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/real-sociedad.7d3dbc7c.png"
+  },
+  "football/clubs/es/sevilla.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/sevilla.f1a10bfd.png"
+  },
+  "football/clubs/es/valencia.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/valencia.410c19ea.png"
+  },
+  "football/clubs/es/valladolid.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/valladolid.7faaf1d5.png"
+  },
+  "football/clubs/es/villarreal.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/spain/1500x1500/villarreal.6ced8346.png"
+  },
+  "football/clubs/fr/ajaccio.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/ajaccio.f5bfc759.png"
+  },
+  "football/clubs/fr/angers.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/angers.ab05fa15.png"
+  },
+  "football/clubs/fr/as-monaco.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/as-monaco.1d58091e.png"
+  },
+  "football/clubs/fr/as-saint-etienne.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/as-saint-etienne.e57e912b.png"
+  },
+  "football/clubs/fr/auxerre.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/auxerre.6efc07b8.png"
+  },
+  "football/clubs/fr/bordeaux.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/bordeaux.eccdedfc.png"
+  },
+  "football/clubs/fr/brest.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/brest.b0b54212.png"
+  },
+  "football/clubs/fr/clermont-foot.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/clermont-foot.734a53ad.png"
+  },
+  "football/clubs/fr/fc-metz.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/fc-metz.d284830e.png"
+  },
+  "football/clubs/fr/le-havre-ac.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/le-havre-ac.8beb3c76.png"
+  },
+  "football/clubs/fr/le-mans.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/le-mans.37970c7e.png"
+  },
+  "football/clubs/fr/lille.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/lille.682b7a4f.png"
+  },
+  "football/clubs/fr/lorient.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/lorient.a67166bb.png"
+  },
+  "football/clubs/fr/lyon.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/lyon.05fe1f9a.png"
+  },
+  "football/clubs/fr/marseille.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/marseille.6f770410.png"
+  },
+  "football/clubs/fr/montpellier.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/montpellier.193ccf1e.png"
+  },
+  "football/clubs/fr/nantes.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/nantes.0b1f15bf.png"
+  },
+  "football/clubs/fr/nice.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/nice.56debe22.png"
+  },
+  "football/clubs/fr/paris-fc.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/paris-fc.761834b9.png"
+  },
+  "football/clubs/fr/paris-saint-germain.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/paris-saint-germain.976d063a.png"
+  },
+  "football/clubs/fr/rc-lens.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/rc-lens.05ddeba2.png"
+  },
+  "football/clubs/fr/rc-strasbourg-alsace.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/rc-strasbourg-alsace.fdc28595.png"
+  },
+  "football/clubs/fr/rennes.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/rennes.f07dde44.png"
+  },
+  "football/clubs/fr/stade-de-reims.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/stade-de-reims.c7fd4a6a.png"
+  },
+  "football/clubs/fr/toulouse.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/toulouse.c663409c.png"
+  },
+  "football/clubs/fr/troyes.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/troyes.00182c73.png"
+  },
+  "football/clubs/gb-eng/arsenal.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/arsenal.d4144b2a.png"
+  },
+  "football/clubs/gb-eng/aston-villa.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/aston-villa.5265a6b0.png"
+  },
+  "football/clubs/gb-eng/bournemouth.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/bournemouth.5d240278.png"
+  },
+  "football/clubs/gb-eng/brentford.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/brentford.b03197ef.png"
+  },
+  "football/clubs/gb-eng/brighton.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/brighton.f54f0b50.png"
+  },
+  "football/clubs/gb-eng/burnley.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/burnley.ca981a69.png"
+  },
+  "football/clubs/gb-eng/chelsea.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/chelsea.450170ff.png"
+  },
+  "football/clubs/gb-eng/coventry-city.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/coventry-city.c4fc9437.png"
+  },
+  "football/clubs/gb-eng/crystal-palace.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/crystal-palace.e3552a3a.png"
+  },
+  "football/clubs/gb-eng/everton.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/everton.61ae3574.png"
+  },
+  "football/clubs/gb-eng/fulham.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/fulham.92113b10.png"
+  },
+  "football/clubs/gb-eng/hull-city.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/hull-city.15626b30.png"
+  },
+  "football/clubs/gb-eng/ipswich.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/ipswich.1c5f7c35.png"
+  },
+  "football/clubs/gb-eng/leeds-united.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/leeds-united.7a40d61b.png"
+  },
+  "football/clubs/gb-eng/leicester.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/leicester.56d11a8c.png"
+  },
+  "football/clubs/gb-eng/liverpool.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/liverpool.d03fd250.png"
+  },
+  "football/clubs/gb-eng/luton-town.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/luton-town.4004105f.png"
+  },
+  "football/clubs/gb-eng/manchester-city.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/manchester-city.8d2b6688.png"
+  },
+  "football/clubs/gb-eng/manchester-united.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/manchester-united.104c5aa9.png"
+  },
+  "football/clubs/gb-eng/newcastle.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/newcastle.c19d66db.png"
+  },
+  "football/clubs/gb-eng/norwich-city.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/norwich-city.c5752aff.png"
+  },
+  "football/clubs/gb-eng/nottingham-forest.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/nottingham-forest.e15fcde1.png"
+  },
+  "football/clubs/gb-eng/sheffield-united.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/sheffield-united.7adf8cd6.png"
+  },
+  "football/clubs/gb-eng/southampton.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/southampton.a461171e.png"
+  },
+  "football/clubs/gb-eng/sunderland.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/sunderland.4cec0d39.png"
+  },
+  "football/clubs/gb-eng/tottenham.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/tottenham.f23ffeb4.png"
+  },
+  "football/clubs/gb-eng/watford.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/watford.25412912.png"
+  },
+  "football/clubs/gb-eng/west-ham.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/west-ham.f014677a.png"
+  },
+  "football/clubs/gb-eng/wolves.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/wolves.7d27a880.png"
+  },
+  "football/clubs/gb-sct/aberdeen.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/scotland/1500x1500/aberdeen.b8af02b2.png"
+  },
+  "football/clubs/gb-sct/celtic.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/scotland/1500x1500/celtic.66db57b5.png"
+  },
+  "football/clubs/gb-sct/dundee-united.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/scotland/1500x1500/dundee-united.0d12b5e7.png"
+  },
+  "football/clubs/gb-sct/dundee.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/scotland/1500x1500/dundee.b5099843.png"
+  },
+  "football/clubs/gb-sct/falkirk.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/scotland/1500x1500/falkirk.f986a901.png"
+  },
+  "football/clubs/gb-sct/hearts.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/scotland/1500x1500/hearts.59115ecc.png"
+  },
+  "football/clubs/gb-sct/hibernian.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/scotland/1500x1500/hibernian.bcf22251.png"
+  },
+  "football/clubs/gb-sct/kilmarnock.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/scotland/1500x1500/kilmarnock.4b1a2275.png"
+  },
+  "football/clubs/gb-sct/livingston.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/scotland/1500x1500/livingston.a9c6437d.png"
+  },
+  "football/clubs/gb-sct/motherwell.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/scotland/1500x1500/motherwell.e8d3e850.png"
+  },
+  "football/clubs/gb-sct/rangers.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/scotland/1500x1500/rangers.98a4dd3f.png"
+  },
+  "football/clubs/gb-sct/ross-county.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/scotland/1500x1500/ross-county.415a2a93.png"
+  },
+  "football/clubs/gb-sct/st-johnstone.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/scotland/1500x1500/st-johnstone.a8a79eb0.png"
+  },
+  "football/clubs/gb-sct/st-mirren.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/scotland/1500x1500/st-mirren.61eff02d.png"
+  },
+  "football/clubs/gr/aek-athens.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/greece/1500x1500/aek-athens.94a32b9d.png"
+  },
+  "football/clubs/gr/apollon-smyrnis.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/greece/1500x1500/apollon-smyrnis.13772b14.png"
+  },
+  "football/clubs/gr/aris-thessaloniki.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/greece/1500x1500/aris-thessaloniki.55648179.png"
+  },
+  "football/clubs/gr/asteras.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/greece/1500x1500/asteras.cc8717e3.png"
+  },
+  "football/clubs/gr/athens-kallithea.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/greece/1500x1500/athens-kallithea.a183108d.png"
+  },
+  "football/clubs/gr/atromitos.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/greece/1500x1500/atromitos.acdf5bef.png"
+  },
+  "football/clubs/gr/giannina.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/greece/1500x1500/giannina.85055fcb.png"
+  },
+  "football/clubs/gr/ionikos.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/greece/1500x1500/ionikos.b12987f4.png"
+  },
+  "football/clubs/gr/iraklis-thessaloniki.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/greece/1500x1500/iraklis-thessaloniki.cb8fd953.png"
+  },
+  "football/clubs/gr/kalamata.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/greece/1500x1500/kalamata.03985c02.png"
+  },
+  "football/clubs/gr/kifisia.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/greece/1500x1500/kifisia.afc8c4e4.png"
+  },
+  "football/clubs/gr/lamia.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/greece/1500x1500/lamia.75ce7018.png"
+  },
+  "football/clubs/gr/larissa.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/greece/1500x1500/larissa.31a0e697.png"
+  },
+  "football/clubs/gr/levadiakos.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/greece/1500x1500/levadiakos.55d5b888.png"
+  },
+  "football/clubs/gr/ofi.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/greece/1500x1500/ofi.5255fa77.png"
+  },
+  "football/clubs/gr/olympiacos.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/greece/1500x1500/olympiacos.236ecf0f.png"
+  },
+  "football/clubs/gr/panathinaikos.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/greece/1500x1500/panathinaikos.1d386dd4.png"
+  },
+  "football/clubs/gr/panetolikos.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/greece/1500x1500/panetolikos.2bb2c848.png"
+  },
+  "football/clubs/gr/panserraikos.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/greece/1500x1500/panserraikos.f4dc3393.png"
+  },
+  "football/clubs/gr/paok.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/greece/1500x1500/paok.c0695e45.png"
+  },
+  "football/clubs/gr/volos.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/greece/1500x1500/volos.9bfe26be.png"
+  },
+  "football/clubs/hr/dinamo-zagreb.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/croatia/1500x1500/dinamo-zagreb.b8055cdf.png"
+  },
+  "football/clubs/hr/gorica.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/croatia/1500x1500/gorica.fc209f2a.png"
+  },
+  "football/clubs/hr/hajduk-split.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/croatia/1500x1500/hajduk-split.f1c14870.png"
+  },
+  "football/clubs/hr/hrvatski-dragovoljac.png": {
+    "license": null,
+    "notes": "github.com/luukhopman/football-logos (139x181 fallback)",
+    "retrieved": "2026-09-30",
+    "url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2021-22/Croatia%20-%20SuperSport%20HNL/NK%20Hrvatski%20Dragovoljac.png"
+  },
+  "football/clubs/hr/istra-1961.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/croatia/1500x1500/istra-1961.69789a05.png"
+  },
+  "football/clubs/hr/lokomotiva-zagreb.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/croatia/1500x1500/lokomotiva-zagreb.8d882fec.png"
+  },
+  "football/clubs/hr/osijek.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/croatia/1500x1500/osijek.3725868e.png"
+  },
+  "football/clubs/hr/rijeka.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/croatia/1500x1500/rijeka.402a0f69.png"
+  },
+  "football/clubs/hr/rudes.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/croatia/1500x1500/rudes.9d1dcb5f.png"
+  },
+  "football/clubs/hr/sibenik.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/croatia/1500x1500/sibenik.1585976a.png"
+  },
+  "football/clubs/hr/slaven.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/croatia/1500x1500/slaven.1fe3ba9c.png"
+  },
+  "football/clubs/hr/varazdin.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/croatia/1500x1500/varazdin.047382d2.png"
+  },
+  "football/clubs/hr/vukovar.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/croatia/1500x1500/vukovar.f7a880f3.png"
+  },
+  "football/clubs/hu/debrecen.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/hungary/1500x1500/debrecen.517ef33a.png"
+  },
+  "football/clubs/hu/diosgyor.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/hungary/1500x1500/diosgyor.46e36107.png"
+  },
+  "football/clubs/hu/fehervar.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/hungary/1500x1500/fehervar.83228c57.png"
+  },
+  "football/clubs/hu/ferencvaros.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/hungary/1500x1500/ferencvaros.9964e366.png"
+  },
+  "football/clubs/hu/gyor.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/hungary/1500x1500/gyor.93d4e04b.png"
+  },
+  "football/clubs/hu/kecskemet.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/hungary/1500x1500/kecskemet.fe3d2c88.png"
+  },
+  "football/clubs/hu/mtk.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/hungary/1500x1500/mtk.0d202450.png"
+  },
+  "football/clubs/hu/nyiregyhaza-spartacus.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/hungary/1500x1500/nyiregyhaza-spartacus.40b51bf6.png"
+  },
+  "football/clubs/hu/paksi.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/hungary/1500x1500/paksi.d2aaa05f.png"
+  },
+  "football/clubs/hu/puskas-akademia.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/hungary/1500x1500/puskas-akademia.cc957a1a.png"
+  },
+  "football/clubs/hu/ujpest.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/hungary/1500x1500/ujpest.f0ed99ef.png"
+  },
+  "football/clubs/hu/zte.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/hungary/1500x1500/zte.7a40bb7c.png"
+  },
+  "football/clubs/il/ashdod.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/israel/1500x1500/ashdod.5b9686e7.png"
+  },
+  "football/clubs/il/beitar-jerusalem.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/israel/1500x1500/beitar-jerusalem.1a40d35a.png"
+  },
+  "football/clubs/il/bnei-sakhnin.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/israel/1500x1500/bnei-sakhnin.059bb176.png"
+  },
+  "football/clubs/il/hapoel-beer-sheva.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/israel/1500x1500/hapoel-beer-sheva.f7af9d44.png"
+  },
+  "football/clubs/il/hapoel-haifa.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/israel/1500x1500/hapoel-haifa.1014c035.png"
+  },
+  "football/clubs/il/hapoel-jerusalem.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/israel/1500x1500/hapoel-jerusalem.4539848e.png"
+  },
+  "football/clubs/il/hapoel-kiryat-shmona.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/israel/1500x1500/hapoel-kiryat-shmona.7d4110a5.png"
+  },
+  "football/clubs/il/hapoel-petah-tikva.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/israel/1500x1500/hapoel-petah-tikva.4ec4d4a1.png"
+  },
+  "football/clubs/il/hapoel-ramat-gan.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/israel/1500x1500/hapoel-ramat-gan.b21af54b.png"
+  },
+  "football/clubs/il/hapoel-tel-aviv.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/israel/1500x1500/hapoel-tel-aviv.21bb0fa5.png"
+  },
+  "football/clubs/il/ironi-tiberias.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/israel/1500x1500/ironi-tiberias.4d331396.png"
+  },
+  "football/clubs/il/maccabi-bnei-reineh.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/israel/1500x1500/maccabi-bnei-reineh.ec2a516a.png"
+  },
+  "football/clubs/il/maccabi-haifa.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/israel/1500x1500/maccabi-haifa.3b6175ea.png"
+  },
+  "football/clubs/il/maccabi-netanya.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/israel/1500x1500/maccabi-netanya.2e71b3f3.png"
+  },
+  "football/clubs/il/maccabi-petah-tikva.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/israel/1500x1500/maccabi-petah-tikva.b6f31e99.png"
+  },
+  "football/clubs/il/maccabi-tel-aviv.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/israel/1500x1500/maccabi-tel-aviv.9071b48f.png"
+  },
+  "football/clubs/it/atalanta.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/atalanta.fff93c78.png"
+  },
+  "football/clubs/it/bologna.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/bologna.92dd0e4c.png"
+  },
+  "football/clubs/it/cagliari.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/cagliari.040c0e0d.png"
+  },
+  "football/clubs/it/como-1907.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/como-1907.2337f58e.png"
+  },
+  "football/clubs/it/cremonese.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/cremonese.dccb1bd2.png"
+  },
+  "football/clubs/it/empoli.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/empoli.ba34c4ff.png"
+  },
+  "football/clubs/it/fiorentina.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/fiorentina.3a19a902.png"
+  },
+  "football/clubs/it/frosinone.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/frosinone.d9a68220.png"
+  },
+  "football/clubs/it/genoa.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/genoa.d0ba6ce4.png"
+  },
+  "football/clubs/it/inter.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/inter.d4ebfb95.png"
+  },
+  "football/clubs/it/juventus.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/juventus.309408e0.png"
+  },
+  "football/clubs/it/lazio.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/lazio.b6301260.png"
+  },
+  "football/clubs/it/lecce.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/lecce.ee2489c4.png"
+  },
+  "football/clubs/it/milan.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/milan.6b4c62be.png"
+  },
+  "football/clubs/it/monza.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/monza.7f5ff4da.png"
+  },
+  "football/clubs/it/napoli.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/napoli.3e57a185.png"
+  },
+  "football/clubs/it/parma.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/parma.2df6ab2c.png"
+  },
+  "football/clubs/it/pisa.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/pisa.f6f656f1.png"
+  },
+  "football/clubs/it/roma.png": {
+    "license": null,
+    "notes": "Rendered from SVG at 3840px; football-logos.cc only has the retro ASR mark",
+    "retrieved": "2026-09-30",
+    "url": "https://it.wikipedia.org/wiki/File:AS_Roma_Logo_2017.svg"
+  },
+  "football/clubs/it/salernitana.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/salernitana.b1b01ff6.png"
+  },
+  "football/clubs/it/sampdoria.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/sampdoria.82421bf6.png"
+  },
+  "football/clubs/it/sassuolo.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/sassuolo.53f70920.png"
+  },
+  "football/clubs/it/spezia.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/spezia.b208b1a6.png"
+  },
+  "football/clubs/it/torino.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/torino.9469ee1c.png"
+  },
+  "football/clubs/it/udinese.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/udinese.e0c63894.png"
+  },
+  "football/clubs/it/venezia.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/venezia.2d3706e2.png"
+  },
+  "football/clubs/it/verona.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/italy/1500x1500/verona.9b0f2bae.png"
+  },
+  "football/clubs/nl/ado-den-haag.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/netherlands/1500x1500/ado-den-haag.11660ed1.png"
+  },
+  "football/clubs/nl/ajax.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/netherlands/1500x1500/ajax.ba64e68a.png"
+  },
+  "football/clubs/nl/almere-city-fc.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/netherlands/1500x1500/almere-city-fc.340e41fb.png"
+  },
+  "football/clubs/nl/az-alkmaar.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/netherlands/1500x1500/az-alkmaar.8ae443c1.png"
+  },
+  "football/clubs/nl/excelsior-rotterdam.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/netherlands/1500x1500/excelsior-rotterdam.8ed71923.png"
+  },
+  "football/clubs/nl/fc-emmen.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/netherlands/1500x1500/fc-emmen.e91a9740.png"
+  },
+  "football/clubs/nl/fc-groningen.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/netherlands/1500x1500/fc-groningen.9a36d1f8.png"
+  },
+  "football/clubs/nl/fc-utrecht.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/netherlands/1500x1500/fc-utrecht.e2efd9f4.png"
+  },
+  "football/clubs/nl/feyenoord.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/netherlands/1500x1500/feyenoord.6ee42168.png"
+  },
+  "football/clubs/nl/fortuna-sittard.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/netherlands/1500x1500/fortuna-sittard.f8eede25.png"
+  },
+  "football/clubs/nl/go-ahead-eagles.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/netherlands/1500x1500/go-ahead-eagles.f23fb216.png"
+  },
+  "football/clubs/nl/heracles-almelo.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/netherlands/1500x1500/heracles-almelo.67502a62.png"
+  },
+  "football/clubs/nl/nac-breda.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/netherlands/1500x1500/nac-breda.f10df3d9.png"
+  },
+  "football/clubs/nl/nec-nijmegen.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/netherlands/1500x1500/nec-nijmegen.2b23a93e.png"
+  },
+  "football/clubs/nl/pec-zwolle.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/netherlands/1500x1500/pec-zwolle.ec48634c.png"
+  },
+  "football/clubs/nl/psv.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/netherlands/1500x1500/psv.235a2590.png"
+  },
+  "football/clubs/nl/rkc-waalwijk.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/netherlands/1500x1500/rkc-waalwijk.c4ff262c.png"
+  },
+  "football/clubs/nl/sc-cambuur.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/netherlands/1500x1500/sc-cambuur.558a2b37.png"
+  },
+  "football/clubs/nl/sc-heerenveen.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/netherlands/1500x1500/sc-heerenveen.6fea520e.png"
+  },
+  "football/clubs/nl/sparta-rotterdam.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/netherlands/1500x1500/sparta-rotterdam.9e85179e.png"
+  },
+  "football/clubs/nl/telstar.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/netherlands/1500x1500/telstar.14c48b9d.png"
+  },
+  "football/clubs/nl/twente.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/netherlands/1500x1500/twente.ebf3d03a.png"
+  },
+  "football/clubs/nl/vitesse.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/netherlands/1500x1500/vitesse.6a980df2.png"
+  },
+  "football/clubs/nl/volendam.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/netherlands/1500x1500/volendam.85985465.png"
+  },
+  "football/clubs/nl/willem-ii.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/netherlands/1500x1500/willem-ii.18c35418.png"
+  },
+  "football/clubs/no/aalesund.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/norway/1500x1500/aalesund.1b3ff2f2.png"
+  },
+  "football/clubs/no/bodo-glimt.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/norway/1500x1500/bodo-glimt.1e2d214b.png"
+  },
+  "football/clubs/no/brann.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/norway/1500x1500/brann.bead92dd.png"
+  },
+  "football/clubs/no/bryne.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/norway/1500x1500/bryne.9da33017.png"
+  },
+  "football/clubs/no/fredrikstad.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/norway/1500x1500/fredrikstad.7671fbd0.png"
+  },
+  "football/clubs/no/hamkam.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/norway/1500x1500/hamkam.89962342.png"
+  },
+  "football/clubs/no/haugesund.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/norway/1500x1500/haugesund.ecc2c7ed.png"
+  },
+  "football/clubs/no/kfum.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/norway/1500x1500/kfum.9f82c65b.png"
+  },
+  "football/clubs/no/kristiansund.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/norway/1500x1500/kristiansund.1c17aa07.png"
+  },
+  "football/clubs/no/lillestrom.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/norway/1500x1500/lillestrom.e45f157b.png"
+  },
+  "football/clubs/no/molde.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/norway/1500x1500/molde.bbe87c40.png"
+  },
+  "football/clubs/no/odd.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/norway/1500x1500/odd.f4ae65d5.png"
+  },
+  "football/clubs/no/rosenborg.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/norway/1500x1500/rosenborg.cc3a449a.png"
+  },
+  "football/clubs/no/sandefjord.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/norway/1500x1500/sandefjord.b5942fa5.png"
+  },
+  "football/clubs/no/sarpsborg.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/norway/1500x1500/sarpsborg.4a3e2122.png"
+  },
+  "football/clubs/no/start.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/norway/1500x1500/start.de18d06e.png"
+  },
+  "football/clubs/no/stromsgodset.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/norway/1500x1500/stromsgodset.bb07eabf.png"
+  },
+  "football/clubs/no/tromso.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/norway/1500x1500/tromso.4e8c697a.png"
+  },
+  "football/clubs/no/valerenga.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/norway/1500x1500/valerenga.a083699b.png"
+  },
+  "football/clubs/no/viking.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/norway/1500x1500/viking.5cde2850.png"
+  },
+  "football/clubs/pl/arka.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/arka.187c9401.png"
+  },
+  "football/clubs/pl/bruk-bet-termalica-nieciecza.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/bruk-bet-termalica-nieciecza.2f450d68.png"
+  },
+  "football/clubs/pl/cracovia.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/cracovia.df2b6879.png"
+  },
+  "football/clubs/pl/gornik-leczna.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/gornik-leczna.0044a274.png"
+  },
+  "football/clubs/pl/gornik-zabrze.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/gornik-zabrze.d9dae98e.png"
+  },
+  "football/clubs/pl/jagiellonia.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/jagiellonia.6848e31a.png"
+  },
+  "football/clubs/pl/katowice.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/katowice.5e559958.png"
+  },
+  "football/clubs/pl/korona-kielce.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/korona-kielce.d6475ecd.png"
+  },
+  "football/clubs/pl/lech-poznan.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/lech-poznan.72f5ce3c.png"
+  },
+  "football/clubs/pl/lechia.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/lechia.e2858afb.png"
+  },
+  "football/clubs/pl/legia-warszawa.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/legia-warszawa.f288f658.png"
+  },
+  "football/clubs/pl/lks-lodz.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/lks-lodz.9ebc1436.png"
+  },
+  "football/clubs/pl/miedz.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/miedz.2eb4cd9f.png"
+  },
+  "football/clubs/pl/motor-lublin.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/motor-lublin.31c2e006.png"
+  },
+  "football/clubs/pl/piast.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/piast.bd7e2859.png"
+  },
+  "football/clubs/pl/pogon.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/pogon.324dbadb.png"
+  },
+  "football/clubs/pl/puszcza-niepolomice.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/puszcza-niepolomice.e38dc7b3.png"
+  },
+  "football/clubs/pl/radomiak.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/radomiak.cced3448.png"
+  },
+  "football/clubs/pl/rakow.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/rakow.5f086870.png"
+  },
+  "football/clubs/pl/ruch-chorzow.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/ruch-chorzow.1eb2e894.png"
+  },
+  "football/clubs/pl/slask.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/slask.fc5845bd.png"
+  },
+  "football/clubs/pl/stal-mielec.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/stal-mielec.d9791135.png"
+  },
+  "football/clubs/pl/warta.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/warta.4d23371c.png"
+  },
+  "football/clubs/pl/widzew.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/widzew.d721b848.png"
+  },
+  "football/clubs/pl/wieczysta-krakow.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/wieczysta-krakow.7bfd9f15.png"
+  },
+  "football/clubs/pl/wisla-krakow.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/wisla-krakow.2c292621.png"
+  },
+  "football/clubs/pl/wisla-plock.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/wisla-plock.acb81ef9.png"
+  },
+  "football/clubs/pl/zaglebie-lubin.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/poland/1500x1500/zaglebie-lubin.d0d41c0d.png"
+  },
+  "football/clubs/pt/academico-de-viseu.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/academico-de-viseu.75885fc3.png"
+  },
+  "football/clubs/pt/alverca.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/alverca.3a8c4cad.png"
+  },
+  "football/clubs/pt/arouca.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/arouca.e35efe13.png"
+  },
+  "football/clubs/pt/avs-futebol-sad.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/avs-futebol-sad.43098666.png"
+  },
+  "football/clubs/pt/belenenses-sad.png": {
+    "license": null,
+    "notes": "github.com/luukhopman/football-logos (139x181 fallback)",
+    "retrieved": "2026-09-30",
+    "url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2021-22/Portugal%20-%20Liga%20Portugal/Belenenses%20SAD.png"
+  },
+  "football/clubs/pt/benfica.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/benfica.0e20d1a2.png"
+  },
+  "football/clubs/pt/boavista.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/boavista.6ebfc08e.png"
+  },
+  "football/clubs/pt/casa-pia-ac.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/casa-pia-ac.e1721548.png"
+  },
+  "football/clubs/pt/chaves.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/chaves.8e29dc40.png"
+  },
+  "football/clubs/pt/estoril.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/estoril.72c556cd.png"
+  },
+  "football/clubs/pt/estrela-da-amadora.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/estrela-da-amadora.32b5649a.png"
+  },
+  "football/clubs/pt/famalicao.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/famalicao.1dec14df.png"
+  },
+  "football/clubs/pt/farense.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/farense.d7a69a5c.png"
+  },
+  "football/clubs/pt/fc-porto.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/fc-porto.bef0a887.png"
+  },
+  "football/clubs/pt/gil-vicente.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/gil-vicente.00888246.png"
+  },
+  "football/clubs/pt/maritimo.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/maritimo.d3707b06.png"
+  },
+  "football/clubs/pt/moreirense.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/moreirense.12b44834.png"
+  },
+  "football/clubs/pt/nacional-da-madeira.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/nacional-da-madeira.dc86b182.png"
+  },
+  "football/clubs/pt/pacos-ferreira.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/pacos-ferreira.229ddc43.png"
+  },
+  "football/clubs/pt/portimonense.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/portimonense.3e02cf38.png"
+  },
+  "football/clubs/pt/rio-ave.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/rio-ave.a1044fdb.png"
+  },
+  "football/clubs/pt/santa-clara.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/santa-clara.fae04370.png"
+  },
+  "football/clubs/pt/sc-braga.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/sc-braga.8eb466f0.png"
+  },
+  "football/clubs/pt/sporting-cp.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/sporting-cp.ac57eada.png"
+  },
+  "football/clubs/pt/tondela.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/tondela.95f8f2d1.png"
+  },
+  "football/clubs/pt/vitoria-de-guimaraes.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/vitoria-de-guimaraes.68114d60.png"
+  },
+  "football/clubs/pt/vizela.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/portugal/1500x1500/vizela.5a1a1cc5.png"
+  },
+  "football/clubs/ro/arges-pitesti.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/romania/1500x1500/arges-pitesti.f3594adb.png"
+  },
+  "football/clubs/ro/botosani.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/romania/1500x1500/botosani.e6708165.png"
+  },
+  "football/clubs/ro/buzau.png": {
+    "license": null,
+    "notes": "github.com/luukhopman/football-logos (139x181 fallback)",
+    "retrieved": "2026-09-30",
+    "url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2024-25/Romania%20-%20SuperLiga/FC%20Buz%C4%83u.png"
+  },
+  "football/clubs/ro/cfr-cluj.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/romania/1500x1500/cfr-cluj.872cb3c3.png"
+  },
+  "football/clubs/ro/corvinul-hunedoara.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/romania/1500x1500/corvinul-hunedoara.ea015dd8.png"
+  },
+  "football/clubs/ro/csikszereda.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/romania/1500x1500/csikszereda.f964912c.png"
+  },
+  "football/clubs/ro/dinamo-bucuresti.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/romania/1500x1500/dinamo-bucuresti.6ae2aa03.png"
+  },
+  "football/clubs/ro/farul-constanta.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/romania/1500x1500/farul-constanta.51103c20.png"
+  },
+  "football/clubs/ro/fcsb.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/romania/1500x1500/fcsb.e94ef23e.png"
+  },
+  "football/clubs/ro/hermannstadt.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/romania/1500x1500/hermannstadt.8ee93238.png"
+  },
+  "football/clubs/ro/metaloglobus.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/romania/1500x1500/metaloglobus.77ff7c9d.png"
+  },
+  "football/clubs/ro/otelul.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/romania/1500x1500/otelul.4a1476e2.png"
+  },
+  "football/clubs/ro/petrolul-ploiesti.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/romania/1500x1500/petrolul-ploiesti.430a0723.png"
+  },
+  "football/clubs/ro/poli-iasi.png": {
+    "license": null,
+    "notes": "github.com/luukhopman/football-logos (139x181 fallback)",
+    "retrieved": "2026-09-30",
+    "url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2024-25/Romania%20-%20SuperLiga/ACSM%20Politehnica%20Iasi.png"
+  },
+  "football/clubs/ro/rapid-bucuresti.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/romania/1500x1500/rapid-bucuresti.0e0e409c.png"
+  },
+  "football/clubs/ro/sepsi.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/romania/1500x1500/sepsi.6efa29d3.png"
+  },
+  "football/clubs/ro/u-cluj.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/romania/1500x1500/u-cluj.68c35678.png"
+  },
+  "football/clubs/ro/u-craiova.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/romania/1500x1500/u-craiova.91d5e80e.png"
+  },
+  "football/clubs/ro/unirea-slobozia.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/romania/1500x1500/unirea-slobozia.26598a5f.png"
+  },
+  "football/clubs/ro/uta.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/romania/1500x1500/uta.f9350037.png"
+  },
+  "football/clubs/ro/voluntari.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/romania/1500x1500/voluntari.4042acc4.png"
+  },
+  "football/clubs/rs/crvena-zvezda.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/serbia/1500x1500/crvena-zvezda.4501615b.png"
+  },
+  "football/clubs/rs/cukaricki.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/serbia/1500x1500/cukaricki.80fcad0e.png"
+  },
+  "football/clubs/rs/fk-zemun.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/serbia/1500x1500/fk-zemun.698f5915.png"
+  },
+  "football/clubs/rs/imt.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/serbia/1500x1500/imt.b156562f.png"
+  },
+  "football/clubs/rs/javor.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/serbia/1500x1500/javor.cdbfe3e4.png"
+  },
+  "football/clubs/rs/jedinstvo-ub.png": {
+    "license": null,
+    "notes": "github.com/luukhopman/football-logos (139x181 fallback)",
+    "retrieved": "2026-09-30",
+    "url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2024-25/Serbia%20-%20Super%20liga%20Srbije/FK%20Jedinstvo%20Ub.png"
+  },
+  "football/clubs/rs/kolubara-lazarevac.png": {
+    "license": null,
+    "notes": "github.com/luukhopman/football-logos (139x181 fallback)",
+    "retrieved": "2026-09-30",
+    "url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2021-22/Serbia%20-%20Super%20liga%20Srbije/FK%20Kolubara%20Lazarevac.png"
+  },
+  "football/clubs/rs/macva-sabac.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/serbia/1500x1500/macva-sabac.a2645e72.png"
+  },
+  "football/clubs/rs/metalac.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/serbia/1500x1500/metalac.224aff53.png"
+  },
+  "football/clubs/rs/mladost-lucani.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/serbia/1500x1500/mladost-lucani.2bdcfa62.png"
+  },
+  "football/clubs/rs/napredak.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/serbia/1500x1500/napredak.8279f467.png"
+  },
+  "football/clubs/rs/novi-pazar.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/serbia/1500x1500/novi-pazar.aa5ebf0d.png"
+  },
+  "football/clubs/rs/ofk-beograd.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/serbia/1500x1500/ofk-beograd.38df9ea5.png"
+  },
+  "football/clubs/rs/partizan.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/serbia/1500x1500/partizan.5de0eb7f.png"
+  },
+  "football/clubs/rs/proleter-novi-sad.png": {
+    "license": null,
+    "notes": "github.com/luukhopman/football-logos (139x181 fallback)",
+    "retrieved": "2026-09-30",
+    "url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2021-22/Serbia%20-%20Super%20liga%20Srbije/FK%20Proleter%20Novi%20Sad.png"
+  },
+  "football/clubs/rs/radnicki-1923.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/serbia/1500x1500/radnicki-1923.0150f1e1.png"
+  },
+  "football/clubs/rs/radnicki-nis.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/serbia/1500x1500/radnicki-nis.78c175c3.png"
+  },
+  "football/clubs/rs/radnik-surdulica.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/serbia/1500x1500/radnik-surdulica.cb6ff003.png"
+  },
+  "football/clubs/rs/spartak-subotica.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/serbia/1500x1500/spartak-subotica.dce75e02.png"
+  },
+  "football/clubs/rs/tekstilac-odzaci.png": {
+    "license": null,
+    "notes": "github.com/luukhopman/football-logos (139x181 fallback)",
+    "retrieved": "2026-09-30",
+    "url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2024-25/Serbia%20-%20Super%20liga%20Srbije/FK%20Tekstilac%20Odzaci.png"
+  },
+  "football/clubs/rs/tsc.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/serbia/1500x1500/tsc.10554c0b.png"
+  },
+  "football/clubs/rs/vojvodina.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/serbia/1500x1500/vojvodina.52d9f6a5.png"
+  },
+  "football/clubs/rs/vozdovac.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/serbia/1500x1500/vozdovac.b70e04c5.png"
+  },
+  "football/clubs/rs/zeleznicar-pancevo.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/serbia/1500x1500/zeleznicar-pancevo.b7aa22d0.png"
+  },
+  "football/clubs/ru/akhmat.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/russia/1500x1500/akhmat.9a38fda5.png"
+  },
+  "football/clubs/ru/akron.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/russia/1500x1500/akron.27de2bc5.png"
+  },
+  "football/clubs/ru/arsenal-tula.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/russia/1500x1500/arsenal-tula.ba6597c2.png"
+  },
+  "football/clubs/ru/baltika.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/russia/1500x1500/baltika.b4c4f0b4.png"
+  },
+  "football/clubs/ru/cska-moskva.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/russia/1500x1500/cska-moskva.f27945a6.png"
+  },
+  "football/clubs/ru/dynamo-makhachkala.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/russia/1500x1500/dynamo-makhachkala.3a3da0fe.png"
+  },
+  "football/clubs/ru/dynamo-moscow.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/russia/1500x1500/dynamo-moscow.5b427906.png"
+  },
+  "football/clubs/ru/fakel.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/russia/1500x1500/fakel.b5f8f5a5.png"
+  },
+  "football/clubs/ru/khimki.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/russia/1500x1500/khimki.3125ce66.png"
+  },
+  "football/clubs/ru/krasnodar.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/russia/1500x1500/krasnodar.302a2713.png"
+  },
+  "football/clubs/ru/krylya-sovetov.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/russia/1500x1500/krylya-sovetov.7561bec9.png"
+  },
+  "football/clubs/ru/lokomotiv-moskva.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/russia/1500x1500/lokomotiv-moskva.e7c411b6.png"
+  },
+  "football/clubs/ru/nizhny-novgorod.png": {
+    "license": null,
+    "notes": "github.com/luukhopman/football-logos (139x181 fallback)",
+    "retrieved": "2026-09-30",
+    "url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2025-26/Russia%20-%20Premier%20Liga/FC%20Pari%20Nizhniy%20Novgorod.png"
+  },
+  "football/clubs/ru/orenburg.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/russia/1500x1500/orenburg.0f859d70.png"
+  },
+  "football/clubs/ru/rodina-moscow.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/russia/1500x1500/rodina-moscow.64b32008.png"
+  },
+  "football/clubs/ru/rostov.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/russia/1500x1500/rostov.e1757b5d.png"
+  },
+  "football/clubs/ru/rubin.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/russia/1500x1500/rubin.30401160.png"
+  },
+  "football/clubs/ru/sochi.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/russia/1500x1500/sochi.2f2eb27c.png"
+  },
+  "football/clubs/ru/spartak-moskva.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/russia/1500x1500/spartak-moskva.daf7dfe0.png"
+  },
+  "football/clubs/ru/torpedo-moskva.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/russia/1500x1500/torpedo-moskva.58565c49.png"
+  },
+  "football/clubs/ru/ufa.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/russia/1500x1500/ufa.25cf412d.png"
+  },
+  "football/clubs/ru/ural.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/russia/1500x1500/ural.3643a827.png"
+  },
+  "football/clubs/ru/zenit.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/russia/1500x1500/zenit.4834422a.png"
+  },
+  "football/clubs/se/aik.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/sweden/1500x1500/aik.896fe944.png"
+  },
+  "football/clubs/se/brommapojkarna.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/sweden/1500x1500/brommapojkarna.76ff86a2.png"
+  },
+  "football/clubs/se/degerfors.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/sweden/1500x1500/degerfors.34b3e3b4.png"
+  },
+  "football/clubs/se/djurgarden.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/sweden/1500x1500/djurgarden.8b0380a1.png"
+  },
+  "football/clubs/se/elfsborg.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/sweden/1500x1500/elfsborg.61e14696.png"
+  },
+  "football/clubs/se/gais.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/sweden/1500x1500/gais.968386e6.png"
+  },
+  "football/clubs/se/gif-sundsvall.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/sweden/1500x1500/gif-sundsvall.291f3c5d.png"
+  },
+  "football/clubs/se/goteborg.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/sweden/1500x1500/goteborg.b49379fe.png"
+  },
+  "football/clubs/se/hacken.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/sweden/1500x1500/hacken.8b1dd979.png"
+  },
+  "football/clubs/se/halmstad.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/sweden/1500x1500/halmstad.f33ebc82.png"
+  },
+  "football/clubs/se/hammarby.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/sweden/1500x1500/hammarby.bf5c0370.png"
+  },
+  "football/clubs/se/helsingborg.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/sweden/1500x1500/helsingborg.9d6e6e75.png"
+  },
+  "football/clubs/se/kalmar.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/sweden/1500x1500/kalmar.5177ead0.png"
+  },
+  "football/clubs/se/malmo.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/sweden/1500x1500/malmo.f915f34b.png"
+  },
+  "football/clubs/se/mjallby.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/sweden/1500x1500/mjallby.a0e1819a.png"
+  },
+  "football/clubs/se/norrkoping.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/sweden/1500x1500/norrkoping.cdb5114b.png"
+  },
+  "football/clubs/se/orgryte.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/sweden/1500x1500/orgryte.d87f0895.png"
+  },
+  "football/clubs/se/osters-if.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/sweden/1500x1500/osters-if.ba733bdf.png"
+  },
+  "football/clubs/se/sirius.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/sweden/1500x1500/sirius.3d6c078c.png"
+  },
+  "football/clubs/se/varbergs-bois.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/sweden/1500x1500/varbergs-bois.f88be1e0.png"
+  },
+  "football/clubs/se/varnamo.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/sweden/1500x1500/varnamo.bed4b115.png"
+  },
+  "football/clubs/se/wasteras.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/sweden/1500x1500/wasteras.5d1ba90b.png"
+  },
+  "football/clubs/tr/adana-demirspor.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/adana-demirspor.531fd93a.png"
+  },
+  "football/clubs/tr/alanyaspor.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/alanyaspor.273f4ad1.png"
+  },
+  "football/clubs/tr/altay.png": {
+    "license": null,
+    "notes": "github.com/luukhopman/football-logos (139x181 fallback)",
+    "retrieved": "2026-09-30",
+    "url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2021-22/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Altay%20SK.png"
+  },
+  "football/clubs/tr/amed.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/amed.f1f25a66.png"
+  },
+  "football/clubs/tr/ankaragucu.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/ankaragucu.9ebab782.png"
+  },
+  "football/clubs/tr/antalyaspor.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/antalyaspor.e69e695e.png"
+  },
+  "football/clubs/tr/basaksehir.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/basaksehir.18e3925c.png"
+  },
+  "football/clubs/tr/besiktas.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/besiktas.e05ee6ce.png"
+  },
+  "football/clubs/tr/bodrum-fk.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/bodrum-fk.722a0fd4.png"
+  },
+  "football/clubs/tr/corum.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/corum.6565bf1b.png"
+  },
+  "football/clubs/tr/erzurumspor.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/erzurumspor.f2655d13.png"
+  },
+  "football/clubs/tr/eyupspor.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/eyupspor.0dcd211d.png"
+  },
+  "football/clubs/tr/fatih-karagumruk.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/fatih-karagumruk.e4b1b9f8.png"
+  },
+  "football/clubs/tr/fenerbahce.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/fenerbahce.f49fe460.png"
+  },
+  "football/clubs/tr/galatasaray.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/galatasaray.a30b6ee6.png"
+  },
+  "football/clubs/tr/gaziantep.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/gaziantep.cf6c7b60.png"
+  },
+  "football/clubs/tr/genclerbirligi.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/genclerbirligi.e4cf70a6.png"
+  },
+  "football/clubs/tr/giresunspor.png": {
+    "license": null,
+    "notes": "github.com/luukhopman/football-logos (139x181 fallback)",
+    "retrieved": "2026-09-30",
+    "url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2022-23/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Giresunspor.png"
+  },
+  "football/clubs/tr/goztepe-izmir.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/goztepe-izmir.f22c729a.png"
+  },
+  "football/clubs/tr/hatayspor.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/hatayspor.05358506.png"
+  },
+  "football/clubs/tr/istanbulspor.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/istanbulspor.7eb426a4.png"
+  },
+  "football/clubs/tr/kasimpasa.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/kasimpasa.0688b67b.png"
+  },
+  "football/clubs/tr/kayserispor.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/kayserispor.ebaf1992.png"
+  },
+  "football/clubs/tr/kocaelispor.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/kocaelispor.77c52592.png"
+  },
+  "football/clubs/tr/konyaspor.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/konyaspor.2af53489.png"
+  },
+  "football/clubs/tr/pendikspor.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/pendikspor.af6b2116.png"
+  },
+  "football/clubs/tr/rizespor.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/rizespor.bb8c7526.png"
+  },
+  "football/clubs/tr/samsunspor.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/samsunspor.66d1e321.png"
+  },
+  "football/clubs/tr/sivasspor.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/sivasspor.6e755a26.png"
+  },
+  "football/clubs/tr/trabzonspor.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/trabzonspor.dea11b78.png"
+  },
+  "football/clubs/tr/umraniyespor.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/turkey/1500x1500/umraniyespor.f9ae4523.png"
+  },
+  "football/clubs/tr/y-malatyaspor.png": {
+    "license": null,
+    "notes": "github.com/luukhopman/football-logos (139x181 fallback)",
+    "retrieved": "2026-09-30",
+    "url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2021-22/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Y.%20Malatyaspor.png"
+  },
+  "football/clubs/ua/bukovyna.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/ukraine/1500x1500/bukovyna.a0efbbff.png"
+  },
+  "football/clubs/ua/chornomorets.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/ukraine/1500x1500/chornomorets.87b3963c.png"
+  },
+  "football/clubs/ua/desna.png": {
+    "license": null,
+    "notes": "github.com/luukhopman/football-logos (139x181 fallback)",
+    "retrieved": "2026-09-30",
+    "url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2021-22/Ukraine%20-%20Premier%20Liga/Desna.png"
+  },
+  "football/clubs/ua/dnipro-1.png": {
+    "license": null,
+    "notes": "github.com/luukhopman/football-logos (139x181 fallback)",
+    "retrieved": "2026-09-30",
+    "url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2023-24/Ukraine%20-%20Premier%20Liga/SK%20Dnipro-1.png"
+  },
+  "football/clubs/ua/dynamo-kyiv.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/ukraine/1500x1500/dynamo-kyiv.ed5b7dde.png"
+  },
+  "football/clubs/ua/epicentr-kamyanets-podilskyi.png": {
+    "license": null,
+    "notes": "github.com/luukhopman/football-logos (139x181 fallback)",
+    "retrieved": "2026-09-30",
+    "url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Ukraine%20-%20Premier%20Liga/Epicentr%20Kamyanets-Podilskyi.png"
+  },
+  "football/clubs/ua/fc-kharkiv.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/ukraine/1500x1500/fc-kharkiv.079efa7e.png"
+  },
+  "football/clubs/ua/fc-metalist-1925-kharkiv.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/ukraine/1500x1500/fc-metalist-1925-kharkiv.2dab2118.png"
+  },
+  "football/clubs/ua/inhulets-petrove.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/ukraine/1500x1500/inhulets-petrove.39669ed1.png"
+  },
+  "football/clubs/ua/karpaty.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/ukraine/1500x1500/karpaty.2211e81f.png"
+  },
+  "football/clubs/ua/kolos-kovalivka.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/ukraine/1500x1500/kolos-kovalivka.4958b8cc.png"
+  },
+  "football/clubs/ua/kryvbas.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/ukraine/1500x1500/kryvbas.a98dcc4d.png"
+  },
+  "football/clubs/ua/kudrivka.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/ukraine/1500x1500/kudrivka.76ccdb35.png"
+  },
+  "football/clubs/ua/livyi-bereh.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/ukraine/1500x1500/livyi-bereh.e503a2d2.png"
+  },
+  "football/clubs/ua/lnz-cherkasy.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/ukraine/1500x1500/lnz-cherkasy.37f04469.png"
+  },
+  "football/clubs/ua/mariupol.png": {
+    "license": null,
+    "notes": "github.com/luukhopman/football-logos (139x181 fallback)",
+    "retrieved": "2026-09-30",
+    "url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2021-22/Ukraine%20-%20Premier%20Liga/FK%20Mariupol.png"
+  },
+  "football/clubs/ua/metalist.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/ukraine/1500x1500/metalist.47debf82.png"
+  },
+  "football/clubs/ua/minaj.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/ukraine/1500x1500/minaj.ff1d02d2.png"
+  },
+  "football/clubs/ua/obolon.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/ukraine/1500x1500/obolon.f279e2d4.png"
+  },
+  "football/clubs/ua/olexandriya.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/ukraine/1500x1500/olexandriya.c5b6f504.png"
+  },
+  "football/clubs/ua/pfk-lviv.png": {
+    "license": null,
+    "notes": "github.com/luukhopman/football-logos (139x181 fallback)",
+    "retrieved": "2026-09-30",
+    "url": "https://raw.githubusercontent.com/luukhopman/football-logos/master/history/2022-23/Ukraine%20-%20Premier%20Liga/PFK%20Lviv.png"
+  },
+  "football/clubs/ua/polissya.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/ukraine/1500x1500/polissya.878661b8.png"
+  },
+  "football/clubs/ua/rukh-lviv.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/ukraine/1500x1500/rukh-lviv.ed734e27.png"
+  },
+  "football/clubs/ua/shakhtar.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/ukraine/1500x1500/shakhtar.b3b80aef.png"
+  },
+  "football/clubs/ua/sk-poltava.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/ukraine/1500x1500/sk-poltava.656c548a.png"
+  },
+  "football/clubs/ua/veres.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/ukraine/1500x1500/veres.64af1eda.png"
+  },
+  "football/clubs/ua/vorskla-poltava.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/ukraine/1500x1500/vorskla-poltava.0bf21846.png"
+  },
+  "football/clubs/ua/zorya-luhansk.png": {
+    "license": null,
+    "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
+    "retrieved": "2026-09-30",
+    "url": "https://assets.football-logos.cc/logos/ukraine/1500x1500/zorya-luhansk.76edc512.png"
+  },
   "football/competitions/asia/saudi-pro-league.png": {
     "license": null,
     "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",

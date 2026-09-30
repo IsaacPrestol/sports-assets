@@ -11,8 +11,8 @@
   },
   "Austria|FC Blau-Weiss Linz": {
     "id": "blau-weiss-linz",
-    "slug": "bw-linz",
-    "source": "football-logos"
+    "slug": null,
+    "source": "luukhopman"
   },
   "Austria|Grazer AK 1902": {
     "id": "grazer-ak",
@@ -301,8 +301,8 @@
   },
   "Bulgaria|Levski Sofia": {
     "id": "levski",
-    "slug": "levski",
-    "source": "football-logos"
+    "slug": null,
+    "source": "luukhopman"
   },
   "Bulgaria|Lokomotiv Plovdiv": {
     "id": "lokomotiv-plovdiv",
