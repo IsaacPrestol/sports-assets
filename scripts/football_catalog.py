@@ -22,6 +22,11 @@ REQUIRED_FIELDS = (
     "continent", "confederation", "country", "logo", "collage",
 )
 ID_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
+# Letters that NFKD does not split into a base letter plus a combining mark.
+TRANSLITERATIONS = str.maketrans({
+    "ø": "o", "Ø": "o", "æ": "ae", "Æ": "ae", "œ": "oe", "Œ": "oe", "ł": "l", "Ł": "l",
+    "ı": "i", "đ": "d", "Đ": "d", "ð": "d", "Ð": "d", "þ": "th", "Þ": "th", "ß": "ss",
+})
 
 
 def load_catalog(path: Path = CATALOG_FILE) -> dict:
@@ -29,7 +34,7 @@ def load_catalog(path: Path = CATALOG_FILE) -> dict:
 
 
 def normalize_name(value: str) -> str:
-    decomposed = unicodedata.normalize("NFKD", value)
+    decomposed = unicodedata.normalize("NFKD", value.translate(TRANSLITERATIONS))
     without_marks = "".join(c for c in decomposed if not unicodedata.combining(c))
     return " ".join(re.sub(r"[^a-z0-9]+", " ", without_marks.lower()).split())
 

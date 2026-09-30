@@ -45,6 +45,13 @@ class NormalizeNameTest(unittest.TestCase):
         self.assertEqual(normalize_name("  Trophée   des-Champions "), "trophee des champions")
         self.assertEqual(normalize_name("DFB-Pokal"), "dfb pokal")
 
+    def test_transliterates_letters_without_decomposition(self):
+        self.assertEqual(normalize_name("Wisła Kraków"), "wisla krakow")
+        self.assertEqual(normalize_name("Brøndby"), "brondby")
+        self.assertEqual(normalize_name("FC Nordsjælland"), "fc nordsjaelland")
+        self.assertEqual(normalize_name("Kasımpaşa"), "kasimpasa")
+        self.assertEqual(normalize_name("Đakovo Straße Œuvre"), "dakovo strasse oeuvre")
+
     def test_only_symbols_normalizes_to_empty(self):
         self.assertEqual(normalize_name("—!!"), "")
 

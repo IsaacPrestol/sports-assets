@@ -165,19 +165,23 @@ def propose(luuk: dict, mapping: dict, fl_slugs: dict[str, list[str]],
     return proposals
 
 
-def _drop_colliding_aliases(by_id: dict[str, dict], new_ids: set[str]) -> list[str]:
+def _drop_colliding_aliases(by_id: dict[str, dict], added: dict[str, list[str]]) -> list[str]:
+    """Drop the aliases listed in `added` that collide with another club of the same country."""
     owners: dict[tuple[str, str], str] = {}
     for club in by_id.values():
-        names = [club["id"], club["name"]]
-        if club["id"] not in new_ids:
-            names += club["aliases"]
+        fresh = {normalize_name(alias) for alias in added.get(club["id"], [])}
+        names = [club["id"], club["name"], *(a for a in club["aliases"] if normalize_name(a) not in fresh)]
         for name in names:
             owners.setdefault((club["country"], normalize_name(name)), club["id"])
     skipped = []
-    for club_id in sorted(new_ids):
+    for club_id in sorted(added):
         club = by_id[club_id]
+        fresh = set(added[club_id])
         kept = []
         for alias in club["aliases"]:
+            if alias not in fresh:
+                kept.append(alias)
+                continue
             key = (club["country"], normalize_name(alias))
             owner = owners.setdefault(key, club_id)
             if owner == club_id:
@@ -190,12 +194,12 @@ def _drop_colliding_aliases(by_id: dict[str, dict], new_ids: set[str]) -> list[s
 
 def merge_clubs(existing: list[dict], mapping: dict, luuk: dict,
                 missing_logos: set[str] = frozenset()) -> tuple[list[dict], list[str]]:
-    by_id = {club["id"]: dict(club) for club in existing}
+    by_id = {club["id"]: dict(club, aliases=list(club["aliases"])) for club in existing}
     keys_by_id: dict[str, list[str]] = {}
     for key in sorted(mapping):
         keys_by_id.setdefault(mapping[key]["id"], []).append(key)
 
-    new_ids = set()
+    added: dict[str, list[str]] = {}
     for club_id, keys in keys_by_id.items():
         entries = [luuk[key] for key in keys if key in luuk]
         if not entries:
@@ -205,23 +209,51 @@ def merge_clubs(existing: list[dict], mapping: dict, luuk: dict,
         league = LEAGUE_IDS[current[0]["league_folder"]] if current else None
         logo = None if club_id in missing_logos else f"{CLUBS_DIR}/{country.lower()}/{club_id}.png"
         if club_id in by_id:
-            by_id[club_id].update(league=league, logo=logo)
+            club = by_id[club_id]
+            club.update(league=league, logo=logo)
+            known = {normalize_name(n) for n in [club["id"], club["name"], *club["aliases"]]}
+            new_names = []
+            for entry in entries:
+                if normalize_name(entry["name"]) not in known:
+                    known.add(normalize_name(entry["name"]))
+                    new_names.append(entry["name"])
+            if new_names:
+                club["aliases"].extend(new_names)
+                added[club_id] = new_names
             continue
         latest = max(entries, key=lambda entry: entry["latest_season"])
         slug = next((mapping[key]["slug"] for key in keys if mapping[key].get("slug")), None)
+        aliases = auto_aliases(latest["name"], [entry["name"] for entry in entries], slug)
         by_id[club_id] = {
             "id": club_id,
             "name": latest["name"],
-            "aliases": auto_aliases(latest["name"], [entry["name"] for entry in entries], slug),
+            "aliases": aliases,
             "country": country,
             "league": league,
             "logo": logo,
         }
-        new_ids.add(club_id)
+        added[club_id] = list(aliases)
 
-    skipped = _drop_colliding_aliases(by_id, new_ids)
+    skipped = _drop_colliding_aliases(by_id, added)
     clubs = sorted(by_id.values(), key=lambda club: (club["country"], club["id"]))
     return clubs, skipped
+
+
+def finalize_clubs(existing: list[dict], mapping: dict, luuk: dict,
+                   missing_logos: set[str] = frozenset()) -> tuple[list[dict], list[str], list[str]]:
+    """Merge and check the per-country lookup, so callers can refuse to write a broken catalog."""
+    clubs, skipped = merge_clubs(existing, mapping, luuk, missing_logos)
+    return clubs, skipped, build_club_lookup(clubs)[1]
+
+
+def unknown_folders(luuk: dict) -> list[str]:
+    problems = set()
+    for club in luuk.values():
+        if club["country_folder"] not in COUNTRY_CODES:
+            problems.add(f"Unknown luukhopman country folder: '{club['country_folder']}'")
+        if club["league_folder"] and club["league_folder"] not in LEAGUE_IDS:
+            problems.add(f"Unknown luukhopman league folder: '{club['league_folder']}'")
+    return sorted(problems)
 
 
 def build_club_lookup(clubs: list[dict]) -> tuple[dict[str, dict[str, str]], list[str]]:

@@ -36,7 +36,6 @@
       "id": "blau-weiss-linz",
       "name": "FC Blau-Weiss Linz",
       "aliases": [
-        "Bw Linz",
         "blau weiss linz"
       ],
       "country": "AT",
@@ -482,9 +481,7 @@
     {
       "id": "levski",
       "name": "Levski Sofia",
-      "aliases": [
-        "Levski"
-      ],
+      "aliases": [],
       "country": "BG",
       "league": "bulgarian-first-league",
       "logo": "football/clubs/bg/levski.png"
@@ -1350,8 +1347,7 @@
       "id": "alaves",
       "name": "Deportivo Alavés",
       "aliases": [
-        "Alavés",
-        "Deportivo"
+        "Alavés"
       ],
       "country": "ES",
       "league": "laliga",
@@ -1818,9 +1814,7 @@
     {
       "id": "paris-fc",
       "name": "Paris FC",
-      "aliases": [
-        "paris"
-      ],
+      "aliases": [],
       "country": "FR",
       "league": "ligue-1",
       "logo": "football/clubs/fr/paris-fc.png"
@@ -3422,8 +3416,9 @@
       "id": "bodo-glimt",
       "name": "FK BodøGlimt",
       "aliases": [
+        "FK Bodø Glimt",
         "Bodo Glimt",
-        "bod glimt"
+        "bodoglimt"
       ],
       "country": "NO",
       "league": "eliteserien",
@@ -3503,8 +3498,7 @@
       "id": "lillestrom",
       "name": "Lillestrøm SK",
       "aliases": [
-        "Lillestrom",
-        "lillestr m"
+        "Lillestrom"
       ],
       "country": "NO",
       "league": "eliteserien",
@@ -3575,8 +3569,7 @@
       "id": "stromsgodset",
       "name": "Strømsgodset IF",
       "aliases": [
-        "Stromsgodset",
-        "str msgodset"
+        "Stromsgodset"
       ],
       "country": "NO",
       "league": null,

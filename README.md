@@ -98,7 +98,7 @@ Los logos están en `football/competitions/<continente>/<id>.png`: PNG transpare
 
 ### Uso desde una app
 
-1. Normaliza el nombre que recibes: quita tildes, pasa a minúsculas, cambia todo lo que no sea letra o número por un espacio y colapsa los espacios (`"LaLiga EA Sports"` → `"laliga ea sports"`).
+1. Normaliza el nombre que recibes: quita tildes, translitera letras como ł, ø, æ o ı, pasa a minúsculas, cambia todo lo que no sea letra o número por un espacio y colapsa los espacios (`"LaLiga EA Sports"` → `"laliga ea sports"`).
 2. Búscalo en `data/football/competitions-lookup.json` para obtener el `id`.
 3. Busca ese `id` en `data/football/competitions.json` para obtener `logo`.
 4. Si tu fuente indica el país, compáralo con `country` (o con `confederation` en torneos internacionales). Si no coinciden, trátalo como "sin logo": nombres como "Premier League", "Serie A", "Bundesliga" o "Ligue 1" también los usan ligas de otros países.
@@ -137,8 +137,8 @@ Los escudos están en `football/clubs/<país>/<id>.png`. La carpeta no cambia cu
 
 ### Uso desde una app
 
-1. Normaliza el nombre igual que con las competiciones (`"Real Madrid CF"` → `"real madrid cf"`).
-2. Búscalo en `data/football/clubs-lookup.json` **dentro de su país**: `lookup["ES"]["real madrid cf"]` → `real-madrid`. Hay nombres que se repiten entre países ("Sporting", "Dinamo"), por eso el país es obligatorio.
+1. Normaliza el nombre igual que con las competiciones: quita tildes, translitera letras como ł, ø, æ o ı (`"Wisła Kraków"` → `"wisla krakow"`), pasa a minúsculas y cambia lo que no sea letra o número por un espacio.
+2. Búscalo en `data/football/clubs-lookup.json` **dentro de su país**: `lookup["ES"]["real madrid"]` → `real-madrid`. Hay nombres que se repiten entre países ("Sporting", "Dinamo"), por eso el país es obligatorio. Solo se encuentran el `id`, el `name` y los `aliases` del club; si tu fuente usa otro nombre, añádelo como alias en `clubs.json`.
 3. Busca ese `id` en `data/football/clubs.json` para obtener `logo`.
 4. Construye la URL:
 

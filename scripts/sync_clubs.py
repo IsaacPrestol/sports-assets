@@ -23,7 +23,7 @@ from PIL import Image, ImageDraw
 from football_catalog import ROOT
 from football_clubs import (
     CLUBS_DIR, CLUBS_FILE, COUNTRY_CODES, FL_COUNTRIES, MAPPING_FILE,
-    load_json, luuk_index, merge_clubs, propose,
+    finalize_clubs, load_json, luuk_index, propose, unknown_folders,
 )
 from normalize_logo import normalize_logo
 
@@ -109,8 +109,18 @@ def render_sheet(rows: list[tuple[str, Path, Path | None]], out: Path) -> None:
     sheet.save(out, quality=85)
 
 
+def check_folders(luuk: dict) -> None:
+    problems = unknown_folders(luuk)
+    if problems:
+        for problem in problems:
+            print("ERROR:", problem)
+        sys.exit("Update COUNTRY_CODES / LEAGUE_IDS in scripts/football_clubs.py first")
+
+
 def plan() -> None:
-    luuk, fl = load_luuk(), load_fl()
+    luuk = load_luuk()
+    check_folders(luuk)
+    fl = load_fl()
     mapping = load_json(MAPPING_FILE, {})
     clubs = load_json(CLUBS_FILE, {"clubs": []})["clubs"]
     fl_slugs = {folder: sorted(slugs) for folder, slugs in fl.items()}
@@ -149,7 +159,9 @@ def accept(country: str | None) -> None:
 
 
 def apply() -> None:
-    luuk, fl = load_luuk(), load_fl()
+    luuk = load_luuk()
+    check_folders(luuk)
+    fl = load_fl()
     mapping = load_json(MAPPING_FILE, {})
     unmapped = sorted(key for key in luuk if key not in mapping)
     if unmapped:
@@ -189,11 +201,16 @@ def apply() -> None:
             continue
         sources[relative] = {"url": url, "retrieved": date.today().isoformat(), "license": None, "notes": notes}
 
-    clubs, skipped = merge_clubs(catalog["clubs"], mapping, luuk, missing)
+    write_json(SOURCES_FILE, sources, sort_keys=True)
+
+    clubs, skipped, errors = finalize_clubs(catalog["clubs"], mapping, luuk, missing)
     for message in skipped:
         print("SKIPPED ALIAS:", message)
+    if errors:
+        for error in errors:
+            print("ERROR:", error)
+        sys.exit(f"{CLUBS_FILE.name} not written; fix the names or aliases above and run apply again")
     write_json(CLUBS_FILE, {"version": 1, "clubs": clubs})
-    write_json(SOURCES_FILE, sources, sort_keys=True)
     print(f"{len(clubs)} club(s) in catalog, {len(missing)} without logo")
     subprocess.run([sys.executable, str(BUILD_INDEX)], check=True, cwd=ROOT)
 

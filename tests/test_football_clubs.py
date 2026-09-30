@@ -5,12 +5,17 @@ import unittest
 
 from PIL import Image
 
+from football_catalog import normalize_name
+
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
 from football_clubs import (
+    CLUBS_FILE,
     auto_aliases,
     build_club_lookup,
     club_assets,
+    finalize_clubs,
+    load_json,
     luuk_index,
     merge_clubs,
     propose,
@@ -18,6 +23,7 @@ from football_clubs import (
     slug_name,
     slugify,
     strip_affixes,
+    unknown_folders,
     validate_clubs,
 )
 
@@ -307,6 +313,56 @@ class ValidateClubsTest(unittest.TestCase):
         mapping = {"Spain|Ghost": {"id": "ghost", "source": "luukhopman", "slug": None}}
         errors, _ = self.validate(club(), mapping=mapping)
         self.assertTrue(any("ghost" in e for e in errors))
+
+
+class SyncSafetyTest(unittest.TestCase):
+    def test_unknown_league_and_country_folders(self):
+        luuk = luuk_index(PATHS + [
+            "logos/Poland - Betclic Ekstraklasa/Legia Warszawa.png",
+            "history/2025-26/Atlantis - Premier/Ghost FC.png",
+        ])
+        problems = unknown_folders(luuk)
+        self.assertTrue(any("Poland - Betclic Ekstraklasa" in p for p in problems))
+        self.assertTrue(any("Atlantis" in p for p in problems))
+        self.assertEqual(unknown_folders(luuk_index(PATHS)), [])
+
+    def test_existing_club_learns_new_names_as_aliases(self):
+        mapping = {key: dict(entry, id="banik") if key.startswith("Czech") else entry
+                   for key, entry in MAPPING.items()}
+        existing = {"id": "banik", "name": "FC Banik Ostrava", "aliases": ["Baník"],
+                    "country": "CZ", "league": None, "logo": None}
+        clubs, _ = merge_clubs([existing], mapping, luuk_index(PATHS))
+        banik = next(c for c in clubs if c["id"] == "banik")
+        self.assertEqual(banik["aliases"], ["Baník", "Banik Ostrava"])
+
+    def test_finalize_reports_name_collisions_before_writing(self):
+        existing = {"id": "other", "name": "Other", "aliases": ["Real Madrid"], "country": "ES",
+                    "league": None, "logo": None}
+        _, _, errors = finalize_clubs([existing], MAPPING, luuk_index(PATHS))
+        self.assertTrue(any("collides" in e for e in errors))
+
+    def test_finalize_clean(self):
+        clubs, skipped, errors = finalize_clubs([], MAPPING, luuk_index(PATHS))
+        self.assertEqual((len(clubs), errors), (3, []))
+
+
+class RealClubsCatalogTest(unittest.TestCase):
+    def setUp(self):
+        lookup, errors = build_club_lookup(load_json(CLUBS_FILE, {"clubs": []})["clubs"])
+        self.assertEqual(errors, [])
+        self.lookup = lookup
+
+    def find(self, country, name):
+        return self.lookup.get(country, {}).get(normalize_name(name))
+
+    def test_ambiguous_names_do_not_point_to_the_wrong_club(self):
+        self.assertNotEqual(self.find("ES", "Deportivo"), "alaves")
+        self.assertNotEqual(self.find("FR", "Paris"), "paris-fc")
+
+    def test_native_spellings_resolve(self):
+        self.assertEqual(self.find("PL", "Wisła Kraków"), "wisla-krakow")
+        self.assertEqual(self.find("DK", "Brøndby IF"), "brondby")
+        self.assertEqual(self.find("TR", "Kasımpaşa"), "kasimpasa")
 
 
 if __name__ == "__main__":
