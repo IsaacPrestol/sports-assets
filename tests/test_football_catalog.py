@@ -1,10 +1,19 @@
 from pathlib import Path
 import sys
+import tempfile
 import unittest
+
+from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
-from football_catalog import build_lookup, competition_assets, normalize_name
+from football_catalog import (
+    build_lookup,
+    competition_assets,
+    has_alpha,
+    normalize_name,
+    validate_catalog,
+)
 
 
 def make_entry(**overrides):
@@ -84,6 +93,139 @@ class CompetitionAssetsTest(unittest.TestCase):
             assets,
             {"laliga": {"name": "LaLiga", "path": "football/competitions/europe/laliga.png"}},
         )
+
+
+def save_png(root: Path, relative: str, mode: str = "RGBA", **save_args) -> Path:
+    path = root / relative
+    path.parent.mkdir(parents=True, exist_ok=True)
+    Image.new(mode, (8, 8)).save(path, **save_args)
+    return path
+
+
+LOGO = "football/competitions/europe/laliga.png"
+COLLAGE = "football/collages/laliga.png"
+
+
+class HasAlphaTest(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.root = Path(self.tmp.name)
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def test_rgba_and_la_have_alpha(self):
+        self.assertTrue(has_alpha(save_png(self.root, "a.png", "RGBA")))
+        self.assertTrue(has_alpha(save_png(self.root, "b.png", "LA")))
+
+    def test_palette_with_transparency_has_alpha(self):
+        self.assertTrue(has_alpha(save_png(self.root, "c.png", "P", transparency=0)))
+
+    def test_rgb_has_no_alpha(self):
+        self.assertFalse(has_alpha(save_png(self.root, "d.png", "RGB")))
+
+    def test_non_image_has_no_alpha(self):
+        path = self.root / "e.png"
+        path.write_text("not an image")
+        self.assertFalse(has_alpha(path))
+
+
+class ValidateCatalogTest(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.root = Path(self.tmp.name)
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def validate(self, *entries):
+        return validate_catalog(self.root, {"version": 1, "competitions": list(entries)})
+
+    def test_valid_entry_with_logo_and_collage(self):
+        save_png(self.root, LOGO)
+        save_png(self.root, COLLAGE, "RGB")
+        errors, warnings = self.validate(make_entry(logo=LOGO, collage=COLLAGE))
+        self.assertEqual(errors, [])
+        self.assertEqual(warnings, [])
+
+    def test_missing_logo_is_only_a_warning(self):
+        errors, warnings = self.validate(make_entry())
+        self.assertEqual(errors, [])
+        self.assertEqual(len(warnings), 1)
+        self.assertIn("laliga", warnings[0])
+
+    def test_catalog_without_competitions_list(self):
+        errors, _ = validate_catalog(self.root, {"version": 1})
+        self.assertEqual(len(errors), 1)
+        errors, _ = validate_catalog(self.root, [])
+        self.assertEqual(len(errors), 1)
+
+    def test_missing_field(self):
+        entry = make_entry()
+        del entry["confederation"]
+        errors, _ = self.validate(entry)
+        self.assertEqual(len(errors), 1)
+        self.assertIn("confederation", errors[0])
+
+    def test_invalid_enum_values(self):
+        errors, _ = self.validate(make_entry(continent="europa", type=["league"]))
+        self.assertEqual(len(errors), 2)
+
+    def test_invalid_id(self):
+        errors, _ = self.validate(make_entry(id="La Liga"))
+        self.assertTrue(any("Invalid id" in e for e in errors))
+
+    def test_duplicate_id(self):
+        errors, _ = self.validate(make_entry(), make_entry(name="La Liga 2", aliases=[]))
+        self.assertTrue(any("Duplicate id: 'laliga'" in e for e in errors))
+
+    def test_logo_in_wrong_continent_folder(self):
+        wrong = "football/competitions/world/laliga.png"
+        save_png(self.root, wrong)
+        errors, _ = self.validate(make_entry(logo=wrong))
+        self.assertTrue(any("must be" in e for e in errors))
+
+    def test_logo_file_missing(self):
+        errors, _ = self.validate(make_entry(logo=LOGO))
+        self.assertTrue(any("not found" in e for e in errors))
+
+    def test_logo_without_alpha(self):
+        save_png(self.root, LOGO, "RGB")
+        errors, _ = self.validate(make_entry(logo=LOGO))
+        self.assertTrue(any("alpha" in e for e in errors))
+
+    def test_la_logo_is_accepted(self):
+        save_png(self.root, LOGO, "LA")
+        errors, _ = self.validate(make_entry(logo=LOGO))
+        self.assertEqual(errors, [])
+
+    def test_collage_file_missing(self):
+        errors, _ = self.validate(make_entry(collage=COLLAGE))
+        self.assertTrue(any("not found" in e for e in errors))
+
+    def test_unreferenced_image_is_an_error(self):
+        save_png(self.root, COLLAGE, "RGB")
+        errors, _ = self.validate(make_entry(collage=None))
+        self.assertTrue(any("not referenced" in e and COLLAGE in e for e in errors))
+
+    def test_image_outside_continent_folder_is_an_error(self):
+        save_png(self.root, "football/competitions/laliga.png")
+        errors, _ = self.validate(make_entry())
+        self.assertTrue(any("outside a continent folder" in e for e in errors))
+
+    def test_hidden_files_are_ignored(self):
+        (self.root / "football/competitions").mkdir(parents=True)
+        (self.root / "football/competitions/.gitkeep").write_text("")
+        errors, _ = self.validate(make_entry())
+        self.assertEqual(errors, [])
+
+    def test_alias_collision_is_reported(self):
+        errors, _ = self.validate(
+            make_entry(aliases=["Supercopa"]),
+            make_entry(id="uefa-super-cup", name="UEFA Super Cup", aliases=["Supercopa"],
+                       type="super-cup", country=None),
+        )
+        self.assertTrue(any("collides" in e for e in errors))
 
 
 if __name__ == "__main__":
