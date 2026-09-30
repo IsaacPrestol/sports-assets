@@ -20,6 +20,7 @@ from football_clubs import (
     merge_clubs,
     propose,
     propose_slug,
+    roster_index,
     slug_name,
     slugify,
     strip_affixes,
@@ -103,6 +104,11 @@ class LuukIndexTest(unittest.TestCase):
 
     def test_ignores_non_logo_paths(self):
         self.assertEqual(len(luuk_index(PATHS)), 4)
+
+    def test_entries_carry_league_id(self):
+        index = luuk_index(PATHS)
+        self.assertEqual(index["Spain|Real Madrid"]["league"], "laliga")
+        self.assertIsNone(index["Spain|UD Almería"]["league"])
 
 
 class ProposeTest(unittest.TestCase):
@@ -344,6 +350,75 @@ class SyncSafetyTest(unittest.TestCase):
     def test_finalize_clean(self):
         clubs, skipped, errors = finalize_clubs([], MAPPING, luuk_index(PATHS))
         self.assertEqual((len(clubs), errors), (3, []))
+
+
+ROSTERS = {
+    "brasileirao-serie-a": {
+        "2025": ["Flamengo", "Sport Recife"],
+        "2026": ["Flamengo", "Coritiba"],
+    },
+    "canadian-premier-league": {
+        "2025": ["York United"],
+        "2026": ["Inter Toronto FC"],
+    },
+    "mls": {"2026": ["Toronto FC"]},
+}
+COMPETITIONS = [
+    {"id": "brasileirao-serie-a", "type": "league", "country": "BR"},
+    {"id": "canadian-premier-league", "type": "league", "country": "CA"},
+    {"id": "mls", "type": "league", "country": "US"},
+    {"id": "copa-libertadores", "type": "international", "country": None},
+]
+
+
+class RosterIndexTest(unittest.TestCase):
+    def setUp(self):
+        self.index = roster_index(ROSTERS, COMPETITIONS)
+
+    def test_current_club(self):
+        self.assertEqual(self.index["Brazil|Flamengo"], {
+            "country_folder": "Brazil", "name": "Flamengo", "league_folder": None,
+            "league": "brasileirao-serie-a", "latest_season": "2026", "latest_path": None,
+        })
+
+    def test_relegated_club_has_no_league(self):
+        club = self.index["Brazil|Sport Recife"]
+        self.assertIsNone(club["league"])
+        self.assertEqual(club["latest_season"], "2025")
+
+    def test_country_comes_from_the_league(self):
+        self.assertEqual(self.index["United States|Toronto FC"]["country_folder"], "United States")
+        self.assertEqual(len(self.index), 6)
+
+    def test_merge_uses_roster_league_and_country(self):
+        mapping = {
+            "Brazil|Flamengo": {"id": "flamengo", "source": "football-logos", "slug": "flamengo"},
+            "Brazil|Sport Recife": {"id": "sport-recife", "source": "url", "slug": None,
+                                    "url": "https://example.org/sport.png"},
+        }
+        clubs, _ = merge_clubs([], mapping, self.index)
+        by_id = {c["id"]: c for c in clubs}
+        self.assertEqual(by_id["flamengo"]["league"], "brasileirao-serie-a")
+        self.assertEqual(by_id["flamengo"]["country"], "BR")
+        self.assertEqual(by_id["flamengo"]["logo"], "football/clubs/br/flamengo.png")
+        self.assertIsNone(by_id["sport-recife"]["league"])
+
+    def test_renamed_club_is_one_club(self):
+        mapping = {
+            "Canada|York United": {"id": "inter-toronto", "source": "football-logos", "slug": "inter-toronto-fc"},
+            "Canada|Inter Toronto FC": {"id": "inter-toronto", "source": "football-logos", "slug": "inter-toronto-fc"},
+        }
+        clubs, _ = merge_clubs([], mapping, self.index)
+        self.assertEqual(len(clubs), 1)
+        self.assertEqual(clubs[0]["name"], "Inter Toronto FC")
+        self.assertIn("York United", clubs[0]["aliases"])
+        self.assertEqual(clubs[0]["league"], "canadian-premier-league")
+
+    def test_propose_without_slug_asks_for_url(self):
+        proposals = propose(self.index, {}, {"Brazil": ["flamengo"], "Canada": [], "United States": []}, {})
+        self.assertEqual(proposals["Brazil|Flamengo"]["source"], "football-logos")
+        self.assertEqual(proposals["United States|Toronto FC"],
+                         {"id": "toronto", "source": "url", "slug": None, "match": "none"})
 
 
 class RealClubsCatalogTest(unittest.TestCase):

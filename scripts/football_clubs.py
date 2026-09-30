@@ -12,6 +12,7 @@ from football_catalog import ID_RE, ROOT, has_alpha, normalize_name
 CLUBS_FILE = ROOT / "data" / "football" / "clubs.json"
 CLUBS_LOOKUP_FILE = ROOT / "data" / "football" / "clubs-lookup.json"
 MAPPING_FILE = ROOT / "data" / "football" / "clubs-mapping.json"
+ROSTERS_FILE = ROOT / "data" / "football" / "rosters.json"
 CLUBS_DIR = "football/clubs"
 COUNTRY_RE = re.compile(r"^[A-Z]{2}(?:-[A-Z]{3})?$")
 LOW_RES_SIDE = 400
@@ -73,11 +74,16 @@ COUNTRY_CODES = {
     "Netherlands": "NL", "Norway": "NO", "Poland": "PL", "Portugal": "PT",
     "Romania": "RO", "Russia": "RU", "Scotland": "GB-SCT", "Serbia": "RS",
     "Spain": "ES", "Sweden": "SE", "Switzerland": "CH", "Türkiye": "TR", "Ukraine": "UA",
+    # Americas (data/football/rosters.json)
+    "Argentina": "AR", "Bolivia": "BO", "Brazil": "BR", "Canada": "CA", "Chile": "CL",
+    "Colombia": "CO", "Costa Rica": "CR", "Ecuador": "EC", "Guatemala": "GT",
+    "Mexico": "MX", "Panama": "PA", "Paraguay": "PY", "Peru": "PE",
+    "United States": "US", "Uruguay": "UY", "Venezuela": "VE",
 }
 
 FL_COUNTRIES = {
     folder: folder.lower().replace(" ", "-") for folder in COUNTRY_CODES
-} | {"Türkiye": "turkey"}
+} | {"Türkiye": "turkey", "United States": "usa"}
 
 LEAGUE_IDS = {
     "Austria - Bundesliga": "austrian-bundesliga",
@@ -126,13 +132,41 @@ def luuk_index(paths: list[str]) -> dict[str, dict]:
             "country_folder": country_folder,
             "name": name,
             "league_folder": None,
+            "league": None,
             "latest_season": "",
             "latest_path": "",
         })
         if season == CURRENT_SEASON:
             club["league_folder"] = league_folder
+            club["league"] = LEAGUE_IDS.get(league_folder)
         if season > club["latest_season"]:
             club["latest_season"], club["latest_path"] = season, path
+    return clubs
+
+
+def roster_index(rosters: dict, competitions: list[dict]) -> dict[str, dict]:
+    """Index data/football/rosters.json like luuk_index; the country of every club is its league's."""
+    folders = {code: folder for folder, code in COUNTRY_CODES.items()}
+    countries = {competition["id"]: competition["country"] for competition in competitions}
+    clubs: dict[str, dict] = {}
+    for league in sorted(rosters):
+        folder = folders[countries[league]]
+        seasons = rosters[league]
+        current = max(seasons)
+        for season in sorted(seasons):
+            for name in seasons[season]:
+                club = clubs.setdefault(f"{folder}|{name}", {
+                    "country_folder": folder,
+                    "name": name,
+                    "league_folder": None,
+                    "league": None,
+                    "latest_season": "",
+                    "latest_path": None,
+                })
+                if season == current:
+                    club["league"] = league
+                if season > club["latest_season"]:
+                    club["latest_season"] = season
     return clubs
 
 
@@ -156,9 +190,15 @@ def propose(luuk: dict, mapping: dict, fl_slugs: dict[str, list[str]],
             club_id = base
         groups[(country, base)] = club_id
         taken.setdefault(club_id, country)
+        if slug:
+            source = "football-logos"
+        elif club["latest_path"]:
+            source = "luukhopman"
+        else:
+            source = "url"
         proposals[key] = {
             "id": club_id,
-            "source": "football-logos" if slug else "luukhopman",
+            "source": source,
             "slug": slug,
             "match": match,
         }
@@ -205,8 +245,8 @@ def merge_clubs(existing: list[dict], mapping: dict, luuk: dict,
         if not entries:
             continue
         country = COUNTRY_CODES[entries[0]["country_folder"]]
-        current = [entry for entry in entries if entry["league_folder"]]
-        league = LEAGUE_IDS[current[0]["league_folder"]] if current else None
+        current = [entry for entry in entries if entry["league"]]
+        league = current[0]["league"] if current else None
         logo = None if club_id in missing_logos else f"{CLUBS_DIR}/{country.lower()}/{club_id}.png"
         if club_id in by_id:
             club = by_id[club_id]
