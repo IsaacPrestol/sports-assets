@@ -88,7 +88,6 @@
       "aliases": [
         "La Liga",
         "LaLiga EA Sports",
-        "Primera División",
         "Spanish La Liga"
       ],
       "type": "league",
@@ -196,7 +195,6 @@
       "name": "EFL Cup",
       "aliases": [
         "Carabao Cup",
-        "League Cup",
         "English League Cup"
       ],
       "type": "cup",
@@ -364,8 +362,6 @@
       "id": "uefa-nations-league",
       "name": "UEFA Nations League",
       "aliases": [
-        "Nations League",
-        "Liga de Naciones",
         "Liga de Naciones de la UEFA"
       ],
       "type": "international",
@@ -430,7 +426,6 @@
       "name": "Liga Profesional de Fútbol",
       "aliases": [
         "Liga Profesional Argentina",
-        "Liga Profesional",
         "Primera División Argentina",
         "Argentine Primera División"
       ],

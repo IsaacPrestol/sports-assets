@@ -11,6 +11,7 @@ from football_catalog import (
     build_lookup,
     competition_assets,
     has_alpha,
+    load_catalog,
     normalize_name,
     validate_catalog,
 )
@@ -236,6 +237,26 @@ class ValidateCatalogTest(unittest.TestCase):
                        type="super-cup", country=None),
         )
         self.assertTrue(any("collides" in e for e in errors))
+
+
+class RealCatalogTest(unittest.TestCase):
+    # Names used by more than one real competition; as aliases they would send
+    # another country's league to the wrong logo.
+    GENERIC_ALIASES = {
+        "primera division",
+        "liga profesional",
+        "league cup",
+        "nations league",
+        "liga de naciones",
+    }
+
+    def test_no_generic_aliases(self):
+        for competition in load_catalog()["competitions"]:
+            for alias in competition["aliases"]:
+                self.assertNotIn(
+                    normalize_name(alias), self.GENERIC_ALIASES,
+                    f"'{alias}' of '{competition['id']}' is ambiguous",
+                )
 
 
 if __name__ == "__main__":

@@ -64,7 +64,7 @@ Es la fuente de verdad. No lo genera ningún script: lo mantiene Claude a petici
     {
       "id": "laliga",
       "name": "LaLiga",
-      "aliases": ["La Liga", "LaLiga EA Sports", "Primera División", "Spanish La Liga"],
+      "aliases": ["La Liga", "LaLiga EA Sports", "Spanish La Liga"],
       "type": "league",
       "scope": "club",
       "continent": "europe",

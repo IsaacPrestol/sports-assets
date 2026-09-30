@@ -95,7 +95,8 @@ Los logos están en `football/competitions/<continente>/<id>.png`: PNG transpare
 1. Normaliza el nombre que recibes: quita tildes, pasa a minúsculas, cambia todo lo que no sea letra o número por un espacio y colapsa los espacios (`"LaLiga EA Sports"` → `"laliga ea sports"`).
 2. Búscalo en `data/football/competitions-lookup.json` para obtener el `id`.
 3. Busca ese `id` en `data/football/competitions.json` para obtener `logo`.
-4. Construye la URL:
+4. Si tu fuente indica el país, compáralo con `country` (o con `confederation` en torneos internacionales). Si no coinciden, trátalo como "sin logo": nombres como "Premier League", "Serie A", "Bundesliga" o "Ligue 1" también los usan ligas de otros países.
+5. Construye la URL:
 
 ```text
 https://cdn.jsdelivr.net/gh/IsaacPrestol/sports-assets@main/football/competitions/europe/laliga.png
