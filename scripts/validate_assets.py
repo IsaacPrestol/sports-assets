@@ -4,7 +4,9 @@ import struct
 import sys
 
 from football_catalog import CATALOG_FILE, load_catalog, validate_catalog
-from football_clubs import CLUBS_FILE, MAPPING_FILE, ROSTERS_FILE, load_json, roster_errors, validate_clubs
+from football_clubs import (
+    CLUBS_FILE, MAPPING_FILE, ROSTERS_FILE, load_json, roster_errors, roster_sync_errors, validate_clubs,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSET_DIRS = [
@@ -99,10 +101,13 @@ def check_rosters(errors: list, warnings: list) -> None:
     try:
         rosters = load_json(ROSTERS_FILE, {})
         competitions = load_catalog()["competitions"]
+        mapping = load_json(MAPPING_FILE, {})
+        clubs = load_json(CLUBS_FILE, {"clubs": []})["clubs"]
     except (OSError, ValueError, KeyError, TypeError) as exc:
         errors.append(f"Cannot read rosters: {exc}")
         return
-    errors.extend(roster_errors(rosters, competitions))
+    problems = roster_errors(rosters, competitions)
+    errors.extend(problems or roster_sync_errors(rosters, competitions, mapping, clubs))
 
 
 def main():

@@ -23,6 +23,7 @@ from football_clubs import (
     propose_slug,
     roster_errors,
     roster_index,
+    roster_sync_errors,
     slug_name,
     slugify,
     strip_affixes,
@@ -460,6 +461,40 @@ class RosterErrorsTest(unittest.TestCase):
         self.assertTrue(any("repeated" in e for e in errors))
         self.assertTrue(any("spaces" in e for e in errors))
         self.assertTrue(any("empty" in e for e in errors))
+
+
+class RosterSyncErrorsTest(unittest.TestCase):
+    MAPPING = {
+        "Brazil|Flamengo": {"id": "flamengo", "source": "football-logos", "slug": "flamengo"},
+        "Brazil|Sport Recife": {"id": "sport-recife", "source": "football-logos", "slug": "sport-recife"},
+        "Brazil|Coritiba": {"id": "coritiba", "source": "football-logos", "slug": "coritiba"},
+        "Canada|York United": {"id": "inter-toronto", "source": "football-logos", "slug": "inter-toronto-fc"},
+        "Canada|Inter Toronto FC": {"id": "inter-toronto", "source": "football-logos", "slug": "inter-toronto-fc"},
+        "United States|Toronto FC": {"id": "toronto-fc", "source": "football-logos", "slug": "toronto-fc"},
+    }
+
+    def clubs(self, **leagues):
+        current = {"flamengo": "brasileirao-serie-a", "sport-recife": None, "coritiba": "brasileirao-serie-a",
+                   "inter-toronto": "canadian-premier-league", "toronto-fc": "mls"}
+        current.update(leagues)
+        return [{"id": i, "league": league} for i, league in current.items()]
+
+    def test_in_sync(self):
+        self.assertEqual(roster_sync_errors(ROSTERS, COMPETITIONS, self.MAPPING, self.clubs()), [])
+
+    def test_unmapped_roster_name(self):
+        mapping = {k: v for k, v in self.MAPPING.items() if k != "Brazil|Coritiba"}
+        errors = roster_sync_errors(ROSTERS, COMPETITIONS, mapping, self.clubs())
+        self.assertTrue(any("Brazil|Coritiba" in e for e in errors))
+
+    def test_stale_league_in_catalog(self):
+        errors = roster_sync_errors(ROSTERS, COMPETITIONS, self.MAPPING, self.clubs(**{"sport-recife": "brasileirao-serie-a"}))
+        self.assertTrue(any("sport-recife" in e for e in errors))
+
+    def test_missing_club_in_catalog(self):
+        clubs = [c for c in self.clubs() if c["id"] != "toronto-fc"]
+        errors = roster_sync_errors(ROSTERS, COMPETITIONS, self.MAPPING, clubs)
+        self.assertTrue(any("toronto-fc" in e for e in errors))
 
 
 class RealRostersTest(unittest.TestCase):

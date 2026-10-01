@@ -209,6 +209,25 @@ def roster_errors(rosters, competitions: list[dict]) -> list[str]:
     return errors
 
 
+def roster_sync_errors(rosters: dict, competitions: list[dict], mapping: dict, clubs: list[dict]) -> list[str]:
+    """Check offline that rosters.json, clubs-mapping.json and clubs.json agree (i.e. sync_clubs.py apply ran)."""
+    index = roster_index(rosters, competitions)
+    errors = [f"Roster club '{key}' is not in clubs-mapping.json; run sync_clubs.py plan, accept and apply"
+              for key in sorted(index) if key not in mapping]
+    expected: dict[str, str | None] = {}
+    for key in sorted(index):
+        if key in mapping and expected.get(mapping[key]["id"]) is None:
+            expected[mapping[key]["id"]] = index[key]["league"]
+    leagues = {club["id"]: club["league"] for club in clubs}
+    for club_id in sorted(expected):
+        if club_id not in leagues:
+            errors.append(f"Club '{club_id}' from rosters.json is missing in clubs.json; run sync_clubs.py apply")
+        elif leagues[club_id] != expected[club_id]:
+            errors.append(f"Club '{club_id}' has league {leagues[club_id]!r} in clubs.json but "
+                          f"{expected[club_id]!r} in rosters.json; run sync_clubs.py apply")
+    return errors
+
+
 def propose(luuk: dict, mapping: dict, fl_slugs: dict[str, list[str]],
             existing_ids: dict[str, str]) -> dict[str, dict]:
     taken = dict(existing_ids)

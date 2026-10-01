@@ -10,6 +10,7 @@ or a manual url as fallback.
 """
 
 from datetime import date
+import hashlib
 from pathlib import Path
 import argparse
 import json
@@ -50,6 +51,19 @@ def cached(url: str, path: Path) -> Path:
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_bytes(fetch(url))
     return path
+
+
+def manual_cache_path(club_id: str, url: str) -> Path:
+    """Keyed on the url too, so fixing a club's url in clubs-mapping.json downloads the new image."""
+    return CACHE / "url" / f"{club_id}-{hashlib.sha1(url.encode()).hexdigest()[:8]}.png"
+
+
+def manual_note(url: str) -> str:
+    if "/wikipedia/commons/" in url:
+        return "Via Wikimedia Commons"
+    if "/wikipedia/en/" in url:
+        return "Via en.wikipedia (non-free logo)"
+    return "Manual url in clubs-mapping.json"
 
 
 def write_json(path: Path, data, sort_keys: bool = False) -> None:
@@ -205,8 +219,8 @@ def apply() -> None:
                 raw = cached(url, CACHE / "fl" / FL_COUNTRIES[folder] / f"{slug}.png")
             elif manual:
                 url = manual
-                notes = "Via Wikimedia Commons" if "wikimedia.org" in url else "Manual url in clubs-mapping.json"
-                raw = cached(url, CACHE / "url" / f"{club_id}.png")
+                notes = manual_note(url)
+                raw = cached(url, manual_cache_path(club_id, url))
             else:
                 latest = max((luuk[k] for k in keys), key=lambda entry: entry["latest_season"])
                 if not latest["latest_path"]:
