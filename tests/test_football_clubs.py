@@ -20,6 +20,7 @@ from football_clubs import (
     merge_clubs,
     propose,
     propose_slug,
+    roster_errors,
     roster_index,
     slug_name,
     slugify,
@@ -315,6 +316,15 @@ class ValidateClubsTest(unittest.TestCase):
         errors, _ = self.validate(club(), club(id="other", name="Other", aliases=["Real Madrid"]))
         self.assertTrue(any("collides" in e for e in errors))
 
+    def test_url_source_needs_https_url(self):
+        for entry in ({"id": "real-madrid", "source": "url", "slug": None},
+                      {"id": "real-madrid", "source": "url", "slug": None, "url": None},
+                      {"id": "real-madrid", "source": "url", "slug": None, "url": "http://x/y.png"}):
+            errors, _ = self.validate(club(), mapping={"Spain|Real Madrid": entry})
+            self.assertTrue(any("https" in e for e in errors), entry)
+        ok = {"id": "real-madrid", "source": "url", "slug": None, "url": "https://upload.wikimedia.org/x.png"}
+        self.assertEqual(self.validate(club(), mapping={"Spain|Real Madrid": ok})[0], [])
+
     def test_mapping_id_must_exist(self):
         mapping = {"Spain|Ghost": {"id": "ghost", "source": "luukhopman", "slug": None}}
         errors, _ = self.validate(club(), mapping=mapping)
@@ -419,6 +429,36 @@ class RosterIndexTest(unittest.TestCase):
         self.assertEqual(proposals["Brazil|Flamengo"]["source"], "football-logos")
         self.assertEqual(proposals["United States|Toronto FC"],
                          {"id": "toronto", "source": "url", "slug": None, "match": "none"})
+
+
+class RosterErrorsTest(unittest.TestCase):
+    def test_valid(self):
+        self.assertEqual(roster_errors(ROSTERS, COMPETITIONS), [])
+
+    def test_not_an_object(self):
+        self.assertEqual(len(roster_errors([], COMPETITIONS)), 1)
+
+    def test_unknown_non_league_or_countryless_league(self):
+        competitions = COMPETITIONS + [{"id": "j-league", "type": "league", "country": "JP"}]
+        rosters = {"nope": {"2026": ["A"]}, "copa-libertadores": {"2026": ["A"]}, "j-league": {"2026": ["A"]}}
+        self.assertEqual(len(roster_errors(rosters, competitions)), 3)
+
+    def test_season_format(self):
+        errors = roster_errors({"mls": {"2025-26": ["A"], "2026": ["B"]}}, COMPETITIONS)
+        self.assertTrue(any("same format" in e for e in errors))
+        errors = roster_errors({"mls": {"26": ["A"]}}, COMPETITIONS)
+        self.assertTrue(any("YYYY" in e for e in errors))
+
+    def test_empty_season(self):
+        self.assertEqual(len(roster_errors({"mls": {"2026": []}}, COMPETITIONS)), 1)
+        self.assertEqual(len(roster_errors({"mls": {}}, COMPETITIONS)), 1)
+
+    def test_club_names(self):
+        errors = roster_errors({"mls": {"2026": ["Club Nacional", " B", "", "club nacional"]}}, COMPETITIONS)
+        self.assertEqual(len(errors), 3)
+        self.assertTrue(any("repeated" in e for e in errors))
+        self.assertTrue(any("spaces" in e for e in errors))
+        self.assertTrue(any("empty" in e for e in errors))
 
 
 class RealClubsCatalogTest(unittest.TestCase):

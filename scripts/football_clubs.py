@@ -16,6 +16,7 @@ ROSTERS_FILE = ROOT / "data" / "football" / "rosters.json"
 CLUBS_DIR = "football/clubs"
 COUNTRY_RE = re.compile(r"^[A-Z]{2}(?:-[A-Z]{3})?$")
 LOW_RES_SIDE = 400
+SEASON_RE = re.compile(r"^\d{4}(?:-\d{2})?$")
 REQUIRED_FIELDS = ("id", "name", "aliases", "country", "league", "logo")
 AFFIXES = {
     "1", "ac", "afc", "as", "bk", "ca", "cd", "cf", "fc", "fk", "fsv", "hnk", "if",
@@ -168,6 +169,44 @@ def roster_index(rosters: dict, competitions: list[dict]) -> dict[str, dict]:
                 if season > club["latest_season"]:
                     club["latest_season"] = season
     return clubs
+
+
+def roster_errors(rosters, competitions: list[dict]) -> list[str]:
+    if not isinstance(rosters, dict):
+        return ["Rosters must be an object keyed by league id"]
+    leagues = {c["id"]: c for c in competitions if c.get("type") == "league"}
+    codes = set(COUNTRY_CODES.values())
+    errors = []
+    for league in sorted(rosters):
+        seasons = rosters[league]
+        if league not in leagues or leagues[league].get("country") not in codes:
+            errors.append(f"Roster '{league}' is not a league whose country is in COUNTRY_CODES")
+            continue
+        if not isinstance(seasons, dict) or not seasons:
+            errors.append(f"Roster '{league}' must map seasons to club lists")
+            continue
+        if len({len(season) for season in seasons}) > 1:
+            errors.append(f"Roster '{league}' seasons must all use the same format")
+        for season in sorted(seasons):
+            label = f"Roster '{league}' {season}"
+            if not SEASON_RE.match(season):
+                errors.append(f"{label}: season must be YYYY or YYYY-YY")
+            names = seasons[season]
+            if not isinstance(names, list) or not names:
+                errors.append(f"{label}: must be a non-empty list of club names")
+                continue
+            seen = set()
+            for name in names:
+                if not isinstance(name, str) or not name.strip():
+                    errors.append(f"{label}: empty club name")
+                    continue
+                if name != name.strip():
+                    errors.append(f"{label}: '{name}' has surrounding spaces")
+                key = normalize_name(name)
+                if key in seen:
+                    errors.append(f"{label}: '{name}' is repeated")
+                seen.add(key)
+    return errors
 
 
 def propose(luuk: dict, mapping: dict, fl_slugs: dict[str, list[str]],
@@ -393,6 +432,10 @@ def validate_clubs(root: Path, catalog, competitions: list[dict], mapping: dict)
     errors.extend(build_club_lookup(clubs)[1])
     known = set(ids)
     for key in sorted(mapping):
-        if mapping[key]["id"] not in known:
-            errors.append(f"Mapping '{key}' points to unknown club '{mapping[key]['id']}'")
+        entry = mapping[key]
+        if entry["id"] not in known:
+            errors.append(f"Mapping '{key}' points to unknown club '{entry['id']}'")
+        url = entry.get("url")
+        if entry.get("source") == "url" and not (isinstance(url, str) and url.startswith("https://")):
+            errors.append(f"Mapping '{key}' uses source 'url' without an https url")
     return errors, warnings
