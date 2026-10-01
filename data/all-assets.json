@@ -267,6 +267,146 @@
     }
   },
   "clubs": {
+    "aldosivi": {
+      "name": "Aldosivi",
+      "path": "football/clubs/ar/aldosivi.png"
+    },
+    "argentinos-juniors": {
+      "name": "Argentinos Juniors",
+      "path": "football/clubs/ar/argentinos-juniors.png"
+    },
+    "arsenal-de-sarandi": {
+      "name": "Arsenal",
+      "path": "football/clubs/ar/arsenal-de-sarandi.png"
+    },
+    "atletico-tucuman": {
+      "name": "Atlético Tucumán",
+      "path": "football/clubs/ar/atletico-tucuman.png"
+    },
+    "banfield": {
+      "name": "Banfield",
+      "path": "football/clubs/ar/banfield.png"
+    },
+    "barracas-central": {
+      "name": "Barracas Central",
+      "path": "football/clubs/ar/barracas-central.png"
+    },
+    "belgrano": {
+      "name": "Belgrano",
+      "path": "football/clubs/ar/belgrano.png"
+    },
+    "boca-juniors": {
+      "name": "Boca Juniors",
+      "path": "football/clubs/ar/boca-juniors.png"
+    },
+    "central-cordoba": {
+      "name": "Central Córdoba de Santiago del Estero",
+      "path": "football/clubs/ar/central-cordoba.png"
+    },
+    "colon": {
+      "name": "Colón",
+      "path": "football/clubs/ar/colon.png"
+    },
+    "defensa-y-justicia": {
+      "name": "Defensa y Justicia",
+      "path": "football/clubs/ar/defensa-y-justicia.png"
+    },
+    "deportivo-riestra": {
+      "name": "Deportivo Riestra",
+      "path": "football/clubs/ar/deportivo-riestra.png"
+    },
+    "estudiantes-de-la-plata": {
+      "name": "Estudiantes de La Plata",
+      "path": "football/clubs/ar/estudiantes-de-la-plata.png"
+    },
+    "estudiantes-de-rio-cuarto": {
+      "name": "Estudiantes de Río Cuarto",
+      "path": "football/clubs/ar/estudiantes-de-rio-cuarto.png"
+    },
+    "gimnasia-la-plata": {
+      "name": "Club de Gimnasia y Esgrima La Plata",
+      "path": "football/clubs/ar/gimnasia-la-plata.png"
+    },
+    "gimnasia-mendoza": {
+      "name": "Gimnasia y Esgrima de Mendoza",
+      "path": "football/clubs/ar/gimnasia-mendoza.png"
+    },
+    "godoy-cruz": {
+      "name": "Godoy Cruz",
+      "path": "football/clubs/ar/godoy-cruz.png"
+    },
+    "huracan": {
+      "name": "Huracán",
+      "path": "football/clubs/ar/huracan.png"
+    },
+    "independiente": {
+      "name": "Independiente",
+      "path": "football/clubs/ar/independiente.png"
+    },
+    "independiente-rivadavia": {
+      "name": "Independiente Rivadavia",
+      "path": "football/clubs/ar/independiente-rivadavia.png"
+    },
+    "instituto": {
+      "name": "Instituto",
+      "path": "football/clubs/ar/instituto.png"
+    },
+    "lanus": {
+      "name": "Lanús",
+      "path": "football/clubs/ar/lanus.png"
+    },
+    "newells-old-boys": {
+      "name": "Newell's Old Boys",
+      "path": "football/clubs/ar/newells-old-boys.png"
+    },
+    "patronato": {
+      "name": "Patronato",
+      "path": "football/clubs/ar/patronato.png"
+    },
+    "platense": {
+      "name": "Platense",
+      "path": "football/clubs/ar/platense.png"
+    },
+    "racing-club": {
+      "name": "Racing",
+      "path": "football/clubs/ar/racing-club.png"
+    },
+    "river-plate": {
+      "name": "River Plate",
+      "path": "football/clubs/ar/river-plate.png"
+    },
+    "rosario-central": {
+      "name": "Rosario Central",
+      "path": "football/clubs/ar/rosario-central.png"
+    },
+    "san-lorenzo": {
+      "name": "San Lorenzo",
+      "path": "football/clubs/ar/san-lorenzo.png"
+    },
+    "san-martin-san-juan": {
+      "name": "San Martín de San Juan",
+      "path": "football/clubs/ar/san-martin-san-juan.png"
+    },
+    "sarmiento": {
+      "name": "Club Atlético Sarmiento",
+      "path": "football/clubs/ar/sarmiento.png"
+    },
+    "talleres": {
+      "name": "Talleres de Córdoba",
+      "path": "football/clubs/ar/talleres.png"
+    },
+    "tigre": {
+      "name": "Tigre",
+      "path": "football/clubs/ar/tigre.png"
+    },
+    "union": {
+      "name": "Unión",
+      "path": "football/clubs/ar/union.png"
+    },
+    "velez-sarsfield": {
+      "name": "Vélez Sarsfield",
+      "path": "football/clubs/ar/velez-sarsfield.png"
+    },
     "admira": {
       "name": "FC Admira Wacker Mödling",
       "path": "football/clubs/at/admira.png"
@@ -499,6 +639,258 @@
       "name": "Spartak Varna",
       "path": "football/clubs/bg/spartak-varna.png"
     },
+    "abb": {
+      "name": "ABB",
+      "path": "football/clubs/bo/abb.png"
+    },
+    "always-ready": {
+      "name": "Always Ready",
+      "path": "football/clubs/bo/always-ready.png"
+    },
+    "aurora": {
+      "name": "Aurora",
+      "path": "football/clubs/bo/aurora.png"
+    },
+    "blooming": {
+      "name": "Blooming",
+      "path": "football/clubs/bo/blooming.png"
+    },
+    "bolivar": {
+      "name": "Bolívar",
+      "path": "football/clubs/bo/bolivar.png"
+    },
+    "guabira": {
+      "name": "Guabirá",
+      "path": "football/clubs/bo/guabira.png"
+    },
+    "gv-san-jose": {
+      "name": "GV San José",
+      "path": "football/clubs/bo/gv-san-jose.png"
+    },
+    "independiente-petrolero": {
+      "name": "Independiente Petrolero",
+      "path": "football/clubs/bo/independiente-petrolero.png"
+    },
+    "jorge-wilstermann": {
+      "name": "Jorge Wilstermann",
+      "path": "football/clubs/bo/jorge-wilstermann.png"
+    },
+    "libertad-gran-mamore": {
+      "name": "Libertad Gran Mamoré",
+      "path": "football/clubs/bo/libertad-gran-mamore.png"
+    },
+    "nacional-potosi": {
+      "name": "Nacional Potosí",
+      "path": "football/clubs/bo/nacional-potosi.png"
+    },
+    "oriente-petrolero": {
+      "name": "Oriente Petrolero",
+      "path": "football/clubs/bo/oriente-petrolero.png"
+    },
+    "palmaflor-del-tropico": {
+      "name": "Palmaflor del Trópico",
+      "path": "football/clubs/bo/palmaflor-del-tropico.png"
+    },
+    "real-oruro": {
+      "name": "Real Oruro",
+      "path": "football/clubs/bo/real-oruro.png"
+    },
+    "real-potosi": {
+      "name": "Real Potosí",
+      "path": "football/clubs/bo/real-potosi.png"
+    },
+    "real-santa-cruz": {
+      "name": "Real Santa Cruz",
+      "path": "football/clubs/bo/real-santa-cruz.png"
+    },
+    "real-tomayapo": {
+      "name": "Real Tomayapo",
+      "path": "football/clubs/bo/real-tomayapo.png"
+    },
+    "royal-pari": {
+      "name": "Royal Pari",
+      "path": "football/clubs/bo/royal-pari.png"
+    },
+    "san-antonio-bulo-bulo": {
+      "name": "San Antonio Bulo Bulo",
+      "path": "football/clubs/bo/san-antonio-bulo-bulo.png"
+    },
+    "the-strongest": {
+      "name": "The Strongest",
+      "path": "football/clubs/bo/the-strongest.png"
+    },
+    "universitario-de-sucre": {
+      "name": "Universitario de Sucre",
+      "path": "football/clubs/bo/universitario-de-sucre.png"
+    },
+    "universitario-de-vinto": {
+      "name": "Universitario de Vinto",
+      "path": "football/clubs/bo/universitario-de-vinto.png"
+    },
+    "vaca-diez": {
+      "name": "Vaca Díez",
+      "path": "football/clubs/bo/vaca-diez.png"
+    },
+    "america-mineiro": {
+      "name": "América Mineiro",
+      "path": "football/clubs/br/america-mineiro.png"
+    },
+    "athletico-paranaense": {
+      "name": "Athletico Paranaense",
+      "path": "football/clubs/br/athletico-paranaense.png"
+    },
+    "atletico-goianiense": {
+      "name": "Atlético Goianiense",
+      "path": "football/clubs/br/atletico-goianiense.png"
+    },
+    "atletico-mineiro": {
+      "name": "Atlético Mineiro",
+      "path": "football/clubs/br/atletico-mineiro.png"
+    },
+    "avai": {
+      "name": "Avaí",
+      "path": "football/clubs/br/avai.png"
+    },
+    "bahia": {
+      "name": "Bahia",
+      "path": "football/clubs/br/bahia.png"
+    },
+    "botafogo": {
+      "name": "Botafogo",
+      "path": "football/clubs/br/botafogo.png"
+    },
+    "ceara": {
+      "name": "Ceará",
+      "path": "football/clubs/br/ceara.png"
+    },
+    "chapecoense": {
+      "name": "Chapecoense",
+      "path": "football/clubs/br/chapecoense.png"
+    },
+    "corinthians": {
+      "name": "Corinthians",
+      "path": "football/clubs/br/corinthians.png"
+    },
+    "coritiba": {
+      "name": "Coritiba",
+      "path": "football/clubs/br/coritiba.png"
+    },
+    "criciuma": {
+      "name": "Criciúma",
+      "path": "football/clubs/br/criciuma.png"
+    },
+    "cruzeiro": {
+      "name": "Cruzeiro",
+      "path": "football/clubs/br/cruzeiro.png"
+    },
+    "cuiaba": {
+      "name": "Cuiabá",
+      "path": "football/clubs/br/cuiaba.png"
+    },
+    "flamengo": {
+      "name": "Flamengo",
+      "path": "football/clubs/br/flamengo.png"
+    },
+    "fluminense": {
+      "name": "Fluminense",
+      "path": "football/clubs/br/fluminense.png"
+    },
+    "fortaleza": {
+      "name": "Fortaleza",
+      "path": "football/clubs/br/fortaleza.png"
+    },
+    "goias": {
+      "name": "Goiás",
+      "path": "football/clubs/br/goias.png"
+    },
+    "gremio": {
+      "name": "Grêmio",
+      "path": "football/clubs/br/gremio.png"
+    },
+    "internacional": {
+      "name": "Internacional",
+      "path": "football/clubs/br/internacional.png"
+    },
+    "juventude": {
+      "name": "Juventude",
+      "path": "football/clubs/br/juventude.png"
+    },
+    "mirassol": {
+      "name": "Mirassol",
+      "path": "football/clubs/br/mirassol.png"
+    },
+    "palmeiras": {
+      "name": "Palmeiras",
+      "path": "football/clubs/br/palmeiras.png"
+    },
+    "rb-bragantino": {
+      "name": "Red Bull Bragantino",
+      "path": "football/clubs/br/rb-bragantino.png"
+    },
+    "remo": {
+      "name": "Remo",
+      "path": "football/clubs/br/remo.png"
+    },
+    "santos": {
+      "name": "Santos",
+      "path": "football/clubs/br/santos.png"
+    },
+    "sao-paulo": {
+      "name": "São Paulo",
+      "path": "football/clubs/br/sao-paulo.png"
+    },
+    "sport-recife": {
+      "name": "Sport",
+      "path": "football/clubs/br/sport-recife.png"
+    },
+    "vasco-da-gama": {
+      "name": "Vasco da Gama",
+      "path": "football/clubs/br/vasco-da-gama.png"
+    },
+    "vitoria": {
+      "name": "Vitória",
+      "path": "football/clubs/br/vitoria.png"
+    },
+    "atletico-ottawa": {
+      "name": "Atlético Ottawa",
+      "path": "football/clubs/ca/atletico-ottawa.png"
+    },
+    "cavalry": {
+      "name": "Cavalry FC",
+      "path": "football/clubs/ca/cavalry.png"
+    },
+    "edmonton": {
+      "name": "FC Edmonton",
+      "path": "football/clubs/ca/edmonton.png"
+    },
+    "fc-supra-du-quebec": {
+      "name": "FC Supra du Québec",
+      "path": "football/clubs/ca/fc-supra-du-quebec.png"
+    },
+    "forge": {
+      "name": "Forge FC",
+      "path": "football/clubs/ca/forge.png"
+    },
+    "hfx-wanderers": {
+      "name": "HFX Wanderers FC",
+      "path": "football/clubs/ca/hfx-wanderers.png"
+    },
+    "inter-toronto-fc": {
+      "name": "Inter Toronto FC",
+      "path": "football/clubs/ca/inter-toronto-fc.png"
+    },
+    "pacific": {
+      "name": "Pacific FC",
+      "path": "football/clubs/ca/pacific.png"
+    },
+    "valour": {
+      "name": "Valour FC",
+      "path": "football/clubs/ca/valour.png"
+    },
+    "vancouver-fc": {
+      "name": "Vancouver FC",
+      "path": "football/clubs/ca/vancouver-fc.png"
+    },
     "basel": {
       "name": "FC Basel 1893",
       "path": "football/clubs/ch/basel.png"
@@ -558,6 +950,258 @@
     "zurich": {
       "name": "FC Zürich",
       "path": "football/clubs/ch/zurich.png"
+    },
+    "audax-italiano": {
+      "name": "Audax Italiano",
+      "path": "football/clubs/cl/audax-italiano.png"
+    },
+    "cobreloa": {
+      "name": "Cobreloa",
+      "path": "football/clubs/cl/cobreloa.png"
+    },
+    "cobresal": {
+      "name": "Cobresal",
+      "path": "football/clubs/cl/cobresal.png"
+    },
+    "colo-colo": {
+      "name": "Colo-Colo",
+      "path": "football/clubs/cl/colo-colo.png"
+    },
+    "coquimbo-unido": {
+      "name": "Coquimbo Unido",
+      "path": "football/clubs/cl/coquimbo-unido.png"
+    },
+    "curico-unido": {
+      "name": "Curicó Unido",
+      "path": "football/clubs/cl/curico-unido.png"
+    },
+    "deportes-antofagasta": {
+      "name": "Deportes Antofagasta",
+      "path": "football/clubs/cl/deportes-antofagasta.png"
+    },
+    "deportes-concepcion": {
+      "name": "Deportes Concepción",
+      "path": "football/clubs/cl/deportes-concepcion.png"
+    },
+    "deportes-copiapo": {
+      "name": "Deportes Copiapó",
+      "path": "football/clubs/cl/deportes-copiapo.png"
+    },
+    "deportes-iquique": {
+      "name": "Deportes Iquique",
+      "path": "football/clubs/cl/deportes-iquique.png"
+    },
+    "deportes-limache": {
+      "name": "Deportes Limache",
+      "path": "football/clubs/cl/deportes-limache.png"
+    },
+    "everton-cl": {
+      "name": "Everton",
+      "path": "football/clubs/cl/everton-cl.png"
+    },
+    "huachipato": {
+      "name": "Huachipato",
+      "path": "football/clubs/cl/huachipato.png"
+    },
+    "la-serena": {
+      "name": "Deportes La Serena",
+      "path": "football/clubs/cl/la-serena.png"
+    },
+    "magallanes": {
+      "name": "Magallanes",
+      "path": "football/clubs/cl/magallanes.png"
+    },
+    "nublense": {
+      "name": "Ñublense",
+      "path": "football/clubs/cl/nublense.png"
+    },
+    "ohiggins": {
+      "name": "O'Higgins",
+      "path": "football/clubs/cl/ohiggins.png"
+    },
+    "palestino": {
+      "name": "Palestino",
+      "path": "football/clubs/cl/palestino.png"
+    },
+    "union-espanola": {
+      "name": "Unión Española",
+      "path": "football/clubs/cl/union-espanola.png"
+    },
+    "union-la-calera": {
+      "name": "Unión La Calera",
+      "path": "football/clubs/cl/union-la-calera.png"
+    },
+    "universidad-catolica": {
+      "name": "Universidad Católica",
+      "path": "football/clubs/cl/universidad-catolica.png"
+    },
+    "universidad-de-chile": {
+      "name": "Universidad de Chile",
+      "path": "football/clubs/cl/universidad-de-chile.png"
+    },
+    "universidad-de-concepcion": {
+      "name": "Universidad de Concepción",
+      "path": "football/clubs/cl/universidad-de-concepcion.png"
+    },
+    "aguilas-doradas": {
+      "name": "Águilas Doradas",
+      "path": "football/clubs/co/aguilas-doradas.png"
+    },
+    "alianza-valledupar": {
+      "name": "Alianza",
+      "path": "football/clubs/co/alianza-valledupar.png"
+    },
+    "america-de-cali": {
+      "name": "América de Cali",
+      "path": "football/clubs/co/america-de-cali.png"
+    },
+    "atletico-huila": {
+      "name": "Atlético Huila",
+      "path": "football/clubs/co/atletico-huila.png"
+    },
+    "atletico-junior": {
+      "name": "Junior",
+      "path": "football/clubs/co/atletico-junior.png"
+    },
+    "atletico-nacional": {
+      "name": "Atlético Nacional",
+      "path": "football/clubs/co/atletico-nacional.png"
+    },
+    "boyaca-chico": {
+      "name": "Boyacá Chicó",
+      "path": "football/clubs/co/boyaca-chico.png"
+    },
+    "bucaramanga": {
+      "name": "Atlético Bucaramanga",
+      "path": "football/clubs/co/bucaramanga.png"
+    },
+    "cucuta-deportivo": {
+      "name": "Cúcuta Deportivo",
+      "path": "football/clubs/co/cucuta-deportivo.png"
+    },
+    "deportes-tolima": {
+      "name": "Deportes Tolima",
+      "path": "football/clubs/co/deportes-tolima.png"
+    },
+    "deportivo-cali": {
+      "name": "Deportivo Cali",
+      "path": "football/clubs/co/deportivo-cali.png"
+    },
+    "deportivo-pasto": {
+      "name": "Deportivo Pasto",
+      "path": "football/clubs/co/deportivo-pasto.png"
+    },
+    "deportivo-pereira": {
+      "name": "Deportivo Pereira",
+      "path": "football/clubs/co/deportivo-pereira.png"
+    },
+    "envigado": {
+      "name": "Envigado",
+      "path": "football/clubs/co/envigado.png"
+    },
+    "fortaleza-ceif": {
+      "name": "Fortaleza",
+      "path": "football/clubs/co/fortaleza-ceif.png"
+    },
+    "independiente-medellin": {
+      "name": "Independiente Medellín",
+      "path": "football/clubs/co/independiente-medellin.png"
+    },
+    "independiente-santa-fe": {
+      "name": "Santa Fe",
+      "path": "football/clubs/co/independiente-santa-fe.png"
+    },
+    "internacional-de-bogota": {
+      "name": "Internacional de Bogotá",
+      "path": "football/clubs/co/internacional-de-bogota.png"
+    },
+    "jaguares-de-cordoba": {
+      "name": "Jaguares",
+      "path": "football/clubs/co/jaguares-de-cordoba.png"
+    },
+    "llaneros": {
+      "name": "Llaneros",
+      "path": "football/clubs/co/llaneros.png"
+    },
+    "millonarios": {
+      "name": "Millonarios",
+      "path": "football/clubs/co/millonarios.png"
+    },
+    "once-caldas": {
+      "name": "Once Caldas",
+      "path": "football/clubs/co/once-caldas.png"
+    },
+    "patriotas": {
+      "name": "Patriotas",
+      "path": "football/clubs/co/patriotas.png"
+    },
+    "union-magdalena": {
+      "name": "Unión Magdalena",
+      "path": "football/clubs/co/union-magdalena.png"
+    },
+    "alajuelense": {
+      "name": "Alajuelense",
+      "path": "football/clubs/cr/alajuelense.png"
+    },
+    "carmelita": {
+      "name": "Carmelita",
+      "path": "football/clubs/cr/carmelita.png"
+    },
+    "cartagines": {
+      "name": "Cartaginés",
+      "path": "football/clubs/cr/cartagines.png"
+    },
+    "escorpiones-de-belen": {
+      "name": "Escorpiones",
+      "path": "football/clubs/cr/escorpiones-de-belen.png"
+    },
+    "guadalupe": {
+      "name": "Guadalupe",
+      "path": "football/clubs/cr/guadalupe.png"
+    },
+    "herediano": {
+      "name": "Herediano",
+      "path": "football/clubs/cr/herediano.png"
+    },
+    "inter-san-carlos": {
+      "name": "Inter de San Carlos",
+      "path": "football/clubs/cr/inter-san-carlos.png"
+    },
+    "limon": {
+      "name": "Limón",
+      "path": "football/clubs/cr/limon.png"
+    },
+    "municipal-liberia": {
+      "name": "Liberia",
+      "path": "football/clubs/cr/municipal-liberia.png"
+    },
+    "perez-zeledon": {
+      "name": "Pérez Zeledón",
+      "path": "football/clubs/cr/perez-zeledon.png"
+    },
+    "puntarenas": {
+      "name": "Puntarenas",
+      "path": "football/clubs/cr/puntarenas.png"
+    },
+    "san-carlos": {
+      "name": "San Carlos",
+      "path": "football/clubs/cr/san-carlos.png"
+    },
+    "santos-cr": {
+      "name": "Santos",
+      "path": "football/clubs/cr/santos-cr.png"
+    },
+    "saprissa": {
+      "name": "Saprissa",
+      "path": "football/clubs/cr/saprissa.png"
+    },
+    "sporting-san-jose": {
+      "name": "Sporting",
+      "path": "football/clubs/cr/sporting-san-jose.png"
+    },
+    "ucr": {
+      "name": "UCR",
+      "path": "football/clubs/cr/ucr.png"
     },
     "artis-brno": {
       "name": "SK Artis Brno",
@@ -806,6 +1450,94 @@
     "viborg": {
       "name": "Viborg FF",
       "path": "football/clubs/dk/viborg.png"
+    },
+    "9-de-octubre": {
+      "name": "9 de Octubre",
+      "path": "football/clubs/ec/9-de-octubre.png"
+    },
+    "aucas": {
+      "name": "Aucas",
+      "path": "football/clubs/ec/aucas.png"
+    },
+    "barcelona-sc": {
+      "name": "Barcelona",
+      "path": "football/clubs/ec/barcelona-sc.png"
+    },
+    "cumbaya": {
+      "name": "Cumbayá",
+      "path": "football/clubs/ec/cumbaya.png"
+    },
+    "delfin": {
+      "name": "Delfín",
+      "path": "football/clubs/ec/delfin.png"
+    },
+    "deportivo-cuenca": {
+      "name": "Deportivo Cuenca",
+      "path": "football/clubs/ec/deportivo-cuenca.png"
+    },
+    "el-nacional": {
+      "name": "El Nacional",
+      "path": "football/clubs/ec/el-nacional.png"
+    },
+    "emelec": {
+      "name": "Emelec",
+      "path": "football/clubs/ec/emelec.png"
+    },
+    "gualaceo": {
+      "name": "Gualaceo",
+      "path": "football/clubs/ec/gualaceo.png"
+    },
+    "guayaquil-city": {
+      "name": "Guayaquil City",
+      "path": "football/clubs/ec/guayaquil-city.png"
+    },
+    "imbabura": {
+      "name": "Imbabura",
+      "path": "football/clubs/ec/imbabura.png"
+    },
+    "independiente-del-valle": {
+      "name": "Independiente del Valle",
+      "path": "football/clubs/ec/independiente-del-valle.png"
+    },
+    "ldu-quito": {
+      "name": "LDU Quito",
+      "path": "football/clubs/ec/ldu-quito.png"
+    },
+    "leones-del-norte": {
+      "name": "Leones",
+      "path": "football/clubs/ec/leones-del-norte.png"
+    },
+    "libertad": {
+      "name": "Libertad",
+      "path": "football/clubs/ec/libertad.png"
+    },
+    "macara": {
+      "name": "Macará",
+      "path": "football/clubs/ec/macara.png"
+    },
+    "manta-fc": {
+      "name": "Manta",
+      "path": "football/clubs/ec/manta-fc.png"
+    },
+    "mushuc-runa": {
+      "name": "Mushuc Runa",
+      "path": "football/clubs/ec/mushuc-runa.png"
+    },
+    "orense": {
+      "name": "Orense",
+      "path": "football/clubs/ec/orense.png"
+    },
+    "tecnico-universitario": {
+      "name": "Técnico Universitario",
+      "path": "football/clubs/ec/tecnico-universitario.png"
+    },
+    "universidad-catolica-quito": {
+      "name": "Universidad Católica",
+      "path": "football/clubs/ec/universidad-catolica-quito.png"
+    },
+    "vinotinto": {
+      "name": "Vinotinto Ecuador",
+      "path": "football/clubs/ec/vinotinto.png"
     },
     "alaves": {
       "name": "Deportivo Alavés",
@@ -1283,6 +2015,58 @@
       "name": "Volos NFC",
       "path": "football/clubs/gr/volos.png"
     },
+    "antigua-gfc": {
+      "name": "Antigua GFC",
+      "path": "football/clubs/gt/antigua-gfc.png"
+    },
+    "aurora-fc": {
+      "name": "Aurora FC",
+      "path": "football/clubs/gt/aurora-fc.png"
+    },
+    "coban-imperial": {
+      "name": "Cobán Imperial",
+      "path": "football/clubs/gt/coban-imperial.png"
+    },
+    "comunicaciones-fc": {
+      "name": "Comunicaciones",
+      "path": "football/clubs/gt/comunicaciones-fc.png"
+    },
+    "guastatoya": {
+      "name": "Guastatoya",
+      "path": "football/clubs/gt/guastatoya.png"
+    },
+    "malacateco": {
+      "name": "Malacateco",
+      "path": "football/clubs/gt/malacateco.png"
+    },
+    "marquense": {
+      "name": "Marquense",
+      "path": "football/clubs/gt/marquense.png"
+    },
+    "mixco": {
+      "name": "Mixco",
+      "path": "football/clubs/gt/mixco.png"
+    },
+    "municipal": {
+      "name": "Municipal",
+      "path": "football/clubs/gt/municipal.png"
+    },
+    "san-pedro-fc": {
+      "name": "San Pedro",
+      "path": "football/clubs/gt/san-pedro-fc.png"
+    },
+    "suchitepequez": {
+      "name": "Suchitepéquez",
+      "path": "football/clubs/gt/suchitepequez.png"
+    },
+    "xelaju-mc": {
+      "name": "Xelajú MC",
+      "path": "football/clubs/gt/xelaju-mc.png"
+    },
+    "xinabajul-huehue": {
+      "name": "Xinabajul-Huehue",
+      "path": "football/clubs/gt/xinabajul-huehue.png"
+    },
     "dinamo-zagreb": {
       "name": "GNK Dinamo Zagreb",
       "path": "football/clubs/hr/dinamo-zagreb.png"
@@ -1555,6 +2339,82 @@
       "name": "Hellas Verona",
       "path": "football/clubs/it/verona.png"
     },
+    "america": {
+      "name": "América",
+      "path": "football/clubs/mx/america.png"
+    },
+    "atlante": {
+      "name": "Atlante",
+      "path": "football/clubs/mx/atlante.png"
+    },
+    "atlas": {
+      "name": "Atlas",
+      "path": "football/clubs/mx/atlas.png"
+    },
+    "atletico-de-san-luis": {
+      "name": "Atlético San Luis",
+      "path": "football/clubs/mx/atletico-de-san-luis.png"
+    },
+    "cruz-azul": {
+      "name": "Cruz Azul",
+      "path": "football/clubs/mx/cruz-azul.png"
+    },
+    "fc-juarez": {
+      "name": "Juárez",
+      "path": "football/clubs/mx/fc-juarez.png"
+    },
+    "guadalajara": {
+      "name": "Guadalajara",
+      "path": "football/clubs/mx/guadalajara.png"
+    },
+    "leon": {
+      "name": "León",
+      "path": "football/clubs/mx/leon.png"
+    },
+    "mazatlan-fc": {
+      "name": "Mazatlán",
+      "path": "football/clubs/mx/mazatlan-fc.png"
+    },
+    "monterrey": {
+      "name": "Monterrey",
+      "path": "football/clubs/mx/monterrey.png"
+    },
+    "necaxa": {
+      "name": "Necaxa",
+      "path": "football/clubs/mx/necaxa.png"
+    },
+    "pachuca": {
+      "name": "Pachuca",
+      "path": "football/clubs/mx/pachuca.png"
+    },
+    "puebla": {
+      "name": "Puebla",
+      "path": "football/clubs/mx/puebla.png"
+    },
+    "queretaro-fc": {
+      "name": "Querétaro",
+      "path": "football/clubs/mx/queretaro-fc.png"
+    },
+    "santos-laguna": {
+      "name": "Santos Laguna",
+      "path": "football/clubs/mx/santos-laguna.png"
+    },
+    "tigres-uanl": {
+      "name": "Tigres UANL",
+      "path": "football/clubs/mx/tigres-uanl.png"
+    },
+    "tijuana": {
+      "name": "Tijuana",
+      "path": "football/clubs/mx/tijuana.png"
+    },
+    "toluca": {
+      "name": "Toluca",
+      "path": "football/clubs/mx/toluca.png"
+    },
+    "unam-pumas": {
+      "name": "Pumas UNAM",
+      "path": "football/clubs/mx/unam-pumas.png"
+    },
     "ado-den-haag": {
       "name": "ADO Den Haag",
       "path": "football/clubs/nl/ado-den-haag.png"
@@ -1734,6 +2594,162 @@
     "viking": {
       "name": "Viking FK",
       "path": "football/clubs/no/viking.png"
+    },
+    "alianza-fc": {
+      "name": "Alianza",
+      "path": "football/clubs/pa/alianza-fc.png"
+    },
+    "arabe-unido": {
+      "name": "Árabe Unido",
+      "path": "football/clubs/pa/arabe-unido.png"
+    },
+    "cd-universitario": {
+      "name": "Universitario",
+      "path": "football/clubs/pa/cd-universitario.png"
+    },
+    "herrera-fc": {
+      "name": "Herrera",
+      "path": "football/clubs/pa/herrera-fc.png"
+    },
+    "independiente-pa": {
+      "name": "Atlético Independiente",
+      "path": "football/clubs/pa/independiente-pa.png"
+    },
+    "plaza-amador": {
+      "name": "Plaza Amador",
+      "path": "football/clubs/pa/plaza-amador.png"
+    },
+    "potros-del-este": {
+      "name": "Potros del Este",
+      "path": "football/clubs/pa/potros-del-este.png"
+    },
+    "san-francisco-fc": {
+      "name": "San Francisco",
+      "path": "football/clubs/pa/san-francisco-fc.png"
+    },
+    "sporting-san-miguelito": {
+      "name": "Sporting San Miguelito",
+      "path": "football/clubs/pa/sporting-san-miguelito.png"
+    },
+    "tauro-fc": {
+      "name": "Tauro",
+      "path": "football/clubs/pa/tauro-fc.png"
+    },
+    "umecit-fc": {
+      "name": "Umecit",
+      "path": "football/clubs/pa/umecit-fc.png"
+    },
+    "union-cocle-fc": {
+      "name": "Unión Coclé F. C.",
+      "path": "football/clubs/pa/union-cocle-fc.png"
+    },
+    "veraguas-united": {
+      "name": "Veraguas United",
+      "path": "football/clubs/pa/veraguas-united.png"
+    },
+    "academia-cantolao": {
+      "name": "Academia Cantolao",
+      "path": "football/clubs/pe/academia-cantolao.png"
+    },
+    "adt": {
+      "name": "ADT",
+      "path": "football/clubs/pe/adt.png"
+    },
+    "alianza-atletico": {
+      "name": "Alianza Atlético",
+      "path": "football/clubs/pe/alianza-atletico.png"
+    },
+    "alianza-lima": {
+      "name": "Alianza Lima",
+      "path": "football/clubs/pe/alianza-lima.png"
+    },
+    "alianza-universidad": {
+      "name": "Alianza Universidad",
+      "path": "football/clubs/pe/alianza-universidad.png"
+    },
+    "atletico-grau": {
+      "name": "Atlético Grau",
+      "path": "football/clubs/pe/atletico-grau.png"
+    },
+    "ayacucho": {
+      "name": "Ayacucho",
+      "path": "football/clubs/pe/ayacucho.png"
+    },
+    "binacional": {
+      "name": "Binacional",
+      "path": "football/clubs/pe/binacional.png"
+    },
+    "cienciano": {
+      "name": "Cienciano",
+      "path": "football/clubs/pe/cienciano.png"
+    },
+    "comerciantes-unidos": {
+      "name": "Comerciantes Unidos",
+      "path": "football/clubs/pe/comerciantes-unidos.png"
+    },
+    "cusco": {
+      "name": "Cusco",
+      "path": "football/clubs/pe/cusco.png"
+    },
+    "deportivo-garcilaso": {
+      "name": "Deportivo Garcilaso",
+      "path": "football/clubs/pe/deportivo-garcilaso.png"
+    },
+    "deportivo-moquegua": {
+      "name": "Deportivo Moquegua",
+      "path": "football/clubs/pe/deportivo-moquegua.png"
+    },
+    "deportivo-municipal": {
+      "name": "Deportivo Municipal",
+      "path": "football/clubs/pe/deportivo-municipal.png"
+    },
+    "fc-cajamarca": {
+      "name": "Cajamarca",
+      "path": "football/clubs/pe/fc-cajamarca.png"
+    },
+    "juan-pablo-ii": {
+      "name": "Juan Pablo II College",
+      "path": "football/clubs/pe/juan-pablo-ii.png"
+    },
+    "los-chankas": {
+      "name": "Los Chankas",
+      "path": "football/clubs/pe/los-chankas.png"
+    },
+    "melgar": {
+      "name": "Melgar",
+      "path": "football/clubs/pe/melgar.png"
+    },
+    "sport-boys": {
+      "name": "Sport Boys",
+      "path": "football/clubs/pe/sport-boys.png"
+    },
+    "sport-huancayo": {
+      "name": "Sport Huancayo",
+      "path": "football/clubs/pe/sport-huancayo.png"
+    },
+    "sporting-cristal": {
+      "name": "Sporting Cristal",
+      "path": "football/clubs/pe/sporting-cristal.png"
+    },
+    "union-comercio": {
+      "name": "Unión Comercio",
+      "path": "football/clubs/pe/union-comercio.png"
+    },
+    "universidad-cesar-vallejo": {
+      "name": "Universidad César Vallejo",
+      "path": "football/clubs/pe/universidad-cesar-vallejo.png"
+    },
+    "universidad-san-martin": {
+      "name": "Universidad San Martín",
+      "path": "football/clubs/pe/universidad-san-martin.png"
+    },
+    "universitario": {
+      "name": "Universitario",
+      "path": "football/clubs/pe/universitario.png"
+    },
+    "utc": {
+      "name": "UTC",
+      "path": "football/clubs/pe/utc.png"
     },
     "arka": {
       "name": "Arka Gdynia",
@@ -1954,6 +2970,82 @@
     "vizela": {
       "name": "FC Vizela",
       "path": "football/clubs/pt/vizela.png"
+    },
+    "12-de-octubre": {
+      "name": "12 de Octubre",
+      "path": "football/clubs/py/12-de-octubre.png"
+    },
+    "2-de-mayo": {
+      "name": "2 de Mayo",
+      "path": "football/clubs/py/2-de-mayo.png"
+    },
+    "cerro-porteno": {
+      "name": "Cerro Porteño",
+      "path": "football/clubs/py/cerro-porteno.png"
+    },
+    "general-caballero": {
+      "name": "Club General Caballero",
+      "path": "football/clubs/py/general-caballero.png"
+    },
+    "guairena": {
+      "name": "Guaireña",
+      "path": "football/clubs/py/guairena.png"
+    },
+    "guarani": {
+      "name": "Guaraní",
+      "path": "football/clubs/py/guarani.png"
+    },
+    "libertad-py": {
+      "name": "Libertad",
+      "path": "football/clubs/py/libertad-py.png"
+    },
+    "nacional": {
+      "name": "Nacional",
+      "path": "football/clubs/py/nacional.png"
+    },
+    "olimpia": {
+      "name": "Olimpia",
+      "path": "football/clubs/py/olimpia.png"
+    },
+    "recoleta": {
+      "name": "Recoleta",
+      "path": "football/clubs/py/recoleta.png"
+    },
+    "resistencia": {
+      "name": "Resistencia",
+      "path": "football/clubs/py/resistencia.png"
+    },
+    "rubio-nu": {
+      "name": "Rubio Ñu",
+      "path": "football/clubs/py/rubio-nu.png"
+    },
+    "sol-de-america": {
+      "name": "Sol de América",
+      "path": "football/clubs/py/sol-de-america.png"
+    },
+    "sportivo-ameliano": {
+      "name": "Sportivo Ameliano",
+      "path": "football/clubs/py/sportivo-ameliano.png"
+    },
+    "sportivo-luqueno": {
+      "name": "Sportivo Luqueño",
+      "path": "football/clubs/py/sportivo-luqueno.png"
+    },
+    "sportivo-san-lorenzo": {
+      "name": "San Lorenzo",
+      "path": "football/clubs/py/sportivo-san-lorenzo.png"
+    },
+    "tacuary": {
+      "name": "Tacuary",
+      "path": "football/clubs/py/tacuary.png"
+    },
+    "tembetary": {
+      "name": "Tembetary",
+      "path": "football/clubs/py/tembetary.png"
+    },
+    "trinidense": {
+      "name": "Sportivo Trinidense",
+      "path": "football/clubs/py/trinidense.png"
     },
     "arges-pitesti": {
       "name": "ACSC FC Arges",
@@ -2554,6 +3646,298 @@
     "zorya-luhansk": {
       "name": "Zorya Lugansk",
       "path": "football/clubs/ua/zorya-luhansk.png"
+    },
+    "atlanta-united": {
+      "name": "Atlanta United FC",
+      "path": "football/clubs/us/atlanta-united.png"
+    },
+    "austin-fc": {
+      "name": "Austin FC",
+      "path": "football/clubs/us/austin-fc.png"
+    },
+    "cf-montreal": {
+      "name": "CF Montréal",
+      "path": "football/clubs/us/cf-montreal.png"
+    },
+    "charlotte-fc": {
+      "name": "Charlotte FC",
+      "path": "football/clubs/us/charlotte-fc.png"
+    },
+    "chicago-fire-fc": {
+      "name": "Chicago Fire FC",
+      "path": "football/clubs/us/chicago-fire-fc.png"
+    },
+    "colorado-rapids": {
+      "name": "Colorado Rapids",
+      "path": "football/clubs/us/colorado-rapids.png"
+    },
+    "columbus-crew": {
+      "name": "Columbus Crew",
+      "path": "football/clubs/us/columbus-crew.png"
+    },
+    "dc-united": {
+      "name": "D.C. United",
+      "path": "football/clubs/us/dc-united.png"
+    },
+    "fc-cincinnati": {
+      "name": "FC Cincinnati",
+      "path": "football/clubs/us/fc-cincinnati.png"
+    },
+    "fc-dallas": {
+      "name": "FC Dallas",
+      "path": "football/clubs/us/fc-dallas.png"
+    },
+    "houston-dynamo": {
+      "name": "Houston Dynamo FC",
+      "path": "football/clubs/us/houston-dynamo.png"
+    },
+    "inter-miami-cf": {
+      "name": "Inter Miami CF",
+      "path": "football/clubs/us/inter-miami-cf.png"
+    },
+    "la-galaxy": {
+      "name": "LA Galaxy",
+      "path": "football/clubs/us/la-galaxy.png"
+    },
+    "los-angeles-fc": {
+      "name": "Los Angeles FC",
+      "path": "football/clubs/us/los-angeles-fc.png"
+    },
+    "minnesota-united-fc": {
+      "name": "Minnesota United FC",
+      "path": "football/clubs/us/minnesota-united-fc.png"
+    },
+    "nashville-sc": {
+      "name": "Nashville SC",
+      "path": "football/clubs/us/nashville-sc.png"
+    },
+    "new-england-revolution": {
+      "name": "New England Revolution",
+      "path": "football/clubs/us/new-england-revolution.png"
+    },
+    "new-york-city-fc": {
+      "name": "New York City FC",
+      "path": "football/clubs/us/new-york-city-fc.png"
+    },
+    "new-york-red-bulls": {
+      "name": "New York Red Bulls",
+      "path": "football/clubs/us/new-york-red-bulls.png"
+    },
+    "orlando-city": {
+      "name": "Orlando City SC",
+      "path": "football/clubs/us/orlando-city.png"
+    },
+    "philadelphia-union": {
+      "name": "Philadelphia Union",
+      "path": "football/clubs/us/philadelphia-union.png"
+    },
+    "portland-timbers": {
+      "name": "Portland Timbers",
+      "path": "football/clubs/us/portland-timbers.png"
+    },
+    "real-salt-lake": {
+      "name": "Real Salt Lake",
+      "path": "football/clubs/us/real-salt-lake.png"
+    },
+    "san-diego-fc": {
+      "name": "San Diego FC",
+      "path": "football/clubs/us/san-diego-fc.png"
+    },
+    "san-jose-earthquakes": {
+      "name": "San Jose Earthquakes",
+      "path": "football/clubs/us/san-jose-earthquakes.png"
+    },
+    "seattle-sounders-fc": {
+      "name": "Seattle Sounders FC",
+      "path": "football/clubs/us/seattle-sounders-fc.png"
+    },
+    "sporting-kansas-city": {
+      "name": "Sporting Kansas City",
+      "path": "football/clubs/us/sporting-kansas-city.png"
+    },
+    "st-louis-city-sc": {
+      "name": "St. Louis City SC",
+      "path": "football/clubs/us/st-louis-city-sc.png"
+    },
+    "toronto-fc": {
+      "name": "Toronto FC",
+      "path": "football/clubs/us/toronto-fc.png"
+    },
+    "vancouver-whitecaps-fc": {
+      "name": "Vancouver Whitecaps FC",
+      "path": "football/clubs/us/vancouver-whitecaps-fc.png"
+    },
+    "albion": {
+      "name": "Albion",
+      "path": "football/clubs/uy/albion.png"
+    },
+    "boston-river": {
+      "name": "Boston River",
+      "path": "football/clubs/uy/boston-river.png"
+    },
+    "central-espanol": {
+      "name": "Central Español",
+      "path": "football/clubs/uy/central-espanol.png"
+    },
+    "cerrito": {
+      "name": "Cerrito",
+      "path": "football/clubs/uy/cerrito.png"
+    },
+    "cerro": {
+      "name": "Cerro",
+      "path": "football/clubs/uy/cerro.png"
+    },
+    "cerro-largo": {
+      "name": "Cerro Largo",
+      "path": "football/clubs/uy/cerro-largo.png"
+    },
+    "danubio": {
+      "name": "Danubio",
+      "path": "football/clubs/uy/danubio.png"
+    },
+    "defensor-sporting": {
+      "name": "Defensor Sporting",
+      "path": "football/clubs/uy/defensor-sporting.png"
+    },
+    "deportivo-maldonado": {
+      "name": "Deportivo Maldonado",
+      "path": "football/clubs/uy/deportivo-maldonado.png"
+    },
+    "fenix": {
+      "name": "Fénix",
+      "path": "football/clubs/uy/fenix.png"
+    },
+    "juventud": {
+      "name": "Juventud",
+      "path": "football/clubs/uy/juventud.png"
+    },
+    "la-luz": {
+      "name": "La Luz",
+      "path": "football/clubs/uy/la-luz.png"
+    },
+    "liverpool-uy": {
+      "name": "Liverpool",
+      "path": "football/clubs/uy/liverpool-uy.png"
+    },
+    "miramar-misiones": {
+      "name": "Miramar Misiones",
+      "path": "football/clubs/uy/miramar-misiones.png"
+    },
+    "montevideo-city-torque": {
+      "name": "Montevideo City",
+      "path": "football/clubs/uy/montevideo-city-torque.png"
+    },
+    "montevideo-wanderers": {
+      "name": "Montevideo Wanderers",
+      "path": "football/clubs/uy/montevideo-wanderers.png"
+    },
+    "nacional-uy": {
+      "name": "Nacional",
+      "path": "football/clubs/uy/nacional-uy.png"
+    },
+    "penarol": {
+      "name": "Peñarol",
+      "path": "football/clubs/uy/penarol.png"
+    },
+    "plaza-colonia": {
+      "name": "Plaza Colonia",
+      "path": "football/clubs/uy/plaza-colonia.png"
+    },
+    "progreso": {
+      "name": "Progreso",
+      "path": "football/clubs/uy/progreso.png"
+    },
+    "racing-montevideo": {
+      "name": "Racing",
+      "path": "football/clubs/uy/racing-montevideo.png"
+    },
+    "rampla-juniors": {
+      "name": "Rampla Juniors",
+      "path": "football/clubs/uy/rampla-juniors.png"
+    },
+    "rentistas": {
+      "name": "Rentistas",
+      "path": "football/clubs/uy/rentistas.png"
+    },
+    "river-plate-uy": {
+      "name": "River Plate",
+      "path": "football/clubs/uy/river-plate-uy.png"
+    },
+    "academia-puerto-cabello": {
+      "name": "Academia Puerto Cabello",
+      "path": "football/clubs/ve/academia-puerto-cabello.png"
+    },
+    "angostura": {
+      "name": "Angostura",
+      "path": "football/clubs/ve/angostura.png"
+    },
+    "anzoategui": {
+      "name": "Anzoátegui",
+      "path": "football/clubs/ve/anzoategui.png"
+    },
+    "carabobo": {
+      "name": "Carabobo",
+      "path": "football/clubs/ve/carabobo.png"
+    },
+    "caracas": {
+      "name": "Caracas",
+      "path": "football/clubs/ve/caracas.png"
+    },
+    "deportivo-la-guaira": {
+      "name": "Deportivo La Guaira",
+      "path": "football/clubs/ve/deportivo-la-guaira.png"
+    },
+    "deportivo-lara": {
+      "name": "Deportivo Lara",
+      "path": "football/clubs/ve/deportivo-lara.png"
+    },
+    "deportivo-tachira": {
+      "name": "Deportivo Táchira",
+      "path": "football/clubs/ve/deportivo-tachira.png"
+    },
+    "estudiantes-merida": {
+      "name": "Estudiantes de Mérida",
+      "path": "football/clubs/ve/estudiantes-merida.png"
+    },
+    "inter-de-barinas": {
+      "name": "Inter de Barinas",
+      "path": "football/clubs/ve/inter-de-barinas.png"
+    },
+    "metropolitanos": {
+      "name": "Metropolitanos",
+      "path": "football/clubs/ve/metropolitanos.png"
+    },
+    "mineros-de-guayana": {
+      "name": "Mineros de Guayana",
+      "path": "football/clubs/ve/mineros-de-guayana.png"
+    },
+    "monagas": {
+      "name": "Monagas",
+      "path": "football/clubs/ve/monagas.png"
+    },
+    "portuguesa": {
+      "name": "Portuguesa",
+      "path": "football/clubs/ve/portuguesa.png"
+    },
+    "rayo-zuliano": {
+      "name": "Rayo Zuliano",
+      "path": "football/clubs/ve/rayo-zuliano.png"
+    },
+    "trujillanos-fc": {
+      "name": "Trujillanos",
+      "path": "football/clubs/ve/trujillanos-fc.png"
+    },
+    "universidad-central": {
+      "name": "Universidad Central",
+      "path": "football/clubs/ve/universidad-central.png"
+    },
+    "yaracuyanos": {
+      "name": "Yaracuyanos",
+      "path": "football/clubs/ve/yaracuyanos.png"
+    },
+    "zamora": {
+      "name": "Zamora",
+      "path": "football/clubs/ve/zamora.png"
     }
   },
   "ufc-logos": {}

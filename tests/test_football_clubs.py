@@ -488,6 +488,14 @@ class RealClubsCatalogTest(unittest.TestCase):
         self.assertNotEqual(self.find("ES", "Deportivo"), "alaves")
         self.assertNotEqual(self.find("FR", "Paris"), "paris-fc")
 
+    def test_american_clubs_resolve(self):
+        self.assertEqual(self.find("BR", "Flamengo"), "flamengo")
+        self.assertEqual(self.find("AR", "Boca Juniors"), "boca-juniors")
+        self.assertEqual(self.find("US", "Toronto FC"), "toronto-fc")
+        self.assertEqual(self.find("MX", "Club América"), "america")
+        self.assertEqual(self.find("CA", "York United"), "inter-toronto-fc")
+        self.assertIsNone(self.find("CA", "Toronto FC"))
+
     def test_native_spellings_resolve(self):
         self.assertEqual(self.find("PL", "Wisła Kraków"), "wisla-krakow")
         self.assertEqual(self.find("DK", "Brøndby IF"), "brondby")

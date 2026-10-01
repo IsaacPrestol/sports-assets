@@ -23,7 +23,8 @@ sports-assets/
 │   │   ├── competitions.json          # catálogo (fuente de verdad, se edita a mano)
 │   │   ├── competitions-lookup.json   # generado: nombre normalizado → id
 │   │   ├── clubs.json                 # catálogo de clubes (lo actualiza sync_clubs.py)
-│   │   ├── clubs-mapping.json         # emparejamientos luukhopman → escudo, revisados
+│   │   ├── clubs-mapping.json         # emparejamientos club → escudo, revisados
+│   │   ├── rosters.json               # clubes por liga y temporada de las ligas de América (a mano)
 │   │   └── clubs-lookup.json          # generado: país → nombre normalizado → id
 │   ├── fighters.json
 │   ├── ufc-logos.json
@@ -120,7 +121,14 @@ Después actualiza `logo` en el catálogo, registra el origen en `data/sources.j
 
 ## Clubes de fútbol
 
-Escudos de los clubes de las 25 ligas europeas de [luukhopman/football-logos](https://github.com/luukhopman/football-logos): los de la temporada actual y los que han jugado en ellas desde 2021/22. Las imágenes vienen de [football-logos.cc](https://github.com/Leo4815162342/football-logos) (1024 px); si un club no está allí, se usa el PNG de luukhopman (139×181, la validación lo avisa como baja resolución).
+Escudos de los clubes de 41 ligas: los de la temporada actual y los que han jugado en ellas desde 2021/22 (Europa) o 2022 (América).
+
+- **Europa (25 ligas):** la lista de clubes viene de [luukhopman/football-logos](https://github.com/luukhopman/football-logos).
+- **América (16 ligas: los 10 países de CONMEBOL, Liga MX, MLS, Canadian Premier League, Costa Rica, Guatemala y Panamá):** la lista de clubes está en `data/football/rosters.json`, mantenido a mano a partir de Wikipedia.
+
+Las imágenes vienen de [football-logos.cc](https://github.com/Leo4815162342/football-logos) (1024 px). Si un club no está allí, se usa el PNG de luukhopman (139×181) o, en América, el escudo de su artículo de Wikipedia; la validación avisa de los que tienen baja resolución. Algunos clubes históricos no tienen escudo disponible (`logo: null`).
+
+El país de un club es el de su liga: Toronto FC, Vancouver Whitecaps y CF Montréal juegan la MLS y tienen país `US`.
 
 Los escudos están en `football/clubs/<país>/<id>.png`. La carpeta no cambia cuando un club sube o baja de categoría.
 
@@ -132,7 +140,7 @@ Los escudos están en `football/clubs/<país>/<id>.png`. La carpeta no cambia cu
 | `name` | nombre del club |
 | `aliases` | otros nombres habituales |
 | `country` | código ISO (`ES`, `GB-ENG`, `GB-SCT`…) |
-| `league` | id de su liga en `competitions.json` esta temporada, o `null` si no juega en ninguna de las 25 |
+| `league` | id de su liga en `competitions.json` esta temporada, o `null` si no juega en ninguna de las 41 |
 | `logo` | ruta del escudo |
 
 ### Uso desde una app
@@ -156,6 +164,18 @@ python scripts/sync_clubs.py apply     # descarga escudos, actualiza clubs.json 
 ```
 
 `apply` no sobrescribe escudos existentes ni los nombres y alias que se hayan editado a mano en `clubs.json`.
+
+En América, antes de `plan` hay que añadir la temporada nueva de cada liga a `data/football/rosters.json`:
+
+```json
+"liga-mx": {
+  "2026-27": ["América", "Atlas", "..."]
+}
+```
+
+- La temporada es `AAAA` en las ligas de año natural y `AAAA-AA` en Liga MX, Costa Rica y Guatemala (Apertura y Clausura juntos). La más reciente es la actual.
+- Usa el nombre del club tal como aparece en la Wikipedia en inglés y escríbelo igual en todas las temporadas.
+- Si football-logos.cc no tiene el escudo, pon en `clubs-mapping.json` `"source": "url"` con la URL https de un PNG de Wikipedia/Wikimedia, o `"source": "none"` si no hay ninguno.
 
 ## Descargar imágenes de peleadores UFC
 

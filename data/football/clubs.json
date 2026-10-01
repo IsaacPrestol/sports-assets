@@ -2,6 +2,314 @@
   "version": 1,
   "clubs": [
     {
+      "id": "aldosivi",
+      "name": "Aldosivi",
+      "aliases": [],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/aldosivi.png"
+    },
+    {
+      "id": "argentinos-juniors",
+      "name": "Argentinos Juniors",
+      "aliases": [
+        "Argeninos Juniors"
+      ],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/argentinos-juniors.png"
+    },
+    {
+      "id": "arsenal-de-sarandi",
+      "name": "Arsenal",
+      "aliases": [
+        "Arsenal De Sarandi"
+      ],
+      "country": "AR",
+      "league": null,
+      "logo": "football/clubs/ar/arsenal-de-sarandi.png"
+    },
+    {
+      "id": "atletico-tucuman",
+      "name": "Atlético Tucumán",
+      "aliases": [],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/atletico-tucuman.png"
+    },
+    {
+      "id": "banfield",
+      "name": "Banfield",
+      "aliases": [],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/banfield.png"
+    },
+    {
+      "id": "barracas-central",
+      "name": "Barracas Central",
+      "aliases": [],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/barracas-central.png"
+    },
+    {
+      "id": "belgrano",
+      "name": "Belgrano",
+      "aliases": [],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/belgrano.png"
+    },
+    {
+      "id": "boca-juniors",
+      "name": "Boca Juniors",
+      "aliases": [],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/boca-juniors.png"
+    },
+    {
+      "id": "central-cordoba",
+      "name": "Central Córdoba de Santiago del Estero",
+      "aliases": [
+        "Central Cordoba"
+      ],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/central-cordoba.png"
+    },
+    {
+      "id": "colon",
+      "name": "Colón",
+      "aliases": [
+        "Colon Santa Fe"
+      ],
+      "country": "AR",
+      "league": null,
+      "logo": "football/clubs/ar/colon.png"
+    },
+    {
+      "id": "defensa-y-justicia",
+      "name": "Defensa y Justicia",
+      "aliases": [],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/defensa-y-justicia.png"
+    },
+    {
+      "id": "deportivo-riestra",
+      "name": "Deportivo Riestra",
+      "aliases": [],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/deportivo-riestra.png"
+    },
+    {
+      "id": "estudiantes-de-la-plata",
+      "name": "Estudiantes de La Plata",
+      "aliases": [],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/estudiantes-de-la-plata.png"
+    },
+    {
+      "id": "estudiantes-de-rio-cuarto",
+      "name": "Estudiantes de Río Cuarto",
+      "aliases": [],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/estudiantes-de-rio-cuarto.png"
+    },
+    {
+      "id": "gimnasia-la-plata",
+      "name": "Club de Gimnasia y Esgrima La Plata",
+      "aliases": [
+        "Gimnasia Lp"
+      ],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/gimnasia-la-plata.png"
+    },
+    {
+      "id": "gimnasia-mendoza",
+      "name": "Gimnasia y Esgrima de Mendoza",
+      "aliases": [
+        "Gimnasia Y Esgrima"
+      ],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/gimnasia-mendoza.png"
+    },
+    {
+      "id": "godoy-cruz",
+      "name": "Godoy Cruz",
+      "aliases": [],
+      "country": "AR",
+      "league": null,
+      "logo": "football/clubs/ar/godoy-cruz.png"
+    },
+    {
+      "id": "huracan",
+      "name": "Huracán",
+      "aliases": [
+        "Ca Huracan"
+      ],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/huracan.png"
+    },
+    {
+      "id": "independiente",
+      "name": "Independiente",
+      "aliases": [],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/independiente.png"
+    },
+    {
+      "id": "independiente-rivadavia",
+      "name": "Independiente Rivadavia",
+      "aliases": [],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/independiente-rivadavia.png"
+    },
+    {
+      "id": "instituto",
+      "name": "Instituto",
+      "aliases": [
+        "Instituto Cordoba"
+      ],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/instituto.png"
+    },
+    {
+      "id": "lanus",
+      "name": "Lanús",
+      "aliases": [],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/lanus.png"
+    },
+    {
+      "id": "newells-old-boys",
+      "name": "Newell's Old Boys",
+      "aliases": [
+        "Newells Old Boys"
+      ],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/newells-old-boys.png"
+    },
+    {
+      "id": "patronato",
+      "name": "Patronato",
+      "aliases": [],
+      "country": "AR",
+      "league": null,
+      "logo": "football/clubs/ar/patronato.png"
+    },
+    {
+      "id": "platense",
+      "name": "Platense",
+      "aliases": [],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/platense.png"
+    },
+    {
+      "id": "racing-club",
+      "name": "Racing",
+      "aliases": [
+        "Racing Club"
+      ],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/racing-club.png"
+    },
+    {
+      "id": "river-plate",
+      "name": "River Plate",
+      "aliases": [],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/river-plate.png"
+    },
+    {
+      "id": "rosario-central",
+      "name": "Rosario Central",
+      "aliases": [],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/rosario-central.png"
+    },
+    {
+      "id": "san-lorenzo",
+      "name": "San Lorenzo",
+      "aliases": [
+        "San Lorenzo De Almagro"
+      ],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/san-lorenzo.png"
+    },
+    {
+      "id": "san-martin-san-juan",
+      "name": "San Martín de San Juan",
+      "aliases": [
+        "San Martin San Juan"
+      ],
+      "country": "AR",
+      "league": null,
+      "logo": "football/clubs/ar/san-martin-san-juan.png"
+    },
+    {
+      "id": "sarmiento",
+      "name": "Club Atlético Sarmiento",
+      "aliases": [
+        "Sarmiento"
+      ],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/sarmiento.png"
+    },
+    {
+      "id": "talleres",
+      "name": "Talleres de Córdoba",
+      "aliases": [
+        "Talleres"
+      ],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/talleres.png"
+    },
+    {
+      "id": "tigre",
+      "name": "Tigre",
+      "aliases": [],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/tigre.png"
+    },
+    {
+      "id": "union",
+      "name": "Unión",
+      "aliases": [],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/union.png"
+    },
+    {
+      "id": "velez-sarsfield",
+      "name": "Vélez Sarsfield",
+      "aliases": [],
+      "country": "AR",
+      "league": "liga-profesional-argentina",
+      "logo": "football/clubs/ar/velez-sarsfield.png"
+    },
+    {
       "id": "admira",
       "name": "FC Admira Wacker Mödling",
       "aliases": [
@@ -557,6 +865,535 @@
       "logo": "football/clubs/bg/spartak-varna.png"
     },
     {
+      "id": "abb",
+      "name": "ABB",
+      "aliases": [],
+      "country": "BO",
+      "league": "bolivian-primera-division",
+      "logo": "football/clubs/bo/abb.png"
+    },
+    {
+      "id": "always-ready",
+      "name": "Always Ready",
+      "aliases": [],
+      "country": "BO",
+      "league": "bolivian-primera-division",
+      "logo": "football/clubs/bo/always-ready.png"
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "aliases": [],
+      "country": "BO",
+      "league": "bolivian-primera-division",
+      "logo": "football/clubs/bo/aurora.png"
+    },
+    {
+      "id": "blooming",
+      "name": "Blooming",
+      "aliases": [],
+      "country": "BO",
+      "league": "bolivian-primera-division",
+      "logo": "football/clubs/bo/blooming.png"
+    },
+    {
+      "id": "bolivar",
+      "name": "Bolívar",
+      "aliases": [],
+      "country": "BO",
+      "league": "bolivian-primera-division",
+      "logo": "football/clubs/bo/bolivar.png"
+    },
+    {
+      "id": "guabira",
+      "name": "Guabirá",
+      "aliases": [],
+      "country": "BO",
+      "league": "bolivian-primera-division",
+      "logo": "football/clubs/bo/guabira.png"
+    },
+    {
+      "id": "gv-san-jose",
+      "name": "GV San José",
+      "aliases": [],
+      "country": "BO",
+      "league": "bolivian-primera-division",
+      "logo": "football/clubs/bo/gv-san-jose.png"
+    },
+    {
+      "id": "independiente-petrolero",
+      "name": "Independiente Petrolero",
+      "aliases": [],
+      "country": "BO",
+      "league": "bolivian-primera-division",
+      "logo": "football/clubs/bo/independiente-petrolero.png"
+    },
+    {
+      "id": "jorge-wilstermann",
+      "name": "Jorge Wilstermann",
+      "aliases": [],
+      "country": "BO",
+      "league": null,
+      "logo": "football/clubs/bo/jorge-wilstermann.png"
+    },
+    {
+      "id": "libertad-gran-mamore",
+      "name": "Libertad Gran Mamoré",
+      "aliases": [],
+      "country": "BO",
+      "league": null,
+      "logo": "football/clubs/bo/libertad-gran-mamore.png"
+    },
+    {
+      "id": "nacional-potosi",
+      "name": "Nacional Potosí",
+      "aliases": [],
+      "country": "BO",
+      "league": "bolivian-primera-division",
+      "logo": "football/clubs/bo/nacional-potosi.png"
+    },
+    {
+      "id": "oriente-petrolero",
+      "name": "Oriente Petrolero",
+      "aliases": [],
+      "country": "BO",
+      "league": "bolivian-primera-division",
+      "logo": "football/clubs/bo/oriente-petrolero.png"
+    },
+    {
+      "id": "palmaflor-del-tropico",
+      "name": "Palmaflor del Trópico",
+      "aliases": [],
+      "country": "BO",
+      "league": null,
+      "logo": "football/clubs/bo/palmaflor-del-tropico.png"
+    },
+    {
+      "id": "real-oruro",
+      "name": "Real Oruro",
+      "aliases": [],
+      "country": "BO",
+      "league": "bolivian-primera-division",
+      "logo": "football/clubs/bo/real-oruro.png"
+    },
+    {
+      "id": "real-potosi",
+      "name": "Real Potosí",
+      "aliases": [],
+      "country": "BO",
+      "league": "bolivian-primera-division",
+      "logo": "football/clubs/bo/real-potosi.png"
+    },
+    {
+      "id": "real-santa-cruz",
+      "name": "Real Santa Cruz",
+      "aliases": [],
+      "country": "BO",
+      "league": null,
+      "logo": "football/clubs/bo/real-santa-cruz.png"
+    },
+    {
+      "id": "real-tomayapo",
+      "name": "Real Tomayapo",
+      "aliases": [],
+      "country": "BO",
+      "league": "bolivian-primera-division",
+      "logo": "football/clubs/bo/real-tomayapo.png"
+    },
+    {
+      "id": "royal-pari",
+      "name": "Royal Pari",
+      "aliases": [],
+      "country": "BO",
+      "league": null,
+      "logo": "football/clubs/bo/royal-pari.png"
+    },
+    {
+      "id": "san-antonio-bulo-bulo",
+      "name": "San Antonio Bulo Bulo",
+      "aliases": [],
+      "country": "BO",
+      "league": "bolivian-primera-division",
+      "logo": "football/clubs/bo/san-antonio-bulo-bulo.png"
+    },
+    {
+      "id": "the-strongest",
+      "name": "The Strongest",
+      "aliases": [],
+      "country": "BO",
+      "league": "bolivian-primera-division",
+      "logo": "football/clubs/bo/the-strongest.png"
+    },
+    {
+      "id": "universitario-de-sucre",
+      "name": "Universitario de Sucre",
+      "aliases": [],
+      "country": "BO",
+      "league": null,
+      "logo": "football/clubs/bo/universitario-de-sucre.png"
+    },
+    {
+      "id": "universitario-de-vinto",
+      "name": "Universitario de Vinto",
+      "aliases": [],
+      "country": "BO",
+      "league": "bolivian-primera-division",
+      "logo": "football/clubs/bo/universitario-de-vinto.png"
+    },
+    {
+      "id": "vaca-diez",
+      "name": "Vaca Díez",
+      "aliases": [],
+      "country": "BO",
+      "league": null,
+      "logo": "football/clubs/bo/vaca-diez.png"
+    },
+    {
+      "id": "america-mineiro",
+      "name": "América Mineiro",
+      "aliases": [],
+      "country": "BR",
+      "league": null,
+      "logo": "football/clubs/br/america-mineiro.png"
+    },
+    {
+      "id": "athletico-paranaense",
+      "name": "Athletico Paranaense",
+      "aliases": [],
+      "country": "BR",
+      "league": "brasileirao-serie-a",
+      "logo": "football/clubs/br/athletico-paranaense.png"
+    },
+    {
+      "id": "atletico-goianiense",
+      "name": "Atlético Goianiense",
+      "aliases": [],
+      "country": "BR",
+      "league": null,
+      "logo": "football/clubs/br/atletico-goianiense.png"
+    },
+    {
+      "id": "atletico-mineiro",
+      "name": "Atlético Mineiro",
+      "aliases": [],
+      "country": "BR",
+      "league": "brasileirao-serie-a",
+      "logo": "football/clubs/br/atletico-mineiro.png"
+    },
+    {
+      "id": "avai",
+      "name": "Avaí",
+      "aliases": [],
+      "country": "BR",
+      "league": null,
+      "logo": "football/clubs/br/avai.png"
+    },
+    {
+      "id": "bahia",
+      "name": "Bahia",
+      "aliases": [],
+      "country": "BR",
+      "league": "brasileirao-serie-a",
+      "logo": "football/clubs/br/bahia.png"
+    },
+    {
+      "id": "botafogo",
+      "name": "Botafogo",
+      "aliases": [],
+      "country": "BR",
+      "league": "brasileirao-serie-a",
+      "logo": "football/clubs/br/botafogo.png"
+    },
+    {
+      "id": "ceara",
+      "name": "Ceará",
+      "aliases": [],
+      "country": "BR",
+      "league": null,
+      "logo": "football/clubs/br/ceara.png"
+    },
+    {
+      "id": "chapecoense",
+      "name": "Chapecoense",
+      "aliases": [],
+      "country": "BR",
+      "league": "brasileirao-serie-a",
+      "logo": "football/clubs/br/chapecoense.png"
+    },
+    {
+      "id": "corinthians",
+      "name": "Corinthians",
+      "aliases": [],
+      "country": "BR",
+      "league": "brasileirao-serie-a",
+      "logo": "football/clubs/br/corinthians.png"
+    },
+    {
+      "id": "coritiba",
+      "name": "Coritiba",
+      "aliases": [],
+      "country": "BR",
+      "league": "brasileirao-serie-a",
+      "logo": "football/clubs/br/coritiba.png"
+    },
+    {
+      "id": "criciuma",
+      "name": "Criciúma",
+      "aliases": [],
+      "country": "BR",
+      "league": null,
+      "logo": "football/clubs/br/criciuma.png"
+    },
+    {
+      "id": "cruzeiro",
+      "name": "Cruzeiro",
+      "aliases": [],
+      "country": "BR",
+      "league": "brasileirao-serie-a",
+      "logo": "football/clubs/br/cruzeiro.png"
+    },
+    {
+      "id": "cuiaba",
+      "name": "Cuiabá",
+      "aliases": [],
+      "country": "BR",
+      "league": null,
+      "logo": "football/clubs/br/cuiaba.png"
+    },
+    {
+      "id": "flamengo",
+      "name": "Flamengo",
+      "aliases": [],
+      "country": "BR",
+      "league": "brasileirao-serie-a",
+      "logo": "football/clubs/br/flamengo.png"
+    },
+    {
+      "id": "fluminense",
+      "name": "Fluminense",
+      "aliases": [],
+      "country": "BR",
+      "league": "brasileirao-serie-a",
+      "logo": "football/clubs/br/fluminense.png"
+    },
+    {
+      "id": "fortaleza",
+      "name": "Fortaleza",
+      "aliases": [],
+      "country": "BR",
+      "league": null,
+      "logo": "football/clubs/br/fortaleza.png"
+    },
+    {
+      "id": "goias",
+      "name": "Goiás",
+      "aliases": [],
+      "country": "BR",
+      "league": null,
+      "logo": "football/clubs/br/goias.png"
+    },
+    {
+      "id": "gremio",
+      "name": "Grêmio",
+      "aliases": [],
+      "country": "BR",
+      "league": "brasileirao-serie-a",
+      "logo": "football/clubs/br/gremio.png"
+    },
+    {
+      "id": "internacional",
+      "name": "Internacional",
+      "aliases": [],
+      "country": "BR",
+      "league": "brasileirao-serie-a",
+      "logo": "football/clubs/br/internacional.png"
+    },
+    {
+      "id": "juventude",
+      "name": "Juventude",
+      "aliases": [],
+      "country": "BR",
+      "league": null,
+      "logo": "football/clubs/br/juventude.png"
+    },
+    {
+      "id": "mirassol",
+      "name": "Mirassol",
+      "aliases": [],
+      "country": "BR",
+      "league": "brasileirao-serie-a",
+      "logo": "football/clubs/br/mirassol.png"
+    },
+    {
+      "id": "palmeiras",
+      "name": "Palmeiras",
+      "aliases": [],
+      "country": "BR",
+      "league": "brasileirao-serie-a",
+      "logo": "football/clubs/br/palmeiras.png"
+    },
+    {
+      "id": "rb-bragantino",
+      "name": "Red Bull Bragantino",
+      "aliases": [
+        "Rb Bragantino"
+      ],
+      "country": "BR",
+      "league": "brasileirao-serie-a",
+      "logo": "football/clubs/br/rb-bragantino.png"
+    },
+    {
+      "id": "remo",
+      "name": "Remo",
+      "aliases": [
+        "Clube Do Remo"
+      ],
+      "country": "BR",
+      "league": "brasileirao-serie-a",
+      "logo": "football/clubs/br/remo.png"
+    },
+    {
+      "id": "santos",
+      "name": "Santos",
+      "aliases": [],
+      "country": "BR",
+      "league": "brasileirao-serie-a",
+      "logo": "football/clubs/br/santos.png"
+    },
+    {
+      "id": "sao-paulo",
+      "name": "São Paulo",
+      "aliases": [],
+      "country": "BR",
+      "league": "brasileirao-serie-a",
+      "logo": "football/clubs/br/sao-paulo.png"
+    },
+    {
+      "id": "sport-recife",
+      "name": "Sport",
+      "aliases": [
+        "Sport Recife"
+      ],
+      "country": "BR",
+      "league": null,
+      "logo": "football/clubs/br/sport-recife.png"
+    },
+    {
+      "id": "vasco-da-gama",
+      "name": "Vasco da Gama",
+      "aliases": [],
+      "country": "BR",
+      "league": "brasileirao-serie-a",
+      "logo": "football/clubs/br/vasco-da-gama.png"
+    },
+    {
+      "id": "vitoria",
+      "name": "Vitória",
+      "aliases": [],
+      "country": "BR",
+      "league": "brasileirao-serie-a",
+      "logo": "football/clubs/br/vitoria.png"
+    },
+    {
+      "id": "atletico-ottawa",
+      "name": "Atlético Ottawa",
+      "aliases": [],
+      "country": "CA",
+      "league": "canadian-premier-league",
+      "logo": "football/clubs/ca/atletico-ottawa.png"
+    },
+    {
+      "id": "cavalry",
+      "name": "Cavalry FC",
+      "aliases": [
+        "Cavalry"
+      ],
+      "country": "CA",
+      "league": "canadian-premier-league",
+      "logo": "football/clubs/ca/cavalry.png"
+    },
+    {
+      "id": "edmonton",
+      "name": "FC Edmonton",
+      "aliases": [
+        "edmonton"
+      ],
+      "country": "CA",
+      "league": null,
+      "logo": "football/clubs/ca/edmonton.png"
+    },
+    {
+      "id": "fc-supra-du-quebec",
+      "name": "FC Supra du Québec",
+      "aliases": [
+        "supra du quebec"
+      ],
+      "country": "CA",
+      "league": "canadian-premier-league",
+      "logo": "football/clubs/ca/fc-supra-du-quebec.png"
+    },
+    {
+      "id": "forge",
+      "name": "Forge FC",
+      "aliases": [
+        "Forge"
+      ],
+      "country": "CA",
+      "league": "canadian-premier-league",
+      "logo": "football/clubs/ca/forge.png"
+    },
+    {
+      "id": "hfx-wanderers",
+      "name": "HFX Wanderers FC",
+      "aliases": [
+        "Hfx Wanderers"
+      ],
+      "country": "CA",
+      "league": "canadian-premier-league",
+      "logo": "football/clubs/ca/hfx-wanderers.png"
+    },
+    {
+      "id": "inter-toronto-fc",
+      "name": "Inter Toronto FC",
+      "aliases": [
+        "inter toronto",
+        "York United"
+      ],
+      "country": "CA",
+      "league": "canadian-premier-league",
+      "logo": "football/clubs/ca/inter-toronto-fc.png"
+    },
+    {
+      "id": "pacific",
+      "name": "Pacific FC",
+      "aliases": [
+        "Pacific"
+      ],
+      "country": "CA",
+      "league": "canadian-premier-league",
+      "logo": "football/clubs/ca/pacific.png"
+    },
+    {
+      "id": "valour",
+      "name": "Valour FC",
+      "aliases": [
+        "Valour"
+      ],
+      "country": "CA",
+      "league": null,
+      "logo": "football/clubs/ca/valour.png"
+    },
+    {
+      "id": "vancouver-fc",
+      "name": "Vancouver FC",
+      "aliases": [
+        "vancouver"
+      ],
+      "country": "CA",
+      "league": "canadian-premier-league",
+      "logo": "football/clubs/ca/vancouver-fc.png"
+    },
+    {
       "id": "basel",
       "name": "FC Basel 1893",
       "aliases": [
@@ -709,6 +1546,587 @@
       "country": "CH",
       "league": "swiss-super-league",
       "logo": "football/clubs/ch/zurich.png"
+    },
+    {
+      "id": "audax-italiano",
+      "name": "Audax Italiano",
+      "aliases": [],
+      "country": "CL",
+      "league": "chilean-primera-division",
+      "logo": "football/clubs/cl/audax-italiano.png"
+    },
+    {
+      "id": "cobreloa",
+      "name": "Cobreloa",
+      "aliases": [],
+      "country": "CL",
+      "league": null,
+      "logo": "football/clubs/cl/cobreloa.png"
+    },
+    {
+      "id": "cobresal",
+      "name": "Cobresal",
+      "aliases": [],
+      "country": "CL",
+      "league": "chilean-primera-division",
+      "logo": "football/clubs/cl/cobresal.png"
+    },
+    {
+      "id": "colo-colo",
+      "name": "Colo-Colo",
+      "aliases": [],
+      "country": "CL",
+      "league": "chilean-primera-division",
+      "logo": "football/clubs/cl/colo-colo.png"
+    },
+    {
+      "id": "coquimbo-unido",
+      "name": "Coquimbo Unido",
+      "aliases": [],
+      "country": "CL",
+      "league": "chilean-primera-division",
+      "logo": "football/clubs/cl/coquimbo-unido.png"
+    },
+    {
+      "id": "curico-unido",
+      "name": "Curicó Unido",
+      "aliases": [],
+      "country": "CL",
+      "league": null,
+      "logo": "football/clubs/cl/curico-unido.png"
+    },
+    {
+      "id": "deportes-antofagasta",
+      "name": "Deportes Antofagasta",
+      "aliases": [],
+      "country": "CL",
+      "league": null,
+      "logo": "football/clubs/cl/deportes-antofagasta.png"
+    },
+    {
+      "id": "deportes-concepcion",
+      "name": "Deportes Concepción",
+      "aliases": [],
+      "country": "CL",
+      "league": "chilean-primera-division",
+      "logo": "football/clubs/cl/deportes-concepcion.png"
+    },
+    {
+      "id": "deportes-copiapo",
+      "name": "Deportes Copiapó",
+      "aliases": [],
+      "country": "CL",
+      "league": null,
+      "logo": "football/clubs/cl/deportes-copiapo.png"
+    },
+    {
+      "id": "deportes-iquique",
+      "name": "Deportes Iquique",
+      "aliases": [],
+      "country": "CL",
+      "league": null,
+      "logo": "football/clubs/cl/deportes-iquique.png"
+    },
+    {
+      "id": "deportes-limache",
+      "name": "Deportes Limache",
+      "aliases": [],
+      "country": "CL",
+      "league": "chilean-primera-division",
+      "logo": "football/clubs/cl/deportes-limache.png"
+    },
+    {
+      "id": "everton-cl",
+      "name": "Everton",
+      "aliases": [],
+      "country": "CL",
+      "league": "chilean-primera-division",
+      "logo": "football/clubs/cl/everton-cl.png"
+    },
+    {
+      "id": "huachipato",
+      "name": "Huachipato",
+      "aliases": [],
+      "country": "CL",
+      "league": "chilean-primera-division",
+      "logo": "football/clubs/cl/huachipato.png"
+    },
+    {
+      "id": "la-serena",
+      "name": "Deportes La Serena",
+      "aliases": [
+        "La Serena"
+      ],
+      "country": "CL",
+      "league": "chilean-primera-division",
+      "logo": "football/clubs/cl/la-serena.png"
+    },
+    {
+      "id": "magallanes",
+      "name": "Magallanes",
+      "aliases": [],
+      "country": "CL",
+      "league": null,
+      "logo": "football/clubs/cl/magallanes.png"
+    },
+    {
+      "id": "nublense",
+      "name": "Ñublense",
+      "aliases": [],
+      "country": "CL",
+      "league": "chilean-primera-division",
+      "logo": "football/clubs/cl/nublense.png"
+    },
+    {
+      "id": "ohiggins",
+      "name": "O'Higgins",
+      "aliases": [
+        "Ohiggins"
+      ],
+      "country": "CL",
+      "league": "chilean-primera-division",
+      "logo": "football/clubs/cl/ohiggins.png"
+    },
+    {
+      "id": "palestino",
+      "name": "Palestino",
+      "aliases": [],
+      "country": "CL",
+      "league": "chilean-primera-division",
+      "logo": "football/clubs/cl/palestino.png"
+    },
+    {
+      "id": "union-espanola",
+      "name": "Unión Española",
+      "aliases": [],
+      "country": "CL",
+      "league": null,
+      "logo": "football/clubs/cl/union-espanola.png"
+    },
+    {
+      "id": "union-la-calera",
+      "name": "Unión La Calera",
+      "aliases": [],
+      "country": "CL",
+      "league": "chilean-primera-division",
+      "logo": "football/clubs/cl/union-la-calera.png"
+    },
+    {
+      "id": "universidad-catolica",
+      "name": "Universidad Católica",
+      "aliases": [],
+      "country": "CL",
+      "league": "chilean-primera-division",
+      "logo": "football/clubs/cl/universidad-catolica.png"
+    },
+    {
+      "id": "universidad-de-chile",
+      "name": "Universidad de Chile",
+      "aliases": [],
+      "country": "CL",
+      "league": "chilean-primera-division",
+      "logo": "football/clubs/cl/universidad-de-chile.png"
+    },
+    {
+      "id": "universidad-de-concepcion",
+      "name": "Universidad de Concepción",
+      "aliases": [],
+      "country": "CL",
+      "league": "chilean-primera-division",
+      "logo": "football/clubs/cl/universidad-de-concepcion.png"
+    },
+    {
+      "id": "aguilas-doradas",
+      "name": "Águilas Doradas",
+      "aliases": [],
+      "country": "CO",
+      "league": "colombian-primera-a",
+      "logo": "football/clubs/co/aguilas-doradas.png"
+    },
+    {
+      "id": "alianza-valledupar",
+      "name": "Alianza",
+      "aliases": [
+        "Alianza Petrolera",
+        "Alianza Valledupar"
+      ],
+      "country": "CO",
+      "league": "colombian-primera-a",
+      "logo": "football/clubs/co/alianza-valledupar.png"
+    },
+    {
+      "id": "america-de-cali",
+      "name": "América de Cali",
+      "aliases": [],
+      "country": "CO",
+      "league": "colombian-primera-a",
+      "logo": "football/clubs/co/america-de-cali.png"
+    },
+    {
+      "id": "atletico-huila",
+      "name": "Atlético Huila",
+      "aliases": [],
+      "country": "CO",
+      "league": null,
+      "logo": "football/clubs/co/atletico-huila.png"
+    },
+    {
+      "id": "atletico-junior",
+      "name": "Junior",
+      "aliases": [
+        "Atletico Junior"
+      ],
+      "country": "CO",
+      "league": "colombian-primera-a",
+      "logo": "football/clubs/co/atletico-junior.png"
+    },
+    {
+      "id": "atletico-nacional",
+      "name": "Atlético Nacional",
+      "aliases": [],
+      "country": "CO",
+      "league": "colombian-primera-a",
+      "logo": "football/clubs/co/atletico-nacional.png"
+    },
+    {
+      "id": "boyaca-chico",
+      "name": "Boyacá Chicó",
+      "aliases": [],
+      "country": "CO",
+      "league": "colombian-primera-a",
+      "logo": "football/clubs/co/boyaca-chico.png"
+    },
+    {
+      "id": "bucaramanga",
+      "name": "Atlético Bucaramanga",
+      "aliases": [
+        "Bucaramanga"
+      ],
+      "country": "CO",
+      "league": "colombian-primera-a",
+      "logo": "football/clubs/co/bucaramanga.png"
+    },
+    {
+      "id": "cortulua",
+      "name": "Cortuluá",
+      "aliases": [],
+      "country": "CO",
+      "league": null,
+      "logo": null
+    },
+    {
+      "id": "cucuta-deportivo",
+      "name": "Cúcuta Deportivo",
+      "aliases": [],
+      "country": "CO",
+      "league": "colombian-primera-a",
+      "logo": "football/clubs/co/cucuta-deportivo.png"
+    },
+    {
+      "id": "deportes-tolima",
+      "name": "Deportes Tolima",
+      "aliases": [],
+      "country": "CO",
+      "league": "colombian-primera-a",
+      "logo": "football/clubs/co/deportes-tolima.png"
+    },
+    {
+      "id": "deportivo-cali",
+      "name": "Deportivo Cali",
+      "aliases": [],
+      "country": "CO",
+      "league": "colombian-primera-a",
+      "logo": "football/clubs/co/deportivo-cali.png"
+    },
+    {
+      "id": "deportivo-pasto",
+      "name": "Deportivo Pasto",
+      "aliases": [],
+      "country": "CO",
+      "league": "colombian-primera-a",
+      "logo": "football/clubs/co/deportivo-pasto.png"
+    },
+    {
+      "id": "deportivo-pereira",
+      "name": "Deportivo Pereira",
+      "aliases": [],
+      "country": "CO",
+      "league": "colombian-primera-a",
+      "logo": "football/clubs/co/deportivo-pereira.png"
+    },
+    {
+      "id": "envigado",
+      "name": "Envigado",
+      "aliases": [],
+      "country": "CO",
+      "league": null,
+      "logo": "football/clubs/co/envigado.png"
+    },
+    {
+      "id": "fortaleza-ceif",
+      "name": "Fortaleza",
+      "aliases": [
+        "Fortaleza Ceif"
+      ],
+      "country": "CO",
+      "league": "colombian-primera-a",
+      "logo": "football/clubs/co/fortaleza-ceif.png"
+    },
+    {
+      "id": "independiente-medellin",
+      "name": "Independiente Medellín",
+      "aliases": [],
+      "country": "CO",
+      "league": "colombian-primera-a",
+      "logo": "football/clubs/co/independiente-medellin.png"
+    },
+    {
+      "id": "independiente-santa-fe",
+      "name": "Santa Fe",
+      "aliases": [
+        "Independiente Santa Fe"
+      ],
+      "country": "CO",
+      "league": "colombian-primera-a",
+      "logo": "football/clubs/co/independiente-santa-fe.png"
+    },
+    {
+      "id": "internacional-de-bogota",
+      "name": "Internacional de Bogotá",
+      "aliases": [
+        "La Equidad"
+      ],
+      "country": "CO",
+      "league": "colombian-primera-a",
+      "logo": "football/clubs/co/internacional-de-bogota.png"
+    },
+    {
+      "id": "jaguares-de-cordoba",
+      "name": "Jaguares",
+      "aliases": [
+        "Jaguares De Cordoba"
+      ],
+      "country": "CO",
+      "league": "colombian-primera-a",
+      "logo": "football/clubs/co/jaguares-de-cordoba.png"
+    },
+    {
+      "id": "llaneros",
+      "name": "Llaneros",
+      "aliases": [],
+      "country": "CO",
+      "league": "colombian-primera-a",
+      "logo": "football/clubs/co/llaneros.png"
+    },
+    {
+      "id": "millonarios",
+      "name": "Millonarios",
+      "aliases": [],
+      "country": "CO",
+      "league": "colombian-primera-a",
+      "logo": "football/clubs/co/millonarios.png"
+    },
+    {
+      "id": "once-caldas",
+      "name": "Once Caldas",
+      "aliases": [],
+      "country": "CO",
+      "league": "colombian-primera-a",
+      "logo": "football/clubs/co/once-caldas.png"
+    },
+    {
+      "id": "patriotas",
+      "name": "Patriotas",
+      "aliases": [],
+      "country": "CO",
+      "league": null,
+      "logo": "football/clubs/co/patriotas.png"
+    },
+    {
+      "id": "union-magdalena",
+      "name": "Unión Magdalena",
+      "aliases": [],
+      "country": "CO",
+      "league": null,
+      "logo": "football/clubs/co/union-magdalena.png"
+    },
+    {
+      "id": "alajuelense",
+      "name": "Alajuelense",
+      "aliases": [
+        "Ld Alajuelense"
+      ],
+      "country": "CR",
+      "league": "costa-rican-primera-division",
+      "logo": "football/clubs/cr/alajuelense.png"
+    },
+    {
+      "id": "belen",
+      "name": "Belén",
+      "aliases": [],
+      "country": "CR",
+      "league": null,
+      "logo": null
+    },
+    {
+      "id": "carmelita",
+      "name": "Carmelita",
+      "aliases": [],
+      "country": "CR",
+      "league": null,
+      "logo": "football/clubs/cr/carmelita.png"
+    },
+    {
+      "id": "cartagines",
+      "name": "Cartaginés",
+      "aliases": [
+        "Cs Cartagines"
+      ],
+      "country": "CR",
+      "league": "costa-rican-primera-division",
+      "logo": "football/clubs/cr/cartagines.png"
+    },
+    {
+      "id": "escorpiones-de-belen",
+      "name": "Escorpiones",
+      "aliases": [
+        "Escorpiones De Belen"
+      ],
+      "country": "CR",
+      "league": "costa-rican-primera-division",
+      "logo": "football/clubs/cr/escorpiones-de-belen.png"
+    },
+    {
+      "id": "grecia",
+      "name": "Grecia",
+      "aliases": [],
+      "country": "CR",
+      "league": null,
+      "logo": null
+    },
+    {
+      "id": "guadalupe",
+      "name": "Guadalupe",
+      "aliases": [],
+      "country": "CR",
+      "league": null,
+      "logo": "football/clubs/cr/guadalupe.png"
+    },
+    {
+      "id": "guanacasteca",
+      "name": "Guanacasteca",
+      "aliases": [],
+      "country": "CR",
+      "league": null,
+      "logo": null
+    },
+    {
+      "id": "herediano",
+      "name": "Herediano",
+      "aliases": [],
+      "country": "CR",
+      "league": "costa-rican-primera-division",
+      "logo": "football/clubs/cr/herediano.png"
+    },
+    {
+      "id": "inter-san-carlos",
+      "name": "Inter de San Carlos",
+      "aliases": [
+        "Inter San Carlos"
+      ],
+      "country": "CR",
+      "league": "costa-rican-primera-division",
+      "logo": "football/clubs/cr/inter-san-carlos.png"
+    },
+    {
+      "id": "limon",
+      "name": "Limón",
+      "aliases": [],
+      "country": "CR",
+      "league": null,
+      "logo": "football/clubs/cr/limon.png"
+    },
+    {
+      "id": "municipal-liberia",
+      "name": "Liberia",
+      "aliases": [
+        "Municipal Liberia"
+      ],
+      "country": "CR",
+      "league": null,
+      "logo": "football/clubs/cr/municipal-liberia.png"
+    },
+    {
+      "id": "perez-zeledon",
+      "name": "Pérez Zeledón",
+      "aliases": [
+        "Municipal Perez Zeledon"
+      ],
+      "country": "CR",
+      "league": "costa-rican-primera-division",
+      "logo": "football/clubs/cr/perez-zeledon.png"
+    },
+    {
+      "id": "puntarenas",
+      "name": "Puntarenas",
+      "aliases": [],
+      "country": "CR",
+      "league": "costa-rican-primera-division",
+      "logo": "football/clubs/cr/puntarenas.png"
+    },
+    {
+      "id": "san-carlos",
+      "name": "San Carlos",
+      "aliases": [
+        "Deportiva San Carlos"
+      ],
+      "country": "CR",
+      "league": "costa-rican-primera-division",
+      "logo": "football/clubs/cr/san-carlos.png"
+    },
+    {
+      "id": "santa-ana",
+      "name": "Santa Ana",
+      "aliases": [],
+      "country": "CR",
+      "league": null,
+      "logo": null
+    },
+    {
+      "id": "santos-cr",
+      "name": "Santos",
+      "aliases": [],
+      "country": "CR",
+      "league": null,
+      "logo": "football/clubs/cr/santos-cr.png"
+    },
+    {
+      "id": "saprissa",
+      "name": "Saprissa",
+      "aliases": [
+        "Deportivo Saprissa"
+      ],
+      "country": "CR",
+      "league": "costa-rican-primera-division",
+      "logo": "football/clubs/cr/saprissa.png"
+    },
+    {
+      "id": "sporting-san-jose",
+      "name": "Sporting",
+      "aliases": [
+        "Sporting San Jose"
+      ],
+      "country": "CR",
+      "league": "costa-rican-primera-division",
+      "logo": "football/clubs/cr/sporting-san-jose.png"
+    },
+    {
+      "id": "ucr",
+      "name": "UCR",
+      "aliases": [],
+      "country": "CR",
+      "league": null,
+      "logo": "football/clubs/cr/ucr.png"
     },
     {
       "id": "artis-brno",
@@ -1342,6 +2760,194 @@
       "country": "DK",
       "league": "danish-superliga",
       "logo": "football/clubs/dk/viborg.png"
+    },
+    {
+      "id": "9-de-octubre",
+      "name": "9 de Octubre",
+      "aliases": [],
+      "country": "EC",
+      "league": null,
+      "logo": "football/clubs/ec/9-de-octubre.png"
+    },
+    {
+      "id": "aucas",
+      "name": "Aucas",
+      "aliases": [],
+      "country": "EC",
+      "league": "ecuadorian-serie-a",
+      "logo": "football/clubs/ec/aucas.png"
+    },
+    {
+      "id": "barcelona-sc",
+      "name": "Barcelona",
+      "aliases": [
+        "Barcelona Sc"
+      ],
+      "country": "EC",
+      "league": "ecuadorian-serie-a",
+      "logo": "football/clubs/ec/barcelona-sc.png"
+    },
+    {
+      "id": "cumbaya",
+      "name": "Cumbayá",
+      "aliases": [],
+      "country": "EC",
+      "league": null,
+      "logo": "football/clubs/ec/cumbaya.png"
+    },
+    {
+      "id": "delfin",
+      "name": "Delfín",
+      "aliases": [],
+      "country": "EC",
+      "league": "ecuadorian-serie-a",
+      "logo": "football/clubs/ec/delfin.png"
+    },
+    {
+      "id": "deportivo-cuenca",
+      "name": "Deportivo Cuenca",
+      "aliases": [],
+      "country": "EC",
+      "league": "ecuadorian-serie-a",
+      "logo": "football/clubs/ec/deportivo-cuenca.png"
+    },
+    {
+      "id": "el-nacional",
+      "name": "El Nacional",
+      "aliases": [],
+      "country": "EC",
+      "league": null,
+      "logo": "football/clubs/ec/el-nacional.png"
+    },
+    {
+      "id": "emelec",
+      "name": "Emelec",
+      "aliases": [],
+      "country": "EC",
+      "league": "ecuadorian-serie-a",
+      "logo": "football/clubs/ec/emelec.png"
+    },
+    {
+      "id": "gualaceo",
+      "name": "Gualaceo",
+      "aliases": [],
+      "country": "EC",
+      "league": null,
+      "logo": "football/clubs/ec/gualaceo.png"
+    },
+    {
+      "id": "guayaquil-city",
+      "name": "Guayaquil City",
+      "aliases": [],
+      "country": "EC",
+      "league": "ecuadorian-serie-a",
+      "logo": "football/clubs/ec/guayaquil-city.png"
+    },
+    {
+      "id": "imbabura",
+      "name": "Imbabura",
+      "aliases": [],
+      "country": "EC",
+      "league": null,
+      "logo": "football/clubs/ec/imbabura.png"
+    },
+    {
+      "id": "independiente-del-valle",
+      "name": "Independiente del Valle",
+      "aliases": [],
+      "country": "EC",
+      "league": "ecuadorian-serie-a",
+      "logo": "football/clubs/ec/independiente-del-valle.png"
+    },
+    {
+      "id": "ldu-quito",
+      "name": "LDU Quito",
+      "aliases": [
+        "Liga De Quito"
+      ],
+      "country": "EC",
+      "league": "ecuadorian-serie-a",
+      "logo": "football/clubs/ec/ldu-quito.png"
+    },
+    {
+      "id": "leones-del-norte",
+      "name": "Leones",
+      "aliases": [
+        "Leones Del Norte"
+      ],
+      "country": "EC",
+      "league": "ecuadorian-serie-a",
+      "logo": "football/clubs/ec/leones-del-norte.png"
+    },
+    {
+      "id": "libertad",
+      "name": "Libertad",
+      "aliases": [],
+      "country": "EC",
+      "league": "ecuadorian-serie-a",
+      "logo": "football/clubs/ec/libertad.png"
+    },
+    {
+      "id": "macara",
+      "name": "Macará",
+      "aliases": [],
+      "country": "EC",
+      "league": "ecuadorian-serie-a",
+      "logo": "football/clubs/ec/macara.png"
+    },
+    {
+      "id": "manta-fc",
+      "name": "Manta",
+      "aliases": [
+        "Manta Fc"
+      ],
+      "country": "EC",
+      "league": "ecuadorian-serie-a",
+      "logo": "football/clubs/ec/manta-fc.png"
+    },
+    {
+      "id": "mushuc-runa",
+      "name": "Mushuc Runa",
+      "aliases": [],
+      "country": "EC",
+      "league": "ecuadorian-serie-a",
+      "logo": "football/clubs/ec/mushuc-runa.png"
+    },
+    {
+      "id": "orense",
+      "name": "Orense",
+      "aliases": [],
+      "country": "EC",
+      "league": "ecuadorian-serie-a",
+      "logo": "football/clubs/ec/orense.png"
+    },
+    {
+      "id": "tecnico-universitario",
+      "name": "Técnico Universitario",
+      "aliases": [],
+      "country": "EC",
+      "league": "ecuadorian-serie-a",
+      "logo": "football/clubs/ec/tecnico-universitario.png"
+    },
+    {
+      "id": "universidad-catolica-quito",
+      "name": "Universidad Católica",
+      "aliases": [
+        "Universidad Catolica Quito"
+      ],
+      "country": "EC",
+      "league": "ecuadorian-serie-a",
+      "logo": "football/clubs/ec/universidad-catolica-quito.png"
+    },
+    {
+      "id": "vinotinto",
+      "name": "Vinotinto Ecuador",
+      "aliases": [
+        "Vinotinto"
+      ],
+      "country": "EC",
+      "league": null,
+      "logo": "football/clubs/ec/vinotinto.png"
     },
     {
       "id": "alaves",
@@ -2513,6 +4119,174 @@
       "logo": "football/clubs/gr/volos.png"
     },
     {
+      "id": "achuapa",
+      "name": "Achuapa",
+      "aliases": [],
+      "country": "GT",
+      "league": null,
+      "logo": null
+    },
+    {
+      "id": "antigua-gfc",
+      "name": "Antigua GFC",
+      "aliases": [
+        "Antigua"
+      ],
+      "country": "GT",
+      "league": "guatemalan-liga-nacional",
+      "logo": "football/clubs/gt/antigua-gfc.png"
+    },
+    {
+      "id": "atletico-mictlan",
+      "name": "Atlético Mictlán",
+      "aliases": [],
+      "country": "GT",
+      "league": null,
+      "logo": null
+    },
+    {
+      "id": "aurora-fc",
+      "name": "Aurora FC",
+      "aliases": [
+        "Aurora"
+      ],
+      "country": "GT",
+      "league": "guatemalan-liga-nacional",
+      "logo": "football/clubs/gt/aurora-fc.png"
+    },
+    {
+      "id": "coatepeque",
+      "name": "Coatepeque",
+      "aliases": [],
+      "country": "GT",
+      "league": null,
+      "logo": null
+    },
+    {
+      "id": "coban-imperial",
+      "name": "Cobán Imperial",
+      "aliases": [],
+      "country": "GT",
+      "league": "guatemalan-liga-nacional",
+      "logo": "football/clubs/gt/coban-imperial.png"
+    },
+    {
+      "id": "comunicaciones-fc",
+      "name": "Comunicaciones",
+      "aliases": [
+        "Comunicaciones Fc"
+      ],
+      "country": "GT",
+      "league": "guatemalan-liga-nacional",
+      "logo": "football/clubs/gt/comunicaciones-fc.png"
+    },
+    {
+      "id": "deportivo-zacapa",
+      "name": "Deportivo Zacapa",
+      "aliases": [],
+      "country": "GT",
+      "league": null,
+      "logo": null
+    },
+    {
+      "id": "guastatoya",
+      "name": "Guastatoya",
+      "aliases": [],
+      "country": "GT",
+      "league": "guatemalan-liga-nacional",
+      "logo": "football/clubs/gt/guastatoya.png"
+    },
+    {
+      "id": "iztapa",
+      "name": "Iztapa",
+      "aliases": [],
+      "country": "GT",
+      "league": null,
+      "logo": null
+    },
+    {
+      "id": "malacateco",
+      "name": "Malacateco",
+      "aliases": [
+        "Deportivo Malacateco"
+      ],
+      "country": "GT",
+      "league": "guatemalan-liga-nacional",
+      "logo": "football/clubs/gt/malacateco.png"
+    },
+    {
+      "id": "marquense",
+      "name": "Marquense",
+      "aliases": [
+        "Deportivo Marquense"
+      ],
+      "country": "GT",
+      "league": "guatemalan-liga-nacional",
+      "logo": "football/clubs/gt/marquense.png"
+    },
+    {
+      "id": "mixco",
+      "name": "Mixco",
+      "aliases": [
+        "Deportivo Mixco"
+      ],
+      "country": "GT",
+      "league": "guatemalan-liga-nacional",
+      "logo": "football/clubs/gt/mixco.png"
+    },
+    {
+      "id": "municipal",
+      "name": "Municipal",
+      "aliases": [],
+      "country": "GT",
+      "league": "guatemalan-liga-nacional",
+      "logo": "football/clubs/gt/municipal.png"
+    },
+    {
+      "id": "san-pedro-fc",
+      "name": "San Pedro",
+      "aliases": [
+        "San Pedro Fc"
+      ],
+      "country": "GT",
+      "league": "guatemalan-liga-nacional",
+      "logo": "football/clubs/gt/san-pedro-fc.png"
+    },
+    {
+      "id": "santa-lucia",
+      "name": "Santa Lucía",
+      "aliases": [],
+      "country": "GT",
+      "league": null,
+      "logo": null
+    },
+    {
+      "id": "suchitepequez",
+      "name": "Suchitepéquez",
+      "aliases": [
+        "Deportivo Suchitepequez"
+      ],
+      "country": "GT",
+      "league": "guatemalan-liga-nacional",
+      "logo": "football/clubs/gt/suchitepequez.png"
+    },
+    {
+      "id": "xelaju-mc",
+      "name": "Xelajú MC",
+      "aliases": [],
+      "country": "GT",
+      "league": "guatemalan-liga-nacional",
+      "logo": "football/clubs/gt/xelaju-mc.png"
+    },
+    {
+      "id": "xinabajul-huehue",
+      "name": "Xinabajul-Huehue",
+      "aliases": [],
+      "country": "GT",
+      "league": null,
+      "logo": "football/clubs/gt/xinabajul-huehue.png"
+    },
+    {
       "id": "dinamo-zagreb",
       "name": "GNK Dinamo Zagreb",
       "aliases": [
@@ -3170,6 +4944,176 @@
       "logo": "football/clubs/it/verona.png"
     },
     {
+      "id": "america",
+      "name": "América",
+      "aliases": [
+        "Club America"
+      ],
+      "country": "MX",
+      "league": "liga-mx",
+      "logo": "football/clubs/mx/america.png"
+    },
+    {
+      "id": "atlante",
+      "name": "Atlante",
+      "aliases": [],
+      "country": "MX",
+      "league": "liga-mx",
+      "logo": "football/clubs/mx/atlante.png"
+    },
+    {
+      "id": "atlas",
+      "name": "Atlas",
+      "aliases": [],
+      "country": "MX",
+      "league": "liga-mx",
+      "logo": "football/clubs/mx/atlas.png"
+    },
+    {
+      "id": "atletico-de-san-luis",
+      "name": "Atlético San Luis",
+      "aliases": [
+        "Atletico De San Luis"
+      ],
+      "country": "MX",
+      "league": "liga-mx",
+      "logo": "football/clubs/mx/atletico-de-san-luis.png"
+    },
+    {
+      "id": "cruz-azul",
+      "name": "Cruz Azul",
+      "aliases": [],
+      "country": "MX",
+      "league": "liga-mx",
+      "logo": "football/clubs/mx/cruz-azul.png"
+    },
+    {
+      "id": "fc-juarez",
+      "name": "Juárez",
+      "aliases": [
+        "Fc Juarez"
+      ],
+      "country": "MX",
+      "league": "liga-mx",
+      "logo": "football/clubs/mx/fc-juarez.png"
+    },
+    {
+      "id": "guadalajara",
+      "name": "Guadalajara",
+      "aliases": [
+        "Cd Guadalajara"
+      ],
+      "country": "MX",
+      "league": "liga-mx",
+      "logo": "football/clubs/mx/guadalajara.png"
+    },
+    {
+      "id": "leon",
+      "name": "León",
+      "aliases": [
+        "Club Leon"
+      ],
+      "country": "MX",
+      "league": "liga-mx",
+      "logo": "football/clubs/mx/leon.png"
+    },
+    {
+      "id": "mazatlan-fc",
+      "name": "Mazatlán",
+      "aliases": [
+        "Mazatlan Fc"
+      ],
+      "country": "MX",
+      "league": null,
+      "logo": "football/clubs/mx/mazatlan-fc.png"
+    },
+    {
+      "id": "monterrey",
+      "name": "Monterrey",
+      "aliases": [],
+      "country": "MX",
+      "league": "liga-mx",
+      "logo": "football/clubs/mx/monterrey.png"
+    },
+    {
+      "id": "necaxa",
+      "name": "Necaxa",
+      "aliases": [],
+      "country": "MX",
+      "league": "liga-mx",
+      "logo": "football/clubs/mx/necaxa.png"
+    },
+    {
+      "id": "pachuca",
+      "name": "Pachuca",
+      "aliases": [],
+      "country": "MX",
+      "league": "liga-mx",
+      "logo": "football/clubs/mx/pachuca.png"
+    },
+    {
+      "id": "puebla",
+      "name": "Puebla",
+      "aliases": [],
+      "country": "MX",
+      "league": "liga-mx",
+      "logo": "football/clubs/mx/puebla.png"
+    },
+    {
+      "id": "queretaro-fc",
+      "name": "Querétaro",
+      "aliases": [
+        "Queretaro Fc"
+      ],
+      "country": "MX",
+      "league": "liga-mx",
+      "logo": "football/clubs/mx/queretaro-fc.png"
+    },
+    {
+      "id": "santos-laguna",
+      "name": "Santos Laguna",
+      "aliases": [],
+      "country": "MX",
+      "league": "liga-mx",
+      "logo": "football/clubs/mx/santos-laguna.png"
+    },
+    {
+      "id": "tigres-uanl",
+      "name": "Tigres UANL",
+      "aliases": [],
+      "country": "MX",
+      "league": "liga-mx",
+      "logo": "football/clubs/mx/tigres-uanl.png"
+    },
+    {
+      "id": "tijuana",
+      "name": "Tijuana",
+      "aliases": [
+        "Club Tijuana"
+      ],
+      "country": "MX",
+      "league": "liga-mx",
+      "logo": "football/clubs/mx/tijuana.png"
+    },
+    {
+      "id": "toluca",
+      "name": "Toluca",
+      "aliases": [],
+      "country": "MX",
+      "league": "liga-mx",
+      "logo": "football/clubs/mx/toluca.png"
+    },
+    {
+      "id": "unam-pumas",
+      "name": "Pumas UNAM",
+      "aliases": [
+        "Unam Pumas"
+      ],
+      "country": "MX",
+      "league": "liga-mx",
+      "logo": "football/clubs/mx/unam-pumas.png"
+    },
+    {
       "id": "ado-den-haag",
       "name": "ADO Den Haag",
       "aliases": [],
@@ -3604,6 +5548,374 @@
       "country": "NO",
       "league": "eliteserien",
       "logo": "football/clubs/no/viking.png"
+    },
+    {
+      "id": "alianza-fc",
+      "name": "Alianza",
+      "aliases": [
+        "Alianza Fc"
+      ],
+      "country": "PA",
+      "league": "panamanian-football-league",
+      "logo": "football/clubs/pa/alianza-fc.png"
+    },
+    {
+      "id": "arabe-unido",
+      "name": "Árabe Unido",
+      "aliases": [],
+      "country": "PA",
+      "league": "panamanian-football-league",
+      "logo": "football/clubs/pa/arabe-unido.png"
+    },
+    {
+      "id": "atletico-chiriqui",
+      "name": "Atlético Chiriquí",
+      "aliases": [],
+      "country": "PA",
+      "league": null,
+      "logo": null
+    },
+    {
+      "id": "atletico-nacional-pa",
+      "name": "Atlético Nacional",
+      "aliases": [],
+      "country": "PA",
+      "league": null,
+      "logo": null
+    },
+    {
+      "id": "cd-universitario",
+      "name": "Universitario",
+      "aliases": [
+        "Cd Universitario"
+      ],
+      "country": "PA",
+      "league": "panamanian-football-league",
+      "logo": "football/clubs/pa/cd-universitario.png"
+    },
+    {
+      "id": "herrera-fc",
+      "name": "Herrera",
+      "aliases": [
+        "Herrera Fc"
+      ],
+      "country": "PA",
+      "league": "panamanian-football-league",
+      "logo": "football/clubs/pa/herrera-fc.png"
+    },
+    {
+      "id": "independiente-pa",
+      "name": "Atlético Independiente",
+      "aliases": [
+        "Independiente",
+        "Independiente De La Chorrera"
+      ],
+      "country": "PA",
+      "league": "panamanian-football-league",
+      "logo": "football/clubs/pa/independiente-pa.png"
+    },
+    {
+      "id": "plaza-amador",
+      "name": "Plaza Amador",
+      "aliases": [],
+      "country": "PA",
+      "league": "panamanian-football-league",
+      "logo": "football/clubs/pa/plaza-amador.png"
+    },
+    {
+      "id": "potros-del-este",
+      "name": "Potros del Este",
+      "aliases": [],
+      "country": "PA",
+      "league": null,
+      "logo": "football/clubs/pa/potros-del-este.png"
+    },
+    {
+      "id": "san-francisco-fc",
+      "name": "San Francisco",
+      "aliases": [
+        "San Francisco Fc"
+      ],
+      "country": "PA",
+      "league": "panamanian-football-league",
+      "logo": "football/clubs/pa/san-francisco-fc.png"
+    },
+    {
+      "id": "sporting-san-miguelito",
+      "name": "Sporting San Miguelito",
+      "aliases": [],
+      "country": "PA",
+      "league": "panamanian-football-league",
+      "logo": "football/clubs/pa/sporting-san-miguelito.png"
+    },
+    {
+      "id": "tauro-fc",
+      "name": "Tauro",
+      "aliases": [
+        "Tauro Fc"
+      ],
+      "country": "PA",
+      "league": "panamanian-football-league",
+      "logo": "football/clubs/pa/tauro-fc.png"
+    },
+    {
+      "id": "umecit-fc",
+      "name": "Umecit",
+      "aliases": [
+        "Umecit Fc"
+      ],
+      "country": "PA",
+      "league": "panamanian-football-league",
+      "logo": "football/clubs/pa/umecit-fc.png"
+    },
+    {
+      "id": "union-cocle-fc",
+      "name": "Unión Coclé F. C.",
+      "aliases": [
+        "Union Cocle Fc",
+        "union cocle"
+      ],
+      "country": "PA",
+      "league": "panamanian-football-league",
+      "logo": "football/clubs/pa/union-cocle-fc.png"
+    },
+    {
+      "id": "veraguas-united",
+      "name": "Veraguas United",
+      "aliases": [],
+      "country": "PA",
+      "league": "panamanian-football-league",
+      "logo": "football/clubs/pa/veraguas-united.png"
+    },
+    {
+      "id": "academia-cantolao",
+      "name": "Academia Cantolao",
+      "aliases": [],
+      "country": "PE",
+      "league": null,
+      "logo": "football/clubs/pe/academia-cantolao.png"
+    },
+    {
+      "id": "adt",
+      "name": "ADT",
+      "aliases": [],
+      "country": "PE",
+      "league": "peruvian-liga-1",
+      "logo": "football/clubs/pe/adt.png"
+    },
+    {
+      "id": "alianza-atletico",
+      "name": "Alianza Atlético",
+      "aliases": [],
+      "country": "PE",
+      "league": "peruvian-liga-1",
+      "logo": "football/clubs/pe/alianza-atletico.png"
+    },
+    {
+      "id": "alianza-lima",
+      "name": "Alianza Lima",
+      "aliases": [],
+      "country": "PE",
+      "league": "peruvian-liga-1",
+      "logo": "football/clubs/pe/alianza-lima.png"
+    },
+    {
+      "id": "alianza-universidad",
+      "name": "Alianza Universidad",
+      "aliases": [],
+      "country": "PE",
+      "league": null,
+      "logo": "football/clubs/pe/alianza-universidad.png"
+    },
+    {
+      "id": "atletico-grau",
+      "name": "Atlético Grau",
+      "aliases": [],
+      "country": "PE",
+      "league": "peruvian-liga-1",
+      "logo": "football/clubs/pe/atletico-grau.png"
+    },
+    {
+      "id": "ayacucho",
+      "name": "Ayacucho",
+      "aliases": [],
+      "country": "PE",
+      "league": null,
+      "logo": "football/clubs/pe/ayacucho.png"
+    },
+    {
+      "id": "binacional",
+      "name": "Binacional",
+      "aliases": [],
+      "country": "PE",
+      "league": null,
+      "logo": "football/clubs/pe/binacional.png"
+    },
+    {
+      "id": "carlos-a-mannucci",
+      "name": "Carlos A. Mannucci",
+      "aliases": [],
+      "country": "PE",
+      "league": null,
+      "logo": null
+    },
+    {
+      "id": "carlos-stein",
+      "name": "Carlos Stein",
+      "aliases": [],
+      "country": "PE",
+      "league": null,
+      "logo": null
+    },
+    {
+      "id": "cienciano",
+      "name": "Cienciano",
+      "aliases": [
+        "Cienciano Del Cusco"
+      ],
+      "country": "PE",
+      "league": "peruvian-liga-1",
+      "logo": "football/clubs/pe/cienciano.png"
+    },
+    {
+      "id": "comerciantes-unidos",
+      "name": "Comerciantes Unidos",
+      "aliases": [],
+      "country": "PE",
+      "league": "peruvian-liga-1",
+      "logo": "football/clubs/pe/comerciantes-unidos.png"
+    },
+    {
+      "id": "cusco",
+      "name": "Cusco",
+      "aliases": [],
+      "country": "PE",
+      "league": "peruvian-liga-1",
+      "logo": "football/clubs/pe/cusco.png"
+    },
+    {
+      "id": "deportivo-garcilaso",
+      "name": "Deportivo Garcilaso",
+      "aliases": [],
+      "country": "PE",
+      "league": "peruvian-liga-1",
+      "logo": "football/clubs/pe/deportivo-garcilaso.png"
+    },
+    {
+      "id": "deportivo-moquegua",
+      "name": "Deportivo Moquegua",
+      "aliases": [],
+      "country": "PE",
+      "league": "peruvian-liga-1",
+      "logo": "football/clubs/pe/deportivo-moquegua.png"
+    },
+    {
+      "id": "deportivo-municipal",
+      "name": "Deportivo Municipal",
+      "aliases": [],
+      "country": "PE",
+      "league": null,
+      "logo": "football/clubs/pe/deportivo-municipal.png"
+    },
+    {
+      "id": "fc-cajamarca",
+      "name": "Cajamarca",
+      "aliases": [
+        "Fc Cajamarca"
+      ],
+      "country": "PE",
+      "league": "peruvian-liga-1",
+      "logo": "football/clubs/pe/fc-cajamarca.png"
+    },
+    {
+      "id": "juan-pablo-ii",
+      "name": "Juan Pablo II College",
+      "aliases": [
+        "Juan Pablo Ii"
+      ],
+      "country": "PE",
+      "league": "peruvian-liga-1",
+      "logo": "football/clubs/pe/juan-pablo-ii.png"
+    },
+    {
+      "id": "los-chankas",
+      "name": "Los Chankas",
+      "aliases": [],
+      "country": "PE",
+      "league": "peruvian-liga-1",
+      "logo": "football/clubs/pe/los-chankas.png"
+    },
+    {
+      "id": "melgar",
+      "name": "Melgar",
+      "aliases": [],
+      "country": "PE",
+      "league": "peruvian-liga-1",
+      "logo": "football/clubs/pe/melgar.png"
+    },
+    {
+      "id": "sport-boys",
+      "name": "Sport Boys",
+      "aliases": [],
+      "country": "PE",
+      "league": "peruvian-liga-1",
+      "logo": "football/clubs/pe/sport-boys.png"
+    },
+    {
+      "id": "sport-huancayo",
+      "name": "Sport Huancayo",
+      "aliases": [],
+      "country": "PE",
+      "league": "peruvian-liga-1",
+      "logo": "football/clubs/pe/sport-huancayo.png"
+    },
+    {
+      "id": "sporting-cristal",
+      "name": "Sporting Cristal",
+      "aliases": [],
+      "country": "PE",
+      "league": "peruvian-liga-1",
+      "logo": "football/clubs/pe/sporting-cristal.png"
+    },
+    {
+      "id": "union-comercio",
+      "name": "Unión Comercio",
+      "aliases": [],
+      "country": "PE",
+      "league": null,
+      "logo": "football/clubs/pe/union-comercio.png"
+    },
+    {
+      "id": "universidad-cesar-vallejo",
+      "name": "Universidad César Vallejo",
+      "aliases": [],
+      "country": "PE",
+      "league": null,
+      "logo": "football/clubs/pe/universidad-cesar-vallejo.png"
+    },
+    {
+      "id": "universidad-san-martin",
+      "name": "Universidad San Martín",
+      "aliases": [],
+      "country": "PE",
+      "league": null,
+      "logo": "football/clubs/pe/universidad-san-martin.png"
+    },
+    {
+      "id": "universitario",
+      "name": "Universitario",
+      "aliases": [],
+      "country": "PE",
+      "league": "peruvian-liga-1",
+      "logo": "football/clubs/pe/universitario.png"
+    },
+    {
+      "id": "utc",
+      "name": "UTC",
+      "aliases": [],
+      "country": "PE",
+      "league": "peruvian-liga-1",
+      "logo": "football/clubs/pe/utc.png"
     },
     {
       "id": "arka",
@@ -4129,6 +6441,168 @@
       "country": "PT",
       "league": null,
       "logo": "football/clubs/pt/vizela.png"
+    },
+    {
+      "id": "12-de-octubre",
+      "name": "12 de Octubre",
+      "aliases": [],
+      "country": "PY",
+      "league": null,
+      "logo": "football/clubs/py/12-de-octubre.png"
+    },
+    {
+      "id": "2-de-mayo",
+      "name": "2 de Mayo",
+      "aliases": [],
+      "country": "PY",
+      "league": "paraguayan-primera-division",
+      "logo": "football/clubs/py/2-de-mayo.png"
+    },
+    {
+      "id": "cerro-porteno",
+      "name": "Cerro Porteño",
+      "aliases": [],
+      "country": "PY",
+      "league": "paraguayan-primera-division",
+      "logo": "football/clubs/py/cerro-porteno.png"
+    },
+    {
+      "id": "general-caballero",
+      "name": "Club General Caballero",
+      "aliases": [
+        "General Caballero Jlm"
+      ],
+      "country": "PY",
+      "league": null,
+      "logo": "football/clubs/py/general-caballero.png"
+    },
+    {
+      "id": "guairena",
+      "name": "Guaireña",
+      "aliases": [],
+      "country": "PY",
+      "league": null,
+      "logo": "football/clubs/py/guairena.png"
+    },
+    {
+      "id": "guarani",
+      "name": "Guaraní",
+      "aliases": [],
+      "country": "PY",
+      "league": "paraguayan-primera-division",
+      "logo": "football/clubs/py/guarani.png"
+    },
+    {
+      "id": "libertad-py",
+      "name": "Libertad",
+      "aliases": [],
+      "country": "PY",
+      "league": "paraguayan-primera-division",
+      "logo": "football/clubs/py/libertad-py.png"
+    },
+    {
+      "id": "nacional",
+      "name": "Nacional",
+      "aliases": [],
+      "country": "PY",
+      "league": "paraguayan-primera-division",
+      "logo": "football/clubs/py/nacional.png"
+    },
+    {
+      "id": "olimpia",
+      "name": "Olimpia",
+      "aliases": [],
+      "country": "PY",
+      "league": "paraguayan-primera-division",
+      "logo": "football/clubs/py/olimpia.png"
+    },
+    {
+      "id": "recoleta",
+      "name": "Recoleta",
+      "aliases": [
+        "Deportivo Recoleta"
+      ],
+      "country": "PY",
+      "league": "paraguayan-primera-division",
+      "logo": "football/clubs/py/recoleta.png"
+    },
+    {
+      "id": "resistencia",
+      "name": "Resistencia",
+      "aliases": [],
+      "country": "PY",
+      "league": null,
+      "logo": "football/clubs/py/resistencia.png"
+    },
+    {
+      "id": "rubio-nu",
+      "name": "Rubio Ñu",
+      "aliases": [],
+      "country": "PY",
+      "league": "paraguayan-primera-division",
+      "logo": "football/clubs/py/rubio-nu.png"
+    },
+    {
+      "id": "sol-de-america",
+      "name": "Sol de América",
+      "aliases": [],
+      "country": "PY",
+      "league": null,
+      "logo": "football/clubs/py/sol-de-america.png"
+    },
+    {
+      "id": "sportivo-ameliano",
+      "name": "Sportivo Ameliano",
+      "aliases": [],
+      "country": "PY",
+      "league": "paraguayan-primera-division",
+      "logo": "football/clubs/py/sportivo-ameliano.png"
+    },
+    {
+      "id": "sportivo-luqueno",
+      "name": "Sportivo Luqueño",
+      "aliases": [],
+      "country": "PY",
+      "league": "paraguayan-primera-division",
+      "logo": "football/clubs/py/sportivo-luqueno.png"
+    },
+    {
+      "id": "sportivo-san-lorenzo",
+      "name": "San Lorenzo",
+      "aliases": [
+        "Sportivo San Lorenzo"
+      ],
+      "country": "PY",
+      "league": "paraguayan-primera-division",
+      "logo": "football/clubs/py/sportivo-san-lorenzo.png"
+    },
+    {
+      "id": "tacuary",
+      "name": "Tacuary",
+      "aliases": [],
+      "country": "PY",
+      "league": null,
+      "logo": "football/clubs/py/tacuary.png"
+    },
+    {
+      "id": "tembetary",
+      "name": "Tembetary",
+      "aliases": [
+        "Club Atletico Tembetary"
+      ],
+      "country": "PY",
+      "league": null,
+      "logo": "football/clubs/py/tembetary.png"
+    },
+    {
+      "id": "trinidense",
+      "name": "Sportivo Trinidense",
+      "aliases": [
+        "Trinidense"
+      ],
+      "country": "PY",
+      "league": "paraguayan-primera-division",
+      "logo": "football/clubs/py/trinidense.png"
     },
     {
       "id": "arges-pitesti",
@@ -5595,6 +8069,656 @@
       "country": "UA",
       "league": "ukrainian-premier-league",
       "logo": "football/clubs/ua/zorya-luhansk.png"
+    },
+    {
+      "id": "atlanta-united",
+      "name": "Atlanta United FC",
+      "aliases": [
+        "Atlanta United"
+      ],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/atlanta-united.png"
+    },
+    {
+      "id": "austin-fc",
+      "name": "Austin FC",
+      "aliases": [
+        "Austins Fc",
+        "austin",
+        "austins"
+      ],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/austin-fc.png"
+    },
+    {
+      "id": "cf-montreal",
+      "name": "CF Montréal",
+      "aliases": [
+        "montreal"
+      ],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/cf-montreal.png"
+    },
+    {
+      "id": "charlotte-fc",
+      "name": "Charlotte FC",
+      "aliases": [
+        "charlotte"
+      ],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/charlotte-fc.png"
+    },
+    {
+      "id": "chicago-fire-fc",
+      "name": "Chicago Fire FC",
+      "aliases": [
+        "chicago fire"
+      ],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/chicago-fire-fc.png"
+    },
+    {
+      "id": "colorado-rapids",
+      "name": "Colorado Rapids",
+      "aliases": [],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/colorado-rapids.png"
+    },
+    {
+      "id": "columbus-crew",
+      "name": "Columbus Crew",
+      "aliases": [],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/columbus-crew.png"
+    },
+    {
+      "id": "dc-united",
+      "name": "D.C. United",
+      "aliases": [
+        "Dc United"
+      ],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/dc-united.png"
+    },
+    {
+      "id": "fc-cincinnati",
+      "name": "FC Cincinnati",
+      "aliases": [
+        "cincinnati"
+      ],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/fc-cincinnati.png"
+    },
+    {
+      "id": "fc-dallas",
+      "name": "FC Dallas",
+      "aliases": [
+        "dallas"
+      ],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/fc-dallas.png"
+    },
+    {
+      "id": "houston-dynamo",
+      "name": "Houston Dynamo FC",
+      "aliases": [
+        "Houston Dynamo"
+      ],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/houston-dynamo.png"
+    },
+    {
+      "id": "inter-miami-cf",
+      "name": "Inter Miami CF",
+      "aliases": [
+        "inter miami"
+      ],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/inter-miami-cf.png"
+    },
+    {
+      "id": "la-galaxy",
+      "name": "LA Galaxy",
+      "aliases": [],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/la-galaxy.png"
+    },
+    {
+      "id": "los-angeles-fc",
+      "name": "Los Angeles FC",
+      "aliases": [
+        "los angeles"
+      ],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/los-angeles-fc.png"
+    },
+    {
+      "id": "minnesota-united-fc",
+      "name": "Minnesota United FC",
+      "aliases": [
+        "minnesota united"
+      ],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/minnesota-united-fc.png"
+    },
+    {
+      "id": "nashville-sc",
+      "name": "Nashville SC",
+      "aliases": [
+        "nashville"
+      ],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/nashville-sc.png"
+    },
+    {
+      "id": "new-england-revolution",
+      "name": "New England Revolution",
+      "aliases": [],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/new-england-revolution.png"
+    },
+    {
+      "id": "new-york-city-fc",
+      "name": "New York City FC",
+      "aliases": [
+        "new york city"
+      ],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/new-york-city-fc.png"
+    },
+    {
+      "id": "new-york-red-bulls",
+      "name": "New York Red Bulls",
+      "aliases": [],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/new-york-red-bulls.png"
+    },
+    {
+      "id": "orlando-city",
+      "name": "Orlando City SC",
+      "aliases": [
+        "Orlando City"
+      ],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/orlando-city.png"
+    },
+    {
+      "id": "philadelphia-union",
+      "name": "Philadelphia Union",
+      "aliases": [],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/philadelphia-union.png"
+    },
+    {
+      "id": "portland-timbers",
+      "name": "Portland Timbers",
+      "aliases": [],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/portland-timbers.png"
+    },
+    {
+      "id": "real-salt-lake",
+      "name": "Real Salt Lake",
+      "aliases": [],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/real-salt-lake.png"
+    },
+    {
+      "id": "san-diego-fc",
+      "name": "San Diego FC",
+      "aliases": [
+        "san diego"
+      ],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/san-diego-fc.png"
+    },
+    {
+      "id": "san-jose-earthquakes",
+      "name": "San Jose Earthquakes",
+      "aliases": [],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/san-jose-earthquakes.png"
+    },
+    {
+      "id": "seattle-sounders-fc",
+      "name": "Seattle Sounders FC",
+      "aliases": [
+        "seattle sounders"
+      ],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/seattle-sounders-fc.png"
+    },
+    {
+      "id": "sporting-kansas-city",
+      "name": "Sporting Kansas City",
+      "aliases": [],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/sporting-kansas-city.png"
+    },
+    {
+      "id": "st-louis-city-sc",
+      "name": "St. Louis City SC",
+      "aliases": [
+        "st louis city"
+      ],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/st-louis-city-sc.png"
+    },
+    {
+      "id": "toronto-fc",
+      "name": "Toronto FC",
+      "aliases": [
+        "toronto"
+      ],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/toronto-fc.png"
+    },
+    {
+      "id": "vancouver-whitecaps-fc",
+      "name": "Vancouver Whitecaps FC",
+      "aliases": [
+        "vancouver whitecaps"
+      ],
+      "country": "US",
+      "league": "mls",
+      "logo": "football/clubs/us/vancouver-whitecaps-fc.png"
+    },
+    {
+      "id": "albion",
+      "name": "Albion",
+      "aliases": [],
+      "country": "UY",
+      "league": "uruguayan-primera-division",
+      "logo": "football/clubs/uy/albion.png"
+    },
+    {
+      "id": "boston-river",
+      "name": "Boston River",
+      "aliases": [],
+      "country": "UY",
+      "league": "uruguayan-primera-division",
+      "logo": "football/clubs/uy/boston-river.png"
+    },
+    {
+      "id": "central-espanol",
+      "name": "Central Español",
+      "aliases": [],
+      "country": "UY",
+      "league": "uruguayan-primera-division",
+      "logo": "football/clubs/uy/central-espanol.png"
+    },
+    {
+      "id": "cerrito",
+      "name": "Cerrito",
+      "aliases": [],
+      "country": "UY",
+      "league": null,
+      "logo": "football/clubs/uy/cerrito.png"
+    },
+    {
+      "id": "cerro",
+      "name": "Cerro",
+      "aliases": [],
+      "country": "UY",
+      "league": "uruguayan-primera-division",
+      "logo": "football/clubs/uy/cerro.png"
+    },
+    {
+      "id": "cerro-largo",
+      "name": "Cerro Largo",
+      "aliases": [],
+      "country": "UY",
+      "league": "uruguayan-primera-division",
+      "logo": "football/clubs/uy/cerro-largo.png"
+    },
+    {
+      "id": "danubio",
+      "name": "Danubio",
+      "aliases": [],
+      "country": "UY",
+      "league": "uruguayan-primera-division",
+      "logo": "football/clubs/uy/danubio.png"
+    },
+    {
+      "id": "defensor-sporting",
+      "name": "Defensor Sporting",
+      "aliases": [],
+      "country": "UY",
+      "league": "uruguayan-primera-division",
+      "logo": "football/clubs/uy/defensor-sporting.png"
+    },
+    {
+      "id": "deportivo-maldonado",
+      "name": "Deportivo Maldonado",
+      "aliases": [],
+      "country": "UY",
+      "league": "uruguayan-primera-division",
+      "logo": "football/clubs/uy/deportivo-maldonado.png"
+    },
+    {
+      "id": "fenix",
+      "name": "Fénix",
+      "aliases": [],
+      "country": "UY",
+      "league": null,
+      "logo": "football/clubs/uy/fenix.png"
+    },
+    {
+      "id": "juventud",
+      "name": "Juventud",
+      "aliases": [],
+      "country": "UY",
+      "league": "uruguayan-primera-division",
+      "logo": "football/clubs/uy/juventud.png"
+    },
+    {
+      "id": "la-luz",
+      "name": "La Luz",
+      "aliases": [],
+      "country": "UY",
+      "league": null,
+      "logo": "football/clubs/uy/la-luz.png"
+    },
+    {
+      "id": "liverpool-uy",
+      "name": "Liverpool",
+      "aliases": [],
+      "country": "UY",
+      "league": "uruguayan-primera-division",
+      "logo": "football/clubs/uy/liverpool-uy.png"
+    },
+    {
+      "id": "miramar-misiones",
+      "name": "Miramar Misiones",
+      "aliases": [],
+      "country": "UY",
+      "league": null,
+      "logo": "football/clubs/uy/miramar-misiones.png"
+    },
+    {
+      "id": "montevideo-city-torque",
+      "name": "Montevideo City",
+      "aliases": [
+        "Montevideo City Torque"
+      ],
+      "country": "UY",
+      "league": "uruguayan-primera-division",
+      "logo": "football/clubs/uy/montevideo-city-torque.png"
+    },
+    {
+      "id": "montevideo-wanderers",
+      "name": "Montevideo Wanderers",
+      "aliases": [],
+      "country": "UY",
+      "league": "uruguayan-primera-division",
+      "logo": "football/clubs/uy/montevideo-wanderers.png"
+    },
+    {
+      "id": "nacional-uy",
+      "name": "Nacional",
+      "aliases": [],
+      "country": "UY",
+      "league": "uruguayan-primera-division",
+      "logo": "football/clubs/uy/nacional-uy.png"
+    },
+    {
+      "id": "penarol",
+      "name": "Peñarol",
+      "aliases": [],
+      "country": "UY",
+      "league": "uruguayan-primera-division",
+      "logo": "football/clubs/uy/penarol.png"
+    },
+    {
+      "id": "plaza-colonia",
+      "name": "Plaza Colonia",
+      "aliases": [],
+      "country": "UY",
+      "league": null,
+      "logo": "football/clubs/uy/plaza-colonia.png"
+    },
+    {
+      "id": "progreso",
+      "name": "Progreso",
+      "aliases": [],
+      "country": "UY",
+      "league": "uruguayan-primera-division",
+      "logo": "football/clubs/uy/progreso.png"
+    },
+    {
+      "id": "racing-montevideo",
+      "name": "Racing",
+      "aliases": [
+        "Racing Montevideo"
+      ],
+      "country": "UY",
+      "league": "uruguayan-primera-division",
+      "logo": "football/clubs/uy/racing-montevideo.png"
+    },
+    {
+      "id": "rampla-juniors",
+      "name": "Rampla Juniors",
+      "aliases": [],
+      "country": "UY",
+      "league": null,
+      "logo": "football/clubs/uy/rampla-juniors.png"
+    },
+    {
+      "id": "rentistas",
+      "name": "Rentistas",
+      "aliases": [],
+      "country": "UY",
+      "league": null,
+      "logo": "football/clubs/uy/rentistas.png"
+    },
+    {
+      "id": "river-plate-uy",
+      "name": "River Plate",
+      "aliases": [],
+      "country": "UY",
+      "league": null,
+      "logo": "football/clubs/uy/river-plate-uy.png"
+    },
+    {
+      "id": "academia-puerto-cabello",
+      "name": "Academia Puerto Cabello",
+      "aliases": [],
+      "country": "VE",
+      "league": "venezuelan-primera-division",
+      "logo": "football/clubs/ve/academia-puerto-cabello.png"
+    },
+    {
+      "id": "angostura",
+      "name": "Angostura",
+      "aliases": [],
+      "country": "VE",
+      "league": null,
+      "logo": "football/clubs/ve/angostura.png"
+    },
+    {
+      "id": "anzoategui",
+      "name": "Anzoátegui",
+      "aliases": [],
+      "country": "VE",
+      "league": "venezuelan-primera-division",
+      "logo": "football/clubs/ve/anzoategui.png"
+    },
+    {
+      "id": "aragua",
+      "name": "Aragua",
+      "aliases": [],
+      "country": "VE",
+      "league": null,
+      "logo": null
+    },
+    {
+      "id": "carabobo",
+      "name": "Carabobo",
+      "aliases": [],
+      "country": "VE",
+      "league": "venezuelan-primera-division",
+      "logo": "football/clubs/ve/carabobo.png"
+    },
+    {
+      "id": "caracas",
+      "name": "Caracas",
+      "aliases": [],
+      "country": "VE",
+      "league": "venezuelan-primera-division",
+      "logo": "football/clubs/ve/caracas.png"
+    },
+    {
+      "id": "deportivo-la-guaira",
+      "name": "Deportivo La Guaira",
+      "aliases": [],
+      "country": "VE",
+      "league": "venezuelan-primera-division",
+      "logo": "football/clubs/ve/deportivo-la-guaira.png"
+    },
+    {
+      "id": "deportivo-lara",
+      "name": "Deportivo Lara",
+      "aliases": [],
+      "country": "VE",
+      "league": null,
+      "logo": "football/clubs/ve/deportivo-lara.png"
+    },
+    {
+      "id": "deportivo-tachira",
+      "name": "Deportivo Táchira",
+      "aliases": [],
+      "country": "VE",
+      "league": "venezuelan-primera-division",
+      "logo": "football/clubs/ve/deportivo-tachira.png"
+    },
+    {
+      "id": "estudiantes-merida",
+      "name": "Estudiantes de Mérida",
+      "aliases": [
+        "Estudiantes Merida"
+      ],
+      "country": "VE",
+      "league": "venezuelan-primera-division",
+      "logo": "football/clubs/ve/estudiantes-merida.png"
+    },
+    {
+      "id": "inter-de-barinas",
+      "name": "Inter de Barinas",
+      "aliases": [],
+      "country": "VE",
+      "league": null,
+      "logo": "football/clubs/ve/inter-de-barinas.png"
+    },
+    {
+      "id": "metropolitanos",
+      "name": "Metropolitanos",
+      "aliases": [],
+      "country": "VE",
+      "league": "venezuelan-primera-division",
+      "logo": "football/clubs/ve/metropolitanos.png"
+    },
+    {
+      "id": "mineros-de-guayana",
+      "name": "Mineros de Guayana",
+      "aliases": [],
+      "country": "VE",
+      "league": null,
+      "logo": "football/clubs/ve/mineros-de-guayana.png"
+    },
+    {
+      "id": "monagas",
+      "name": "Monagas",
+      "aliases": [],
+      "country": "VE",
+      "league": "venezuelan-primera-division",
+      "logo": "football/clubs/ve/monagas.png"
+    },
+    {
+      "id": "portuguesa",
+      "name": "Portuguesa",
+      "aliases": [],
+      "country": "VE",
+      "league": "venezuelan-primera-division",
+      "logo": "football/clubs/ve/portuguesa.png"
+    },
+    {
+      "id": "rayo-zuliano",
+      "name": "Rayo Zuliano",
+      "aliases": [],
+      "country": "VE",
+      "league": "venezuelan-primera-division",
+      "logo": "football/clubs/ve/rayo-zuliano.png"
+    },
+    {
+      "id": "trujillanos-fc",
+      "name": "Trujillanos",
+      "aliases": [
+        "Trujillanos Fc"
+      ],
+      "country": "VE",
+      "league": "venezuelan-primera-division",
+      "logo": "football/clubs/ve/trujillanos-fc.png"
+    },
+    {
+      "id": "universidad-central",
+      "name": "Universidad Central",
+      "aliases": [],
+      "country": "VE",
+      "league": "venezuelan-primera-division",
+      "logo": "football/clubs/ve/universidad-central.png"
+    },
+    {
+      "id": "yaracuyanos",
+      "name": "Yaracuyanos",
+      "aliases": [],
+      "country": "VE",
+      "league": null,
+      "logo": "football/clubs/ve/yaracuyanos.png"
+    },
+    {
+      "id": "zamora",
+      "name": "Zamora",
+      "aliases": [],
+      "country": "VE",
+      "league": "venezuelan-primera-division",
+      "logo": "football/clubs/ve/zamora.png"
+    },
+    {
+      "id": "zulia",
+      "name": "Zulia",
+      "aliases": [],
+      "country": "VE",
+      "league": null,
+      "logo": null
     }
   ]
 }
