@@ -1,7 +1,8 @@
 """Sync football club crests.
 
-Roster from github.com/luukhopman/football-logos, images from football-logos.cc
-(github.com/Leo4815162342/football-logos), luukhopman's 139x181 PNG as fallback.
+Rosters from github.com/luukhopman/football-logos (Europe) and data/football/rosters.json (Americas),
+images from football-logos.cc (github.com/Leo4815162342/football-logos); luukhopman's 139x181 PNG
+or a manual url as fallback.
 
   python scripts/sync_clubs.py plan               propose matches for unmapped clubs and render review sheets
   python scripts/sync_clubs.py accept [COUNTRY]   copy proposals into data/football/clubs-mapping.json
@@ -20,10 +21,10 @@ import urllib.request
 
 from PIL import Image, ImageDraw
 
-from football_catalog import ROOT
+from football_catalog import ROOT, load_catalog
 from football_clubs import (
-    CLUBS_DIR, CLUBS_FILE, COUNTRY_CODES, FL_COUNTRIES, MAPPING_FILE,
-    finalize_clubs, load_json, luuk_index, propose, unknown_folders,
+    CLUBS_DIR, CLUBS_FILE, COUNTRY_CODES, FL_COUNTRIES, MAPPING_FILE, ROSTERS_FILE,
+    finalize_clubs, load_json, luuk_index, propose, roster_errors, roster_index, unknown_folders,
 )
 from normalize_logo import normalize_logo
 
@@ -117,9 +118,21 @@ def check_folders(luuk: dict) -> None:
         sys.exit("Update COUNTRY_CODES / LEAGUE_IDS in scripts/football_clubs.py first")
 
 
-def plan() -> None:
+def load_index() -> dict:
+    competitions = load_catalog()["competitions"]
+    rosters = load_json(ROSTERS_FILE, {})
+    problems = roster_errors(rosters, competitions)
+    if problems:
+        for problem in problems:
+            print("ERROR:", problem)
+        sys.exit(f"Fix {ROSTERS_FILE.relative_to(ROOT).as_posix()} first")
     luuk = load_luuk()
     check_folders(luuk)
+    return luuk | roster_index(rosters, competitions)
+
+
+def plan() -> None:
+    luuk = load_index()
     fl = load_fl()
     mapping = load_json(MAPPING_FILE, {})
     clubs = load_json(CLUBS_FILE, {"clubs": []})["clubs"]
@@ -130,7 +143,8 @@ def plan() -> None:
     by_country: dict[str, list] = {}
     for key, proposal in sorted(proposals.items()):
         folder = key.split("|")[0]
-        luuk_path = cached(luuk_url(luuk[key]["latest_path"]), CACHE / "luuk" / luuk[key]["latest_path"])
+        latest_path = luuk[key]["latest_path"]
+        luuk_path = cached(luuk_url(latest_path), CACHE / "luuk" / latest_path) if latest_path else None
         fl_path = None
         if proposal["slug"]:
             fl_path = cached(fl[folder][proposal["slug"]], CACHE / "fl" / FL_COUNTRIES[folder] / f"{proposal['slug']}.png")
@@ -159,8 +173,7 @@ def accept(country: str | None) -> None:
 
 
 def apply() -> None:
-    luuk = load_luuk()
-    check_folders(luuk)
+    luuk = load_index()
     fl = load_fl()
     mapping = load_json(MAPPING_FILE, {})
     unmapped = sorted(key for key in luuk if key not in mapping)
@@ -184,13 +197,20 @@ def apply() -> None:
         if destination.exists():
             continue
         slug = next((mapping[k]["slug"] for k in keys if mapping[k]["source"] == "football-logos"), None)
+        manual = next((mapping[k].get("url") for k in keys if mapping[k]["source"] == "url"), None)
         try:
             if slug:
                 url = fl[folder][slug]
                 notes = "Via github.com/Leo4815162342/football-logos (football-logos.cc)"
                 raw = cached(url, CACHE / "fl" / FL_COUNTRIES[folder] / f"{slug}.png")
+            elif manual:
+                url = manual
+                notes = "Via Wikimedia Commons" if "wikimedia.org" in url else "Manual url in clubs-mapping.json"
+                raw = cached(url, CACHE / "url" / f"{club_id}.png")
             else:
                 latest = max((luuk[k] for k in keys), key=lambda entry: entry["latest_season"])
+                if not latest["latest_path"]:
+                    raise ValueError("no football-logos slug or url in clubs-mapping.json")
                 url = luuk_url(latest["latest_path"])
                 notes = "github.com/luukhopman/football-logos (139x181 fallback)"
                 raw = cached(url, CACHE / "luuk" / latest["latest_path"])
@@ -220,7 +240,7 @@ def main():
     sub = parser.add_subparsers(dest="command", required=True)
     sub.add_parser("plan")
     accept_parser = sub.add_parser("accept")
-    accept_parser.add_argument("country", nargs="?", help="luukhopman country folder, e.g. Spain")
+    accept_parser.add_argument("country", nargs="?", help="country folder, e.g. Spain or Brazil")
     sub.add_parser("apply")
     args = parser.parse_args()
     if args.command == "plan":
