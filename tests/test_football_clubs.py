@@ -5,12 +5,13 @@ import unittest
 
 from PIL import Image
 
-from football_catalog import normalize_name
+from football_catalog import load_catalog, normalize_name
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
 from football_clubs import (
     CLUBS_FILE,
+    ROSTERS_FILE,
     auto_aliases,
     build_club_lookup,
     club_assets,
@@ -459,6 +460,19 @@ class RosterErrorsTest(unittest.TestCase):
         self.assertTrue(any("repeated" in e for e in errors))
         self.assertTrue(any("spaces" in e for e in errors))
         self.assertTrue(any("empty" in e for e in errors))
+
+
+class RealRostersTest(unittest.TestCase):
+    def test_every_american_league_has_a_valid_roster_up_to_2026(self):
+        competitions = load_catalog()["competitions"]
+        rosters = load_json(ROSTERS_FILE, {})
+        self.assertEqual(roster_errors(rosters, competitions), [])
+        american = {c["id"] for c in competitions
+                    if c["type"] == "league" and c["continent"] in ("south-america", "north-america")}
+        self.assertEqual(set(rosters), american)
+        for league, seasons in rosters.items():
+            self.assertGreaterEqual(max(seasons), "2026", league)
+            self.assertLessEqual(min(seasons), "2022-23" if len(min(seasons)) == 7 else "2022", league)
 
 
 class RealClubsCatalogTest(unittest.TestCase):
