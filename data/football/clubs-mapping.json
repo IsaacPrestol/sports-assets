@@ -1,0 +1,5378 @@
+{
+  "Argentina|Aldosivi": {
+    "id": "aldosivi",
+    "slug": "aldosivi",
+    "source": "football-logos"
+  },
+  "Argentina|Argentinos Juniors": {
+    "id": "argentinos-juniors",
+    "slug": "argeninos-juniors",
+    "source": "football-logos"
+  },
+  "Argentina|Arsenal": {
+    "id": "arsenal-de-sarandi",
+    "slug": "arsenal-de-sarandi",
+    "source": "football-logos"
+  },
+  "Argentina|Atlético Tucumán": {
+    "id": "atletico-tucuman",
+    "slug": "atletico-tucuman",
+    "source": "football-logos"
+  },
+  "Argentina|Banfield": {
+    "id": "banfield",
+    "slug": "banfield",
+    "source": "football-logos"
+  },
+  "Argentina|Barracas Central": {
+    "id": "barracas-central",
+    "slug": "barracas-central",
+    "source": "football-logos"
+  },
+  "Argentina|Belgrano": {
+    "id": "belgrano",
+    "slug": "belgrano",
+    "source": "football-logos"
+  },
+  "Argentina|Boca Juniors": {
+    "id": "boca-juniors",
+    "slug": "boca-juniors",
+    "source": "football-logos"
+  },
+  "Argentina|Central Córdoba de Santiago del Estero": {
+    "id": "central-cordoba",
+    "slug": "central-cordoba",
+    "source": "football-logos"
+  },
+  "Argentina|Club Atlético Sarmiento": {
+    "id": "sarmiento",
+    "slug": "sarmiento",
+    "source": "football-logos"
+  },
+  "Argentina|Club de Gimnasia y Esgrima La Plata": {
+    "id": "gimnasia-la-plata",
+    "slug": "gimnasia-lp",
+    "source": "football-logos"
+  },
+  "Argentina|Colón": {
+    "id": "colon",
+    "slug": "colon-santa-fe",
+    "source": "football-logos"
+  },
+  "Argentina|Defensa y Justicia": {
+    "id": "defensa-y-justicia",
+    "slug": "defensa-y-justicia",
+    "source": "football-logos"
+  },
+  "Argentina|Deportivo Riestra": {
+    "id": "deportivo-riestra",
+    "slug": "deportivo-riestra",
+    "source": "football-logos"
+  },
+  "Argentina|Estudiantes de La Plata": {
+    "id": "estudiantes-de-la-plata",
+    "slug": "estudiantes-de-la-plata",
+    "source": "football-logos"
+  },
+  "Argentina|Estudiantes de Río Cuarto": {
+    "id": "estudiantes-de-rio-cuarto",
+    "slug": "estudiantes-de-rio-cuarto",
+    "source": "football-logos"
+  },
+  "Argentina|Gimnasia y Esgrima de Mendoza": {
+    "id": "gimnasia-mendoza",
+    "slug": "gimnasia-y-esgrima",
+    "source": "football-logos"
+  },
+  "Argentina|Godoy Cruz": {
+    "id": "godoy-cruz",
+    "slug": "godoy-cruz",
+    "source": "football-logos"
+  },
+  "Argentina|Huracán": {
+    "id": "huracan",
+    "slug": "ca-huracan",
+    "source": "football-logos"
+  },
+  "Argentina|Independiente": {
+    "id": "independiente",
+    "slug": "independiente",
+    "source": "football-logos"
+  },
+  "Argentina|Independiente Rivadavia": {
+    "id": "independiente-rivadavia",
+    "slug": "independiente-rivadavia",
+    "source": "football-logos"
+  },
+  "Argentina|Instituto": {
+    "id": "instituto",
+    "slug": "instituto-cordoba",
+    "source": "football-logos"
+  },
+  "Argentina|Lanús": {
+    "id": "lanus",
+    "slug": "lanus",
+    "source": "football-logos"
+  },
+  "Argentina|Newell's Old Boys": {
+    "id": "newells-old-boys",
+    "slug": "newells-old-boys",
+    "source": "football-logos"
+  },
+  "Argentina|Patronato": {
+    "id": "patronato",
+    "slug": "patronato",
+    "source": "football-logos"
+  },
+  "Argentina|Platense": {
+    "id": "platense",
+    "slug": "platense",
+    "source": "football-logos"
+  },
+  "Argentina|Racing": {
+    "id": "racing-club",
+    "slug": "racing-club",
+    "source": "football-logos"
+  },
+  "Argentina|River Plate": {
+    "id": "river-plate",
+    "slug": "river-plate",
+    "source": "football-logos"
+  },
+  "Argentina|Rosario Central": {
+    "id": "rosario-central",
+    "slug": "rosario-central",
+    "source": "football-logos"
+  },
+  "Argentina|San Lorenzo": {
+    "id": "san-lorenzo",
+    "slug": "san-lorenzo-de-almagro",
+    "source": "football-logos"
+  },
+  "Argentina|San Martín de San Juan": {
+    "id": "san-martin-san-juan",
+    "slug": "san-martin-san-juan",
+    "source": "football-logos"
+  },
+  "Argentina|Talleres de Córdoba": {
+    "id": "talleres",
+    "slug": "talleres",
+    "source": "football-logos"
+  },
+  "Argentina|Tigre": {
+    "id": "tigre",
+    "slug": "tigre",
+    "source": "football-logos"
+  },
+  "Argentina|Unión": {
+    "id": "union",
+    "slug": "union",
+    "source": "football-logos"
+  },
+  "Argentina|Vélez Sarsfield": {
+    "id": "velez-sarsfield",
+    "slug": "velez-sarsfield",
+    "source": "football-logos"
+  },
+  "Austria|Austria Vienna": {
+    "id": "austria-wien",
+    "slug": "austria-wien",
+    "source": "football-logos"
+  },
+  "Austria|FC Admira Wacker Mödling": {
+    "id": "admira",
+    "slug": "admira",
+    "source": "football-logos"
+  },
+  "Austria|FC Blau-Weiss Linz": {
+    "id": "blau-weiss-linz",
+    "slug": null,
+    "source": "luukhopman"
+  },
+  "Austria|Grazer AK 1902": {
+    "id": "grazer-ak",
+    "slug": "grazer-ak",
+    "source": "football-logos"
+  },
+  "Austria|LASK": {
+    "id": "lask",
+    "slug": "lask",
+    "source": "football-logos"
+  },
+  "Austria|RB Salzburg": {
+    "id": "salzburg",
+    "slug": "salzburg",
+    "source": "football-logos"
+  },
+  "Austria|Rapid Vienna": {
+    "id": "rapid-vienna",
+    "slug": "rapid-vienna",
+    "source": "football-logos"
+  },
+  "Austria|Red Bull Salzburg": {
+    "id": "salzburg",
+    "slug": "salzburg",
+    "source": "football-logos"
+  },
+  "Austria|SC Austria Lustenau": {
+    "id": "lustenau",
+    "slug": "lustenau",
+    "source": "football-logos"
+  },
+  "Austria|SCR Altach": {
+    "id": "altach",
+    "slug": "altach",
+    "source": "football-logos"
+  },
+  "Austria|SK Austria Klagenfurt": {
+    "id": "klagenfurt",
+    "slug": "klagenfurt",
+    "source": "football-logos"
+  },
+  "Austria|SK Sturm Graz": {
+    "id": "sturm-graz",
+    "slug": "sturm-graz",
+    "source": "football-logos"
+  },
+  "Austria|SV Ried": {
+    "id": "ried",
+    "slug": "ried",
+    "source": "football-logos"
+  },
+  "Austria|TSV Hartberg": {
+    "id": "hartberg",
+    "slug": "hartberg",
+    "source": "football-logos"
+  },
+  "Austria|WSG Tirol": {
+    "id": "tirol",
+    "slug": "tirol",
+    "source": "football-logos"
+  },
+  "Austria|Wolfsberger AC": {
+    "id": "wolfsberg",
+    "slug": "wolfsberg",
+    "source": "football-logos"
+  },
+  "Belgium|Beerschot V.A.": {
+    "id": "beerschot",
+    "slug": "beerschot-wilrijk",
+    "source": "football-logos"
+  },
+  "Belgium|Beerschot VA": {
+    "id": "beerschot",
+    "slug": "beerschot-wilrijk",
+    "source": "football-logos"
+  },
+  "Belgium|Cercle Brugge": {
+    "id": "cercle-brugge",
+    "slug": "cercle-brugge",
+    "source": "football-logos"
+  },
+  "Belgium|Club Brugge": {
+    "id": "club-brugge",
+    "slug": "club-brugge",
+    "source": "football-logos"
+  },
+  "Belgium|Club Brugge KV": {
+    "id": "club-brugge",
+    "slug": "club-brugge",
+    "source": "football-logos"
+  },
+  "Belgium|FCV Dender EH": {
+    "id": "fcv-dender-eh",
+    "slug": "fcv-dender-eh",
+    "source": "football-logos"
+  },
+  "Belgium|KAA Gent": {
+    "id": "gent",
+    "slug": "gent",
+    "source": "football-logos"
+  },
+  "Belgium|KAS Eupen": {
+    "id": "eupen",
+    "slug": "eupen",
+    "source": "football-logos"
+  },
+  "Belgium|KRC Genk": {
+    "id": "genk",
+    "slug": "genk",
+    "source": "football-logos"
+  },
+  "Belgium|KV Kortrijk": {
+    "id": "kortrijk",
+    "slug": "kortrijk",
+    "source": "football-logos"
+  },
+  "Belgium|KV Mechelen": {
+    "id": "mechelen",
+    "slug": "mechelen",
+    "source": "football-logos"
+  },
+  "Belgium|KV Oostende": {
+    "id": "oostende",
+    "slug": "oostende",
+    "source": "football-logos"
+  },
+  "Belgium|KVC Westerlo": {
+    "id": "westerlo",
+    "slug": "westerlo",
+    "source": "football-logos"
+  },
+  "Belgium|Lommel SK": {
+    "id": "lommel",
+    "slug": "lommel",
+    "source": "football-logos"
+  },
+  "Belgium|OH Leuven": {
+    "id": "oud-heverlee-leuven",
+    "slug": "oud-heverlee-leuven",
+    "source": "football-logos"
+  },
+  "Belgium|Oud-Heverlee Leuven": {
+    "id": "oud-heverlee-leuven",
+    "slug": "oud-heverlee-leuven",
+    "source": "football-logos"
+  },
+  "Belgium|R Charleroi SC": {
+    "id": "charleroi",
+    "slug": "charleroi",
+    "source": "football-logos"
+  },
+  "Belgium|RAAL La Louvière": {
+    "id": "raal-la-louviere",
+    "slug": "raal-la-louviere",
+    "source": "football-logos"
+  },
+  "Belgium|RFC Seraing": {
+    "id": "seraing",
+    "slug": "seraing",
+    "source": "football-logos"
+  },
+  "Belgium|RSC Anderlecht": {
+    "id": "anderlecht",
+    "slug": "anderlecht",
+    "source": "football-logos"
+  },
+  "Belgium|RSC Charleroi": {
+    "id": "charleroi",
+    "slug": "charleroi",
+    "source": "football-logos"
+  },
+  "Belgium|RWD Molenbeek": {
+    "id": "rwd-molenbeek",
+    "slug": "rwd-molenbeek",
+    "source": "football-logos"
+  },
+  "Belgium|Royal Antwerp": {
+    "id": "antwerp",
+    "slug": "antwerp",
+    "source": "football-logos"
+  },
+  "Belgium|Royal Antwerp FC": {
+    "id": "antwerp",
+    "slug": "antwerp",
+    "source": "football-logos"
+  },
+  "Belgium|Royal Charleroi SC": {
+    "id": "charleroi",
+    "slug": "charleroi",
+    "source": "football-logos"
+  },
+  "Belgium|Royale Union Saint Gilloise": {
+    "id": "union-saint-gilloise",
+    "slug": "union-saint-gilloise",
+    "source": "football-logos"
+  },
+  "Belgium|SK Beveren": {
+    "id": "beveren",
+    "slug": "beveren",
+    "source": "football-logos"
+  },
+  "Belgium|SV Zulte Waregem": {
+    "id": "zulte-waregem",
+    "slug": "zulte-waregem",
+    "source": "football-logos"
+  },
+  "Belgium|Sint-Truidense VV": {
+    "id": "sint-truidense",
+    "slug": "sint-truidense",
+    "source": "football-logos"
+  },
+  "Belgium|Standard Liège": {
+    "id": "standard-liege",
+    "slug": "standard-liege",
+    "source": "football-logos"
+  },
+  "Belgium|Union Saint-Gilloise": {
+    "id": "union-saint-gilloise",
+    "slug": "union-saint-gilloise",
+    "source": "football-logos"
+  },
+  "Belgium|Zulte Waregem": {
+    "id": "zulte-waregem",
+    "slug": "zulte-waregem",
+    "source": "football-logos"
+  },
+  "Bolivia|ABB": {
+    "id": "abb",
+    "slug": "abb",
+    "source": "football-logos"
+  },
+  "Bolivia|Always Ready": {
+    "id": "always-ready",
+    "slug": "always-ready",
+    "source": "football-logos"
+  },
+  "Bolivia|Aurora": {
+    "id": "aurora",
+    "slug": "aurora",
+    "source": "football-logos"
+  },
+  "Bolivia|Blooming": {
+    "id": "blooming",
+    "slug": "blooming",
+    "source": "football-logos"
+  },
+  "Bolivia|Bolívar": {
+    "id": "bolivar",
+    "slug": "bolivar",
+    "source": "football-logos"
+  },
+  "Bolivia|GV San José": {
+    "id": "gv-san-jose",
+    "slug": "gv-san-jose",
+    "source": "football-logos"
+  },
+  "Bolivia|Guabirá": {
+    "id": "guabira",
+    "slug": "guabira",
+    "source": "football-logos"
+  },
+  "Bolivia|Independiente Petrolero": {
+    "id": "independiente-petrolero",
+    "slug": "independiente-petrolero",
+    "source": "football-logos"
+  },
+  "Bolivia|Jorge Wilstermann": {
+    "id": "jorge-wilstermann",
+    "slug": "jorge-wilstermann",
+    "source": "football-logos"
+  },
+  "Bolivia|Libertad Gran Mamoré": {
+    "id": "libertad-gran-mamore",
+    "slug": null,
+    "source": "url",
+    "url": "https://upload.wikimedia.org/wikipedia/en/b/b4/Libertad_Gran_Mamor%C3%A9_FC.png"
+  },
+  "Bolivia|Nacional Potosí": {
+    "id": "nacional-potosi",
+    "slug": "nacional-potosi",
+    "source": "football-logos"
+  },
+  "Bolivia|Oriente Petrolero": {
+    "id": "oriente-petrolero",
+    "slug": "oriente-petrolero",
+    "source": "football-logos"
+  },
+  "Bolivia|Palmaflor del Trópico": {
+    "id": "palmaflor-del-tropico",
+    "slug": null,
+    "source": "url",
+    "url": "https://upload.wikimedia.org/wikipedia/en/6/66/Atl%C3%A9tico_Palmaflor.png"
+  },
+  "Bolivia|Real Oruro": {
+    "id": "real-oruro",
+    "slug": "real-oruro",
+    "source": "football-logos"
+  },
+  "Bolivia|Real Potosí": {
+    "id": "real-potosi",
+    "slug": null,
+    "source": "url",
+    "url": "https://upload.wikimedia.org/wikipedia/en/3/31/Club_Real_Potos%C3%AD.png"
+  },
+  "Bolivia|Real Santa Cruz": {
+    "id": "real-santa-cruz",
+    "slug": "real-santa-cruz",
+    "source": "football-logos"
+  },
+  "Bolivia|Real Tomayapo": {
+    "id": "real-tomayapo",
+    "slug": "real-tomayapo",
+    "source": "football-logos"
+  },
+  "Bolivia|Royal Pari": {
+    "id": "royal-pari",
+    "slug": null,
+    "source": "url",
+    "url": "https://upload.wikimedia.org/wikipedia/en/5/58/Royal_Pari_F.C.png"
+  },
+  "Bolivia|San Antonio Bulo Bulo": {
+    "id": "san-antonio-bulo-bulo",
+    "slug": "san-antonio-bulo-bulo",
+    "source": "football-logos"
+  },
+  "Bolivia|The Strongest": {
+    "id": "the-strongest",
+    "slug": "the-strongest",
+    "source": "football-logos"
+  },
+  "Bolivia|Universitario de Sucre": {
+    "id": "universitario-de-sucre",
+    "slug": "universitario-de-sucre",
+    "source": "football-logos"
+  },
+  "Bolivia|Universitario de Vinto": {
+    "id": "universitario-de-vinto",
+    "slug": "universitario-de-vinto",
+    "source": "football-logos"
+  },
+  "Bolivia|Vaca Díez": {
+    "id": "vaca-diez",
+    "slug": null,
+    "source": "url",
+    "url": "https://upload.wikimedia.org/wikipedia/en/6/63/CD_Vaca_D%C3%ADez.png"
+  },
+  "Brazil|América Mineiro": {
+    "id": "america-mineiro",
+    "slug": "america-mineiro",
+    "source": "football-logos"
+  },
+  "Brazil|Athletico Paranaense": {
+    "id": "athletico-paranaense",
+    "slug": "athletico-paranaense",
+    "source": "football-logos"
+  },
+  "Brazil|Atlético Goianiense": {
+    "id": "atletico-goianiense",
+    "slug": "atletico-goianiense",
+    "source": "football-logos"
+  },
+  "Brazil|Atlético Mineiro": {
+    "id": "atletico-mineiro",
+    "slug": "atletico-mineiro",
+    "source": "football-logos"
+  },
+  "Brazil|Avaí": {
+    "id": "avai",
+    "slug": "avai",
+    "source": "football-logos"
+  },
+  "Brazil|Bahia": {
+    "id": "bahia",
+    "slug": "bahia",
+    "source": "football-logos"
+  },
+  "Brazil|Botafogo": {
+    "id": "botafogo",
+    "slug": "botafogo",
+    "source": "football-logos"
+  },
+  "Brazil|Ceará": {
+    "id": "ceara",
+    "slug": "ceara",
+    "source": "football-logos"
+  },
+  "Brazil|Chapecoense": {
+    "id": "chapecoense",
+    "slug": "chapecoense",
+    "source": "football-logos"
+  },
+  "Brazil|Corinthians": {
+    "id": "corinthians",
+    "slug": "corinthians",
+    "source": "football-logos"
+  },
+  "Brazil|Coritiba": {
+    "id": "coritiba",
+    "slug": "coritiba",
+    "source": "football-logos"
+  },
+  "Brazil|Criciúma": {
+    "id": "criciuma",
+    "slug": "criciuma",
+    "source": "football-logos"
+  },
+  "Brazil|Cruzeiro": {
+    "id": "cruzeiro",
+    "slug": "cruzeiro",
+    "source": "football-logos"
+  },
+  "Brazil|Cuiabá": {
+    "id": "cuiaba",
+    "slug": "cuiaba",
+    "source": "football-logos"
+  },
+  "Brazil|Flamengo": {
+    "id": "flamengo",
+    "slug": "flamengo",
+    "source": "football-logos"
+  },
+  "Brazil|Fluminense": {
+    "id": "fluminense",
+    "slug": "fluminense",
+    "source": "football-logos"
+  },
+  "Brazil|Fortaleza": {
+    "id": "fortaleza",
+    "slug": "fortaleza",
+    "source": "football-logos"
+  },
+  "Brazil|Goiás": {
+    "id": "goias",
+    "slug": "goias",
+    "source": "football-logos"
+  },
+  "Brazil|Grêmio": {
+    "id": "gremio",
+    "slug": "gremio",
+    "source": "football-logos"
+  },
+  "Brazil|Internacional": {
+    "id": "internacional",
+    "slug": "internacional",
+    "source": "football-logos"
+  },
+  "Brazil|Juventude": {
+    "id": "juventude",
+    "slug": "juventude",
+    "source": "football-logos"
+  },
+  "Brazil|Mirassol": {
+    "id": "mirassol",
+    "slug": "mirassol",
+    "source": "football-logos"
+  },
+  "Brazil|Palmeiras": {
+    "id": "palmeiras",
+    "slug": "palmeiras",
+    "source": "football-logos"
+  },
+  "Brazil|Red Bull Bragantino": {
+    "id": "rb-bragantino",
+    "slug": "rb-bragantino",
+    "source": "football-logos"
+  },
+  "Brazil|Remo": {
+    "id": "remo",
+    "slug": "clube-do-remo",
+    "source": "football-logos"
+  },
+  "Brazil|Santos": {
+    "id": "santos",
+    "slug": "santos",
+    "source": "football-logos"
+  },
+  "Brazil|Sport": {
+    "id": "sport-recife",
+    "slug": "sport-recife",
+    "source": "football-logos"
+  },
+  "Brazil|São Paulo": {
+    "id": "sao-paulo",
+    "slug": "sao-paulo",
+    "source": "football-logos"
+  },
+  "Brazil|Vasco da Gama": {
+    "id": "vasco-da-gama",
+    "slug": "vasco-da-gama",
+    "source": "football-logos"
+  },
+  "Brazil|Vitória": {
+    "id": "vitoria",
+    "slug": "vitoria",
+    "source": "football-logos"
+  },
+  "Bulgaria|Arda Kardzhali": {
+    "id": "arda",
+    "slug": "arda",
+    "source": "football-logos"
+  },
+  "Bulgaria|Beroe Stara Zagora": {
+    "id": "beroe",
+    "slug": "beroe",
+    "source": "football-logos"
+  },
+  "Bulgaria|Botev Plovdiv": {
+    "id": "botev-plovdiv",
+    "slug": "botev-plovdiv",
+    "source": "football-logos"
+  },
+  "Bulgaria|Botev Vratsa": {
+    "id": "botev-vratsa",
+    "slug": "botev-vratsa",
+    "source": "football-logos"
+  },
+  "Bulgaria|CSKA 1948": {
+    "id": "cska-1948",
+    "slug": "cska-1948",
+    "source": "football-logos"
+  },
+  "Bulgaria|CSKA Sofia": {
+    "id": "cska-sofia",
+    "slug": "cska-sofia",
+    "source": "football-logos"
+  },
+  "Bulgaria|CSKA-Sofia": {
+    "id": "cska-sofia",
+    "slug": "cska-sofia",
+    "source": "football-logos"
+  },
+  "Bulgaria|Cherno More Varna": {
+    "id": "cherno-more",
+    "slug": "cherno-more",
+    "source": "football-logos"
+  },
+  "Bulgaria|Dobrudzha Dobrich": {
+    "id": "pfc-dobrudzha-dobrich",
+    "slug": "pfc-dobrudzha-dobrich",
+    "source": "football-logos"
+  },
+  "Bulgaria|Dunav Ruse": {
+    "id": "dunav",
+    "slug": "dunav",
+    "source": "football-logos"
+  },
+  "Bulgaria|Hebar Pazardzhik": {
+    "id": "hebar",
+    "slug": "hebar",
+    "source": "football-logos"
+  },
+  "Bulgaria|Krumovgrad": {
+    "id": "krumovgrad",
+    "slug": null,
+    "source": "luukhopman"
+  },
+  "Bulgaria|Levski Sofia": {
+    "id": "levski",
+    "slug": null,
+    "source": "luukhopman"
+  },
+  "Bulgaria|Lokomotiv Plovdiv": {
+    "id": "lokomotiv-plovdiv",
+    "slug": "lokomotiv-plovdiv",
+    "source": "football-logos"
+  },
+  "Bulgaria|Lokomotiv Sofia": {
+    "id": "lokomotiv-sofia",
+    "slug": "lokomotiv-sofia",
+    "source": "football-logos"
+  },
+  "Bulgaria|Ludogorets Razgrad": {
+    "id": "ludogorets",
+    "slug": "ludogorets",
+    "source": "football-logos"
+  },
+  "Bulgaria|Montana": {
+    "id": "montana",
+    "slug": "montana",
+    "source": "football-logos"
+  },
+  "Bulgaria|Septemvri Sofia": {
+    "id": "septemvri",
+    "slug": "septemvri",
+    "source": "football-logos"
+  },
+  "Bulgaria|Slavia Sofia": {
+    "id": "slavia-sofia",
+    "slug": "slavia-sofia",
+    "source": "football-logos"
+  },
+  "Bulgaria|Spartak Varna": {
+    "id": "spartak-varna",
+    "slug": "spartak-varna",
+    "source": "football-logos"
+  },
+  "Canada|Atlético Ottawa": {
+    "id": "atletico-ottawa",
+    "slug": "atletico-ottawa",
+    "source": "football-logos"
+  },
+  "Canada|Cavalry FC": {
+    "id": "cavalry",
+    "slug": "cavalry",
+    "source": "football-logos"
+  },
+  "Canada|FC Edmonton": {
+    "id": "edmonton",
+    "slug": null,
+    "source": "url",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/8/81/FC_Edmonton_logo.svg/1280px-FC_Edmonton_logo.svg.png"
+  },
+  "Canada|FC Supra du Québec": {
+    "id": "fc-supra-du-quebec",
+    "slug": "fc-supra-du-quebec",
+    "source": "football-logos"
+  },
+  "Canada|Forge FC": {
+    "id": "forge",
+    "slug": "forge",
+    "source": "football-logos"
+  },
+  "Canada|HFX Wanderers FC": {
+    "id": "hfx-wanderers",
+    "slug": "hfx-wanderers",
+    "source": "football-logos"
+  },
+  "Canada|Inter Toronto FC": {
+    "id": "inter-toronto-fc",
+    "slug": "inter-toronto-fc",
+    "source": "football-logos"
+  },
+  "Canada|Pacific FC": {
+    "id": "pacific",
+    "slug": "pacific",
+    "source": "football-logos"
+  },
+  "Canada|Valour FC": {
+    "id": "valour",
+    "slug": "valour",
+    "source": "football-logos"
+  },
+  "Canada|Vancouver FC": {
+    "id": "vancouver-fc",
+    "slug": "vancouver-fc",
+    "source": "football-logos"
+  },
+  "Chile|Audax Italiano": {
+    "id": "audax-italiano",
+    "slug": "audax-italiano",
+    "source": "football-logos"
+  },
+  "Chile|Cobreloa": {
+    "id": "cobreloa",
+    "slug": "cobreloa",
+    "source": "football-logos"
+  },
+  "Chile|Cobresal": {
+    "id": "cobresal",
+    "slug": "cobresal",
+    "source": "football-logos"
+  },
+  "Chile|Colo-Colo": {
+    "id": "colo-colo",
+    "slug": "colo-colo",
+    "source": "football-logos"
+  },
+  "Chile|Coquimbo Unido": {
+    "id": "coquimbo-unido",
+    "slug": "coquimbo-unido",
+    "source": "football-logos"
+  },
+  "Chile|Curicó Unido": {
+    "id": "curico-unido",
+    "slug": "curico-unido",
+    "source": "football-logos"
+  },
+  "Chile|Deportes Antofagasta": {
+    "id": "deportes-antofagasta",
+    "slug": "deportes-antofagasta",
+    "source": "football-logos"
+  },
+  "Chile|Deportes Concepción": {
+    "id": "deportes-concepcion",
+    "slug": "deportes-concepcion",
+    "source": "football-logos"
+  },
+  "Chile|Deportes Copiapó": {
+    "id": "deportes-copiapo",
+    "slug": "deportes-copiapo",
+    "source": "football-logos"
+  },
+  "Chile|Deportes Iquique": {
+    "id": "deportes-iquique",
+    "slug": "deportes-iquique",
+    "source": "football-logos"
+  },
+  "Chile|Deportes La Serena": {
+    "id": "la-serena",
+    "slug": "la-serena",
+    "source": "football-logos"
+  },
+  "Chile|Deportes Limache": {
+    "id": "deportes-limache",
+    "slug": "deportes-limache",
+    "source": "football-logos"
+  },
+  "Chile|Everton": {
+    "id": "everton-cl",
+    "slug": "everton",
+    "source": "football-logos"
+  },
+  "Chile|Huachipato": {
+    "id": "huachipato",
+    "slug": "huachipato",
+    "source": "football-logos"
+  },
+  "Chile|Magallanes": {
+    "id": "magallanes",
+    "slug": "magallanes",
+    "source": "football-logos"
+  },
+  "Chile|O'Higgins": {
+    "id": "ohiggins",
+    "slug": "ohiggins",
+    "source": "football-logos"
+  },
+  "Chile|Palestino": {
+    "id": "palestino",
+    "slug": "palestino",
+    "source": "football-logos"
+  },
+  "Chile|Universidad Católica": {
+    "id": "universidad-catolica",
+    "slug": "universidad-catolica",
+    "source": "football-logos"
+  },
+  "Chile|Universidad de Chile": {
+    "id": "universidad-de-chile",
+    "slug": "universidad-de-chile",
+    "source": "football-logos"
+  },
+  "Chile|Universidad de Concepción": {
+    "id": "universidad-de-concepcion",
+    "slug": "universidad-de-concepcion",
+    "source": "football-logos"
+  },
+  "Chile|Unión Española": {
+    "id": "union-espanola",
+    "slug": "union-espanola",
+    "source": "football-logos"
+  },
+  "Chile|Unión La Calera": {
+    "id": "union-la-calera",
+    "slug": "union-la-calera",
+    "source": "football-logos"
+  },
+  "Chile|Ñublense": {
+    "id": "nublense",
+    "slug": "nublense",
+    "source": "football-logos"
+  },
+  "Colombia|Alianza": {
+    "id": "alianza-valledupar",
+    "slug": "alianza-valledupar",
+    "source": "football-logos"
+  },
+  "Colombia|Alianza Petrolera": {
+    "id": "alianza-valledupar",
+    "slug": "alianza-valledupar",
+    "source": "football-logos"
+  },
+  "Colombia|América de Cali": {
+    "id": "america-de-cali",
+    "slug": "america-de-cali",
+    "source": "football-logos"
+  },
+  "Colombia|Atlético Bucaramanga": {
+    "id": "bucaramanga",
+    "slug": "bucaramanga",
+    "source": "football-logos"
+  },
+  "Colombia|Atlético Huila": {
+    "id": "atletico-huila",
+    "slug": "atletico-huila",
+    "source": "football-logos"
+  },
+  "Colombia|Atlético Nacional": {
+    "id": "atletico-nacional",
+    "slug": "atletico-nacional",
+    "source": "football-logos"
+  },
+  "Colombia|Boyacá Chicó": {
+    "id": "boyaca-chico",
+    "slug": "boyaca-chico",
+    "source": "football-logos"
+  },
+  "Colombia|Cortuluá": {
+    "id": "cortulua",
+    "slug": null,
+    "source": "url",
+    "url": "https://escudosdefutbolyequipaciones.com/descargar.php?sub=&tipo=esc&idEscudo=19023&nombreEscudo=CORTULU%C3%81+F.C.-1&dominio=escudosdefutbolyequipaciones.com"
+  },
+  "Colombia|Cúcuta Deportivo": {
+    "id": "cucuta-deportivo",
+    "slug": "cucuta-deportivo",
+    "source": "football-logos"
+  },
+  "Colombia|Deportes Tolima": {
+    "id": "deportes-tolima",
+    "slug": "deportes-tolima",
+    "source": "football-logos"
+  },
+  "Colombia|Deportivo Cali": {
+    "id": "deportivo-cali",
+    "slug": "deportivo-cali",
+    "source": "football-logos"
+  },
+  "Colombia|Deportivo Pasto": {
+    "id": "deportivo-pasto",
+    "slug": "deportivo-pasto",
+    "source": "football-logos"
+  },
+  "Colombia|Deportivo Pereira": {
+    "id": "deportivo-pereira",
+    "slug": "deportivo-pereira",
+    "source": "football-logos"
+  },
+  "Colombia|Envigado": {
+    "id": "envigado",
+    "slug": "envigado",
+    "source": "football-logos"
+  },
+  "Colombia|Fortaleza": {
+    "id": "fortaleza-ceif",
+    "slug": "fortaleza-ceif",
+    "source": "football-logos"
+  },
+  "Colombia|Independiente Medellín": {
+    "id": "independiente-medellin",
+    "slug": "independiente-medellin",
+    "source": "football-logos"
+  },
+  "Colombia|Internacional de Bogotá": {
+    "id": "internacional-de-bogota",
+    "slug": "internacional-de-bogota",
+    "source": "football-logos"
+  },
+  "Colombia|Jaguares": {
+    "id": "jaguares-de-cordoba",
+    "slug": "jaguares-de-cordoba",
+    "source": "football-logos"
+  },
+  "Colombia|Junior": {
+    "id": "atletico-junior",
+    "slug": "atletico-junior",
+    "source": "football-logos"
+  },
+  "Colombia|La Equidad": {
+    "id": "internacional-de-bogota",
+    "slug": "internacional-de-bogota",
+    "source": "football-logos"
+  },
+  "Colombia|Llaneros": {
+    "id": "llaneros",
+    "slug": "llaneros",
+    "source": "football-logos"
+  },
+  "Colombia|Millonarios": {
+    "id": "millonarios",
+    "slug": "millonarios",
+    "source": "football-logos"
+  },
+  "Colombia|Once Caldas": {
+    "id": "once-caldas",
+    "slug": "once-caldas",
+    "source": "football-logos"
+  },
+  "Colombia|Patriotas": {
+    "id": "patriotas",
+    "slug": null,
+    "source": "url",
+    "url": "https://upload.wikimedia.org/wikipedia/en/b/b2/Patriotas_logo.png"
+  },
+  "Colombia|Santa Fe": {
+    "id": "independiente-santa-fe",
+    "slug": "independiente-santa-fe",
+    "source": "football-logos"
+  },
+  "Colombia|Unión Magdalena": {
+    "id": "union-magdalena",
+    "slug": "union-magdalena",
+    "source": "football-logos"
+  },
+  "Colombia|Águilas Doradas": {
+    "id": "aguilas-doradas",
+    "slug": "aguilas-doradas",
+    "source": "football-logos"
+  },
+  "Costa Rica|Alajuelense": {
+    "id": "alajuelense",
+    "slug": "ld-alajuelense",
+    "source": "football-logos"
+  },
+  "Costa Rica|Belén": {
+    "id": "belen",
+    "slug": null,
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/12003.png"
+  },
+  "Costa Rica|Carmelita": {
+    "id": "carmelita",
+    "slug": null,
+    "source": "url",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/AD_Carmelita.svg/1280px-AD_Carmelita.svg.png"
+  },
+  "Costa Rica|Cartaginés": {
+    "id": "cartagines",
+    "slug": "cs-cartagines",
+    "source": "football-logos"
+  },
+  "Costa Rica|Escorpiones": {
+    "id": "escorpiones-de-belen",
+    "slug": "escorpiones-de-belen",
+    "source": "football-logos"
+  },
+  "Costa Rica|Grecia": {
+    "id": "grecia",
+    "slug": null,
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/18763.png"
+  },
+  "Costa Rica|Guadalupe": {
+    "id": "guadalupe",
+    "slug": "guadalupe",
+    "source": "football-logos"
+  },
+  "Costa Rica|Guanacasteca": {
+    "id": "guanacasteca",
+    "slug": null,
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20982.png"
+  },
+  "Costa Rica|Herediano": {
+    "id": "herediano",
+    "slug": "herediano",
+    "source": "football-logos"
+  },
+  "Costa Rica|Inter de San Carlos": {
+    "id": "inter-san-carlos",
+    "slug": "inter-san-carlos",
+    "source": "football-logos"
+  },
+  "Costa Rica|Liberia": {
+    "id": "municipal-liberia",
+    "slug": "municipal-liberia",
+    "source": "football-logos"
+  },
+  "Costa Rica|Limón": {
+    "id": "limon",
+    "slug": null,
+    "source": "url",
+    "url": "https://upload.wikimedia.org/wikipedia/en/9/9e/Lim%C3%B3nFClogo.PNG"
+  },
+  "Costa Rica|Puntarenas": {
+    "id": "puntarenas",
+    "slug": "puntarenas",
+    "source": "football-logos"
+  },
+  "Costa Rica|Pérez Zeledón": {
+    "id": "perez-zeledon",
+    "slug": "municipal-perez-zeledon",
+    "source": "football-logos"
+  },
+  "Costa Rica|San Carlos": {
+    "id": "san-carlos",
+    "slug": "deportiva-san-carlos",
+    "source": "football-logos"
+  },
+  "Costa Rica|Santa Ana": {
+    "id": "santa-ana",
+    "slug": null,
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/22296.png"
+  },
+  "Costa Rica|Santos": {
+    "id": "santos-cr",
+    "slug": null,
+    "source": "url",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Escudo_del_Santos_de_Gu%C3%A1piles.svg/1280px-Escudo_del_Santos_de_Gu%C3%A1piles.svg.png"
+  },
+  "Costa Rica|Saprissa": {
+    "id": "saprissa",
+    "slug": "deportivo-saprissa",
+    "source": "football-logos"
+  },
+  "Costa Rica|Sporting": {
+    "id": "sporting-san-jose",
+    "slug": "sporting-san-jose",
+    "source": "football-logos"
+  },
+  "Costa Rica|UCR": {
+    "id": "ucr",
+    "slug": null,
+    "source": "url",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Escudo_de_La_U_Universitarios.svg/1280px-Escudo_de_La_U_Universitarios.svg.png"
+  },
+  "Croatia|Dinamo Zagreb": {
+    "id": "dinamo-zagreb",
+    "slug": "dinamo-zagreb",
+    "source": "football-logos"
+  },
+  "Croatia|GNK Dinamo Zagreb": {
+    "id": "dinamo-zagreb",
+    "slug": "dinamo-zagreb",
+    "source": "football-logos"
+  },
+  "Croatia|HNK Gorica": {
+    "id": "gorica",
+    "slug": "gorica",
+    "source": "football-logos"
+  },
+  "Croatia|HNK Hajduk Split": {
+    "id": "hajduk-split",
+    "slug": "hajduk-split",
+    "source": "football-logos"
+  },
+  "Croatia|HNK Rijeka": {
+    "id": "rijeka",
+    "slug": "rijeka",
+    "source": "football-logos"
+  },
+  "Croatia|HNK Sibenik": {
+    "id": "sibenik",
+    "slug": "sibenik",
+    "source": "football-logos"
+  },
+  "Croatia|HNK Vukovar 1991": {
+    "id": "vukovar",
+    "slug": "vukovar",
+    "source": "football-logos"
+  },
+  "Croatia|Hajduk Split": {
+    "id": "hajduk-split",
+    "slug": "hajduk-split",
+    "source": "football-logos"
+  },
+  "Croatia|NK Hrvatski Dragovoljac": {
+    "id": "hrvatski-dragovoljac",
+    "slug": null,
+    "source": "luukhopman"
+  },
+  "Croatia|NK Istra": {
+    "id": "istra-1961",
+    "slug": "istra-1961",
+    "source": "football-logos"
+  },
+  "Croatia|NK Istra 1961": {
+    "id": "istra-1961",
+    "slug": "istra-1961",
+    "source": "football-logos"
+  },
+  "Croatia|NK Lokomotiva Zagreb": {
+    "id": "lokomotiva-zagreb",
+    "slug": "lokomotiva-zagreb",
+    "source": "football-logos"
+  },
+  "Croatia|NK Osijek": {
+    "id": "osijek",
+    "slug": "osijek",
+    "source": "football-logos"
+  },
+  "Croatia|NK Rudes": {
+    "id": "rudes",
+    "slug": "rudes",
+    "source": "football-logos"
+  },
+  "Croatia|NK Varazdin": {
+    "id": "varazdin",
+    "slug": "varazdin",
+    "source": "football-logos"
+  },
+  "Croatia|Slaven Belupo Koprivnica": {
+    "id": "slaven",
+    "slug": "slaven",
+    "source": "football-logos"
+  },
+  "Czech Republic|1.FC Slovacko": {
+    "id": "slovacko",
+    "slug": "slovacko",
+    "source": "football-logos"
+  },
+  "Czech Republic|AC Sparta Prague": {
+    "id": "sparta-praha",
+    "slug": "sparta-praha",
+    "source": "football-logos"
+  },
+  "Czech Republic|Banik Ostrava": {
+    "id": "banik",
+    "slug": "banik",
+    "source": "football-logos"
+  },
+  "Czech Republic|Bohemians Prague 1905": {
+    "id": "bohemians-praha",
+    "slug": "bohemians-praha",
+    "source": "football-logos"
+  },
+  "Czech Republic|FC Banik Ostrava": {
+    "id": "banik",
+    "slug": "banik",
+    "source": "football-logos"
+  },
+  "Czech Republic|FC Bohemians Prague 1905": {
+    "id": "bohemians-praha",
+    "slug": "bohemians-praha",
+    "source": "football-logos"
+  },
+  "Czech Republic|FC Hradec Kralove": {
+    "id": "hradec-kralove",
+    "slug": "hradec-kralove",
+    "source": "football-logos"
+  },
+  "Czech Republic|FC Slovan Liberec": {
+    "id": "liberec",
+    "slug": "liberec",
+    "source": "football-logos"
+  },
+  "Czech Republic|FC Trinity Zlin": {
+    "id": "zlin",
+    "slug": "zlin",
+    "source": "football-logos"
+  },
+  "Czech Republic|FC Viktoria Plzen": {
+    "id": "viktoria-plzen",
+    "slug": "viktoria-plzen",
+    "source": "football-logos"
+  },
+  "Czech Republic|FC Zbrojovka Brno": {
+    "id": "zbrojovka-brno",
+    "slug": "zbrojovka-brno",
+    "source": "football-logos"
+  },
+  "Czech Republic|FC Zlin": {
+    "id": "zlin",
+    "slug": "zlin",
+    "source": "football-logos"
+  },
+  "Czech Republic|FK Dukla Prague": {
+    "id": "dukla",
+    "slug": "dukla",
+    "source": "football-logos"
+  },
+  "Czech Republic|FK Jablonec": {
+    "id": "jablonec",
+    "slug": "jablonec",
+    "source": "football-logos"
+  },
+  "Czech Republic|FK Mlada Boleslav": {
+    "id": "mlada-boleslav",
+    "slug": "mlada-boleslav",
+    "source": "football-logos"
+  },
+  "Czech Republic|FK Pardubice": {
+    "id": "pardubice",
+    "slug": "pardubice",
+    "source": "football-logos"
+  },
+  "Czech Republic|FK Teplice": {
+    "id": "teplice",
+    "slug": "teplice",
+    "source": "football-logos"
+  },
+  "Czech Republic|MFK Karvina": {
+    "id": "karvina",
+    "slug": "karvina",
+    "source": "football-logos"
+  },
+  "Czech Republic|SK Artis Brno": {
+    "id": "artis-brno",
+    "slug": "artis-brno",
+    "source": "football-logos"
+  },
+  "Czech Republic|SK Dynamo Ceske Budejovice": {
+    "id": "ceske-budejovice",
+    "slug": "ceske-budejovice",
+    "source": "football-logos"
+  },
+  "Czech Republic|SK Sigma Olomouc": {
+    "id": "olomouc",
+    "slug": "olomouc",
+    "source": "football-logos"
+  },
+  "Czech Republic|SK Slavia Prague": {
+    "id": "slavia-praha",
+    "slug": "slavia-praha",
+    "source": "football-logos"
+  },
+  "Czech Republic|Slavia Prague": {
+    "id": "slavia-praha",
+    "slug": "slavia-praha",
+    "source": "football-logos"
+  },
+  "Czech Republic|Slovacko": {
+    "id": "slovacko",
+    "slug": "slovacko",
+    "source": "football-logos"
+  },
+  "Czech Republic|Slovan Liberec": {
+    "id": "liberec",
+    "slug": "liberec",
+    "source": "football-logos"
+  },
+  "Czech Republic|Viktoria Plzen": {
+    "id": "viktoria-plzen",
+    "slug": "viktoria-plzen",
+    "source": "football-logos"
+  },
+  "Denmark|AC Horsens": {
+    "id": "horsens",
+    "slug": "horsens",
+    "source": "football-logos"
+  },
+  "Denmark|Aalborg BK": {
+    "id": "aab",
+    "slug": "aab",
+    "source": "football-logos"
+  },
+  "Denmark|Aarhus GF": {
+    "id": "agf",
+    "slug": "agf",
+    "source": "football-logos"
+  },
+  "Denmark|Bröndby IF": {
+    "id": "brondby",
+    "slug": "brondby",
+    "source": "football-logos"
+  },
+  "Denmark|FC Copenhagen": {
+    "id": "copenhagen",
+    "slug": "copenhagen",
+    "source": "football-logos"
+  },
+  "Denmark|FC Fredericia": {
+    "id": "fredericia",
+    "slug": "fredericia",
+    "source": "football-logos"
+  },
+  "Denmark|FC Midtjylland": {
+    "id": "midtjylland",
+    "slug": "midtjylland",
+    "source": "football-logos"
+  },
+  "Denmark|FC Nordsjaelland": {
+    "id": "nordsjaelland",
+    "slug": "nordsjaelland",
+    "source": "football-logos"
+  },
+  "Denmark|Hvidovre IF": {
+    "id": "hvidovre-if",
+    "slug": "hvidovre-if",
+    "source": "football-logos"
+  },
+  "Denmark|Lyngby BK": {
+    "id": "lyngby",
+    "slug": "lyngby",
+    "source": "football-logos"
+  },
+  "Denmark|Lyngby Boldklub": {
+    "id": "lyngby",
+    "slug": "lyngby",
+    "source": "football-logos"
+  },
+  "Denmark|Odense BK": {
+    "id": "odense-boldklub",
+    "slug": "odense-boldklub",
+    "source": "football-logos"
+  },
+  "Denmark|Odense Boldklub": {
+    "id": "odense-boldklub",
+    "slug": "odense-boldklub",
+    "source": "football-logos"
+  },
+  "Denmark|Randers FC": {
+    "id": "randers",
+    "slug": "randers",
+    "source": "football-logos"
+  },
+  "Denmark|Silkeborg IF": {
+    "id": "silkeborg",
+    "slug": "silkeborg",
+    "source": "football-logos"
+  },
+  "Denmark|SönderjyskE": {
+    "id": "sonderjyske",
+    "slug": "sonderjyske",
+    "source": "football-logos"
+  },
+  "Denmark|Sönderjyske": {
+    "id": "sonderjyske",
+    "slug": "sonderjyske",
+    "source": "football-logos"
+  },
+  "Denmark|Sönderjyske Fodbold": {
+    "id": "sonderjyske",
+    "slug": "sonderjyske",
+    "source": "football-logos"
+  },
+  "Denmark|Vejle BK": {
+    "id": "vejle-boldklub",
+    "slug": "vejle-boldklub",
+    "source": "football-logos"
+  },
+  "Denmark|Vejle Boldklub": {
+    "id": "vejle-boldklub",
+    "slug": "vejle-boldklub",
+    "source": "football-logos"
+  },
+  "Denmark|Viborg FF": {
+    "id": "viborg",
+    "slug": "viborg",
+    "source": "football-logos"
+  },
+  "Ecuador|9 de Octubre": {
+    "id": "9-de-octubre",
+    "slug": null,
+    "source": "url",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/9_de_Octubre_FC_escudo.png/1280px-9_de_Octubre_FC_escudo.png"
+  },
+  "Ecuador|Aucas": {
+    "id": "aucas",
+    "slug": "aucas",
+    "source": "football-logos"
+  },
+  "Ecuador|Barcelona": {
+    "id": "barcelona-sc",
+    "slug": "barcelona-sc",
+    "source": "football-logos"
+  },
+  "Ecuador|Cumbayá": {
+    "id": "cumbaya",
+    "slug": null,
+    "source": "url",
+    "url": "https://upload.wikimedia.org/wikipedia/en/3/3c/Cumbay%C3%A1_FC.png"
+  },
+  "Ecuador|Delfín": {
+    "id": "delfin",
+    "slug": "delfin",
+    "source": "football-logos"
+  },
+  "Ecuador|Deportivo Cuenca": {
+    "id": "deportivo-cuenca",
+    "slug": "deportivo-cuenca",
+    "source": "football-logos"
+  },
+  "Ecuador|El Nacional": {
+    "id": "el-nacional",
+    "slug": "el-nacional",
+    "source": "football-logos"
+  },
+  "Ecuador|Emelec": {
+    "id": "emelec",
+    "slug": "emelec",
+    "source": "football-logos"
+  },
+  "Ecuador|Gualaceo": {
+    "id": "gualaceo",
+    "slug": null,
+    "source": "url",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Escudo_Gualaceo_Sporting_Club.png"
+  },
+  "Ecuador|Guayaquil City": {
+    "id": "guayaquil-city",
+    "slug": "guayaquil-city",
+    "source": "football-logos"
+  },
+  "Ecuador|Imbabura": {
+    "id": "imbabura",
+    "slug": null,
+    "source": "url",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Imbabura.png"
+  },
+  "Ecuador|Independiente del Valle": {
+    "id": "independiente-del-valle",
+    "slug": "independiente-del-valle",
+    "source": "football-logos"
+  },
+  "Ecuador|LDU Quito": {
+    "id": "ldu-quito",
+    "slug": "liga-de-quito",
+    "source": "football-logos"
+  },
+  "Ecuador|Leones": {
+    "id": "leones-del-norte",
+    "slug": "leones-del-norte",
+    "source": "football-logos"
+  },
+  "Ecuador|Libertad": {
+    "id": "libertad",
+    "slug": "libertad",
+    "source": "football-logos"
+  },
+  "Ecuador|Macará": {
+    "id": "macara",
+    "slug": "macara",
+    "source": "football-logos"
+  },
+  "Ecuador|Manta": {
+    "id": "manta-fc",
+    "slug": "manta-fc",
+    "source": "football-logos"
+  },
+  "Ecuador|Mushuc Runa": {
+    "id": "mushuc-runa",
+    "slug": "mushuc-runa",
+    "source": "football-logos"
+  },
+  "Ecuador|Orense": {
+    "id": "orense",
+    "slug": "orense",
+    "source": "football-logos"
+  },
+  "Ecuador|Técnico Universitario": {
+    "id": "tecnico-universitario",
+    "slug": "tecnico-universitario",
+    "source": "football-logos"
+  },
+  "Ecuador|Universidad Católica": {
+    "id": "universidad-catolica-quito",
+    "slug": "universidad-catolica-quito",
+    "source": "football-logos"
+  },
+  "Ecuador|Vinotinto Ecuador": {
+    "id": "vinotinto",
+    "slug": "vinotinto",
+    "source": "football-logos"
+  },
+  "England|AFC Bournemouth": {
+    "id": "bournemouth",
+    "slug": "bournemouth",
+    "source": "football-logos"
+  },
+  "England|Arsenal": {
+    "id": "arsenal",
+    "slug": "arsenal",
+    "source": "football-logos"
+  },
+  "England|Arsenal FC": {
+    "id": "arsenal",
+    "slug": "arsenal",
+    "source": "football-logos"
+  },
+  "England|Aston Villa": {
+    "id": "aston-villa",
+    "slug": "aston-villa",
+    "source": "football-logos"
+  },
+  "England|Brentford FC": {
+    "id": "brentford",
+    "slug": "brentford",
+    "source": "football-logos"
+  },
+  "England|Brighton": {
+    "id": "brighton",
+    "slug": "brighton",
+    "source": "football-logos"
+  },
+  "England|Brighton & Hove Albion": {
+    "id": "brighton",
+    "slug": "brighton",
+    "source": "football-logos"
+  },
+  "England|Burnley": {
+    "id": "burnley",
+    "slug": "burnley",
+    "source": "football-logos"
+  },
+  "England|Burnley FC": {
+    "id": "burnley",
+    "slug": "burnley",
+    "source": "football-logos"
+  },
+  "England|Chelsea": {
+    "id": "chelsea",
+    "slug": "chelsea",
+    "source": "football-logos"
+  },
+  "England|Chelsea FC": {
+    "id": "chelsea",
+    "slug": "chelsea",
+    "source": "football-logos"
+  },
+  "England|Coventry City": {
+    "id": "coventry-city",
+    "slug": "coventry-city",
+    "source": "football-logos"
+  },
+  "England|Crystal Palace": {
+    "id": "crystal-palace",
+    "slug": "crystal-palace",
+    "source": "football-logos"
+  },
+  "England|Everton FC": {
+    "id": "everton",
+    "slug": "everton",
+    "source": "football-logos"
+  },
+  "England|Fulham FC": {
+    "id": "fulham",
+    "slug": "fulham",
+    "source": "football-logos"
+  },
+  "England|Hull City": {
+    "id": "hull-city",
+    "slug": "hull-city",
+    "source": "football-logos"
+  },
+  "England|Ipswich Town": {
+    "id": "ipswich",
+    "slug": "ipswich",
+    "source": "football-logos"
+  },
+  "England|Leeds United": {
+    "id": "leeds-united",
+    "slug": "leeds-united",
+    "source": "football-logos"
+  },
+  "England|Leicester City": {
+    "id": "leicester",
+    "slug": "leicester",
+    "source": "football-logos"
+  },
+  "England|Liverpool FC": {
+    "id": "liverpool",
+    "slug": "liverpool",
+    "source": "football-logos"
+  },
+  "England|Luton Town": {
+    "id": "luton-town",
+    "slug": "luton-town",
+    "source": "football-logos"
+  },
+  "England|Man City": {
+    "id": "manchester-city",
+    "slug": "manchester-city",
+    "source": "football-logos"
+  },
+  "England|Manchester City": {
+    "id": "manchester-city",
+    "slug": "manchester-city",
+    "source": "football-logos"
+  },
+  "England|Manchester United": {
+    "id": "manchester-united",
+    "slug": "manchester-united",
+    "source": "football-logos"
+  },
+  "England|Newcastle United": {
+    "id": "newcastle",
+    "slug": "newcastle",
+    "source": "football-logos"
+  },
+  "England|Norwich": {
+    "id": "norwich-city",
+    "slug": "norwich-city",
+    "source": "football-logos"
+  },
+  "England|Nottingham Forest": {
+    "id": "nottingham-forest",
+    "slug": "nottingham-forest",
+    "source": "football-logos"
+  },
+  "England|Sheffield United": {
+    "id": "sheffield-united",
+    "slug": "sheffield-united",
+    "source": "football-logos"
+  },
+  "England|Southampton": {
+    "id": "southampton",
+    "slug": "southampton",
+    "source": "football-logos"
+  },
+  "England|Southampton FC": {
+    "id": "southampton",
+    "slug": "southampton",
+    "source": "football-logos"
+  },
+  "England|Spurs": {
+    "id": "tottenham",
+    "slug": "tottenham",
+    "source": "football-logos"
+  },
+  "England|Sunderland AFC": {
+    "id": "sunderland",
+    "slug": "sunderland",
+    "source": "football-logos"
+  },
+  "England|Tottenham Hotspur": {
+    "id": "tottenham",
+    "slug": "tottenham",
+    "source": "football-logos"
+  },
+  "England|Watford FC": {
+    "id": "watford",
+    "slug": "watford",
+    "source": "football-logos"
+  },
+  "England|West Ham": {
+    "id": "west-ham",
+    "slug": "west-ham",
+    "source": "football-logos"
+  },
+  "England|West Ham United": {
+    "id": "west-ham",
+    "slug": "west-ham",
+    "source": "football-logos"
+  },
+  "England|Wolverhampton Wanderers": {
+    "id": "wolves",
+    "slug": "wolves",
+    "source": "football-logos"
+  },
+  "France|AC Ajaccio": {
+    "id": "ajaccio",
+    "slug": "ajaccio",
+    "source": "football-logos"
+  },
+  "France|AJ Auxerre": {
+    "id": "auxerre",
+    "slug": "auxerre",
+    "source": "football-logos"
+  },
+  "France|AS Monaco": {
+    "id": "as-monaco",
+    "slug": "as-monaco",
+    "source": "football-logos"
+  },
+  "France|AS Saint-Étienne": {
+    "id": "as-saint-etienne",
+    "slug": "as-saint-etienne",
+    "source": "football-logos"
+  },
+  "France|Angers SCO": {
+    "id": "angers",
+    "slug": "angers",
+    "source": "football-logos"
+  },
+  "France|Clermont Foot 63": {
+    "id": "clermont-foot",
+    "slug": "clermont-foot",
+    "source": "football-logos"
+  },
+  "France|ESTAC Troyes": {
+    "id": "troyes",
+    "slug": "troyes",
+    "source": "football-logos"
+  },
+  "France|FC Lorient": {
+    "id": "lorient",
+    "slug": "lorient",
+    "source": "football-logos"
+  },
+  "France|FC Metz": {
+    "id": "fc-metz",
+    "slug": "fc-metz",
+    "source": "football-logos"
+  },
+  "France|FC Nantes": {
+    "id": "nantes",
+    "slug": "nantes",
+    "source": "football-logos"
+  },
+  "France|FC Toulouse": {
+    "id": "toulouse",
+    "slug": "toulouse",
+    "source": "football-logos"
+  },
+  "France|G. Bordeaux": {
+    "id": "bordeaux",
+    "slug": "bordeaux",
+    "source": "football-logos"
+  },
+  "France|LOSC Lille": {
+    "id": "lille",
+    "slug": "lille",
+    "source": "football-logos"
+  },
+  "France|Le Havre AC": {
+    "id": "le-havre-ac",
+    "slug": "le-havre-ac",
+    "source": "football-logos"
+  },
+  "France|Le Mans FC": {
+    "id": "le-mans",
+    "slug": "le-mans",
+    "source": "football-logos"
+  },
+  "France|Marseille": {
+    "id": "marseille",
+    "slug": "marseille",
+    "source": "football-logos"
+  },
+  "France|Montpellier": {
+    "id": "montpellier",
+    "slug": "montpellier",
+    "source": "football-logos"
+  },
+  "France|Montpellier HSC": {
+    "id": "montpellier",
+    "slug": "montpellier",
+    "source": "football-logos"
+  },
+  "France|OGC Nice": {
+    "id": "nice",
+    "slug": "nice",
+    "source": "football-logos"
+  },
+  "France|Olympique Lyon": {
+    "id": "lyon",
+    "slug": "lyon",
+    "source": "football-logos"
+  },
+  "France|Olympique Marseille": {
+    "id": "marseille",
+    "slug": "marseille",
+    "source": "football-logos"
+  },
+  "France|Paris FC": {
+    "id": "paris-fc",
+    "slug": "paris-fc",
+    "source": "football-logos"
+  },
+  "France|Paris SG": {
+    "id": "paris-saint-germain",
+    "slug": "paris-saint-germain",
+    "source": "football-logos"
+  },
+  "France|Paris Saint-Germain": {
+    "id": "paris-saint-germain",
+    "slug": "paris-saint-germain",
+    "source": "football-logos"
+  },
+  "France|RC Lens": {
+    "id": "rc-lens",
+    "slug": "rc-lens",
+    "source": "football-logos"
+  },
+  "France|RC Strasbourg Alsace": {
+    "id": "rc-strasbourg-alsace",
+    "slug": "rc-strasbourg-alsace",
+    "source": "football-logos"
+  },
+  "France|SCO Angers": {
+    "id": "angers",
+    "slug": "angers",
+    "source": "football-logos"
+  },
+  "France|Stade Brestois 29": {
+    "id": "brest",
+    "slug": "brest",
+    "source": "football-logos"
+  },
+  "France|Stade Reims": {
+    "id": "stade-de-reims",
+    "slug": "stade-de-reims",
+    "source": "football-logos"
+  },
+  "France|Stade Rennais": {
+    "id": "rennes",
+    "slug": "rennes",
+    "source": "football-logos"
+  },
+  "France|Stade Rennais FC": {
+    "id": "rennes",
+    "slug": "rennes",
+    "source": "football-logos"
+  },
+  "Germany|1. FC Köln": {
+    "id": "koln",
+    "slug": "koln",
+    "source": "football-logos"
+  },
+  "Germany|1.FC Heidenheim 1846": {
+    "id": "fc-heidenheim",
+    "slug": "fc-heidenheim",
+    "source": "football-logos"
+  },
+  "Germany|1.FC Köln": {
+    "id": "koln",
+    "slug": "koln",
+    "source": "football-logos"
+  },
+  "Germany|1.FC Union Berlin": {
+    "id": "union-berlin",
+    "slug": "union-berlin",
+    "source": "football-logos"
+  },
+  "Germany|1.FSV Mainz 05": {
+    "id": "mainz-05",
+    "slug": "mainz-05",
+    "source": "football-logos"
+  },
+  "Germany|Arminia Bielefeld": {
+    "id": "arminia-bielefeld",
+    "slug": "arminia-bielefeld",
+    "source": "football-logos"
+  },
+  "Germany|Bayer 04 Leverkusen": {
+    "id": "bayer-leverkusen",
+    "slug": "bayer-leverkusen",
+    "source": "football-logos"
+  },
+  "Germany|Bayern Munich": {
+    "id": "bayern-munchen",
+    "slug": "bayern-munchen",
+    "source": "football-logos"
+  },
+  "Germany|Bor. M'gladbach": {
+    "id": "borussia-monchengladbach",
+    "slug": "borussia-monchengladbach",
+    "source": "football-logos"
+  },
+  "Germany|Borussia Dortmund": {
+    "id": "borussia-dortmund",
+    "slug": "borussia-dortmund",
+    "source": "football-logos"
+  },
+  "Germany|Borussia Mönchengladbach": {
+    "id": "borussia-monchengladbach",
+    "slug": "borussia-monchengladbach",
+    "source": "football-logos"
+  },
+  "Germany|E. Frankfurt": {
+    "id": "eintracht-frankfurt",
+    "slug": "eintracht-frankfurt",
+    "source": "football-logos"
+  },
+  "Germany|Eintracht Frankfurt": {
+    "id": "eintracht-frankfurt",
+    "slug": "eintracht-frankfurt",
+    "source": "football-logos"
+  },
+  "Germany|FC Augsburg": {
+    "id": "augsburg",
+    "slug": "augsburg",
+    "source": "football-logos"
+  },
+  "Germany|FC Bayern ": {
+    "id": "bayern-munchen",
+    "slug": "bayern-munchen",
+    "source": "football-logos"
+  },
+  "Germany|FC Schalke 04": {
+    "id": "schalke-04",
+    "slug": "schalke-04",
+    "source": "football-logos"
+  },
+  "Germany|FC St. Pauli": {
+    "id": "st-pauli",
+    "slug": "st-pauli",
+    "source": "football-logos"
+  },
+  "Germany|Greuther Fürth": {
+    "id": "spvgg-greuther-furth",
+    "slug": "spvgg-greuther-furth",
+    "source": "football-logos"
+  },
+  "Germany|Hamburger SV": {
+    "id": "hamburger-sv",
+    "slug": "hamburger-sv",
+    "source": "football-logos"
+  },
+  "Germany|Hertha BSC": {
+    "id": "hertha-bsc",
+    "slug": "hertha-bsc",
+    "source": "football-logos"
+  },
+  "Germany|Holstein Kiel": {
+    "id": "holstein-kiel",
+    "slug": "holstein-kiel",
+    "source": "football-logos"
+  },
+  "Germany|RB Leipzig": {
+    "id": "rb-leipzig",
+    "slug": "rb-leipzig",
+    "source": "football-logos"
+  },
+  "Germany|SC Freiburg": {
+    "id": "freiburg",
+    "slug": "freiburg",
+    "source": "football-logos"
+  },
+  "Germany|SC Paderborn 07": {
+    "id": "paderborn",
+    "slug": "paderborn",
+    "source": "football-logos"
+  },
+  "Germany|SV 07 Elversberg": {
+    "id": "sv-elversberg",
+    "slug": "sv-elversberg",
+    "source": "football-logos"
+  },
+  "Germany|SV Darmstadt 98": {
+    "id": "darmstadt",
+    "slug": "darmstadt",
+    "source": "football-logos"
+  },
+  "Germany|SV Werder Bremen": {
+    "id": "werder-bremen",
+    "slug": "werder-bremen",
+    "source": "football-logos"
+  },
+  "Germany|TSG 1899 Hoffenheim": {
+    "id": "hoffenheim",
+    "slug": "hoffenheim",
+    "source": "football-logos"
+  },
+  "Germany|VfB Stuttgart": {
+    "id": "vfb-stuttgart",
+    "slug": "vfb-stuttgart",
+    "source": "football-logos"
+  },
+  "Germany|VfL Bochum": {
+    "id": "vfl-bochum",
+    "slug": "vfl-bochum",
+    "source": "football-logos"
+  },
+  "Germany|VfL Wolfsburg": {
+    "id": "wolfsburg",
+    "slug": "wolfsburg",
+    "source": "football-logos"
+  },
+  "Greece|AE Kifisia": {
+    "id": "kifisia",
+    "slug": "kifisia",
+    "source": "football-logos"
+  },
+  "Greece|AE Kifisias": {
+    "id": "kifisia",
+    "slug": "kifisia",
+    "source": "football-logos"
+  },
+  "Greece|AE Larisa": {
+    "id": "larissa",
+    "slug": "larissa",
+    "source": "football-logos"
+  },
+  "Greece|AEK Athens": {
+    "id": "aek-athens",
+    "slug": "aek-athens",
+    "source": "football-logos"
+  },
+  "Greece|APO Levadiakos": {
+    "id": "levadiakos",
+    "slug": "levadiakos",
+    "source": "football-logos"
+  },
+  "Greece|Apollon Smyrnis": {
+    "id": "apollon-smyrnis",
+    "slug": "apollon-smyrnis",
+    "source": "football-logos"
+  },
+  "Greece|Aris Saloniki": {
+    "id": "aris-thessaloniki",
+    "slug": "aris-thessaloniki",
+    "source": "football-logos"
+  },
+  "Greece|Aris Thessaloniki": {
+    "id": "aris-thessaloniki",
+    "slug": "aris-thessaloniki",
+    "source": "football-logos"
+  },
+  "Greece|Asteras Aktor": {
+    "id": "asteras",
+    "slug": "asteras",
+    "source": "football-logos"
+  },
+  "Greece|Asteras Tripoli": {
+    "id": "asteras",
+    "slug": "asteras",
+    "source": "football-logos"
+  },
+  "Greece|Asteras Tripolis": {
+    "id": "asteras",
+    "slug": "asteras",
+    "source": "football-logos"
+  },
+  "Greece|Athens Kallithea": {
+    "id": "athens-kallithea",
+    "slug": "athens-kallithea",
+    "source": "football-logos"
+  },
+  "Greece|Atromitos Athen": {
+    "id": "atromitos",
+    "slug": "atromitos",
+    "source": "football-logos"
+  },
+  "Greece|Atromitos Athens": {
+    "id": "atromitos",
+    "slug": "atromitos",
+    "source": "football-logos"
+  },
+  "Greece|Ionikos Nikeas": {
+    "id": "ionikos",
+    "slug": "ionikos",
+    "source": "football-logos"
+  },
+  "Greece|Iraklis Thessaloniki": {
+    "id": "iraklis-thessaloniki",
+    "slug": "iraklis-thessaloniki",
+    "source": "football-logos"
+  },
+  "Greece|Kalamata FC": {
+    "id": "kalamata",
+    "slug": "kalamata",
+    "source": "football-logos"
+  },
+  "Greece|Levadiakos": {
+    "id": "levadiakos",
+    "slug": "levadiakos",
+    "source": "football-logos"
+  },
+  "Greece|OFI Crete": {
+    "id": "ofi",
+    "slug": "ofi",
+    "source": "football-logos"
+  },
+  "Greece|OFI Crete FC": {
+    "id": "ofi",
+    "slug": "ofi",
+    "source": "football-logos"
+  },
+  "Greece|Olympiacos": {
+    "id": "olympiacos",
+    "slug": "olympiacos",
+    "source": "football-logos"
+  },
+  "Greece|Olympiacos Piraeus": {
+    "id": "olympiacos",
+    "slug": "olympiacos",
+    "source": "football-logos"
+  },
+  "Greece|PAOK Thessaloniki": {
+    "id": "paok",
+    "slug": "paok",
+    "source": "football-logos"
+  },
+  "Greece|PAS Giannina": {
+    "id": "giannina",
+    "slug": "giannina",
+    "source": "football-logos"
+  },
+  "Greece|PAS Lamia 1964": {
+    "id": "lamia",
+    "slug": "lamia",
+    "source": "football-logos"
+  },
+  "Greece|Panathinaikos": {
+    "id": "panathinaikos",
+    "slug": "panathinaikos",
+    "source": "football-logos"
+  },
+  "Greece|Panathinaikos Athens": {
+    "id": "panathinaikos",
+    "slug": "panathinaikos",
+    "source": "football-logos"
+  },
+  "Greece|Panathinaikos FC": {
+    "id": "panathinaikos",
+    "slug": "panathinaikos",
+    "source": "football-logos"
+  },
+  "Greece|Panetolikos": {
+    "id": "panetolikos",
+    "slug": "panetolikos",
+    "source": "football-logos"
+  },
+  "Greece|Panetolikos GFS": {
+    "id": "panetolikos",
+    "slug": "panetolikos",
+    "source": "football-logos"
+  },
+  "Greece|Panserraikos": {
+    "id": "panserraikos",
+    "slug": "panserraikos",
+    "source": "football-logos"
+  },
+  "Greece|Volos NFC": {
+    "id": "volos",
+    "slug": "volos",
+    "source": "football-logos"
+  },
+  "Greece|Volos NPS": {
+    "id": "volos",
+    "slug": "volos",
+    "source": "football-logos"
+  },
+  "Guatemala|Achuapa": {
+    "id": "achuapa",
+    "slug": null,
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20727.png"
+  },
+  "Guatemala|Antigua": {
+    "id": "antigua-gfc",
+    "slug": "antigua-gfc",
+    "source": "football-logos"
+  },
+  "Guatemala|Antigua GFC": {
+    "id": "antigua-gfc",
+    "slug": "antigua-gfc",
+    "source": "football-logos"
+  },
+  "Guatemala|Atlético Mictlán": {
+    "id": "atletico-mictlan",
+    "slug": null,
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7260.png"
+  },
+  "Guatemala|Aurora": {
+    "id": "aurora-fc",
+    "slug": "aurora-fc",
+    "source": "football-logos"
+  },
+  "Guatemala|Aurora FC": {
+    "id": "aurora-fc",
+    "slug": "aurora-fc",
+    "source": "football-logos"
+  },
+  "Guatemala|Coatepeque": {
+    "id": "coatepeque",
+    "slug": null,
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/15888.png"
+  },
+  "Guatemala|Cobán Imperial": {
+    "id": "coban-imperial",
+    "slug": "coban-imperial",
+    "source": "football-logos"
+  },
+  "Guatemala|Comunicaciones": {
+    "id": "comunicaciones-fc",
+    "slug": "comunicaciones-fc",
+    "source": "football-logos"
+  },
+  "Guatemala|Deportivo Zacapa": {
+    "id": "deportivo-zacapa",
+    "slug": null,
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7261.png"
+  },
+  "Guatemala|Guastatoya": {
+    "id": "guastatoya",
+    "slug": "guastatoya",
+    "source": "football-logos"
+  },
+  "Guatemala|Iztapa": {
+    "id": "iztapa",
+    "slug": null,
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/15886.png"
+  },
+  "Guatemala|Malacateco": {
+    "id": "malacateco",
+    "slug": "deportivo-malacateco",
+    "source": "football-logos"
+  },
+  "Guatemala|Marquense": {
+    "id": "marquense",
+    "slug": "deportivo-marquense",
+    "source": "football-logos"
+  },
+  "Guatemala|Mixco": {
+    "id": "mixco",
+    "slug": "deportivo-mixco",
+    "source": "football-logos"
+  },
+  "Guatemala|Municipal": {
+    "id": "municipal",
+    "slug": "municipal",
+    "source": "football-logos"
+  },
+  "Guatemala|San Pedro": {
+    "id": "san-pedro-fc",
+    "slug": "san-pedro-fc",
+    "source": "football-logos"
+  },
+  "Guatemala|Santa Lucía": {
+    "id": "santa-lucia",
+    "slug": null,
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20035.png"
+  },
+  "Guatemala|Suchitepéquez": {
+    "id": "suchitepequez",
+    "slug": "deportivo-suchitepequez",
+    "source": "football-logos"
+  },
+  "Guatemala|Xelajú MC": {
+    "id": "xelaju-mc",
+    "slug": "xelaju-mc",
+    "source": "football-logos"
+  },
+  "Guatemala|Xinabajul-Huehue": {
+    "id": "xinabajul-huehue",
+    "slug": null,
+    "source": "url",
+    "url": "https://upload.wikimedia.org/wikipedia/en/f/ff/Xinabajul_Huehue.png"
+  },
+  "Hungary|Debreceni VSC": {
+    "id": "debrecen",
+    "slug": "debrecen",
+    "source": "football-logos"
+  },
+  "Hungary|Diósgyőri VTK": {
+    "id": "diosgyor",
+    "slug": "diosgyor",
+    "source": "football-logos"
+  },
+  "Hungary|ETO FC Győr": {
+    "id": "gyor",
+    "slug": "gyor",
+    "source": "football-logos"
+  },
+  "Hungary|Fehérvár FC": {
+    "id": "fehervar",
+    "slug": "fehervar",
+    "source": "football-logos"
+  },
+  "Hungary|Ferencvárosi TC": {
+    "id": "ferencvaros",
+    "slug": "ferencvaros",
+    "source": "football-logos"
+  },
+  "Hungary|Kecskeméti TE": {
+    "id": "kecskemet",
+    "slug": "kecskemet",
+    "source": "football-logos"
+  },
+  "Hungary|MTK Budapest": {
+    "id": "mtk",
+    "slug": "mtk",
+    "source": "football-logos"
+  },
+  "Hungary|Nyíregyháza Spartacus": {
+    "id": "nyiregyhaza-spartacus",
+    "slug": "nyiregyhaza-spartacus",
+    "source": "football-logos"
+  },
+  "Hungary|Paksi FC": {
+    "id": "paksi",
+    "slug": "paksi",
+    "source": "football-logos"
+  },
+  "Hungary|Puskás Akadémia FC": {
+    "id": "puskas-akademia",
+    "slug": "puskas-akademia",
+    "source": "football-logos"
+  },
+  "Hungary|Zalaegerszegi TE FC": {
+    "id": "zte",
+    "slug": "zte",
+    "source": "football-logos"
+  },
+  "Hungary|Újpest FC": {
+    "id": "ujpest",
+    "slug": "ujpest",
+    "source": "football-logos"
+  },
+  "Israel|Beitar Jerusalem": {
+    "id": "beitar-jerusalem",
+    "slug": "beitar-jerusalem",
+    "source": "football-logos"
+  },
+  "Israel|FC Ashdod": {
+    "id": "ashdod",
+    "slug": "ashdod",
+    "source": "football-logos"
+  },
+  "Israel|Hapoel Beer Sheva": {
+    "id": "hapoel-beer-sheva",
+    "slug": "hapoel-beer-sheva",
+    "source": "football-logos"
+  },
+  "Israel|Hapoel Haifa": {
+    "id": "hapoel-haifa",
+    "slug": "hapoel-haifa",
+    "source": "football-logos"
+  },
+  "Israel|Hapoel Jerusalem": {
+    "id": "hapoel-jerusalem",
+    "slug": "hapoel-jerusalem",
+    "source": "football-logos"
+  },
+  "Israel|Hapoel Petah Tikva": {
+    "id": "hapoel-petah-tikva",
+    "slug": "hapoel-petah-tikva",
+    "source": "football-logos"
+  },
+  "Israel|Hapoel Ramat Gan": {
+    "id": "hapoel-ramat-gan",
+    "slug": "hapoel-ramat-gan",
+    "source": "football-logos"
+  },
+  "Israel|Hapoel Tel Aviv": {
+    "id": "hapoel-tel-aviv",
+    "slug": "hapoel-tel-aviv",
+    "source": "football-logos"
+  },
+  "Israel|Ihud Bnei Sakhnin": {
+    "id": "bnei-sakhnin",
+    "slug": "bnei-sakhnin",
+    "source": "football-logos"
+  },
+  "Israel|Ironi Kiryat Shmona": {
+    "id": "hapoel-kiryat-shmona",
+    "slug": "hapoel-kiryat-shmona",
+    "source": "football-logos"
+  },
+  "Israel|Ironi Tiberias": {
+    "id": "ironi-tiberias",
+    "slug": "ironi-tiberias",
+    "source": "football-logos"
+  },
+  "Israel|Maccabi Bnei Reineh": {
+    "id": "maccabi-bnei-reineh",
+    "slug": "maccabi-bnei-reineh",
+    "source": "football-logos"
+  },
+  "Israel|Maccabi Haifa": {
+    "id": "maccabi-haifa",
+    "slug": "maccabi-haifa",
+    "source": "football-logos"
+  },
+  "Israel|Maccabi Netanya": {
+    "id": "maccabi-netanya",
+    "slug": "maccabi-netanya",
+    "source": "football-logos"
+  },
+  "Israel|Maccabi Petah Tikva": {
+    "id": "maccabi-petah-tikva",
+    "slug": "maccabi-petah-tikva",
+    "source": "football-logos"
+  },
+  "Israel|Maccabi Tel Aviv": {
+    "id": "maccabi-tel-aviv",
+    "slug": "maccabi-tel-aviv",
+    "source": "football-logos"
+  },
+  "Italy|AC Milan": {
+    "id": "milan",
+    "slug": "milan",
+    "source": "football-logos"
+  },
+  "Italy|AC Monza": {
+    "id": "monza",
+    "slug": "monza",
+    "source": "football-logos"
+  },
+  "Italy|ACF Fiorentina": {
+    "id": "fiorentina",
+    "slug": "fiorentina",
+    "source": "football-logos"
+  },
+  "Italy|AS Roma": {
+    "id": "roma",
+    "slug": null,
+    "source": "luukhopman"
+  },
+  "Italy|Atalanta BC": {
+    "id": "atalanta",
+    "slug": "atalanta",
+    "source": "football-logos"
+  },
+  "Italy|Bologna FC 1909": {
+    "id": "bologna",
+    "slug": "bologna",
+    "source": "football-logos"
+  },
+  "Italy|Cagliari Calcio": {
+    "id": "cagliari",
+    "slug": "cagliari",
+    "source": "football-logos"
+  },
+  "Italy|Como 1907": {
+    "id": "como-1907",
+    "slug": "como-1907",
+    "source": "football-logos"
+  },
+  "Italy|FC Empoli": {
+    "id": "empoli",
+    "slug": "empoli",
+    "source": "football-logos"
+  },
+  "Italy|Frosinone Calcio": {
+    "id": "frosinone",
+    "slug": "frosinone",
+    "source": "football-logos"
+  },
+  "Italy|Genoa CFC": {
+    "id": "genoa",
+    "slug": "genoa",
+    "source": "football-logos"
+  },
+  "Italy|Hellas Verona": {
+    "id": "verona",
+    "slug": "verona",
+    "source": "football-logos"
+  },
+  "Italy|Inter Milan": {
+    "id": "inter",
+    "slug": "inter",
+    "source": "football-logos"
+  },
+  "Italy|Juventus": {
+    "id": "juventus",
+    "slug": "juventus",
+    "source": "football-logos"
+  },
+  "Italy|Juventus FC": {
+    "id": "juventus",
+    "slug": "juventus",
+    "source": "football-logos"
+  },
+  "Italy|Lazio": {
+    "id": "lazio",
+    "slug": "lazio",
+    "source": "football-logos"
+  },
+  "Italy|Parma Calcio 1913": {
+    "id": "parma",
+    "slug": "parma",
+    "source": "football-logos"
+  },
+  "Italy|Pisa Sporting Club": {
+    "id": "pisa",
+    "slug": "pisa",
+    "source": "football-logos"
+  },
+  "Italy|SS Lazio": {
+    "id": "lazio",
+    "slug": "lazio",
+    "source": "football-logos"
+  },
+  "Italy|SSC Napoli": {
+    "id": "napoli",
+    "slug": "napoli",
+    "source": "football-logos"
+  },
+  "Italy|Sampdoria": {
+    "id": "sampdoria",
+    "slug": "sampdoria",
+    "source": "football-logos"
+  },
+  "Italy|Sassuolo": {
+    "id": "sassuolo",
+    "slug": "sassuolo",
+    "source": "football-logos"
+  },
+  "Italy|Spezia Calcio": {
+    "id": "spezia",
+    "slug": "spezia",
+    "source": "football-logos"
+  },
+  "Italy|Torino FC": {
+    "id": "torino",
+    "slug": "torino",
+    "source": "football-logos"
+  },
+  "Italy|UC Sampdoria": {
+    "id": "sampdoria",
+    "slug": "sampdoria",
+    "source": "football-logos"
+  },
+  "Italy|US Cremonese": {
+    "id": "cremonese",
+    "slug": "cremonese",
+    "source": "football-logos"
+  },
+  "Italy|US Lecce": {
+    "id": "lecce",
+    "slug": "lecce",
+    "source": "football-logos"
+  },
+  "Italy|US Salernitana 1919": {
+    "id": "salernitana",
+    "slug": "salernitana",
+    "source": "football-logos"
+  },
+  "Italy|US Sassuolo": {
+    "id": "sassuolo",
+    "slug": "sassuolo",
+    "source": "football-logos"
+  },
+  "Italy|Udinese Calcio": {
+    "id": "udinese",
+    "slug": "udinese",
+    "source": "football-logos"
+  },
+  "Italy|Venezia": {
+    "id": "venezia",
+    "slug": "venezia",
+    "source": "football-logos"
+  },
+  "Italy|Venezia FC": {
+    "id": "venezia",
+    "slug": "venezia",
+    "source": "football-logos"
+  },
+  "Mexico|América": {
+    "id": "america",
+    "slug": "club-america",
+    "source": "football-logos"
+  },
+  "Mexico|Atlante": {
+    "id": "atlante",
+    "slug": "atlante",
+    "source": "football-logos"
+  },
+  "Mexico|Atlas": {
+    "id": "atlas",
+    "slug": "atlas",
+    "source": "football-logos"
+  },
+  "Mexico|Atlético San Luis": {
+    "id": "atletico-de-san-luis",
+    "slug": "atletico-de-san-luis",
+    "source": "football-logos"
+  },
+  "Mexico|Cruz Azul": {
+    "id": "cruz-azul",
+    "slug": "cruz-azul",
+    "source": "football-logos"
+  },
+  "Mexico|Guadalajara": {
+    "id": "guadalajara",
+    "slug": "cd-guadalajara",
+    "source": "football-logos"
+  },
+  "Mexico|Juárez": {
+    "id": "fc-juarez",
+    "slug": "fc-juarez",
+    "source": "football-logos"
+  },
+  "Mexico|León": {
+    "id": "leon",
+    "slug": "club-leon",
+    "source": "football-logos"
+  },
+  "Mexico|Mazatlán": {
+    "id": "mazatlan-fc",
+    "slug": "mazatlan-fc",
+    "source": "football-logos"
+  },
+  "Mexico|Monterrey": {
+    "id": "monterrey",
+    "slug": "monterrey",
+    "source": "football-logos"
+  },
+  "Mexico|Necaxa": {
+    "id": "necaxa",
+    "slug": "necaxa",
+    "source": "football-logos"
+  },
+  "Mexico|Pachuca": {
+    "id": "pachuca",
+    "slug": "pachuca",
+    "source": "football-logos"
+  },
+  "Mexico|Puebla": {
+    "id": "puebla",
+    "slug": "puebla",
+    "source": "football-logos"
+  },
+  "Mexico|Pumas UNAM": {
+    "id": "unam-pumas",
+    "slug": "unam-pumas",
+    "source": "football-logos"
+  },
+  "Mexico|Querétaro": {
+    "id": "queretaro-fc",
+    "slug": "queretaro-fc",
+    "source": "football-logos"
+  },
+  "Mexico|Santos Laguna": {
+    "id": "santos-laguna",
+    "slug": "santos-laguna",
+    "source": "football-logos"
+  },
+  "Mexico|Tigres UANL": {
+    "id": "tigres-uanl",
+    "slug": "tigres-uanl",
+    "source": "football-logos"
+  },
+  "Mexico|Tijuana": {
+    "id": "tijuana",
+    "slug": "club-tijuana",
+    "source": "football-logos"
+  },
+  "Mexico|Toluca": {
+    "id": "toluca",
+    "slug": "toluca",
+    "source": "football-logos"
+  },
+  "Netherlands|ADO Den Haag": {
+    "id": "ado-den-haag",
+    "slug": "ado-den-haag",
+    "source": "football-logos"
+  },
+  "Netherlands|AZ Alkmaar": {
+    "id": "az-alkmaar",
+    "slug": "az-alkmaar",
+    "source": "football-logos"
+  },
+  "Netherlands|Ajax": {
+    "id": "ajax",
+    "slug": "ajax",
+    "source": "football-logos"
+  },
+  "Netherlands|Ajax Amsterdam": {
+    "id": "ajax",
+    "slug": "ajax",
+    "source": "football-logos"
+  },
+  "Netherlands|Almere City FC": {
+    "id": "almere-city-fc",
+    "slug": "almere-city-fc",
+    "source": "football-logos"
+  },
+  "Netherlands|Excelsior Rotterdam": {
+    "id": "excelsior-rotterdam",
+    "slug": "excelsior-rotterdam",
+    "source": "football-logos"
+  },
+  "Netherlands|FC Emmen": {
+    "id": "fc-emmen",
+    "slug": "fc-emmen",
+    "source": "football-logos"
+  },
+  "Netherlands|FC Groningen": {
+    "id": "fc-groningen",
+    "slug": "fc-groningen",
+    "source": "football-logos"
+  },
+  "Netherlands|FC Twente Enschede": {
+    "id": "twente",
+    "slug": "twente",
+    "source": "football-logos"
+  },
+  "Netherlands|FC Utrecht": {
+    "id": "fc-utrecht",
+    "slug": "fc-utrecht",
+    "source": "football-logos"
+  },
+  "Netherlands|FC Volendam": {
+    "id": "volendam",
+    "slug": "volendam",
+    "source": "football-logos"
+  },
+  "Netherlands|Feyenoord": {
+    "id": "feyenoord",
+    "slug": "feyenoord",
+    "source": "football-logos"
+  },
+  "Netherlands|Feyenoord Rotterdam": {
+    "id": "feyenoord",
+    "slug": "feyenoord",
+    "source": "football-logos"
+  },
+  "Netherlands|Fortuna Sittard": {
+    "id": "fortuna-sittard",
+    "slug": "fortuna-sittard",
+    "source": "football-logos"
+  },
+  "Netherlands|Go Ahead Eagles": {
+    "id": "go-ahead-eagles",
+    "slug": "go-ahead-eagles",
+    "source": "football-logos"
+  },
+  "Netherlands|Heerenveen": {
+    "id": "sc-heerenveen",
+    "slug": "sc-heerenveen",
+    "source": "football-logos"
+  },
+  "Netherlands|Heracles Almelo": {
+    "id": "heracles-almelo",
+    "slug": "heracles-almelo",
+    "source": "football-logos"
+  },
+  "Netherlands|NAC Breda": {
+    "id": "nac-breda",
+    "slug": "nac-breda",
+    "source": "football-logos"
+  },
+  "Netherlands|NEC Nijmegen": {
+    "id": "nec-nijmegen",
+    "slug": "nec-nijmegen",
+    "source": "football-logos"
+  },
+  "Netherlands|PEC Zwolle": {
+    "id": "pec-zwolle",
+    "slug": "pec-zwolle",
+    "source": "football-logos"
+  },
+  "Netherlands|PSV Eindhoven": {
+    "id": "psv",
+    "slug": "psv",
+    "source": "football-logos"
+  },
+  "Netherlands|RKC Waalwijk": {
+    "id": "rkc-waalwijk",
+    "slug": "rkc-waalwijk",
+    "source": "football-logos"
+  },
+  "Netherlands|SC Cambuur": {
+    "id": "sc-cambuur",
+    "slug": "sc-cambuur",
+    "source": "football-logos"
+  },
+  "Netherlands|SC Cambuur Leeuwarden": {
+    "id": "sc-cambuur",
+    "slug": "sc-cambuur",
+    "source": "football-logos"
+  },
+  "Netherlands|SC Cambuur-Leeuwarden": {
+    "id": "sc-cambuur",
+    "slug": "sc-cambuur",
+    "source": "football-logos"
+  },
+  "Netherlands|SC Heerenveen": {
+    "id": "sc-heerenveen",
+    "slug": "sc-heerenveen",
+    "source": "football-logos"
+  },
+  "Netherlands|SC Telstar": {
+    "id": "telstar",
+    "slug": "telstar",
+    "source": "football-logos"
+  },
+  "Netherlands|Sparta Rotterdam": {
+    "id": "sparta-rotterdam",
+    "slug": "sparta-rotterdam",
+    "source": "football-logos"
+  },
+  "Netherlands|Twente Enschede FC": {
+    "id": "twente",
+    "slug": "twente",
+    "source": "football-logos"
+  },
+  "Netherlands|Vitesse": {
+    "id": "vitesse",
+    "slug": "vitesse",
+    "source": "football-logos"
+  },
+  "Netherlands|Vitesse Arnhem": {
+    "id": "vitesse",
+    "slug": "vitesse",
+    "source": "football-logos"
+  },
+  "Netherlands|Willem II": {
+    "id": "willem-ii",
+    "slug": "willem-ii",
+    "source": "football-logos"
+  },
+  "Netherlands|Willem II Tilburg": {
+    "id": "willem-ii",
+    "slug": "willem-ii",
+    "source": "football-logos"
+  },
+  "Norway|Aalesunds FK": {
+    "id": "aalesund",
+    "slug": "aalesund",
+    "source": "football-logos"
+  },
+  "Norway|Bryne FK": {
+    "id": "bryne",
+    "slug": "bryne",
+    "source": "football-logos"
+  },
+  "Norway|FK Bodø Glimt": {
+    "id": "bodo-glimt",
+    "slug": "bodo-glimt",
+    "source": "football-logos"
+  },
+  "Norway|FK BodøGlimt": {
+    "id": "bodo-glimt",
+    "slug": "bodo-glimt",
+    "source": "football-logos"
+  },
+  "Norway|FK Haugesund": {
+    "id": "haugesund",
+    "slug": "haugesund",
+    "source": "football-logos"
+  },
+  "Norway|Fredrikstad FK": {
+    "id": "fredrikstad",
+    "slug": "fredrikstad",
+    "source": "football-logos"
+  },
+  "Norway|Hamarkameratene": {
+    "id": "hamkam",
+    "slug": "hamkam",
+    "source": "football-logos"
+  },
+  "Norway|IK Start": {
+    "id": "start",
+    "slug": "start",
+    "source": "football-logos"
+  },
+  "Norway|KFUM-Kameratene Oslo": {
+    "id": "kfum",
+    "slug": "kfum",
+    "source": "football-logos"
+  },
+  "Norway|Kristiansund BK": {
+    "id": "kristiansund",
+    "slug": "kristiansund",
+    "source": "football-logos"
+  },
+  "Norway|Lillestrøm SK": {
+    "id": "lillestrom",
+    "slug": "lillestrom",
+    "source": "football-logos"
+  },
+  "Norway|Molde FK": {
+    "id": "molde",
+    "slug": "molde",
+    "source": "football-logos"
+  },
+  "Norway|Odds BK": {
+    "id": "odd",
+    "slug": "odd",
+    "source": "football-logos"
+  },
+  "Norway|Rosenborg BK": {
+    "id": "rosenborg",
+    "slug": "rosenborg",
+    "source": "football-logos"
+  },
+  "Norway|SK Brann": {
+    "id": "brann",
+    "slug": "brann",
+    "source": "football-logos"
+  },
+  "Norway|Sandefjord Fotball": {
+    "id": "sandefjord",
+    "slug": "sandefjord",
+    "source": "football-logos"
+  },
+  "Norway|Sarpsborg 08 FF": {
+    "id": "sarpsborg",
+    "slug": "sarpsborg",
+    "source": "football-logos"
+  },
+  "Norway|Strømsgodset IF": {
+    "id": "stromsgodset",
+    "slug": "stromsgodset",
+    "source": "football-logos"
+  },
+  "Norway|Tromsø IL": {
+    "id": "tromso",
+    "slug": "tromso",
+    "source": "football-logos"
+  },
+  "Norway|Viking FK": {
+    "id": "viking",
+    "slug": "viking",
+    "source": "football-logos"
+  },
+  "Norway|Vålerenga Fotball Elite": {
+    "id": "valerenga",
+    "slug": "valerenga",
+    "source": "football-logos"
+  },
+  "Panama|Alianza": {
+    "id": "alianza-fc",
+    "slug": "alianza-fc",
+    "source": "football-logos"
+  },
+  "Panama|Atlético Chiriquí": {
+    "id": "atletico-chiriqui",
+    "slug": null,
+    "source": "url",
+    "url": "https://lpf.com.pa/wp-content/uploads/2022/08/Chiriqui.webp"
+  },
+  "Panama|Atlético Independiente": {
+    "id": "independiente-pa",
+    "slug": "independiente-de-la-chorrera",
+    "source": "football-logos"
+  },
+  "Panama|Atlético Nacional": {
+    "id": "atletico-nacional-pa",
+    "slug": null,
+    "source": "url",
+    "url": "https://lpf.com.pa/wp-content/uploads/2022/07/Atletico-Nacional-transparente-2192x2532-px.png"
+  },
+  "Panama|Herrera": {
+    "id": "herrera-fc",
+    "slug": "herrera-fc",
+    "source": "football-logos"
+  },
+  "Panama|Independiente": {
+    "id": "independiente-pa",
+    "slug": "independiente-de-la-chorrera",
+    "source": "football-logos"
+  },
+  "Panama|Plaza Amador": {
+    "id": "plaza-amador",
+    "slug": "plaza-amador",
+    "source": "football-logos"
+  },
+  "Panama|Potros del Este": {
+    "id": "potros-del-este",
+    "slug": null,
+    "source": "url",
+    "url": "https://upload.wikimedia.org/wikipedia/en/9/95/Costa_del_Este_FC.png"
+  },
+  "Panama|San Francisco": {
+    "id": "san-francisco-fc",
+    "slug": "san-francisco-fc",
+    "source": "football-logos"
+  },
+  "Panama|Sporting San Miguelito": {
+    "id": "sporting-san-miguelito",
+    "slug": "sporting-san-miguelito",
+    "source": "football-logos"
+  },
+  "Panama|Tauro": {
+    "id": "tauro-fc",
+    "slug": "tauro-fc",
+    "source": "football-logos"
+  },
+  "Panama|Umecit": {
+    "id": "umecit-fc",
+    "slug": "umecit-fc",
+    "source": "football-logos"
+  },
+  "Panama|Universitario": {
+    "id": "cd-universitario",
+    "slug": "cd-universitario",
+    "source": "football-logos"
+  },
+  "Panama|Unión Coclé F. C.": {
+    "id": "union-cocle-fc",
+    "slug": "union-cocle-fc",
+    "source": "football-logos"
+  },
+  "Panama|Veraguas United": {
+    "id": "veraguas-united",
+    "slug": "veraguas-united",
+    "source": "football-logos"
+  },
+  "Panama|Árabe Unido": {
+    "id": "arabe-unido",
+    "slug": "arabe-unido",
+    "source": "football-logos"
+  },
+  "Paraguay|12 de Octubre": {
+    "id": "12-de-octubre",
+    "slug": null,
+    "source": "url",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/3d/12_de_Octubre_FC.svg/1280px-12_de_Octubre_FC.svg.png"
+  },
+  "Paraguay|2 de Mayo": {
+    "id": "2-de-mayo",
+    "slug": "2-de-mayo",
+    "source": "football-logos"
+  },
+  "Paraguay|Cerro Porteño": {
+    "id": "cerro-porteno",
+    "slug": "cerro-porteno",
+    "source": "football-logos"
+  },
+  "Paraguay|Club General Caballero": {
+    "id": "general-caballero",
+    "slug": "general-caballero-jlm",
+    "source": "football-logos"
+  },
+  "Paraguay|Guaireña": {
+    "id": "guairena",
+    "slug": null,
+    "source": "url",
+    "url": "https://upload.wikimedia.org/wikipedia/en/6/60/Guaire%C3%B1a_F.C._logo.png"
+  },
+  "Paraguay|Guaraní": {
+    "id": "guarani",
+    "slug": "guarani",
+    "source": "football-logos"
+  },
+  "Paraguay|Libertad": {
+    "id": "libertad-py",
+    "slug": "libertad",
+    "source": "football-logos"
+  },
+  "Paraguay|Nacional": {
+    "id": "nacional",
+    "slug": "nacional",
+    "source": "football-logos"
+  },
+  "Paraguay|Olimpia": {
+    "id": "olimpia",
+    "slug": "olimpia",
+    "source": "football-logos"
+  },
+  "Paraguay|Recoleta": {
+    "id": "recoleta",
+    "slug": "deportivo-recoleta",
+    "source": "football-logos"
+  },
+  "Paraguay|Resistencia": {
+    "id": "resistencia",
+    "slug": null,
+    "source": "url",
+    "url": "https://upload.wikimedia.org/wikipedia/en/4/44/Resistencia_SC.png"
+  },
+  "Paraguay|Rubio Ñu": {
+    "id": "rubio-nu",
+    "slug": "rubio-nu",
+    "source": "football-logos"
+  },
+  "Paraguay|San Lorenzo": {
+    "id": "sportivo-san-lorenzo",
+    "slug": "sportivo-san-lorenzo",
+    "source": "football-logos"
+  },
+  "Paraguay|Sol de América": {
+    "id": "sol-de-america",
+    "slug": null,
+    "source": "url",
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/1/11/Sol_de_America_logo.svg/1280px-Sol_de_America_logo.svg.png"
+  },
+  "Paraguay|Sportivo Ameliano": {
+    "id": "sportivo-ameliano",
+    "slug": "sportivo-ameliano",
+    "source": "football-logos"
+  },
+  "Paraguay|Sportivo Luqueño": {
+    "id": "sportivo-luqueno",
+    "slug": "sportivo-luqueno",
+    "source": "football-logos"
+  },
+  "Paraguay|Sportivo Trinidense": {
+    "id": "trinidense",
+    "slug": "trinidense",
+    "source": "football-logos"
+  },
+  "Paraguay|Tacuary": {
+    "id": "tacuary",
+    "slug": null,
+    "source": "url",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Tacuary_-_FBC_-_1923.png"
+  },
+  "Paraguay|Tembetary": {
+    "id": "tembetary",
+    "slug": "club-atletico-tembetary",
+    "source": "football-logos"
+  },
+  "Peru|ADT": {
+    "id": "adt",
+    "slug": "adt",
+    "source": "football-logos"
+  },
+  "Peru|Academia Cantolao": {
+    "id": "academia-cantolao",
+    "slug": null,
+    "source": "url",
+    "url": "https://upload.wikimedia.org/wikipedia/en/7/70/Academia_Deportiva_Cantolao.gif"
+  },
+  "Peru|Alianza Atlético": {
+    "id": "alianza-atletico",
+    "slug": "alianza-atletico",
+    "source": "football-logos"
+  },
+  "Peru|Alianza Lima": {
+    "id": "alianza-lima",
+    "slug": "alianza-lima",
+    "source": "football-logos"
+  },
+  "Peru|Alianza Universidad": {
+    "id": "alianza-universidad",
+    "slug": "alianza-universidad",
+    "source": "football-logos"
+  },
+  "Peru|Atlético Grau": {
+    "id": "atletico-grau",
+    "slug": "atletico-grau",
+    "source": "football-logos"
+  },
+  "Peru|Ayacucho": {
+    "id": "ayacucho",
+    "slug": "ayacucho",
+    "source": "football-logos"
+  },
+  "Peru|Binacional": {
+    "id": "binacional",
+    "slug": null,
+    "source": "url",
+    "url": "https://upload.wikimedia.org/wikipedia/en/c/c5/Deportivo_Binacional.png"
+  },
+  "Peru|Cajamarca": {
+    "id": "fc-cajamarca",
+    "slug": "fc-cajamarca",
+    "source": "football-logos"
+  },
+  "Peru|Carlos A. Mannucci": {
+    "id": "carlos-a-mannucci",
+    "slug": null,
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/19433.png"
+  },
+  "Peru|Carlos Stein": {
+    "id": "carlos-stein",
+    "slug": null,
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20652.png"
+  },
+  "Peru|Cienciano": {
+    "id": "cienciano",
+    "slug": "cienciano-del-cusco",
+    "source": "football-logos"
+  },
+  "Peru|Comerciantes Unidos": {
+    "id": "comerciantes-unidos",
+    "slug": "comerciantes-unidos",
+    "source": "football-logos"
+  },
+  "Peru|Cusco": {
+    "id": "cusco",
+    "slug": "cusco",
+    "source": "football-logos"
+  },
+  "Peru|Deportivo Garcilaso": {
+    "id": "deportivo-garcilaso",
+    "slug": "deportivo-garcilaso",
+    "source": "football-logos"
+  },
+  "Peru|Deportivo Moquegua": {
+    "id": "deportivo-moquegua",
+    "slug": "deportivo-moquegua",
+    "source": "football-logos"
+  },
+  "Peru|Deportivo Municipal": {
+    "id": "deportivo-municipal",
+    "slug": "deportivo-municipal",
+    "source": "football-logos"
+  },
+  "Peru|Juan Pablo II College": {
+    "id": "juan-pablo-ii",
+    "slug": "juan-pablo-ii",
+    "source": "football-logos"
+  },
+  "Peru|Los Chankas": {
+    "id": "los-chankas",
+    "slug": "los-chankas",
+    "source": "football-logos"
+  },
+  "Peru|Melgar": {
+    "id": "melgar",
+    "slug": "melgar",
+    "source": "football-logos"
+  },
+  "Peru|Sport Boys": {
+    "id": "sport-boys",
+    "slug": "sport-boys",
+    "source": "football-logos"
+  },
+  "Peru|Sport Huancayo": {
+    "id": "sport-huancayo",
+    "slug": "sport-huancayo",
+    "source": "football-logos"
+  },
+  "Peru|Sporting Cristal": {
+    "id": "sporting-cristal",
+    "slug": "sporting-cristal",
+    "source": "football-logos"
+  },
+  "Peru|UTC": {
+    "id": "utc",
+    "slug": "utc",
+    "source": "football-logos"
+  },
+  "Peru|Universidad César Vallejo": {
+    "id": "universidad-cesar-vallejo",
+    "slug": "universidad-cesar-vallejo",
+    "source": "football-logos"
+  },
+  "Peru|Universidad San Martín": {
+    "id": "universidad-san-martin",
+    "slug": null,
+    "source": "url",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Club_USMP.png"
+  },
+  "Peru|Universitario": {
+    "id": "universitario",
+    "slug": "universitario",
+    "source": "football-logos"
+  },
+  "Peru|Unión Comercio": {
+    "id": "union-comercio",
+    "slug": "union-comercio",
+    "source": "football-logos"
+  },
+  "Poland|Arka Gdynia": {
+    "id": "arka",
+    "slug": "arka",
+    "source": "football-logos"
+  },
+  "Poland|Bruk-Bet Termalica Nieciecza": {
+    "id": "bruk-bet-termalica-nieciecza",
+    "slug": "bruk-bet-termalica-nieciecza",
+    "source": "football-logos"
+  },
+  "Poland|Cracovia": {
+    "id": "cracovia",
+    "slug": "cracovia",
+    "source": "football-logos"
+  },
+  "Poland|GKS Katowice": {
+    "id": "katowice",
+    "slug": "katowice",
+    "source": "football-logos"
+  },
+  "Poland|Gornik Leczna": {
+    "id": "gornik-leczna",
+    "slug": "gornik-leczna",
+    "source": "football-logos"
+  },
+  "Poland|Górnik Zabrze": {
+    "id": "gornik-zabrze",
+    "slug": "gornik-zabrze",
+    "source": "football-logos"
+  },
+  "Poland|Jagiellonia": {
+    "id": "jagiellonia",
+    "slug": "jagiellonia",
+    "source": "football-logos"
+  },
+  "Poland|Jagiellonia Bialystok": {
+    "id": "jagiellonia",
+    "slug": "jagiellonia",
+    "source": "football-logos"
+  },
+  "Poland|Korona Kielce": {
+    "id": "korona-kielce",
+    "slug": "korona-kielce",
+    "source": "football-logos"
+  },
+  "Poland|LKS Lodz": {
+    "id": "lks-lodz",
+    "slug": "lks-lodz",
+    "source": "football-logos"
+  },
+  "Poland|Lech Poznan": {
+    "id": "lech-poznan",
+    "slug": "lech-poznan",
+    "source": "football-logos"
+  },
+  "Poland|Lechia Gdansk": {
+    "id": "lechia",
+    "slug": "lechia",
+    "source": "football-logos"
+  },
+  "Poland|Legia Warszawa": {
+    "id": "legia-warszawa",
+    "slug": "legia-warszawa",
+    "source": "football-logos"
+  },
+  "Poland|Miedz Legnica": {
+    "id": "miedz",
+    "slug": "miedz",
+    "source": "football-logos"
+  },
+  "Poland|Motor Lublin": {
+    "id": "motor-lublin",
+    "slug": "motor-lublin",
+    "source": "football-logos"
+  },
+  "Poland|Piast Gliwice": {
+    "id": "piast",
+    "slug": "piast",
+    "source": "football-logos"
+  },
+  "Poland|Pogon Szczecin": {
+    "id": "pogon",
+    "slug": "pogon",
+    "source": "football-logos"
+  },
+  "Poland|Puszcza Niepolomice": {
+    "id": "puszcza-niepolomice",
+    "slug": "puszcza-niepolomice",
+    "source": "football-logos"
+  },
+  "Poland|Radomiak Radom": {
+    "id": "radomiak",
+    "slug": "radomiak",
+    "source": "football-logos"
+  },
+  "Poland|Rakow Czestochowa": {
+    "id": "rakow",
+    "slug": "rakow",
+    "source": "football-logos"
+  },
+  "Poland|Raków Częstochowa": {
+    "id": "rakow",
+    "slug": "rakow",
+    "source": "football-logos"
+  },
+  "Poland|Ruch Chorzow": {
+    "id": "ruch-chorzow",
+    "slug": "ruch-chorzow",
+    "source": "football-logos"
+  },
+  "Poland|Slask Wroclaw": {
+    "id": "slask",
+    "slug": "slask",
+    "source": "football-logos"
+  },
+  "Poland|Stal Mielec": {
+    "id": "stal-mielec",
+    "slug": "stal-mielec",
+    "source": "football-logos"
+  },
+  "Poland|Termalica": {
+    "id": "bruk-bet-termalica-nieciecza",
+    "slug": "bruk-bet-termalica-nieciecza",
+    "source": "football-logos"
+  },
+  "Poland|Warta Poznan": {
+    "id": "warta",
+    "slug": "warta",
+    "source": "football-logos"
+  },
+  "Poland|Widzew Lodz": {
+    "id": "widzew",
+    "slug": "widzew",
+    "source": "football-logos"
+  },
+  "Poland|Wieczysta Krakow": {
+    "id": "wieczysta-krakow",
+    "slug": "wieczysta-krakow",
+    "source": "football-logos"
+  },
+  "Poland|Wisla Kraków": {
+    "id": "wisla-krakow",
+    "slug": "wisla-krakow",
+    "source": "football-logos"
+  },
+  "Poland|Wisla Plock": {
+    "id": "wisla-plock",
+    "slug": "wisla-plock",
+    "source": "football-logos"
+  },
+  "Poland|Zaglebie Lubin": {
+    "id": "zaglebie-lubin",
+    "slug": "zaglebie-lubin",
+    "source": "football-logos"
+  },
+  "Portugal|Académico Viseu FC": {
+    "id": "academico-de-viseu",
+    "slug": "academico-de-viseu",
+    "source": "football-logos"
+  },
+  "Portugal|Arouca": {
+    "id": "arouca",
+    "slug": "arouca",
+    "source": "football-logos"
+  },
+  "Portugal|Avs Futebol": {
+    "id": "avs-futebol-sad",
+    "slug": "avs-futebol-sad",
+    "source": "football-logos"
+  },
+  "Portugal|Belenenses SAD": {
+    "id": "belenenses-sad",
+    "slug": null,
+    "source": "luukhopman"
+  },
+  "Portugal|Benfica": {
+    "id": "benfica",
+    "slug": "benfica",
+    "source": "football-logos"
+  },
+  "Portugal|Boavista FC": {
+    "id": "boavista",
+    "slug": "boavista",
+    "source": "football-logos"
+  },
+  "Portugal|CD Nacional": {
+    "id": "nacional-da-madeira",
+    "slug": "nacional-da-madeira",
+    "source": "football-logos"
+  },
+  "Portugal|CD Santa Clara": {
+    "id": "santa-clara",
+    "slug": "santa-clara",
+    "source": "football-logos"
+  },
+  "Portugal|CD Tondela": {
+    "id": "tondela",
+    "slug": "tondela",
+    "source": "football-logos"
+  },
+  "Portugal|CF Estrela Amadora": {
+    "id": "estrela-da-amadora",
+    "slug": "estrela-da-amadora",
+    "source": "football-logos"
+  },
+  "Portugal|CF Estrela Amadora SAD": {
+    "id": "estrela-da-amadora",
+    "slug": "estrela-da-amadora",
+    "source": "football-logos"
+  },
+  "Portugal|CS Marítimo": {
+    "id": "maritimo",
+    "slug": "maritimo",
+    "source": "football-logos"
+  },
+  "Portugal|Casa Pia AC": {
+    "id": "casa-pia-ac",
+    "slug": "casa-pia-ac",
+    "source": "football-logos"
+  },
+  "Portugal|Estoril Praia": {
+    "id": "estoril",
+    "slug": "estoril",
+    "source": "football-logos"
+  },
+  "Portugal|FC Alverca": {
+    "id": "alverca",
+    "slug": "alverca",
+    "source": "football-logos"
+  },
+  "Portugal|FC Arouca": {
+    "id": "arouca",
+    "slug": "arouca",
+    "source": "football-logos"
+  },
+  "Portugal|FC Famalicão": {
+    "id": "famalicao",
+    "slug": "famalicao",
+    "source": "football-logos"
+  },
+  "Portugal|FC Paços de Ferreira": {
+    "id": "pacos-ferreira",
+    "slug": "pacos-ferreira",
+    "source": "football-logos"
+  },
+  "Portugal|FC Porto": {
+    "id": "fc-porto",
+    "slug": "fc-porto",
+    "source": "football-logos"
+  },
+  "Portugal|FC Vizela": {
+    "id": "vizela",
+    "slug": "vizela",
+    "source": "football-logos"
+  },
+  "Portugal|GD Chaves": {
+    "id": "chaves",
+    "slug": "chaves",
+    "source": "football-logos"
+  },
+  "Portugal|GD Estoril Praia": {
+    "id": "estoril",
+    "slug": "estoril",
+    "source": "football-logos"
+  },
+  "Portugal|Gil Vicente FC": {
+    "id": "gil-vicente",
+    "slug": "gil-vicente",
+    "source": "football-logos"
+  },
+  "Portugal|Marítimo": {
+    "id": "maritimo",
+    "slug": "maritimo",
+    "source": "football-logos"
+  },
+  "Portugal|Moreirense FC": {
+    "id": "moreirense",
+    "slug": "moreirense",
+    "source": "football-logos"
+  },
+  "Portugal|Portimonense": {
+    "id": "portimonense",
+    "slug": "portimonense",
+    "source": "football-logos"
+  },
+  "Portugal|Portimonense SC": {
+    "id": "portimonense",
+    "slug": "portimonense",
+    "source": "football-logos"
+  },
+  "Portugal|Rio Ave FC": {
+    "id": "rio-ave",
+    "slug": "rio-ave",
+    "source": "football-logos"
+  },
+  "Portugal|SC Braga": {
+    "id": "sc-braga",
+    "slug": "sc-braga",
+    "source": "football-logos"
+  },
+  "Portugal|SC Farense": {
+    "id": "farense",
+    "slug": "farense",
+    "source": "football-logos"
+  },
+  "Portugal|SL Benfica": {
+    "id": "benfica",
+    "slug": "benfica",
+    "source": "football-logos"
+  },
+  "Portugal|Santa Clara": {
+    "id": "santa-clara",
+    "slug": "santa-clara",
+    "source": "football-logos"
+  },
+  "Portugal|Sporting CP": {
+    "id": "sporting-cp",
+    "slug": "sporting-cp",
+    "source": "football-logos"
+  },
+  "Portugal|Vit. Guimarães": {
+    "id": "vitoria-de-guimaraes",
+    "slug": "vitoria-de-guimaraes",
+    "source": "football-logos"
+  },
+  "Portugal|Vitória Guimarães SC": {
+    "id": "vitoria-de-guimaraes",
+    "slug": "vitoria-de-guimaraes",
+    "source": "football-logos"
+  },
+  "Romania|ACSC FC Arges": {
+    "id": "arges-pitesti",
+    "slug": "arges-pitesti",
+    "source": "football-logos"
+  },
+  "Romania|ACSM Politehnica Iasi": {
+    "id": "poli-iasi",
+    "slug": null,
+    "source": "luukhopman"
+  },
+  "Romania|AFC Unirea 04 Slobozia": {
+    "id": "unirea-slobozia",
+    "slug": "unirea-slobozia",
+    "source": "football-logos"
+  },
+  "Romania|AFK Csikszereda Miercurea Ciuc": {
+    "id": "csikszereda",
+    "slug": "csikszereda",
+    "source": "football-logos"
+  },
+  "Romania|CFR Cluj": {
+    "id": "cfr-cluj",
+    "slug": "cfr-cluj",
+    "source": "football-logos"
+  },
+  "Romania|CS Universitatea Craiova": {
+    "id": "u-craiova",
+    "slug": "u-craiova",
+    "source": "football-logos"
+  },
+  "Romania|Corvinul Hunedoara": {
+    "id": "corvinul-hunedoara",
+    "slug": "corvinul-hunedoara",
+    "source": "football-logos"
+  },
+  "Romania|FC Botosani": {
+    "id": "botosani",
+    "slug": "botosani",
+    "source": "football-logos"
+  },
+  "Romania|FC Buzău": {
+    "id": "buzau",
+    "slug": null,
+    "source": "luukhopman"
+  },
+  "Romania|FC Dinamo 1948": {
+    "id": "dinamo-bucuresti",
+    "slug": "dinamo-bucuresti",
+    "source": "football-logos"
+  },
+  "Romania|FC Hermannstadt": {
+    "id": "hermannstadt",
+    "slug": "hermannstadt",
+    "source": "football-logos"
+  },
+  "Romania|FC Metaloglobus Bucharest": {
+    "id": "metaloglobus",
+    "slug": "metaloglobus",
+    "source": "football-logos"
+  },
+  "Romania|FC Rapid 1923": {
+    "id": "rapid-bucuresti",
+    "slug": "rapid-bucuresti",
+    "source": "football-logos"
+  },
+  "Romania|FC Universitatea Cluj": {
+    "id": "u-cluj",
+    "slug": "u-cluj",
+    "source": "football-logos"
+  },
+  "Romania|FC Voluntari": {
+    "id": "voluntari",
+    "slug": "voluntari",
+    "source": "football-logos"
+  },
+  "Romania|FCSB": {
+    "id": "fcsb",
+    "slug": "fcsb",
+    "source": "football-logos"
+  },
+  "Romania|FCV Farul Constanta": {
+    "id": "farul-constanta",
+    "slug": "farul-constanta",
+    "source": "football-logos"
+  },
+  "Romania|FK Csikszereda Miercurea Ciuc": {
+    "id": "csikszereda",
+    "slug": "csikszereda",
+    "source": "football-logos"
+  },
+  "Romania|Petrolul Ploiesti": {
+    "id": "petrolul-ploiesti",
+    "slug": "petrolul-ploiesti",
+    "source": "football-logos"
+  },
+  "Romania|SC Otelul Galati": {
+    "id": "otelul",
+    "slug": "otelul",
+    "source": "football-logos"
+  },
+  "Romania|Sepsi OSK Sf. Gheorghe": {
+    "id": "sepsi",
+    "slug": "sepsi",
+    "source": "football-logos"
+  },
+  "Romania|UTA Arad": {
+    "id": "uta",
+    "slug": "uta",
+    "source": "football-logos"
+  },
+  "Romania|Universitatea Craiova": {
+    "id": "u-craiova",
+    "slug": "u-craiova",
+    "source": "football-logos"
+  },
+  "Russia|Akhmat Grozny": {
+    "id": "akhmat",
+    "slug": "akhmat",
+    "source": "football-logos"
+  },
+  "Russia|Akron Togliatti": {
+    "id": "akron",
+    "slug": "akron",
+    "source": "football-logos"
+  },
+  "Russia|Akron Tolyatti": {
+    "id": "akron",
+    "slug": "akron",
+    "source": "football-logos"
+  },
+  "Russia|Arsenal Tula": {
+    "id": "arsenal-tula",
+    "slug": "arsenal-tula",
+    "source": "football-logos"
+  },
+  "Russia|Baltika Kaliningrad": {
+    "id": "baltika",
+    "slug": "baltika",
+    "source": "football-logos"
+  },
+  "Russia|CSKA Moscow": {
+    "id": "cska-moskva",
+    "slug": "cska-moskva",
+    "source": "football-logos"
+  },
+  "Russia|Dinamo Makhachkala": {
+    "id": "dynamo-makhachkala",
+    "slug": "dynamo-makhachkala",
+    "source": "football-logos"
+  },
+  "Russia|Dynamo Moscow": {
+    "id": "dynamo-moscow",
+    "slug": "dynamo-moscow",
+    "source": "football-logos"
+  },
+  "Russia|FC Khimki": {
+    "id": "khimki",
+    "slug": "khimki",
+    "source": "football-logos"
+  },
+  "Russia|FC Krasnodar": {
+    "id": "krasnodar",
+    "slug": "krasnodar",
+    "source": "football-logos"
+  },
+  "Russia|FC Orenburg": {
+    "id": "orenburg",
+    "slug": "orenburg",
+    "source": "football-logos"
+  },
+  "Russia|FC Pari Nizhniy Novgorod": {
+    "id": "nizhny-novgorod",
+    "slug": null,
+    "source": "luukhopman"
+  },
+  "Russia|FC Rostov": {
+    "id": "rostov",
+    "slug": "rostov",
+    "source": "football-logos"
+  },
+  "Russia|FC Sochi": {
+    "id": "sochi",
+    "slug": "sochi",
+    "source": "football-logos"
+  },
+  "Russia|FK Khimki": {
+    "id": "khimki",
+    "slug": "khimki",
+    "source": "football-logos"
+  },
+  "Russia|FK Krasnodar": {
+    "id": "krasnodar",
+    "slug": "krasnodar",
+    "source": "football-logos"
+  },
+  "Russia|FK Nizhny Novgorod": {
+    "id": "nizhny-novgorod",
+    "slug": null,
+    "source": "luukhopman"
+  },
+  "Russia|FK Orenburg": {
+    "id": "orenburg",
+    "slug": "orenburg",
+    "source": "football-logos"
+  },
+  "Russia|FK Rostov": {
+    "id": "rostov",
+    "slug": "rostov",
+    "source": "football-logos"
+  },
+  "Russia|Fakel Voronezh": {
+    "id": "fakel",
+    "slug": "fakel",
+    "source": "football-logos"
+  },
+  "Russia|Khimki": {
+    "id": "khimki",
+    "slug": "khimki",
+    "source": "football-logos"
+  },
+  "Russia|Krasnodar": {
+    "id": "krasnodar",
+    "slug": "krasnodar",
+    "source": "football-logos"
+  },
+  "Russia|Krylya Sovetov Samara": {
+    "id": "krylya-sovetov",
+    "slug": "krylya-sovetov",
+    "source": "football-logos"
+  },
+  "Russia|Lokomotiv Moscow": {
+    "id": "lokomotiv-moskva",
+    "slug": "lokomotiv-moskva",
+    "source": "football-logos"
+  },
+  "Russia|Rodina Moscow": {
+    "id": "rodina-moscow",
+    "slug": "rodina-moscow",
+    "source": "football-logos"
+  },
+  "Russia|Rubin Kazan": {
+    "id": "rubin",
+    "slug": "rubin",
+    "source": "football-logos"
+  },
+  "Russia|Sochi": {
+    "id": "sochi",
+    "slug": "sochi",
+    "source": "football-logos"
+  },
+  "Russia|Spartak Moscow": {
+    "id": "spartak-moskva",
+    "slug": "spartak-moskva",
+    "source": "football-logos"
+  },
+  "Russia|Torpedo Moscow": {
+    "id": "torpedo-moskva",
+    "slug": "torpedo-moskva",
+    "source": "football-logos"
+  },
+  "Russia|Ufa": {
+    "id": "ufa",
+    "slug": "ufa",
+    "source": "football-logos"
+  },
+  "Russia|Ural Yekaterinburg": {
+    "id": "ural",
+    "slug": "ural",
+    "source": "football-logos"
+  },
+  "Russia|Zenit S-Pb": {
+    "id": "zenit",
+    "slug": "zenit",
+    "source": "football-logos"
+  },
+  "Russia|Zenit St. Petersburg": {
+    "id": "zenit",
+    "slug": "zenit",
+    "source": "football-logos"
+  },
+  "Scotland|Aberdeen FC": {
+    "id": "aberdeen",
+    "slug": "aberdeen",
+    "source": "football-logos"
+  },
+  "Scotland|Celtic FC": {
+    "id": "celtic",
+    "slug": "celtic",
+    "source": "football-logos"
+  },
+  "Scotland|Dundee FC": {
+    "id": "dundee",
+    "slug": "dundee",
+    "source": "football-logos"
+  },
+  "Scotland|Dundee United FC": {
+    "id": "dundee-united",
+    "slug": "dundee-united",
+    "source": "football-logos"
+  },
+  "Scotland|Falkirk FC": {
+    "id": "falkirk",
+    "slug": "falkirk",
+    "source": "football-logos"
+  },
+  "Scotland|Heart of Midl.": {
+    "id": "hearts",
+    "slug": "hearts",
+    "source": "football-logos"
+  },
+  "Scotland|Heart of Midlothian FC": {
+    "id": "hearts",
+    "slug": "hearts",
+    "source": "football-logos"
+  },
+  "Scotland|Hibernian FC": {
+    "id": "hibernian",
+    "slug": "hibernian",
+    "source": "football-logos"
+  },
+  "Scotland|Kilmarnock FC": {
+    "id": "kilmarnock",
+    "slug": "kilmarnock",
+    "source": "football-logos"
+  },
+  "Scotland|Livingston FC": {
+    "id": "livingston",
+    "slug": "livingston",
+    "source": "football-logos"
+  },
+  "Scotland|Motherwell FC": {
+    "id": "motherwell",
+    "slug": "motherwell",
+    "source": "football-logos"
+  },
+  "Scotland|Rangers": {
+    "id": "rangers",
+    "slug": "rangers",
+    "source": "football-logos"
+  },
+  "Scotland|Rangers FC": {
+    "id": "rangers",
+    "slug": "rangers",
+    "source": "football-logos"
+  },
+  "Scotland|Ross County FC": {
+    "id": "ross-county",
+    "slug": "ross-county",
+    "source": "football-logos"
+  },
+  "Scotland|St. Johnstone": {
+    "id": "st-johnstone",
+    "slug": "st-johnstone",
+    "source": "football-logos"
+  },
+  "Scotland|St. Johnstone FC": {
+    "id": "st-johnstone",
+    "slug": "st-johnstone",
+    "source": "football-logos"
+  },
+  "Scotland|St. Mirren": {
+    "id": "st-mirren",
+    "slug": "st-mirren",
+    "source": "football-logos"
+  },
+  "Scotland|St. Mirren FC": {
+    "id": "st-mirren",
+    "slug": "st-mirren",
+    "source": "football-logos"
+  },
+  "Serbia|Cukaricki": {
+    "id": "cukaricki",
+    "slug": "cukaricki",
+    "source": "football-logos"
+  },
+  "Serbia|FK Cukaricki": {
+    "id": "cukaricki",
+    "slug": "cukaricki",
+    "source": "football-logos"
+  },
+  "Serbia|FK IMT Belgrad": {
+    "id": "imt",
+    "slug": "imt",
+    "source": "football-logos"
+  },
+  "Serbia|FK Javor-Matis Ivanjica": {
+    "id": "javor",
+    "slug": "javor",
+    "source": "football-logos"
+  },
+  "Serbia|FK Jedinstvo Ub": {
+    "id": "jedinstvo-ub",
+    "slug": null,
+    "source": "luukhopman"
+  },
+  "Serbia|FK Kolubara Lazarevac": {
+    "id": "kolubara-lazarevac",
+    "slug": null,
+    "source": "luukhopman"
+  },
+  "Serbia|FK Macva Sabac": {
+    "id": "macva-sabac",
+    "slug": "macva-sabac",
+    "source": "football-logos"
+  },
+  "Serbia|FK Mladost Lucani": {
+    "id": "mladost-lucani",
+    "slug": "mladost-lucani",
+    "source": "football-logos"
+  },
+  "Serbia|FK Napredak Krusevac": {
+    "id": "napredak",
+    "slug": "napredak",
+    "source": "football-logos"
+  },
+  "Serbia|FK Novi Pazar": {
+    "id": "novi-pazar",
+    "slug": "novi-pazar",
+    "source": "football-logos"
+  },
+  "Serbia|FK Partizan Belgrade": {
+    "id": "partizan",
+    "slug": "partizan",
+    "source": "football-logos"
+  },
+  "Serbia|FK Proleter Novi Sad": {
+    "id": "proleter-novi-sad",
+    "slug": null,
+    "source": "luukhopman"
+  },
+  "Serbia|FK Radnicki 1923 Kragujevac": {
+    "id": "radnicki-1923",
+    "slug": "radnicki-1923",
+    "source": "football-logos"
+  },
+  "Serbia|FK Radnicki Nis": {
+    "id": "radnicki-nis",
+    "slug": "radnicki-nis",
+    "source": "football-logos"
+  },
+  "Serbia|FK Radnik Surdulica": {
+    "id": "radnik-surdulica",
+    "slug": "radnik-surdulica",
+    "source": "football-logos"
+  },
+  "Serbia|FK Spartak Subotica": {
+    "id": "spartak-subotica",
+    "slug": "spartak-subotica",
+    "source": "football-logos"
+  },
+  "Serbia|FK TSC Backa Topola": {
+    "id": "tsc",
+    "slug": "tsc",
+    "source": "football-logos"
+  },
+  "Serbia|FK Tekstilac Odzaci": {
+    "id": "tekstilac-odzaci",
+    "slug": null,
+    "source": "luukhopman"
+  },
+  "Serbia|FK Vojvodina Novi Sad": {
+    "id": "vojvodina",
+    "slug": "vojvodina",
+    "source": "football-logos"
+  },
+  "Serbia|FK Vozdovac": {
+    "id": "vozdovac",
+    "slug": "vozdovac",
+    "source": "football-logos"
+  },
+  "Serbia|FK Zeleznicar Pancevo": {
+    "id": "zeleznicar-pancevo",
+    "slug": "zeleznicar-pancevo",
+    "source": "football-logos"
+  },
+  "Serbia|FK Zemun": {
+    "id": "fk-zemun",
+    "slug": "fk-zemun",
+    "source": "football-logos"
+  },
+  "Serbia|FK Čukarički": {
+    "id": "cukaricki",
+    "slug": "cukaricki",
+    "source": "football-logos"
+  },
+  "Serbia|Metalac": {
+    "id": "metalac",
+    "slug": "metalac",
+    "source": "football-logos"
+  },
+  "Serbia|Mladost": {
+    "id": "mladost-lucani",
+    "slug": "mladost-lucani",
+    "source": "football-logos"
+  },
+  "Serbia|OFK Beograd": {
+    "id": "ofk-beograd",
+    "slug": "ofk-beograd",
+    "source": "football-logos"
+  },
+  "Serbia|Radnicki 1923": {
+    "id": "radnicki-1923",
+    "slug": "radnicki-1923",
+    "source": "football-logos"
+  },
+  "Serbia|Radnik": {
+    "id": "radnik-surdulica",
+    "slug": "radnik-surdulica",
+    "source": "football-logos"
+  },
+  "Serbia|Red Star": {
+    "id": "crvena-zvezda",
+    "slug": "crvena-zvezda",
+    "source": "football-logos"
+  },
+  "Serbia|Red Star Belgrade": {
+    "id": "crvena-zvezda",
+    "slug": "crvena-zvezda",
+    "source": "football-logos"
+  },
+  "Serbia|Spartak": {
+    "id": "spartak-subotica",
+    "slug": "spartak-subotica",
+    "source": "football-logos"
+  },
+  "Serbia|Vozdovac": {
+    "id": "vozdovac",
+    "slug": "vozdovac",
+    "source": "football-logos"
+  },
+  "Serbia|Zeleznicar Pancevo": {
+    "id": "zeleznicar-pancevo",
+    "slug": "zeleznicar-pancevo",
+    "source": "football-logos"
+  },
+  "Spain|Alavés": {
+    "id": "alaves",
+    "slug": "deportivo",
+    "source": "football-logos"
+  },
+  "Spain|Athletic": {
+    "id": "athletic-club",
+    "slug": "athletic-club",
+    "source": "football-logos"
+  },
+  "Spain|Athletic Bilbao": {
+    "id": "athletic-club",
+    "slug": "athletic-club",
+    "source": "football-logos"
+  },
+  "Spain|Atlético de Madrid": {
+    "id": "atletico-madrid",
+    "slug": "atletico-madrid",
+    "source": "football-logos"
+  },
+  "Spain|Barcelona": {
+    "id": "barcelona",
+    "slug": "barcelona",
+    "source": "football-logos"
+  },
+  "Spain|CA Osasuna": {
+    "id": "osasuna",
+    "slug": "osasuna",
+    "source": "football-logos"
+  },
+  "Spain|CD Leganés": {
+    "id": "leganes",
+    "slug": "leganes",
+    "source": "football-logos"
+  },
+  "Spain|Celta de Vigo": {
+    "id": "celta",
+    "slug": "celta",
+    "source": "football-logos"
+  },
+  "Spain|Cádiz CF": {
+    "id": "cadiz",
+    "slug": "cadiz",
+    "source": "football-logos"
+  },
+  "Spain|Deportivo A Coruña": {
+    "id": "deportivo-la-coruna",
+    "slug": "deportivo-la-coruna",
+    "source": "football-logos"
+  },
+  "Spain|Deportivo Alavés": {
+    "id": "alaves",
+    "slug": "deportivo",
+    "source": "football-logos"
+  },
+  "Spain|Elche CF": {
+    "id": "elche",
+    "slug": "elche",
+    "source": "football-logos"
+  },
+  "Spain|Espanyol": {
+    "id": "espanyol",
+    "slug": "espanyol",
+    "source": "football-logos"
+  },
+  "Spain|FC Barcelona": {
+    "id": "barcelona",
+    "slug": "barcelona",
+    "source": "football-logos"
+  },
+  "Spain|Getafe CF": {
+    "id": "getafe",
+    "slug": "getafe",
+    "source": "football-logos"
+  },
+  "Spain|Girona FC": {
+    "id": "girona",
+    "slug": "girona",
+    "source": "football-logos"
+  },
+  "Spain|Granada CF": {
+    "id": "granada",
+    "slug": "granada",
+    "source": "football-logos"
+  },
+  "Spain|Levante UD": {
+    "id": "levante",
+    "slug": "levante",
+    "source": "football-logos"
+  },
+  "Spain|Málaga CF": {
+    "id": "malaga",
+    "slug": "malaga",
+    "source": "football-logos"
+  },
+  "Spain|RCD Espanyol Barcelona": {
+    "id": "espanyol",
+    "slug": "espanyol",
+    "source": "football-logos"
+  },
+  "Spain|RCD Mallorca": {
+    "id": "mallorca",
+    "slug": "mallorca",
+    "source": "football-logos"
+  },
+  "Spain|Racing Santander": {
+    "id": "racing",
+    "slug": "racing",
+    "source": "football-logos"
+  },
+  "Spain|Rayo Vallecano": {
+    "id": "rayo-vallecano",
+    "slug": "rayo-vallecano",
+    "source": "football-logos"
+  },
+  "Spain|Real Betis Balompié": {
+    "id": "real-betis",
+    "slug": "real-betis",
+    "source": "football-logos"
+  },
+  "Spain|Real Madrid": {
+    "id": "real-madrid",
+    "slug": "real-madrid",
+    "source": "football-logos"
+  },
+  "Spain|Real Oviedo": {
+    "id": "oviedo",
+    "slug": "oviedo",
+    "source": "football-logos"
+  },
+  "Spain|Real Sociedad": {
+    "id": "real-sociedad",
+    "slug": "real-sociedad",
+    "source": "football-logos"
+  },
+  "Spain|Real Valladolid CF": {
+    "id": "valladolid",
+    "slug": "valladolid",
+    "source": "football-logos"
+  },
+  "Spain|Sevilla FC": {
+    "id": "sevilla",
+    "slug": "sevilla",
+    "source": "football-logos"
+  },
+  "Spain|UD Almería": {
+    "id": "almeria",
+    "slug": "almeria",
+    "source": "football-logos"
+  },
+  "Spain|UD Las Palmas": {
+    "id": "las-palmas",
+    "slug": "las-palmas",
+    "source": "football-logos"
+  },
+  "Spain|Valencia": {
+    "id": "valencia",
+    "slug": "valencia",
+    "source": "football-logos"
+  },
+  "Spain|Valencia CF": {
+    "id": "valencia",
+    "slug": "valencia",
+    "source": "football-logos"
+  },
+  "Spain|Villarreal CF": {
+    "id": "villarreal",
+    "slug": "villarreal",
+    "source": "football-logos"
+  },
+  "Sweden|AIK": {
+    "id": "aik",
+    "slug": "aik",
+    "source": "football-logos"
+  },
+  "Sweden|AIK Solna": {
+    "id": "aik",
+    "slug": "aik",
+    "source": "football-logos"
+  },
+  "Sweden|BK Häcken": {
+    "id": "hacken",
+    "slug": "hacken",
+    "source": "football-logos"
+  },
+  "Sweden|Degerfors IF": {
+    "id": "degerfors",
+    "slug": "degerfors",
+    "source": "football-logos"
+  },
+  "Sweden|Djurgårdens IF": {
+    "id": "djurgarden",
+    "slug": "djurgarden",
+    "source": "football-logos"
+  },
+  "Sweden|GAIS": {
+    "id": "gais",
+    "slug": "gais",
+    "source": "football-logos"
+  },
+  "Sweden|GIF Sundsvall": {
+    "id": "gif-sundsvall",
+    "slug": "gif-sundsvall",
+    "source": "football-logos"
+  },
+  "Sweden|Halmstads BK": {
+    "id": "halmstad",
+    "slug": "halmstad",
+    "source": "football-logos"
+  },
+  "Sweden|Hammarby IF": {
+    "id": "hammarby",
+    "slug": "hammarby",
+    "source": "football-logos"
+  },
+  "Sweden|Helsingborgs IF": {
+    "id": "helsingborg",
+    "slug": "helsingborg",
+    "source": "football-logos"
+  },
+  "Sweden|IF Brommapojkarna": {
+    "id": "brommapojkarna",
+    "slug": "brommapojkarna",
+    "source": "football-logos"
+  },
+  "Sweden|IF Elfsborg": {
+    "id": "elfsborg",
+    "slug": "elfsborg",
+    "source": "football-logos"
+  },
+  "Sweden|IFK Göteborg": {
+    "id": "goteborg",
+    "slug": "goteborg",
+    "source": "football-logos"
+  },
+  "Sweden|IFK Norrköping": {
+    "id": "norrkoping",
+    "slug": "norrkoping",
+    "source": "football-logos"
+  },
+  "Sweden|IFK Värnamo": {
+    "id": "varnamo",
+    "slug": "varnamo",
+    "source": "football-logos"
+  },
+  "Sweden|IK Sirius": {
+    "id": "sirius",
+    "slug": "sirius",
+    "source": "football-logos"
+  },
+  "Sweden|Kalmar FF": {
+    "id": "kalmar",
+    "slug": "kalmar",
+    "source": "football-logos"
+  },
+  "Sweden|Malmö FF": {
+    "id": "malmo",
+    "slug": "malmo",
+    "source": "football-logos"
+  },
+  "Sweden|Mjällby AIF": {
+    "id": "mjallby",
+    "slug": "mjallby",
+    "source": "football-logos"
+  },
+  "Sweden|Varbergs BoIS": {
+    "id": "varbergs-bois",
+    "slug": "varbergs-bois",
+    "source": "football-logos"
+  },
+  "Sweden|Västerås SK": {
+    "id": "wasteras",
+    "slug": "wasteras",
+    "source": "football-logos"
+  },
+  "Sweden|Örgryte IS": {
+    "id": "orgryte",
+    "slug": "orgryte",
+    "source": "football-logos"
+  },
+  "Sweden|Östers IF": {
+    "id": "osters-if",
+    "slug": "osters-if",
+    "source": "football-logos"
+  },
+  "Switzerland|BSC Young Boys": {
+    "id": "young-boys",
+    "slug": "young-boys",
+    "source": "football-logos"
+  },
+  "Switzerland|FC Basel": {
+    "id": "basel",
+    "slug": "basel",
+    "source": "football-logos"
+  },
+  "Switzerland|FC Basel 1893": {
+    "id": "basel",
+    "slug": "basel",
+    "source": "football-logos"
+  },
+  "Switzerland|FC Lausanne-Sport": {
+    "id": "lausanne-sport",
+    "slug": "lausanne-sport",
+    "source": "football-logos"
+  },
+  "Switzerland|FC Lugano": {
+    "id": "lugano",
+    "slug": "lugano",
+    "source": "football-logos"
+  },
+  "Switzerland|FC Luzern": {
+    "id": "luzern",
+    "slug": "luzern",
+    "source": "football-logos"
+  },
+  "Switzerland|FC Sion": {
+    "id": "sion",
+    "slug": "sion",
+    "source": "football-logos"
+  },
+  "Switzerland|FC St. Gallen": {
+    "id": "st-gallen",
+    "slug": "st-gallen",
+    "source": "football-logos"
+  },
+  "Switzerland|FC St. Gallen 1879": {
+    "id": "st-gallen",
+    "slug": "st-gallen",
+    "source": "football-logos"
+  },
+  "Switzerland|FC Stade-Lausanne-Ouchy": {
+    "id": "fc-stade-lausanne-ouchy",
+    "slug": "fc-stade-lausanne-ouchy",
+    "source": "football-logos"
+  },
+  "Switzerland|FC Thun": {
+    "id": "thun",
+    "slug": "thun",
+    "source": "football-logos"
+  },
+  "Switzerland|FC Vaduz": {
+    "id": "vaduz",
+    "slug": null,
+    "source": "luukhopman"
+  },
+  "Switzerland|FC Winterthur": {
+    "id": "winterthur",
+    "slug": "winterthur",
+    "source": "football-logos"
+  },
+  "Switzerland|FC Zürich": {
+    "id": "zurich",
+    "slug": "zurich",
+    "source": "football-logos"
+  },
+  "Switzerland|Grasshopper Club Zurich": {
+    "id": "grasshoppers",
+    "slug": "grasshoppers",
+    "source": "football-logos"
+  },
+  "Switzerland|Servette FC": {
+    "id": "servette",
+    "slug": "servette",
+    "source": "football-logos"
+  },
+  "Switzerland|Yverdon Sport FC": {
+    "id": "yverdon-sport-fc",
+    "slug": "yverdon-sport-fc",
+    "source": "football-logos"
+  },
+  "Türkiye|Adana Demirspor": {
+    "id": "adana-demirspor",
+    "slug": "adana-demirspor",
+    "source": "football-logos"
+  },
+  "Türkiye|Alanyaspor": {
+    "id": "alanyaspor",
+    "slug": "alanyaspor",
+    "source": "football-logos"
+  },
+  "Türkiye|Altay SK": {
+    "id": "altay",
+    "slug": null,
+    "source": "luukhopman"
+  },
+  "Türkiye|Amed SK": {
+    "id": "amed",
+    "slug": "amed",
+    "source": "football-logos"
+  },
+  "Türkiye|Antalyaspor": {
+    "id": "antalyaspor",
+    "slug": "antalyaspor",
+    "source": "football-logos"
+  },
+  "Türkiye|Basaksehir": {
+    "id": "basaksehir",
+    "slug": "basaksehir",
+    "source": "football-logos"
+  },
+  "Türkiye|Basaksehir FK": {
+    "id": "basaksehir",
+    "slug": "basaksehir",
+    "source": "football-logos"
+  },
+  "Türkiye|Besiktas": {
+    "id": "besiktas",
+    "slug": "besiktas",
+    "source": "football-logos"
+  },
+  "Türkiye|Besiktas JK": {
+    "id": "besiktas",
+    "slug": "besiktas",
+    "source": "football-logos"
+  },
+  "Türkiye|Bodrum FK": {
+    "id": "bodrum-fk",
+    "slug": "bodrum-fk",
+    "source": "football-logos"
+  },
+  "Türkiye|Caykur Rizespor": {
+    "id": "rizespor",
+    "slug": "rizespor",
+    "source": "football-logos"
+  },
+  "Türkiye|Corum FK": {
+    "id": "corum",
+    "slug": "corum",
+    "source": "football-logos"
+  },
+  "Türkiye|Erzurumspor FK": {
+    "id": "erzurumspor",
+    "slug": "erzurumspor",
+    "source": "football-logos"
+  },
+  "Türkiye|Eyüpspor": {
+    "id": "eyupspor",
+    "slug": "eyupspor",
+    "source": "football-logos"
+  },
+  "Türkiye|Fatih Karagümrük": {
+    "id": "fatih-karagumruk",
+    "slug": "fatih-karagumruk",
+    "source": "football-logos"
+  },
+  "Türkiye|Fenerbahce": {
+    "id": "fenerbahce",
+    "slug": "fenerbahce",
+    "source": "football-logos"
+  },
+  "Türkiye|Fenerbahce SK": {
+    "id": "fenerbahce",
+    "slug": "fenerbahce",
+    "source": "football-logos"
+  },
+  "Türkiye|Galatasaray": {
+    "id": "galatasaray",
+    "slug": "galatasaray",
+    "source": "football-logos"
+  },
+  "Türkiye|Galatasaray A.S.": {
+    "id": "galatasaray",
+    "slug": "galatasaray",
+    "source": "football-logos"
+  },
+  "Türkiye|Gaziantep FK": {
+    "id": "gaziantep",
+    "slug": "gaziantep",
+    "source": "football-logos"
+  },
+  "Türkiye|Genclerbirligi Ankara": {
+    "id": "genclerbirligi",
+    "slug": "genclerbirligi",
+    "source": "football-logos"
+  },
+  "Türkiye|Giresunspor": {
+    "id": "giresunspor",
+    "slug": null,
+    "source": "luukhopman"
+  },
+  "Türkiye|Göztepe": {
+    "id": "goztepe-izmir",
+    "slug": "goztepe-izmir",
+    "source": "football-logos"
+  },
+  "Türkiye|Hatayspor": {
+    "id": "hatayspor",
+    "slug": "hatayspor",
+    "source": "football-logos"
+  },
+  "Türkiye|Istanbul Basaksehir FK": {
+    "id": "basaksehir",
+    "slug": "basaksehir",
+    "source": "football-logos"
+  },
+  "Türkiye|Istanbulspor": {
+    "id": "istanbulspor",
+    "slug": "istanbulspor",
+    "source": "football-logos"
+  },
+  "Türkiye|Karagümrük": {
+    "id": "fatih-karagumruk",
+    "slug": "fatih-karagumruk",
+    "source": "football-logos"
+  },
+  "Türkiye|Kasimpasa": {
+    "id": "kasimpasa",
+    "slug": "kasimpasa",
+    "source": "football-logos"
+  },
+  "Türkiye|Kayserispor": {
+    "id": "kayserispor",
+    "slug": "kayserispor",
+    "source": "football-logos"
+  },
+  "Türkiye|Kocaelispor": {
+    "id": "kocaelispor",
+    "slug": "kocaelispor",
+    "source": "football-logos"
+  },
+  "Türkiye|Konyaspor": {
+    "id": "konyaspor",
+    "slug": "konyaspor",
+    "source": "football-logos"
+  },
+  "Türkiye|MKE Ankaragücü": {
+    "id": "ankaragucu",
+    "slug": "ankaragucu",
+    "source": "football-logos"
+  },
+  "Türkiye|Pendikspor": {
+    "id": "pendikspor",
+    "slug": "pendikspor",
+    "source": "football-logos"
+  },
+  "Türkiye|Samsunspor": {
+    "id": "samsunspor",
+    "slug": "samsunspor",
+    "source": "football-logos"
+  },
+  "Türkiye|Sivasspor": {
+    "id": "sivasspor",
+    "slug": "sivasspor",
+    "source": "football-logos"
+  },
+  "Türkiye|Trabzonspor": {
+    "id": "trabzonspor",
+    "slug": "trabzonspor",
+    "source": "football-logos"
+  },
+  "Türkiye|Y. Malatyaspor": {
+    "id": "y-malatyaspor",
+    "slug": null,
+    "source": "luukhopman"
+  },
+  "Türkiye|Ümraniyespor": {
+    "id": "umraniyespor",
+    "slug": "umraniyespor",
+    "source": "football-logos"
+  },
+  "Ukraine|Bukovyna Chernivtsi": {
+    "id": "bukovyna",
+    "slug": "bukovyna",
+    "source": "football-logos"
+  },
+  "Ukraine|Chornomorets Odesa": {
+    "id": "chornomorets",
+    "slug": "chornomorets",
+    "source": "football-logos"
+  },
+  "Ukraine|Chornomorets Odessa": {
+    "id": "chornomorets",
+    "slug": "chornomorets",
+    "source": "football-logos"
+  },
+  "Ukraine|Desna": {
+    "id": "desna",
+    "slug": null,
+    "source": "luukhopman"
+  },
+  "Ukraine|Dynamo Kyiv": {
+    "id": "dynamo-kyiv",
+    "slug": "dynamo-kyiv",
+    "source": "football-logos"
+  },
+  "Ukraine|Epicentr Kamyanets-Podilskyi": {
+    "id": "epicentr-kamyanets-podilskyi",
+    "slug": null,
+    "source": "luukhopman"
+  },
+  "Ukraine|FC Kharkiv": {
+    "id": "fc-kharkiv",
+    "slug": "fc-kharkiv",
+    "source": "football-logos"
+  },
+  "Ukraine|FC Kudrivka": {
+    "id": "kudrivka",
+    "slug": "kudrivka",
+    "source": "football-logos"
+  },
+  "Ukraine|FC Oleksandriya": {
+    "id": "olexandriya",
+    "slug": "olexandriya",
+    "source": "football-logos"
+  },
+  "Ukraine|FK Mariupol": {
+    "id": "mariupol",
+    "slug": null,
+    "source": "luukhopman"
+  },
+  "Ukraine|FK Minaj": {
+    "id": "minaj",
+    "slug": "minaj",
+    "source": "football-logos"
+  },
+  "Ukraine|FK Obolon Kyiv": {
+    "id": "obolon",
+    "slug": "obolon",
+    "source": "football-logos"
+  },
+  "Ukraine|FK Oleksandriya": {
+    "id": "olexandriya",
+    "slug": "olexandriya",
+    "source": "football-logos"
+  },
+  "Ukraine|FK Polissya Zhytomyr": {
+    "id": "polissya",
+    "slug": "polissya",
+    "source": "football-logos"
+  },
+  "Ukraine|Ingulets Petrove": {
+    "id": "inhulets-petrove",
+    "slug": "inhulets-petrove",
+    "source": "football-logos"
+  },
+  "Ukraine|Karpaty Lviv": {
+    "id": "karpaty",
+    "slug": "karpaty",
+    "source": "football-logos"
+  },
+  "Ukraine|Kolos Kovalivka": {
+    "id": "kolos-kovalivka",
+    "slug": "kolos-kovalivka",
+    "source": "football-logos"
+  },
+  "Ukraine|Kryvbas Kryvyi Rig": {
+    "id": "kryvbas",
+    "slug": "kryvbas",
+    "source": "football-logos"
+  },
+  "Ukraine|LNZ Cherkasy": {
+    "id": "lnz-cherkasy",
+    "slug": "lnz-cherkasy",
+    "source": "football-logos"
+  },
+  "Ukraine|Livyi Bereg Kyiv": {
+    "id": "livyi-bereh",
+    "slug": "livyi-bereh",
+    "source": "football-logos"
+  },
+  "Ukraine|Metalist 1925": {
+    "id": "fc-metalist-1925-kharkiv",
+    "slug": "fc-metalist-1925-kharkiv",
+    "source": "football-logos"
+  },
+  "Ukraine|Metalist 1925 Kharkiv": {
+    "id": "fc-metalist-1925-kharkiv",
+    "slug": "fc-metalist-1925-kharkiv",
+    "source": "football-logos"
+  },
+  "Ukraine|Metalist Kharkiv": {
+    "id": "metalist",
+    "slug": "metalist",
+    "source": "football-logos"
+  },
+  "Ukraine|NK Veres Rivne": {
+    "id": "veres",
+    "slug": "veres",
+    "source": "football-logos"
+  },
+  "Ukraine|Obolon Kyiv": {
+    "id": "obolon",
+    "slug": "obolon",
+    "source": "football-logos"
+  },
+  "Ukraine|PFK Lviv": {
+    "id": "pfk-lviv",
+    "slug": null,
+    "source": "luukhopman"
+  },
+  "Ukraine|Polissya Zhytomyr": {
+    "id": "polissya",
+    "slug": "polissya",
+    "source": "football-logos"
+  },
+  "Ukraine|Rukh Lviv": {
+    "id": "rukh-lviv",
+    "slug": "rukh-lviv",
+    "source": "football-logos"
+  },
+  "Ukraine|SC Poltava": {
+    "id": "sk-poltava",
+    "slug": "sk-poltava",
+    "source": "football-logos"
+  },
+  "Ukraine|SK Dnipro-1": {
+    "id": "dnipro-1",
+    "slug": null,
+    "source": "luukhopman"
+  },
+  "Ukraine|Shakhtar D.": {
+    "id": "shakhtar",
+    "slug": "shakhtar",
+    "source": "football-logos"
+  },
+  "Ukraine|Shakhtar Donetsk": {
+    "id": "shakhtar",
+    "slug": "shakhtar",
+    "source": "football-logos"
+  },
+  "Ukraine|Veres Rivne": {
+    "id": "veres",
+    "slug": "veres",
+    "source": "football-logos"
+  },
+  "Ukraine|Vorskla Poltava": {
+    "id": "vorskla-poltava",
+    "slug": "vorskla-poltava",
+    "source": "football-logos"
+  },
+  "Ukraine|Zorya Lugansk": {
+    "id": "zorya-luhansk",
+    "slug": "zorya-luhansk",
+    "source": "football-logos"
+  },
+  "United States|Atlanta United FC": {
+    "id": "atlanta-united",
+    "slug": "atlanta-united",
+    "source": "football-logos"
+  },
+  "United States|Austin FC": {
+    "id": "austin-fc",
+    "slug": "austins-fc",
+    "source": "football-logos"
+  },
+  "United States|CF Montréal": {
+    "id": "cf-montreal",
+    "slug": "cf-montreal",
+    "source": "football-logos"
+  },
+  "United States|Charlotte FC": {
+    "id": "charlotte-fc",
+    "slug": "charlotte-fc",
+    "source": "football-logos"
+  },
+  "United States|Chicago Fire FC": {
+    "id": "chicago-fire-fc",
+    "slug": "chicago-fire-fc",
+    "source": "football-logos"
+  },
+  "United States|Colorado Rapids": {
+    "id": "colorado-rapids",
+    "slug": "colorado-rapids",
+    "source": "football-logos"
+  },
+  "United States|Columbus Crew": {
+    "id": "columbus-crew",
+    "slug": "columbus-crew",
+    "source": "football-logos"
+  },
+  "United States|D.C. United": {
+    "id": "dc-united",
+    "slug": "dc-united",
+    "source": "football-logos"
+  },
+  "United States|FC Cincinnati": {
+    "id": "fc-cincinnati",
+    "slug": "fc-cincinnati",
+    "source": "football-logos"
+  },
+  "United States|FC Dallas": {
+    "id": "fc-dallas",
+    "slug": "fc-dallas",
+    "source": "football-logos"
+  },
+  "United States|Houston Dynamo FC": {
+    "id": "houston-dynamo",
+    "slug": "houston-dynamo",
+    "source": "football-logos"
+  },
+  "United States|Inter Miami CF": {
+    "id": "inter-miami-cf",
+    "slug": "inter-miami-cf",
+    "source": "football-logos"
+  },
+  "United States|LA Galaxy": {
+    "id": "la-galaxy",
+    "slug": "la-galaxy",
+    "source": "football-logos"
+  },
+  "United States|Los Angeles FC": {
+    "id": "los-angeles-fc",
+    "slug": "los-angeles-fc",
+    "source": "football-logos"
+  },
+  "United States|Minnesota United FC": {
+    "id": "minnesota-united-fc",
+    "slug": "minnesota-united-fc",
+    "source": "football-logos"
+  },
+  "United States|Nashville SC": {
+    "id": "nashville-sc",
+    "slug": "nashville-sc",
+    "source": "football-logos"
+  },
+  "United States|New England Revolution": {
+    "id": "new-england-revolution",
+    "slug": "new-england-revolution",
+    "source": "football-logos"
+  },
+  "United States|New York City FC": {
+    "id": "new-york-city-fc",
+    "slug": "new-york-city-fc",
+    "source": "football-logos"
+  },
+  "United States|New York Red Bulls": {
+    "id": "new-york-red-bulls",
+    "slug": "new-york-red-bulls",
+    "source": "football-logos"
+  },
+  "United States|Orlando City SC": {
+    "id": "orlando-city",
+    "slug": "orlando-city",
+    "source": "football-logos"
+  },
+  "United States|Philadelphia Union": {
+    "id": "philadelphia-union",
+    "slug": "philadelphia-union",
+    "source": "football-logos"
+  },
+  "United States|Portland Timbers": {
+    "id": "portland-timbers",
+    "slug": "portland-timbers",
+    "source": "football-logos"
+  },
+  "United States|Real Salt Lake": {
+    "id": "real-salt-lake",
+    "slug": "real-salt-lake",
+    "source": "football-logos"
+  },
+  "United States|San Diego FC": {
+    "id": "san-diego-fc",
+    "slug": "san-diego-fc",
+    "source": "football-logos"
+  },
+  "United States|San Jose Earthquakes": {
+    "id": "san-jose-earthquakes",
+    "slug": "san-jose-earthquakes",
+    "source": "football-logos"
+  },
+  "United States|Seattle Sounders FC": {
+    "id": "seattle-sounders-fc",
+    "slug": "seattle-sounders-fc",
+    "source": "football-logos"
+  },
+  "United States|Sporting Kansas City": {
+    "id": "sporting-kansas-city",
+    "slug": "sporting-kansas-city",
+    "source": "football-logos"
+  },
+  "United States|St. Louis City SC": {
+    "id": "st-louis-city-sc",
+    "slug": "st-louis-city-sc",
+    "source": "football-logos"
+  },
+  "United States|Toronto FC": {
+    "id": "toronto-fc",
+    "slug": "toronto-fc",
+    "source": "football-logos"
+  },
+  "United States|Vancouver Whitecaps FC": {
+    "id": "vancouver-whitecaps-fc",
+    "slug": "vancouver-whitecaps-fc",
+    "source": "football-logos"
+  },
+  "Uruguay|Albion": {
+    "id": "albion",
+    "slug": "albion",
+    "source": "football-logos"
+  },
+  "Uruguay|Boston River": {
+    "id": "boston-river",
+    "slug": "boston-river",
+    "source": "football-logos"
+  },
+  "Uruguay|Central Español": {
+    "id": "central-espanol",
+    "slug": "central-espanol",
+    "source": "football-logos"
+  },
+  "Uruguay|Cerrito": {
+    "id": "cerrito",
+    "slug": "cerrito",
+    "source": "football-logos"
+  },
+  "Uruguay|Cerro": {
+    "id": "cerro",
+    "slug": "cerro",
+    "source": "football-logos"
+  },
+  "Uruguay|Cerro Largo": {
+    "id": "cerro-largo",
+    "slug": "cerro-largo",
+    "source": "football-logos"
+  },
+  "Uruguay|Danubio": {
+    "id": "danubio",
+    "slug": "danubio",
+    "source": "football-logos"
+  },
+  "Uruguay|Defensor Sporting": {
+    "id": "defensor-sporting",
+    "slug": "defensor-sporting",
+    "source": "football-logos"
+  },
+  "Uruguay|Deportivo Maldonado": {
+    "id": "deportivo-maldonado",
+    "slug": "deportivo-maldonado",
+    "source": "football-logos"
+  },
+  "Uruguay|Fénix": {
+    "id": "fenix",
+    "slug": "fenix",
+    "source": "football-logos"
+  },
+  "Uruguay|Juventud": {
+    "id": "juventud",
+    "slug": "juventud",
+    "source": "football-logos"
+  },
+  "Uruguay|La Luz": {
+    "id": "la-luz",
+    "slug": "la-luz",
+    "source": "football-logos"
+  },
+  "Uruguay|Liverpool": {
+    "id": "liverpool-uy",
+    "slug": "liverpool",
+    "source": "football-logos"
+  },
+  "Uruguay|Miramar Misiones": {
+    "id": "miramar-misiones",
+    "slug": "miramar-misiones",
+    "source": "football-logos"
+  },
+  "Uruguay|Montevideo City": {
+    "id": "montevideo-city-torque",
+    "slug": "montevideo-city-torque",
+    "source": "football-logos"
+  },
+  "Uruguay|Montevideo City Torque": {
+    "id": "montevideo-city-torque",
+    "slug": "montevideo-city-torque",
+    "source": "football-logos"
+  },
+  "Uruguay|Montevideo Wanderers": {
+    "id": "montevideo-wanderers",
+    "slug": "montevideo-wanderers",
+    "source": "football-logos"
+  },
+  "Uruguay|Nacional": {
+    "id": "nacional-uy",
+    "slug": "nacional",
+    "source": "football-logos"
+  },
+  "Uruguay|Peñarol": {
+    "id": "penarol",
+    "slug": "penarol",
+    "source": "football-logos"
+  },
+  "Uruguay|Plaza Colonia": {
+    "id": "plaza-colonia",
+    "slug": "plaza-colonia",
+    "source": "football-logos"
+  },
+  "Uruguay|Progreso": {
+    "id": "progreso",
+    "slug": "progreso",
+    "source": "football-logos"
+  },
+  "Uruguay|Racing": {
+    "id": "racing-montevideo",
+    "slug": "racing-montevideo",
+    "source": "football-logos"
+  },
+  "Uruguay|Rampla Juniors": {
+    "id": "rampla-juniors",
+    "slug": "rampla-juniors",
+    "source": "football-logos"
+  },
+  "Uruguay|Rentistas": {
+    "id": "rentistas",
+    "slug": "rentistas",
+    "source": "football-logos"
+  },
+  "Uruguay|River Plate": {
+    "id": "river-plate-uy",
+    "slug": "river-plate",
+    "source": "football-logos"
+  },
+  "Venezuela|Academia Puerto Cabello": {
+    "id": "academia-puerto-cabello",
+    "slug": "academia-puerto-cabello",
+    "source": "football-logos"
+  },
+  "Venezuela|Angostura": {
+    "id": "angostura",
+    "slug": null,
+    "source": "url",
+    "url": "https://upload.wikimedia.org/wikipedia/en/d/de/Angostura_FC_new_logo.png"
+  },
+  "Venezuela|Anzoátegui": {
+    "id": "anzoategui",
+    "slug": null,
+    "source": "url",
+    "url": "https://upload.wikimedia.org/wikipedia/en/8/81/Anzo%C3%A1tegui_FC.png"
+  },
+  "Venezuela|Aragua": {
+    "id": "aragua",
+    "slug": null,
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6036.png"
+  },
+  "Venezuela|Carabobo": {
+    "id": "carabobo",
+    "slug": "carabobo",
+    "source": "football-logos"
+  },
+  "Venezuela|Caracas": {
+    "id": "caracas",
+    "slug": "caracas",
+    "source": "football-logos"
+  },
+  "Venezuela|Deportivo La Guaira": {
+    "id": "deportivo-la-guaira",
+    "slug": "deportivo-la-guaira",
+    "source": "football-logos"
+  },
+  "Venezuela|Deportivo Lara": {
+    "id": "deportivo-lara",
+    "slug": null,
+    "source": "url",
+    "url": "https://upload.wikimedia.org/wikipedia/en/9/93/A.C.D._Lara.png"
+  },
+  "Venezuela|Deportivo Táchira": {
+    "id": "deportivo-tachira",
+    "slug": "deportivo-tachira",
+    "source": "football-logos"
+  },
+  "Venezuela|Estudiantes de Mérida": {
+    "id": "estudiantes-merida",
+    "slug": "estudiantes-merida",
+    "source": "football-logos"
+  },
+  "Venezuela|Inter de Barinas": {
+    "id": "inter-de-barinas",
+    "slug": null,
+    "source": "url",
+    "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Inter_de_Barinas.png"
+  },
+  "Venezuela|Metropolitanos": {
+    "id": "metropolitanos",
+    "slug": "metropolitanos",
+    "source": "football-logos"
+  },
+  "Venezuela|Mineros de Guayana": {
+    "id": "mineros-de-guayana",
+    "slug": "mineros-de-guayana",
+    "source": "football-logos"
+  },
+  "Venezuela|Monagas": {
+    "id": "monagas",
+    "slug": "monagas",
+    "source": "football-logos"
+  },
+  "Venezuela|Portuguesa": {
+    "id": "portuguesa",
+    "slug": "portuguesa",
+    "source": "football-logos"
+  },
+  "Venezuela|Rayo Zuliano": {
+    "id": "rayo-zuliano",
+    "slug": "rayo-zuliano",
+    "source": "football-logos"
+  },
+  "Venezuela|Trujillanos": {
+    "id": "trujillanos-fc",
+    "slug": "trujillanos-fc",
+    "source": "football-logos"
+  },
+  "Venezuela|Universidad Central": {
+    "id": "universidad-central",
+    "slug": "universidad-central",
+    "source": "football-logos"
+  },
+  "Venezuela|Yaracuyanos": {
+    "id": "yaracuyanos",
+    "slug": "yaracuyanos",
+    "source": "football-logos"
+  },
+  "Venezuela|Zamora": {
+    "id": "zamora",
+    "slug": "zamora",
+    "source": "football-logos"
+  },
+  "Venezuela|Zulia": {
+    "id": "zulia",
+    "slug": null,
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9789.png"
+  }
+}
