@@ -1,0 +1,401 @@
+{
+  "version": 1,
+  "teams": [
+    {
+      "id": "arizona-diamondbacks",
+      "name": "Arizona Diamondbacks",
+      "aliases": [
+        "D-backs",
+        "ARI"
+      ],
+      "abbreviation": "AZ",
+      "mlb_id": 109,
+      "country": "US",
+      "league": "mlb",
+      "division": "NL West",
+      "logo": "baseball/teams/us/arizona-diamondbacks.png"
+    },
+    {
+      "id": "athletics",
+      "name": "Athletics",
+      "aliases": [
+        "Oakland Athletics",
+        "Oakland A's",
+        "A's",
+        "OAK"
+      ],
+      "abbreviation": "ATH",
+      "mlb_id": 133,
+      "country": "US",
+      "league": "mlb",
+      "division": "AL West",
+      "logo": "baseball/teams/us/athletics.png"
+    },
+    {
+      "id": "atlanta-braves",
+      "name": "Atlanta Braves",
+      "aliases": [
+        "Braves"
+      ],
+      "abbreviation": "ATL",
+      "mlb_id": 144,
+      "country": "US",
+      "league": "mlb",
+      "division": "NL East",
+      "logo": "baseball/teams/us/atlanta-braves.png"
+    },
+    {
+      "id": "baltimore-orioles",
+      "name": "Baltimore Orioles",
+      "aliases": [
+        "Orioles"
+      ],
+      "abbreviation": "BAL",
+      "mlb_id": 110,
+      "country": "US",
+      "league": "mlb",
+      "division": "AL East",
+      "logo": "baseball/teams/us/baltimore-orioles.png"
+    },
+    {
+      "id": "boston-red-sox",
+      "name": "Boston Red Sox",
+      "aliases": [
+        "Red Sox"
+      ],
+      "abbreviation": "BOS",
+      "mlb_id": 111,
+      "country": "US",
+      "league": "mlb",
+      "division": "AL East",
+      "logo": "baseball/teams/us/boston-red-sox.png"
+    },
+    {
+      "id": "chicago-cubs",
+      "name": "Chicago Cubs",
+      "aliases": [
+        "Cubs"
+      ],
+      "abbreviation": "CHC",
+      "mlb_id": 112,
+      "country": "US",
+      "league": "mlb",
+      "division": "NL Central",
+      "logo": "baseball/teams/us/chicago-cubs.png"
+    },
+    {
+      "id": "chicago-white-sox",
+      "name": "Chicago White Sox",
+      "aliases": [
+        "White Sox",
+        "CHW"
+      ],
+      "abbreviation": "CWS",
+      "mlb_id": 145,
+      "country": "US",
+      "league": "mlb",
+      "division": "AL Central",
+      "logo": "baseball/teams/us/chicago-white-sox.png"
+    },
+    {
+      "id": "cincinnati-reds",
+      "name": "Cincinnati Reds",
+      "aliases": [
+        "Reds"
+      ],
+      "abbreviation": "CIN",
+      "mlb_id": 113,
+      "country": "US",
+      "league": "mlb",
+      "division": "NL Central",
+      "logo": "baseball/teams/us/cincinnati-reds.png"
+    },
+    {
+      "id": "cleveland-guardians",
+      "name": "Cleveland Guardians",
+      "aliases": [
+        "Guardians"
+      ],
+      "abbreviation": "CLE",
+      "mlb_id": 114,
+      "country": "US",
+      "league": "mlb",
+      "division": "AL Central",
+      "logo": "baseball/teams/us/cleveland-guardians.png"
+    },
+    {
+      "id": "colorado-rockies",
+      "name": "Colorado Rockies",
+      "aliases": [
+        "Rockies"
+      ],
+      "abbreviation": "COL",
+      "mlb_id": 115,
+      "country": "US",
+      "league": "mlb",
+      "division": "NL West",
+      "logo": "baseball/teams/us/colorado-rockies.png"
+    },
+    {
+      "id": "detroit-tigers",
+      "name": "Detroit Tigers",
+      "aliases": [
+        "Tigers"
+      ],
+      "abbreviation": "DET",
+      "mlb_id": 116,
+      "country": "US",
+      "league": "mlb",
+      "division": "AL Central",
+      "logo": "baseball/teams/us/detroit-tigers.png"
+    },
+    {
+      "id": "houston-astros",
+      "name": "Houston Astros",
+      "aliases": [
+        "Astros"
+      ],
+      "abbreviation": "HOU",
+      "mlb_id": 117,
+      "country": "US",
+      "league": "mlb",
+      "division": "AL West",
+      "logo": "baseball/teams/us/houston-astros.png"
+    },
+    {
+      "id": "kansas-city-royals",
+      "name": "Kansas City Royals",
+      "aliases": [
+        "Royals"
+      ],
+      "abbreviation": "KC",
+      "mlb_id": 118,
+      "country": "US",
+      "league": "mlb",
+      "division": "AL Central",
+      "logo": "baseball/teams/us/kansas-city-royals.png"
+    },
+    {
+      "id": "los-angeles-angels",
+      "name": "Los Angeles Angels",
+      "aliases": [
+        "Angels"
+      ],
+      "abbreviation": "LAA",
+      "mlb_id": 108,
+      "country": "US",
+      "league": "mlb",
+      "division": "AL West",
+      "logo": "baseball/teams/us/los-angeles-angels.png"
+    },
+    {
+      "id": "los-angeles-dodgers",
+      "name": "Los Angeles Dodgers",
+      "aliases": [
+        "Dodgers"
+      ],
+      "abbreviation": "LAD",
+      "mlb_id": 119,
+      "country": "US",
+      "league": "mlb",
+      "division": "NL West",
+      "logo": "baseball/teams/us/los-angeles-dodgers.png"
+    },
+    {
+      "id": "miami-marlins",
+      "name": "Miami Marlins",
+      "aliases": [
+        "Marlins"
+      ],
+      "abbreviation": "MIA",
+      "mlb_id": 146,
+      "country": "US",
+      "league": "mlb",
+      "division": "NL East",
+      "logo": "baseball/teams/us/miami-marlins.png"
+    },
+    {
+      "id": "milwaukee-brewers",
+      "name": "Milwaukee Brewers",
+      "aliases": [
+        "Brewers"
+      ],
+      "abbreviation": "MIL",
+      "mlb_id": 158,
+      "country": "US",
+      "league": "mlb",
+      "division": "NL Central",
+      "logo": "baseball/teams/us/milwaukee-brewers.png"
+    },
+    {
+      "id": "minnesota-twins",
+      "name": "Minnesota Twins",
+      "aliases": [
+        "Twins"
+      ],
+      "abbreviation": "MIN",
+      "mlb_id": 142,
+      "country": "US",
+      "league": "mlb",
+      "division": "AL Central",
+      "logo": "baseball/teams/us/minnesota-twins.png"
+    },
+    {
+      "id": "new-york-mets",
+      "name": "New York Mets",
+      "aliases": [
+        "Mets"
+      ],
+      "abbreviation": "NYM",
+      "mlb_id": 121,
+      "country": "US",
+      "league": "mlb",
+      "division": "NL East",
+      "logo": "baseball/teams/us/new-york-mets.png"
+    },
+    {
+      "id": "new-york-yankees",
+      "name": "New York Yankees",
+      "aliases": [
+        "Yankees"
+      ],
+      "abbreviation": "NYY",
+      "mlb_id": 147,
+      "country": "US",
+      "league": "mlb",
+      "division": "AL East",
+      "logo": "baseball/teams/us/new-york-yankees.png"
+    },
+    {
+      "id": "philadelphia-phillies",
+      "name": "Philadelphia Phillies",
+      "aliases": [
+        "Phillies"
+      ],
+      "abbreviation": "PHI",
+      "mlb_id": 143,
+      "country": "US",
+      "league": "mlb",
+      "division": "NL East",
+      "logo": "baseball/teams/us/philadelphia-phillies.png"
+    },
+    {
+      "id": "pittsburgh-pirates",
+      "name": "Pittsburgh Pirates",
+      "aliases": [
+        "Pirates"
+      ],
+      "abbreviation": "PIT",
+      "mlb_id": 134,
+      "country": "US",
+      "league": "mlb",
+      "division": "NL Central",
+      "logo": "baseball/teams/us/pittsburgh-pirates.png"
+    },
+    {
+      "id": "san-diego-padres",
+      "name": "San Diego Padres",
+      "aliases": [
+        "Padres"
+      ],
+      "abbreviation": "SD",
+      "mlb_id": 135,
+      "country": "US",
+      "league": "mlb",
+      "division": "NL West",
+      "logo": "baseball/teams/us/san-diego-padres.png"
+    },
+    {
+      "id": "san-francisco-giants",
+      "name": "San Francisco Giants",
+      "aliases": [
+        "Giants"
+      ],
+      "abbreviation": "SF",
+      "mlb_id": 137,
+      "country": "US",
+      "league": "mlb",
+      "division": "NL West",
+      "logo": "baseball/teams/us/san-francisco-giants.png"
+    },
+    {
+      "id": "seattle-mariners",
+      "name": "Seattle Mariners",
+      "aliases": [
+        "Mariners"
+      ],
+      "abbreviation": "SEA",
+      "mlb_id": 136,
+      "country": "US",
+      "league": "mlb",
+      "division": "AL West",
+      "logo": "baseball/teams/us/seattle-mariners.png"
+    },
+    {
+      "id": "st-louis-cardinals",
+      "name": "St. Louis Cardinals",
+      "aliases": [
+        "Cardinals"
+      ],
+      "abbreviation": "STL",
+      "mlb_id": 138,
+      "country": "US",
+      "league": "mlb",
+      "division": "NL Central",
+      "logo": "baseball/teams/us/st-louis-cardinals.png"
+    },
+    {
+      "id": "tampa-bay-rays",
+      "name": "Tampa Bay Rays",
+      "aliases": [
+        "Rays"
+      ],
+      "abbreviation": "TB",
+      "mlb_id": 139,
+      "country": "US",
+      "league": "mlb",
+      "division": "AL East",
+      "logo": "baseball/teams/us/tampa-bay-rays.png"
+    },
+    {
+      "id": "texas-rangers",
+      "name": "Texas Rangers",
+      "aliases": [
+        "Rangers"
+      ],
+      "abbreviation": "TEX",
+      "mlb_id": 140,
+      "country": "US",
+      "league": "mlb",
+      "division": "AL West",
+      "logo": "baseball/teams/us/texas-rangers.png"
+    },
+    {
+      "id": "toronto-blue-jays",
+      "name": "Toronto Blue Jays",
+      "aliases": [
+        "Blue Jays"
+      ],
+      "abbreviation": "TOR",
+      "mlb_id": 141,
+      "country": "CA",
+      "league": "mlb",
+      "division": "AL East",
+      "logo": "baseball/teams/ca/toronto-blue-jays.png"
+    },
+    {
+      "id": "washington-nationals",
+      "name": "Washington Nationals",
+      "aliases": [
+        "Nationals",
+        "WAS"
+      ],
+      "abbreviation": "WSH",
+      "mlb_id": 120,
+      "country": "US",
+      "league": "mlb",
+      "division": "NL East",
+      "logo": "baseball/teams/us/washington-nationals.png"
+    }
+  ]
+}

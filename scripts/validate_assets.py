@@ -4,12 +4,17 @@ import struct
 import sys
 
 from football_catalog import CATALOG_FILE, load_catalog, validate_catalog
+from baseball_catalog import load_baseball, validate_baseball
+from league_catalog import LEAGUES, load_league, validate_league
 from football_clubs import (
     CLUBS_FILE, MAPPING_FILE, ROSTERS_FILE, load_json, roster_errors, roster_sync_errors, validate_clubs,
 )
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSET_DIRS = [
+    *(ROOT / config['sport'] / kind for config in LEAGUES.values() for kind in ('competitions', 'teams')),
+    ROOT / 'baseball' / 'competitions',
+    ROOT / 'baseball' / 'teams',
     ROOT / "football" / "competitions",
     ROOT / "football" / "collages",
     ROOT / "football" / "clubs",
@@ -113,6 +118,19 @@ def check_rosters(errors: list, warnings: list) -> None:
 def main():
     errors = []
     warnings = []
+    for league in LEAGUES:
+        try:
+            league_errors, league_warnings = validate_league(ROOT, league, *load_league(league))
+            errors.extend(league_errors)
+            warnings.extend(league_warnings)
+        except (OSError, ValueError) as exc:
+            errors.append(f'Cannot read {league.upper()} catalogs: {exc}')
+    try:
+        baseball_errors, baseball_warnings = validate_baseball(ROOT, *load_baseball())
+        errors.extend(baseball_errors)
+        warnings.extend(baseball_warnings)
+    except (OSError, ValueError) as exc:
+        errors.append(f'Cannot read baseball catalogs: {exc}')
     check_files(errors, warnings)
     check_catalog(errors, warnings)
     check_clubs(errors, warnings)

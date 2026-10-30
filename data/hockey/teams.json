@@ -1,0 +1,461 @@
+{
+  "version": 1,
+  "teams": [
+    {
+      "id": "calgary-flames",
+      "name": "Calgary Flames",
+      "aliases": [
+        "Flames"
+      ],
+      "abbreviation": "CGY",
+      "espn_id": 3,
+      "country": "CA",
+      "league": "nhl",
+      "conference": "Western",
+      "division": "Pacific",
+      "logo": "hockey/teams/ca/calgary-flames.png"
+    },
+    {
+      "id": "edmonton-oilers",
+      "name": "Edmonton Oilers",
+      "aliases": [
+        "Oilers"
+      ],
+      "abbreviation": "EDM",
+      "espn_id": 6,
+      "country": "CA",
+      "league": "nhl",
+      "conference": "Western",
+      "division": "Pacific",
+      "logo": "hockey/teams/ca/edmonton-oilers.png"
+    },
+    {
+      "id": "montreal-canadiens",
+      "name": "Montréal Canadiens",
+      "aliases": [
+        "Canadiens",
+        "Montreal Canadiens"
+      ],
+      "abbreviation": "MTL",
+      "espn_id": 10,
+      "country": "CA",
+      "league": "nhl",
+      "conference": "Eastern",
+      "division": "Atlantic",
+      "logo": "hockey/teams/ca/montreal-canadiens.png"
+    },
+    {
+      "id": "ottawa-senators",
+      "name": "Ottawa Senators",
+      "aliases": [
+        "Senators"
+      ],
+      "abbreviation": "OTT",
+      "espn_id": 14,
+      "country": "CA",
+      "league": "nhl",
+      "conference": "Eastern",
+      "division": "Atlantic",
+      "logo": "hockey/teams/ca/ottawa-senators.png"
+    },
+    {
+      "id": "toronto-maple-leafs",
+      "name": "Toronto Maple Leafs",
+      "aliases": [
+        "Maple Leafs"
+      ],
+      "abbreviation": "TOR",
+      "espn_id": 21,
+      "country": "CA",
+      "league": "nhl",
+      "conference": "Eastern",
+      "division": "Atlantic",
+      "logo": "hockey/teams/ca/toronto-maple-leafs.png"
+    },
+    {
+      "id": "vancouver-canucks",
+      "name": "Vancouver Canucks",
+      "aliases": [
+        "Canucks"
+      ],
+      "abbreviation": "VAN",
+      "espn_id": 22,
+      "country": "CA",
+      "league": "nhl",
+      "conference": "Western",
+      "division": "Pacific",
+      "logo": "hockey/teams/ca/vancouver-canucks.png"
+    },
+    {
+      "id": "winnipeg-jets",
+      "name": "Winnipeg Jets",
+      "aliases": [
+        "Jets"
+      ],
+      "abbreviation": "WPG",
+      "espn_id": 28,
+      "country": "CA",
+      "league": "nhl",
+      "conference": "Western",
+      "division": "Central",
+      "logo": "hockey/teams/ca/winnipeg-jets.png"
+    },
+    {
+      "id": "anaheim-ducks",
+      "name": "Anaheim Ducks",
+      "aliases": [
+        "Ducks"
+      ],
+      "abbreviation": "ANA",
+      "espn_id": 25,
+      "country": "US",
+      "league": "nhl",
+      "conference": "Western",
+      "division": "Pacific",
+      "logo": "hockey/teams/us/anaheim-ducks.png"
+    },
+    {
+      "id": "boston-bruins",
+      "name": "Boston Bruins",
+      "aliases": [
+        "Bruins"
+      ],
+      "abbreviation": "BOS",
+      "espn_id": 1,
+      "country": "US",
+      "league": "nhl",
+      "conference": "Eastern",
+      "division": "Atlantic",
+      "logo": "hockey/teams/us/boston-bruins.png"
+    },
+    {
+      "id": "buffalo-sabres",
+      "name": "Buffalo Sabres",
+      "aliases": [
+        "Sabres"
+      ],
+      "abbreviation": "BUF",
+      "espn_id": 2,
+      "country": "US",
+      "league": "nhl",
+      "conference": "Eastern",
+      "division": "Atlantic",
+      "logo": "hockey/teams/us/buffalo-sabres.png"
+    },
+    {
+      "id": "carolina-hurricanes",
+      "name": "Carolina Hurricanes",
+      "aliases": [
+        "Hurricanes"
+      ],
+      "abbreviation": "CAR",
+      "espn_id": 7,
+      "country": "US",
+      "league": "nhl",
+      "conference": "Eastern",
+      "division": "Metropolitan",
+      "logo": "hockey/teams/us/carolina-hurricanes.png"
+    },
+    {
+      "id": "chicago-blackhawks",
+      "name": "Chicago Blackhawks",
+      "aliases": [
+        "Blackhawks"
+      ],
+      "abbreviation": "CHI",
+      "espn_id": 4,
+      "country": "US",
+      "league": "nhl",
+      "conference": "Western",
+      "division": "Central",
+      "logo": "hockey/teams/us/chicago-blackhawks.png"
+    },
+    {
+      "id": "colorado-avalanche",
+      "name": "Colorado Avalanche",
+      "aliases": [
+        "Avalanche"
+      ],
+      "abbreviation": "COL",
+      "espn_id": 17,
+      "country": "US",
+      "league": "nhl",
+      "conference": "Western",
+      "division": "Central",
+      "logo": "hockey/teams/us/colorado-avalanche.png"
+    },
+    {
+      "id": "columbus-blue-jackets",
+      "name": "Columbus Blue Jackets",
+      "aliases": [
+        "Blue Jackets"
+      ],
+      "abbreviation": "CBJ",
+      "espn_id": 29,
+      "country": "US",
+      "league": "nhl",
+      "conference": "Eastern",
+      "division": "Metropolitan",
+      "logo": "hockey/teams/us/columbus-blue-jackets.png"
+    },
+    {
+      "id": "dallas-stars",
+      "name": "Dallas Stars",
+      "aliases": [
+        "Stars"
+      ],
+      "abbreviation": "DAL",
+      "espn_id": 9,
+      "country": "US",
+      "league": "nhl",
+      "conference": "Western",
+      "division": "Central",
+      "logo": "hockey/teams/us/dallas-stars.png"
+    },
+    {
+      "id": "detroit-red-wings",
+      "name": "Detroit Red Wings",
+      "aliases": [
+        "Red Wings"
+      ],
+      "abbreviation": "DET",
+      "espn_id": 5,
+      "country": "US",
+      "league": "nhl",
+      "conference": "Eastern",
+      "division": "Atlantic",
+      "logo": "hockey/teams/us/detroit-red-wings.png"
+    },
+    {
+      "id": "florida-panthers",
+      "name": "Florida Panthers",
+      "aliases": [
+        "Panthers"
+      ],
+      "abbreviation": "FLA",
+      "espn_id": 26,
+      "country": "US",
+      "league": "nhl",
+      "conference": "Eastern",
+      "division": "Atlantic",
+      "logo": "hockey/teams/us/florida-panthers.png"
+    },
+    {
+      "id": "los-angeles-kings",
+      "name": "Los Angeles Kings",
+      "aliases": [
+        "Kings",
+        "LAK"
+      ],
+      "abbreviation": "LA",
+      "espn_id": 8,
+      "country": "US",
+      "league": "nhl",
+      "conference": "Western",
+      "division": "Pacific",
+      "logo": "hockey/teams/us/los-angeles-kings.png"
+    },
+    {
+      "id": "minnesota-wild",
+      "name": "Minnesota Wild",
+      "aliases": [
+        "Wild"
+      ],
+      "abbreviation": "MIN",
+      "espn_id": 30,
+      "country": "US",
+      "league": "nhl",
+      "conference": "Western",
+      "division": "Central",
+      "logo": "hockey/teams/us/minnesota-wild.png"
+    },
+    {
+      "id": "nashville-predators",
+      "name": "Nashville Predators",
+      "aliases": [
+        "Predators"
+      ],
+      "abbreviation": "NSH",
+      "espn_id": 27,
+      "country": "US",
+      "league": "nhl",
+      "conference": "Western",
+      "division": "Central",
+      "logo": "hockey/teams/us/nashville-predators.png"
+    },
+    {
+      "id": "new-jersey-devils",
+      "name": "New Jersey Devils",
+      "aliases": [
+        "Devils",
+        "NJD"
+      ],
+      "abbreviation": "NJ",
+      "espn_id": 11,
+      "country": "US",
+      "league": "nhl",
+      "conference": "Eastern",
+      "division": "Metropolitan",
+      "logo": "hockey/teams/us/new-jersey-devils.png"
+    },
+    {
+      "id": "new-york-islanders",
+      "name": "New York Islanders",
+      "aliases": [
+        "Islanders"
+      ],
+      "abbreviation": "NYI",
+      "espn_id": 12,
+      "country": "US",
+      "league": "nhl",
+      "conference": "Eastern",
+      "division": "Metropolitan",
+      "logo": "hockey/teams/us/new-york-islanders.png"
+    },
+    {
+      "id": "new-york-rangers",
+      "name": "New York Rangers",
+      "aliases": [
+        "Rangers"
+      ],
+      "abbreviation": "NYR",
+      "espn_id": 13,
+      "country": "US",
+      "league": "nhl",
+      "conference": "Eastern",
+      "division": "Metropolitan",
+      "logo": "hockey/teams/us/new-york-rangers.png"
+    },
+    {
+      "id": "philadelphia-flyers",
+      "name": "Philadelphia Flyers",
+      "aliases": [
+        "Flyers"
+      ],
+      "abbreviation": "PHI",
+      "espn_id": 15,
+      "country": "US",
+      "league": "nhl",
+      "conference": "Eastern",
+      "division": "Metropolitan",
+      "logo": "hockey/teams/us/philadelphia-flyers.png"
+    },
+    {
+      "id": "pittsburgh-penguins",
+      "name": "Pittsburgh Penguins",
+      "aliases": [
+        "Penguins"
+      ],
+      "abbreviation": "PIT",
+      "espn_id": 16,
+      "country": "US",
+      "league": "nhl",
+      "conference": "Eastern",
+      "division": "Metropolitan",
+      "logo": "hockey/teams/us/pittsburgh-penguins.png"
+    },
+    {
+      "id": "san-jose-sharks",
+      "name": "San Jose Sharks",
+      "aliases": [
+        "Sharks",
+        "SJS"
+      ],
+      "abbreviation": "SJ",
+      "espn_id": 18,
+      "country": "US",
+      "league": "nhl",
+      "conference": "Western",
+      "division": "Pacific",
+      "logo": "hockey/teams/us/san-jose-sharks.png"
+    },
+    {
+      "id": "seattle-kraken",
+      "name": "Seattle Kraken",
+      "aliases": [
+        "Kraken"
+      ],
+      "abbreviation": "SEA",
+      "espn_id": 124292,
+      "country": "US",
+      "league": "nhl",
+      "conference": "Western",
+      "division": "Pacific",
+      "logo": "hockey/teams/us/seattle-kraken.png"
+    },
+    {
+      "id": "st-louis-blues",
+      "name": "St. Louis Blues",
+      "aliases": [
+        "Blues"
+      ],
+      "abbreviation": "STL",
+      "espn_id": 19,
+      "country": "US",
+      "league": "nhl",
+      "conference": "Western",
+      "division": "Central",
+      "logo": "hockey/teams/us/st-louis-blues.png"
+    },
+    {
+      "id": "tampa-bay-lightning",
+      "name": "Tampa Bay Lightning",
+      "aliases": [
+        "Lightning",
+        "TBL"
+      ],
+      "abbreviation": "TB",
+      "espn_id": 20,
+      "country": "US",
+      "league": "nhl",
+      "conference": "Eastern",
+      "division": "Atlantic",
+      "logo": "hockey/teams/us/tampa-bay-lightning.png"
+    },
+    {
+      "id": "utah-mammoth",
+      "name": "Utah Mammoth",
+      "aliases": [
+        "Mammoth",
+        "UTA",
+        "Utah Hockey Club"
+      ],
+      "abbreviation": "UTAH",
+      "espn_id": 129764,
+      "country": "US",
+      "league": "nhl",
+      "conference": "Western",
+      "division": "Central",
+      "logo": "hockey/teams/us/utah-mammoth.png"
+    },
+    {
+      "id": "vegas-golden-knights",
+      "name": "Vegas Golden Knights",
+      "aliases": [
+        "Golden Knights"
+      ],
+      "abbreviation": "VGK",
+      "espn_id": 37,
+      "country": "US",
+      "league": "nhl",
+      "conference": "Western",
+      "division": "Pacific",
+      "logo": "hockey/teams/us/vegas-golden-knights.png"
+    },
+    {
+      "id": "washington-capitals",
+      "name": "Washington Capitals",
+      "aliases": [
+        "Capitals",
+        "WAS"
+      ],
+      "abbreviation": "WSH",
+      "espn_id": 23,
+      "country": "US",
+      "league": "nhl",
+      "conference": "Eastern",
+      "division": "Metropolitan",
+      "logo": "hockey/teams/us/washington-capitals.png"
+    }
+  ]
+}

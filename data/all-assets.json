@@ -1,4 +1,532 @@
 {
+  "basketball-competitions": {
+    "nba": {
+      "name": "National Basketball Association",
+      "path": "basketball/competitions/north-america/nba.png"
+    }
+  },
+  "basketball-teams": {
+    "toronto-raptors": {
+      "name": "Toronto Raptors",
+      "path": "basketball/teams/ca/toronto-raptors.png"
+    },
+    "atlanta-hawks": {
+      "name": "Atlanta Hawks",
+      "path": "basketball/teams/us/atlanta-hawks.png"
+    },
+    "boston-celtics": {
+      "name": "Boston Celtics",
+      "path": "basketball/teams/us/boston-celtics.png"
+    },
+    "brooklyn-nets": {
+      "name": "Brooklyn Nets",
+      "path": "basketball/teams/us/brooklyn-nets.png"
+    },
+    "charlotte-hornets": {
+      "name": "Charlotte Hornets",
+      "path": "basketball/teams/us/charlotte-hornets.png"
+    },
+    "chicago-bulls": {
+      "name": "Chicago Bulls",
+      "path": "basketball/teams/us/chicago-bulls.png"
+    },
+    "cleveland-cavaliers": {
+      "name": "Cleveland Cavaliers",
+      "path": "basketball/teams/us/cleveland-cavaliers.png"
+    },
+    "dallas-mavericks": {
+      "name": "Dallas Mavericks",
+      "path": "basketball/teams/us/dallas-mavericks.png"
+    },
+    "denver-nuggets": {
+      "name": "Denver Nuggets",
+      "path": "basketball/teams/us/denver-nuggets.png"
+    },
+    "detroit-pistons": {
+      "name": "Detroit Pistons",
+      "path": "basketball/teams/us/detroit-pistons.png"
+    },
+    "golden-state-warriors": {
+      "name": "Golden State Warriors",
+      "path": "basketball/teams/us/golden-state-warriors.png"
+    },
+    "houston-rockets": {
+      "name": "Houston Rockets",
+      "path": "basketball/teams/us/houston-rockets.png"
+    },
+    "indiana-pacers": {
+      "name": "Indiana Pacers",
+      "path": "basketball/teams/us/indiana-pacers.png"
+    },
+    "los-angeles-clippers": {
+      "name": "LA Clippers",
+      "path": "basketball/teams/us/los-angeles-clippers.png"
+    },
+    "los-angeles-lakers": {
+      "name": "Los Angeles Lakers",
+      "path": "basketball/teams/us/los-angeles-lakers.png"
+    },
+    "memphis-grizzlies": {
+      "name": "Memphis Grizzlies",
+      "path": "basketball/teams/us/memphis-grizzlies.png"
+    },
+    "miami-heat": {
+      "name": "Miami Heat",
+      "path": "basketball/teams/us/miami-heat.png"
+    },
+    "milwaukee-bucks": {
+      "name": "Milwaukee Bucks",
+      "path": "basketball/teams/us/milwaukee-bucks.png"
+    },
+    "minnesota-timberwolves": {
+      "name": "Minnesota Timberwolves",
+      "path": "basketball/teams/us/minnesota-timberwolves.png"
+    },
+    "new-orleans-pelicans": {
+      "name": "New Orleans Pelicans",
+      "path": "basketball/teams/us/new-orleans-pelicans.png"
+    },
+    "new-york-knicks": {
+      "name": "New York Knicks",
+      "path": "basketball/teams/us/new-york-knicks.png"
+    },
+    "oklahoma-city-thunder": {
+      "name": "Oklahoma City Thunder",
+      "path": "basketball/teams/us/oklahoma-city-thunder.png"
+    },
+    "orlando-magic": {
+      "name": "Orlando Magic",
+      "path": "basketball/teams/us/orlando-magic.png"
+    },
+    "philadelphia-76ers": {
+      "name": "Philadelphia 76ers",
+      "path": "basketball/teams/us/philadelphia-76ers.png"
+    },
+    "phoenix-suns": {
+      "name": "Phoenix Suns",
+      "path": "basketball/teams/us/phoenix-suns.png"
+    },
+    "portland-trail-blazers": {
+      "name": "Portland Trail Blazers",
+      "path": "basketball/teams/us/portland-trail-blazers.png"
+    },
+    "sacramento-kings": {
+      "name": "Sacramento Kings",
+      "path": "basketball/teams/us/sacramento-kings.png"
+    },
+    "san-antonio-spurs": {
+      "name": "San Antonio Spurs",
+      "path": "basketball/teams/us/san-antonio-spurs.png"
+    },
+    "utah-jazz": {
+      "name": "Utah Jazz",
+      "path": "basketball/teams/us/utah-jazz.png"
+    },
+    "washington-wizards": {
+      "name": "Washington Wizards",
+      "path": "basketball/teams/us/washington-wizards.png"
+    }
+  },
+  "hockey-competitions": {
+    "nhl": {
+      "name": "National Hockey League",
+      "path": "hockey/competitions/north-america/nhl.png"
+    }
+  },
+  "hockey-teams": {
+    "calgary-flames": {
+      "name": "Calgary Flames",
+      "path": "hockey/teams/ca/calgary-flames.png"
+    },
+    "edmonton-oilers": {
+      "name": "Edmonton Oilers",
+      "path": "hockey/teams/ca/edmonton-oilers.png"
+    },
+    "montreal-canadiens": {
+      "name": "Montréal Canadiens",
+      "path": "hockey/teams/ca/montreal-canadiens.png"
+    },
+    "ottawa-senators": {
+      "name": "Ottawa Senators",
+      "path": "hockey/teams/ca/ottawa-senators.png"
+    },
+    "toronto-maple-leafs": {
+      "name": "Toronto Maple Leafs",
+      "path": "hockey/teams/ca/toronto-maple-leafs.png"
+    },
+    "vancouver-canucks": {
+      "name": "Vancouver Canucks",
+      "path": "hockey/teams/ca/vancouver-canucks.png"
+    },
+    "winnipeg-jets": {
+      "name": "Winnipeg Jets",
+      "path": "hockey/teams/ca/winnipeg-jets.png"
+    },
+    "anaheim-ducks": {
+      "name": "Anaheim Ducks",
+      "path": "hockey/teams/us/anaheim-ducks.png"
+    },
+    "boston-bruins": {
+      "name": "Boston Bruins",
+      "path": "hockey/teams/us/boston-bruins.png"
+    },
+    "buffalo-sabres": {
+      "name": "Buffalo Sabres",
+      "path": "hockey/teams/us/buffalo-sabres.png"
+    },
+    "carolina-hurricanes": {
+      "name": "Carolina Hurricanes",
+      "path": "hockey/teams/us/carolina-hurricanes.png"
+    },
+    "chicago-blackhawks": {
+      "name": "Chicago Blackhawks",
+      "path": "hockey/teams/us/chicago-blackhawks.png"
+    },
+    "colorado-avalanche": {
+      "name": "Colorado Avalanche",
+      "path": "hockey/teams/us/colorado-avalanche.png"
+    },
+    "columbus-blue-jackets": {
+      "name": "Columbus Blue Jackets",
+      "path": "hockey/teams/us/columbus-blue-jackets.png"
+    },
+    "dallas-stars": {
+      "name": "Dallas Stars",
+      "path": "hockey/teams/us/dallas-stars.png"
+    },
+    "detroit-red-wings": {
+      "name": "Detroit Red Wings",
+      "path": "hockey/teams/us/detroit-red-wings.png"
+    },
+    "florida-panthers": {
+      "name": "Florida Panthers",
+      "path": "hockey/teams/us/florida-panthers.png"
+    },
+    "los-angeles-kings": {
+      "name": "Los Angeles Kings",
+      "path": "hockey/teams/us/los-angeles-kings.png"
+    },
+    "minnesota-wild": {
+      "name": "Minnesota Wild",
+      "path": "hockey/teams/us/minnesota-wild.png"
+    },
+    "nashville-predators": {
+      "name": "Nashville Predators",
+      "path": "hockey/teams/us/nashville-predators.png"
+    },
+    "new-jersey-devils": {
+      "name": "New Jersey Devils",
+      "path": "hockey/teams/us/new-jersey-devils.png"
+    },
+    "new-york-islanders": {
+      "name": "New York Islanders",
+      "path": "hockey/teams/us/new-york-islanders.png"
+    },
+    "new-york-rangers": {
+      "name": "New York Rangers",
+      "path": "hockey/teams/us/new-york-rangers.png"
+    },
+    "philadelphia-flyers": {
+      "name": "Philadelphia Flyers",
+      "path": "hockey/teams/us/philadelphia-flyers.png"
+    },
+    "pittsburgh-penguins": {
+      "name": "Pittsburgh Penguins",
+      "path": "hockey/teams/us/pittsburgh-penguins.png"
+    },
+    "san-jose-sharks": {
+      "name": "San Jose Sharks",
+      "path": "hockey/teams/us/san-jose-sharks.png"
+    },
+    "seattle-kraken": {
+      "name": "Seattle Kraken",
+      "path": "hockey/teams/us/seattle-kraken.png"
+    },
+    "st-louis-blues": {
+      "name": "St. Louis Blues",
+      "path": "hockey/teams/us/st-louis-blues.png"
+    },
+    "tampa-bay-lightning": {
+      "name": "Tampa Bay Lightning",
+      "path": "hockey/teams/us/tampa-bay-lightning.png"
+    },
+    "utah-mammoth": {
+      "name": "Utah Mammoth",
+      "path": "hockey/teams/us/utah-mammoth.png"
+    },
+    "vegas-golden-knights": {
+      "name": "Vegas Golden Knights",
+      "path": "hockey/teams/us/vegas-golden-knights.png"
+    },
+    "washington-capitals": {
+      "name": "Washington Capitals",
+      "path": "hockey/teams/us/washington-capitals.png"
+    }
+  },
+  "american-football-competitions": {
+    "nfl": {
+      "name": "National Football League",
+      "path": "american-football/competitions/north-america/nfl.png"
+    }
+  },
+  "american-football-teams": {
+    "arizona-cardinals": {
+      "name": "Arizona Cardinals",
+      "path": "american-football/teams/us/arizona-cardinals.png"
+    },
+    "atlanta-falcons": {
+      "name": "Atlanta Falcons",
+      "path": "american-football/teams/us/atlanta-falcons.png"
+    },
+    "baltimore-ravens": {
+      "name": "Baltimore Ravens",
+      "path": "american-football/teams/us/baltimore-ravens.png"
+    },
+    "buffalo-bills": {
+      "name": "Buffalo Bills",
+      "path": "american-football/teams/us/buffalo-bills.png"
+    },
+    "carolina-panthers": {
+      "name": "Carolina Panthers",
+      "path": "american-football/teams/us/carolina-panthers.png"
+    },
+    "chicago-bears": {
+      "name": "Chicago Bears",
+      "path": "american-football/teams/us/chicago-bears.png"
+    },
+    "cincinnati-bengals": {
+      "name": "Cincinnati Bengals",
+      "path": "american-football/teams/us/cincinnati-bengals.png"
+    },
+    "cleveland-browns": {
+      "name": "Cleveland Browns",
+      "path": "american-football/teams/us/cleveland-browns.png"
+    },
+    "dallas-cowboys": {
+      "name": "Dallas Cowboys",
+      "path": "american-football/teams/us/dallas-cowboys.png"
+    },
+    "denver-broncos": {
+      "name": "Denver Broncos",
+      "path": "american-football/teams/us/denver-broncos.png"
+    },
+    "detroit-lions": {
+      "name": "Detroit Lions",
+      "path": "american-football/teams/us/detroit-lions.png"
+    },
+    "green-bay-packers": {
+      "name": "Green Bay Packers",
+      "path": "american-football/teams/us/green-bay-packers.png"
+    },
+    "houston-texans": {
+      "name": "Houston Texans",
+      "path": "american-football/teams/us/houston-texans.png"
+    },
+    "indianapolis-colts": {
+      "name": "Indianapolis Colts",
+      "path": "american-football/teams/us/indianapolis-colts.png"
+    },
+    "jacksonville-jaguars": {
+      "name": "Jacksonville Jaguars",
+      "path": "american-football/teams/us/jacksonville-jaguars.png"
+    },
+    "kansas-city-chiefs": {
+      "name": "Kansas City Chiefs",
+      "path": "american-football/teams/us/kansas-city-chiefs.png"
+    },
+    "las-vegas-raiders": {
+      "name": "Las Vegas Raiders",
+      "path": "american-football/teams/us/las-vegas-raiders.png"
+    },
+    "los-angeles-chargers": {
+      "name": "Los Angeles Chargers",
+      "path": "american-football/teams/us/los-angeles-chargers.png"
+    },
+    "los-angeles-rams": {
+      "name": "Los Angeles Rams",
+      "path": "american-football/teams/us/los-angeles-rams.png"
+    },
+    "miami-dolphins": {
+      "name": "Miami Dolphins",
+      "path": "american-football/teams/us/miami-dolphins.png"
+    },
+    "minnesota-vikings": {
+      "name": "Minnesota Vikings",
+      "path": "american-football/teams/us/minnesota-vikings.png"
+    },
+    "new-england-patriots": {
+      "name": "New England Patriots",
+      "path": "american-football/teams/us/new-england-patriots.png"
+    },
+    "new-orleans-saints": {
+      "name": "New Orleans Saints",
+      "path": "american-football/teams/us/new-orleans-saints.png"
+    },
+    "new-york-giants": {
+      "name": "New York Giants",
+      "path": "american-football/teams/us/new-york-giants.png"
+    },
+    "new-york-jets": {
+      "name": "New York Jets",
+      "path": "american-football/teams/us/new-york-jets.png"
+    },
+    "philadelphia-eagles": {
+      "name": "Philadelphia Eagles",
+      "path": "american-football/teams/us/philadelphia-eagles.png"
+    },
+    "pittsburgh-steelers": {
+      "name": "Pittsburgh Steelers",
+      "path": "american-football/teams/us/pittsburgh-steelers.png"
+    },
+    "san-francisco-49ers": {
+      "name": "San Francisco 49ers",
+      "path": "american-football/teams/us/san-francisco-49ers.png"
+    },
+    "seattle-seahawks": {
+      "name": "Seattle Seahawks",
+      "path": "american-football/teams/us/seattle-seahawks.png"
+    },
+    "tampa-bay-buccaneers": {
+      "name": "Tampa Bay Buccaneers",
+      "path": "american-football/teams/us/tampa-bay-buccaneers.png"
+    },
+    "tennessee-titans": {
+      "name": "Tennessee Titans",
+      "path": "american-football/teams/us/tennessee-titans.png"
+    },
+    "washington-commanders": {
+      "name": "Washington Commanders",
+      "path": "american-football/teams/us/washington-commanders.png"
+    }
+  },
+  "baseball-competitions": {
+    "mlb": {
+      "name": "Major League Baseball",
+      "path": "baseball/competitions/north-america/mlb.png"
+    }
+  },
+  "baseball-teams": {
+    "arizona-diamondbacks": {
+      "name": "Arizona Diamondbacks",
+      "path": "baseball/teams/us/arizona-diamondbacks.png"
+    },
+    "athletics": {
+      "name": "Athletics",
+      "path": "baseball/teams/us/athletics.png"
+    },
+    "atlanta-braves": {
+      "name": "Atlanta Braves",
+      "path": "baseball/teams/us/atlanta-braves.png"
+    },
+    "baltimore-orioles": {
+      "name": "Baltimore Orioles",
+      "path": "baseball/teams/us/baltimore-orioles.png"
+    },
+    "boston-red-sox": {
+      "name": "Boston Red Sox",
+      "path": "baseball/teams/us/boston-red-sox.png"
+    },
+    "chicago-cubs": {
+      "name": "Chicago Cubs",
+      "path": "baseball/teams/us/chicago-cubs.png"
+    },
+    "chicago-white-sox": {
+      "name": "Chicago White Sox",
+      "path": "baseball/teams/us/chicago-white-sox.png"
+    },
+    "cincinnati-reds": {
+      "name": "Cincinnati Reds",
+      "path": "baseball/teams/us/cincinnati-reds.png"
+    },
+    "cleveland-guardians": {
+      "name": "Cleveland Guardians",
+      "path": "baseball/teams/us/cleveland-guardians.png"
+    },
+    "colorado-rockies": {
+      "name": "Colorado Rockies",
+      "path": "baseball/teams/us/colorado-rockies.png"
+    },
+    "detroit-tigers": {
+      "name": "Detroit Tigers",
+      "path": "baseball/teams/us/detroit-tigers.png"
+    },
+    "houston-astros": {
+      "name": "Houston Astros",
+      "path": "baseball/teams/us/houston-astros.png"
+    },
+    "kansas-city-royals": {
+      "name": "Kansas City Royals",
+      "path": "baseball/teams/us/kansas-city-royals.png"
+    },
+    "los-angeles-angels": {
+      "name": "Los Angeles Angels",
+      "path": "baseball/teams/us/los-angeles-angels.png"
+    },
+    "los-angeles-dodgers": {
+      "name": "Los Angeles Dodgers",
+      "path": "baseball/teams/us/los-angeles-dodgers.png"
+    },
+    "miami-marlins": {
+      "name": "Miami Marlins",
+      "path": "baseball/teams/us/miami-marlins.png"
+    },
+    "milwaukee-brewers": {
+      "name": "Milwaukee Brewers",
+      "path": "baseball/teams/us/milwaukee-brewers.png"
+    },
+    "minnesota-twins": {
+      "name": "Minnesota Twins",
+      "path": "baseball/teams/us/minnesota-twins.png"
+    },
+    "new-york-mets": {
+      "name": "New York Mets",
+      "path": "baseball/teams/us/new-york-mets.png"
+    },
+    "new-york-yankees": {
+      "name": "New York Yankees",
+      "path": "baseball/teams/us/new-york-yankees.png"
+    },
+    "philadelphia-phillies": {
+      "name": "Philadelphia Phillies",
+      "path": "baseball/teams/us/philadelphia-phillies.png"
+    },
+    "pittsburgh-pirates": {
+      "name": "Pittsburgh Pirates",
+      "path": "baseball/teams/us/pittsburgh-pirates.png"
+    },
+    "san-diego-padres": {
+      "name": "San Diego Padres",
+      "path": "baseball/teams/us/san-diego-padres.png"
+    },
+    "san-francisco-giants": {
+      "name": "San Francisco Giants",
+      "path": "baseball/teams/us/san-francisco-giants.png"
+    },
+    "seattle-mariners": {
+      "name": "Seattle Mariners",
+      "path": "baseball/teams/us/seattle-mariners.png"
+    },
+    "st-louis-cardinals": {
+      "name": "St. Louis Cardinals",
+      "path": "baseball/teams/us/st-louis-cardinals.png"
+    },
+    "tampa-bay-rays": {
+      "name": "Tampa Bay Rays",
+      "path": "baseball/teams/us/tampa-bay-rays.png"
+    },
+    "texas-rangers": {
+      "name": "Texas Rangers",
+      "path": "baseball/teams/us/texas-rangers.png"
+    },
+    "toronto-blue-jays": {
+      "name": "Toronto Blue Jays",
+      "path": "baseball/teams/ca/toronto-blue-jays.png"
+    },
+    "washington-nationals": {
+      "name": "Washington Nationals",
+      "path": "baseball/teams/us/washington-nationals.png"
+    }
+  },
   "fighters": {},
   "competitions": {
     "uefa-champions-league": {
@@ -1307,6 +1835,10 @@
       "name": "FC Augsburg",
       "path": "football/clubs/de/augsburg.png"
     },
+    "bahlinger": {
+      "name": "Bahlinger SC",
+      "path": "football/clubs/de/bahlinger.png"
+    },
     "bayer-leverkusen": {
       "name": "Bayer 04 Leverkusen",
       "path": "football/clubs/de/bayer-leverkusen.png"
@@ -1323,25 +1855,69 @@
       "name": "Borussia Mönchengladbach",
       "path": "football/clubs/de/borussia-monchengladbach.png"
     },
+    "carl-zeiss-jena": {
+      "name": "FC Carl Zeiss Jena",
+      "path": "football/clubs/de/carl-zeiss-jena.png"
+    },
     "darmstadt": {
       "name": "SV Darmstadt 98",
       "path": "football/clubs/de/darmstadt.png"
+    },
+    "dynamo-dresden": {
+      "name": "Dynamo Dresden",
+      "path": "football/clubs/de/dynamo-dresden.png"
     },
     "eintracht-frankfurt": {
       "name": "Eintracht Frankfurt",
       "path": "football/clubs/de/eintracht-frankfurt.png"
     },
+    "eintracht-trier": {
+      "name": "Eintracht Trier",
+      "path": "football/clubs/de/eintracht-trier.png"
+    },
+    "energie-cottbus": {
+      "name": "Energie Cottbus",
+      "path": "football/clubs/de/energie-cottbus.png"
+    },
+    "erzgebirge-aue": {
+      "name": "FC Erzgebirge Aue",
+      "path": "football/clubs/de/erzgebirge-aue.png"
+    },
     "fc-heidenheim": {
       "name": "1.FC Heidenheim 1846",
       "path": "football/clubs/de/fc-heidenheim.png"
+    },
+    "fortuna-dusseldorf": {
+      "name": "Fortuna Düsseldorf",
+      "path": "football/clubs/de/fortuna-dusseldorf.png"
     },
     "freiburg": {
       "name": "SC Freiburg",
       "path": "football/clubs/de/freiburg.png"
     },
+    "hallescher": {
+      "name": "Hallescher FC",
+      "path": "football/clubs/de/hallescher.png"
+    },
     "hamburger-sv": {
       "name": "Hamburger SV",
       "path": "football/clubs/de/hamburger-sv.png"
+    },
+    "hannover-96": {
+      "name": "Hannover 96",
+      "path": "football/clubs/de/hannover-96.png"
+    },
+    "hansa-rostock": {
+      "name": "Hansa Rostock",
+      "path": "football/clubs/de/hansa-rostock.png"
+    },
+    "hebc-hamburg": {
+      "name": "HEBC Hamburg",
+      "path": "football/clubs/de/hebc-hamburg.png"
+    },
+    "hemelingen": {
+      "name": "Hemelingen",
+      "path": "football/clubs/de/hemelingen.png"
     },
     "hertha-bsc": {
       "name": "Hertha BSC",
@@ -1355,41 +1931,117 @@
       "name": "Holstein Kiel",
       "path": "football/clubs/de/holstein-kiel.png"
     },
+    "kaiserslautern": {
+      "name": "Kaiserslautern",
+      "path": "football/clubs/de/kaiserslautern.png"
+    },
+    "karlsruher": {
+      "name": "Karlsruher SC",
+      "path": "football/clubs/de/karlsruher.png"
+    },
     "koln": {
       "name": "1.FC Köln",
       "path": "football/clubs/de/koln.png"
+    },
+    "krieschow": {
+      "name": "VFB Krieschow",
+      "path": "football/clubs/de/krieschow.png"
+    },
+    "luneburger-hansa": {
+      "name": "Lüneburger SK Hansa",
+      "path": "football/clubs/de/luneburger-hansa.png"
+    },
+    "magdeburg": {
+      "name": "1. FC Magdeburg",
+      "path": "football/clubs/de/magdeburg.png"
     },
     "mainz-05": {
       "name": "1.FSV Mainz 05",
       "path": "football/clubs/de/mainz-05.png"
     },
+    "msv-duisburg": {
+      "name": "MSV Duisburg",
+      "path": "football/clubs/de/msv-duisburg.png"
+    },
+    "nurnberg": {
+      "name": "1. FC Nürnberg",
+      "path": "football/clubs/de/nurnberg.png"
+    },
+    "osnabruck": {
+      "name": "VfL Osnabruck",
+      "path": "football/clubs/de/osnabruck.png"
+    },
     "paderborn": {
       "name": "SC Paderborn 07",
       "path": "football/clubs/de/paderborn.png"
+    },
+    "phonix-lubeck": {
+      "name": "1. FC Phönix Lübeck",
+      "path": "football/clubs/de/phonix-lubeck.png"
+    },
+    "preussen-munster": {
+      "name": "Preußen Münster",
+      "path": "football/clubs/de/preussen-munster.png"
     },
     "rb-leipzig": {
       "name": "RB Leipzig",
       "path": "football/clubs/de/rb-leipzig.png"
     },
+    "rot-weiss-essen": {
+      "name": "Rot-Weiss Essen",
+      "path": "football/clubs/de/rot-weiss-essen.png"
+    },
+    "saarbrucken": {
+      "name": "Saarbrücken",
+      "path": "football/clubs/de/saarbrucken.png"
+    },
     "schalke-04": {
       "name": "FC Schalke 04",
       "path": "football/clubs/de/schalke-04.png"
+    },
+    "sg-sonnenhof-grossaspach": {
+      "name": "SG Sonnenhof Großaspach",
+      "path": "football/clubs/de/sg-sonnenhof-grossaspach.png"
     },
     "spvgg-greuther-furth": {
       "name": "Greuther Fürth",
       "path": "football/clubs/de/spvgg-greuther-furth.png"
     },
+    "ssv-jeddeloh-ii": {
+      "name": "SSV Jeddeloh II",
+      "path": "football/clubs/de/ssv-jeddeloh-ii.png"
+    },
     "st-pauli": {
       "name": "FC St. Pauli",
       "path": "football/clubs/de/st-pauli.png"
+    },
+    "st-tonis": {
+      "name": "SC St. Tönis",
+      "path": "football/clubs/de/st-tonis.png"
     },
     "sv-elversberg": {
       "name": "SV 07 Elversberg",
       "path": "football/clubs/de/sv-elversberg.png"
     },
+    "tsv-1860-munich": {
+      "name": "TSV 1860 Munich",
+      "path": "football/clubs/de/tsv-1860-munich.png"
+    },
+    "tsv-eintracht-braunschweig": {
+      "name": "TSV Eintracht Braunschweig",
+      "path": "football/clubs/de/tsv-eintracht-braunschweig.png"
+    },
+    "tsv-schott-mainz": {
+      "name": "TSV Schott Mainz",
+      "path": "football/clubs/de/tsv-schott-mainz.png"
+    },
     "union-berlin": {
       "name": "1.FC Union Berlin",
       "path": "football/clubs/de/union-berlin.png"
+    },
+    "verl": {
+      "name": "SC Verl",
+      "path": "football/clubs/de/verl.png"
     },
     "vfb-stuttgart": {
       "name": "VfB Stuttgart",
@@ -1399,13 +2051,37 @@
       "name": "VfL Bochum",
       "path": "football/clubs/de/vfl-bochum.png"
     },
+    "viktoria-koln": {
+      "name": "Viktoria Köln",
+      "path": "football/clubs/de/viktoria-koln.png"
+    },
+    "vsg-altglienicke": {
+      "name": "VSG Altglienicke",
+      "path": "football/clubs/de/vsg-altglienicke.png"
+    },
+    "waldhof-mannheim": {
+      "name": "SV Waldhof Mannheim",
+      "path": "football/clubs/de/waldhof-mannheim.png"
+    },
+    "wehen-wiesbaden": {
+      "name": "SV Wehen Wiesbaden",
+      "path": "football/clubs/de/wehen-wiesbaden.png"
+    },
     "werder-bremen": {
       "name": "SV Werder Bremen",
       "path": "football/clubs/de/werder-bremen.png"
     },
+    "westfalia-rhynern": {
+      "name": "Westfalia Rhynern",
+      "path": "football/clubs/de/westfalia-rhynern.png"
+    },
     "wolfsburg": {
       "name": "VfL Wolfsburg",
       "path": "football/clubs/de/wolfsburg.png"
+    },
+    "wurzburger-kickers": {
+      "name": "Würzburger Kickers",
+      "path": "football/clubs/de/wurzburger-kickers.png"
     },
     "aab": {
       "name": "Aalborg BK",
@@ -1559,49 +2235,245 @@
       "name": "Vinotinto Ecuador",
       "path": "football/clubs/ec/vinotinto.png"
     },
+    "ad-ceuta": {
+      "name": "AD Ceuta FC",
+      "path": "football/clubs/es/ad-ceuta.png"
+    },
+    "ad-sporting-hortaleza": {
+      "name": "AD Sporting Hortaleza",
+      "path": "football/clubs/es/ad-sporting-hortaleza.png"
+    },
+    "ae-prat": {
+      "name": "AE Prat",
+      "path": "football/clubs/es/ae-prat.png"
+    },
+    "aguilas": {
+      "name": "Águilas FC",
+      "path": "football/clubs/es/aguilas.png"
+    },
     "alaves": {
       "name": "Deportivo Alavés",
       "path": "football/clubs/es/alaves.png"
+    },
+    "albacete-balompie": {
+      "name": "Albacete Balompié",
+      "path": "football/clubs/es/albacete-balompie.png"
+    },
+    "alcoyano": {
+      "name": "CD Alcoyano",
+      "path": "football/clubs/es/alcoyano.png"
     },
     "almeria": {
       "name": "UD Almería",
       "path": "football/clubs/es/almeria.png"
     },
+    "amorebieta": {
+      "name": "SD Amorebieta",
+      "path": "football/clubs/es/amorebieta.png"
+    },
+    "anaitasuna": {
+      "name": "CD Anaitasuna",
+      "path": "football/clubs/es/anaitasuna.png"
+    },
+    "andorra": {
+      "name": "FC Andorra",
+      "path": "football/clubs/es/andorra.png"
+    },
+    "antequera": {
+      "name": "Antequera CF",
+      "path": "football/clubs/es/antequera.png"
+    },
+    "arosa": {
+      "name": "Arosa SC",
+      "path": "football/clubs/es/arosa.png"
+    },
     "athletic-club": {
       "name": "Athletic Bilbao",
       "path": "football/clubs/es/athletic-club.png"
+    },
+    "atletico-baleares": {
+      "name": "CD Atlético Baleares",
+      "path": "football/clubs/es/atletico-baleares.png"
+    },
+    "atletico-calatayud": {
+      "name": "Atlético Calatayud",
+      "path": "football/clubs/es/atletico-calatayud.png"
     },
     "atletico-madrid": {
       "name": "Atlético de Madrid",
       "path": "football/clubs/es/atletico-madrid.png"
     },
+    "atletico-melilla": {
+      "name": "Atlético Melilla CF",
+      "path": "football/clubs/es/atletico-melilla.png"
+    },
+    "atletico-paso": {
+      "name": "CD Atlético Paso",
+      "path": "football/clubs/es/atletico-paso.png"
+    },
+    "atletico-tordesillas": {
+      "name": "Atlético Tordesillas",
+      "path": "football/clubs/es/atletico-tordesillas.png"
+    },
+    "atletico-union-guimar": {
+      "name": "Atlético Unión Güímar",
+      "path": "football/clubs/es/atletico-union-guimar.png"
+    },
+    "auriense": {
+      "name": "Auriense CA",
+      "path": "football/clubs/es/auriense.png"
+    },
+    "badajoz": {
+      "name": "CD Badajoz",
+      "path": "football/clubs/es/badajoz.png"
+    },
+    "barakaldo": {
+      "name": "Barakaldo CF",
+      "path": "football/clubs/es/barakaldo.png"
+    },
     "barcelona": {
       "name": "FC Barcelona",
       "path": "football/clubs/es/barcelona.png"
+    },
+    "baztan-ke": {
+      "name": "CD Baztán KE",
+      "path": "football/clubs/es/baztan-ke.png"
+    },
+    "burgos": {
+      "name": "Burgos CF",
+      "path": "football/clubs/es/burgos.png"
     },
     "cadiz": {
       "name": "Cádiz CF",
       "path": "football/clubs/es/cadiz.png"
     },
+    "calamocha": {
+      "name": "CF Calamocha",
+      "path": "football/clubs/es/calamocha.png"
+    },
+    "cartagena": {
+      "name": "FC Cartagena",
+      "path": "football/clubs/es/cartagena.png"
+    },
+    "castellon": {
+      "name": "CD Castellón",
+      "path": "football/clubs/es/castellon.png"
+    },
+    "castellonense": {
+      "name": "UD Castellonense",
+      "path": "football/clubs/es/castellonense.png"
+    },
+    "cda-navalcarnero": {
+      "name": "CDA Navalcarnero",
+      "path": "football/clubs/es/cda-navalcarnero.png"
+    },
+    "ce-europa": {
+      "name": "CE Europa",
+      "path": "football/clubs/es/ce-europa.png"
+    },
+    "ce-manresa": {
+      "name": "CE Manresa",
+      "path": "football/clubs/es/ce-manresa.png"
+    },
+    "ce-sabadell": {
+      "name": "CE Sabadell FC",
+      "path": "football/clubs/es/ce-sabadell.png"
+    },
     "celta": {
       "name": "Celta de Vigo",
       "path": "football/clubs/es/celta.png"
+    },
+    "ceuta-6-de-junio": {
+      "name": "CD Ceuta 6 de Junio",
+      "path": "football/clubs/es/ceuta-6-de-junio.png"
+    },
+    "cieza": {
+      "name": "CD Cieza",
+      "path": "football/clubs/es/cieza.png"
+    },
+    "ciudad-lucena": {
+      "name": "CD Ciudad Lucena",
+      "path": "football/clubs/es/ciudad-lucena.png"
+    },
+    "club-portugalete": {
+      "name": "Club Portugalete",
+      "path": "football/clubs/es/club-portugalete.png"
+    },
+    "cordoba": {
+      "name": "Córdoba CF",
+      "path": "football/clubs/es/cordoba.png"
+    },
+    "coria": {
+      "name": "CD Coria",
+      "path": "football/clubs/es/coria.png"
+    },
+    "coruxo": {
+      "name": "Coruxo FC",
+      "path": "football/clubs/es/coruxo.png"
+    },
+    "covadonga": {
+      "name": "CD Covadonga",
+      "path": "football/clubs/es/covadonga.png"
+    },
+    "cp-mijas-las-lagunas": {
+      "name": "CP Mijas-Las Lagunas",
+      "path": "football/clubs/es/cp-mijas-las-lagunas.png"
+    },
+    "cp-talayuela": {
+      "name": "CP Talayuela",
+      "path": "football/clubs/es/cp-talayuela.png"
+    },
+    "cs-puertollano": {
+      "name": "CS Puertollano CF",
+      "path": "football/clubs/es/cs-puertollano.png"
+    },
+    "cuarte": {
+      "name": "CD Cuarte",
+      "path": "football/clubs/es/cuarte.png"
+    },
+    "cyd-leonesa": {
+      "name": "CyD Leonesa",
+      "path": "football/clubs/es/cyd-leonesa.png"
     },
     "deportivo-la-coruna": {
       "name": "Deportivo A Coruña",
       "path": "football/clubs/es/deportivo-la-coruna.png"
     },
+    "don-benito": {
+      "name": "CD Don Benito",
+      "path": "football/clubs/es/don-benito.png"
+    },
+    "eibar": {
+      "name": "SD Eibar",
+      "path": "football/clubs/es/eibar.png"
+    },
     "elche": {
       "name": "Elche CF",
       "path": "football/clubs/es/elche.png"
+    },
+    "eldense": {
+      "name": "CD Eldense",
+      "path": "football/clubs/es/eldense.png"
+    },
+    "emers-sporting-de-alcazar": {
+      "name": "EMERS Sporting de Alcázar CF",
+      "path": "football/clubs/es/emers-sporting-de-alcazar.png"
     },
     "espanyol": {
       "name": "RCD Espanyol Barcelona",
       "path": "football/clubs/es/espanyol.png"
     },
+    "extremadura": {
+      "name": "CD Extremadura",
+      "path": "football/clubs/es/extremadura.png"
+    },
     "getafe": {
       "name": "Getafe CF",
       "path": "football/clubs/es/getafe.png"
+    },
+    "gimnastica-segoviana": {
+      "name": "Gimnástica Segoviana CF",
+      "path": "football/clubs/es/gimnastica-segoviana.png"
     },
     "girona": {
       "name": "Girona FC",
@@ -1610,6 +2482,18 @@
     "granada": {
       "name": "Granada CF",
       "path": "football/clubs/es/granada.png"
+    },
+    "guijuelo": {
+      "name": "CD Guijuelo",
+      "path": "football/clubs/es/guijuelo.png"
+    },
+    "huesca": {
+      "name": "SD Huesca",
+      "path": "football/clubs/es/huesca.png"
+    },
+    "laredo": {
+      "name": "CD Laredo",
+      "path": "football/clubs/es/laredo.png"
     },
     "las-palmas": {
       "name": "UD Las Palmas",
@@ -1623,6 +2507,14 @@
       "name": "Levante UD",
       "path": "football/clubs/es/levante.png"
     },
+    "llanera": {
+      "name": "UD Llanera",
+      "path": "football/clubs/es/llanera.png"
+    },
+    "logrones": {
+      "name": "UD Logroñés",
+      "path": "football/clubs/es/logrones.png"
+    },
     "malaga": {
       "name": "Málaga CF",
       "path": "football/clubs/es/malaga.png"
@@ -1631,25 +2523,89 @@
       "name": "RCD Mallorca",
       "path": "football/clubs/es/mallorca.png"
     },
+    "manacor": {
+      "name": "CD Manacor",
+      "path": "football/clubs/es/manacor.png"
+    },
+    "maracena": {
+      "name": "UD Maracena",
+      "path": "football/clubs/es/maracena.png"
+    },
+    "minera": {
+      "name": "CD Minera",
+      "path": "football/clubs/es/minera.png"
+    },
+    "mirandes": {
+      "name": "CD Mirandés",
+      "path": "football/clubs/es/mirandes.png"
+    },
+    "noja": {
+      "name": "SD Noja",
+      "path": "football/clubs/es/noja.png"
+    },
+    "numancia-de-soria": {
+      "name": "CD Numancia de Soria",
+      "path": "football/clubs/es/numancia-de-soria.png"
+    },
     "osasuna": {
       "name": "CA Osasuna",
       "path": "football/clubs/es/osasuna.png"
+    },
+    "ourense": {
+      "name": "UD Ourense",
+      "path": "football/clubs/es/ourense.png"
     },
     "oviedo": {
       "name": "Real Oviedo",
       "path": "football/clubs/es/oviedo.png"
     },
+    "pamplona": {
+      "name": "CD Pamplona",
+      "path": "football/clubs/es/pamplona.png"
+    },
+    "pena-sport": {
+      "name": "Peña Sport FC",
+      "path": "football/clubs/es/pena-sport.png"
+    },
+    "pinatar": {
+      "name": "UD Pinatar",
+      "path": "football/clubs/es/pinatar.png"
+    },
+    "poblense": {
+      "name": "UD Poblense",
+      "path": "football/clubs/es/poblense.png"
+    },
+    "ponferradina": {
+      "name": "SD Ponferradina",
+      "path": "football/clubs/es/ponferradina.png"
+    },
+    "pontevedra": {
+      "name": "Pontevedra CF",
+      "path": "football/clubs/es/pontevedra.png"
+    },
     "racing": {
       "name": "Racing Santander",
       "path": "football/clubs/es/racing.png"
+    },
+    "rayo-majadahonda": {
+      "name": "CF Rayo Majadahonda",
+      "path": "football/clubs/es/rayo-majadahonda.png"
     },
     "rayo-vallecano": {
       "name": "Rayo Vallecano",
       "path": "football/clubs/es/rayo-vallecano.png"
     },
+    "real-avila": {
+      "name": "Real Ávila CF",
+      "path": "football/clubs/es/real-avila.png"
+    },
     "real-betis": {
       "name": "Real Betis Balompié",
       "path": "football/clubs/es/real-betis.png"
+    },
+    "real-jaen": {
+      "name": "Real Jaén CF",
+      "path": "football/clubs/es/real-jaen.png"
     },
     "real-madrid": {
       "name": "Real Madrid",
@@ -1659,9 +2615,105 @@
       "name": "Real Sociedad",
       "path": "football/clubs/es/real-sociedad.png"
     },
+    "real-sporting-de-gijon": {
+      "name": "Real Sporting de Gijón",
+      "path": "football/clubs/es/real-sporting-de-gijon.png"
+    },
+    "real-union-club": {
+      "name": "Real Unión Club",
+      "path": "football/clubs/es/real-union-club.png"
+    },
+    "real-zaragoza": {
+      "name": "Real Zaragoza",
+      "path": "football/clubs/es/real-zaragoza.png"
+    },
+    "recreativo-de-huelva": {
+      "name": "RC Recreativo de Huelva",
+      "path": "football/clubs/es/recreativo-de-huelva.png"
+    },
+    "reus-reddis": {
+      "name": "Reus FC Reddis",
+      "path": "football/clubs/es/reus-reddis.png"
+    },
+    "ribadesella": {
+      "name": "Ribadesella CF",
+      "path": "football/clubs/es/ribadesella.png"
+    },
+    "rs-gimnastica-de-torrelavega": {
+      "name": "RS Gimnástica de Torrelavega",
+      "path": "football/clubs/es/rs-gimnastica-de-torrelavega.png"
+    },
+    "rsd-alcala": {
+      "name": "RSD Alcalá",
+      "path": "football/clubs/es/rsd-alcala.png"
+    },
+    "salamanca-uds": {
+      "name": "Salamanca CF UDS",
+      "path": "football/clubs/es/salamanca-uds.png"
+    },
+    "san-jose": {
+      "name": "CD San José",
+      "path": "football/clubs/es/san-jose.png"
+    },
+    "san-rafael": {
+      "name": "CF San Rafael",
+      "path": "football/clubs/es/san-rafael.png"
+    },
+    "san-sebastian-de-los-reyes": {
+      "name": "UD San Sebastián de los Reyes",
+      "path": "football/clubs/es/san-sebastian-de-los-reyes.png"
+    },
+    "sestao-river-club": {
+      "name": "Sestao River Club",
+      "path": "football/clubs/es/sestao-river-club.png"
+    },
     "sevilla": {
       "name": "Sevilla FC",
       "path": "football/clubs/es/sevilla.png"
+    },
+    "tarancon": {
+      "name": "CD Tarancón",
+      "path": "football/clubs/es/tarancon.png"
+    },
+    "tedeon": {
+      "name": "CD Tedeón",
+      "path": "football/clubs/es/tedeon.png"
+    },
+    "tenerife": {
+      "name": "CD Tenerife",
+      "path": "football/clubs/es/tenerife.png"
+    },
+    "trival-valderas-alcorcon": {
+      "name": "CF Trival Valderas Alcorcón",
+      "path": "football/clubs/es/trival-valderas-alcorcon.png"
+    },
+    "tudelano": {
+      "name": "CD Tudelano",
+      "path": "football/clubs/es/tudelano.png"
+    },
+    "ub-conquense": {
+      "name": "UB Conquense",
+      "path": "football/clubs/es/ub-conquense.png"
+    },
+    "ub-lebrijana": {
+      "name": "UB Lebrijana",
+      "path": "football/clubs/es/ub-lebrijana.png"
+    },
+    "ue-sant-andreu": {
+      "name": "UE Sant Andreu",
+      "path": "football/clubs/es/ue-sant-andreu.png"
+    },
+    "ue-tavernes-de-la-valldigna": {
+      "name": "CF UE Tavernes de la Valldigna",
+      "path": "football/clubs/es/ue-tavernes-de-la-valldigna.png"
+    },
+    "unionistas-de-salamanca": {
+      "name": "Unionistas de Salamanca CF",
+      "path": "football/clubs/es/unionistas-de-salamanca.png"
+    },
+    "utebo": {
+      "name": "Utebo FC",
+      "path": "football/clubs/es/utebo.png"
     },
     "valencia": {
       "name": "Valencia CF",
@@ -1671,45 +2723,381 @@
       "name": "Real Valladolid CF",
       "path": "football/clubs/es/valladolid.png"
     },
+    "varea": {
+      "name": "CD Varea",
+      "path": "football/clubs/es/varea.png"
+    },
     "villarreal": {
       "name": "Villarreal CF",
       "path": "football/clubs/es/villarreal.png"
+    },
+    "xerez": {
+      "name": "Xerez CD",
+      "path": "football/clubs/es/xerez.png"
+    },
+    "zamora-es": {
+      "name": "Zamora CF",
+      "path": "football/clubs/es/zamora-es.png"
+    },
+    "ac-amiens": {
+      "name": "AC Amiens (FFF 13512)",
+      "path": "football/clubs/fr/ac-amiens.png"
+    },
+    "ac-cambrai": {
+      "name": "AC Cambrai",
+      "path": "football/clubs/fr/ac-cambrai.png"
+    },
+    "af-virois": {
+      "name": "AF Virois",
+      "path": "football/clubs/fr/af-virois.png"
+    },
+    "afc-creil": {
+      "name": "AFC Creil",
+      "path": "football/clubs/fr/afc-creil.png"
     },
     "ajaccio": {
       "name": "AC Ajaccio",
       "path": "football/clubs/fr/ajaccio.png"
     },
+    "albi-marssac-tarn-football-asptt": {
+      "name": "Albi Marssac Tarn Football ASPTT",
+      "path": "football/clubs/fr/albi-marssac-tarn-football-asptt.png"
+    },
+    "andrezieux-boutheon-fc": {
+      "name": "Andrézieux-Bouthéon FC",
+      "path": "football/clubs/fr/andrezieux-boutheon-fc.png"
+    },
     "angers": {
       "name": "Angers SCO",
       "path": "football/clubs/fr/angers.png"
+    },
+    "angouleme-charente-fc": {
+      "name": "Angoulême Charente FC",
+      "path": "football/clubs/fr/angouleme-charente-fc.png"
+    },
+    "arras-fa": {
+      "name": "Arras FA",
+      "path": "football/clubs/fr/arras-fa.png"
+    },
+    "as-aix-en-provence": {
+      "name": "AS Aix-en-Provence",
+      "path": "football/clubs/fr/as-aix-en-provence.png"
+    },
+    "as-baume-les-dames": {
+      "name": "AS Baume-les-Dames",
+      "path": "football/clubs/fr/as-baume-les-dames.png"
+    },
+    "as-beauvais-oise": {
+      "name": "AS Beauvais Oise",
+      "path": "football/clubs/fr/as-beauvais-oise.png"
+    },
+    "as-cannes": {
+      "name": "AS Cannes",
+      "path": "football/clubs/fr/as-cannes.png"
+    },
+    "as-furiani-agliani": {
+      "name": "AS Furiani-Agliani",
+      "path": "football/clubs/fr/as-furiani-agliani.png"
+    },
+    "as-ifs": {
+      "name": "AS Ifs",
+      "path": "football/clubs/fr/as-ifs.png"
+    },
+    "as-illzach-modenheim": {
+      "name": "AS Illzach Modenheim",
+      "path": "football/clubs/fr/as-illzach-modenheim.png"
     },
     "as-monaco": {
       "name": "AS Monaco",
       "path": "football/clubs/fr/as-monaco.png"
     },
+    "as-nancy-lorraine": {
+      "name": "AS Nancy Lorraine",
+      "path": "football/clubs/fr/as-nancy-lorraine.png"
+    },
+    "as-porto-vecchio": {
+      "name": "AS Porto Vecchio",
+      "path": "football/clubs/fr/as-porto-vecchio.png"
+    },
     "as-saint-etienne": {
       "name": "AS Saint-Étienne",
       "path": "football/clubs/fr/as-saint-etienne.png"
+    },
+    "as-strasbourg": {
+      "name": "AS Strasbourg",
+      "path": "football/clubs/fr/as-strasbourg.png"
+    },
+    "as-talange": {
+      "name": "AS Talange",
+      "path": "football/clubs/fr/as-talange.png"
+    },
+    "asca-wittelsheim": {
+      "name": "ASCA Wittelsheim",
+      "path": "football/clubs/fr/asca-wittelsheim.png"
+    },
+    "asptt-caen-football": {
+      "name": "ASPTT Caen Football",
+      "path": "football/clubs/fr/asptt-caen-football.png"
     },
     "auxerre": {
       "name": "AJ Auxerre",
       "path": "football/clubs/fr/auxerre.png"
     },
+    "avenir-foot-lozere": {
+      "name": "Avenir Foot Lozère",
+      "path": "football/clubs/fr/avenir-foot-lozere.png"
+    },
+    "avoine-olympique-chinon-cinais": {
+      "name": "Avoine Olympique Chinon Cinais",
+      "path": "football/clubs/fr/avoine-olympique-chinon-cinais.png"
+    },
+    "balma-sc": {
+      "name": "Balma SC",
+      "path": "football/clubs/fr/balma-sc.png"
+    },
+    "bastia": {
+      "name": "Bastia",
+      "path": "football/clubs/fr/bastia.png"
+    },
+    "bergerac-perigord-fc": {
+      "name": "Bergerac Périgord FC",
+      "path": "football/clubs/fr/bergerac-perigord-fc.png"
+    },
+    "biesheim": {
+      "name": "Biesheim",
+      "path": "football/clubs/fr/biesheim.png"
+    },
+    "blagnac-fc": {
+      "name": "Blagnac FC",
+      "path": "football/clubs/fr/blagnac-fc.png"
+    },
     "bordeaux": {
       "name": "G. Bordeaux",
       "path": "football/clubs/fr/bordeaux.png"
+    },
+    "bourg-peronnas": {
+      "name": "Bourg-Peronnas",
+      "path": "football/clubs/fr/bourg-peronnas.png"
+    },
+    "bourges-fc": {
+      "name": "Bourges FC",
+      "path": "football/clubs/fr/bourges-fc.png"
     },
     "brest": {
       "name": "Stade Brestois 29",
       "path": "football/clubs/fr/brest.png"
     },
+    "c-chartres-football": {
+      "name": "C'Chartres Football",
+      "path": "football/clubs/fr/c-chartres-football.png"
+    },
+    "canet-roussillon-fc": {
+      "name": "Canet Roussillon FC",
+      "path": "football/clubs/fr/canet-roussillon-fc.png"
+    },
+    "chambery-savoie-football": {
+      "name": "Chambéry Savoie Football",
+      "path": "football/clubs/fr/chambery-savoie-football.png"
+    },
     "clermont-foot": {
       "name": "Clermont Foot 63",
       "path": "football/clubs/fr/clermont-foot.png"
     },
+    "cms-oissel": {
+      "name": "CMS Oissel",
+      "path": "football/clubs/fr/cms-oissel.png"
+    },
+    "concarneau": {
+      "name": "Concarneau",
+      "path": "football/clubs/fr/concarneau.png"
+    },
+    "cs-blenod": {
+      "name": "CS Blénod",
+      "path": "football/clubs/fr/cs-blenod.png"
+    },
+    "cs-sedan-ardennes": {
+      "name": "CS Sedan Ardennes",
+      "path": "football/clubs/fr/cs-sedan-ardennes.png"
+    },
+    "dieppe": {
+      "name": "Dieppe",
+      "path": "football/clubs/fr/dieppe.png"
+    },
+    "dijon-fco": {
+      "name": "Dijon FCO",
+      "path": "football/clubs/fr/dijon-fco.png"
+    },
+    "dinan-lehon-fc": {
+      "name": "Dinan Léhon FC",
+      "path": "football/clubs/fr/dinan-lehon-fc.png"
+    },
+    "dunkerque": {
+      "name": "Dunkerque",
+      "path": "football/clubs/fr/dunkerque.png"
+    },
+    "ecommoy-fc": {
+      "name": "Écommoy FC",
+      "path": "football/clubs/fr/ecommoy-fc.png"
+    },
+    "es-segre-ha-football": {
+      "name": "ES Segré HA Football",
+      "path": "football/clubs/fr/es-segre-ha-football.png"
+    },
+    "evreux-fc-27": {
+      "name": "Évreux FC 27",
+      "path": "football/clubs/fr/evreux-fc-27.png"
+    },
+    "fc-alberes-argeles": {
+      "name": "FC Albères Argelès",
+      "path": "football/clubs/fr/fc-alberes-argeles.png"
+    },
+    "fc-argentan": {
+      "name": "FC Argentan",
+      "path": "football/clubs/fr/fc-argentan.png"
+    },
+    "fc-balagne": {
+      "name": "FC Balagne",
+      "path": "football/clubs/fr/fc-balagne.png"
+    },
+    "fc-bassin-d-arcachon": {
+      "name": "FC Bassin d'Arcachon",
+      "path": "football/clubs/fr/fc-bassin-d-arcachon.png"
+    },
+    "fc-bischwiller": {
+      "name": "FC Bischwiller",
+      "path": "football/clubs/fr/fc-bischwiller.png"
+    },
+    "fc-borgo": {
+      "name": "FC Borgo",
+      "path": "football/clubs/fr/fc-borgo.png"
+    },
+    "fc-bourgoin-jallieu": {
+      "name": "FC Bourgoin-Jallieu",
+      "path": "football/clubs/fr/fc-bourgoin-jallieu.png"
+    },
+    "fc-bressuire": {
+      "name": "FC Bressuire",
+      "path": "football/clubs/fr/fc-bressuire.png"
+    },
+    "fc-challans": {
+      "name": "FC Challans",
+      "path": "football/clubs/fr/fc-challans.png"
+    },
+    "fc-chalon": {
+      "name": "FC Chalon",
+      "path": "football/clubs/fr/fc-chalon.png"
+    },
+    "fc-chambly-oise": {
+      "name": "FC Chambly Oise",
+      "path": "football/clubs/fr/fc-chambly-oise.png"
+    },
+    "fc-chauray": {
+      "name": "FC Chauray",
+      "path": "football/clubs/fr/fc-chauray.png"
+    },
+    "fc-fleury-91": {
+      "name": "FC Fleury 91",
+      "path": "football/clubs/fr/fc-fleury-91.png"
+    },
+    "fc-istres": {
+      "name": "FC Istres",
+      "path": "football/clubs/fr/fc-istres.png"
+    },
+    "fc-marmande-47": {
+      "name": "FC Marmande 47",
+      "path": "football/clubs/fr/fc-marmande-47.png"
+    },
+    "fc-martigues": {
+      "name": "FC Martigues",
+      "path": "football/clubs/fr/fc-martigues.png"
+    },
     "fc-metz": {
       "name": "FC Metz",
       "path": "football/clubs/fr/fc-metz.png"
+    },
+    "fc-montlouis": {
+      "name": "FC Montlouis",
+      "path": "football/clubs/fr/fc-montlouis.png"
+    },
+    "fc-mulhouse": {
+      "name": "FC Mulhouse",
+      "path": "football/clubs/fr/fc-mulhouse.png"
+    },
+    "fc-sens": {
+      "name": "FC Sens (FFF 607)",
+      "path": "football/clubs/fr/fc-sens.png"
+    },
+    "fc-vaulx-en-velin": {
+      "name": "FC Vaulx-en-Velin",
+      "path": "football/clubs/fr/fc-vaulx-en-velin.png"
+    },
+    "fcsr-haguenau": {
+      "name": "FCSR Haguenau",
+      "path": "football/clubs/fr/fcsr-haguenau.png"
+    },
+    "fontenay-foot": {
+      "name": "Fontenay Foot",
+      "path": "football/clubs/fr/fontenay-foot.png"
+    },
+    "fusc-bois-guillaume": {
+      "name": "FUSC Bois-Guillaume",
+      "path": "football/clubs/fr/fusc-bois-guillaume.png"
+    },
+    "gap-foot-05": {
+      "name": "Gap Foot 05",
+      "path": "football/clubs/fr/gap-foot-05.png"
+    },
+    "gfa-rumilly-vallieres": {
+      "name": "GFA Rumilly Vallières",
+      "path": "football/clubs/fr/gfa-rumilly-vallieres.png"
+    },
+    "grenoble": {
+      "name": "Grenoble",
+      "path": "football/clubs/fr/grenoble.png"
+    },
+    "guingamp": {
+      "name": "Guingamp",
+      "path": "football/clubs/fr/guingamp.png"
+    },
+    "hauts-lyonnais": {
+      "name": "Hauts Lyonnais",
+      "path": "football/clubs/fr/hauts-lyonnais.png"
+    },
+    "hyeres-fc": {
+      "name": "Hyères FC",
+      "path": "football/clubs/fr/hyeres-fc.png"
+    },
+    "is-selongey-football": {
+      "name": "Is-Selongey Football",
+      "path": "football/clubs/fr/is-selongey-football.png"
+    },
+    "ja-drancy": {
+      "name": "JA Drancy",
+      "path": "football/clubs/fr/ja-drancy.png"
+    },
+    "ja-isle": {
+      "name": "JA Isle",
+      "path": "football/clubs/fr/ja-isle.png"
+    },
+    "js-cugnaux": {
+      "name": "JS Cugnaux",
+      "path": "football/clubs/fr/js-cugnaux.png"
+    },
+    "jura-dolois-football": {
+      "name": "Jura Dolois Football",
+      "path": "football/clubs/fr/jura-dolois-football.png"
+    },
+    "jura-sud-foot": {
+      "name": "Jura Sud Foot",
+      "path": "football/clubs/fr/jura-sud-foot.png"
+    },
+    "lamballe-fc": {
+      "name": "Lamballe FC",
+      "path": "football/clubs/fr/lamballe-fc.png"
+    },
+    "lannion-fc": {
+      "name": "Lannion FC",
+      "path": "football/clubs/fr/lannion-fc.png"
     },
     "le-havre-ac": {
       "name": "Le Havre AC",
@@ -1719,6 +3107,10 @@
       "name": "Le Mans FC",
       "path": "football/clubs/fr/le-mans.png"
     },
+    "les-herbiers": {
+      "name": "Les Herbiers",
+      "path": "football/clubs/fr/les-herbiers.png"
+    },
     "lille": {
       "name": "LOSC Lille",
       "path": "football/clubs/fr/lille.png"
@@ -1727,13 +3119,33 @@
       "name": "FC Lorient",
       "path": "football/clubs/fr/lorient.png"
     },
+    "louhans-cuiseaux-fc": {
+      "name": "Louhans-Cuiseaux FC",
+      "path": "football/clubs/fr/louhans-cuiseaux-fc.png"
+    },
+    "luzenac-ap": {
+      "name": "Luzenac AP",
+      "path": "football/clubs/fr/luzenac-ap.png"
+    },
     "lyon": {
       "name": "Olympique Lyon",
       "path": "football/clubs/fr/lyon.png"
     },
+    "lyon-duchere": {
+      "name": "Lyon-Duchère",
+      "path": "football/clubs/fr/lyon-duchere.png"
+    },
     "marseille": {
       "name": "Olympique Marseille",
       "path": "football/clubs/fr/marseille.png"
+    },
+    "montauban-fc-tarn-et-garonne": {
+      "name": "Montauban FC Tarn-et-Garonne",
+      "path": "football/clubs/fr/montauban-fc-tarn-et-garonne.png"
+    },
+    "montlucon-football": {
+      "name": "Montluçon Football",
+      "path": "football/clubs/fr/montlucon-football.png"
     },
     "montpellier": {
       "name": "Montpellier HSC",
@@ -1747,6 +3159,26 @@
       "name": "OGC Nice",
       "path": "football/clubs/fr/nice.png"
     },
+    "nimes-olympique": {
+      "name": "Nîmes Olympique",
+      "path": "football/clubs/fr/nimes-olympique.png"
+    },
+    "olympique-charleville-prix-ardenne-metropole": {
+      "name": "Olympique Charleville Prix Ardenne Métropole",
+      "path": "football/clubs/fr/olympique-charleville-prix-ardenne-metropole.png"
+    },
+    "orleans": {
+      "name": "Orléans",
+      "path": "football/clubs/fr/orleans.png"
+    },
+    "pacy-menilles-racing-club": {
+      "name": "Pacy Ménilles Racing Club",
+      "path": "football/clubs/fr/pacy-menilles-racing-club.png"
+    },
+    "paris-13-atletico": {
+      "name": "Paris 13 Atletico",
+      "path": "football/clubs/fr/paris-13-atletico.png"
+    },
     "paris-fc": {
       "name": "Paris FC",
       "path": "football/clubs/fr/paris-fc.png"
@@ -1754,6 +3186,30 @@
     "paris-saint-germain": {
       "name": "Paris Saint-Germain",
       "path": "football/clubs/fr/paris-saint-germain.png"
+    },
+    "pau-fc": {
+      "name": "Pau FC",
+      "path": "football/clubs/fr/pau-fc.png"
+    },
+    "perigueux-foot": {
+      "name": "Périgueux Foot",
+      "path": "football/clubs/fr/perigueux-foot.png"
+    },
+    "quevilly-rouen-metropole": {
+      "name": "Quevilly Rouen Métropole",
+      "path": "football/clubs/fr/quevilly-rouen-metropole.png"
+    },
+    "racing-besancon": {
+      "name": "Racing Besançon",
+      "path": "football/clubs/fr/racing-besancon.png"
+    },
+    "raon-l-etape": {
+      "name": "Raon-l'Etape",
+      "path": "football/clubs/fr/raon-l-etape.png"
+    },
+    "rc-flechois": {
+      "name": "RC Fléchois",
+      "path": "football/clubs/fr/rc-flechois.png"
     },
     "rc-lens": {
       "name": "RC Lens",
@@ -1763,13 +3219,97 @@
       "name": "RC Strasbourg Alsace",
       "path": "football/clubs/fr/rc-strasbourg-alsace.png"
     },
+    "reims-sainte-anne": {
+      "name": "Reims Sainte-Anne",
+      "path": "football/clubs/fr/reims-sainte-anne.png"
+    },
     "rennes": {
       "name": "Stade Rennais FC",
       "path": "football/clubs/fr/rennes.png"
     },
+    "riviera-fc": {
+      "name": "Riviera FC",
+      "path": "football/clubs/fr/riviera-fc.png"
+    },
+    "rodez-af": {
+      "name": "Rodez AF",
+      "path": "football/clubs/fr/rodez-af.png"
+    },
+    "sable-fc": {
+      "name": "Sablé FC",
+      "path": "football/clubs/fr/sable-fc.png"
+    },
+    "salon-bel-air-foot": {
+      "name": "Salon Bel Air Foot",
+      "path": "football/clubs/fr/salon-bel-air-foot.png"
+    },
+    "sarreguemines-fc": {
+      "name": "Sarreguemines FC",
+      "path": "football/clubs/fr/sarreguemines-fc.png"
+    },
+    "sc-amiens": {
+      "name": "SC Amiens",
+      "path": "football/clubs/fr/sc-amiens.png"
+    },
+    "sc-douai": {
+      "name": "SC Douai",
+      "path": "football/clubs/fr/sc-douai.png"
+    },
+    "sc-draguignan": {
+      "name": "SC Draguignan",
+      "path": "football/clubs/fr/sc-draguignan.png"
+    },
+    "sc-schiltigheim": {
+      "name": "SC Schiltigheim",
+      "path": "football/clubs/fr/sc-schiltigheim.png"
+    },
+    "sc-selestat": {
+      "name": "SC Sélestat",
+      "path": "football/clubs/fr/sc-selestat.png"
+    },
+    "so-chatellerault": {
+      "name": "SO Châtellerault",
+      "path": "football/clubs/fr/so-chatellerault.png"
+    },
+    "sochaux": {
+      "name": "Sochaux",
+      "path": "football/clubs/fr/sochaux.png"
+    },
+    "sologne-foot-romorantin-41": {
+      "name": "Sologne Foot Romorantin 41",
+      "path": "football/clubs/fr/sologne-foot-romorantin-41.png"
+    },
+    "sporting-club-toulon": {
+      "name": "Sporting Club Toulon",
+      "path": "football/clubs/fr/sporting-club-toulon.png"
+    },
+    "stade-briochin": {
+      "name": "Stade Briochin",
+      "path": "football/clubs/fr/stade-briochin.png"
+    },
     "stade-de-reims": {
       "name": "Stade Reims",
       "path": "football/clubs/fr/stade-de-reims.png"
+    },
+    "stade-laval": {
+      "name": "Stade Laval",
+      "path": "football/clubs/fr/stade-laval.png"
+    },
+    "ta-rennes": {
+      "name": "TA Rennes",
+      "path": "football/clubs/fr/ta-rennes.png"
+    },
+    "tarbes-pyrenees-football": {
+      "name": "Tarbes Pyrénées Football",
+      "path": "football/clubs/fr/tarbes-pyrenees-football.png"
+    },
+    "thonon-evian-grand-geneve-fc": {
+      "name": "Thonon Évian Grand Genève FC",
+      "path": "football/clubs/fr/thonon-evian-grand-geneve-fc.png"
+    },
+    "thouars-foot-79": {
+      "name": "Thouars Foot 79",
+      "path": "football/clubs/fr/thouars-foot-79.png"
     },
     "toulouse": {
       "name": "FC Toulouse",
@@ -1779,73 +3319,869 @@
       "name": "ESTAC Troyes",
       "path": "football/clubs/fr/troyes.png"
     },
+    "us-chauvigny": {
+      "name": "US Chauvigny",
+      "path": "football/clubs/fr/us-chauvigny.png"
+    },
+    "us-colomiers-football": {
+      "name": "US Colomiers Football",
+      "path": "football/clubs/fr/us-colomiers-football.png"
+    },
+    "us-ivry-football": {
+      "name": "US Ivry Football",
+      "path": "football/clubs/fr/us-ivry-football.png"
+    },
+    "us-laon": {
+      "name": "US Laon (FFF 277)",
+      "path": "football/clubs/fr/us-laon.png"
+    },
+    "us-lege-cap-ferret": {
+      "name": "US Lège-Cap-Ferret",
+      "path": "football/clubs/fr/us-lege-cap-ferret.png"
+    },
+    "us-lesquin": {
+      "name": "US Lesquin",
+      "path": "football/clubs/fr/us-lesquin.png"
+    },
+    "us-marseille-endoume-catalans": {
+      "name": "US Marseille Endoume Catalans",
+      "path": "football/clubs/fr/us-marseille-endoume-catalans.png"
+    },
+    "us-maubeuge": {
+      "name": "US Maubeuge",
+      "path": "football/clubs/fr/us-maubeuge.png"
+    },
+    "us-mer": {
+      "name": "US Mer",
+      "path": "football/clubs/fr/us-mer.png"
+    },
+    "us-pays-de-cassel": {
+      "name": "US Pays de Cassel",
+      "path": "football/clubs/fr/us-pays-de-cassel.png"
+    },
+    "us-pont-de-roide-vermondans": {
+      "name": "US Pont-de-Roide Vermondans",
+      "path": "football/clubs/fr/us-pont-de-roide-vermondans.png"
+    },
+    "us-reipertswiller": {
+      "name": "US Reipertswiller",
+      "path": "football/clubs/fr/us-reipertswiller.png"
+    },
+    "us-sarre-union": {
+      "name": "US Sarre-Union",
+      "path": "football/clubs/fr/us-sarre-union.png"
+    },
+    "us-thionville-lusitanos": {
+      "name": "US Thionville Lusitanos",
+      "path": "football/clubs/fr/us-thionville-lusitanos.png"
+    },
+    "usf-fecamp": {
+      "name": "USF Fécamp",
+      "path": "football/clubs/fr/usf-fecamp.png"
+    },
+    "valenciennes-fc": {
+      "name": "Valenciennes FC",
+      "path": "football/clubs/fr/valenciennes-fc.png"
+    },
+    "vendee-poire-sur-vie-football": {
+      "name": "Vendée Poiré-sur-Vie Football",
+      "path": "football/clubs/fr/vendee-poire-sur-vie-football.png"
+    },
+    "vierzon-fc": {
+      "name": "Vierzon FC",
+      "path": "football/clubs/fr/vierzon-fc.png"
+    },
+    "voltigeurs-de-chateaubriant": {
+      "name": "Voltigeurs de Châteaubriant",
+      "path": "football/clubs/fr/voltigeurs-de-chateaubriant.png"
+    },
+    "abbey-rangers": {
+      "name": "Abbey Rangers FC",
+      "path": "football/clubs/gb-eng/abbey-rangers.png"
+    },
+    "accrington-stanley": {
+      "name": "Accrington Stanley",
+      "path": "football/clubs/gb-eng/accrington-stanley.png"
+    },
+    "afc-fylde": {
+      "name": "AFC Fylde",
+      "path": "football/clubs/gb-eng/afc-fylde.png"
+    },
+    "afc-liverpool": {
+      "name": "AFC Liverpool",
+      "path": "football/clubs/gb-eng/afc-liverpool.png"
+    },
+    "afc-mansfield": {
+      "name": "AFC Mansfield",
+      "path": "football/clubs/gb-eng/afc-mansfield.png"
+    },
+    "afc-stoneham": {
+      "name": "AFC Stoneham",
+      "path": "football/clubs/gb-eng/afc-stoneham.png"
+    },
+    "afc-sudbury": {
+      "name": "AFC Sudbury",
+      "path": "football/clubs/gb-eng/afc-sudbury.png"
+    },
+    "afc-telford-united": {
+      "name": "AFC Telford United",
+      "path": "football/clubs/gb-eng/afc-telford-united.png"
+    },
+    "afc-totton": {
+      "name": "AFC Totton",
+      "path": "football/clubs/gb-eng/afc-totton.png"
+    },
+    "afc-whyteleafe": {
+      "name": "AFC Whyteleafe",
+      "path": "football/clubs/gb-eng/afc-whyteleafe.png"
+    },
+    "afc-wimbledon": {
+      "name": "AFC Wimbledon",
+      "path": "football/clubs/gb-eng/afc-wimbledon.png"
+    },
+    "aldershot-town": {
+      "name": "Aldershot Town FC",
+      "path": "football/clubs/gb-eng/aldershot-town.png"
+    },
+    "alfreton-town": {
+      "name": "Alfreton Town FC",
+      "path": "football/clubs/gb-eng/alfreton-town.png"
+    },
+    "altrincham": {
+      "name": "Altrincham FC",
+      "path": "football/clubs/gb-eng/altrincham.png"
+    },
+    "alvechurch": {
+      "name": "Alvechurch FC",
+      "path": "football/clubs/gb-eng/alvechurch.png"
+    },
+    "anstey-nomads": {
+      "name": "Anstey Nomads FC",
+      "path": "football/clubs/gb-eng/anstey-nomads.png"
+    },
     "arsenal": {
       "name": "Arsenal FC",
       "path": "football/clubs/gb-eng/arsenal.png"
+    },
+    "ascot-united": {
+      "name": "Ascot United FC",
+      "path": "football/clubs/gb-eng/ascot-united.png"
+    },
+    "ashton-united": {
+      "name": "Ashton United FC",
+      "path": "football/clubs/gb-eng/ashton-united.png"
     },
     "aston-villa": {
       "name": "Aston Villa",
       "path": "football/clubs/gb-eng/aston-villa.png"
     },
+    "aveley": {
+      "name": "Aveley FC",
+      "path": "football/clubs/gb-eng/aveley.png"
+    },
+    "avro": {
+      "name": "Avro FC",
+      "path": "football/clubs/gb-eng/avro.png"
+    },
+    "aylesbury-united": {
+      "name": "Aylesbury United FC",
+      "path": "football/clubs/gb-eng/aylesbury-united.png"
+    },
+    "bamber-bridge": {
+      "name": "Bamber Bridge FC",
+      "path": "football/clubs/gb-eng/bamber-bridge.png"
+    },
+    "banbury-united": {
+      "name": "Banbury United FC",
+      "path": "football/clubs/gb-eng/banbury-united.png"
+    },
+    "barnet": {
+      "name": "Barnet",
+      "path": "football/clubs/gb-eng/barnet.png"
+    },
+    "barnsley": {
+      "name": "Barnsley",
+      "path": "football/clubs/gb-eng/barnsley.png"
+    },
+    "barrow-afc": {
+      "name": "Barrow AFC",
+      "path": "football/clubs/gb-eng/barrow-afc.png"
+    },
+    "barton-rovers": {
+      "name": "Barton Rovers FC",
+      "path": "football/clubs/gb-eng/barton-rovers.png"
+    },
+    "barton-town": {
+      "name": "Barton Town FC",
+      "path": "football/clubs/gb-eng/barton-town.png"
+    },
+    "barwell": {
+      "name": "Barwell FC",
+      "path": "football/clubs/gb-eng/barwell.png"
+    },
+    "basingstoke-town": {
+      "name": "Basingstoke Town FC",
+      "path": "football/clubs/gb-eng/basingstoke-town.png"
+    },
+    "bath-city": {
+      "name": "Bath City FC",
+      "path": "football/clubs/gb-eng/bath-city.png"
+    },
+    "beaconsfield-town": {
+      "name": "Beaconsfield Town FC",
+      "path": "football/clubs/gb-eng/beaconsfield-town.png"
+    },
+    "bedford-town": {
+      "name": "Bedford Town FC",
+      "path": "football/clubs/gb-eng/bedford-town.png"
+    },
+    "berkhamsted": {
+      "name": "Berkhamsted FC",
+      "path": "football/clubs/gb-eng/berkhamsted.png"
+    },
+    "biggleswade": {
+      "name": "Biggleswade FC",
+      "path": "football/clubs/gb-eng/biggleswade.png"
+    },
+    "biggleswade-town": {
+      "name": "Biggleswade Town FC",
+      "path": "football/clubs/gb-eng/biggleswade-town.png"
+    },
+    "billericay-town": {
+      "name": "Billericay Town FC",
+      "path": "football/clubs/gb-eng/billericay-town.png"
+    },
+    "birmingham-city": {
+      "name": "Birmingham City",
+      "path": "football/clubs/gb-eng/birmingham-city.png"
+    },
+    "bishop-auckland": {
+      "name": "Bishop Auckland FC",
+      "path": "football/clubs/gb-eng/bishop-auckland.png"
+    },
+    "bishop-s-stortford": {
+      "name": "Bishop's Stortford FC",
+      "path": "football/clubs/gb-eng/bishop-s-stortford.png"
+    },
+    "blackburn-rovers": {
+      "name": "Blackburn Rovers",
+      "path": "football/clubs/gb-eng/blackburn-rovers.png"
+    },
+    "blackpool": {
+      "name": "Blackpool",
+      "path": "football/clubs/gb-eng/blackpool.png"
+    },
+    "blyth-spartans-afc": {
+      "name": "Blyth Spartans AFC",
+      "path": "football/clubs/gb-eng/blyth-spartans-afc.png"
+    },
+    "bolton-wanderers": {
+      "name": "Bolton Wanderers",
+      "path": "football/clubs/gb-eng/bolton-wanderers.png"
+    },
+    "boreham-wood": {
+      "name": "Boreham Wood FC",
+      "path": "football/clubs/gb-eng/boreham-wood.png"
+    },
+    "boston-united": {
+      "name": "Boston United FC",
+      "path": "football/clubs/gb-eng/boston-united.png"
+    },
     "bournemouth": {
       "name": "AFC Bournemouth",
       "path": "football/clubs/gb-eng/bournemouth.png"
+    },
+    "brackley-town": {
+      "name": "Brackley Town FC",
+      "path": "football/clubs/gb-eng/brackley-town.png"
+    },
+    "bracknell-town": {
+      "name": "Bracknell Town FC",
+      "path": "football/clubs/gb-eng/bracknell-town.png"
+    },
+    "bradford-city": {
+      "name": "Bradford City",
+      "path": "football/clubs/gb-eng/bradford-city.png"
+    },
+    "braintree-town": {
+      "name": "Braintree Town FC",
+      "path": "football/clubs/gb-eng/braintree-town.png"
     },
     "brentford": {
       "name": "Brentford FC",
       "path": "football/clubs/gb-eng/brentford.png"
     },
+    "brentwood-town": {
+      "name": "Brentwood Town FC",
+      "path": "football/clubs/gb-eng/brentwood-town.png"
+    },
     "brighton": {
       "name": "Brighton & Hove Albion",
       "path": "football/clubs/gb-eng/brighton.png"
+    },
+    "bristol-city": {
+      "name": "Bristol City",
+      "path": "football/clubs/gb-eng/bristol-city.png"
+    },
+    "bristol-rovers": {
+      "name": "Bristol Rovers",
+      "path": "football/clubs/gb-eng/bristol-rovers.png"
+    },
+    "bromley": {
+      "name": "Bromley",
+      "path": "football/clubs/gb-eng/bromley.png"
+    },
+    "bromsgrove-sporting": {
+      "name": "Bromsgrove Sporting FC",
+      "path": "football/clubs/gb-eng/bromsgrove-sporting.png"
+    },
+    "burgess-hill-town": {
+      "name": "Burgess Hill Town FC",
+      "path": "football/clubs/gb-eng/burgess-hill-town.png"
     },
     "burnley": {
       "name": "Burnley FC",
       "path": "football/clubs/gb-eng/burnley.png"
     },
+    "burton-albion": {
+      "name": "Burton Albion",
+      "path": "football/clubs/gb-eng/burton-albion.png"
+    },
+    "bury": {
+      "name": "Bury FC",
+      "path": "football/clubs/gb-eng/bury.png"
+    },
+    "bury-town": {
+      "name": "Bury Town FC",
+      "path": "football/clubs/gb-eng/bury-town.png"
+    },
+    "buxton": {
+      "name": "Buxton FC",
+      "path": "football/clubs/gb-eng/buxton.png"
+    },
+    "cambridge-united": {
+      "name": "Cambridge United",
+      "path": "football/clubs/gb-eng/cambridge-united.png"
+    },
+    "canvey-island": {
+      "name": "Canvey Island FC",
+      "path": "football/clubs/gb-eng/canvey-island.png"
+    },
+    "cardiff-city": {
+      "name": "Cardiff City",
+      "path": "football/clubs/gb-eng/cardiff-city.png"
+    },
+    "carlisle-united-afc": {
+      "name": "Carlisle United AFC",
+      "path": "football/clubs/gb-eng/carlisle-united-afc.png"
+    },
+    "carlton-town": {
+      "name": "Carlton Town FC",
+      "path": "football/clubs/gb-eng/carlton-town.png"
+    },
+    "carshalton-athletic": {
+      "name": "Carshalton Athletic FC",
+      "path": "football/clubs/gb-eng/carshalton-athletic.png"
+    },
+    "charlton-athletic": {
+      "name": "Charlton Athletic",
+      "path": "football/clubs/gb-eng/charlton-athletic.png"
+    },
+    "chatham-town": {
+      "name": "Chatham Town FC",
+      "path": "football/clubs/gb-eng/chatham-town.png"
+    },
+    "chelmsford-city": {
+      "name": "Chelmsford City FC",
+      "path": "football/clubs/gb-eng/chelmsford-city.png"
+    },
     "chelsea": {
       "name": "Chelsea FC",
       "path": "football/clubs/gb-eng/chelsea.png"
+    },
+    "cheltenham-town": {
+      "name": "Cheltenham Town",
+      "path": "football/clubs/gb-eng/cheltenham-town.png"
+    },
+    "chertsey-town": {
+      "name": "Chertsey Town FC",
+      "path": "football/clubs/gb-eng/chertsey-town.png"
+    },
+    "chesham-united": {
+      "name": "Chesham United FC",
+      "path": "football/clubs/gb-eng/chesham-united.png"
+    },
+    "cheshunt": {
+      "name": "Cheshunt FC",
+      "path": "football/clubs/gb-eng/cheshunt.png"
+    },
+    "chester": {
+      "name": "Chester FC",
+      "path": "football/clubs/gb-eng/chester.png"
+    },
+    "chesterfield": {
+      "name": "Chesterfield",
+      "path": "football/clubs/gb-eng/chesterfield.png"
+    },
+    "chichester-city": {
+      "name": "Chichester City FC",
+      "path": "football/clubs/gb-eng/chichester-city.png"
+    },
+    "chippenham-town": {
+      "name": "Chippenham Town FC",
+      "path": "football/clubs/gb-eng/chippenham-town.png"
+    },
+    "chipstead": {
+      "name": "Chipstead FC",
+      "path": "football/clubs/gb-eng/chipstead.png"
+    },
+    "chorley": {
+      "name": "Chorley FC",
+      "path": "football/clubs/gb-eng/chorley.png"
+    },
+    "cleethorpes-town": {
+      "name": "Cleethorpes Town FC",
+      "path": "football/clubs/gb-eng/cleethorpes-town.png"
+    },
+    "cockfosters": {
+      "name": "Cockfosters FC",
+      "path": "football/clubs/gb-eng/cockfosters.png"
+    },
+    "colchester-united": {
+      "name": "Colchester United",
+      "path": "football/clubs/gb-eng/colchester-united.png"
+    },
+    "concord-rangers": {
+      "name": "Concord Rangers FC",
+      "path": "football/clubs/gb-eng/concord-rangers.png"
     },
     "coventry-city": {
       "name": "Coventry City",
       "path": "football/clubs/gb-eng/coventry-city.png"
     },
+    "crawley-town": {
+      "name": "Crawley Town",
+      "path": "football/clubs/gb-eng/crawley-town.png"
+    },
+    "cray-wanderers": {
+      "name": "Cray Wanderers FC",
+      "path": "football/clubs/gb-eng/cray-wanderers.png"
+    },
+    "crewe-alexandra": {
+      "name": "Crewe Alexandra",
+      "path": "football/clubs/gb-eng/crewe-alexandra.png"
+    },
+    "crowborough-athletic": {
+      "name": "Crowborough Athletic FC",
+      "path": "football/clubs/gb-eng/crowborough-athletic.png"
+    },
     "crystal-palace": {
       "name": "Crystal Palace",
       "path": "football/clubs/gb-eng/crystal-palace.png"
+    },
+    "curzon-ashton": {
+      "name": "Curzon Ashton FC",
+      "path": "football/clubs/gb-eng/curzon-ashton.png"
+    },
+    "dagenham-redbridge": {
+      "name": "Dagenham & Redbridge FC",
+      "path": "football/clubs/gb-eng/dagenham-redbridge.png"
+    },
+    "darlington": {
+      "name": "Darlington FC",
+      "path": "football/clubs/gb-eng/darlington.png"
+    },
+    "dartford": {
+      "name": "Dartford FC",
+      "path": "football/clubs/gb-eng/dartford.png"
+    },
+    "derby-county": {
+      "name": "Derby County",
+      "path": "football/clubs/gb-eng/derby-county.png"
+    },
+    "didcot-town": {
+      "name": "Didcot Town FC",
+      "path": "football/clubs/gb-eng/didcot-town.png"
+    },
+    "doncaster-rovers": {
+      "name": "Doncaster Rovers",
+      "path": "football/clubs/gb-eng/doncaster-rovers.png"
+    },
+    "dorking-wanderers": {
+      "name": "Dorking Wanderers FC",
+      "path": "football/clubs/gb-eng/dorking-wanderers.png"
+    },
+    "dover-athletic": {
+      "name": "Dover Athletic FC",
+      "path": "football/clubs/gb-eng/dover-athletic.png"
+    },
+    "dulwich-hamlet": {
+      "name": "Dulwich Hamlet FC",
+      "path": "football/clubs/gb-eng/dulwich-hamlet.png"
+    },
+    "east-grinstead-town": {
+      "name": "East Grinstead Town FC",
+      "path": "football/clubs/gb-eng/east-grinstead-town.png"
+    },
+    "eastbourne-borough": {
+      "name": "Eastbourne Borough FC",
+      "path": "football/clubs/gb-eng/eastbourne-borough.png"
+    },
+    "eastleigh": {
+      "name": "Eastleigh FC",
+      "path": "football/clubs/gb-eng/eastleigh.png"
+    },
+    "ebbsfleet-united": {
+      "name": "Ebbsfleet United FC",
+      "path": "football/clubs/gb-eng/ebbsfleet-united.png"
+    },
+    "emley-afc": {
+      "name": "Emley AFC",
+      "path": "football/clubs/gb-eng/emley-afc.png"
+    },
+    "enfield-town": {
+      "name": "Enfield Town FC",
+      "path": "football/clubs/gb-eng/enfield-town.png"
+    },
+    "erith-belvedere": {
+      "name": "Erith & Belvedere FC",
+      "path": "football/clubs/gb-eng/erith-belvedere.png"
     },
     "everton": {
       "name": "Everton FC",
       "path": "football/clubs/gb-eng/everton.png"
     },
+    "evesham-united": {
+      "name": "Evesham United FC",
+      "path": "football/clubs/gb-eng/evesham-united.png"
+    },
+    "exeter-city": {
+      "name": "Exeter City",
+      "path": "football/clubs/gb-eng/exeter-city.png"
+    },
+    "farnborough": {
+      "name": "Farnborough FC",
+      "path": "football/clubs/gb-eng/farnborough.png"
+    },
+    "farnham-town": {
+      "name": "Farnham Town FC",
+      "path": "football/clubs/gb-eng/farnham-town.png"
+    },
+    "fc-halifax-town": {
+      "name": "FC Halifax Town",
+      "path": "football/clubs/gb-eng/fc-halifax-town.png"
+    },
+    "fc-peterborough": {
+      "name": "FC Peterborough",
+      "path": "football/clubs/gb-eng/fc-peterborough.png"
+    },
+    "fc-st-helens": {
+      "name": "FC St Helens",
+      "path": "football/clubs/gb-eng/fc-st-helens.png"
+    },
+    "fc-united-of-manchester": {
+      "name": "FC United of Manchester",
+      "path": "football/clubs/gb-eng/fc-united-of-manchester.png"
+    },
+    "felixstowe-walton-united": {
+      "name": "Felixstowe & Walton United FC",
+      "path": "football/clubs/gb-eng/felixstowe-walton-united.png"
+    },
+    "flackwell-heath": {
+      "name": "Flackwell Heath FC",
+      "path": "football/clubs/gb-eng/flackwell-heath.png"
+    },
+    "fleet-town": {
+      "name": "Fleet Town FC",
+      "path": "football/clubs/gb-eng/fleet-town.png"
+    },
+    "fleetwood-town": {
+      "name": "Fleetwood Town",
+      "path": "football/clubs/gb-eng/fleetwood-town.png"
+    },
+    "folkestone-invicta": {
+      "name": "Folkestone Invicta FC",
+      "path": "football/clubs/gb-eng/folkestone-invicta.png"
+    },
+    "forest-green-rovers": {
+      "name": "Forest Green Rovers FC",
+      "path": "football/clubs/gb-eng/forest-green-rovers.png"
+    },
+    "frickley-athletic": {
+      "name": "Frickley Athletic FC",
+      "path": "football/clubs/gb-eng/frickley-athletic.png"
+    },
+    "frome-town": {
+      "name": "Frome Town FC",
+      "path": "football/clubs/gb-eng/frome-town.png"
+    },
     "fulham": {
       "name": "Fulham FC",
       "path": "football/clubs/gb-eng/fulham.png"
+    },
+    "gainsborough-trinity": {
+      "name": "Gainsborough Trinity FC",
+      "path": "football/clubs/gb-eng/gainsborough-trinity.png"
+    },
+    "gateshead": {
+      "name": "Gateshead FC",
+      "path": "football/clubs/gb-eng/gateshead.png"
+    },
+    "gillingham": {
+      "name": "Gillingham",
+      "path": "football/clubs/gb-eng/gillingham.png"
+    },
+    "gloucester-city": {
+      "name": "Gloucester City FC",
+      "path": "football/clubs/gb-eng/gloucester-city.png"
+    },
+    "gosport-borough": {
+      "name": "Gosport Borough FC",
+      "path": "football/clubs/gb-eng/gosport-borough.png"
+    },
+    "grimsby-borough": {
+      "name": "Grimsby Borough FC",
+      "path": "football/clubs/gb-eng/grimsby-borough.png"
+    },
+    "grimsby-town": {
+      "name": "Grimsby Town",
+      "path": "football/clubs/gb-eng/grimsby-town.png"
+    },
+    "guiseley-afc": {
+      "name": "Guiseley AFC",
+      "path": "football/clubs/gb-eng/guiseley-afc.png"
+    },
+    "hadley": {
+      "name": "Hadley FC",
+      "path": "football/clubs/gb-eng/hadley.png"
+    },
+    "halesowen-town": {
+      "name": "Halesowen Town FC",
+      "path": "football/clubs/gb-eng/halesowen-town.png"
+    },
+    "hampton-richmond-borough": {
+      "name": "Hampton & Richmond Borough FC",
+      "path": "football/clubs/gb-eng/hampton-richmond-borough.png"
+    },
+    "hanwell-town": {
+      "name": "Hanwell Town FC",
+      "path": "football/clubs/gb-eng/hanwell-town.png"
+    },
+    "hanworth-villa": {
+      "name": "Hanworth Villa FC",
+      "path": "football/clubs/gb-eng/hanworth-villa.png"
+    },
+    "harborough-town": {
+      "name": "Harborough Town FC",
+      "path": "football/clubs/gb-eng/harborough-town.png"
+    },
+    "haringey-borough": {
+      "name": "Haringey Borough FC",
+      "path": "football/clubs/gb-eng/haringey-borough.png"
+    },
+    "harlow-town": {
+      "name": "Harlow Town FC",
+      "path": "football/clubs/gb-eng/harlow-town.png"
+    },
+    "harrogate-town-afc": {
+      "name": "Harrogate Town AFC",
+      "path": "football/clubs/gb-eng/harrogate-town-afc.png"
+    },
+    "hartlepool-united": {
+      "name": "Hartlepool United FC",
+      "path": "football/clubs/gb-eng/hartlepool-united.png"
+    },
+    "hashtag-united": {
+      "name": "Hashtag United FC",
+      "path": "football/clubs/gb-eng/hashtag-united.png"
+    },
+    "hassocks": {
+      "name": "Hassocks FC",
+      "path": "football/clubs/gb-eng/hassocks.png"
+    },
+    "havant-waterlooville": {
+      "name": "Havant & Waterlooville FC",
+      "path": "football/clubs/gb-eng/havant-waterlooville.png"
+    },
+    "hayes-yeading-united": {
+      "name": "Hayes & Yeading United FC",
+      "path": "football/clubs/gb-eng/hayes-yeading-united.png"
+    },
+    "hebburn-town": {
+      "name": "Hebburn Town FC",
+      "path": "football/clubs/gb-eng/hebburn-town.png"
+    },
+    "hednesford-town": {
+      "name": "Hednesford Town FC",
+      "path": "football/clubs/gb-eng/hednesford-town.png"
+    },
+    "hemel-hempstead-town": {
+      "name": "Hemel Hempstead Town FC",
+      "path": "football/clubs/gb-eng/hemel-hempstead-town.png"
+    },
+    "hereford": {
+      "name": "Hereford FC",
+      "path": "football/clubs/gb-eng/hereford.png"
+    },
+    "herne-bay": {
+      "name": "Herne Bay FC",
+      "path": "football/clubs/gb-eng/herne-bay.png"
+    },
+    "hertford-town": {
+      "name": "Hertford Town FC",
+      "path": "football/clubs/gb-eng/hertford-town.png"
+    },
+    "heybridge-swifts": {
+      "name": "Heybridge Swifts FC",
+      "path": "football/clubs/gb-eng/heybridge-swifts.png"
+    },
+    "highgate-united": {
+      "name": "Highgate United FC",
+      "path": "football/clubs/gb-eng/highgate-united.png"
+    },
+    "hinckley-afc": {
+      "name": "Hinckley AFC",
+      "path": "football/clubs/gb-eng/hinckley-afc.png"
+    },
+    "hitchin-town": {
+      "name": "Hitchin Town FC",
+      "path": "football/clubs/gb-eng/hitchin-town.png"
+    },
+    "hornchurch": {
+      "name": "Hornchurch FC",
+      "path": "football/clubs/gb-eng/hornchurch.png"
+    },
+    "horsham": {
+      "name": "Horsham FC",
+      "path": "football/clubs/gb-eng/horsham.png"
+    },
+    "hucknall-town": {
+      "name": "Hucknall Town FC",
+      "path": "football/clubs/gb-eng/hucknall-town.png"
+    },
+    "huddersfield-town": {
+      "name": "Huddersfield Town",
+      "path": "football/clubs/gb-eng/huddersfield-town.png"
     },
     "hull-city": {
       "name": "Hull City",
       "path": "football/clubs/gb-eng/hull-city.png"
     },
+    "hyde-united": {
+      "name": "Hyde United FC",
+      "path": "football/clubs/gb-eng/hyde-united.png"
+    },
+    "ilford": {
+      "name": "Ilford FC",
+      "path": "football/clubs/gb-eng/ilford.png"
+    },
+    "ilkeston-town": {
+      "name": "Ilkeston Town FC",
+      "path": "football/clubs/gb-eng/ilkeston-town.png"
+    },
     "ipswich": {
       "name": "Ipswich Town",
       "path": "football/clubs/gb-eng/ipswich.png"
+    },
+    "kettering-town": {
+      "name": "Kettering Town FC",
+      "path": "football/clubs/gb-eng/kettering-town.png"
+    },
+    "kidderminster-harriers": {
+      "name": "Kidderminster Harriers FC",
+      "path": "football/clubs/gb-eng/kidderminster-harriers.png"
+    },
+    "kidsgrove-athletic": {
+      "name": "Kidsgrove Athletic FC",
+      "path": "football/clubs/gb-eng/kidsgrove-athletic.png"
+    },
+    "king-s-lynn-town": {
+      "name": "King's Lynn Town FC",
+      "path": "football/clubs/gb-eng/king-s-lynn-town.png"
+    },
+    "lancaster-city": {
+      "name": "Lancaster City FC",
+      "path": "football/clubs/gb-eng/lancaster-city.png"
+    },
+    "leamington": {
+      "name": "Leamington FC",
+      "path": "football/clubs/gb-eng/leamington.png"
+    },
+    "leatherhead": {
+      "name": "Leatherhead FC",
+      "path": "football/clubs/gb-eng/leatherhead.png"
     },
     "leeds-united": {
       "name": "Leeds United",
       "path": "football/clubs/gb-eng/leeds-united.png"
     },
+    "leek-town": {
+      "name": "Leek Town FC",
+      "path": "football/clubs/gb-eng/leek-town.png"
+    },
     "leicester": {
       "name": "Leicester City",
       "path": "football/clubs/gb-eng/leicester.png"
+    },
+    "leighton-town": {
+      "name": "Leighton Town FC",
+      "path": "football/clubs/gb-eng/leighton-town.png"
+    },
+    "leiston": {
+      "name": "Leiston FC",
+      "path": "football/clubs/gb-eng/leiston.png"
+    },
+    "leverstock-green": {
+      "name": "Leverstock Green FC",
+      "path": "football/clubs/gb-eng/leverstock-green.png"
+    },
+    "lewes": {
+      "name": "Lewes FC",
+      "path": "football/clubs/gb-eng/lewes.png"
+    },
+    "leyton-orient": {
+      "name": "Leyton Orient",
+      "path": "football/clubs/gb-eng/leyton-orient.png"
+    },
+    "lincoln-city": {
+      "name": "Lincoln City",
+      "path": "football/clubs/gb-eng/lincoln-city.png"
     },
     "liverpool": {
       "name": "Liverpool FC",
       "path": "football/clubs/gb-eng/liverpool.png"
     },
+    "liversedge": {
+      "name": "Liversedge FC",
+      "path": "football/clubs/gb-eng/liversedge.png"
+    },
+    "london-lions": {
+      "name": "London Lions FC",
+      "path": "football/clubs/gb-eng/london-lions.png"
+    },
     "luton-town": {
       "name": "Luton Town",
       "path": "football/clubs/gb-eng/luton-town.png"
+    },
+    "macclesfield": {
+      "name": "Macclesfield FC",
+      "path": "football/clubs/gb-eng/macclesfield.png"
+    },
+    "maidenhead-united": {
+      "name": "Maidenhead United FC",
+      "path": "football/clubs/gb-eng/maidenhead-united.png"
+    },
+    "maidstone-united": {
+      "name": "Maidstone United FC",
+      "path": "football/clubs/gb-eng/maidstone-united.png"
+    },
+    "maldon-tiptree": {
+      "name": "Maldon & Tiptree FC",
+      "path": "football/clubs/gb-eng/maldon-tiptree.png"
+    },
+    "malvern-town": {
+      "name": "Malvern Town FC",
+      "path": "football/clubs/gb-eng/malvern-town.png"
     },
     "manchester-city": {
       "name": "Manchester City",
@@ -1855,9 +4191,77 @@
       "name": "Manchester United",
       "path": "football/clubs/gb-eng/manchester-united.png"
     },
+    "mansfield-town": {
+      "name": "Mansfield Town",
+      "path": "football/clubs/gb-eng/mansfield-town.png"
+    },
+    "margate": {
+      "name": "Margate FC",
+      "path": "football/clubs/gb-eng/margate.png"
+    },
+    "marine": {
+      "name": "Marine FC",
+      "path": "football/clubs/gb-eng/marine.png"
+    },
+    "marlow": {
+      "name": "Marlow FC",
+      "path": "football/clubs/gb-eng/marlow.png"
+    },
+    "matlock-town": {
+      "name": "Matlock Town FC",
+      "path": "football/clubs/gb-eng/matlock-town.png"
+    },
+    "middlesbrough": {
+      "name": "Middlesbrough",
+      "path": "football/clubs/gb-eng/middlesbrough.png"
+    },
+    "millwall": {
+      "name": "Millwall",
+      "path": "football/clubs/gb-eng/millwall.png"
+    },
+    "milton-keynes-dons": {
+      "name": "Milton Keynes Dons",
+      "path": "football/clubs/gb-eng/milton-keynes-dons.png"
+    },
+    "milton-keynes-irish": {
+      "name": "Milton Keynes Irish FC",
+      "path": "football/clubs/gb-eng/milton-keynes-irish.png"
+    },
+    "morecambe": {
+      "name": "Morecambe FC",
+      "path": "football/clubs/gb-eng/morecambe.png"
+    },
+    "needham-market": {
+      "name": "Needham Market FC",
+      "path": "football/clubs/gb-eng/needham-market.png"
+    },
     "newcastle": {
       "name": "Newcastle United",
       "path": "football/clubs/gb-eng/newcastle.png"
+    },
+    "newhaven": {
+      "name": "Newhaven FC",
+      "path": "football/clubs/gb-eng/newhaven.png"
+    },
+    "newport-county": {
+      "name": "Newport County",
+      "path": "football/clubs/gb-eng/newport-county.png"
+    },
+    "newton-aycliffe": {
+      "name": "Newton Aycliffe FC",
+      "path": "football/clubs/gb-eng/newton-aycliffe.png"
+    },
+    "northampton-on-chenecks": {
+      "name": "Northampton On Chenecks FC",
+      "path": "football/clubs/gb-eng/northampton-on-chenecks.png"
+    },
+    "northampton-town": {
+      "name": "Northampton Town",
+      "path": "football/clubs/gb-eng/northampton-town.png"
+    },
+    "northwich-victoria": {
+      "name": "Northwich Victoria FC",
+      "path": "football/clubs/gb-eng/northwich-victoria.png"
     },
     "norwich-city": {
       "name": "Norwich",
@@ -1867,33 +4271,465 @@
       "name": "Nottingham Forest",
       "path": "football/clubs/gb-eng/nottingham-forest.png"
     },
+    "notts-county": {
+      "name": "Notts County",
+      "path": "football/clubs/gb-eng/notts-county.png"
+    },
+    "oldham-athletic": {
+      "name": "Oldham Athletic",
+      "path": "football/clubs/gb-eng/oldham-athletic.png"
+    },
+    "ossett-united": {
+      "name": "Ossett United FC",
+      "path": "football/clubs/gb-eng/ossett-united.png"
+    },
+    "oxford-city": {
+      "name": "Oxford City FC",
+      "path": "football/clubs/gb-eng/oxford-city.png"
+    },
+    "oxford-united": {
+      "name": "Oxford United",
+      "path": "football/clubs/gb-eng/oxford-united.png"
+    },
+    "paulton-rovers": {
+      "name": "Paulton Rovers FC",
+      "path": "football/clubs/gb-eng/paulton-rovers.png"
+    },
+    "peacehaven-telscombe": {
+      "name": "Peacehaven & Telscombe FC",
+      "path": "football/clubs/gb-eng/peacehaven-telscombe.png"
+    },
+    "peterborough-sports": {
+      "name": "Peterborough Sports FC",
+      "path": "football/clubs/gb-eng/peterborough-sports.png"
+    },
+    "peterborough-united": {
+      "name": "Peterborough United",
+      "path": "football/clubs/gb-eng/peterborough-united.png"
+    },
+    "pickering-town": {
+      "name": "Pickering Town FC",
+      "path": "football/clubs/gb-eng/pickering-town.png"
+    },
+    "plymouth-argyle": {
+      "name": "Plymouth Argyle",
+      "path": "football/clubs/gb-eng/plymouth-argyle.png"
+    },
+    "plymouth-parkway": {
+      "name": "Plymouth Parkway FC",
+      "path": "football/clubs/gb-eng/plymouth-parkway.png"
+    },
+    "poole-town": {
+      "name": "Poole Town FC",
+      "path": "football/clubs/gb-eng/poole-town.png"
+    },
+    "port-vale": {
+      "name": "Port Vale",
+      "path": "football/clubs/gb-eng/port-vale.png"
+    },
+    "portsmouth": {
+      "name": "Portsmouth",
+      "path": "football/clubs/gb-eng/portsmouth.png"
+    },
+    "potters-bar-town": {
+      "name": "Potters Bar Town FC",
+      "path": "football/clubs/gb-eng/potters-bar-town.png"
+    },
+    "preston-north-end": {
+      "name": "Preston North End",
+      "path": "football/clubs/gb-eng/preston-north-end.png"
+    },
+    "queens-park-rangers": {
+      "name": "Queens Park Rangers",
+      "path": "football/clubs/gb-eng/queens-park-rangers.png"
+    },
+    "quorn": {
+      "name": "Quorn FC",
+      "path": "football/clubs/gb-eng/quorn.png"
+    },
+    "racing-club-warwick": {
+      "name": "Racing Club Warwick FC",
+      "path": "football/clubs/gb-eng/racing-club-warwick.png"
+    },
+    "radcliffe": {
+      "name": "Radcliffe FC",
+      "path": "football/clubs/gb-eng/radcliffe.png"
+    },
+    "ramsgate": {
+      "name": "Ramsgate FC",
+      "path": "football/clubs/gb-eng/ramsgate.png"
+    },
+    "reading": {
+      "name": "Reading",
+      "path": "football/clubs/gb-eng/reading.png"
+    },
+    "real-bedford": {
+      "name": "Real Bedford FC",
+      "path": "football/clubs/gb-eng/real-bedford.png"
+    },
+    "redcar-athletic": {
+      "name": "Redcar Athletic FC",
+      "path": "football/clubs/gb-eng/redcar-athletic.png"
+    },
+    "redditch-united": {
+      "name": "Redditch United FC",
+      "path": "football/clubs/gb-eng/redditch-united.png"
+    },
+    "rochdale": {
+      "name": "Rochdale",
+      "path": "football/clubs/gb-eng/rochdale.png"
+    },
+    "romford": {
+      "name": "Romford FC",
+      "path": "football/clubs/gb-eng/romford.png"
+    },
+    "rotherham-united": {
+      "name": "Rotherham United",
+      "path": "football/clubs/gb-eng/rotherham-united.png"
+    },
+    "royal-wootton-bassett-town": {
+      "name": "Royal Wootton Bassett Town FC",
+      "path": "football/clubs/gb-eng/royal-wootton-bassett-town.png"
+    },
+    "royston-town": {
+      "name": "Royston Town FC",
+      "path": "football/clubs/gb-eng/royston-town.png"
+    },
+    "rugby-town": {
+      "name": "Rugby Town FC",
+      "path": "football/clubs/gb-eng/rugby-town.png"
+    },
+    "rushall-olympic": {
+      "name": "Rushall Olympic FC",
+      "path": "football/clubs/gb-eng/rushall-olympic.png"
+    },
+    "salford-city": {
+      "name": "Salford City",
+      "path": "football/clubs/gb-eng/salford-city.png"
+    },
+    "salisbury": {
+      "name": "Salisbury FC",
+      "path": "football/clubs/gb-eng/salisbury.png"
+    },
+    "scarborough-athletic": {
+      "name": "Scarborough Athletic FC",
+      "path": "football/clubs/gb-eng/scarborough-athletic.png"
+    },
+    "scunthorpe-united": {
+      "name": "Scunthorpe United FC",
+      "path": "football/clubs/gb-eng/scunthorpe-united.png"
+    },
+    "shaftesbury": {
+      "name": "Shaftesbury FC",
+      "path": "football/clubs/gb-eng/shaftesbury.png"
+    },
     "sheffield-united": {
       "name": "Sheffield United",
       "path": "football/clubs/gb-eng/sheffield-united.png"
+    },
+    "sheffield-wednesday": {
+      "name": "Sheffield Wednesday",
+      "path": "football/clubs/gb-eng/sheffield-wednesday.png"
+    },
+    "sholing": {
+      "name": "Sholing FC",
+      "path": "football/clubs/gb-eng/sholing.png"
+    },
+    "shrewsbury-town": {
+      "name": "Shrewsbury Town",
+      "path": "football/clubs/gb-eng/shrewsbury-town.png"
+    },
+    "sittingbourne": {
+      "name": "Sittingbourne FC",
+      "path": "football/clubs/gb-eng/sittingbourne.png"
+    },
+    "slough-town": {
+      "name": "Slough Town FC",
+      "path": "football/clubs/gb-eng/slough-town.png"
+    },
+    "solihull-moors": {
+      "name": "Solihull Moors FC",
+      "path": "football/clubs/gb-eng/solihull-moors.png"
+    },
+    "south-shields": {
+      "name": "South Shields FC",
+      "path": "football/clubs/gb-eng/south-shields.png"
+    },
+    "southall": {
+      "name": "Southall FC",
+      "path": "football/clubs/gb-eng/southall.png"
     },
     "southampton": {
       "name": "Southampton FC",
       "path": "football/clubs/gb-eng/southampton.png"
     },
+    "southend-united": {
+      "name": "Southend United FC",
+      "path": "football/clubs/gb-eng/southend-united.png"
+    },
+    "southport": {
+      "name": "Southport FC",
+      "path": "football/clubs/gb-eng/southport.png"
+    },
+    "spalding-united": {
+      "name": "Spalding United FC",
+      "path": "football/clubs/gb-eng/spalding-united.png"
+    },
+    "spennymoor-town": {
+      "name": "Spennymoor Town FC",
+      "path": "football/clubs/gb-eng/spennymoor-town.png"
+    },
+    "st-albans-city": {
+      "name": "St Albans City FC",
+      "path": "football/clubs/gb-eng/st-albans-city.png"
+    },
+    "st-ives-town": {
+      "name": "St Ives Town FC",
+      "path": "football/clubs/gb-eng/st-ives-town.png"
+    },
+    "stamford-afc": {
+      "name": "Stamford AFC",
+      "path": "football/clubs/gb-eng/stamford-afc.png"
+    },
+    "stanway-rovers": {
+      "name": "Stanway Rovers FC",
+      "path": "football/clubs/gb-eng/stanway-rovers.png"
+    },
+    "stevenage": {
+      "name": "Stevenage",
+      "path": "football/clubs/gb-eng/stevenage.png"
+    },
+    "stockport-county": {
+      "name": "Stockport County",
+      "path": "football/clubs/gb-eng/stockport-county.png"
+    },
+    "stocksbridge-park-steels": {
+      "name": "Stocksbridge Park Steels FC",
+      "path": "football/clubs/gb-eng/stocksbridge-park-steels.png"
+    },
+    "stockton-town": {
+      "name": "Stockton Town FC",
+      "path": "football/clubs/gb-eng/stockton-town.png"
+    },
+    "stoke-city": {
+      "name": "Stoke City",
+      "path": "football/clubs/gb-eng/stoke-city.png"
+    },
+    "stotfold": {
+      "name": "Stotfold FC",
+      "path": "football/clubs/gb-eng/stotfold.png"
+    },
+    "stourbridge": {
+      "name": "Stourbridge FC",
+      "path": "football/clubs/gb-eng/stourbridge.png"
+    },
+    "stratford-town": {
+      "name": "Stratford Town FC",
+      "path": "football/clubs/gb-eng/stratford-town.png"
+    },
     "sunderland": {
       "name": "Sunderland AFC",
       "path": "football/clubs/gb-eng/sunderland.png"
+    },
+    "sutton-coldfield-town": {
+      "name": "Sutton Coldfield Town FC",
+      "path": "football/clubs/gb-eng/sutton-coldfield-town.png"
+    },
+    "sutton-united": {
+      "name": "Sutton United FC",
+      "path": "football/clubs/gb-eng/sutton-united.png"
+    },
+    "swansea-city": {
+      "name": "Swansea City",
+      "path": "football/clubs/gb-eng/swansea-city.png"
+    },
+    "swindon-town": {
+      "name": "Swindon Town",
+      "path": "football/clubs/gb-eng/swindon-town.png"
+    },
+    "tamworth": {
+      "name": "Tamworth FC",
+      "path": "football/clubs/gb-eng/tamworth.png"
+    },
+    "taunton-town": {
+      "name": "Taunton Town FC",
+      "path": "football/clubs/gb-eng/taunton-town.png"
+    },
+    "thame-united": {
+      "name": "Thame United FC",
+      "path": "football/clubs/gb-eng/thame-united.png"
+    },
+    "three-bridges": {
+      "name": "Three Bridges FC",
+      "path": "football/clubs/gb-eng/three-bridges.png"
+    },
+    "tonbridge-angels": {
+      "name": "Tonbridge Angels FC",
+      "path": "football/clubs/gb-eng/tonbridge-angels.png"
+    },
+    "torquay-united": {
+      "name": "Torquay United FC",
+      "path": "football/clubs/gb-eng/torquay-united.png"
     },
     "tottenham": {
       "name": "Tottenham Hotspur",
       "path": "football/clubs/gb-eng/tottenham.png"
     },
+    "tranmere-rovers": {
+      "name": "Tranmere Rovers",
+      "path": "football/clubs/gb-eng/tranmere-rovers.png"
+    },
+    "truro-city": {
+      "name": "Truro City FC",
+      "path": "football/clubs/gb-eng/truro-city.png"
+    },
+    "uxbridge": {
+      "name": "Uxbridge FC",
+      "path": "football/clubs/gb-eng/uxbridge.png"
+    },
+    "walsall": {
+      "name": "Walsall",
+      "path": "football/clubs/gb-eng/walsall.png"
+    },
+    "waltham-abbey": {
+      "name": "Waltham Abbey FC",
+      "path": "football/clubs/gb-eng/waltham-abbey.png"
+    },
+    "walton-hersham": {
+      "name": "Walton & Hersham FC",
+      "path": "football/clubs/gb-eng/walton-hersham.png"
+    },
+    "ware": {
+      "name": "Ware FC",
+      "path": "football/clubs/gb-eng/ware.png"
+    },
+    "warrington-rylands": {
+      "name": "Warrington Rylands FC",
+      "path": "football/clubs/gb-eng/warrington-rylands.png"
+    },
+    "warrington-town": {
+      "name": "Warrington Town FC",
+      "path": "football/clubs/gb-eng/warrington-town.png"
+    },
     "watford": {
       "name": "Watford FC",
       "path": "football/clubs/gb-eng/watford.png"
+    },
+    "wealdstone": {
+      "name": "Wealdstone FC",
+      "path": "football/clubs/gb-eng/wealdstone.png"
+    },
+    "welling-united": {
+      "name": "Welling United FC",
+      "path": "football/clubs/gb-eng/welling-united.png"
+    },
+    "welwyn-garden-city": {
+      "name": "Welwyn Garden City FC",
+      "path": "football/clubs/gb-eng/welwyn-garden-city.png"
+    },
+    "west-bromwich-albion": {
+      "name": "West Bromwich Albion",
+      "path": "football/clubs/gb-eng/west-bromwich-albion.png"
     },
     "west-ham": {
       "name": "West Ham United",
       "path": "football/clubs/gb-eng/west-ham.png"
     },
+    "westbury-united": {
+      "name": "Westbury United FC",
+      "path": "football/clubs/gb-eng/westbury-united.png"
+    },
+    "weston-super-mare": {
+      "name": "Weston Super Mare FC",
+      "path": "football/clubs/gb-eng/weston-super-mare.png"
+    },
+    "whitby-town": {
+      "name": "Whitby Town FC",
+      "path": "football/clubs/gb-eng/whitby-town.png"
+    },
+    "whitehawk": {
+      "name": "Whitehawk FC",
+      "path": "football/clubs/gb-eng/whitehawk.png"
+    },
+    "whitley-bay": {
+      "name": "Whitley Bay FC",
+      "path": "football/clubs/gb-eng/whitley-bay.png"
+    },
+    "whitstable-town": {
+      "name": "Whitstable Town FC",
+      "path": "football/clubs/gb-eng/whitstable-town.png"
+    },
+    "wigan-athletic": {
+      "name": "Wigan Athletic",
+      "path": "football/clubs/gb-eng/wigan-athletic.png"
+    },
+    "willand-rovers": {
+      "name": "Willand Rovers FC",
+      "path": "football/clubs/gb-eng/willand-rovers.png"
+    },
+    "wimborne-town": {
+      "name": "Wimborne Town FC",
+      "path": "football/clubs/gb-eng/wimborne-town.png"
+    },
+    "wingate-finchley": {
+      "name": "Wingate & Finchley FC",
+      "path": "football/clubs/gb-eng/wingate-finchley.png"
+    },
+    "winslow-united": {
+      "name": "Winslow United FC",
+      "path": "football/clubs/gb-eng/winslow-united.png"
+    },
+    "witham-town": {
+      "name": "Witham Town FC",
+      "path": "football/clubs/gb-eng/witham-town.png"
+    },
+    "woking": {
+      "name": "Woking FC",
+      "path": "football/clubs/gb-eng/woking.png"
+    },
     "wolves": {
       "name": "Wolverhampton Wanderers",
       "path": "football/clubs/gb-eng/wolves.png"
+    },
+    "woodford-town": {
+      "name": "Woodford Town FC",
+      "path": "football/clubs/gb-eng/woodford-town.png"
+    },
+    "worcester-city": {
+      "name": "Worcester City FC",
+      "path": "football/clubs/gb-eng/worcester-city.png"
+    },
+    "workington-afc": {
+      "name": "Workington AFC",
+      "path": "football/clubs/gb-eng/workington-afc.png"
+    },
+    "worksop-town": {
+      "name": "Worksop Town FC",
+      "path": "football/clubs/gb-eng/worksop-town.png"
+    },
+    "worthing": {
+      "name": "Worthing FC",
+      "path": "football/clubs/gb-eng/worthing.png"
+    },
+    "wrexham": {
+      "name": "Wrexham",
+      "path": "football/clubs/gb-eng/wrexham.png"
+    },
+    "wycombe-wanderers": {
+      "name": "Wycombe Wanderers",
+      "path": "football/clubs/gb-eng/wycombe-wanderers.png"
+    },
+    "yate-town": {
+      "name": "Yate Town FC",
+      "path": "football/clubs/gb-eng/yate-town.png"
+    },
+    "yeovil-town": {
+      "name": "Yeovil Town FC",
+      "path": "football/clubs/gb-eng/yeovil-town.png"
+    },
+    "york-city": {
+      "name": "York City",
+      "path": "football/clubs/gb-eng/york-city.png"
     },
     "aberdeen": {
       "name": "Aberdeen FC",
@@ -2275,9 +5111,25 @@
       "name": "Maccabi Tel Aviv",
       "path": "football/clubs/il/maccabi-tel-aviv.png"
     },
+    "arezzo": {
+      "name": "Arezzo",
+      "path": "football/clubs/it/arezzo.png"
+    },
+    "ascoli": {
+      "name": "Ascoli",
+      "path": "football/clubs/it/ascoli.png"
+    },
     "atalanta": {
       "name": "Atalanta BC",
       "path": "football/clubs/it/atalanta.png"
+    },
+    "avellino": {
+      "name": "US Avellino",
+      "path": "football/clubs/it/avellino.png"
+    },
+    "benevento": {
+      "name": "Benevento",
+      "path": "football/clubs/it/benevento.png"
     },
     "bologna": {
       "name": "Bologna FC 1909",
@@ -2286,6 +5138,22 @@
     "cagliari": {
       "name": "Cagliari Calcio",
       "path": "football/clubs/it/cagliari.png"
+    },
+    "carrarese": {
+      "name": "Carrarese",
+      "path": "football/clubs/it/carrarese.png"
+    },
+    "catania": {
+      "name": "Catania",
+      "path": "football/clubs/it/catania.png"
+    },
+    "catanzaro": {
+      "name": "Catanzaro",
+      "path": "football/clubs/it/catanzaro.png"
+    },
+    "cesena": {
+      "name": "Cesena",
+      "path": "football/clubs/it/cesena.png"
     },
     "como-1907": {
       "name": "Como 1907",
@@ -2315,6 +5183,10 @@
       "name": "Inter Milan",
       "path": "football/clubs/it/inter.png"
     },
+    "juve-stabia": {
+      "name": "Juve Stabia",
+      "path": "football/clubs/it/juve-stabia.png"
+    },
     "juventus": {
       "name": "Juventus FC",
       "path": "football/clubs/it/juventus.png"
@@ -2327,9 +5199,17 @@
       "name": "US Lecce",
       "path": "football/clubs/it/lecce.png"
     },
+    "mantova": {
+      "name": "Mantova",
+      "path": "football/clubs/it/mantova.png"
+    },
     "milan": {
       "name": "AC Milan",
       "path": "football/clubs/it/milan.png"
+    },
+    "modena": {
+      "name": "Modena",
+      "path": "football/clubs/it/modena.png"
     },
     "monza": {
       "name": "AC Monza",
@@ -2339,6 +5219,14 @@
       "name": "SSC Napoli",
       "path": "football/clubs/it/napoli.png"
     },
+    "padova": {
+      "name": "Padova",
+      "path": "football/clubs/it/padova.png"
+    },
+    "palermo": {
+      "name": "Palermo",
+      "path": "football/clubs/it/palermo.png"
+    },
     "parma": {
       "name": "Parma Calcio 1913",
       "path": "football/clubs/it/parma.png"
@@ -2346,6 +5234,14 @@
     "pisa": {
       "name": "Pisa Sporting Club",
       "path": "football/clubs/it/pisa.png"
+    },
+    "potenza": {
+      "name": "Potenza",
+      "path": "football/clubs/it/potenza.png"
+    },
+    "ravenna": {
+      "name": "Ravenna",
+      "path": "football/clubs/it/ravenna.png"
     },
     "roma": {
       "name": "AS Roma",
@@ -2367,6 +5263,10 @@
       "name": "Spezia Calcio",
       "path": "football/clubs/it/spezia.png"
     },
+    "sudtirol": {
+      "name": "Sudtirol",
+      "path": "football/clubs/it/sudtirol.png"
+    },
     "torino": {
       "name": "Torino FC",
       "path": "football/clubs/it/torino.png"
@@ -2375,6 +5275,10 @@
       "name": "Udinese Calcio",
       "path": "football/clubs/it/udinese.png"
     },
+    "union-brescia": {
+      "name": "Union Brescia",
+      "path": "football/clubs/it/union-brescia.png"
+    },
     "venezia": {
       "name": "Venezia FC",
       "path": "football/clubs/it/venezia.png"
@@ -2382,6 +5286,14 @@
     "verona": {
       "name": "Hellas Verona",
       "path": "football/clubs/it/verona.png"
+    },
+    "vicenza": {
+      "name": "Vicenza",
+      "path": "football/clubs/it/vicenza.png"
+    },
+    "virtus-entella": {
+      "name": "Virtus Entella",
+      "path": "football/clubs/it/virtus-entella.png"
     },
     "america": {
       "name": "América",

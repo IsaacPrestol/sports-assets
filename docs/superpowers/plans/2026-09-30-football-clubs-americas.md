@@ -1,10 +1,10 @@
-# Escudos de clubes de América — Plan de implementación
+# Americas club crests — Implementation plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Añadir los clubes de primera división de 16 ligas de CONMEBOL y CONCACAF (temporada actual y desde 2022) al catálogo de clubes, con escudos transparentes y el mismo flujo `plan/accept/apply`.
+**Goal:** Add the top-division clubs of 16 CONMEBOL and CONCACAF leagues (current season and since 2022) to the club catalog, with transparent crests and the same `plan/accept/apply` flow.
 
-**Architecture:** Un archivo de plantillas mantenido a mano (`data/football/rosters.json`) se convierte con `roster_index` en entradas con la misma forma que las de luukhopman; `sync_clubs.py` combina los dos índices, de modo que propuesta, revisión visual, fusión y validación no cambian. Las correspondencias admiten `"source": "url"` para escudos que no están en football-logos.cc.
+**Architecture:** A hand-maintained roster file (`data/football/rosters.json`) is turned by `roster_index` into entries with the same shape as luukhopman's; `sync_clubs.py` combines both indexes, so proposal, visual review, merging and validation don't change. Mappings accept `"source": "url"` for crests that aren't on football-logos.cc.
 
 **Tech Stack:** Python 3.12, Pillow, `unittest` (stdlib), `urllib`.
 
@@ -12,39 +12,39 @@
 
 ## Global Constraints
 
-- Tests: `python -m unittest discover -s tests -v` (sin pytest). Los tests importan desde `scripts/` vía `sys.path`.
-- Logos: PNG con píxeles transparentes, recortado, lado mayor ≤ 1024 px, nunca ampliado (`scripts/normalize_logo.py`).
-- País de un club = `country` de su liga en `competitions.json`. Los clubes canadienses de la MLS llevan `US`.
-- Temporadas: `AAAA` (año natural) o `AAAA-AA` (cruzan dos años), una sola forma por liga. Desde 2022 / 2022-23 hasta la actual.
-- Ligas con temporada `AAAA-AA`: `liga-mx`, `costa-rican-primera-division`, `guatemalan-liga-nacional`. El resto, `AAAA`.
-- Nombres de club en `rosters.json`: tal como aparecen en la Wikipedia en inglés.
-- Ningún alias de competición puede ser uno de `RealCatalogTest.GENERIC_ALIASES`.
-- JSON escrito con `ensure_ascii=False, indent=2` y salto de línea final (como `write_json` de `sync_clubs.py`).
-- Commits con identidad local del repo; mensajes terminados en `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`.
-- No hacer push ni merge.
-- `football/clubs/tr/fenerbahce.png` tiene un cambio local del usuario: no hacer `git add` de ese archivo ni `git add -A`.
+- Tests: `python -m unittest discover -s tests -v` (no pytest). Tests import from `scripts/` via `sys.path`.
+- Logos: PNG with transparent pixels, trimmed, longest side ≤ 1024 px, never upscaled (`scripts/normalize_logo.py`).
+- A club's country = its league's `country` in `competitions.json`. Canadian MLS clubs get `US`.
+- Seasons: `YYYY` (calendar year) or `YYYY-YY` (spanning two years), a single form per league. From 2022 / 2022-23 up to the current one.
+- Leagues with `YYYY-YY` seasons: `liga-mx`, `costa-rican-primera-division`, `guatemalan-liga-nacional`. The rest use `YYYY`.
+- Club names in `rosters.json`: as they appear on English Wikipedia.
+- No competition alias may be one of `RealCatalogTest.GENERIC_ALIASES`.
+- JSON written with `ensure_ascii=False, indent=2` and a trailing newline (like `write_json` in `sync_clubs.py`).
+- Commits with the repo's local identity; messages ending in `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`.
+- Don't push or merge.
+- `football/clubs/tr/fenerbahce.png` has a local change by the user: don't `git add` that file, and don't `git add -A`.
 
 ## Review Focus
 
-1. Un club que cambia de nombre entre temporadas (p. ej. "York United" → "Inter Toronto FC") aparece como dos claves; ambas deben ir al mismo id y el nombre antiguo quedar como alias. Test: `RosterIndexTest.test_renamed_club_is_one_club`.
-2. Una correspondencia aceptada con `"source": "url"` pero sin URL rellenada no debe llegar a CI en silencio: `validate_clubs` la rechaza. Test: `ValidateClubsTest.test_url_source_needs_https_url`.
-3. Temporadas con formatos mezclados en una liga harían que la "actual" fuera la equivocada. Test: `RosterErrorsTest.test_season_format`.
-4. Un nombre repetido en una temporada con otra grafía ("Club Nacional" / "club nacional") produciría dos claves del mismo club. Test: `RosterErrorsTest.test_club_names`.
-5. Volver a ejecutar `apply` sin cambios no debe modificar nada (`git status` limpio). Paso explícito en la Task 7.
+1. A club that changes name between seasons (e.g. "York United" → "Inter Toronto FC") appears as two keys; both must map to the same id, with the old name kept as an alias. Test: `RosterIndexTest.test_renamed_club_is_one_club`.
+2. An accepted mapping with `"source": "url"` but no URL filled in must not reach CI silently: `validate_clubs` rejects it. Test: `ValidateClubsTest.test_url_source_needs_https_url`.
+3. Mixed season formats in one league would make the wrong season the "current" one. Test: `RosterErrorsTest.test_season_format`.
+4. A name repeated in a season with a different spelling ("Club Nacional" / "club nacional") would produce two keys for the same club. Test: `RosterErrorsTest.test_club_names`.
+5. Running `apply` again with no changes must not modify anything (clean `git status`). Explicit step in Task 7.
 
 ---
 
-### Task 1: Doce ligas nuevas en el catálogo de competiciones
+### Task 1: Twelve new leagues in the competition catalog
 
 **Files:**
 - Modify: `data/football/competitions.json`, `data/sources.json`, `data/football/competitions-lookup.json` (regenerado), `data/all-assets.json` (regenerado)
-- Create: 12 PNG en `football/competitions/south-america/` y `football/competitions/north-america/`
+- Create: 12 PNGs in `football/competitions/south-america/` and `football/competitions/north-america/`
 - Test: `tests/test_football_catalog.py`
 
 **Interfaces:**
-- Produces: competiciones de tipo `league` con estos ids y países, usadas por `rosters.json` (Task 5):
+- Produces: `league` competitions with these ids and countries, used by `rosters.json` (Task 5):
 
-| id | name | aliases | continent / confederation | country | slug en football-logos.cc |
+| id | name | aliases | continent / confederation | country | football-logos.cc slug |
 |---|---|---|---|---|---|
 | `uruguayan-primera-division` | Liga AUF Uruguaya | Uruguayan Primera División, Campeonato Uruguayo | south-america / CONMEBOL | UY | `uruguay/liga-auf-uruguaya` |
 | `colombian-primera-a` | Categoría Primera A | Liga BetPlay, Liga BetPlay Dimayor, Colombian Primera A | south-america / CONMEBOL | CO | `colombia/categoria-primera-a` |
@@ -59,11 +59,11 @@
 | `guatemalan-liga-nacional` | Liga Nacional de Guatemala | Liga Guate | north-america / CONCACAF | GT | `guatemala/liga-nacional-de-futbol-de-guatemala` |
 | `panamanian-football-league` | Liga Panameña de Fútbol | Panamanian Football League, LPF Panamá | north-america / CONCACAF | PA | `panama/panamanian-football-league` |
 
-Todas con `"type": "league"`, `"scope": "club"`, `"collage": null`, `"logo": "football/competitions/<continent>/<id>.png"`.
+All with `"type": "league"`, `"scope": "club"`, `"collage": null`, `"logo": "football/competitions/<continent>/<id>.png"`.
 
 - [ ] **Step 1: Write the failing test**
 
-Añadir a `RealCatalogTest` en `tests/test_football_catalog.py`:
+Add to `RealCatalogTest` in `tests/test_football_catalog.py`:
 
 ```python
     AMERICAN_LEAGUES = {
@@ -89,11 +89,11 @@ Añadir a `RealCatalogTest` en `tests/test_football_catalog.py`:
 - [ ] **Step 2: Run test to verify it fails**
 
 Run: `python -m unittest tests.test_football_catalog.RealCatalogTest -v`
-Expected: FAIL en `test_american_leagues_have_country_and_logo` con `uruguayan-primera-division` (`None` is not not None).
+Expected: FAIL in `test_american_leagues_have_country_and_logo` with `uruguayan-primera-division` (`None` is not not None).
 
 - [ ] **Step 3: Download and normalize the 12 logos**
 
-Para cada fila de la tabla, obtener la URL de 1500 px de la página del país y normalizarla. Script de un solo uso (en `.cache/`, no se commitea):
+For each row of the table, get the 1500 px URL from the country page and normalize it. One-off script (in `.cache/`, not committed):
 
 ```python
 # .cache/americas_logos.py
@@ -123,13 +123,13 @@ for league_id, continent, country, slug in ROWS:
 ```
 
 Run: `python .cache/americas_logos.py`
-Expected: 12 líneas `<id> https://assets.football-logos.cc/...png`, sin excepciones.
+Expected: 12 lines `<id> https://assets.football-logos.cc/...png`, no exceptions.
 
-Revisar visualmente los 12 PNG (hoja de contacto sobre fondo gris). Si alguno es opaco, lleva marca de agua o no es el logo de la liga, sustituirlo por el PNG de Wikimedia (URL `thumb` de 3840 px de la API `imageinfo`) y anotar la decisión como Ruling.
+Review the 12 PNGs visually (contact sheet on a grey background). If any is opaque, has a watermark or isn't the league's logo, replace it with the Wikimedia PNG (3840 px `thumb` URL from the `imageinfo` API) and record the decision as a Ruling.
 
 - [ ] **Step 4: Add catalog entries and sources**
 
-Añadir las 12 entradas de la tabla a `data/football/competitions.json` (después de las demás de su continente) y una entrada por logo en `data/sources.json`:
+Add the 12 table entries to `data/football/competitions.json` (after the others of their continent) and one entry per logo to `data/sources.json`:
 
 ```json
 "football/competitions/south-america/uruguayan-primera-division.png": {
@@ -140,12 +140,12 @@ Añadir las 12 entradas de la tabla a `data/football/competitions.json` (despué
 }
 ```
 
-Luego: `python scripts/build_index.py`
-Expected: termina sin errores. Si informa de una colisión de alias (p. ej. `LPF Panamá` o `Liga 1 Perú` con otra competición), quitar ese alias de la liga nueva y anotarlo como Ruling.
+Then: `python scripts/build_index.py`
+Expected: finishes without errors. If it reports an alias collision (e.g. `LPF Panamá` or `Liga 1 Perú` with another competition), remove that alias from the new league and record it as a Ruling.
 
 - [ ] **Step 5: Run tests and validation**
 
-Run: `python -m unittest discover -s tests` y `python scripts/validate_assets.py`
+Run: `python -m unittest discover -s tests` and `python scripts/validate_assets.py`
 Expected: `OK`; `Validation passed.`
 
 - [ ] **Step 6: Commit**
@@ -157,25 +157,25 @@ git commit -m "Add the 12 remaining American leagues to the competitions catalog
 
 ---
 
-### Task 2: Índice de plantillas y liga en las entradas del índice
+### Task 2: Roster index and league in index entries
 
 **Files:**
 - Modify: `scripts/football_clubs.py`
 - Test: `tests/test_football_clubs.py`
 
 **Interfaces:**
-- Consumes: ids de liga de la Task 1 (solo como datos de ejemplo en los tests).
+- Consumes: league ids from Task 1 (only as sample data in the tests).
 - Produces:
   - `ROSTERS_FILE = ROOT / "data" / "football" / "rosters.json"`
-  - `COUNTRY_CODES` con 16 países nuevos; `FL_COUNTRIES` los incluye (derivado), con `"United States": "usa"`.
-  - Entradas de índice (de `luuk_index` y `roster_index`) con las claves `country_folder`, `name`, `league_folder`, `league`, `latest_season`, `latest_path`. `league` es un id de competición o `None`.
-  - `roster_index(rosters: dict, competitions: list[dict]) -> dict[str, dict]`, clave `"<country_folder>|<name>"`, `league_folder` siempre `None`, `latest_path` siempre `None`.
-  - `propose(...)` devuelve `"source": "url"` cuando no hay slug y la entrada no tiene `latest_path`.
-  - `merge_clubs` toma la liga actual del campo `league` de las entradas.
+  - `COUNTRY_CODES` with 16 new countries; `FL_COUNTRIES` includes them (derived), with `"United States": "usa"`.
+  - Index entries (from `luuk_index` and `roster_index`) with the keys `country_folder`, `name`, `league_folder`, `league`, `latest_season`, `latest_path`. `league` is a competition id or `None`.
+  - `roster_index(rosters: dict, competitions: list[dict]) -> dict[str, dict]`, key `"<country_folder>|<name>"`, `league_folder` always `None`, `latest_path` always `None`.
+  - `propose(...)` returns `"source": "url"` when there's no slug and the entry has no `latest_path`.
+  - `merge_clubs` takes the current league from the entries' `league` field.
 
 - [ ] **Step 1: Write the failing tests**
 
-En `tests/test_football_clubs.py`, añadir `roster_index` a la importación de `football_clubs`, añadir este test a `LuukIndexTest`:
+In `tests/test_football_clubs.py`, add `roster_index` to the `football_clubs` import, and add this test to `LuukIndexTest`:
 
 ```python
     def test_entries_carry_league_id(self):
@@ -184,7 +184,7 @@ En `tests/test_football_clubs.py`, añadir `roster_index` a la importación de `
         self.assertIsNone(index["Spain|UD Almería"]["league"])
 ```
 
-y esta clase después de `SyncSafetyTest`:
+and this class after `SyncSafetyTest`:
 
 ```python
 ROSTERS = {
@@ -259,19 +259,19 @@ class RosterIndexTest(unittest.TestCase):
 - [ ] **Step 2: Run tests to verify they fail**
 
 Run: `python -m unittest tests.test_football_clubs -v`
-Expected: ERROR al importar: `ImportError: cannot import name 'roster_index'`.
+Expected: ERROR on import: `ImportError: cannot import name 'roster_index'`.
 
 - [ ] **Step 3: Implement**
 
-En `scripts/football_clubs.py`:
+In `scripts/football_clubs.py`:
 
-1. Debajo de `MAPPING_FILE`:
+1. Below `MAPPING_FILE`:
 
 ```python
 ROSTERS_FILE = ROOT / "data" / "football" / "rosters.json"
 ```
 
-2. En `COUNTRY_CODES`, añadir (manteniendo el orden alfabético):
+2. In `COUNTRY_CODES`, add (keeping alphabetical order):
 
 ```python
     "Argentina": "AR", "Bolivia": "BO", "Brazil": "BR", "Canada": "CA", "Chile": "CL",
@@ -280,16 +280,16 @@ ROSTERS_FILE = ROOT / "data" / "football" / "rosters.json"
     "United States": "US", "Uruguay": "UY", "Venezuela": "VE",
 ```
 
-y en `FL_COUNTRIES`: `} | {"Türkiye": "turkey", "United States": "usa"}`.
+and in `FL_COUNTRIES`: `} | {"Türkiye": "turkey", "United States": "usa"}`.
 
-3. En `luuk_index`, añadir `"league": None,` al diccionario creado con `setdefault` (después de `"league_folder": None,`) y sustituir
+3. In `luuk_index`, add `"league": None,` to the dictionary created with `setdefault` (after `"league_folder": None,`) and replace
 
 ```python
         if season == CURRENT_SEASON:
             club["league_folder"] = league_folder
 ```
 
-por
+with
 
 ```python
         if season == CURRENT_SEASON:
@@ -297,7 +297,7 @@ por
             club["league"] = LEAGUE_IDS.get(league_folder)
 ```
 
-4. Después de `luuk_index`:
+4. After `luuk_index`:
 
 ```python
 def roster_index(rosters: dict, competitions: list[dict]) -> dict[str, dict]:
@@ -326,7 +326,7 @@ def roster_index(rosters: dict, competitions: list[dict]) -> dict[str, dict]:
     return clubs
 ```
 
-5. En `propose`, sustituir `"source": "football-logos" if slug else "luukhopman",` por `"source": source,` y antes del `proposals[key] = {` añadir:
+5. In `propose`, replace `"source": "football-logos" if slug else "luukhopman",` with `"source": source,` and before `proposals[key] = {` add:
 
 ```python
         if slug:
@@ -337,14 +337,14 @@ def roster_index(rosters: dict, competitions: list[dict]) -> dict[str, dict]:
             source = "url"
 ```
 
-6. En `merge_clubs`, sustituir
+6. In `merge_clubs`, replace
 
 ```python
         current = [entry for entry in entries if entry["league_folder"]]
         league = LEAGUE_IDS[current[0]["league_folder"]] if current else None
 ```
 
-por
+with
 
 ```python
         current = [entry for entry in entries if entry["league"]]
@@ -365,7 +365,7 @@ git commit -m "Index hand-maintained club rosters like luukhopman"
 
 ---
 
-### Task 3: Validación de plantillas y de correspondencias por URL
+### Task 3: Roster validation and URL mappings
 
 **Files:**
 - Modify: `scripts/football_clubs.py`, `scripts/validate_assets.py`
@@ -375,13 +375,13 @@ git commit -m "Index hand-maintained club rosters like luukhopman"
 - Consumes: `ROSTERS_FILE`, `COUNTRY_CODES` (Task 2); fixtures `ROSTERS`, `COMPETITIONS` (Task 2).
 - Produces:
   - `SEASON_RE = re.compile(r"^\d{4}(?:-\d{2})?$")`
-  - `roster_errors(rosters, competitions: list[dict]) -> list[str]`: lista vacía si es válido.
-  - `validate_clubs` rechaza correspondencias con `"source": "url"` sin una `url` que empiece por `https://`.
+  - `roster_errors(rosters, competitions: list[dict]) -> list[str]`: empty list if valid.
+  - `validate_clubs` rejects mappings with `"source": "url"` without a `url` starting with `https://`.
   - `validate_assets.check_rosters(errors, warnings)`.
 
 - [ ] **Step 1: Write the failing tests**
 
-Añadir `roster_errors` a la importación y estas pruebas:
+Add `roster_errors` to the import and these tests:
 
 ```python
 class RosterErrorsTest(unittest.TestCase):
@@ -414,7 +414,7 @@ class RosterErrorsTest(unittest.TestCase):
         self.assertTrue(any("empty" in e for e in errors))
 ```
 
-y en `ValidateClubsTest`:
+and in `ValidateClubsTest`:
 
 ```python
     def test_url_source_needs_https_url(self):
@@ -434,13 +434,13 @@ Expected: `ImportError: cannot import name 'roster_errors'`.
 
 - [ ] **Step 3: Implement**
 
-En `scripts/football_clubs.py`, junto a las constantes:
+In `scripts/football_clubs.py`, next to the constants:
 
 ```python
 SEASON_RE = re.compile(r"^\d{4}(?:-\d{2})?$")
 ```
 
-y después de `roster_index`:
+and after `roster_index`:
 
 ```python
 def roster_errors(rosters, competitions: list[dict]) -> list[str]:
@@ -481,7 +481,7 @@ def roster_errors(rosters, competitions: list[dict]) -> list[str]:
     return errors
 ```
 
-En `validate_clubs`, sustituir el bucle final de correspondencias por:
+In `validate_clubs`, replace the final mappings loop with:
 
 ```python
     for key in sorted(mapping):
@@ -493,8 +493,8 @@ En `validate_clubs`, sustituir el bucle final de correspondencias por:
             errors.append(f"Mapping '{key}' uses source 'url' without an https url")
 ```
 
-En `scripts/validate_assets.py`, ampliar la importación a
-`from football_clubs import CLUBS_FILE, MAPPING_FILE, ROSTERS_FILE, load_json, roster_errors, validate_clubs`, añadir:
+In `scripts/validate_assets.py`, extend the import to
+`from football_clubs import CLUBS_FILE, MAPPING_FILE, ROSTERS_FILE, load_json, roster_errors, validate_clubs`, add:
 
 ```python
 def check_rosters(errors: list, warnings: list) -> None:
@@ -507,11 +507,11 @@ def check_rosters(errors: list, warnings: list) -> None:
     errors.extend(roster_errors(rosters, competitions))
 ```
 
-y llamar a `check_rosters(errors, warnings)` en `main()` después de `check_clubs`.
+and call `check_rosters(errors, warnings)` in `main()` after `check_clubs`.
 
 - [ ] **Step 4: Run tests to verify they pass**
 
-Run: `python -m unittest discover -s tests` y `python scripts/validate_assets.py`
+Run: `python -m unittest discover -s tests` and `python scripts/validate_assets.py`
 Expected: `OK` (101 tests); `Validation passed.`
 
 - [ ] **Step 5: Commit**
@@ -523,20 +523,20 @@ git commit -m "Validate club rosters and manual crest URLs"
 
 ---
 
-### Task 4: `sync_clubs.py` procesa las plantillas
+### Task 4: `sync_clubs.py` processes the rosters
 
 **Files:**
 - Modify: `scripts/sync_clubs.py`
 
 **Interfaces:**
-- Consumes: `ROSTERS_FILE`, `roster_index`, `roster_errors` (Tasks 2–3); `load_catalog` de `football_catalog`.
-- Produces: `load_index() -> dict` (luukhopman + plantillas); `apply` descarga `mapping[key]["url"]` para `"source": "url"`.
+- Consumes: `ROSTERS_FILE`, `roster_index`, `roster_errors` (Tasks 2–3); `load_catalog` from `football_catalog`.
+- Produces: `load_index() -> dict` (luukhopman + rosters); `apply` downloads `mapping[key]["url"]` for `"source": "url"`.
 
 - [ ] **Step 1: Wire the combined index**
 
-1. Docstring: primera línea de fuentes → `Rosters from github.com/luukhopman/football-logos (Europe) and data/football/rosters.json (Americas),` y la de respaldo → `images from football-logos.cc (github.com/Leo4815162342/football-logos); luukhopman's 139x181 PNG or a manual url as fallback.`
-2. Importaciones: `from football_catalog import ROOT, load_catalog` y añadir `ROSTERS_FILE, roster_errors, roster_index` a la importación de `football_clubs`.
-3. Después de `check_folders`:
+1. Docstring: first sources line → `Rosters from github.com/luukhopman/football-logos (Europe) and data/football/rosters.json (Americas),` and the fallback line → `images from football-logos.cc (github.com/Leo4815162342/football-logos); luukhopman's 139x181 PNG or a manual url as fallback.`
+2. Imports: `from football_catalog import ROOT, load_catalog` and add `ROSTERS_FILE, roster_errors, roster_index` to the `football_clubs` import.
+3. After `check_folders`:
 
 ```python
 def load_index() -> dict:
@@ -552,15 +552,15 @@ def load_index() -> dict:
     return luuk | roster_index(rosters, competitions)
 ```
 
-4. En `plan()` y en `apply()`, sustituir las dos líneas `luuk = load_luuk()` / `check_folders(luuk)` por `luuk = load_index()`.
-5. En `plan()`, sustituir la línea de `luuk_path` por:
+4. In `plan()` and in `apply()`, replace the two lines `luuk = load_luuk()` / `check_folders(luuk)` with `luuk = load_index()`.
+5. In `plan()`, replace the `luuk_path` line with:
 
 ```python
         latest_path = luuk[key]["latest_path"]
         luuk_path = cached(luuk_url(latest_path), CACHE / "luuk" / latest_path) if latest_path else None
 ```
 
-6. En `apply()`, sustituir el bloque desde `slug = next(...)` hasta `normalize_logo(raw, destination)` por:
+6. In `apply()`, replace the block from `slug = next(...)` to `normalize_logo(raw, destination)` with:
 
 ```python
         slug = next((mapping[k]["slug"] for k in keys if mapping[k]["source"] == "football-logos"), None)
@@ -584,15 +584,15 @@ def load_index() -> dict:
             normalize_logo(raw, destination)
 ```
 
-7. Ayuda de `accept`: `help="country folder, e.g. Spain or Brazil"`.
+7. `accept` help: `help="country folder, e.g. Spain or Brazil"`.
 
 - [ ] **Step 2: Verify no regression on Europe**
 
 Run: `python scripts/sync_clubs.py plan`
-Expected: `0 unmapped club(s): {'exact': 0, 'partial': 0, 'fuzzy': 0, 'none': 0}` (aún no existe `rosters.json`).
+Expected: `0 unmapped club(s): {'exact': 0, 'partial': 0, 'fuzzy': 0, 'none': 0}` (`rosters.json` doesn't exist yet).
 
-Run: `python scripts/sync_clubs.py apply` y `git status --short`
-Expected: `572 club(s) in catalog, 0 without logo`; `git status` solo muestra `football/clubs/tr/fenerbahce.png` (cambio del usuario) y `scripts/sync_clubs.py`.
+Run: `python scripts/sync_clubs.py apply` and `git status --short`
+Expected: `572 club(s) in catalog, 0 without logo`; `git status` only shows `football/clubs/tr/fenerbahce.png` (the user's change) and `scripts/sync_clubs.py`.
 
 - [ ] **Step 3: Run tests**
 
@@ -608,19 +608,19 @@ git commit -m "Sync clubs from hand-maintained rosters and manual crest urls"
 
 ---
 
-### Task 5: `rosters.json` con las 16 ligas
+### Task 5: `rosters.json` with the 16 leagues
 
 **Files:**
 - Create: `data/football/rosters.json`
 - Test: `tests/test_football_clubs.py`
 
 **Interfaces:**
-- Consumes: ids de la Task 1; `roster_errors`, `ROSTERS_FILE` (Tasks 2–3).
-- Produces: plantillas de todas las ligas de `continent` `south-america` o `north-america` con `type: league`.
+- Consumes: ids from Task 1; `roster_errors`, `ROSTERS_FILE` (Tasks 2–3).
+- Produces: rosters for every `south-america` or `north-america` `continent` league with `type: league`.
 
 - [ ] **Step 1: Write the failing test**
 
-Añadir `ROSTERS_FILE` a la importación, `from football_catalog import load_catalog` junto a la importación de `normalize_name`, y:
+Add `ROSTERS_FILE` to the import, `from football_catalog import load_catalog` next to the `normalize_name` import, and:
 
 ```python
 class RealRostersTest(unittest.TestCase):
@@ -639,26 +639,26 @@ class RealRostersTest(unittest.TestCase):
 - [ ] **Step 2: Run test to verify it fails**
 
 Run: `python -m unittest tests.test_football_clubs.RealRostersTest -v`
-Expected: FAIL: `Items in the second set but not the first` con los 16 ids.
+Expected: FAIL: `Items in the second set but not the first` with the 16 ids.
 
 - [ ] **Step 3: Collect the rosters from Wikipedia**
 
-Para cada liga y temporada, abrir el artículo de la temporada en en.wikipedia.org (p. ej. "2026 Campeonato Brasileiro Série A", "2026–27 Liga MX season", "2026 Major League Soccer season") y copiar los equipos de la sección "Teams" (tabla de estadios/ubicaciones o "Stadia and locations"). Si no existe el artículo en inglés, usar el de es.wikipedia (o pt.wikipedia para Brasil) y escribir el nombre como lo escribe en.wikipedia en el artículo del club.
+For each league and season, open the season article on en.wikipedia.org (e.g. "2026 Campeonato Brasileiro Série A", "2026–27 Liga MX season", "2026 Major League Soccer season") and copy the teams from the "Teams" section (stadiums/locations table or "Stadia and locations"). If there's no English article, use the es.wikipedia one (or pt.wikipedia for Brazil) and write the name as en.wikipedia writes it in the club's article.
 
-Temporadas:
+Seasons:
 
-| Ligas | Temporadas |
+| Leagues | Seasons |
 |---|---|
 | brasileirao-serie-a, liga-profesional-argentina, uruguayan-primera-division, colombian-primera-a, chilean-primera-division, paraguayan-primera-division, peruvian-liga-1, ecuadorian-serie-a, bolivian-primera-division, venezuelan-primera-division, mls, canadian-premier-league, panamanian-football-league | 2022, 2023, 2024, 2025, 2026 |
 | liga-mx, costa-rican-primera-division, guatemalan-liga-nacional | 2022-23, 2023-24, 2024-25, 2025-26, 2026-27 |
 
-Reglas:
-- Nombre de un club = título de su artículo en en.wikipedia sin el paréntesis de desambiguación ("Club Nacional de Football", "Liverpool F.C. (Montevideo)" → "Liverpool F.C."). El mismo club se escribe igual en todas las temporadas salvo que cambiara de nombre oficialmente (esos cambios los une la Task 6).
-- Apertura + Clausura: unión de los equipos de ambos torneos.
-- El número de clubes de cada temporada coincide con el que indica el artículo (p. ej. Brasileirão 20, Liga MX 18, MLS 2026 30). Anotar cualquier discrepancia como Ruling.
-- Orden de las listas: alfabético.
+Rules:
+- A club's name = the title of its en.wikipedia article without the disambiguation parenthesis ("Club Nacional de Football", "Liverpool F.C. (Montevideo)" → "Liverpool F.C."). The same club is spelled the same way in every season unless it officially changed its name (Task 6 joins those changes).
+- Apertura + Clausura: union of the teams of both tournaments.
+- The number of clubs in each season matches the article (e.g. Brasileirão 20, Liga MX 18, MLS 2026 30). Record any discrepancy as a Ruling.
+- List order: alphabetical.
 
-Formato:
+Format:
 
 ```json
 {
@@ -670,11 +670,11 @@ Formato:
 }
 ```
 
-Claves de primer nivel en orden alfabético; escribir con `json.dumps(data, ensure_ascii=False, indent=2) + "\n"`.
+Top-level keys in alphabetical order; write with `json.dumps(data, ensure_ascii=False, indent=2) + "\n"`.
 
 - [ ] **Step 4: Run tests and validation**
 
-Run: `python -m unittest discover -s tests` y `python scripts/validate_assets.py`
+Run: `python -m unittest discover -s tests` and `python scripts/validate_assets.py`
 Expected: `OK` (102 tests); `Validation passed.`
 
 - [ ] **Step 5: Commit**
@@ -686,32 +686,32 @@ git commit -m "Add club rosters of 16 American leagues since 2022"
 
 ---
 
-### Task 6: Emparejar clubes y revisar escudos
+### Task 6: Match clubs and review crests
 
 **Files:**
 - Modify: `data/football/clubs-mapping.json`
 
 **Interfaces:**
 - Consumes: `sync_clubs.py plan|accept` (Task 4), `rosters.json` (Task 5).
-- Produces: una correspondencia por clave de `rosters.json`, con `source` `football-logos` (slug verificado) o `url` (URL https de PNG de Wikimedia).
+- Produces: one mapping per `rosters.json` key, with `source` `football-logos` (verified slug) or `url` (https URL of a Wikimedia PNG).
 
 - [ ] **Step 1: Propose**
 
 Run: `python scripts/sync_clubs.py plan`
-Expected: `<N> unmapped club(s): {...}` con N igual al número de claves de `roster_index` (entre 400 y 600); hojas `.cache/clubs/review-<país>.jpg` para los 16 países.
+Expected: `<N> unmapped club(s): {...}` with N equal to the number of `roster_index` keys (between 400 and 600); sheets `.cache/clubs/review-<country>.jpg` for the 16 countries.
 
 - [ ] **Step 2: Review each country and accept**
 
-Para cada país: abrir su hoja, anotar las propuestas erróneas (escudo de otro club, `none`, slug de otra categoría o del equipo femenino), ejecutar `python scripts/sync_clubs.py accept <País>` y corregir en `clubs-mapping.json` las anotadas:
+For each country: open its sheet, note the wrong proposals (another club's crest, `none`, a slug from another division or of the women's team), run `python scripts/sync_clubs.py accept <Country>` and fix the noted ones in `clubs-mapping.json`:
 
-- Slug erróneo: buscar el correcto en `https://football-logos.cc/<país>/` y cambiar `slug` (y `id` si el id derivado era el del club equivocado).
-- Sin escudo en football-logos.cc o escudo opaco: `"source": "url"`, `"slug": null`, `"url": "<URL thumb PNG de 3840 px de la API imageinfo de Wikimedia Commons, o el PNG original si es más pequeño>"`. Nunca una URL `.svg` sin thumb (Pillow no la abre).
-- Mismo club con dos nombres (renombrado, o grafías distintas entre temporadas): mismo `id` en ambas claves.
-- Id con errata heredada del slug (p. ej. `argeninos-juniors`): corregir el `id` (`argentinos-juniors`), manteniendo el `slug`.
+- Wrong slug: find the right one at `https://football-logos.cc/<country>/` and change `slug` (and `id` if the derived id was the wrong club's).
+- No crest on football-logos.cc, or an opaque crest: `"source": "url"`, `"slug": null`, `"url": "<3840 px PNG thumb URL from the Wikimedia Commons imageinfo API, or the original PNG if smaller>"`. Never an `.svg` URL without a thumb (Pillow can't open it).
+- Same club under two names (renamed, or spelled differently between seasons): the same `id` on both keys.
+- Id with a typo inherited from the slug (e.g. `argeninos-juniors`): fix the `id` (`argentinos-juniors`), keeping the `slug`.
 
 - [ ] **Step 3: Verify the mapping**
 
-Generar una hoja de verificación por país a partir de `clubs-mapping.json` (nombre de la plantilla → id, junto al escudo que se descargará: slug de football-logos.cc o `url`) con un script de un solo uso en `.cache/`, y revisarla. Repetir el Step 2 hasta que todas las filas sean correctas.
+Generate a verification sheet per country from `clubs-mapping.json` (roster name → id, next to the crest that will be downloaded: football-logos.cc slug or `url`) with a one-off script in `.cache/`, and review it. Repeat Step 2 until every row is correct.
 
 Run: `python scripts/sync_clubs.py plan`
 Expected: `0 unmapped club(s)`.
@@ -725,7 +725,7 @@ git commit -m "Map clubs of the American leagues"
 
 ---
 
-### Task 7: Descargar escudos, tests del catálogo real y documentación
+### Task 7: Download crests, real-catalog tests and documentation
 
 **Files:**
 - Modify: `data/football/clubs.json`, `data/football/clubs-lookup.json`, `data/sources.json`, `data/all-assets.json`, `README.md`
@@ -733,11 +733,11 @@ git commit -m "Map clubs of the American leagues"
 - Test: `tests/test_football_clubs.py`
 
 **Interfaces:**
-- Consumes: todo lo anterior.
+- Consumes: everything above.
 
 - [ ] **Step 1: Write the failing test**
 
-Añadir a `RealClubsCatalogTest`:
+Add to `RealClubsCatalogTest`:
 
 ```python
     def test_american_clubs_resolve(self):
@@ -748,34 +748,34 @@ Añadir a `RealClubsCatalogTest`:
         self.assertIsNone(self.find("CA", "Toronto FC"))
 ```
 
-Si los ids de la Task 6 difieren (p. ej. `club-america`), ajustar los valores esperados a esos ids antes de ejecutar.
+If the ids from Task 6 differ (e.g. `club-america`), adjust the expected values to those ids before running.
 
 - [ ] **Step 2: Run test to verify it fails**
 
 Run: `python -m unittest tests.test_football_clubs.RealClubsCatalogTest -v`
-Expected: FAIL en `test_american_clubs_resolve` (`None != 'flamengo'`).
+Expected: FAIL in `test_american_clubs_resolve` (`None != 'flamengo'`).
 
 - [ ] **Step 3: Apply**
 
 Run: `python scripts/sync_clubs.py apply`
-Expected: `<572+N'> club(s) in catalog, 0 without logo`. Si hay `WARNING: <id>: ...`, corregir su correspondencia (Task 6, Step 2), borrar el PNG si se creó y repetir.
+Expected: `<572+N'> club(s) in catalog, 0 without logo`. If there's a `WARNING: <id>: ...`, fix its mapping (Task 6, Step 2), delete the PNG if it was created and repeat.
 
-Revisar la hoja de contacto de los escudos descargados de cada país (fondo gris) para detectar fondos opacos residuales o recortes incorrectos.
+Review the contact sheet of each country's downloaded crests (grey background) to spot leftover opaque backgrounds or wrong trimming.
 
 - [ ] **Step 4: Verify idempotence, tests and validation**
 
-Run: `python scripts/sync_clubs.py apply` y `git status --short data football`
-Expected: mismo recuento y ningún cambio nuevo respecto al Step 3.
+Run: `python scripts/sync_clubs.py apply` and `git status --short data football`
+Expected: same count and no new changes compared with Step 3.
 
-Run: `python -m unittest discover -s tests` y `python scripts/validate_assets.py`
-Expected: `OK` (103 tests); `Validation passed.` (los avisos solo de baja resolución).
+Run: `python -m unittest discover -s tests` and `python scripts/validate_assets.py`
+Expected: `OK` (103 tests); `Validation passed.` (low-resolution warnings only).
 
 - [ ] **Step 5: Document**
 
-En `README.md`, sección "Clubes de fútbol":
-- Fuentes: las 25 ligas europeas vienen de luukhopman; las 16 de América de `data/football/rosters.json`, mantenido a mano desde Wikipedia.
-- Los clubes de la MLS con sede en Canadá tienen país `US`.
-- "Actualizar cada temporada": para América, añadir la temporada nueva de cada liga a `rosters.json` (nombres de la Wikipedia en inglés, `AAAA` o `AAAA-AA` según la liga) y ejecutar `plan` → revisar hojas → `accept` → `apply`; los escudos sin versión en football-logos.cc se indican con `"source": "url"` en `clubs-mapping.json`.
+In `README.md`, "Football clubs" section:
+- Sources: the 25 European leagues come from luukhopman; the 16 Americas leagues from `data/football/rosters.json`, maintained by hand from Wikipedia.
+- MLS clubs based in Canada have country `US`.
+- "Update every season": for the Americas, add each league's new season to `rosters.json` (names from English Wikipedia, `YYYY` or `YYYY-YY` depending on the league) and run `plan` → review sheets → `accept` → `apply`; crests with no football-logos.cc version are marked with `"source": "url"` in `clubs-mapping.json`.
 
 - [ ] **Step 6: Commit**
 

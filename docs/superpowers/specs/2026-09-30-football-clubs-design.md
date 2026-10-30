@@ -1,44 +1,44 @@
-# Escudos de clubes de fútbol — Diseño
+# Football club crests — Design
 
-Fecha: 2026-09-30
-Estado: pendiente de revisión
+Date: 2026-09-30
+Status: pending review
 
-## Objetivo
+## Goal
 
-La app externa necesita el escudo correcto de cada club. Esta fase añade los clubes de las 25 ligas europeas que recoge [luukhopman/football-logos](https://github.com/luukhopman/football-logos), con un catálogo JSON que identifique cada club sin ambigüedad, y un script que permita actualizarlo cada temporada.
+The external app needs the correct crest for each club. This phase adds the clubs of the 25 European leagues covered by [luukhopman/football-logos](https://github.com/luukhopman/football-logos), with a JSON catalog that identifies each club unambiguously, and a script that updates it every season.
 
-Se apoya en la fase anterior (`docs/superpowers/specs/2026-09-30-football-competitions-design.md`): mismo módulo de normalización, mismo criterio de logos (PNG transparente, lado mayor ≤ 1024 px) y misma validación en CI.
+It builds on the previous phase (`docs/superpowers/specs/2026-09-30-football-competitions-design.md`): same normalization module, same logo criteria (transparent PNG, longest side ≤ 1024 px) and same CI validation.
 
-## Contexto
+## Context
 
-- luukhopman/football-logos (rama `master`):
-  - `logos/<País> - <Liga>/<Club>.png`: temporada actual (2026/27), 25 ligas, 396 clubes.
-  - `history/<temporada>/<País> - <Liga>/<Club>.png`: temporadas 2021/22 a 2025/26. Añade 301 clubes que ya no están en esas ligas (incluida la liga húngara, que salió del top 25).
-  - Todas las imágenes son de 139×181 px: sirven para identificar la plantilla y como respaldo, no como escudo principal.
-  - Un mismo club aparece a veces con nombres distintos según la temporada ("Beerschot VA" / "Beerschot V.A.", "Banik Ostrava" / "FC Banik Ostrava").
-- football-logos.cc (sitio de `Leo4815162342/football-logos`, fuente de la fase anterior) tiene escudos de clubes a 1500×1500 px en `https://assets.football-logos.cc/logos/<país>/1500x1500/<slug>.<hash>.png`, listados en `https://football-logos.cc/<país>/`.
-- Una comprobación inicial emparejó por nombre 383 clubes exactamente, 135 de forma aproximada y 179 sin coincidencia.
+- luukhopman/football-logos (`master` branch):
+  - `logos/<Country> - <League>/<Club>.png`: current season (2026/27), 25 leagues, 396 clubs.
+  - `history/<season>/<Country> - <League>/<Club>.png`: seasons 2021/22 to 2025/26. Adds 301 clubs that are no longer in those leagues (including the Hungarian league, which dropped out of the top 25).
+  - Every image is 139×181 px: good for identifying the roster and as a fallback, not as the main crest.
+  - The same club sometimes appears under different names depending on the season ("Beerschot VA" / "Beerschot V.A.", "Banik Ostrava" / "FC Banik Ostrava").
+- football-logos.cc (the site of `Leo4815162342/football-logos`, the previous phase's source) has 1500×1500 px club crests at `https://assets.football-logos.cc/logos/<country>/1500x1500/<slug>.<hash>.png`, listed at `https://football-logos.cc/<country>/`.
+- An initial check matched 383 clubs by name exactly, 135 approximately and 179 not at all.
 
-## Requisitos
+## Requirements
 
-1. Incluir los clubes de la temporada actual de las 25 ligas y los que han jugado en ellas desde 2021/22.
-2. Escudo principal de football-logos.cc; si no existe, el de luukhopman.
-3. Cada emparejamiento luukhopman ↔ football-logos.cc se confirma visualmente antes de publicarse.
-4. Catálogo de clubes con id estable, nombre, alias, país, liga actual y ruta del escudo.
-5. Índice de alias por país.
-6. Añadir las 18 ligas que faltan al catálogo de competiciones, con logo.
-7. Un script re-ejecutable cada temporada que solo pida revisar los clubes nuevos.
-8. Validación automática en local y en CI.
+1. Include the clubs of the current season of the 25 leagues and those that have played in them since 2021/22.
+2. Main crest from football-logos.cc; if there isn't one, luukhopman's.
+3. Every luukhopman ↔ football-logos.cc match is confirmed visually before it's published.
+4. Club catalog with a stable id, name, aliases, country, current league and crest path.
+5. Alias index per country.
+6. Add the 18 missing leagues to the competition catalog, with logos.
+7. A script that can be re-run every season and only asks for the new clubs to be reviewed.
+8. Automatic validation locally and in CI.
 
-## Estructura de carpetas
+## Folder structure
 
 ```text
-football/clubs/<país>/<id>.png
+football/clubs/<country>/<id>.png
 ```
 
-`<país>` es el código de `country` en minúsculas: `es`, `gb-eng`, `gb-sct`, `tr`… Un club no cambia de carpeta al subir o bajar de categoría.
+`<country>` is the lowercase `country` code: `es`, `gb-eng`, `gb-sct`, `tr`… A club doesn't change folder when it is promoted or relegated.
 
-## Catálogo de clubes — `data/football/clubs.json`
+## Club catalog — `data/football/clubs.json`
 
 ```json
 {
@@ -56,44 +56,44 @@ football/clubs/<país>/<id>.png
 }
 ```
 
-| Campo | Tipo | Reglas |
+| Field | Type | Rules |
 |---|---|---|
-| `id` | string | kebab-case, único en todo el catálogo, estable una vez publicado; igual al nombre del archivo del escudo sin extensión |
-| `name` | string | nombre del club |
-| `aliases` | string[] | otros nombres; puede estar vacío |
-| `country` | string | ISO 3166-1 alfa-2, o ISO 3166-2 para naciones del Reino Unido (`GB-ENG`, `GB-SCT`) |
-| `league` | string \| null | id de una competición `type: "league"` del catálogo de competiciones; `null` si el club no está esta temporada en ninguna de las 25 ligas |
-| `logo` | string \| null | `football/clubs/<country en minúsculas>/<id>.png`, o `null` si no hay escudo |
+| `id` | string | kebab-case, unique across the whole catalog, stable once published; equal to the crest file name without extension |
+| `name` | string | club name |
+| `aliases` | string[] | other names; may be empty |
+| `country` | string | ISO 3166-1 alpha-2, or ISO 3166-2 for UK nations (`GB-ENG`, `GB-SCT`) |
+| `league` | string \| null | id of a `type: "league"` competition in the competition catalog; `null` if the club isn't in any of the 25 leagues this season |
+| `logo` | string \| null | `football/clubs/<lowercase country>/<id>.png`, or `null` if there is no crest |
 
-Orden: por `country` y, dentro de cada país, por `id`.
+Order: by `country` and, within each country, by `id`.
 
-El script escribe este archivo. Los cambios manuales en `name` y `aliases` de un club existente se conservan en cada ejecución; `league` y `logo` los gestiona el script.
+The script writes this file. Manual changes to `name` and `aliases` of an existing club are kept on every run; `league` and `logo` are managed by the script.
 
 ### Ids
 
-- Por defecto, el slug del club en football-logos.cc (`arsenal`, `real-madrid`); si no hay escudo allí, el slug del nombre de luukhopman.
-- Si el id ya existe en otro país, se añade el código de país: `<slug>-<country en minúsculas>`.
-- Una vez publicado, un id no cambia aunque cambie la fuente.
+- By default, the club's slug on football-logos.cc (`arsenal`, `real-madrid`); if there's no crest there, the slug of the luukhopman name.
+- If the id already exists in another country, the country code is appended: `<slug>-<lowercase country>`.
+- Once published, an id doesn't change even if the source does.
 
-### Alias automáticos
+### Automatic aliases
 
-Para cada club nuevo el script añade como alias:
+For each new club the script adds as aliases:
 
-- todos los nombres con que aparece en luukhopman (temporada actual e historial),
-- el nombre derivado del slug de football-logos.cc,
-- cada uno de esos nombres sin los afijos habituales (`FC`, `CF`, `AFC`, `SC`, `AC`, `FK`, `SK`, `CD`, `UD`, `SV`, `BK`, `IF`, `NK`…), p. ej. "Arsenal FC" → "Arsenal".
+- every name it appears under in luukhopman (current season and history),
+- the name derived from the football-logos.cc slug,
+- each of those names without the usual affixes (`FC`, `CF`, `AFC`, `SC`, `AC`, `FK`, `SK`, `CD`, `UD`, `SV`, `BK`, `IF`, `NK`…), e.g. "Arsenal FC" → "Arsenal".
 
-Un alias automático que choque dentro del mismo país con otro club no se añade; el script lo lista en su salida.
+An automatic alias that collides with another club in the same country isn't added; the script lists it in its output.
 
-## Índice de alias — `data/football/clubs-lookup.json`
+## Alias index — `data/football/clubs-lookup.json`
 
-Generado por `build_index.py`: `{ "<country>": { "<nombre normalizado>": "<id>" } }`, con `id`, `name` y `aliases` de cada club, usando la misma `normalize_name` de las competiciones. Claves ordenadas.
+Generated by `build_index.py`: `{ "<country>": { "<normalized name>": "<id>" } }`, with each club's `id`, `name` and `aliases`, using the same `normalize_name` as competitions. Keys sorted.
 
-Uso previsto en la app: normalizar el nombre, buscar en el país del club → `id` → `logo` en `clubs.json`.
+Intended use in the app: normalize the name, look it up in the club's country → `id` → `logo` in `clubs.json`.
 
-## Correspondencias — `data/football/clubs-mapping.json`
+## Mappings — `data/football/clubs-mapping.json`
 
-Registro de las decisiones de emparejamiento, mantenido por el flujo `plan` → revisión → `apply`:
+Record of the matching decisions, maintained by the `plan` → review → `apply` flow:
 
 ```json
 {
@@ -104,39 +104,39 @@ Registro de las decisiones de emparejamiento, mantenido por el flujo `plan` → 
 }
 ```
 
-- Clave: `<carpeta de país de luukhopman>|<nombre del archivo sin extensión>`.
-- Varias claves con el mismo `id` = el mismo club (unificación de nombres del historial).
-- `source`: `football-logos` o `luukhopman`.
+- Key: `<luukhopman country folder>|<file name without extension>`.
+- Several keys with the same `id` = the same club (unifies names across the history).
+- `source`: `football-logos` or `luukhopman`.
 
 ## `scripts/sync_clubs.py`
 
 ### `python scripts/sync_clubs.py plan`
 
-1. Descarga el árbol de luukhopman (API de GitHub) y las páginas de país de football-logos.cc.
-2. Para cada club de luukhopman sin entrada en `clubs-mapping.json`, propone un slug de football-logos.cc (coincidencia exacta del nombre normalizado sin afijos; si no, la más parecida por encima de un umbral) o ninguno.
-3. Escribe las propuestas en `.cache/clubs/proposals.json` con el mismo formato de `clubs-mapping.json`.
-4. Genera `.cache/clubs/review-<país>.jpg`: por cada propuesta, el escudo de luukhopman junto al de football-logos.cc, con la clave y el id propuesto.
+1. Downloads the luukhopman tree (GitHub API) and the football-logos.cc country pages.
+2. For each luukhopman club without an entry in `clubs-mapping.json`, proposes a football-logos.cc slug (exact match of the normalized name without affixes; otherwise the closest one above a threshold) or none.
+3. Writes the proposals to `.cache/clubs/proposals.json` in the same format as `clubs-mapping.json`.
+4. Generates `.cache/clubs/review-<country>.jpg`: for each proposal, the luukhopman crest next to the football-logos.cc one, with the key and the proposed id.
 
-### Revisión
+### Review
 
-Se revisan las hojas. Las propuestas correctas se copian a `clubs-mapping.json`; las incorrectas se corrigen (otro slug, `source: "luukhopman"`, o unificar con el `id` de otra clave). Nada se publica sin estar en `clubs-mapping.json`.
+The sheets are reviewed. Correct proposals are copied into `clubs-mapping.json`; wrong ones are fixed (another slug, `source: "luukhopman"`, or unified with another key's `id`). Nothing is published unless it's in `clubs-mapping.json`.
 
 ### `python scripts/sync_clubs.py apply`
 
-1. Para cada `id` de `clubs-mapping.json`: si falta el escudo, lo descarga (football-logos.cc a 1500 px, o luukhopman), lo normaliza con `normalize_logo` y registra el origen en `data/sources.json`.
-2. Actualiza `clubs.json`: añade los clubes nuevos (con alias automáticos), conserva `name` y `aliases` de los existentes y recalcula `league` a partir de la carpeta `logos/` actual de luukhopman.
-3. Ejecuta `build_index.py`.
-4. Termina con error si algún club de luukhopman no está en `clubs-mapping.json`.
+1. For each `id` in `clubs-mapping.json`: if the crest is missing, downloads it (football-logos.cc at 1500 px, or luukhopman), normalizes it with `normalize_logo` and records the origin in `data/sources.json`.
+2. Updates `clubs.json`: adds new clubs (with automatic aliases), keeps `name` and `aliases` of existing ones and recomputes `league` from luukhopman's current `logos/` folder.
+3. Runs `build_index.py`.
+4. Exits with an error if any luukhopman club isn't in `clubs-mapping.json`.
 
-La correspondencia carpeta de liga de luukhopman → id de competición y carpeta de país → código ISO (las 25 ligas más Hungría, `HU`, que solo aparece en el historial) se define como constantes en el script.
+The mapping from luukhopman league folder → competition id and country folder → ISO code (the 25 leagues plus Hungary, `HU`, which only appears in the history) is defined as constants in the script.
 
-Si un club usa el escudo de luukhopman, se toma el de la temporada más reciente en que aparece.
+If a club uses the luukhopman crest, the one from the most recent season it appears in is used.
 
-## Competiciones nuevas (18)
+## New competitions (18)
 
-Todas `type: "league"`, `scope: "club"`, `continent: "europe"`, `confederation: "UEFA"`, `collage: null`. Logos: primero repositorios (football-logos.cc), después Wikipedia/Wikimedia.
+All `type: "league"`, `scope: "club"`, `continent: "europe"`, `confederation: "UEFA"`, `collage: null`. Logos: repositories first (football-logos.cc), then Wikipedia/Wikimedia.
 
-| id | name | aliases | country | carpeta luukhopman |
+| id | name | aliases | country | luukhopman folder |
 |---|---|---|---|---|
 | austrian-bundesliga | Austrian Football Bundesliga | Admiral Bundesliga, Austrian Bundesliga | AT | Austria - Bundesliga |
 | belgian-pro-league | Belgian Pro League | Jupiler Pro League, Belgian First Division A | BE | Belgium - Jupiler Pro League |
@@ -157,54 +157,54 @@ Todas `type: "league"`, `scope: "club"`, `continent: "europe"`, `confederation: 
 | super-lig | Süper Lig | Turkish Super Lig, Trendyol Süper Lig | TR | Türkiye - Süper Lig |
 | ukrainian-premier-league | Ukrainian Premier League | UPL, Ukrainian Premier Liha | UA | Ukraine - Premier Liga |
 
-Las 7 ya existentes: `premier-league` (England - Premier League), `laliga` (Spain - LaLiga), `serie-a` (Italy - Serie A), `bundesliga` (Germany - Bundesliga), `ligue-1` (France - Ligue 1), `eredivisie` (Netherlands - Eredivisie), `liga-portugal` (Portugal - Liga Portugal).
+The 7 that already exist: `premier-league` (England - Premier League), `laliga` (Spain - LaLiga), `serie-a` (Italy - Serie A), `bundesliga` (Germany - Bundesliga), `ligue-1` (France - Ligue 1), `eredivisie` (Netherlands - Eredivisie), `liga-portugal` (Portugal - Liga Portugal).
 
-La lista de alias genéricos prohibidos del test `RealCatalogTest` se amplía con "superliga", "super league", "premier liga" y "pro league", porque nombran ligas de varios países.
+The list of forbidden generic aliases in the `RealCatalogTest` test is extended with "superliga", "super league", "premier liga" and "pro league", because they name leagues in several countries.
 
-## Validación
+## Validation
 
-Nuevo en `validate_assets.py` (recorre también `football/clubs/`):
+New in `validate_assets.py` (which also walks `football/clubs/`):
 
-Errores:
+Errors:
 
-- Campo obligatorio ausente o de tipo incorrecto.
-- `id` duplicado o que no es kebab-case.
-- `country` con formato inválido.
-- `logo` distinto de `football/clubs/<country en minúsculas>/<id>.png`, archivo inexistente o sin píxeles transparentes.
-- `league` que no es un id de competición con `type: "league"`.
-- Imagen en `football/clubs/` sin entrada en el catálogo.
-- Dos clubes del mismo país con la misma clave normalizada.
-- Un `id` de `clubs-mapping.json` que no está en `clubs.json`.
+- Required field missing or of the wrong type.
+- Duplicate `id`, or one that isn't kebab-case.
+- `country` with an invalid format.
+- `logo` other than `football/clubs/<lowercase country>/<id>.png`, a missing file, or one without transparent pixels.
+- `league` that isn't the id of a competition with `type: "league"`.
+- Image in `football/clubs/` with no catalog entry.
+- Two clubs in the same country with the same normalized key.
+- An `id` in `clubs-mapping.json` that isn't in `clubs.json`.
 
-Avisos:
+Warnings:
 
-- Clubes con `logo: null`.
-- Escudos con lado mayor < 400 px (respaldos de luukhopman), para saber cuáles mejorar.
+- Clubs with `logo: null`.
+- Crests whose longest side is < 400 px (luukhopman fallbacks), to know which ones to improve.
 
-## Índices generados
+## Generated indexes
 
-- `data/football/clubs-lookup.json` (nuevo).
-- `data/all-assets.json` añade `clubs`: `{id: {name, path}}` para los clubes con `logo`.
+- `data/football/clubs-lookup.json` (new).
+- `data/all-assets.json` adds `clubs`: `{id: {name, path}}` for clubs with a `logo`.
 
 ## Tests
 
-Unitarios, sin red:
+Unit tests, no network:
 
-- Emparejamiento: nombre normalizado sin afijos, coincidencia exacta, aproximada y ninguna.
-- Ids: slug preferente, sufijo de país ante colisión, estabilidad de ids existentes.
-- Fusión con el catálogo: conserva `name`/`aliases` manuales, añade clubes nuevos, recalcula `league`, `league: null` para clubes fuera de la temporada actual.
-- Alias automáticos: quita afijos y descarta los que chocan dentro del país.
-- Validación del catálogo de clubes y del lookup por país.
+- Matching: normalized name without affixes, exact, approximate and no match.
+- Ids: preferred slug, country suffix on collision, stability of existing ids.
+- Merging into the catalog: keeps manual `name`/`aliases`, adds new clubs, recomputes `league`, `league: null` for clubs outside the current season.
+- Automatic aliases: strips affixes and drops those that collide within the country.
+- Validation of the club catalog and of the per-country lookup.
 
-La descarga (GitHub, football-logos.cc) se aísla en funciones finas que no se testean; la lógica recibe datos ya descargados.
+Downloading (GitHub, football-logos.cc) is isolated in thin functions that aren't tested; the logic receives already-downloaded data.
 
-## Documentación
+## Documentation
 
-README: estructura de `football/clubs/`, esquema del catálogo, uso desde la app (nombre + país) y flujo `plan` → revisión → `apply` para cada temporada.
+README: `football/clubs/` structure, catalog schema, usage from the app (name + country) and the `plan` → review → `apply` flow for each season.
 
-## Fuera de alcance
+## Out of scope
 
-- Versiones antiguas de escudos (se usa el más reciente de cada club).
-- Clubes de ligas fuera de las 25 de luukhopman.
-- Selecciones nacionales.
-- Variantes de escudo (monocromo, fondo oscuro).
+- Older versions of crests (the most recent one of each club is used).
+- Clubs from leagues outside luukhopman's 25.
+- National teams.
+- Crest variants (monochrome, dark background).

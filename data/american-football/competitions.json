@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "competitions": [
+    {
+      "id": "nfl",
+      "name": "National Football League",
+      "aliases": [
+        "NFL"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "north-america",
+      "country": "US",
+      "logo": "american-football/competitions/north-america/nfl.png"
+    }
+  ]
+}
