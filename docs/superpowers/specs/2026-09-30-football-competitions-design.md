@@ -1,32 +1,32 @@
-# Competiciones de fútbol por continente — Diseño
+# Football competitions by continent — Design
 
-Fecha: 2026-09-30
-Estado: pendiente de revisión
+Date: 2026-09-30
+Status: pending review
 
-## Objetivo
+## Goal
 
-Una app externa leerá las imágenes de este repositorio (vía jsDelivr/raw de GitHub). Necesita un catálogo JSON que identifique cada competición sin ambigüedad para no mostrar un logo equivocado.
+An external app will read this repository's images (through jsDelivr / GitHub raw). It needs a JSON catalog that identifies each competition unambiguously so it never shows the wrong logo.
 
-Esta fase cubre solo **competiciones** de fútbol. Los escudos de clubes de las 5 grandes ligas son la fase siguiente y quedan fuera de este diseño.
+This phase covers football **competitions** only. Club crests for the top 5 leagues are the next phase and are outside this design.
 
-## Contexto
+## Context
 
-- `football/competitions/` contiene hoy 17 imágenes planas.
-- 11 de ellas no son logos, sino collages de FootyLogos.com (logo de liga + escudos de todos los clubes, fondo blanco, marca de agua): Premier League, LaLiga, Serie A, Bundesliga, Ligue 1, Eredivisie, Liga Portugal, Brasileirão Série A, Liga Profesional Argentina, Liga MX y MLS.
-- Las otras 6 parecen logos sueltos: UEFA Champions League, UEFA Europa League, UEFA Conference League, Copa del Rey, Copa Libertadores y FIFA Club World Cup. Se revisarán una a una antes de aceptarlas.
-- `data/competitions.json` se genera a partir del nombre del archivo (produce nombres incorrectos como "Laliga" o "Liga Mx").
-- La app todavía no consume el repositorio, así que no hay que mantener compatibilidad con rutas antiguas.
+- `football/competitions/` currently holds 17 flat images.
+- 11 of them aren't logos but FootyLogos.com collages (league logo + every club crest, white background, watermark): Premier League, LaLiga, Serie A, Bundesliga, Ligue 1, Eredivisie, Liga Portugal, Brasileirão Série A, Liga Profesional Argentina, Liga MX and MLS.
+- The other 6 look like standalone logos: UEFA Champions League, UEFA Europa League, UEFA Conference League, Copa del Rey, Copa Libertadores and FIFA Club World Cup. They'll be reviewed one by one before being accepted.
+- `data/competitions.json` is generated from the file name (which produces wrong names such as "Laliga" or "Liga Mx").
+- The app doesn't consume the repository yet, so there's no need to stay compatible with old paths.
 
-## Requisitos
+## Requirements
 
-1. Organizar los logos de competiciones en carpetas por continente.
-2. Conservar los collages (no borrarlos) en una ubicación separada.
-3. Un catálogo JSON con id estable, nombre oficial y alias de cada competición.
-4. Un índice alias → id para que la app resuelva nombres procedentes de otras fuentes.
-5. Logos limpios buscados en internet: sin marca de agua, fondo transparente.
-6. Validación automática (local y en GitHub Actions) que impida publicar un catálogo inconsistente.
+1. Organize competition logos in folders by continent.
+2. Keep the collages (don't delete them) in a separate location.
+3. A JSON catalog with a stable id, official name and aliases for each competition.
+4. An alias → id index so the app can resolve names coming from other sources.
+5. Clean logos found online: no watermark, transparent background.
+6. Automatic validation (locally and in GitHub Actions) that prevents publishing an inconsistent catalog.
 
-## Estructura de carpetas
+## Folder structure
 
 ```text
 football/
@@ -39,23 +39,23 @@ football/
 └── collages/
 ```
 
-- Las carpetas `africa/` y `oceania/` no se crean hasta que haya alguna competición de esos continentes.
-- Los torneos de selecciones van en el continente de su confederación (Eurocopa → `europe`, Copa América → `south-america`, Gold Cup → `north-america`). Los torneos FIFA van en `world/`.
-- Los 11 collages se mueven a `football/collages/<id>.png` sin modificarlos.
+- The `africa/` and `oceania/` folders aren't created until there's a competition from those continents.
+- National-team tournaments go in their confederation's continent (Euro → `europe`, Copa América → `south-america`, Gold Cup → `north-america`). FIFA tournaments go in `world/`.
+- The 11 collages are moved to `football/collages/<id>.png` unchanged.
 
-## Formato de las imágenes
+## Image format
 
-- PNG con canal alfa (fondo transparente).
-- Recortado a los márgenes del contenido.
-- Lado mayor de 1024 px como máximo; no se amplían imágenes más pequeñas.
-- Nombre de archivo: `<id>.png`.
-- Fuente preferida: SVG o PNG oficial de alta resolución. Nada con marca de agua.
+- PNG with an alpha channel (transparent background).
+- Trimmed to the edges of the content.
+- Longest side at most 1024 px; smaller images aren't upscaled.
+- File name: `<id>.png`.
+- Preferred source: official high-resolution SVG or PNG. Nothing with a watermark.
 
-Un script `scripts/normalize_logo.py <entrada> <salida>` aplica el recorte y el redimensionado. Usa Pillow (se añade `requirements.txt`).
+A script `scripts/normalize_logo.py <input> <output>` does the trimming and resizing. It uses Pillow (a `requirements.txt` is added).
 
-## Catálogo — `data/football/competitions.json`
+## Catalog — `data/football/competitions.json`
 
-Es la fuente de verdad. No lo genera ningún script: lo mantiene Claude a petición del propietario del repositorio (o el propietario directamente).
+This is the source of truth. No script generates it: Claude maintains it at the repository owner's request (or the owner does directly).
 
 ```json
 {
@@ -77,24 +77,24 @@ Es la fuente de verdad. No lo genera ningún script: lo mantiene Claude a petici
 }
 ```
 
-Campos:
+Fields:
 
-| Campo | Tipo | Reglas |
+| Field | Type | Rules |
 |---|---|---|
-| `id` | string | kebab-case, único, estable una vez publicado; igual al nombre del archivo del logo sin extensión |
-| `name` | string | nombre oficial actual |
-| `aliases` | string[] | otros nombres habituales (patrocinadores, idiomas, nombres antiguos); puede estar vacío |
-| `type` | enum | `league`, `cup`, `super-cup`, `international` (torneos entre clubes o selecciones de varios países; `scope` los distingue) |
+| `id` | string | kebab-case, unique, stable once published; equal to the logo file name without extension |
+| `name` | string | current official name |
+| `aliases` | string[] | other common names (sponsors, languages, former names); may be empty |
+| `type` | enum | `league`, `cup`, `super-cup`, `international` (tournaments between clubs or national teams from several countries; `scope` tells them apart) |
 | `scope` | enum | `club`, `national-team` |
 | `continent` | enum | `europe`, `south-america`, `north-america`, `asia`, `africa`, `oceania`, `world` |
 | `confederation` | enum | `UEFA`, `CONMEBOL`, `CONCACAF`, `AFC`, `CAF`, `OFC`, `FIFA` |
-| `country` | string \| null | ISO 3166-1 alfa-2, o ISO 3166-2 para naciones del Reino Unido (`GB-ENG`); `null` en torneos internacionales |
-| `logo` | string \| null | ruta relativa a la raíz del repositorio; `null` mientras falte el logo limpio |
-| `collage` | string \| null | ruta del collage, o `null` si no existe |
+| `country` | string \| null | ISO 3166-1 alpha-2, or ISO 3166-2 for UK nations (`GB-ENG`); `null` for international tournaments |
+| `logo` | string \| null | path relative to the repository root; `null` while the clean logo is missing |
+| `collage` | string \| null | collage path, or `null` if there isn't one |
 
-Las entradas se ordenan por continente y, dentro de cada uno, en el orden de la lista siguiente.
+Entries are sorted by continent and, within each, in the order of the list below.
 
-## Competiciones incluidas (36)
+## Competitions included (36)
 
 **europe (24)**
 
@@ -157,72 +157,72 @@ Las entradas se ordenan por continente y, dentro de cada uno, en el orden de la 
 | fifa-world-cup | FIFA World Cup | international | national-team | null |
 | fifa-club-world-cup | FIFA Club World Cup | international | club | null |
 
-Los ids de las 17 competiciones actuales se mantienen igual que sus nombres de archivo de hoy. MLS tiene `country: "US"` aunque incluye clubes de Canadá.
+The ids of the 17 current competitions stay the same as their current file names. MLS has `country: "US"` even though it includes Canadian clubs.
 
-## Índice de alias — `data/football/competitions-lookup.json`
+## Alias index — `data/football/competitions-lookup.json`
 
-Lo genera `scripts/build_index.py` a partir del catálogo. Es un objeto plano `clave normalizada → id`. Por cada competición se incluyen su `id`, su `name` y todos sus `aliases`.
+Generated by `scripts/build_index.py` from the catalog. It's a flat `normalized key → id` object. For each competition it includes its `id`, its `name` and all its `aliases`.
 
-Normalización (la misma que debe aplicar la app antes de buscar):
+Normalization (the same one the app must apply before looking up):
 
-1. Descomposición Unicode NFKD y eliminación de marcas diacríticas.
-2. Minúsculas.
-3. Todo carácter que no sea `a-z` o `0-9` se sustituye por un espacio.
-4. Espacios repetidos se colapsan y se recortan los extremos.
+1. Unicode NFKD decomposition and removal of diacritical marks.
+2. Lowercase.
+3. Every character that isn't `a-z` or `0-9` is replaced by a space.
+4. Repeated spaces are collapsed and the ends are trimmed.
 
-Ejemplo: `"LaLiga EA Sports"` → `"laliga ea sports"`; `"Primera División"` → `"primera division"`; `"laliga"` (id) → `"laliga"`.
+Example: `"LaLiga EA Sports"` → `"laliga ea sports"`; `"Primera División"` → `"primera division"`; `"laliga"` (id) → `"laliga"`.
 
-Uso previsto en la app:
+Intended use in the app:
 
-1. Normalizar el nombre recibido.
-2. Buscarlo en `competitions-lookup.json` → `id`.
-3. Buscar el `id` en `competitions.json` → `logo`.
-4. Construir la URL: `https://cdn.jsdelivr.net/gh/IsaacPrestol/sports-assets@<tag>/<logo>`.
+1. Normalize the received name.
+2. Look it up in `competitions-lookup.json` → `id`.
+3. Look the `id` up in `competitions.json` → `logo`.
+4. Build the URL: `https://cdn.jsdelivr.net/gh/IsaacPrestol/sports-assets@<tag>/<logo>`.
 
-El JSON se escribe con claves ordenadas para que la regeneración sea determinista (la CI compara con `git diff`).
+The JSON is written with sorted keys so regeneration is deterministic (CI compares with `git diff`).
 
-## Cambios en scripts existentes
+## Changes to existing scripts
 
 `scripts/build_index.py`:
 
-- Deja de generar `data/competitions.json` (se elimina el archivo).
-- Genera `data/football/competitions-lookup.json`.
-- `data/all-assets.json` incluye `competitions` con `{id: {name, path}}` tomado del catálogo, solo para las entradas con `logo`. Las colecciones de UFC no cambian.
+- Stops generating `data/competitions.json` (the file is deleted).
+- Generates `data/football/competitions-lookup.json`.
+- `data/all-assets.json` includes `competitions` as `{id: {name, path}}` taken from the catalog, only for entries with a `logo`. The UFC collections don't change.
 
-`scripts/validate_assets.py` mantiene las comprobaciones actuales y recorre también `football/competitions/*/` y `football/collages/`. Añade:
+`scripts/validate_assets.py` keeps its current checks and also walks `football/competitions/*/` and `football/collages/`. It adds:
 
-Errores (fallan la validación):
+Errors (fail validation):
 
-- El catálogo no es JSON válido o le falta un campo obligatorio.
-- Un valor de `type`, `scope`, `continent` o `confederation` fuera de los permitidos.
-- `id` duplicado o que no cumple kebab-case.
-- `logo` no es `football/competitions/<continent>/<id>.png`, o el archivo no existe.
-- `collage` no es `football/collages/<id>.png`, o el archivo no existe.
-- Una imagen en `football/competitions/` o `football/collages/` sin entrada en el catálogo.
-- Una imagen directamente en `football/competitions/` (fuera de una carpeta de continente).
-- Dos competiciones distintas producen la misma clave normalizada.
-- Un logo sin canal alfa.
+- The catalog isn't valid JSON or is missing a required field.
+- A `type`, `scope`, `continent` or `confederation` value outside the allowed ones.
+- Duplicate `id`, or one that isn't kebab-case.
+- `logo` isn't `football/competitions/<continent>/<id>.png`, or the file doesn't exist.
+- `collage` isn't `football/collages/<id>.png`, or the file doesn't exist.
+- An image in `football/competitions/` or `football/collages/` with no catalog entry.
+- An image directly in `football/competitions/` (outside a continent folder).
+- Two different competitions produce the same normalized key.
+- A logo without an alpha channel.
 
-Avisos (no fallan):
+Warnings (don't fail):
 
-- Competiciones con `logo: null`.
+- Competitions with `logo: null`.
 
-GitHub Actions instala `requirements.txt` antes de validar, porque la comprobación de canal alfa usa Pillow.
+GitHub Actions installs `requirements.txt` before validating, because the alpha-channel check uses Pillow.
 
-## Obtención de logos
+## Sourcing logos
 
-- Se buscan en internet: webs oficiales de las competiciones y federaciones, press kits, Wikimedia Commons y repositorios de logos sin marca de agua.
-- Cada logo aceptado se registra en `data/sources.json`, indexado por ruta: `{"url": ..., "retrieved": "YYYY-MM-DD", "license": ... | null, "notes": ... | null}`.
-- Las 6 imágenes actuales que parecen logos se revisan visualmente; si tienen marca de agua, fondo no transparente o están desactualizadas, se sustituyen.
-- Si no se encuentra un logo aceptable, la entrada queda con `logo: null` y se informa al propietario.
+- They're searched for online: official competition and federation websites, press kits, Wikimedia Commons and watermark-free logo repositories.
+- Every accepted logo is recorded in `data/sources.json`, keyed by path: `{"url": ..., "retrieved": "YYYY-MM-DD", "license": ... | null, "notes": ... | null}`.
+- The 6 current images that look like logos are reviewed visually; if they have a watermark, a non-transparent background or are outdated, they're replaced.
+- If no acceptable logo is found, the entry is left with `logo: null` and the owner is told.
 
-## Documentación
+## Documentation
 
-El `README.md` se actualiza con la nueva estructura, el esquema del catálogo, las reglas de normalización y el ejemplo de uso desde la app.
+`README.md` is updated with the new structure, the catalog schema, the normalization rules and the example of use from the app.
 
-## Fuera de alcance
+## Out of scope
 
-- Escudos de clubes (siguiente fase).
-- Variantes de logo (monocromo, fondo oscuro) y formato SVG.
-- Script para dar de alta competiciones (descartado por el propietario).
-- Cambios en los assets o scripts de UFC, salvo lo imprescindible en `build_index.py` y `validate_assets.py`.
+- Club crests (next phase).
+- Logo variants (monochrome, dark background) and SVG format.
+- A script for adding competitions (rejected by the owner).
+- Changes to the UFC assets or scripts, except what's strictly needed in `build_index.py` and `validate_assets.py`.

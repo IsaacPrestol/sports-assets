@@ -1,96 +1,96 @@
-# Competiciones de fútbol por continente — Plan de implementación
+# Football competitions by continent — Implementation plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Reorganizar los logos de competiciones por continente, conservar los collages aparte y publicar un catálogo JSON + índice de alias que una app externa pueda usar sin confundir logos.
+**Goal:** Reorganize the competition logos by continent, keep the collages separately and publish a JSON catalog + alias index that an external app can use without mixing up logos.
 
-**Architecture:** `data/football/competitions.json` es la fuente de verdad, mantenida a mano. Un módulo compartido `scripts/football_catalog.py` normaliza nombres, construye el índice de alias y valida el catálogo contra los archivos. `build_index.py` y `validate_assets.py` (y la CI) lo usan. `normalize_logo.py` prepara cada logo descargado.
+**Architecture:** `data/football/competitions.json` is the source of truth, maintained by hand. A shared module `scripts/football_catalog.py` normalizes names, builds the alias index and validates the catalog against the files. `build_index.py` and `validate_assets.py` (and CI) use it. `normalize_logo.py` prepares each downloaded logo.
 
-**Tech Stack:** Python 3.12, Pillow, `unittest` de la librería estándar (pytest no está instalado), GitHub Actions.
+**Tech Stack:** Python 3.12, Pillow, the standard library's `unittest` (pytest isn't installed), GitHub Actions.
 
 **Spec:** `docs/superpowers/specs/2026-09-30-football-competitions-design.md`
 
 ## Global Constraints
 
-- Repositorio de trabajo: `C:\Users\Isaac\Downloads\sports-assets` (clon con git), rama `football-competitions-by-continent`. Todos los comandos se ejecutan desde esa raíz.
-- Los commits terminan con la línea `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`.
-- Logos: PNG con canal alfa, recortados al contenido, lado mayor ≤ 1024 px, sin ampliar, nombre `<id>.png`, sin marca de agua.
-- Ruta del logo: `football/competitions/<continent>/<id>.png`. Ruta del collage: `football/collages/<id>.png`.
+- Working repository: `C:\Users\Isaac\Downloads\sports-assets` (git clone), branch `football-competitions-by-continent`. Every command runs from that root.
+- Commits end with the line `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`.
+- Logos: PNG with an alpha channel, trimmed to the content, longest side ≤ 1024 px, never upscaled, named `<id>.png`, no watermark.
+- Logo path: `football/competitions/<continent>/<id>.png`. Collage path: `football/collages/<id>.png`.
 - `type` ∈ {`league`, `cup`, `super-cup`, `international`}; `scope` ∈ {`club`, `national-team`}; `continent` ∈ {`europe`, `south-america`, `north-america`, `asia`, `africa`, `oceania`, `world`}; `confederation` ∈ {`UEFA`, `CONMEBOL`, `CONCACAF`, `AFC`, `CAF`, `OFC`, `FIFA`}.
-- Normalización de nombres: NFKD + quitar diacríticos → minúsculas → todo lo que no sea `a-z0-9` pasa a espacio → colapsar espacios y recortar.
-- JSON generado: `indent=2`, `ensure_ascii=False`, salto de línea final, claves del lookup ordenadas.
-- `data/sources.json` se indexa por ruta del asset y se escribe con `sort_keys=True`, como hace `download_ufc_fighters.py`.
-- No se tocan los assets ni el descargador de UFC.
-- Los mensajes de los scripts van en inglés, como los existentes.
+- Name normalization: NFKD + strip diacritics → lowercase → anything that isn't `a-z0-9` becomes a space → collapse spaces and trim.
+- Generated JSON: `indent=2`, `ensure_ascii=False`, trailing newline, lookup keys sorted.
+- `data/sources.json` is keyed by asset path and written with `sort_keys=True`, as `download_ufc_fighters.py` does.
+- The UFC assets and downloader aren't touched.
+- Script messages are in English, like the existing ones.
 
 ## Review Focus
 
-1. Un alias que al normalizarse queda vacío (p. ej. `"—"`) → la validación falla nombrando la competición. Test en Task 1.
-2. Un alias genérico compartido por dos competiciones tras normalizar (p. ej. `"Supercopa"`) → la validación falla nombrando ambos ids. Test en Task 1.
-3. Un logo PNG en modo `LA` o paleta con transparencia → se acepta; un PNG `RGB` con fondo blanco → se rechaza. Tests en Task 2.
-4. Una imagen presente en `football/competitions/…` o `football/collages/` sin entrada en el catálogo (p. ej. con `logo: null`) → error, no se ignora en silencio. Test en Task 2.
-5. Pasar a `normalize_logo.py` una imagen sin transparencia o totalmente transparente → error claro y no se escribe ningún archivo de salida. Tests en Task 4.
+1. An alias that normalizes to an empty string (e.g. `"—"`) → validation fails naming the competition. Test in Task 1.
+2. A generic alias shared by two competitions after normalizing (e.g. `"Supercopa"`) → validation fails naming both ids. Test in Task 1.
+3. A PNG logo in `LA` mode or a palette with transparency → accepted; an `RGB` PNG with a white background → rejected. Tests in Task 2.
+4. An image in `football/competitions/…` or `football/collages/` with no catalog entry (e.g. with `logo: null`) → error, not silently ignored. Test in Task 2.
+5. Passing `normalize_logo.py` an image with no transparency or fully transparent → clear error and no output file is written. Tests in Task 4.
 
-## Estructura de archivos
+## File structure
 
-| Archivo | Acción | Responsabilidad |
+| File | Action | Responsibility |
 |---|---|---|
-| `scripts/football_catalog.py` | Crear | Constantes, carga, normalización, lookup, validación del catálogo |
-| `scripts/normalize_logo.py` | Crear | Recortar y redimensionar un logo descargado |
-| `scripts/build_index.py` | Modificar | Generar el lookup y `all-assets.json` desde el catálogo |
-| `scripts/validate_assets.py` | Modificar | Recorrer subcarpetas y ejecutar la validación del catálogo |
-| `tests/test_football_catalog.py` | Crear | Tests de normalización, lookup y validación |
-| `tests/test_normalize_logo.py` | Crear | Tests del normalizador |
-| `requirements.txt` | Crear | `Pillow>=10.0` |
-| `data/football/competitions.json` | Crear | Catálogo (fuente de verdad) |
-| `data/football/competitions-lookup.json` | Generado | Alias normalizado → id |
-| `data/competitions.json` | Eliminar | Sustituido por el catálogo |
-| `.github/workflows/validate.yml` | Modificar | Instalar dependencias y ejecutar tests |
-| `README.md` | Modificar | Nueva estructura y uso desde la app |
+| `scripts/football_catalog.py` | Create | Constants, loading, normalization, lookup, catalog validation |
+| `scripts/normalize_logo.py` | Create | Trim and resize a downloaded logo |
+| `scripts/build_index.py` | Modify | Generate the lookup and `all-assets.json` from the catalog |
+| `scripts/validate_assets.py` | Modify | Walk subfolders and run the catalog validation |
+| `tests/test_football_catalog.py` | Create | Normalization, lookup and validation tests |
+| `tests/test_normalize_logo.py` | Create | Normalizer tests |
+| `requirements.txt` | Create | `Pillow>=10.0` |
+| `data/football/competitions.json` | Create | Catalog (source of truth) |
+| `data/football/competitions-lookup.json` | Generated | Normalized alias → id |
+| `data/competitions.json` | Delete | Replaced by the catalog |
+| `.github/workflows/validate.yml` | Modify | Install dependencies and run tests |
+| `README.md` | Modify | New structure and usage from the app |
 
-## Procedimiento para obtener un logo
+## Procedure for getting a logo
 
-Las Tasks 6–10 aplican estos pasos a cada competición de su lote.
+Tasks 6–10 apply these steps to each competition in their batch.
 
-1. Buscar con WebSearch, p. ej. `"<name> logo png transparent"` y `"<name> logo svg"`. Orden de preferencia: web oficial o press kit → página `File:` de Wikimedia Commons o Wikipedia → repositorios de logos que sirvan el archivo sin marca de agua. Comprobar que el logo es el **actual** (p. ej. LaLiga usa desde 2023 el logo rojo "LALIGA"; Ligue 1 cambió de logo en 2024; la Concacaf Champions Cup, en 2024).
-2. Descargar a `.cache/logos/` (ya está en `.gitignore`):
+1. Search with WebSearch, e.g. `"<name> logo png transparent"` and `"<name> logo svg"`. Order of preference: official website or press kit → Wikimedia Commons or Wikipedia `File:` page → logo repositories that serve the file without a watermark. Check that the logo is the **current** one (e.g. LaLiga has used the red "LALIGA" logo since 2023; Ligue 1 changed its logo in 2024; the Concacaf Champions Cup, in 2024).
+2. Download to `.cache/logos/` (already in `.gitignore`):
    ```bash
    mkdir -p .cache/logos
    curl -L -A "sports-assets-logo-fetch/1.0 (https://github.com/IsaacPrestol/sports-assets)" -o .cache/logos/<id>.<ext> "<url>"
    ```
-   Si la fuente es un SVG de Wikimedia, descargar el PNG renderizado: `https://upload.wikimedia.org/wikipedia/commons/thumb/<x>/<xy>/<Archivo>.svg/2048px-<Archivo>.svg.png` (misma ruta `<x>/<xy>` que el SVG; para archivos de `wikipedia/en`, sustituir `commons` por `en`). Si solo existe un SVG fuera de Wikimedia, renderizarlo con Edge en modo headless y fondo transparente:
+   If the source is a Wikimedia SVG, download the rendered PNG: `https://upload.wikimedia.org/wikipedia/commons/thumb/<x>/<xy>/<File>.svg/2048px-<File>.svg.png` (same `<x>/<xy>` path as the SVG; for `wikipedia/en` files, replace `commons` with `en`). If only an SVG outside Wikimedia exists, render it with headless Edge on a transparent background:
    ```bash
    printf '<html><body style="margin:0"><img src="%s" style="width:2048px"></body></html>' "file:///C:/Users/Isaac/Downloads/sports-assets/.cache/logos/<id>.svg" > .cache/logos/<id>.html
    "/c/Program Files (x86)/Microsoft/Edge/Application/msedge.exe" --headless --disable-gpu --hide-scrollbars --default-background-color=00000000 --window-size=2048,2048 --screenshot="C:/Users/Isaac/Downloads/sports-assets/.cache/logos/<id>.png" "file:///C:/Users/Isaac/Downloads/sports-assets/.cache/logos/<id>.html"
    ```
-3. Revisar visualmente la descarga con la herramienta Read. Descartarla si tiene marca de agua, fondo opaco, es un logo antiguo o está pixelada (lado mayor < 400 px).
-4. Normalizar:
+3. Review the download visually with the Read tool. Reject it if it has a watermark, an opaque background, is an old logo or is pixelated (longest side < 400 px).
+4. Normalize:
    ```bash
    python scripts/normalize_logo.py .cache/logos/<id>.png football/competitions/<continent>/<id>.png
    ```
-5. Revisar visualmente el resultado con Read.
-6. En `data/football/competitions.json`, poner en la entrada `"logo": "football/competitions/<continent>/<id>.png"`.
-7. Registrar el origen:
+5. Review the result visually with Read.
+6. In `data/football/competitions.json`, set `"logo": "football/competitions/<continent>/<id>.png"` on the entry.
+7. Record the origin:
    ```bash
    python - <<'EOF'
    import json, pathlib
    p = pathlib.Path("data/sources.json")
    s = json.loads(p.read_text(encoding="utf-8"))
    s["football/competitions/<continent>/<id>.png"] = {
-       "url": "<url de la página o archivo de origen>",
+       "url": "<url of the source page or file>",
        "retrieved": "<YYYY-MM-DD>",
-       "license": None,  # p. ej. "Public domain (PD-textlogo)" si la fuente lo indica
-       "notes": None,    # p. ej. "Rendered from SVG at 2048px"
+       "license": None,  # e.g. "Public domain (PD-textlogo)" if the source says so
+       "notes": None,    # e.g. "Rendered from SVG at 2048px"
    }
    p.write_text(json.dumps(s, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
    EOF
    ```
-8. Ejecutar `python scripts/validate_assets.py && python scripts/build_index.py`. Debe terminar con `Validation passed.`
-9. Si no aparece un logo aceptable tras buscar en las tres fuentes, dejar `logo: null` y anotarlo para el informe final.
+8. Run `python scripts/validate_assets.py && python scripts/build_index.py`. It must end with `Validation passed.`
+9. If no acceptable logo turns up after searching the three sources, leave `logo: null` and note it for the final report.
 
 ---
 
-### Task 1: Módulo del catálogo — normalización y lookup
+### Task 1: Catalog module — normalization and lookup
 
 **Files:**
 - Create: `scripts/football_catalog.py`
@@ -100,18 +100,18 @@ Las Tasks 6–10 aplican estos pasos a cada competición de su lote.
 **Interfaces:**
 - Produces:
   - `normalize_name(value: str) -> str`
-  - `build_lookup(competitions: list[dict]) -> tuple[dict[str, str], list[str]]`: devuelve (lookup ordenado, errores)
-  - `competition_assets(competitions: list[dict]) -> dict[str, dict]`: `{id: {"name", "path"}}` solo para entradas con `logo`
+  - `build_lookup(competitions: list[dict]) -> tuple[dict[str, str], list[str]]`: returns (sorted lookup, errors)
+  - `competition_assets(competitions: list[dict]) -> dict[str, dict]`: `{id: {"name", "path"}}` only for entries with a `logo`
   - `load_catalog(path: Path = CATALOG_FILE) -> dict`
   - Constantes `ROOT`, `CATALOG_FILE`, `LOOKUP_FILE`, `COMPETITIONS_DIR`, `COLLAGES_DIR`, `TYPES`, `SCOPES`, `CONTINENTS`, `CONFEDERATIONS`, `REQUIRED_FIELDS`, `ID_RE`
 
-- [ ] **Step 1: Crear `requirements.txt`**
+- [ ] **Step 1: Create `requirements.txt`**
 
 ```text
 Pillow>=10.0
 ```
 
-- [ ] **Step 2: Escribir los tests que fallan**
+- [ ] **Step 2: Write the failing tests**
 
 `tests/test_football_catalog.py`:
 
@@ -208,12 +208,12 @@ if __name__ == "__main__":
     unittest.main()
 ```
 
-- [ ] **Step 3: Ejecutar y comprobar que fallan**
+- [ ] **Step 3: Run and check that they fail**
 
 Run: `python -m unittest discover -s tests -v`
 Expected: ERROR `ModuleNotFoundError: No module named 'football_catalog'`
 
-- [ ] **Step 4: Implementación mínima**
+- [ ] **Step 4: Minimal implementation**
 
 `scripts/football_catalog.py`:
 
@@ -278,7 +278,7 @@ def competition_assets(competitions: list[dict]) -> dict[str, dict]:
     }
 ```
 
-- [ ] **Step 5: Ejecutar y comprobar que pasan**
+- [ ] **Step 5: Run and check that they pass**
 
 Run: `python -m unittest discover -s tests -v`
 Expected: 10 tests, `OK`
@@ -294,21 +294,21 @@ Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
 
 ---
 
-### Task 2: Validación del catálogo contra los archivos
+### Task 2: Validating the catalog against the files
 
 **Files:**
-- Modify: `scripts/football_catalog.py` (añadir al final; import de Pillow arriba)
-- Test: `tests/test_football_catalog.py` (añadir clases)
+- Modify: `scripts/football_catalog.py` (append at the end; Pillow import at the top)
+- Test: `tests/test_football_catalog.py` (add classes)
 
 **Interfaces:**
-- Consumes: `build_lookup`, constantes de Task 1
+- Consumes: `build_lookup`, constants from Task 1
 - Produces:
   - `has_alpha(path: Path) -> bool`
-  - `validate_catalog(root: Path, catalog: object) -> tuple[list[str], list[str]]`: devuelve (errores, avisos)
+  - `validate_catalog(root: Path, catalog: object) -> tuple[list[str], list[str]]`: returns (errors, warnings)
 
-- [ ] **Step 1: Escribir los tests que fallan**
+- [ ] **Step 1: Write the failing tests**
 
-Añadir a los imports de `tests/test_football_catalog.py`:
+Add to the imports of `tests/test_football_catalog.py`:
 
 ```python
 import tempfile
@@ -318,7 +318,7 @@ from PIL import Image
 from football_catalog import has_alpha, validate_catalog
 ```
 
-Añadir antes de `if __name__ == "__main__":`:
+Add before `if __name__ == "__main__":`:
 
 ```python
 def save_png(root: Path, relative: str, mode: str = "RGBA", **save_args) -> Path:
@@ -454,21 +454,21 @@ class ValidateCatalogTest(unittest.TestCase):
         self.assertTrue(any("collides" in e for e in errors))
 ```
 
-- [ ] **Step 2: Ejecutar y comprobar que fallan**
+- [ ] **Step 2: Run and check that they fail**
 
 Run: `python -m unittest discover -s tests -v`
 Expected: ERROR `ImportError: cannot import name 'has_alpha'`
 
-- [ ] **Step 3: Implementación**
+- [ ] **Step 3: Implementation**
 
-En `scripts/football_catalog.py`, añadir tras `import unicodedata`:
+In `scripts/football_catalog.py`, add after `import unicodedata`:
 
 ```python
 
 from PIL import Image
 ```
 
-Y al final del archivo:
+And at the end of the file:
 
 ```python
 def has_alpha(path: Path) -> bool:
@@ -580,7 +580,7 @@ def validate_catalog(root: Path, catalog) -> tuple[list[str], list[str]]:
     return errors, warnings
 ```
 
-- [ ] **Step 4: Ejecutar y comprobar que pasan**
+- [ ] **Step 4: Run and check that they pass**
 
 Run: `python -m unittest discover -s tests -v`
 Expected: 30 tests, `OK`
@@ -596,18 +596,18 @@ Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
 
 ---
 
-### Task 3: Reorganizar archivos y escribir el catálogo
+### Task 3: Reorganize files and write the catalog
 
 **Files:**
-- Move: 11 collages → `football/collages/`; 6 logos → carpetas de continente
+- Move: 11 collages → `football/collages/`; 6 logos → continent folders
 - Delete: `football/competitions/.gitkeep`
 - Create: `data/football/competitions.json`
 
 **Interfaces:**
 - Consumes: `load_catalog`, `validate_catalog`, `ROOT` (Task 1–2)
-- Produces: el catálogo con 36 entradas que usan las Tasks 4 y 6–10
+- Produces: the catalog with 36 entries used by Tasks 4 and 6–10
 
-- [ ] **Step 1: Mover los collages**
+- [ ] **Step 1: Move the collages**
 
 ```bash
 mkdir -p football/collages
@@ -617,7 +617,7 @@ for id in brasileirao-serie-a bundesliga eredivisie laliga liga-mx liga-portugal
 done
 ```
 
-- [ ] **Step 2: Mover los logos sueltos a su continente**
+- [ ] **Step 2: Move the standalone logos to their continent**
 
 ```bash
 mkdir -p football/competitions/europe football/competitions/south-america football/competitions/world
@@ -630,9 +630,9 @@ git rm -q football/competitions/.gitkeep
 ls football/competitions
 ```
 
-Expected: `europe  south-america  world` (ningún `.png` suelto).
+Expected: `europe  south-america  world` (no loose `.png`).
 
-- [ ] **Step 3: Escribir `data/football/competitions.json`**
+- [ ] **Step 3: Write `data/football/competitions.json`**
 
 ```json
 {
@@ -1074,7 +1074,7 @@ Expected: `europe  south-america  world` (ningún `.png` suelto).
 }
 ```
 
-- [ ] **Step 4: Validar el catálogo**
+- [ ] **Step 4: Validate the catalog**
 
 Run:
 ```bash
@@ -1095,11 +1095,11 @@ Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
 
 ---
 
-### Task 4: Conectar el catálogo a `build_index.py`, `validate_assets.py` y la CI
+### Task 4: Wire the catalog into `build_index.py`, `validate_assets.py` and CI
 
 **Files:**
-- Modify: `scripts/build_index.py` (archivo completo)
-- Modify: `scripts/validate_assets.py` (archivo completo)
+- Modify: `scripts/build_index.py` (whole file)
+- Modify: `scripts/validate_assets.py` (whole file)
 - Modify: `.github/workflows/validate.yml`
 - Delete: `data/competitions.json`
 - Generated: `data/football/competitions-lookup.json`, `data/all-assets.json`
@@ -1107,7 +1107,7 @@ Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
 **Interfaces:**
 - Consumes: `load_catalog`, `build_lookup`, `competition_assets`, `validate_catalog`, `CATALOG_FILE`, `LOOKUP_FILE`
 
-- [ ] **Step 1: Sustituir `scripts/build_index.py`**
+- [ ] **Step 1: Replace `scripts/build_index.py`**
 
 ```python
 from pathlib import Path
@@ -1196,7 +1196,7 @@ if __name__ == "__main__":
     main()
 ```
 
-- [ ] **Step 2: Sustituir `scripts/validate_assets.py`**
+- [ ] **Step 2: Replace `scripts/validate_assets.py`**
 
 ```python
 from pathlib import Path
@@ -1300,9 +1300,9 @@ if __name__ == "__main__":
     main()
 ```
 
-- [ ] **Step 3: Actualizar `.github/workflows/validate.yml`**
+- [ ] **Step 3: Update `.github/workflows/validate.yml`**
 
-Sustituir los pasos a partir de `Set up Python` por:
+Replace the steps from `Set up Python` onwards with:
 
 ```yaml
       - name: Set up Python
@@ -1326,32 +1326,32 @@ Sustituir los pasos a partir de `Set up Python` por:
         run: git diff --exit-code data/
 ```
 
-- [ ] **Step 4: Borrar el índice antiguo y regenerar**
+- [ ] **Step 4: Delete the old index and regenerate**
 
 ```bash
 git rm -q data/competitions.json
 python scripts/validate_assets.py | tail -1
 python scripts/build_index.py
 ```
-Expected: `Validation passed. 30 warning(s).` y después `competitions: 6 asset(s)` y `competition lookup: <N> name(s)`, con N > 100.
+Expected: `Validation passed. 30 warning(s).` and then `competitions: 6 asset(s)` and `competition lookup: <N> name(s)`, with N > 100.
 
-- [ ] **Step 5: Comprobar que el lookup resuelve los casos del spec**
+- [ ] **Step 5: Check that the lookup resolves the spec's cases**
 
 ```bash
 python -c "import json; l = json.load(open('data/football/competitions-lookup.json', encoding='utf-8')); print(l['laliga ea sports'], l['primera division'], l['laliga'], l['champions league'], l['brasileirao'])"
 ```
 Expected: `laliga laliga laliga uefa-champions-league brasileirao-serie-a`
 
-- [ ] **Step 6: Comprobar que la validación falla ante un collage huérfano**
+- [ ] **Step 6: Check that validation fails on an orphan collage**
 
 ```bash
 cp football/collages/laliga.png football/collages/test-orphan.png
 python scripts/validate_assets.py; echo "exit=$?"
 rm football/collages/test-orphan.png
 ```
-Expected: `ERROR: Image not referenced by the catalog: football/collages/test-orphan.png` y `exit=1`.
+Expected: `ERROR: Image not referenced by the catalog: football/collages/test-orphan.png` and `exit=1`.
 
-- [ ] **Step 7: Ejecutar los tests y hacer commit**
+- [ ] **Step 7: Run the tests and commit**
 
 ```bash
 python -m unittest discover -s tests
@@ -1366,16 +1366,16 @@ Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
 
 ---
 
-### Task 5: Normalizador de logos
+### Task 5: Logo normalizer
 
 **Files:**
 - Create: `scripts/normalize_logo.py`
 - Test: `tests/test_normalize_logo.py`
 
 **Interfaces:**
-- Produces: `normalize_logo(src: Path, dst: Path, max_side: int = 1024) -> tuple[int, int]` (tamaño final); CLI `python scripts/normalize_logo.py <src> <dst>`
+- Produces: `normalize_logo(src: Path, dst: Path, max_side: int = 1024) -> tuple[int, int]` (final size); CLI `python scripts/normalize_logo.py <src> <dst>`
 
-- [ ] **Step 1: Escribir los tests que fallan**
+- [ ] **Step 1: Write the failing tests**
 
 `tests/test_normalize_logo.py`:
 
@@ -1440,12 +1440,12 @@ if __name__ == "__main__":
     unittest.main()
 ```
 
-- [ ] **Step 2: Ejecutar y comprobar que fallan**
+- [ ] **Step 2: Run and check that they fail**
 
 Run: `python -m unittest discover -s tests -p "test_normalize_logo.py" -v`
 Expected: ERROR `ModuleNotFoundError: No module named 'normalize_logo'`
 
-- [ ] **Step 3: Implementación**
+- [ ] **Step 3: Implementation**
 
 `scripts/normalize_logo.py`:
 
@@ -1497,7 +1497,7 @@ if __name__ == "__main__":
     main()
 ```
 
-- [ ] **Step 4: Ejecutar y comprobar que pasan**
+- [ ] **Step 4: Run and check that they pass**
 
 Run: `python -m unittest discover -s tests -v`
 Expected: 35 tests, `OK`
@@ -1513,29 +1513,29 @@ Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
 
 ---
 
-### Task 6: Revisar los 6 logos existentes
+### Task 6: Review the 6 existing logos
 
 **Files:**
 - Possibly modify: `football/competitions/europe/{uefa-champions-league,uefa-europa-league,uefa-conference-league,copa-del-rey}.png`, `football/competitions/south-america/copa-libertadores.png`, `football/competitions/world/fifa-club-world-cup.png`
 - Modify: `data/sources.json`
 
-- [ ] **Step 1: Inspeccionar cada uno**
+- [ ] **Step 1: Inspect each one**
 
-Abrir cada PNG con Read y comprobar: sin marca de agua, fondo transparente, logo vigente (UCL con el "starball"; UEL y UECL con la identidad de 2021 en adelante; Libertadores con el logo de CONMEBOL Libertadores; Mundial de Clubes con el logo del formato de 2025).
+Open each PNG with Read and check: no watermark, transparent background, current logo (UCL with the "starball"; UEL and UECL with the 2021-onwards identity; Libertadores with the CONMEBOL Libertadores logo; Club World Cup with the 2025-format logo).
 
-- [ ] **Step 2: Sustituir los que no cumplan**
+- [ ] **Step 2: Replace the ones that fail**
 
-Para cada uno que falle, aplicar el "Procedimiento para obtener un logo" (pasos 1–8).
+For each one that fails, apply the "Procedure for getting a logo" (steps 1–8).
 
-- [ ] **Step 3: Normalizar los que se conservan**
+- [ ] **Step 3: Normalize the ones that are kept**
 
-Para cada logo conservado, recortarlo y limitarlo a 1024 px sin cambiar su contenido:
+For each kept logo, trim it and cap it at 1024 px without changing its content:
 ```bash
 python scripts/normalize_logo.py football/competitions/europe/uefa-champions-league.png football/competitions/europe/uefa-champions-league.png
 ```
-(repetir con cada ruta conservada). Registrar en `data/sources.json` con `"url": null` y `"notes": "Pre-existing asset; original source unknown"` (paso 7 del procedimiento).
+(repeat for each kept path). Record it in `data/sources.json` with `"url": null` and `"notes": "Pre-existing asset; original source unknown"` (step 7 of the procedure).
 
-- [ ] **Step 4: Validar y hacer commit**
+- [ ] **Step 4: Validate and commit**
 
 ```bash
 python scripts/validate_assets.py | tail -1 && python scripts/build_index.py
@@ -1547,12 +1547,12 @@ Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
 
 ---
 
-### Task 7: Logos de ligas europeas (7)
+### Task 7: European league logos (7)
 
-**Competiciones:** `premier-league`, `laliga`, `serie-a`, `bundesliga`, `ligue-1`, `eredivisie`, `liga-portugal` → `football/competitions/europe/`
+**Competitions:** `premier-league`, `laliga`, `serie-a`, `bundesliga`, `ligue-1`, `eredivisie`, `liga-portugal` → `football/competitions/europe/`
 
-- [ ] **Step 1:** Aplicar el "Procedimiento para obtener un logo" a cada una. El collage de la liga sirve como referencia visual del logo actual (esquina superior izquierda), no como fuente.
-- [ ] **Step 2:** `python scripts/validate_assets.py | tail -1 && python scripts/build_index.py`. Expected: `Validation passed.` con 7 avisos menos que antes.
+- [ ] **Step 1:** Apply the "Procedure for getting a logo" to each one. The league's collage serves as a visual reference for the current logo (top-left corner), not as a source.
+- [ ] **Step 2:** `python scripts/validate_assets.py | tail -1 && python scripts/build_index.py`. Expected: `Validation passed.` with 7 fewer warnings than before.
 - [ ] **Step 3: Commit**
 
 ```bash
@@ -1564,11 +1564,11 @@ Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
 
 ---
 
-### Task 8: Logos de copas y supercopas europeas (10)
+### Task 8: European cup and super cup logos (10)
 
-**Competiciones:** `fa-cup`, `efl-cup`, `community-shield`, `supercopa-de-espana`, `coppa-italia`, `supercoppa-italiana`, `dfb-pokal`, `dfl-supercup`, `coupe-de-france`, `trophee-des-champions` → `football/competitions/europe/`
+**Competitions:** `fa-cup`, `efl-cup`, `community-shield`, `supercopa-de-espana`, `coppa-italia`, `supercoppa-italiana`, `dfb-pokal`, `dfl-supercup`, `coupe-de-france`, `trophee-des-champions` → `football/competitions/europe/`
 
-- [ ] **Step 1:** Aplicar el "Procedimiento para obtener un logo" a cada una. Para copas con patrocinador (EFL Cup/Carabao Cup), preferir el logo de la competición sin patrocinador si existe; si solo existe con patrocinador, usar el actual y anotarlo en `notes`.
+- [ ] **Step 1:** Apply the "Procedure for getting a logo" to each one. For sponsored cups (EFL Cup/Carabao Cup), prefer the competition's logo without the sponsor if it exists; if it only exists with the sponsor, use the current one and note it in `notes`.
 - [ ] **Step 2:** `python scripts/validate_assets.py | tail -1 && python scripts/build_index.py`. Expected: `Validation passed.`
 - [ ] **Step 3: Commit**
 
@@ -1581,11 +1581,11 @@ Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
 
 ---
 
-### Task 9: Logos de UEFA y FIFA restantes (4)
+### Task 9: Remaining UEFA and FIFA logos (4)
 
-**Competiciones:** `uefa-super-cup`, `uefa-euro`, `uefa-nations-league` → `football/competitions/europe/`; `fifa-world-cup` → `football/competitions/world/`
+**Competitions:** `uefa-super-cup`, `uefa-euro`, `uefa-nations-league` → `football/competitions/europe/`; `fifa-world-cup` → `football/competitions/world/`
 
-- [ ] **Step 1:** Aplicar el "Procedimiento para obtener un logo" a cada una. Para `uefa-euro` y `fifa-world-cup`, usar el logo genérico de la marca del torneo (sin sede ni año) si existe; si no, usar el de la edición más reciente o la próxima y anotarlo en `notes`.
+- [ ] **Step 1:** Apply the "Procedure for getting a logo" to each one. For `uefa-euro` and `fifa-world-cup`, use the tournament brand's generic logo (no host or year) if it exists; otherwise use the most recent or upcoming edition's and note it in `notes`.
 - [ ] **Step 2:** `python scripts/validate_assets.py | tail -1 && python scripts/build_index.py`. Expected: `Validation passed.`
 - [ ] **Step 3: Commit**
 
@@ -1598,12 +1598,12 @@ Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
 
 ---
 
-### Task 10: Logos de América y Asia (9)
+### Task 10: Americas and Asia logos (9)
 
-**Competiciones:** `copa-sudamericana`, `brasileirao-serie-a`, `liga-profesional-argentina`, `copa-america` → `football/competitions/south-america/`; `liga-mx`, `mls`, `concacaf-champions-cup`, `concacaf-gold-cup` → `football/competitions/north-america/`; `saudi-pro-league` → `football/competitions/asia/`
+**Competitions:** `copa-sudamericana`, `brasileirao-serie-a`, `liga-profesional-argentina`, `copa-america` → `football/competitions/south-america/`; `liga-mx`, `mls`, `concacaf-champions-cup`, `concacaf-gold-cup` → `football/competitions/north-america/`; `saudi-pro-league` → `football/competitions/asia/`
 
-- [ ] **Step 1:** Aplicar el "Procedimiento para obtener un logo" a cada una.
-- [ ] **Step 2:** `python scripts/validate_assets.py | tail -1 && python scripts/build_index.py`. Expected: `Validation passed.` Los únicos avisos que quedan son los de logos no encontrados en las Tasks 6–10.
+- [ ] **Step 1:** Apply the "Procedure for getting a logo" to each one.
+- [ ] **Step 2:** `python scripts/validate_assets.py | tail -1 && python scripts/build_index.py`. Expected: `Validation passed.` The only warnings left are for logos not found in Tasks 6–10.
 - [ ] **Step 3: Commit**
 
 ```bash
@@ -1620,9 +1620,9 @@ Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
 **Files:**
 - Modify: `README.md`
 
-- [ ] **Step 1: Actualizar la sección "Estructura"**
+- [ ] **Step 1: Update the "Structure" section**
 
-Sustituir el árbol por:
+Replace the tree with:
 
 ````markdown
 ```text
@@ -1640,8 +1640,8 @@ sports-assets/
 │   └── logos/
 ├── data/
 │   ├── football/
-│   │   ├── competitions.json          # catálogo (fuente de verdad, se edita a mano)
-│   │   └── competitions-lookup.json   # generado: nombre normalizado → id
+│   │   ├── competitions.json          # catalog (source of truth, edited by hand)
+│   │   └── competitions-lookup.json   # generated: normalized name → id
 │   ├── fighters.json
 │   ├── ufc-logos.json
 │   ├── ufc-fighters-seed.json
@@ -1657,67 +1657,67 @@ sports-assets/
 ```
 ````
 
-- [ ] **Step 2: Sustituir la sección "### Competiciones" por una sección "## Competiciones de fútbol"**
+- [ ] **Step 2: Replace the "### Competitions" section with a "## Football competitions" section**
 
 ````markdown
-## Competiciones de fútbol
+## Football competitions
 
-Los logos están en `football/competitions/<continente>/<id>.png`: PNG transparente con un lado mayor de 1024 px como máximo. Los collages antiguos (liga + escudos de clubes) se conservan en `football/collages/`.
+Logos live in `football/competitions/<continent>/<id>.png`: transparent PNG with the longest side at most 1024 px. The older collages (league + club crests) are kept in `football/collages/`.
 
-`data/football/competitions.json` es el catálogo. Cada competición tiene:
+`data/football/competitions.json` is the catalog. Each competition has:
 
-| Campo | Descripción |
+| Field | Description |
 |---|---|
-| `id` | identificador estable; coincide con el nombre del archivo |
-| `name` | nombre oficial |
-| `aliases` | otros nombres habituales |
-| `type` | `league`, `cup`, `super-cup` o `international` |
-| `scope` | `club` o `national-team` |
-| `continent` | carpeta del logo |
-| `confederation` | `UEFA`, `CONMEBOL`, `CONCACAF`, `AFC`, `CAF`, `OFC` o `FIFA` |
-| `country` | código ISO (`ES`, `GB-ENG`…) o `null` si es internacional |
-| `logo` | ruta del logo, o `null` si todavía no hay uno limpio |
-| `collage` | ruta del collage, o `null` |
+| `id` | stable id; matches the file name |
+| `name` | official name |
+| `aliases` | other common names |
+| `type` | `league`, `cup`, `super-cup` or `international` |
+| `scope` | `club` or `national-team` |
+| `continent` | logo folder |
+| `confederation` | `UEFA`, `CONMEBOL`, `CONCACAF`, `AFC`, `CAF`, `OFC` or `FIFA` |
+| `country` | ISO code (`ES`, `GB-ENG`…) or `null` if international |
+| `logo` | logo path, or `null` if there isn't a clean one yet |
+| `collage` | collage path, or `null` |
 
-### Uso desde una app
+### Usage from an app
 
-1. Normaliza el nombre que recibes: quita tildes, pasa a minúsculas, cambia todo lo que no sea letra o número por un espacio y colapsa los espacios (`"LaLiga EA Sports"` → `"laliga ea sports"`).
-2. Búscalo en `data/football/competitions-lookup.json` para obtener el `id`.
-3. Busca ese `id` en `data/football/competitions.json` para obtener `logo`.
-4. Construye la URL:
+1. Normalize the name you receive: strip accents, lowercase it, turn anything that isn't a letter or digit into a space and collapse spaces (`"LaLiga EA Sports"` → `"laliga ea sports"`).
+2. Look it up in `data/football/competitions-lookup.json` to get the `id`.
+3. Look that `id` up in `data/football/competitions.json` to get `logo`.
+4. Build the URL:
 
 ```text
 https://cdn.jsdelivr.net/gh/IsaacPrestol/sports-assets@main/football/competitions/europe/laliga.png
 ```
 
-### Añadir o sustituir un logo
+### Add or replace a logo
 
 ```bash
-python scripts/normalize_logo.py descarga.png football/competitions/europe/laliga.png
+python scripts/normalize_logo.py download.png football/competitions/europe/laliga.png
 ```
 
-Después actualiza `logo` en el catálogo, registra el origen en `data/sources.json` y ejecuta `python scripts/build_index.py`.
+Then update `logo` in the catalog, record the origin in `data/sources.json` and run `python scripts/build_index.py`.
 ````
 
-- [ ] **Step 3: Añadir a "## Validar recursos"**
+- [ ] **Step 3: Add to "## Validate assets"**
 
 ````markdown
-Instala las dependencias y ejecuta los tests:
+Install the dependencies and run the tests:
 
 ```bash
 pip install -r requirements.txt
 python -m unittest discover -s tests
 ```
 
-La validación falla si el catálogo apunta a un archivo inexistente, si hay imágenes sin entrada, si un logo no es transparente o si dos competiciones comparten un alias.
+Validation fails if the catalog points to a missing file, there are images with no entry, a logo isn't transparent or two competitions share an alias.
 ````
 
-- [ ] **Step 4: Verificación final y commit**
+- [ ] **Step 4: Final verification and commit**
 
 ```bash
 python -m unittest discover -s tests && python scripts/validate_assets.py | tail -1 && python scripts/build_index.py && git status --short data
 ```
-Expected: tests `OK`, `Validation passed.`, sin cambios pendientes en `data/`.
+Expected: tests `OK`, `Validation passed.`, no pending changes in `data/`.
 
 ```bash
 git add README.md

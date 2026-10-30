@@ -1,10 +1,10 @@
-# Escudos de clubes de fútbol — Plan de implementación
+# Football club crests — Implementation plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Catálogo y escudos de los ~697 clubes de las 25 ligas de luukhopman/football-logos (actuales + desde 2021/22), con imágenes de football-logos.cc, emparejamiento revisado visualmente y un script re-ejecutable cada temporada.
+**Goal:** Catalog and crests for the ~697 clubs of the 25 luukhopman/football-logos leagues (current + since 2021/22), with images from football-logos.cc, visually reviewed matching and a script that can be re-run every season.
 
-**Architecture:** Lógica pura en `scripts/football_clubs.py` (emparejamiento, ids, alias, fusión con el catálogo, lookup por país, validación), testeada sin red. `scripts/sync_clubs.py` es la capa fina de red/CLI (`plan`, `accept`, `apply`). `build_index.py` y `validate_assets.py` incorporan clubes. Las 18 ligas nuevas se añaden al catálogo de competiciones.
+**Architecture:** Pure logic in `scripts/football_clubs.py` (matching, ids, aliases, merging into the catalog, per-country lookup, validation), tested without network. `scripts/sync_clubs.py` is the thin network/CLI layer (`plan`, `accept`, `apply`). `build_index.py` and `validate_assets.py` take in clubs. The 18 new leagues are added to the competition catalog.
 
 **Tech Stack:** Python 3.12, Pillow, `unittest`, `urllib`, `difflib`.
 
@@ -12,45 +12,45 @@
 
 ## Global Constraints
 
-- Repositorio: `C:\Users\Isaac\Downloads\sports-assets`, rama `football-competitions-by-continent`. Comandos desde la raíz.
-- Commits terminan con `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`.
-- Escudo: `football/clubs/<country en minúsculas>/<id>.png`, PNG con píxeles transparentes, lado mayor ≤ 1024 px, sin ampliar.
+- Repository: `C:\Users\Isaac\Downloads\sports-assets`, branch `football-competitions-by-continent`. Commands run from the root.
+- Commits end with `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`.
+- Crest: `football/clubs/<lowercase country>/<id>.png`, PNG with transparent pixels, longest side ≤ 1024 px, never upscaled.
 - `country`: `^[A-Z]{2}(?:-[A-Z]{3})?$` (`ES`, `GB-ENG`, `GB-SCT`).
-- `league`: id de competición con `type: "league"`, o `null`.
-- Normalización de nombres: la de `football_catalog.normalize_name`.
-- JSON: `indent=2`, `ensure_ascii=False`, salto de línea final; `clubs-lookup.json` y `clubs-mapping.json` con claves ordenadas; `sources.json` con `sort_keys=True`.
-- Fuentes de logos: primero repositorios (football-logos.cc), después Wikipedia/Wikimedia.
-- User-Agent de red: `sports-assets-sync/1.0 (https://github.com/IsaacPrestol/sports-assets)` (sin email).
-- Mensajes de scripts en inglés.
+- `league`: id of a competition with `type: "league"`, or `null`.
+- Name normalization: the one in `football_catalog.normalize_name`.
+- JSON: `indent=2`, `ensure_ascii=False`, trailing newline; `clubs-lookup.json` and `clubs-mapping.json` with sorted keys; `sources.json` with `sort_keys=True`.
+- Logo sources: repositories first (football-logos.cc), then Wikipedia/Wikimedia.
+- Network User-Agent: `sports-assets-sync/1.0 (https://github.com/IsaacPrestol/sports-assets)` (no email).
+- Script messages in English.
 
 ## Review Focus
 
-1. Dos claves de luukhopman del mismo club con nombres distintos ("Banik Ostrava" / "FC Banik Ostrava") → mismo `id`, un solo club. Test en Task 3.
-2. Dos clubes distintos de países distintos con el mismo slug → el segundo recibe sufijo de país; ninguno pierde su id existente. Test en Task 3.
-3. Un club que baja de las 25 ligas → `league: null`, conserva escudo, nombre y alias manuales. Test en Task 4.
-4. Alias automático que coincide con el nombre de otro club del mismo país → se descarta y se informa; el catálogo resultante valida. Test en Task 4.
-5. Escudo de respaldo de luukhopman (139×181) → validación avisa (< 400 px) sin fallar. Test en Task 5.
+1. Two luukhopman keys for the same club with different names ("Banik Ostrava" / "FC Banik Ostrava") → same `id`, a single club. Test in Task 3.
+2. Two different clubs from different countries with the same slug → the second gets a country suffix; neither loses its existing id. Test in Task 3.
+3. A club that drops out of the 25 leagues → `league: null`, keeps its crest, name and manual aliases. Test in Task 4.
+4. An automatic alias that matches another club's name in the same country → dropped and reported; the resulting catalog validates. Test in Task 4.
+5. luukhopman fallback crest (139×181) → validation warns (< 400 px) without failing. Test in Task 5.
 
-## Estructura de archivos
+## File structure
 
-| Archivo | Acción | Responsabilidad |
+| File | Action | Responsibility |
 |---|---|---|
-| `scripts/football_clubs.py` | Crear | Constantes de mapeo, emparejamiento, ids, alias, fusión, lookup, validación |
-| `scripts/sync_clubs.py` | Crear | Red + CLI `plan` / `accept` / `apply` + hojas de revisión |
-| `scripts/build_index.py` | Modificar | `clubs-lookup.json` y `clubs` en `all-assets.json` |
-| `scripts/validate_assets.py` | Modificar | Recorrer `football/clubs/` y validar el catálogo de clubes |
-| `tests/test_football_clubs.py` | Crear | Tests de `football_clubs` |
-| `tests/test_football_catalog.py` | Modificar | Ampliar alias genéricos prohibidos |
-| `data/football/competitions.json` | Modificar | 18 ligas nuevas |
-| `data/football/clubs.json` | Crear | Catálogo de clubes |
-| `data/football/clubs-mapping.json` | Crear | Emparejamientos confirmados |
-| `data/football/clubs-lookup.json` | Generado | Alias por país |
-| `football/clubs/**` | Crear | Escudos |
-| `README.md` | Modificar | Documentación |
+| `scripts/football_clubs.py` | Create | Mapping constants, matching, ids, aliases, merging, lookup, validation |
+| `scripts/sync_clubs.py` | Create | Network + CLI `plan` / `accept` / `apply` + review sheets |
+| `scripts/build_index.py` | Modify | `clubs-lookup.json` and `clubs` in `all-assets.json` |
+| `scripts/validate_assets.py` | Modify | Walk `football/clubs/` and validate the club catalog |
+| `tests/test_football_clubs.py` | Create | Tests for `football_clubs` |
+| `tests/test_football_catalog.py` | Modify | Extend the forbidden generic aliases |
+| `data/football/competitions.json` | Modify | 18 new leagues |
+| `data/football/clubs.json` | Create | Club catalog |
+| `data/football/clubs-mapping.json` | Create | Confirmed matches |
+| `data/football/clubs-lookup.json` | Generated | Aliases per country |
+| `football/clubs/**` | Create | Crests |
+| `README.md` | Modify | Documentation |
 
 ---
 
-### Task 1: 18 ligas nuevas en el catálogo de competiciones
+### Task 1: 18 new leagues in the competition catalog
 
 **Files:**
 - Modify: `tests/test_football_catalog.py` (`RealCatalogTest.GENERIC_ALIASES`)
@@ -58,13 +58,13 @@
 - Create: `football/competitions/europe/<id>.png` × 18
 - Modify: `data/sources.json`
 
-- [ ] **Step 1: Ampliar la lista de alias genéricos**
+- [ ] **Step 1: Extend the list of generic aliases**
 
-En `RealCatalogTest.GENERIC_ALIASES` añadir `"superliga"`, `"super league"`, `"premier liga"`, `"pro league"`. Ejecutar `python -m unittest discover -s tests` → `OK` (guarda para las entradas nuevas).
+In `RealCatalogTest.GENERIC_ALIASES` add `"superliga"`, `"super league"`, `"premier liga"`, `"pro league"`. Run `python -m unittest discover -s tests` → `OK` (a guard for the new entries).
 
-- [ ] **Step 2: Añadir las 18 entradas**
+- [ ] **Step 2: Add the 18 entries**
 
-Insertar tras `liga-portugal` (orden de la tabla del spec) con `type: "league"`, `scope: "club"`, `continent: "europe"`, `confederation: "UEFA"`, `logo: null`, `collage: null`:
+Insert after `liga-portugal` (in the order of the spec's table) with `type: "league"`, `scope: "club"`, `continent: "europe"`, `confederation: "UEFA"`, `logo: null`, `collage: null`:
 
 ```python
 NEW = [
@@ -94,9 +94,9 @@ Expected: `OK`, `Validation passed. 18 warning(s).`
 
 - [ ] **Step 3: Logos**
 
-Para cada liga, procedimiento de logos de la fase anterior (plan `2026-09-30-football-competitions.md`, sección "Procedimiento para obtener un logo"), buscando **primero** en la página de país de football-logos.cc (`https://football-logos.cc/<país>/`, imágenes `1500x1500`) y, si no está o trae patrocinador/fondo opaco, en Wikimedia. Revisar cada imagen visualmente, normalizar, poner `logo`, registrar en `sources.json`.
+For each league, use the previous phase's logo procedure (plan `2026-09-30-football-competitions.md`, section "Procedure for getting a logo"), looking **first** on the football-logos.cc country page (`https://football-logos.cc/<country>/`, `1500x1500` images) and, if it isn't there or comes with a sponsor/opaque background, on Wikimedia. Review each image visually, normalize it, set `logo`, record it in `sources.json`.
 
-- [ ] **Step 4: Verificar y commit**
+- [ ] **Step 4: Verify and commit**
 
 Run: `python -m unittest discover -s tests && python scripts/validate_assets.py | tail -1 && python scripts/build_index.py | tail -1`
 Expected: `OK`, `Validation passed. 0 warning(s).`
@@ -110,7 +110,7 @@ Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
 
 ---
 
-### Task 2: Nombres, slugs, emparejamiento y alias
+### Task 2: Names, slugs, matching and aliases
 
 **Files:**
 - Create: `scripts/football_clubs.py`
@@ -118,9 +118,9 @@ Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
 
 **Interfaces:**
 - Consumes: `football_catalog.normalize_name`, `ROOT`, `ID_RE`, `has_alpha`
-- Produces: `strip_affixes(name) -> str`, `slugify(name) -> str`, `slug_name(slug) -> str`, `propose_slug(name, slugs, cutoff=0.8) -> tuple[str | None, str]` (`"exact"|"fuzzy"|"none"`), `auto_aliases(name, names, slug) -> list[str]`; constantes `CLUBS_FILE`, `CLUBS_LOOKUP_FILE`, `MAPPING_FILE`, `CLUBS_DIR`, `COUNTRY_RE`, `AFFIXES`
+- Produces: `strip_affixes(name) -> str`, `slugify(name) -> str`, `slug_name(slug) -> str`, `propose_slug(name, slugs, cutoff=0.8) -> tuple[str | None, str]` (`"exact"|"fuzzy"|"none"`), `auto_aliases(name, names, slug) -> list[str]`; constants `CLUBS_FILE`, `CLUBS_LOOKUP_FILE`, `MAPPING_FILE`, `CLUBS_DIR`, `COUNTRY_RE`, `AFFIXES`
 
-- [ ] **Step 1: Tests que fallan**
+- [ ] **Step 1: Failing tests**
 
 `tests/test_football_clubs.py`:
 
@@ -180,12 +180,12 @@ if __name__ == "__main__":
     unittest.main()
 ```
 
-- [ ] **Step 2: Ejecutar → falla**
+- [ ] **Step 2: Run → fails**
 
 Run: `python -m unittest discover -s tests -p "test_football_clubs.py"`
 Expected: `ModuleNotFoundError: No module named 'football_clubs'`
 
-- [ ] **Step 3: Implementación**
+- [ ] **Step 3: Implementation**
 
 `scripts/football_clubs.py`:
 
@@ -250,9 +250,9 @@ def auto_aliases(name: str, names: list[str], slug: str | None) -> list[str]:
     return aliases
 ```
 
-Nota del test `test_collects_names_slug_and_stripped_forms`: "Arsenal FC" (nombre) se excluye, `slug_name("arsenal")` = "Arsenal" se añade, `strip_affixes` produce "arsenal" (ya visto). En `test_history_names...`: "Banik Ostrava" se añade; "FC Banik Ostrava" es el nombre; las variantes sin afijos ya están vistas.
+Note on `test_collects_names_slug_and_stripped_forms`: "Arsenal FC" (the name) is excluded, `slug_name("arsenal")` = "Arsenal" is added, `strip_affixes` produces "arsenal" (already seen). In `test_history_names...`: "Banik Ostrava" is added; "FC Banik Ostrava" is the name; the variants without affixes are already seen.
 
-- [ ] **Step 4: Ejecutar → pasa**
+- [ ] **Step 4: Run → passes**
 
 Run: `python -m unittest discover -s tests`
 Expected: `OK`
@@ -268,7 +268,7 @@ Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
 
 ---
 
-### Task 3: Índice de luukhopman y propuestas de emparejamiento
+### Task 3: luukhopman index and match proposals
 
 **Files:**
 - Modify: `scripts/football_clubs.py`
@@ -276,13 +276,13 @@ Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
 
 **Interfaces:**
 - Produces:
-  - `COUNTRY_CODES: dict[str, str]` (carpeta de país luukhopman → ISO), `LEAGUE_IDS: dict[str, str]` (carpeta de liga → id de competición), `FL_COUNTRIES: dict[str, str]` (carpeta de país → ruta de football-logos.cc), `CURRENT_SEASON = "~current"`
-  - `luuk_index(paths: list[str]) -> dict[str, dict]`: clave `"<País>|<Club>"` → `{"country_folder", "name", "league_folder" (str|None), "latest_season", "latest_path"}`
-  - `propose(luuk, mapping, fl_slugs: dict[str, list[str]], existing_ids: dict[str, str]) -> dict[str, dict]`: clave → `{"id", "source", "slug", "match"}`
+  - `COUNTRY_CODES: dict[str, str]` (luukhopman country folder → ISO), `LEAGUE_IDS: dict[str, str]` (league folder → competition id), `FL_COUNTRIES: dict[str, str]` (country folder → football-logos.cc path), `CURRENT_SEASON = "~current"`
+  - `luuk_index(paths: list[str]) -> dict[str, dict]`: key `"<Country>|<Club>"` → `{"country_folder", "name", "league_folder" (str|None), "latest_season", "latest_path"}`
+  - `propose(luuk, mapping, fl_slugs: dict[str, list[str]], existing_ids: dict[str, str]) -> dict[str, dict]`: key → `{"id", "source", "slug", "match"}`
 
-- [ ] **Step 1: Tests que fallan**
+- [ ] **Step 1: Failing tests**
 
-Añadir a `tests/test_football_clubs.py` (import de `luuk_index, propose`):
+Add to `tests/test_football_clubs.py` (importing `luuk_index, propose`):
 
 ```python
 PATHS = [
@@ -340,9 +340,9 @@ class ProposeTest(unittest.TestCase):
         self.assertEqual(proposals["Spain|Real Madrid"]["id"], "real-madrid")
 ```
 
-- [ ] **Step 2: Ejecutar → falla** (`ImportError: cannot import name 'luuk_index'`)
+- [ ] **Step 2: Run → fails** (`ImportError: cannot import name 'luuk_index'`)
 
-- [ ] **Step 3: Implementación** (añadir a `scripts/football_clubs.py`)
+- [ ] **Step 3: Implementation** (add to `scripts/football_clubs.py`)
 
 ```python
 CURRENT_SEASON = "~current"
@@ -446,12 +446,12 @@ def propose(luuk: dict, mapping: dict, fl_slugs: dict[str, list[str]],
     return proposals
 ```
 
-- [ ] **Step 4: Ejecutar → pasa.** Run: `python -m unittest discover -s tests` → `OK`
-- [ ] **Step 5: Commit** — `git add scripts/football_clubs.py tests/test_football_clubs.py` · mensaje `Index luukhopman clubs and propose logo matches`
+- [ ] **Step 4: Run → passes.** Run: `python -m unittest discover -s tests` → `OK`
+- [ ] **Step 5: Commit** — `git add scripts/football_clubs.py tests/test_football_clubs.py` · message `Index luukhopman clubs and propose logo matches`
 
 ---
 
-### Task 4: Fusión con el catálogo, lookup por país y assets
+### Task 4: Merging into the catalog, per-country lookup and assets
 
 **Files:**
 - Modify: `scripts/football_clubs.py`
@@ -459,11 +459,11 @@ def propose(luuk: dict, mapping: dict, fl_slugs: dict[str, list[str]],
 
 **Interfaces:**
 - Produces:
-  - `merge_clubs(existing: list[dict], mapping: dict, luuk: dict, missing_logos: set[str] = frozenset()) -> tuple[list[dict], list[str]]` (clubes ordenados, alias descartados)
+  - `merge_clubs(existing: list[dict], mapping: dict, luuk: dict, missing_logos: set[str] = frozenset()) -> tuple[list[dict], list[str]]` (sorted clubs, dropped aliases)
   - `build_club_lookup(clubs) -> tuple[dict[str, dict[str, str]], list[str]]`
   - `club_assets(clubs) -> dict[str, dict]`
 
-- [ ] **Step 1: Tests que fallan**
+- [ ] **Step 1: Failing tests**
 
 ```python
 MAPPING = {
@@ -562,11 +562,11 @@ class ClubLookupTest(unittest.TestCase):
         self.assertEqual(club_assets(clubs), {"a": {"name": "A", "path": "football/clubs/es/a.png"}})
 ```
 
-Nota: el id de Almería es `ud-almeria` para que el alias automático "Almeria" choque solo con el club `other` (nombre "Almeria") y no con un id, que sería un error de validación y no un alias descartable.
+Note: Almería's id is `ud-almeria` so that the automatic alias "Almeria" only collides with the club `other` (name "Almeria") and not with an id, which would be a validation error rather than a droppable alias.
 
-- [ ] **Step 2: Ejecutar → falla** (`ImportError`)
+- [ ] **Step 2: Run → fails** (`ImportError`)
 
-- [ ] **Step 3: Implementación**
+- [ ] **Step 3: Implementation**
 
 ```python
 def _drop_colliding_aliases(by_id: dict[str, dict], new_ids: set[str]) -> list[str]:
@@ -652,12 +652,12 @@ def club_assets(clubs: list[dict]) -> dict[str, dict]:
     return {club["id"]: {"name": club["name"], "path": club["logo"]} for club in clubs if club["logo"]}
 ```
 
-- [ ] **Step 4: Ejecutar → pasa.** `python -m unittest discover -s tests` → `OK`
-- [ ] **Step 5: Commit** — mensaje `Merge synced clubs into the catalog and build per-country lookup`
+- [ ] **Step 4: Run → passes.** `python -m unittest discover -s tests` → `OK`
+- [ ] **Step 5: Commit** — message `Merge synced clubs into the catalog and build per-country lookup`
 
 ---
 
-### Task 5: Validación del catálogo de clubes
+### Task 5: Club catalog validation
 
 **Files:**
 - Modify: `scripts/football_clubs.py`
@@ -666,7 +666,7 @@ def club_assets(clubs: list[dict]) -> dict[str, dict]:
 **Interfaces:**
 - Produces: `validate_clubs(root: Path, catalog, competitions: list[dict], mapping: dict) -> tuple[list[str], list[str]]`, `load_json(path: Path, default)`
 
-- [ ] **Step 1: Tests que fallan**
+- [ ] **Step 1: Failing tests**
 
 ```python
 import tempfile
@@ -755,9 +755,9 @@ class ValidateClubsTest(unittest.TestCase):
         self.assertTrue(any("ghost" in e for e in errors))
 ```
 
-- [ ] **Step 2: Ejecutar → falla** (`ImportError: validate_clubs`)
+- [ ] **Step 2: Run → fails** (`ImportError: validate_clubs`)
 
-- [ ] **Step 3: Implementación**
+- [ ] **Step 3: Implementation**
 
 ```python
 LOW_RES_SIDE = 400
@@ -842,25 +842,25 @@ def validate_clubs(root: Path, catalog, competitions: list[dict], mapping: dict)
     return errors, warnings
 ```
 
-- [ ] **Step 4: Ejecutar → pasa.** `python -m unittest discover -s tests` → `OK`
-- [ ] **Step 5: Commit** — mensaje `Validate the football clubs catalog`
+- [ ] **Step 4: Run → passes.** `python -m unittest discover -s tests` → `OK`
+- [ ] **Step 5: Commit** — message `Validate the football clubs catalog`
 
 ---
 
-### Task 6: Conectar clubes a `build_index.py` y `validate_assets.py`
+### Task 6: Wire clubs into `build_index.py` and `validate_assets.py`
 
 **Files:**
 - Create: `data/football/clubs.json` (`{"version": 1, "clubs": []}`), `data/football/clubs-mapping.json` (`{}`)
 - Modify: `scripts/build_index.py`, `scripts/validate_assets.py`
 
-- [ ] **Step 1: Datos vacíos**
+- [ ] **Step 1: Empty data**
 
 ```bash
 printf '{\n  "version": 1,\n  "clubs": []\n}\n' > data/football/clubs.json
 printf '{}\n' > data/football/clubs-mapping.json
 ```
 
-- [ ] **Step 2: `build_index.py`** — import `from football_clubs import CLUBS_FILE, CLUBS_LOOKUP_FILE, build_club_lookup, club_assets, load_json`; en `main()` tras el lookup de competiciones:
+- [ ] **Step 2: `build_index.py`** — import `from football_clubs import CLUBS_FILE, CLUBS_LOOKUP_FILE, build_club_lookup, club_assets, load_json`; in `main()` after the competition lookup:
 
 ```python
     clubs = load_json(CLUBS_FILE, {"clubs": []})["clubs"]
@@ -872,9 +872,9 @@ printf '{}\n' > data/football/clubs-mapping.json
     write_json(CLUBS_LOOKUP_FILE, club_lookup)
 ```
 
-y en `all_assets`, tras `"competitions"`: `"clubs": club_assets(clubs),`; al final `print(f"  club lookup: {sum(len(t) for t in club_lookup.values())} name(s)")`.
+and in `all_assets`, after `"competitions"`: `"clubs": club_assets(clubs),`; at the end `print(f"  club lookup: {sum(len(t) for t in club_lookup.values())} name(s)")`.
 
-- [ ] **Step 3: `validate_assets.py`** — añadir `ROOT / "football" / "clubs"` a `ASSET_DIRS`; import `from football_clubs import CLUBS_FILE, MAPPING_FILE, load_json, validate_clubs`; nueva función llamada desde `main()` tras `check_catalog`:
+- [ ] **Step 3: `validate_assets.py`** — add `ROOT / "football" / "clubs"` to `ASSET_DIRS`; import `from football_clubs import CLUBS_FILE, MAPPING_FILE, load_json, validate_clubs`; new function called from `main()` after `check_catalog`:
 
 ```python
 def check_clubs(errors: list, warnings: list) -> None:
@@ -893,21 +893,21 @@ def check_clubs(errors: list, warnings: list) -> None:
     warnings.extend(club_warnings)
 ```
 
-- [ ] **Step 4: Verificar**
+- [ ] **Step 4: Verify**
 
 Run: `python -m unittest discover -s tests && python scripts/validate_assets.py | tail -1 && python scripts/build_index.py && git status --short data`
-Expected: `OK`, `Validation passed. 0 warning(s).`, `club lookup: 0 name(s)`, nuevos `clubs-lookup.json` (`{}`) y `all-assets.json` con `"clubs": {}`.
+Expected: `OK`, `Validation passed. 0 warning(s).`, `club lookup: 0 name(s)`, new `clubs-lookup.json` (`{}`) and `all-assets.json` with `"clubs": {}`.
 
-- [ ] **Step 5: Commit** — `git add -A scripts data` · mensaje `Index and validate football clubs`
+- [ ] **Step 5: Commit** — `git add -A scripts data` · message `Index and validate football clubs`
 
 ---
 
-### Task 7: `scripts/sync_clubs.py` y primera ejecución de `plan`
+### Task 7: `scripts/sync_clubs.py` and first `plan` run
 
 **Files:**
 - Create: `scripts/sync_clubs.py`
 
-- [ ] **Step 1: Escribir el script**
+- [ ] **Step 1: Write the script**
 
 ```python
 """Sync football club crests.
@@ -1130,65 +1130,65 @@ if __name__ == "__main__":
     main()
 ```
 
-- [ ] **Step 2: Ejecutar `plan`**
+- [ ] **Step 2: Run `plan`**
 
 Run: `python scripts/sync_clubs.py plan`
-Expected: `~697 unmapped club(s): {'exact': …, 'fuzzy': …, 'none': …}` y 26 archivos `.cache/clubs/review-*.jpg`.
+Expected: `~697 unmapped club(s): {'exact': …, 'fuzzy': …, 'none': …}` and 26 files `.cache/clubs/review-*.jpg`.
 
-- [ ] **Step 3: Commit** — `git add scripts/sync_clubs.py` · mensaje `Add club crest sync script`
-
----
-
-### Task 8: Revisión y correspondencias — 7 ligas principales
-
-**Países:** England, Spain, Italy, Germany, France, Netherlands, Portugal.
-
-- [ ] **Step 1:** Para cada país, abrir `.cache/clubs/review-<país>.jpg` con Read. Cada celda: escudo de luukhopman (izquierda) y propuesto de football-logos.cc (derecha), etiqueta `nombre -> id [match]`.
-- [ ] **Step 2:** `python scripts/sync_clubs.py accept <País>`.
-- [ ] **Step 3:** Corregir en `data/football/clubs-mapping.json` cada emparejamiento incorrecto:
-  - escudo distinto → buscar el slug correcto en `.cache` / página de país y ponerlo, o `"source": "luukhopman", "slug": null`;
-  - `[none]` cuyo club sí existe en football-logos.cc con otro nombre → poner su slug y `"source": "football-logos"`;
-  - nombres del mismo club con ids distintos → unificar al mismo `id`.
-  - Mantener ids en kebab-case con la regla del spec (slug de football-logos.cc o nombre sin afijos; sufijo de país si choca).
-- [ ] **Step 4:** Re-ejecutar `python scripts/sync_clubs.py plan` no debe proponer ninguna clave de estos países.
-- [ ] **Step 5: Commit** — `git add data/football/clubs-mapping.json` · mensaje `Map clubs of the top 7 leagues`
+- [ ] **Step 3: Commit** — `git add scripts/sync_clubs.py` · message `Add club crest sync script`
 
 ---
 
-### Task 9: Revisión y correspondencias — resto de países
+### Task 8: Review and mappings — top 7 leagues
 
-**Países:** Austria, Belgium, Bulgaria, Croatia, Czech Republic, Denmark, Greece, Hungary, Israel, Norway, Poland, Romania, Russia, Scotland, Serbia, Sweden, Switzerland, Türkiye, Ukraine.
+**Countries:** England, Spain, Italy, Germany, France, Netherlands, Portugal.
 
-- [ ] **Steps 1–4:** Igual que Task 8 para cada país.
+- [ ] **Step 1:** For each country, open `.cache/clubs/review-<country>.jpg` with Read. Each cell: luukhopman crest (left) and proposed football-logos.cc crest (right), labelled `name -> id [match]`.
+- [ ] **Step 2:** `python scripts/sync_clubs.py accept <Country>`.
+- [ ] **Step 3:** Fix every wrong match in `data/football/clubs-mapping.json`:
+  - different crest → find the right slug in `.cache` / the country page and set it, or `"source": "luukhopman", "slug": null`;
+  - `[none]` whose club does exist on football-logos.cc under another name → set its slug and `"source": "football-logos"`;
+  - names of the same club with different ids → unify on the same `id`.
+  - Keep ids in kebab-case following the spec's rule (football-logos.cc slug or name without affixes; country suffix on a collision).
+- [ ] **Step 4:** Re-running `python scripts/sync_clubs.py plan` must not propose any key from these countries.
+- [ ] **Step 5: Commit** — `git add data/football/clubs-mapping.json` · message `Map clubs of the top 7 leagues`
+
+---
+
+### Task 9: Review and mappings — remaining countries
+
+**Countries:** Austria, Belgium, Bulgaria, Croatia, Czech Republic, Denmark, Greece, Hungary, Israel, Norway, Poland, Romania, Russia, Scotland, Serbia, Sweden, Switzerland, Türkiye, Ukraine.
+
+- [ ] **Steps 1–4:** Same as Task 8 for each country.
 - [ ] **Step 5:** `python scripts/sync_clubs.py plan` → `0 unmapped club(s)`.
-- [ ] **Step 6: Commit** — mensaje `Map clubs of the remaining leagues`
+- [ ] **Step 6: Commit** — message `Map clubs of the remaining leagues`
 
 ---
 
-### Task 10: `apply` y verificación
+### Task 10: `apply` and verification
 
-- [ ] **Step 1:** `python scripts/sync_clubs.py apply` → sin `UNMAPPED`; anotar `WARNING` y `SKIPPED ALIAS`.
-- [ ] **Step 2:** `python -m unittest discover -s tests && python scripts/validate_assets.py | tail -3` → `OK`, `Validation passed.` (avisos solo de baja resolución / sin logo).
-- [ ] **Step 3:** Revisión visual por muestreo: hoja de 30 escudos finales al azar (`python .cache/sheet.py` sobre rutas de `football/clubs/**`), comprobar que ninguno está mal recortado ni es de otro club.
-- [ ] **Step 4:** Comprobar lookup:
+- [ ] **Step 1:** `python scripts/sync_clubs.py apply` → no `UNMAPPED`; note `WARNING` and `SKIPPED ALIAS`.
+- [ ] **Step 2:** `python -m unittest discover -s tests && python scripts/validate_assets.py | tail -3` → `OK`, `Validation passed.` (warnings only for low resolution / no logo).
+- [ ] **Step 3:** Visual spot check: a sheet of 30 random final crests (`python .cache/sheet.py` over paths in `football/clubs/**`); check that none is badly trimmed or belongs to another club.
+- [ ] **Step 4:** Check the lookup:
   ```bash
   python -c "import json; l=json.load(open('data/football/clubs-lookup.json',encoding='utf-8')); print(l['ES']['real madrid'], l['GB-ENG']['arsenal'], l['PT'].get('sporting cp'), l['DE'].get('bayern munich') or l['DE'].get('bayern munchen'))"
   ```
-- [ ] **Step 5:** Re-ejecutar `apply` → no descarga nada nuevo y `git status` sin cambios (idempotencia).
-- [ ] **Step 6: Commit** — `git add -A football data` · mensaje `Add crests for clubs of the 25 leagues`
+- [ ] **Step 5:** Re-run `apply` → downloads nothing new and `git status` shows no changes (idempotency).
+- [ ] **Step 6: Commit** — `git add -A football data` · message `Add crests for clubs of the 25 leagues`
 
 ---
 
 ### Task 11: README
 
-- [ ] **Step 1:** En "Estructura", añadir `football/clubs/<país>/`, `data/football/clubs.json`, `clubs-mapping.json`, `clubs-lookup.json` y `scripts/football_clubs.py`, `scripts/sync_clubs.py`.
-- [ ] **Step 2:** Nueva sección `## Clubes de fútbol`: esquema del catálogo (tabla de campos del spec), uso desde la app (normalizar nombre → `clubs-lookup.json[país][nombre]` → `clubs.json` → URL jsDelivr), y actualización por temporada:
+- [ ] **Step 1:** In "Structure", add `football/clubs/<country>/`, `data/football/clubs.json`, `clubs-mapping.json`, `clubs-lookup.json` and `scripts/football_clubs.py`, `scripts/sync_clubs.py`.
+- [ ] **Step 2:** New section `## Football clubs`: catalog schema (the spec's field table), usage from the app (normalize name → `clubs-lookup.json[country][name]` → `clubs.json` → jsDelivr URL), and the per-season update:
   ```bash
   python scripts/sync_clubs.py plan
-  # revisar .cache/clubs/review-*.jpg
+  # review .cache/clubs/review-*.jpg
   python scripts/sync_clubs.py accept
-  # corregir data/football/clubs-mapping.json si hace falta
+  # fix data/football/clubs-mapping.json if needed
   python scripts/sync_clubs.py apply
   ```
 - [ ] **Step 3:** `python -m unittest discover -s tests && python scripts/validate_assets.py | tail -1` → `OK`, `Validation passed.`
-- [ ] **Step 4: Commit** — mensaje `Document football clubs catalog and sync`
+- [ ] **Step 4: Commit** — message `Document football clubs catalog and sync`
