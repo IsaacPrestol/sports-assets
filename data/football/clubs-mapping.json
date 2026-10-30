@@ -988,7 +988,8 @@
   "Colombia|Cortuluá": {
     "id": "cortulua",
     "slug": null,
-    "source": "none"
+    "source": "url",
+    "url": "https://escudosdefutbolyequipaciones.com/descargar.php?sub=&tipo=esc&idEscudo=19023&nombreEscudo=CORTULU%C3%81+F.C.-1&dominio=escudosdefutbolyequipaciones.com"
   },
   "Colombia|Cúcuta Deportivo": {
     "id": "cucuta-deportivo",
@@ -1094,7 +1095,8 @@
   "Costa Rica|Belén": {
     "id": "belen",
     "slug": null,
-    "source": "none"
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/12003.png"
   },
   "Costa Rica|Carmelita": {
     "id": "carmelita",
@@ -1115,7 +1117,8 @@
   "Costa Rica|Grecia": {
     "id": "grecia",
     "slug": null,
-    "source": "none"
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/18763.png"
   },
   "Costa Rica|Guadalupe": {
     "id": "guadalupe",
@@ -1125,7 +1128,8 @@
   "Costa Rica|Guanacasteca": {
     "id": "guanacasteca",
     "slug": null,
-    "source": "none"
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20982.png"
   },
   "Costa Rica|Herediano": {
     "id": "herediano",
@@ -1166,7 +1170,8 @@
   "Costa Rica|Santa Ana": {
     "id": "santa-ana",
     "slug": null,
-    "source": "none"
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/22296.png"
   },
   "Costa Rica|Santos": {
     "id": "santos-cr",
@@ -2282,7 +2287,8 @@
   "Guatemala|Achuapa": {
     "id": "achuapa",
     "slug": null,
-    "source": "none"
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20727.png"
   },
   "Guatemala|Antigua": {
     "id": "antigua-gfc",
@@ -2297,7 +2303,8 @@
   "Guatemala|Atlético Mictlán": {
     "id": "atletico-mictlan",
     "slug": null,
-    "source": "none"
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7260.png"
   },
   "Guatemala|Aurora": {
     "id": "aurora-fc",
@@ -2312,7 +2319,8 @@
   "Guatemala|Coatepeque": {
     "id": "coatepeque",
     "slug": null,
-    "source": "none"
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/15888.png"
   },
   "Guatemala|Cobán Imperial": {
     "id": "coban-imperial",
@@ -2327,7 +2335,8 @@
   "Guatemala|Deportivo Zacapa": {
     "id": "deportivo-zacapa",
     "slug": null,
-    "source": "none"
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7261.png"
   },
   "Guatemala|Guastatoya": {
     "id": "guastatoya",
@@ -2337,7 +2346,8 @@
   "Guatemala|Iztapa": {
     "id": "iztapa",
     "slug": null,
-    "source": "none"
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/15886.png"
   },
   "Guatemala|Malacateco": {
     "id": "malacateco",
@@ -2367,7 +2377,8 @@
   "Guatemala|Santa Lucía": {
     "id": "santa-lucia",
     "slug": null,
-    "source": "none"
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20035.png"
   },
   "Guatemala|Suchitepéquez": {
     "id": "suchitepequez",
@@ -3058,7 +3069,8 @@
   "Panama|Atlético Chiriquí": {
     "id": "atletico-chiriqui",
     "slug": null,
-    "source": "none"
+    "source": "url",
+    "url": "https://lpf.com.pa/wp-content/uploads/2022/08/Chiriqui.webp"
   },
   "Panama|Atlético Independiente": {
     "id": "independiente-pa",
@@ -3068,7 +3080,8 @@
   "Panama|Atlético Nacional": {
     "id": "atletico-nacional-pa",
     "slug": null,
-    "source": "none"
+    "source": "url",
+    "url": "https://lpf.com.pa/wp-content/uploads/2022/07/Atletico-Nacional-transparente-2192x2532-px.png"
   },
   "Panama|Herrera": {
     "id": "herrera-fc",
@@ -3281,12 +3294,14 @@
   "Peru|Carlos A. Mannucci": {
     "id": "carlos-a-mannucci",
     "slug": null,
-    "source": "none"
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/19433.png"
   },
   "Peru|Carlos Stein": {
     "id": "carlos-stein",
     "slug": null,
-    "source": "none"
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20652.png"
   },
   "Peru|Cienciano": {
     "id": "cienciano",
@@ -5269,7 +5284,8 @@
   "Venezuela|Aragua": {
     "id": "aragua",
     "slug": null,
-    "source": "none"
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6036.png"
   },
   "Venezuela|Carabobo": {
     "id": "carabobo",
@@ -5356,6 +5372,7 @@
   "Venezuela|Zulia": {
     "id": "zulia",
     "slug": null,
-    "source": "none"
+    "source": "url",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9789.png"
   }
 }

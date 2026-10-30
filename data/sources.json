@@ -1211,6 +1211,14 @@
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/colombia/1500x1500/bucaramanga.74e87b72.png"
   },
+  "football/clubs/co/cortulua.png": {
+    "license": null,
+    "notes": "Cortulua crest introduced in 2022; retained under the historical club id. Original 346px PNG, not upscaled.",
+    "retrieved": "2026-10-02",
+    "source": "Escudos de Fútbol y Equipaciones",
+    "source_page": "https://www.escudosdefutbolyequipaciones.com/ESCUDO+CORTULU%C3%81%20F.C.-1",
+    "url": "https://escudosdefutbolyequipaciones.com/descargar.php?sub=&tipo=esc&idEscudo=19023&nombreEscudo=CORTULU%C3%81+F.C.-1&dominio=escudosdefutbolyequipaciones.com"
+  },
   "football/clubs/co/cucuta-deportivo.png": {
     "license": null,
     "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
@@ -1313,6 +1321,14 @@
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/costa-rica/1500x1500/ld-alajuelense.6bc0d929.png"
   },
+  "football/clubs/cr/belen.png": {
+    "license": null,
+    "notes": "Third-party club crest; source does not grant a free-use license. Transparent PNG, visually reviewed and normalized without upscaling.",
+    "retrieved": "2026-10-02",
+    "source": "ESPN",
+    "source_page": "https://www.espn.com/soccer/team/_/id/12003",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/12003.png"
+  },
   "football/clubs/cr/carmelita.png": {
     "license": null,
     "notes": "Via Wikimedia Commons",
@@ -1331,11 +1347,27 @@
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/costa-rica/1500x1500/escorpiones-de-belen.9d2bebf3.png"
   },
+  "football/clubs/cr/grecia.png": {
+    "license": null,
+    "notes": "Third-party club crest; source does not grant a free-use license. Transparent PNG, visually reviewed and normalized without upscaling.",
+    "retrieved": "2026-10-02",
+    "source": "ESPN",
+    "source_page": "https://www.espn.com/soccer/team/_/id/18763",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/18763.png"
+  },
   "football/clubs/cr/guadalupe.png": {
     "license": null,
     "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/costa-rica/1500x1500/guadalupe.b4cdc64d.png"
+  },
+  "football/clubs/cr/guanacasteca.png": {
+    "license": null,
+    "notes": "Third-party club crest; source does not grant a free-use license. Transparent PNG, visually reviewed and normalized without upscaling.",
+    "retrieved": "2026-10-02",
+    "source": "ESPN",
+    "source_page": "https://www.espn.com/soccer/team/_/id/20982",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20982.png"
   },
   "football/clubs/cr/herediano.png": {
     "license": null,
@@ -1378,6 +1410,14 @@
     "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/costa-rica/1500x1500/deportiva-san-carlos.6cbdf569.png"
+  },
+  "football/clubs/cr/santa-ana.png": {
+    "license": null,
+    "notes": "Third-party club crest; source does not grant a free-use license. Transparent PNG, visually reviewed and normalized without upscaling.",
+    "retrieved": "2026-10-02",
+    "source": "ESPN",
+    "source_page": "https://www.espn.com/soccer/team/_/id/22296",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/22296.png"
   },
   "football/clubs/cr/santos-cr.png": {
     "license": null,
@@ -2621,17 +2661,41 @@
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/greece/1500x1500/volos.9bfe26be.png"
   },
+  "football/clubs/gt/achuapa.png": {
+    "license": null,
+    "notes": "Third-party club crest; source does not grant a free-use license. Transparent PNG, visually reviewed and normalized without upscaling.",
+    "retrieved": "2026-10-02",
+    "source": "ESPN",
+    "source_page": "https://www.espn.com/soccer/team/_/id/20727",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20727.png"
+  },
   "football/clubs/gt/antigua-gfc.png": {
     "license": null,
     "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/guatemala/1500x1500/antigua-gfc.dd013806.png"
   },
+  "football/clubs/gt/atletico-mictlan.png": {
+    "license": null,
+    "notes": "Third-party club crest; source does not grant a free-use license. Transparent PNG, visually reviewed and normalized without upscaling.",
+    "retrieved": "2026-10-02",
+    "source": "ESPN",
+    "source_page": "https://www.espn.com/soccer/team/_/id/7260",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7260.png"
+  },
   "football/clubs/gt/aurora-fc.png": {
     "license": null,
     "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/guatemala/1500x1500/aurora-fc.ddce45f3.png"
+  },
+  "football/clubs/gt/coatepeque.png": {
+    "license": null,
+    "notes": "Third-party club crest; source does not grant a free-use license. Transparent PNG, visually reviewed and normalized without upscaling.",
+    "retrieved": "2026-10-02",
+    "source": "ESPN",
+    "source_page": "https://www.espn.com/soccer/team/_/id/15888",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/15888.png"
   },
   "football/clubs/gt/coban-imperial.png": {
     "license": null,
@@ -2645,11 +2709,27 @@
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/guatemala/1500x1500/comunicaciones-fc.c1f049f2.png"
   },
+  "football/clubs/gt/deportivo-zacapa.png": {
+    "license": null,
+    "notes": "Third-party club crest; source does not grant a free-use license. Transparent PNG, visually reviewed and normalized without upscaling.",
+    "retrieved": "2026-10-02",
+    "source": "ESPN",
+    "source_page": "https://www.espn.com/soccer/team/_/id/7261",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7261.png"
+  },
   "football/clubs/gt/guastatoya.png": {
     "license": null,
     "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/guatemala/1500x1500/guastatoya.f3e6153f.png"
+  },
+  "football/clubs/gt/iztapa.png": {
+    "license": null,
+    "notes": "Third-party club crest; source does not grant a free-use license. Transparent PNG, visually reviewed and normalized without upscaling.",
+    "retrieved": "2026-10-02",
+    "source": "ESPN",
+    "source_page": "https://www.espn.com/soccer/team/_/id/15886",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/15886.png"
   },
   "football/clubs/gt/malacateco.png": {
     "license": null,
@@ -2680,6 +2760,14 @@
     "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/guatemala/1500x1500/san-pedro-fc.31ab1d7a.png"
+  },
+  "football/clubs/gt/santa-lucia.png": {
+    "license": null,
+    "notes": "Third-party club crest; source does not grant a free-use license. Transparent PNG, visually reviewed and normalized without upscaling.",
+    "retrieved": "2026-10-02",
+    "source": "ESPN",
+    "source_page": "https://www.espn.com/soccer/team/_/id/20035",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20035.png"
   },
   "football/clubs/gt/suchitepequez.png": {
     "license": null,
@@ -3503,6 +3591,22 @@
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/panama/1500x1500/arabe-unido.1f81886c.png"
   },
+  "football/clubs/pa/atletico-chiriqui.png": {
+    "license": null,
+    "notes": "Third-party club crest; source does not grant a free-use license. Transparent PNG, visually reviewed and normalized without upscaling.",
+    "retrieved": "2026-10-02",
+    "source": "Liga Panameña de Fútbol",
+    "source_page": "https://lpf.com.pa/team/atletico-chiriqui/",
+    "url": "https://lpf.com.pa/wp-content/uploads/2022/08/Chiriqui.webp"
+  },
+  "football/clubs/pa/atletico-nacional-pa.png": {
+    "license": null,
+    "notes": "Third-party club crest; source does not grant a free-use license. Transparent PNG, visually reviewed and normalized without upscaling.",
+    "retrieved": "2026-10-02",
+    "source": "Liga Panameña de Fútbol",
+    "source_page": "https://lpf.com.pa/team/sd-atletico-nacional/",
+    "url": "https://lpf.com.pa/wp-content/uploads/2022/07/Atletico-Nacional-transparente-2192x2532-px.png"
+  },
   "football/clubs/pa/cd-universitario.png": {
     "license": null,
     "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
@@ -3616,6 +3720,22 @@
     "notes": "Via en.wikipedia (non-free logo)",
     "retrieved": "2026-09-30",
     "url": "https://upload.wikimedia.org/wikipedia/en/c/c5/Deportivo_Binacional.png"
+  },
+  "football/clubs/pe/carlos-a-mannucci.png": {
+    "license": null,
+    "notes": "Third-party club crest; source does not grant a free-use license. Transparent PNG, visually reviewed and normalized without upscaling.",
+    "retrieved": "2026-10-02",
+    "source": "ESPN",
+    "source_page": "https://www.espn.com/soccer/team/_/id/19433",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/19433.png"
+  },
+  "football/clubs/pe/carlos-stein.png": {
+    "license": null,
+    "notes": "Third-party club crest; source does not grant a free-use license. Transparent PNG, visually reviewed and normalized without upscaling.",
+    "retrieved": "2026-10-02",
+    "source": "ESPN",
+    "source_page": "https://www.espn.com/soccer/team/_/id/20652",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20652.png"
   },
   "football/clubs/pe/cienciano.png": {
     "license": null,
@@ -5411,6 +5531,14 @@
     "retrieved": "2026-09-30",
     "url": "https://upload.wikimedia.org/wikipedia/en/8/81/Anzo%C3%A1tegui_FC.png"
   },
+  "football/clubs/ve/aragua.png": {
+    "license": null,
+    "notes": "Third-party club crest; source does not grant a free-use license. Transparent PNG, visually reviewed and normalized without upscaling.",
+    "retrieved": "2026-10-02",
+    "source": "ESPN",
+    "source_page": "https://www.espn.com/soccer/team/_/id/6036",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6036.png"
+  },
   "football/clubs/ve/carabobo.png": {
     "license": null,
     "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
@@ -5506,6 +5634,14 @@
     "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",
     "retrieved": "2026-09-30",
     "url": "https://assets.football-logos.cc/logos/venezuela/1500x1500/zamora.97ae42a1.png"
+  },
+  "football/clubs/ve/zulia.png": {
+    "license": null,
+    "notes": "Third-party club crest; source does not grant a free-use license. Transparent PNG, visually reviewed and normalized without upscaling.",
+    "retrieved": "2026-10-02",
+    "source": "ESPN",
+    "source_page": "https://www.espn.com/soccer/team/_/id/9789",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9789.png"
   },
   "football/competitions/asia/saudi-pro-league.png": {
     "license": null,

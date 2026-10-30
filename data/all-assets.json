@@ -1075,6 +1075,10 @@
       "name": "Atlético Bucaramanga",
       "path": "football/clubs/co/bucaramanga.png"
     },
+    "cortulua": {
+      "name": "Cortuluá",
+      "path": "football/clubs/co/cortulua.png"
+    },
     "cucuta-deportivo": {
       "name": "Cúcuta Deportivo",
       "path": "football/clubs/co/cucuta-deportivo.png"
@@ -1143,6 +1147,10 @@
       "name": "Alajuelense",
       "path": "football/clubs/cr/alajuelense.png"
     },
+    "belen": {
+      "name": "Belén",
+      "path": "football/clubs/cr/belen.png"
+    },
     "carmelita": {
       "name": "Carmelita",
       "path": "football/clubs/cr/carmelita.png"
@@ -1155,9 +1163,17 @@
       "name": "Escorpiones",
       "path": "football/clubs/cr/escorpiones-de-belen.png"
     },
+    "grecia": {
+      "name": "Grecia",
+      "path": "football/clubs/cr/grecia.png"
+    },
     "guadalupe": {
       "name": "Guadalupe",
       "path": "football/clubs/cr/guadalupe.png"
+    },
+    "guanacasteca": {
+      "name": "Guanacasteca",
+      "path": "football/clubs/cr/guanacasteca.png"
     },
     "herediano": {
       "name": "Herediano",
@@ -1186,6 +1202,10 @@
     "san-carlos": {
       "name": "San Carlos",
       "path": "football/clubs/cr/san-carlos.png"
+    },
+    "santa-ana": {
+      "name": "Santa Ana",
+      "path": "football/clubs/cr/santa-ana.png"
     },
     "santos-cr": {
       "name": "Santos",
@@ -2015,13 +2035,25 @@
       "name": "Volos NFC",
       "path": "football/clubs/gr/volos.png"
     },
+    "achuapa": {
+      "name": "Achuapa",
+      "path": "football/clubs/gt/achuapa.png"
+    },
     "antigua-gfc": {
       "name": "Antigua GFC",
       "path": "football/clubs/gt/antigua-gfc.png"
     },
+    "atletico-mictlan": {
+      "name": "Atlético Mictlán",
+      "path": "football/clubs/gt/atletico-mictlan.png"
+    },
     "aurora-fc": {
       "name": "Aurora FC",
       "path": "football/clubs/gt/aurora-fc.png"
+    },
+    "coatepeque": {
+      "name": "Coatepeque",
+      "path": "football/clubs/gt/coatepeque.png"
     },
     "coban-imperial": {
       "name": "Cobán Imperial",
@@ -2031,9 +2063,17 @@
       "name": "Comunicaciones",
       "path": "football/clubs/gt/comunicaciones-fc.png"
     },
+    "deportivo-zacapa": {
+      "name": "Deportivo Zacapa",
+      "path": "football/clubs/gt/deportivo-zacapa.png"
+    },
     "guastatoya": {
       "name": "Guastatoya",
       "path": "football/clubs/gt/guastatoya.png"
+    },
+    "iztapa": {
+      "name": "Iztapa",
+      "path": "football/clubs/gt/iztapa.png"
     },
     "malacateco": {
       "name": "Malacateco",
@@ -2054,6 +2094,10 @@
     "san-pedro-fc": {
       "name": "San Pedro",
       "path": "football/clubs/gt/san-pedro-fc.png"
+    },
+    "santa-lucia": {
+      "name": "Santa Lucía",
+      "path": "football/clubs/gt/santa-lucia.png"
     },
     "suchitepequez": {
       "name": "Suchitepéquez",
@@ -2603,6 +2647,14 @@
       "name": "Árabe Unido",
       "path": "football/clubs/pa/arabe-unido.png"
     },
+    "atletico-chiriqui": {
+      "name": "Atlético Chiriquí",
+      "path": "football/clubs/pa/atletico-chiriqui.png"
+    },
+    "atletico-nacional-pa": {
+      "name": "Atlético Nacional",
+      "path": "football/clubs/pa/atletico-nacional-pa.png"
+    },
     "cd-universitario": {
       "name": "Universitario",
       "path": "football/clubs/pa/cd-universitario.png"
@@ -2678,6 +2730,14 @@
     "binacional": {
       "name": "Binacional",
       "path": "football/clubs/pe/binacional.png"
+    },
+    "carlos-a-mannucci": {
+      "name": "Carlos A. Mannucci",
+      "path": "football/clubs/pe/carlos-a-mannucci.png"
+    },
+    "carlos-stein": {
+      "name": "Carlos Stein",
+      "path": "football/clubs/pe/carlos-stein.png"
     },
     "cienciano": {
       "name": "Cienciano",
@@ -3875,6 +3935,10 @@
       "name": "Anzoátegui",
       "path": "football/clubs/ve/anzoategui.png"
     },
+    "aragua": {
+      "name": "Aragua",
+      "path": "football/clubs/ve/aragua.png"
+    },
     "carabobo": {
       "name": "Carabobo",
       "path": "football/clubs/ve/carabobo.png"
@@ -3938,6 +4002,10 @@
     "zamora": {
       "name": "Zamora",
       "path": "football/clubs/ve/zamora.png"
+    },
+    "zulia": {
+      "name": "Zulia",
+      "path": "football/clubs/ve/zulia.png"
     }
   },
   "ufc-logos": {}

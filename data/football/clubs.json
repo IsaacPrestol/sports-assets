@@ -1812,7 +1812,7 @@
       "aliases": [],
       "country": "CO",
       "league": null,
-      "logo": null
+      "logo": "football/clubs/co/cortulua.png"
     },
     {
       "id": "cucuta-deportivo",
@@ -1966,7 +1966,7 @@
       "aliases": [],
       "country": "CR",
       "league": null,
-      "logo": null
+      "logo": "football/clubs/cr/belen.png"
     },
     {
       "id": "carmelita",
@@ -2002,7 +2002,7 @@
       "aliases": [],
       "country": "CR",
       "league": null,
-      "logo": null
+      "logo": "football/clubs/cr/grecia.png"
     },
     {
       "id": "guadalupe",
@@ -2018,7 +2018,7 @@
       "aliases": [],
       "country": "CR",
       "league": null,
-      "logo": null
+      "logo": "football/clubs/cr/guanacasteca.png"
     },
     {
       "id": "herediano",
@@ -2090,7 +2090,7 @@
       "aliases": [],
       "country": "CR",
       "league": null,
-      "logo": null
+      "logo": "football/clubs/cr/santa-ana.png"
     },
     {
       "id": "santos-cr",
@@ -4124,7 +4124,7 @@
       "aliases": [],
       "country": "GT",
       "league": null,
-      "logo": null
+      "logo": "football/clubs/gt/achuapa.png"
     },
     {
       "id": "antigua-gfc",
@@ -4142,7 +4142,7 @@
       "aliases": [],
       "country": "GT",
       "league": null,
-      "logo": null
+      "logo": "football/clubs/gt/atletico-mictlan.png"
     },
     {
       "id": "aurora-fc",
@@ -4160,7 +4160,7 @@
       "aliases": [],
       "country": "GT",
       "league": null,
-      "logo": null
+      "logo": "football/clubs/gt/coatepeque.png"
     },
     {
       "id": "coban-imperial",
@@ -4186,7 +4186,7 @@
       "aliases": [],
       "country": "GT",
       "league": null,
-      "logo": null
+      "logo": "football/clubs/gt/deportivo-zacapa.png"
     },
     {
       "id": "guastatoya",
@@ -4202,7 +4202,7 @@
       "aliases": [],
       "country": "GT",
       "league": null,
-      "logo": null
+      "logo": "football/clubs/gt/iztapa.png"
     },
     {
       "id": "malacateco",
@@ -4258,7 +4258,7 @@
       "aliases": [],
       "country": "GT",
       "league": null,
-      "logo": null
+      "logo": "football/clubs/gt/santa-lucia.png"
     },
     {
       "id": "suchitepequez",
@@ -5573,7 +5573,7 @@
       "aliases": [],
       "country": "PA",
       "league": null,
-      "logo": null
+      "logo": "football/clubs/pa/atletico-chiriqui.png"
     },
     {
       "id": "atletico-nacional-pa",
@@ -5581,7 +5581,7 @@
       "aliases": [],
       "country": "PA",
       "league": null,
-      "logo": null
+      "logo": "football/clubs/pa/atletico-nacional-pa.png"
     },
     {
       "id": "cd-universitario",
@@ -5757,7 +5757,7 @@
       "aliases": [],
       "country": "PE",
       "league": null,
-      "logo": null
+      "logo": "football/clubs/pe/carlos-a-mannucci.png"
     },
     {
       "id": "carlos-stein",
@@ -5765,7 +5765,7 @@
       "aliases": [],
       "country": "PE",
       "league": null,
-      "logo": null
+      "logo": "football/clubs/pe/carlos-stein.png"
     },
     {
       "id": "cienciano",
@@ -8578,7 +8578,7 @@
       "aliases": [],
       "country": "VE",
       "league": null,
-      "logo": null
+      "logo": "football/clubs/ve/aragua.png"
     },
     {
       "id": "carabobo",
@@ -8718,7 +8718,7 @@
       "aliases": [],
       "country": "VE",
       "league": null,
-      "logo": null
+      "logo": "football/clubs/ve/zulia.png"
     }
   ]
 }
