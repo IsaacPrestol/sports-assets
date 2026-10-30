@@ -2,11 +2,11 @@
 
 Logos, crests and images for football, MLB, NBA, NHL, NFL and UFC, with JSON
 catalogs that turn a name like `"Atlético de Madrid"` or `"GSW"` into a stable id and an
-image URL. Everything is served straight from GitHub through
-[jsDelivr](https://www.jsdelivr.com/), so there is nothing to host.
+image URL. Everything is served from GitHub Pages, which publishes `main` to a
+CDN after every validated push, so there is nothing to host.
 
 ```text
-https://cdn.jsdelivr.net/gh/IsaacPrestol/sports-assets@main/football/clubs/es/real-madrid.png
+https://isaacprestol.github.io/sports-assets/football/clubs/es/real-madrid.png
 ```
 
 ## What's inside
@@ -90,7 +90,7 @@ baseball teams-lookup["mlb"]["nyy"]        → "new-york-yankees"
 `data/all-assets.json`) and prefix its `logo` / `path`:
 
 ```text
-https://cdn.jsdelivr.net/gh/IsaacPrestol/sports-assets@main/ + football/clubs/es/real-madrid.png
+https://isaacprestol.github.io/sports-assets/ + football/clubs/es/real-madrid.png
 ```
 
 If a name isn't found, it isn't a known alias yet. Add it to `aliases` in the
@@ -216,7 +216,7 @@ Collections: `competitions`, `clubs`, `baseball-teams`, `baseball-competitions`,
 ### Example: JavaScript
 
 ```js
-const CDN = "https://cdn.jsdelivr.net/gh/IsaacPrestol/sports-assets@main/";
+const CDN = "https://isaacprestol.github.io/sports-assets/";
 
 const TRANSLIT = { ø: "o", Ø: "o", æ: "ae", Æ: "ae", œ: "oe", Œ: "oe", ł: "l", Ł: "l",
   ı: "i", đ: "d", Đ: "d", ð: "d", Ð: "d", þ: "th", Þ: "th", ß: "ss" };
@@ -243,7 +243,7 @@ function clubCrestUrl(country, name) {
 }
 
 clubCrestUrl("ES", "Atlético de Madrid");
-// → https://cdn.jsdelivr.net/gh/IsaacPrestol/sports-assets@main/football/clubs/es/atletico-madrid.png
+// → https://isaacprestol.github.io/sports-assets/football/clubs/es/atletico-madrid.png
 ```
 
 ### Example: Python
@@ -253,7 +253,7 @@ The repo's own normalizer is `normalize_name` in `scripts/football_catalog.py`.
 ```python
 import json, re, unicodedata, urllib.request
 
-CDN = "https://cdn.jsdelivr.net/gh/IsaacPrestol/sports-assets@main/"
+CDN = "https://isaacprestol.github.io/sports-assets/"
 TRANSLIT = str.maketrans({"ø": "o", "Ø": "o", "æ": "ae", "Æ": "ae", "œ": "oe", "Œ": "oe",
                           "ł": "l", "Ł": "l", "ı": "i", "đ": "d", "Đ": "d", "ð": "d",
                           "Ð": "d", "þ": "th", "Þ": "th", "ß": "ss"})
@@ -274,16 +274,23 @@ team_id = teams["nba"][normalize_name("GSW")]           # "golden-state-warriors
 print(CDN + assets["basketball-teams"][team_id]["path"])
 ```
 
-### Pin a version in production
+### Caching and versions
 
-`@main` follows the latest commit, but jsDelivr caches it, so changes can take
-a while to show up. For production, pin a commit or a tag so images and catalogs never
-change under you:
+Every push to `main` that passes validation is published to
+`https://isaacprestol.github.io/sports-assets/` within a few minutes. GitHub Pages
+caches files for about 10 minutes, so changes can take that long to reach clients.
+
+Ids and paths never change once published, so the Pages URLs are safe to use in
+production. Pages always serves the latest `main`; if you need a frozen copy (for
+example, for reproducible tests), use a commit on `raw.githubusercontent.com`. It is
+not a CDN, so don't point production traffic at it:
 
 ```text
-https://cdn.jsdelivr.net/gh/IsaacPrestol/sports-assets@40e3764/football/clubs/es/real-madrid.png
-https://cdn.jsdelivr.net/gh/IsaacPrestol/sports-assets@v1.0.0/football/clubs/es/real-madrid.png
+https://raw.githubusercontent.com/IsaacPrestol/sports-assets/<commit>/football/clubs/es/real-madrid.png
 ```
+
+Don't use jsDelivr's `cdn.jsdelivr.net/gh/...` URLs: the repository is larger than
+jsDelivr's 50 MB limit for GitHub repos, so files can fail with "Package size exceeded".
 
 ## Football competitions
 
