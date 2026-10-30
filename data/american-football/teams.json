@@ -1,0 +1,460 @@
+{
+  "version": 1,
+  "teams": [
+    {
+      "id": "arizona-cardinals",
+      "name": "Arizona Cardinals",
+      "aliases": [
+        "Cardinals"
+      ],
+      "abbreviation": "ARI",
+      "espn_id": 22,
+      "country": "US",
+      "league": "nfl",
+      "conference": "NFC",
+      "division": "West",
+      "logo": "american-football/teams/us/arizona-cardinals.png"
+    },
+    {
+      "id": "atlanta-falcons",
+      "name": "Atlanta Falcons",
+      "aliases": [
+        "Falcons"
+      ],
+      "abbreviation": "ATL",
+      "espn_id": 1,
+      "country": "US",
+      "league": "nfl",
+      "conference": "NFC",
+      "division": "South",
+      "logo": "american-football/teams/us/atlanta-falcons.png"
+    },
+    {
+      "id": "baltimore-ravens",
+      "name": "Baltimore Ravens",
+      "aliases": [
+        "Ravens"
+      ],
+      "abbreviation": "BAL",
+      "espn_id": 33,
+      "country": "US",
+      "league": "nfl",
+      "conference": "AFC",
+      "division": "North",
+      "logo": "american-football/teams/us/baltimore-ravens.png"
+    },
+    {
+      "id": "buffalo-bills",
+      "name": "Buffalo Bills",
+      "aliases": [
+        "Bills"
+      ],
+      "abbreviation": "BUF",
+      "espn_id": 2,
+      "country": "US",
+      "league": "nfl",
+      "conference": "AFC",
+      "division": "East",
+      "logo": "american-football/teams/us/buffalo-bills.png"
+    },
+    {
+      "id": "carolina-panthers",
+      "name": "Carolina Panthers",
+      "aliases": [
+        "Panthers"
+      ],
+      "abbreviation": "CAR",
+      "espn_id": 29,
+      "country": "US",
+      "league": "nfl",
+      "conference": "NFC",
+      "division": "South",
+      "logo": "american-football/teams/us/carolina-panthers.png"
+    },
+    {
+      "id": "chicago-bears",
+      "name": "Chicago Bears",
+      "aliases": [
+        "Bears"
+      ],
+      "abbreviation": "CHI",
+      "espn_id": 3,
+      "country": "US",
+      "league": "nfl",
+      "conference": "NFC",
+      "division": "North",
+      "logo": "american-football/teams/us/chicago-bears.png"
+    },
+    {
+      "id": "cincinnati-bengals",
+      "name": "Cincinnati Bengals",
+      "aliases": [
+        "Bengals"
+      ],
+      "abbreviation": "CIN",
+      "espn_id": 4,
+      "country": "US",
+      "league": "nfl",
+      "conference": "AFC",
+      "division": "North",
+      "logo": "american-football/teams/us/cincinnati-bengals.png"
+    },
+    {
+      "id": "cleveland-browns",
+      "name": "Cleveland Browns",
+      "aliases": [
+        "Browns"
+      ],
+      "abbreviation": "CLE",
+      "espn_id": 5,
+      "country": "US",
+      "league": "nfl",
+      "conference": "AFC",
+      "division": "North",
+      "logo": "american-football/teams/us/cleveland-browns.png"
+    },
+    {
+      "id": "dallas-cowboys",
+      "name": "Dallas Cowboys",
+      "aliases": [
+        "Cowboys"
+      ],
+      "abbreviation": "DAL",
+      "espn_id": 6,
+      "country": "US",
+      "league": "nfl",
+      "conference": "NFC",
+      "division": "East",
+      "logo": "american-football/teams/us/dallas-cowboys.png"
+    },
+    {
+      "id": "denver-broncos",
+      "name": "Denver Broncos",
+      "aliases": [
+        "Broncos"
+      ],
+      "abbreviation": "DEN",
+      "espn_id": 7,
+      "country": "US",
+      "league": "nfl",
+      "conference": "AFC",
+      "division": "West",
+      "logo": "american-football/teams/us/denver-broncos.png"
+    },
+    {
+      "id": "detroit-lions",
+      "name": "Detroit Lions",
+      "aliases": [
+        "Lions"
+      ],
+      "abbreviation": "DET",
+      "espn_id": 8,
+      "country": "US",
+      "league": "nfl",
+      "conference": "NFC",
+      "division": "North",
+      "logo": "american-football/teams/us/detroit-lions.png"
+    },
+    {
+      "id": "green-bay-packers",
+      "name": "Green Bay Packers",
+      "aliases": [
+        "Packers"
+      ],
+      "abbreviation": "GB",
+      "espn_id": 9,
+      "country": "US",
+      "league": "nfl",
+      "conference": "NFC",
+      "division": "North",
+      "logo": "american-football/teams/us/green-bay-packers.png"
+    },
+    {
+      "id": "houston-texans",
+      "name": "Houston Texans",
+      "aliases": [
+        "Texans"
+      ],
+      "abbreviation": "HOU",
+      "espn_id": 34,
+      "country": "US",
+      "league": "nfl",
+      "conference": "AFC",
+      "division": "South",
+      "logo": "american-football/teams/us/houston-texans.png"
+    },
+    {
+      "id": "indianapolis-colts",
+      "name": "Indianapolis Colts",
+      "aliases": [
+        "Colts"
+      ],
+      "abbreviation": "IND",
+      "espn_id": 11,
+      "country": "US",
+      "league": "nfl",
+      "conference": "AFC",
+      "division": "South",
+      "logo": "american-football/teams/us/indianapolis-colts.png"
+    },
+    {
+      "id": "jacksonville-jaguars",
+      "name": "Jacksonville Jaguars",
+      "aliases": [
+        "Jaguars",
+        "JAC"
+      ],
+      "abbreviation": "JAX",
+      "espn_id": 30,
+      "country": "US",
+      "league": "nfl",
+      "conference": "AFC",
+      "division": "South",
+      "logo": "american-football/teams/us/jacksonville-jaguars.png"
+    },
+    {
+      "id": "kansas-city-chiefs",
+      "name": "Kansas City Chiefs",
+      "aliases": [
+        "Chiefs"
+      ],
+      "abbreviation": "KC",
+      "espn_id": 12,
+      "country": "US",
+      "league": "nfl",
+      "conference": "AFC",
+      "division": "West",
+      "logo": "american-football/teams/us/kansas-city-chiefs.png"
+    },
+    {
+      "id": "las-vegas-raiders",
+      "name": "Las Vegas Raiders",
+      "aliases": [
+        "Raiders",
+        "LVR",
+        "Oakland Raiders"
+      ],
+      "abbreviation": "LV",
+      "espn_id": 13,
+      "country": "US",
+      "league": "nfl",
+      "conference": "AFC",
+      "division": "West",
+      "logo": "american-football/teams/us/las-vegas-raiders.png"
+    },
+    {
+      "id": "los-angeles-chargers",
+      "name": "Los Angeles Chargers",
+      "aliases": [
+        "Chargers",
+        "San Diego Chargers"
+      ],
+      "abbreviation": "LAC",
+      "espn_id": 24,
+      "country": "US",
+      "league": "nfl",
+      "conference": "AFC",
+      "division": "West",
+      "logo": "american-football/teams/us/los-angeles-chargers.png"
+    },
+    {
+      "id": "los-angeles-rams",
+      "name": "Los Angeles Rams",
+      "aliases": [
+        "Rams",
+        "St. Louis Rams"
+      ],
+      "abbreviation": "LAR",
+      "espn_id": 14,
+      "country": "US",
+      "league": "nfl",
+      "conference": "NFC",
+      "division": "West",
+      "logo": "american-football/teams/us/los-angeles-rams.png"
+    },
+    {
+      "id": "miami-dolphins",
+      "name": "Miami Dolphins",
+      "aliases": [
+        "Dolphins"
+      ],
+      "abbreviation": "MIA",
+      "espn_id": 15,
+      "country": "US",
+      "league": "nfl",
+      "conference": "AFC",
+      "division": "East",
+      "logo": "american-football/teams/us/miami-dolphins.png"
+    },
+    {
+      "id": "minnesota-vikings",
+      "name": "Minnesota Vikings",
+      "aliases": [
+        "Vikings"
+      ],
+      "abbreviation": "MIN",
+      "espn_id": 16,
+      "country": "US",
+      "league": "nfl",
+      "conference": "NFC",
+      "division": "North",
+      "logo": "american-football/teams/us/minnesota-vikings.png"
+    },
+    {
+      "id": "new-england-patriots",
+      "name": "New England Patriots",
+      "aliases": [
+        "Patriots"
+      ],
+      "abbreviation": "NE",
+      "espn_id": 17,
+      "country": "US",
+      "league": "nfl",
+      "conference": "AFC",
+      "division": "East",
+      "logo": "american-football/teams/us/new-england-patriots.png"
+    },
+    {
+      "id": "new-orleans-saints",
+      "name": "New Orleans Saints",
+      "aliases": [
+        "Saints"
+      ],
+      "abbreviation": "NO",
+      "espn_id": 18,
+      "country": "US",
+      "league": "nfl",
+      "conference": "NFC",
+      "division": "South",
+      "logo": "american-football/teams/us/new-orleans-saints.png"
+    },
+    {
+      "id": "new-york-giants",
+      "name": "New York Giants",
+      "aliases": [
+        "Giants"
+      ],
+      "abbreviation": "NYG",
+      "espn_id": 19,
+      "country": "US",
+      "league": "nfl",
+      "conference": "NFC",
+      "division": "East",
+      "logo": "american-football/teams/us/new-york-giants.png"
+    },
+    {
+      "id": "new-york-jets",
+      "name": "New York Jets",
+      "aliases": [
+        "Jets"
+      ],
+      "abbreviation": "NYJ",
+      "espn_id": 20,
+      "country": "US",
+      "league": "nfl",
+      "conference": "AFC",
+      "division": "East",
+      "logo": "american-football/teams/us/new-york-jets.png"
+    },
+    {
+      "id": "philadelphia-eagles",
+      "name": "Philadelphia Eagles",
+      "aliases": [
+        "Eagles"
+      ],
+      "abbreviation": "PHI",
+      "espn_id": 21,
+      "country": "US",
+      "league": "nfl",
+      "conference": "NFC",
+      "division": "East",
+      "logo": "american-football/teams/us/philadelphia-eagles.png"
+    },
+    {
+      "id": "pittsburgh-steelers",
+      "name": "Pittsburgh Steelers",
+      "aliases": [
+        "Steelers"
+      ],
+      "abbreviation": "PIT",
+      "espn_id": 23,
+      "country": "US",
+      "league": "nfl",
+      "conference": "AFC",
+      "division": "North",
+      "logo": "american-football/teams/us/pittsburgh-steelers.png"
+    },
+    {
+      "id": "san-francisco-49ers",
+      "name": "San Francisco 49ers",
+      "aliases": [
+        "49ers"
+      ],
+      "abbreviation": "SF",
+      "espn_id": 25,
+      "country": "US",
+      "league": "nfl",
+      "conference": "NFC",
+      "division": "West",
+      "logo": "american-football/teams/us/san-francisco-49ers.png"
+    },
+    {
+      "id": "seattle-seahawks",
+      "name": "Seattle Seahawks",
+      "aliases": [
+        "Seahawks"
+      ],
+      "abbreviation": "SEA",
+      "espn_id": 26,
+      "country": "US",
+      "league": "nfl",
+      "conference": "NFC",
+      "division": "West",
+      "logo": "american-football/teams/us/seattle-seahawks.png"
+    },
+    {
+      "id": "tampa-bay-buccaneers",
+      "name": "Tampa Bay Buccaneers",
+      "aliases": [
+        "Buccaneers"
+      ],
+      "abbreviation": "TB",
+      "espn_id": 27,
+      "country": "US",
+      "league": "nfl",
+      "conference": "NFC",
+      "division": "South",
+      "logo": "american-football/teams/us/tampa-bay-buccaneers.png"
+    },
+    {
+      "id": "tennessee-titans",
+      "name": "Tennessee Titans",
+      "aliases": [
+        "Titans"
+      ],
+      "abbreviation": "TEN",
+      "espn_id": 10,
+      "country": "US",
+      "league": "nfl",
+      "conference": "AFC",
+      "division": "South",
+      "logo": "american-football/teams/us/tennessee-titans.png"
+    },
+    {
+      "id": "washington-commanders",
+      "name": "Washington Commanders",
+      "aliases": [
+        "Commanders",
+        "WAS",
+        "Washington Football Team"
+      ],
+      "abbreviation": "WSH",
+      "espn_id": 28,
+      "country": "US",
+      "league": "nfl",
+      "conference": "NFC",
+      "division": "East",
+      "logo": "american-football/teams/us/washington-commanders.png"
+    }
+  ]
+}

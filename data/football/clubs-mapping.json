@@ -1629,6 +1629,102 @@
     "slug": "bournemouth",
     "source": "football-logos"
   },
+  "England|AFC Fylde": {
+    "id": "afc-fylde",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/afc-fylde.f77547f1.png"
+  },
+  "England|AFC Liverpool": {
+    "id": "afc-liverpool",
+    "source": "url",
+    "slug": null,
+    "url": "https://www.nwcfl.com/images/crests/transparent/2.png"
+  },
+  "England|AFC Mansfield": {
+    "id": "afc-mansfield",
+    "source": "url",
+    "slug": null,
+    "url": "https://theucl.co.uk/wp-content/uploads/2022/05/AFC-Mansfield-logo.png"
+  },
+  "England|AFC Stoneham": {
+    "id": "afc-stoneham",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/afc-stoneham.ede4051e.png"
+  },
+  "England|AFC Sudbury": {
+    "id": "afc-sudbury",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/afc-sudbury.4ffb2160.png"
+  },
+  "England|AFC Telford United": {
+    "id": "afc-telford-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/afc-telford-united.259b58f5.png"
+  },
+  "England|AFC Totton": {
+    "id": "afc-totton",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/afc-totton.1e848cab.png"
+  },
+  "England|AFC Whyteleafe": {
+    "id": "afc-whyteleafe",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/afc-whyteleafe.bcead3ac.png"
+  },
+  "England|AFC Wimbledon": {
+    "id": "afc-wimbledon",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3802.png"
+  },
+  "England|Abbey Rangers FC": {
+    "id": "abbey-rangers",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/abbey-rangers.5f7c56e6.png"
+  },
+  "England|Accrington Stanley": {
+    "id": "accrington-stanley",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2731.png"
+  },
+  "England|Aldershot Town FC": {
+    "id": "aldershot-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/aldershot-town.cc2a03fe.png"
+  },
+  "England|Alfreton Town FC": {
+    "id": "alfreton-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/alfreton-town.14fdc70a.png"
+  },
+  "England|Altrincham FC": {
+    "id": "altrincham",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/altrincham.a416feb4.png"
+  },
+  "England|Alvechurch FC": {
+    "id": "alvechurch",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/alvechurch.a1392961.png"
+  },
+  "England|Anstey Nomads FC": {
+    "id": "anstey-nomads",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/anstey-nomads.d60daa7a.png"
+  },
   "England|Arsenal": {
     "id": "arsenal",
     "slug": "arsenal",
@@ -1639,15 +1735,225 @@
     "slug": "arsenal",
     "source": "football-logos"
   },
+  "England|Ascot United FC": {
+    "id": "ascot-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/ascot-united-fc.71f84055.png"
+  },
+  "England|Ashton United FC": {
+    "id": "ashton-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/ashton-united.3c6d8030.png"
+  },
   "England|Aston Villa": {
     "id": "aston-villa",
     "slug": "aston-villa",
     "source": "football-logos"
   },
+  "England|Aveley FC": {
+    "id": "aveley",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/aveley.4f5e5036.png"
+  },
+  "England|Avro FC": {
+    "id": "avro",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/avro-fc.10d398d3.png"
+  },
+  "England|Aylesbury United FC": {
+    "id": "aylesbury-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/aylesbury-united.cb7ba437.png"
+  },
+  "England|Bamber Bridge FC": {
+    "id": "bamber-bridge",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/bamber-bridge.c051792b.png"
+  },
+  "England|Banbury United FC": {
+    "id": "banbury-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/banbury-united.30d12f2d.png"
+  },
+  "England|Barnet": {
+    "id": "barnet",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/280.png"
+  },
+  "England|Barnsley": {
+    "id": "barnsley",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/397.png"
+  },
+  "England|Barrow AFC": {
+    "id": "barrow-afc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/barrow.0da11950.png"
+  },
+  "England|Barton Rovers FC": {
+    "id": "barton-rovers",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/barton-rovers.f6ae0e45.png"
+  },
+  "England|Barton Town FC": {
+    "id": "barton-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/barton-town.a7bba5b7.png"
+  },
+  "England|Barwell FC": {
+    "id": "barwell",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/barwell.f31037cc.png"
+  },
+  "England|Basingstoke Town FC": {
+    "id": "basingstoke-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/basingstoke-town.0713ff06.png"
+  },
+  "England|Bath City FC": {
+    "id": "bath-city",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/bath-city.047bfcb5.png"
+  },
+  "England|Beaconsfield Town FC": {
+    "id": "beaconsfield-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/beaconsfield-town.349654bb.png"
+  },
+  "England|Bedford Town FC": {
+    "id": "bedford-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/bedford-town.527209d5.png"
+  },
+  "England|Berkhamsted FC": {
+    "id": "berkhamsted",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/berkhamsted.c636ae0e.png"
+  },
+  "England|Biggleswade FC": {
+    "id": "biggleswade",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/biggleswade-fc.c0a97e4f.png"
+  },
+  "England|Biggleswade Town FC": {
+    "id": "biggleswade-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/biggleswade-town.7af1c283.png"
+  },
+  "England|Billericay Town FC": {
+    "id": "billericay-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/billericay-town.341db7b1.png"
+  },
+  "England|Birmingham City": {
+    "id": "birmingham-city",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/392.png"
+  },
+  "England|Bishop Auckland FC": {
+    "id": "bishop-auckland",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/bishop-auckland.f0a2878d.png"
+  },
+  "England|Bishop's Stortford FC": {
+    "id": "bishop-s-stortford",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/bishops-stortford.6ad19262.png"
+  },
+  "England|Blackburn Rovers": {
+    "id": "blackburn-rovers",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/365.png"
+  },
+  "England|Blackpool": {
+    "id": "blackpool",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/346.png"
+  },
+  "England|Blyth Spartans AFC": {
+    "id": "blyth-spartans-afc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/blyth-spartans.a0f0a0bf.png"
+  },
+  "England|Bolton Wanderers": {
+    "id": "bolton-wanderers",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/358.png"
+  },
+  "England|Boreham Wood FC": {
+    "id": "boreham-wood",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/boreham-wood.d6ee8470.png"
+  },
+  "England|Boston United FC": {
+    "id": "boston-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/boston-united.a06e6005.png"
+  },
+  "England|Brackley Town FC": {
+    "id": "brackley-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/brackley-town.adcdd2e7.png"
+  },
+  "England|Bracknell Town FC": {
+    "id": "bracknell-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/bracknell-town.f09a071a.png"
+  },
+  "England|Bradford City": {
+    "id": "bradford-city",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/387.png"
+  },
+  "England|Braintree Town FC": {
+    "id": "braintree-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/braintree-town.5b743f9b.png"
+  },
   "England|Brentford FC": {
     "id": "brentford",
     "slug": "brentford",
     "source": "football-logos"
+  },
+  "England|Brentwood Town FC": {
+    "id": "brentwood-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/brentwood-town.45ebeb21.png"
   },
   "England|Brighton": {
     "id": "brighton",
@@ -1659,6 +1965,36 @@
     "slug": "brighton",
     "source": "football-logos"
   },
+  "England|Bristol City": {
+    "id": "bristol-city",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/333.png"
+  },
+  "England|Bristol Rovers": {
+    "id": "bristol-rovers",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/308.png"
+  },
+  "England|Bromley": {
+    "id": "bromley",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3129.png"
+  },
+  "England|Bromsgrove Sporting FC": {
+    "id": "bromsgrove-sporting",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/bromsgrove-sporting.8712dfb1.png"
+  },
+  "England|Burgess Hill Town FC": {
+    "id": "burgess-hill-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/burgess-hill-town.ba45e721.png"
+  },
   "England|Burnley": {
     "id": "burnley",
     "slug": "burnley",
@@ -1668,6 +2004,84 @@
     "id": "burnley",
     "slug": "burnley",
     "source": "football-logos"
+  },
+  "England|Burton Albion": {
+    "id": "burton-albion",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2567.png"
+  },
+  "England|Bury FC": {
+    "id": "bury",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/bury.82957fa5.png"
+  },
+  "England|Bury Town FC": {
+    "id": "bury-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/bury-town.6d25b4e2.png"
+  },
+  "England|Buxton FC": {
+    "id": "buxton",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/buxton.cec14939.png"
+  },
+  "England|Cambridge United": {
+    "id": "cambridge-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/351.png"
+  },
+  "England|Canvey Island FC": {
+    "id": "canvey-island",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/canvey-island.7476fc29.png"
+  },
+  "England|Cardiff City": {
+    "id": "cardiff-city",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/347.png"
+  },
+  "England|Carlisle United AFC": {
+    "id": "carlisle-united-afc",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/322.png"
+  },
+  "England|Carlton Town FC": {
+    "id": "carlton-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/carlton-town.12ab4811.png"
+  },
+  "England|Carshalton Athletic FC": {
+    "id": "carshalton-athletic",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/carshalton-athletic.233693ec.png"
+  },
+  "England|Charlton Athletic": {
+    "id": "charlton-athletic",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/372.png"
+  },
+  "England|Chatham Town FC": {
+    "id": "chatham-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/chatham-town.872b55dd.png"
+  },
+  "England|Chelmsford City FC": {
+    "id": "chelmsford-city",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/chelmsford-city.529e10ce.png"
   },
   "England|Chelsea": {
     "id": "chelsea",
@@ -1679,55 +2093,727 @@
     "slug": "chelsea",
     "source": "football-logos"
   },
+  "England|Cheltenham Town": {
+    "id": "cheltenham-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/320.png"
+  },
+  "England|Chertsey Town FC": {
+    "id": "chertsey-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/chertsey-town.6c8d6787.png"
+  },
+  "England|Chesham United FC": {
+    "id": "chesham-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://raw.githubusercontent.com/JoseArroyave/football-logos/refs/heads/main/logos/england/Chesham_United.svg"
+  },
+  "England|Cheshunt FC": {
+    "id": "cheshunt",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/cheshunt.bad46692.png"
+  },
+  "England|Chester FC": {
+    "id": "chester",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/chester-fc.58573dd1.png"
+  },
+  "England|Chesterfield": {
+    "id": "chesterfield",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/343.png"
+  },
+  "England|Chichester City FC": {
+    "id": "chichester-city",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/chichester-city.c406b6a1.png"
+  },
+  "England|Chippenham Town FC": {
+    "id": "chippenham-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/chippenham-town.c1d5f94d.png"
+  },
+  "England|Chipstead FC": {
+    "id": "chipstead",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/chipstead.b921e2c7.png"
+  },
+  "England|Chorley FC": {
+    "id": "chorley",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/chorley.511263c7.png"
+  },
+  "England|Cleethorpes Town FC": {
+    "id": "cleethorpes-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/cleethorpes-town.6b83bf12.png"
+  },
+  "England|Cockfosters FC": {
+    "id": "cockfosters",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/cockfosters.914420fa.png"
+  },
+  "England|Colchester United": {
+    "id": "colchester-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/339.png"
+  },
+  "England|Concord Rangers FC": {
+    "id": "concord-rangers",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/concord-rangers.6be5aace.png"
+  },
   "England|Coventry City": {
     "id": "coventry-city",
     "slug": "coventry-city",
     "source": "football-logos"
+  },
+  "England|Crawley Town": {
+    "id": "crawley-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2594.png"
+  },
+  "England|Cray Wanderers FC": {
+    "id": "cray-wanderers",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/cray-wanderers.bee5fe53.png"
+  },
+  "England|Crewe Alexandra": {
+    "id": "crewe-alexandra",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/396.png"
+  },
+  "England|Crowborough Athletic FC": {
+    "id": "crowborough-athletic",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/crowborough-athletic.db718e7a.png"
   },
   "England|Crystal Palace": {
     "id": "crystal-palace",
     "slug": "crystal-palace",
     "source": "football-logos"
   },
+  "England|Curzon Ashton FC": {
+    "id": "curzon-ashton",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/curzon-ashton.a9741be6.png"
+  },
+  "England|Dagenham & Redbridge FC": {
+    "id": "dagenham-redbridge",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/dagenham-and-redbridge.e94e616a.png"
+  },
+  "England|Darlington FC": {
+    "id": "darlington",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/darlington.857052fc.png"
+  },
+  "England|Dartford FC": {
+    "id": "dartford",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/dartford.46e46610.png"
+  },
+  "England|Derby County": {
+    "id": "derby-county",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/374.png"
+  },
+  "England|Didcot Town FC": {
+    "id": "didcot-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/didcot-town.f21a92d7.png"
+  },
+  "England|Doncaster Rovers": {
+    "id": "doncaster-rovers",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/279.png"
+  },
+  "England|Dorking Wanderers FC": {
+    "id": "dorking-wanderers",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/dorking-wanderers.841f5990.png"
+  },
+  "England|Dover Athletic FC": {
+    "id": "dover-athletic",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/dover-athletic.e0a56659.png"
+  },
+  "England|Dulwich Hamlet FC": {
+    "id": "dulwich-hamlet",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/dulwich-hamlet.e3a42a34.png"
+  },
+  "England|East Grinstead Town FC": {
+    "id": "east-grinstead-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/east-grinstead-town.914292cc.png"
+  },
+  "England|Eastbourne Borough FC": {
+    "id": "eastbourne-borough",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/eastbourne-borough.43c4e8fe.png"
+  },
+  "England|Eastleigh FC": {
+    "id": "eastleigh",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/eastleigh.9a341587.png"
+  },
+  "England|Ebbsfleet United FC": {
+    "id": "ebbsfleet-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/ebbsfleet-united.229f162c.png"
+  },
+  "England|Emley AFC": {
+    "id": "emley-afc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/emley-afc.9ed242c8.png"
+  },
+  "England|Enfield Town FC": {
+    "id": "enfield-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/enfield-town.782ab082.png"
+  },
+  "England|Erith & Belvedere FC": {
+    "id": "erith-belvedere",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/erith-and-belvedere.8e4b66b2.png"
+  },
   "England|Everton FC": {
     "id": "everton",
     "slug": "everton",
     "source": "football-logos"
+  },
+  "England|Evesham United FC": {
+    "id": "evesham-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/evesham-united.7a903859.png"
+  },
+  "England|Exeter City": {
+    "id": "exeter-city",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/324.png"
+  },
+  "England|FC Halifax Town": {
+    "id": "fc-halifax-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/halifax-town.e86b84d1.png"
+  },
+  "England|FC Peterborough": {
+    "id": "fc-peterborough",
+    "source": "url",
+    "slug": null,
+    "url": "https://images.pitchero.com/club_logos/85114/NrhjjkfxTKq7RHJqXlFC_fc%20boro%20flag.png"
+  },
+  "England|FC St Helens": {
+    "id": "fc-st-helens",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/fc-st-helens.a84f56c4.png"
+  },
+  "England|FC United of Manchester": {
+    "id": "fc-united-of-manchester",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/united-of-manchester.b7e3a985.png"
+  },
+  "England|Farnborough FC": {
+    "id": "farnborough",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/farnborough.2b7399af.png"
+  },
+  "England|Farnham Town FC": {
+    "id": "farnham-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/farnham-town.28e8d415.png"
+  },
+  "England|Felixstowe & Walton United FC": {
+    "id": "felixstowe-walton-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/felixstowe-and-walton-united.9b02c5f1.png"
+  },
+  "England|Flackwell Heath FC": {
+    "id": "flackwell-heath",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/flackwell-heath.f4845a88.png"
+  },
+  "England|Fleet Town FC": {
+    "id": "fleet-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/fleet-town.1c31c319.png"
+  },
+  "England|Fleetwood Town": {
+    "id": "fleetwood-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3891.png"
+  },
+  "England|Folkestone Invicta FC": {
+    "id": "folkestone-invicta",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/folkestone-invicta.d8d8f1f8.png"
+  },
+  "England|Forest Green Rovers FC": {
+    "id": "forest-green-rovers",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/forest-green-rovers.a35ee97a.png"
+  },
+  "England|Frickley Athletic FC": {
+    "id": "frickley-athletic",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/frickley-athletic.bcfc3a6e.png"
+  },
+  "England|Frome Town FC": {
+    "id": "frome-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/frome-town.55f19d84.png"
   },
   "England|Fulham FC": {
     "id": "fulham",
     "slug": "fulham",
     "source": "football-logos"
   },
+  "England|Gainsborough Trinity FC": {
+    "id": "gainsborough-trinity",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/gainsborough-trinity.f04bfb60.png"
+  },
+  "England|Gateshead FC": {
+    "id": "gateshead",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/gateshead.b51d0187.png"
+  },
+  "England|Gillingham": {
+    "id": "gillingham",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/389.png"
+  },
+  "England|Gloucester City FC": {
+    "id": "gloucester-city",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/gloucester-city.a1ad07b3.png"
+  },
+  "England|Gosport Borough FC": {
+    "id": "gosport-borough",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/gosport-borough.ad122ebb.png"
+  },
+  "England|Grimsby Borough FC": {
+    "id": "grimsby-borough",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/grimsby-borough.a07c498e.png"
+  },
+  "England|Grimsby Town": {
+    "id": "grimsby-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/386.png"
+  },
+  "England|Guiseley AFC": {
+    "id": "guiseley-afc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/guiseley-afc.085eba73.png"
+  },
+  "England|Hadley FC": {
+    "id": "hadley",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/hadley.3a8c7a50.png"
+  },
+  "England|Halesowen Town FC": {
+    "id": "halesowen-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/halesowen-town.7ec96a8f.png"
+  },
+  "England|Hampton & Richmond Borough FC": {
+    "id": "hampton-richmond-borough",
+    "source": "url",
+    "slug": null,
+    "url": "https://raw.githubusercontent.com/JoseArroyave/football-logos/refs/heads/main/logos/england/Hampton_%26_Richmond_Borough.svg"
+  },
+  "England|Hanwell Town FC": {
+    "id": "hanwell-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/hanwell-town.5272860b.png"
+  },
+  "England|Hanworth Villa FC": {
+    "id": "hanworth-villa",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/hanworth-villa.6a98d3bf.png"
+  },
+  "England|Harborough Town FC": {
+    "id": "harborough-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/harborough-town.cb640a34.png"
+  },
+  "England|Haringey Borough FC": {
+    "id": "haringey-borough",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/haringey-borough.8f89332c.png"
+  },
+  "England|Harlow Town FC": {
+    "id": "harlow-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/harlow-town.56d9be50.png"
+  },
+  "England|Harrogate Town AFC": {
+    "id": "harrogate-town-afc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/harrogate-town.979a86e0.png"
+  },
+  "England|Hartlepool United FC": {
+    "id": "hartlepool-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://raw.githubusercontent.com/JoseArroyave/football-logos/refs/heads/main/logos/england/Hartlepool_United.svg"
+  },
+  "England|Hashtag United FC": {
+    "id": "hashtag-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/hashtag-united.f99adeb8.png"
+  },
+  "England|Hassocks FC": {
+    "id": "hassocks",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/hassocks.f0413e30.png"
+  },
+  "England|Havant & Waterlooville FC": {
+    "id": "havant-waterlooville",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/havant-and-waterlooville.47979a83.png"
+  },
+  "England|Hayes & Yeading United FC": {
+    "id": "hayes-yeading-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/hayes-and-yeading-united.5e18e3a4.png"
+  },
+  "England|Hebburn Town FC": {
+    "id": "hebburn-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/hebburn-town.9cbfe348.png"
+  },
+  "England|Hednesford Town FC": {
+    "id": "hednesford-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/hednesford-town.e15bfebb.png"
+  },
+  "England|Hemel Hempstead Town FC": {
+    "id": "hemel-hempstead-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/hemel-hempstead-town.2b931d86.png"
+  },
+  "England|Hereford FC": {
+    "id": "hereford",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/hereford-fc.7694d8ce.png"
+  },
+  "England|Herne Bay FC": {
+    "id": "herne-bay",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/herne-bay.531b7f63.png"
+  },
+  "England|Hertford Town FC": {
+    "id": "hertford-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/hertford-town.e83ede37.png"
+  },
+  "England|Heybridge Swifts FC": {
+    "id": "heybridge-swifts",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/heybridge-swifts.64a42fcf.png"
+  },
+  "England|Highgate United FC": {
+    "id": "highgate-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/highgate-united.e77567f1.png"
+  },
+  "England|Hinckley AFC": {
+    "id": "hinckley-afc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/hinckley-afc.8549723c.png"
+  },
+  "England|Hitchin Town FC": {
+    "id": "hitchin-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/hitchin-town.0d355de0.png"
+  },
+  "England|Hornchurch FC": {
+    "id": "hornchurch",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/hornchurch.f0d28804.png"
+  },
+  "England|Horsham FC": {
+    "id": "horsham",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/horsham.a32455e1.png"
+  },
+  "England|Hucknall Town FC": {
+    "id": "hucknall-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/hucknall-town.e1ebe7cb.png"
+  },
+  "England|Huddersfield Town": {
+    "id": "huddersfield-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/335.png"
+  },
   "England|Hull City": {
     "id": "hull-city",
     "slug": "hull-city",
     "source": "football-logos"
+  },
+  "England|Hyde United FC": {
+    "id": "hyde-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/hyde-united.893bca36.png"
+  },
+  "England|Ilford FC": {
+    "id": "ilford",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/ilford.87814d1c.png"
+  },
+  "England|Ilkeston Town FC": {
+    "id": "ilkeston-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/ilkeston-town.411ce40e.png"
   },
   "England|Ipswich Town": {
     "id": "ipswich",
     "slug": "ipswich",
     "source": "football-logos"
   },
+  "England|Kettering Town FC": {
+    "id": "kettering-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/kettering-town.02d5fd00.png"
+  },
+  "England|Kidderminster Harriers FC": {
+    "id": "kidderminster-harriers",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/kidderminster-harriers.65eb1358.png"
+  },
+  "England|Kidsgrove Athletic FC": {
+    "id": "kidsgrove-athletic",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/kidsgrove-athletic.f96567e5.png"
+  },
+  "England|King's Lynn Town FC": {
+    "id": "king-s-lynn-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/kings-lynn-town.6e30e371.png"
+  },
+  "England|Lancaster City FC": {
+    "id": "lancaster-city",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/lancaster-city.6846e745.png"
+  },
+  "England|Leamington FC": {
+    "id": "leamington",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/leamington.897d9456.png"
+  },
+  "England|Leatherhead FC": {
+    "id": "leatherhead",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/leatherhead.35a5ba01.png"
+  },
   "England|Leeds United": {
     "id": "leeds-united",
     "slug": "leeds-united",
     "source": "football-logos"
+  },
+  "England|Leeds United AFC": {
+    "id": "leeds-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/leeds-united.7a40d61b.png"
+  },
+  "England|Leek Town FC": {
+    "id": "leek-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/leek-town.a67e8921.png"
   },
   "England|Leicester City": {
     "id": "leicester",
     "slug": "leicester",
     "source": "football-logos"
   },
+  "England|Leighton Town FC": {
+    "id": "leighton-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/leighton-town.3f40c881.png"
+  },
+  "England|Leiston FC": {
+    "id": "leiston",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/leiston.fccf2536.png"
+  },
+  "England|Leverstock Green FC": {
+    "id": "leverstock-green",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/leverstock-green.6851808a.png"
+  },
+  "England|Lewes FC": {
+    "id": "lewes",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/lewes.989eada5.png"
+  },
+  "England|Leyton Orient": {
+    "id": "leyton-orient",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/309.png"
+  },
+  "England|Lincoln City": {
+    "id": "lincoln-city",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/314.png"
+  },
   "England|Liverpool FC": {
     "id": "liverpool",
     "slug": "liverpool",
     "source": "football-logos"
   },
+  "England|Liversedge FC": {
+    "id": "liversedge",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/liversedge.e0915457.png"
+  },
+  "England|London Lions FC": {
+    "id": "london-lions",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/london-lions.e5c15f8c.png"
+  },
   "England|Luton Town": {
     "id": "luton-town",
     "slug": "luton-town",
     "source": "football-logos"
+  },
+  "England|Macclesfield FC": {
+    "id": "macclesfield",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/macclesfield.cd25c9d5.png"
+  },
+  "England|Maidenhead United FC": {
+    "id": "maidenhead-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://raw.githubusercontent.com/JoseArroyave/football-logos/refs/heads/main/logos/england/Maidenhead_United.svg"
+  },
+  "England|Maidstone United FC": {
+    "id": "maidstone-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://raw.githubusercontent.com/JoseArroyave/football-logos/refs/heads/main/logos/england/Maidstone_United.svg"
+  },
+  "England|Maldon & Tiptree FC": {
+    "id": "maldon-tiptree",
+    "source": "url",
+    "slug": null,
+    "url": "https://raw.githubusercontent.com/JoseArroyave/football-logos/refs/heads/main/logos/england/Maldon_%26_Tiptree.svg"
+  },
+  "England|Malvern Town FC": {
+    "id": "malvern-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/malvern-town.ec977b96.png"
   },
   "England|Man City": {
     "id": "manchester-city",
@@ -1744,10 +2830,118 @@
     "slug": "manchester-united",
     "source": "football-logos"
   },
+  "England|Mansfield Town": {
+    "id": "mansfield-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/304.png"
+  },
+  "England|Margate FC": {
+    "id": "margate",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/margate.41bc8f66.png"
+  },
+  "England|Marine FC": {
+    "id": "marine",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/marine.7485af6b.png"
+  },
+  "England|Marlow FC": {
+    "id": "marlow",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/marlow.46ca6cce.png"
+  },
+  "England|Matlock Town FC": {
+    "id": "matlock-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/matlock-town.7adf2bd8.png"
+  },
+  "England|Middlesbrough": {
+    "id": "middlesbrough",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/369.png"
+  },
+  "England|Millwall": {
+    "id": "millwall",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/391.png"
+  },
+  "England|Milton Keynes Dons": {
+    "id": "milton-keynes-dons",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/390.png"
+  },
+  "England|Milton Keynes Irish FC": {
+    "id": "milton-keynes-irish",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/milton-keynes-irish.f9ef1bc1.png"
+  },
+  "England|Morecambe FC": {
+    "id": "morecambe",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/morecambe.c55b6c7d.png"
+  },
+  "England|Needham Market FC": {
+    "id": "needham-market",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/needham-market.63757b5b.png"
+  },
   "England|Newcastle United": {
     "id": "newcastle",
     "slug": "newcastle",
     "source": "football-logos"
+  },
+  "England|Newhaven FC": {
+    "id": "newhaven",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/newhaven.e07eead5.png"
+  },
+  "England|Newport County": {
+    "id": "newport-county",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/635.png"
+  },
+  "England|Newport County AFC": {
+    "id": "newport-county",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/635.png"
+  },
+  "England|Newton Aycliffe FC": {
+    "id": "newton-aycliffe",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/newton-aycliffe.fa8a34d5.png"
+  },
+  "England|Northampton On Chenecks FC": {
+    "id": "northampton-on-chenecks",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/northampton-on-chenecks.1a5d0a29.png"
+  },
+  "England|Northampton Town": {
+    "id": "northampton-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/353.png"
+  },
+  "England|Northwich Victoria FC": {
+    "id": "northwich-victoria",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/northwich-victoria.ca9af28c.png"
   },
   "England|Norwich": {
     "id": "norwich-city",
@@ -1759,10 +2953,298 @@
     "slug": "nottingham-forest",
     "source": "football-logos"
   },
+  "England|Notts County": {
+    "id": "notts-county",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/340.png"
+  },
+  "England|Oldham Athletic": {
+    "id": "oldham-athletic",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/332.png"
+  },
+  "England|Oldham Athletic AFC": {
+    "id": "oldham-athletic",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/332.png"
+  },
+  "England|Ossett United FC": {
+    "id": "ossett-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/ossett-united.c9f74100.png"
+  },
+  "England|Oxford City FC": {
+    "id": "oxford-city",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/oxford-city.0fe00a24.png"
+  },
+  "England|Oxford United": {
+    "id": "oxford-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/311.png"
+  },
+  "England|Paulton Rovers FC": {
+    "id": "paulton-rovers",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/paulton-rovers.d3c82e89.png"
+  },
+  "England|Peacehaven & Telscombe FC": {
+    "id": "peacehaven-telscombe",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/peacehaven-and-telscombe.02780a28.png"
+  },
+  "England|Peterborough Sports FC": {
+    "id": "peterborough-sports",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/peterborough-sports.84e2b18d.png"
+  },
+  "England|Peterborough United": {
+    "id": "peterborough-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/342.png"
+  },
+  "England|Pickering Town FC": {
+    "id": "pickering-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/pickering-town.5e6b912f.png"
+  },
+  "England|Plymouth Argyle": {
+    "id": "plymouth-argyle",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/307.png"
+  },
+  "England|Plymouth Parkway FC": {
+    "id": "plymouth-parkway",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/plymouth-parkway.8f7467b3.png"
+  },
+  "England|Poole Town FC": {
+    "id": "poole-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/poole-town.417414f6.png"
+  },
+  "England|Port Vale": {
+    "id": "port-vale",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/348.png"
+  },
+  "England|Portsmouth": {
+    "id": "portsmouth",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/385.png"
+  },
+  "England|Potters Bar Town FC": {
+    "id": "potters-bar-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/potters-bar-town.bfe84571.png"
+  },
+  "England|Preston North End": {
+    "id": "preston-north-end",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/394.png"
+  },
+  "England|Queens Park Rangers": {
+    "id": "queens-park-rangers",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/334.png"
+  },
+  "England|Quorn FC": {
+    "id": "quorn",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/quorn.4bb9949b.png"
+  },
+  "England|Racing Club Warwick FC": {
+    "id": "racing-club-warwick",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/racing-club-warwick.351f2fb0.png"
+  },
+  "England|Radcliffe FC": {
+    "id": "radcliffe",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/radcliffe.b8ef32dc.png"
+  },
+  "England|Ramsgate FC": {
+    "id": "ramsgate",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/ramsgate.d329ce18.png"
+  },
+  "England|Reading": {
+    "id": "reading",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/338.png"
+  },
+  "England|Real Bedford FC": {
+    "id": "real-bedford",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/real-bedford.2175ec81.png"
+  },
+  "England|Redcar Athletic FC": {
+    "id": "redcar-athletic",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/redcar-athletic.899eebc8.png"
+  },
+  "England|Redditch United FC": {
+    "id": "redditch-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/redditch-united.8e7fd973.png"
+  },
+  "England|Rochdale": {
+    "id": "rochdale",
+    "source": "url",
+    "slug": null,
+    "url": "https://raw.githubusercontent.com/JoseArroyave/football-logos/refs/heads/main/logos/england/Rochdale.svg"
+  },
+  "England|Rochdale AFC": {
+    "id": "rochdale",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/rochdale.83cc02da.png"
+  },
+  "England|Romford FC": {
+    "id": "romford",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/romford-fc.eab90397.png"
+  },
+  "England|Rotherham United": {
+    "id": "rotherham-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/402.png"
+  },
+  "England|Royal Wootton Bassett Town FC": {
+    "id": "royal-wootton-bassett-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/royal-wootton-bassett-town.1af0af22.png"
+  },
+  "England|Royston Town FC": {
+    "id": "royston-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/royston-town.3ee58679.png"
+  },
+  "England|Rugby Town FC": {
+    "id": "rugby-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/rugby-town.e84e8936.png"
+  },
+  "England|Rushall Olympic FC": {
+    "id": "rushall-olympic",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/rushall-olympic.d95f3a27.png"
+  },
+  "England|Salford City": {
+    "id": "salford-city",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/4703.png"
+  },
+  "England|Salisbury FC": {
+    "id": "salisbury",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/salisbury.be8b2011.png"
+  },
+  "England|Scarborough Athletic FC": {
+    "id": "scarborough-athletic",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/scarborough-athletic.57c0ae8c.png"
+  },
+  "England|Scunthorpe United FC": {
+    "id": "scunthorpe-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/313.png"
+  },
+  "England|Shaftesbury FC": {
+    "id": "shaftesbury",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/shaftesbury-fc.814ef589.png"
+  },
   "England|Sheffield United": {
     "id": "sheffield-united",
     "slug": "sheffield-united",
     "source": "football-logos"
+  },
+  "England|Sheffield Wednesday": {
+    "id": "sheffield-wednesday",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/399.png"
+  },
+  "England|Sholing FC": {
+    "id": "sholing",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/sholing-fc.c76e3a52.png"
+  },
+  "England|Shrewsbury Town": {
+    "id": "shrewsbury-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/302.png"
+  },
+  "England|Sittingbourne FC": {
+    "id": "sittingbourne",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/sittingbourne.dfd02ac4.png"
+  },
+  "England|Slough Town FC": {
+    "id": "slough-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/slough-town.1f29813a.png"
+  },
+  "England|Solihull Moors FC": {
+    "id": "solihull-moors",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/solihull-moors.c083dd78.png"
+  },
+  "England|South Shields FC": {
+    "id": "south-shields",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/south-shields.4d9f7cc3.png"
+  },
+  "England|Southall FC": {
+    "id": "southall",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/southall.1e49d2ac.png"
   },
   "England|Southampton": {
     "id": "southampton",
@@ -1774,25 +3256,259 @@
     "slug": "southampton",
     "source": "football-logos"
   },
+  "England|Southend United FC": {
+    "id": "southend-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://raw.githubusercontent.com/JoseArroyave/football-logos/refs/heads/main/logos/england/Southend_United.svg"
+  },
+  "England|Southport FC": {
+    "id": "southport",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/southport.ee598644.png"
+  },
+  "England|Spalding United FC": {
+    "id": "spalding-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/spalding-united.7a2d3f6a.png"
+  },
+  "England|Spennymoor Town FC": {
+    "id": "spennymoor-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/spennymoor-town.0459b2ac.png"
+  },
   "England|Spurs": {
     "id": "tottenham",
     "slug": "tottenham",
     "source": "football-logos"
+  },
+  "England|St Albans City FC": {
+    "id": "st-albans-city",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/st-albans-city.bfc3c25a.png"
+  },
+  "England|St Ives Town FC": {
+    "id": "st-ives-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/st-ives-town.14b1c5e1.png"
+  },
+  "England|Stamford AFC": {
+    "id": "stamford-afc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/stamford-afc.dc7a3876.png"
+  },
+  "England|Stanway Rovers FC": {
+    "id": "stanway-rovers",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/stanway-rovers.204cb3b0.png"
+  },
+  "England|Stevenage": {
+    "id": "stevenage",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/285.png"
+  },
+  "England|Stockport County": {
+    "id": "stockport-county",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/400.png"
+  },
+  "England|Stocksbridge Park Steels FC": {
+    "id": "stocksbridge-park-steels",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/stocksbridge-park-steels.e2c60cfa.png"
+  },
+  "England|Stockton Town FC": {
+    "id": "stockton-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/stockton-town.947a73d4.png"
+  },
+  "England|Stoke City": {
+    "id": "stoke-city",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/336.png"
+  },
+  "England|Stotfold FC": {
+    "id": "stotfold",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/stotfold.c8be283f.png"
+  },
+  "England|Stourbridge FC": {
+    "id": "stourbridge",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/stourbridge.9988aab6.png"
+  },
+  "England|Stratford Town FC": {
+    "id": "stratford-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/stratford-town.57caf898.png"
   },
   "England|Sunderland AFC": {
     "id": "sunderland",
     "slug": "sunderland",
     "source": "football-logos"
   },
+  "England|Sutton Coldfield Town FC": {
+    "id": "sutton-coldfield-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/sutton-coldfield-town.eec43f16.png"
+  },
+  "England|Sutton United FC": {
+    "id": "sutton-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/sutton-united.726cd425.png"
+  },
+  "England|Swansea City": {
+    "id": "swansea-city",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/318.png"
+  },
+  "England|Swindon Town": {
+    "id": "swindon-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/341.png"
+  },
+  "England|Tamworth FC": {
+    "id": "tamworth",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/tamworth.73ee89d7.png"
+  },
+  "England|Taunton Town FC": {
+    "id": "taunton-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/taunton-town.91109a26.png"
+  },
+  "England|Thame United FC": {
+    "id": "thame-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/thame-united.3cc503d3.png"
+  },
+  "England|Three Bridges FC": {
+    "id": "three-bridges",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/three-bridges.84546f3a.png"
+  },
+  "England|Tonbridge Angels FC": {
+    "id": "tonbridge-angels",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/tonbridge-angels.af95cd15.png"
+  },
+  "England|Torquay United FC": {
+    "id": "torquay-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/torquay-united.7b9e1655.png"
+  },
   "England|Tottenham Hotspur": {
     "id": "tottenham",
     "slug": "tottenham",
     "source": "football-logos"
   },
+  "England|Tranmere Rovers": {
+    "id": "tranmere-rovers",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/345.png"
+  },
+  "England|Truro City FC": {
+    "id": "truro-city",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/truro-city.86ff6b62.png"
+  },
+  "England|Uxbridge FC": {
+    "id": "uxbridge",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/uxbridge.04ae4cbf.png"
+  },
+  "England|Walsall": {
+    "id": "walsall",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/401.png"
+  },
+  "England|Waltham Abbey FC": {
+    "id": "waltham-abbey",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/waltham-abbey.27fef12a.png"
+  },
+  "England|Walton & Hersham FC": {
+    "id": "walton-hersham",
+    "source": "url",
+    "slug": null,
+    "url": "https://raw.githubusercontent.com/JoseArroyave/football-logos/refs/heads/main/logos/england/Walton_%26_Hersham.svg"
+  },
+  "England|Ware FC": {
+    "id": "ware",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/ware.93a86106.png"
+  },
+  "England|Warrington Rylands FC": {
+    "id": "warrington-rylands",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/warrington-rylands.2cb119e8.png"
+  },
+  "England|Warrington Town FC": {
+    "id": "warrington-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/warrington-town.893c67ca.png"
+  },
   "England|Watford FC": {
     "id": "watford",
     "slug": "watford",
     "source": "football-logos"
+  },
+  "England|Wealdstone FC": {
+    "id": "wealdstone",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/wealdstone.75688ab2.png"
+  },
+  "England|Welling United FC": {
+    "id": "welling-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/welling-united.a896033f.png"
+  },
+  "England|Welwyn Garden City FC": {
+    "id": "welwyn-garden-city",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/welwyn-garden-city.4218c5ee.png"
+  },
+  "England|West Bromwich Albion": {
+    "id": "west-bromwich-albion",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/383.png"
   },
   "England|West Ham": {
     "id": "west-ham",
@@ -1804,75 +3520,693 @@
     "slug": "west-ham",
     "source": "football-logos"
   },
+  "England|Westbury United FC": {
+    "id": "westbury-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/westbury-united.39b19157.png"
+  },
+  "England|Weston Super Mare FC": {
+    "id": "weston-super-mare",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/weston-super-mare.b672fbdb.png"
+  },
+  "England|Whitby Town FC": {
+    "id": "whitby-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/whitby-town.7a9c6fda.png"
+  },
+  "England|Whitehawk FC": {
+    "id": "whitehawk",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/whitehawk.61dd5407.png"
+  },
+  "England|Whitley Bay FC": {
+    "id": "whitley-bay",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/whitley-bay-fc.5a5311cf.png"
+  },
+  "England|Whitstable Town FC": {
+    "id": "whitstable-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/whitstable-town.87452748.png"
+  },
+  "England|Wigan Athletic": {
+    "id": "wigan-athletic",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/350.png"
+  },
+  "England|Willand Rovers FC": {
+    "id": "willand-rovers",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/willand-rovers.43cba098.png"
+  },
+  "England|Wimborne Town FC": {
+    "id": "wimborne-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/wimborne-town.9d61ee14.png"
+  },
+  "England|Wingate & Finchley FC": {
+    "id": "wingate-finchley",
+    "source": "url",
+    "slug": null,
+    "url": "https://raw.githubusercontent.com/JoseArroyave/football-logos/refs/heads/main/logos/england/Wingate_%26_Finchley.svg"
+  },
+  "England|Winslow United FC": {
+    "id": "winslow-united",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/winslow-united.c570be3a.png"
+  },
+  "England|Witham Town FC": {
+    "id": "witham-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/witham-town.27f9889d.png"
+  },
+  "England|Woking FC": {
+    "id": "woking",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/woking.0a96b3a5.png"
+  },
   "England|Wolverhampton Wanderers": {
     "id": "wolves",
     "slug": "wolves",
     "source": "football-logos"
+  },
+  "England|Woodford Town FC": {
+    "id": "woodford-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/woodford-town.25336b6f.png"
+  },
+  "England|Worcester City FC": {
+    "id": "worcester-city",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/worcester-city.4e28f4bf.png"
+  },
+  "England|Workington AFC": {
+    "id": "workington-afc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/workington-afc.b832e04e.png"
+  },
+  "England|Worksop Town FC": {
+    "id": "worksop-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/worksop-town.2ea952c7.png"
+  },
+  "England|Worthing FC": {
+    "id": "worthing",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/worthing.45e58eba.png"
+  },
+  "England|Wrexham": {
+    "id": "wrexham",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/352.png"
+  },
+  "England|Wrexham AFC": {
+    "id": "wrexham",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/wrexham.eaf0e9de.png"
+  },
+  "England|Wycombe Wanderers": {
+    "id": "wycombe-wanderers",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/344.png"
+  },
+  "England|Yate Town FC": {
+    "id": "yate-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/england/1500x1500/yate-town.4cfdfe4d.png"
+  },
+  "England|Yeovil Town FC": {
+    "id": "yeovil-town",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/284.png"
+  },
+  "England|York City": {
+    "id": "york-city",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/315.png"
   },
   "France|AC Ajaccio": {
     "id": "ajaccio",
     "slug": "ajaccio",
     "source": "football-logos"
   },
+  "France|AC Amiens (FFF 13512)": {
+    "id": "ac-amiens",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/ac-amiens.9694308a.png"
+  },
+  "France|AC Cambrai": {
+    "id": "ac-cambrai",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/ac-cambrai.dc21ee8a.png"
+  },
+  "France|AF Virois": {
+    "id": "af-virois",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/af-virois.30050ea8.png"
+  },
+  "France|AFC Creil": {
+    "id": "afc-creil",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/afc-creil.de16937b.png"
+  },
   "France|AJ Auxerre": {
     "id": "auxerre",
     "slug": "auxerre",
     "source": "football-logos"
+  },
+  "France|AS Aix-en-Provence": {
+    "id": "as-aix-en-provence",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/as-aix-en-provence.8b6959e1.png"
+  },
+  "France|AS Baume-les-Dames": {
+    "id": "as-baume-les-dames",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/as-baume-les-dames.41635bc8.png"
+  },
+  "France|AS Beauvais Oise": {
+    "id": "as-beauvais-oise",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/as-beauvais-oise.a492a0e8.png"
+  },
+  "France|AS Cannes": {
+    "id": "as-cannes",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/as-cannes.907c2bdf.png"
+  },
+  "France|AS Furiani-Agliani": {
+    "id": "as-furiani-agliani",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/as-furiani-agliani.9b72b102.png"
+  },
+  "France|AS Ifs": {
+    "id": "as-ifs",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/as-ifs.974e9332.png"
+  },
+  "France|AS Illzach Modenheim": {
+    "id": "as-illzach-modenheim",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/as-illzach-modenheim.f3016256.png"
   },
   "France|AS Monaco": {
     "id": "as-monaco",
     "slug": "as-monaco",
     "source": "football-logos"
   },
+  "France|AS Nancy Lorraine": {
+    "id": "as-nancy-lorraine",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3267.png"
+  },
+  "France|AS Porto Vecchio": {
+    "id": "as-porto-vecchio",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/as-porto-vecchio.0a1b5a6d.png"
+  },
   "France|AS Saint-Étienne": {
     "id": "as-saint-etienne",
     "slug": "as-saint-etienne",
     "source": "football-logos"
+  },
+  "France|AS Strasbourg": {
+    "id": "as-strasbourg",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/as-strasbourg.f3ff6940.png"
+  },
+  "France|AS Talange": {
+    "id": "as-talange",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/as-talange.5ae77f29.png"
+  },
+  "France|ASCA Wittelsheim": {
+    "id": "asca-wittelsheim",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/asca-wittelsheim.7fa4e272.png"
+  },
+  "France|ASPTT Caen Football": {
+    "id": "asptt-caen-football",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/asptt-caen-football.26f608c6.png"
+  },
+  "France|Albi Marssac Tarn Football ASPTT": {
+    "id": "albi-marssac-tarn-football-asptt",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/albi-marssac-tarn-football-asptt.2bf95719.png"
+  },
+  "France|Andrézieux-Bouthéon FC": {
+    "id": "andrezieux-boutheon-fc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/andrezieux-boutheon-fc.271a76dd.png"
   },
   "France|Angers SCO": {
     "id": "angers",
     "slug": "angers",
     "source": "football-logos"
   },
+  "France|Angoulême Charente FC": {
+    "id": "angouleme-charente-fc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/angouleme-charente-fc.bfe22bf5.png"
+  },
+  "France|Arras FA": {
+    "id": "arras-fa",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/arras-fa.d8a6ce69.png"
+  },
+  "France|Avenir Foot Lozère": {
+    "id": "avenir-foot-lozere",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/avenir-foot-lozere.ab72d610.png"
+  },
+  "France|Avoine Olympique Chinon Cinais": {
+    "id": "avoine-olympique-chinon-cinais",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/avoine-olympique-chinon-cinais.7ddc1087.png"
+  },
+  "France|Balma SC": {
+    "id": "balma-sc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/balma-sc.35946b2e.png"
+  },
+  "France|Bastia": {
+    "id": "bastia",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/173.png"
+  },
+  "France|Bergerac Périgord FC": {
+    "id": "bergerac-perigord-fc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/bergerac-perigord-fc.e21a1368.png"
+  },
+  "France|Biesheim": {
+    "id": "biesheim",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/asc-biesheim.2b9b8997.png"
+  },
+  "France|Blagnac FC": {
+    "id": "blagnac-fc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/blagnac-fc.3106fbe3.png"
+  },
+  "France|Bourg-Peronnas": {
+    "id": "bourg-peronnas",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/11895.png"
+  },
+  "France|Bourges FC": {
+    "id": "bourges-fc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/bourges-fc.40d60a5e.png"
+  },
+  "France|C'Chartres Football": {
+    "id": "c-chartres-football",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/c-chartres-football.256cd8ff.png"
+  },
+  "France|CMS Oissel": {
+    "id": "cms-oissel",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/cms-oissel.6ecdc2eb.png"
+  },
+  "France|CS Blénod": {
+    "id": "cs-blenod",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/cs-blenod.569fecce.png"
+  },
+  "France|CS Sedan Ardennes": {
+    "id": "cs-sedan-ardennes",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/cs-sedan-ardennes.2f32f0c5.png"
+  },
+  "France|Canet Roussillon FC": {
+    "id": "canet-roussillon-fc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/canet-roussillon-fc.e2f2743e.png"
+  },
+  "France|Chambéry Savoie Football": {
+    "id": "chambery-savoie-football",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/chambery-savoie-football.2ed42ba4.png"
+  },
   "France|Clermont Foot 63": {
     "id": "clermont-foot",
     "slug": "clermont-foot",
     "source": "football-logos"
+  },
+  "France|Concarneau": {
+    "id": "concarneau",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7718.png"
+  },
+  "France|Dieppe": {
+    "id": "dieppe",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/fc-dieppe.13930f04.png"
+  },
+  "France|Dijon FCO": {
+    "id": "dijon-fco",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/dijon.7b775c2d.png"
+  },
+  "France|Dinan Léhon FC": {
+    "id": "dinan-lehon-fc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/dinan-lehon-fc.57c44eff.png"
+  },
+  "France|Dunkerque": {
+    "id": "dunkerque",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7732.png"
+  },
+  "France|ES Segré HA Football": {
+    "id": "es-segre-ha-football",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/es-segre-ha-football.aa447c9c.png"
   },
   "France|ESTAC Troyes": {
     "id": "troyes",
     "slug": "troyes",
     "source": "football-logos"
   },
+  "France|FC Albères Argelès": {
+    "id": "fc-alberes-argeles",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/fc-alberes-argeles.46bbd74d.png"
+  },
+  "France|FC Argentan": {
+    "id": "fc-argentan",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/fc-argentan.5a89f188.png"
+  },
+  "France|FC Balagne": {
+    "id": "fc-balagne",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/fc-balagne.ea3a53ff.png"
+  },
+  "France|FC Bassin d'Arcachon": {
+    "id": "fc-bassin-d-arcachon",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/fc-bassin-d-arcachon.37249005.png"
+  },
+  "France|FC Bischwiller": {
+    "id": "fc-bischwiller",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/fc-bischwiller.b5d7c7bc.png"
+  },
+  "France|FC Borgo": {
+    "id": "fc-borgo",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/fc-borgo.0c93448b.png"
+  },
+  "France|FC Bourgoin-Jallieu": {
+    "id": "fc-bourgoin-jallieu",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/fc-bourgoin-jallieu.323f5547.png"
+  },
+  "France|FC Bressuire": {
+    "id": "fc-bressuire",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/fc-bressuire.2a493e4e.png"
+  },
+  "France|FC Challans": {
+    "id": "fc-challans",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/fc-challans.8d0d749f.png"
+  },
+  "France|FC Chalon": {
+    "id": "fc-chalon",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/fc-chalon.d2539006.png"
+  },
+  "France|FC Chambly Oise": {
+    "id": "fc-chambly-oise",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/fc-chambly-oise.904dc247.png"
+  },
+  "France|FC Chauray": {
+    "id": "fc-chauray",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/fc-chauray.280619b8.png"
+  },
+  "France|FC Fleury 91": {
+    "id": "fc-fleury-91",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/fc-fleury-91.2cba7419.png"
+  },
+  "France|FC Istres": {
+    "id": "fc-istres",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/istres-fc.2c59ce76.png"
+  },
   "France|FC Lorient": {
     "id": "lorient",
     "slug": "lorient",
     "source": "football-logos"
+  },
+  "France|FC Marmande 47": {
+    "id": "fc-marmande-47",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/fc-marmande-47.5ab1f213.png"
+  },
+  "France|FC Martigues": {
+    "id": "fc-martigues",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/fc-martigues.af65235b.png"
   },
   "France|FC Metz": {
     "id": "fc-metz",
     "slug": "fc-metz",
     "source": "football-logos"
   },
+  "France|FC Montlouis": {
+    "id": "fc-montlouis",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/fc-montlouis.3dfc568d.png"
+  },
+  "France|FC Mulhouse": {
+    "id": "fc-mulhouse",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/fc-mulhouse.0ad0cca5.png"
+  },
   "France|FC Nantes": {
     "id": "nantes",
     "slug": "nantes",
     "source": "football-logos"
+  },
+  "France|FC Sens (FFF 607)": {
+    "id": "fc-sens",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/fc-sens.ccbe427c.png"
   },
   "France|FC Toulouse": {
     "id": "toulouse",
     "slug": "toulouse",
     "source": "football-logos"
   },
+  "France|FC Vaulx-en-Velin": {
+    "id": "fc-vaulx-en-velin",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/fc-vaulx-en-velin.5dd96d77.png"
+  },
+  "France|FCSR Haguenau": {
+    "id": "fcsr-haguenau",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/fcsr-haguenau.da890db7.png"
+  },
+  "France|FUSC Bois-Guillaume": {
+    "id": "fusc-bois-guillaume",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/fusc-bois-guillaume.8d0da25f.png"
+  },
+  "France|Fontenay Foot": {
+    "id": "fontenay-foot",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/vendee-fontenay-foot.21b24767.png"
+  },
   "France|G. Bordeaux": {
     "id": "bordeaux",
     "slug": "bordeaux",
     "source": "football-logos"
   },
+  "France|GFA Rumilly Vallières": {
+    "id": "gfa-rumilly-vallieres",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/gfa-rumilly-vallieres.30139c32.png"
+  },
+  "France|Gap Foot 05": {
+    "id": "gap-foot-05",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/gap-foot-05.fa3c0114.png"
+  },
+  "France|Grenoble": {
+    "id": "grenoble",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6994.png"
+  },
+  "France|Guingamp": {
+    "id": "guingamp",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png"
+  },
+  "France|Hauts Lyonnais": {
+    "id": "hauts-lyonnais",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/hauts-lyonnais.3172d5f7.png"
+  },
+  "France|Hyères FC": {
+    "id": "hyeres-fc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/hyeres-fc.ec22d7d8.png"
+  },
+  "France|Is-Selongey Football": {
+    "id": "is-selongey-football",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/is-selongey-football.183b336d.png"
+  },
+  "France|JA Drancy": {
+    "id": "ja-drancy",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/ja-drancy.ab137b49.png"
+  },
+  "France|JA Isle": {
+    "id": "ja-isle",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/ja-isle.72ee202f.png"
+  },
+  "France|JS Cugnaux": {
+    "id": "js-cugnaux",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/js-cugnaux.dd12c811.png"
+  },
+  "France|Jura Dolois Football": {
+    "id": "jura-dolois-football",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/jura-dolois-football.bbfbcacf.png"
+  },
+  "France|Jura Sud Foot": {
+    "id": "jura-sud-foot",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/jura-sud-foot.cc48933d.png"
+  },
   "France|LOSC Lille": {
     "id": "lille",
     "slug": "lille",
     "source": "football-logos"
+  },
+  "France|Lamballe FC": {
+    "id": "lamballe-fc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/lamballe-fc.3fab8c58.png"
+  },
+  "France|Lannion FC": {
+    "id": "lannion-fc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/lannion-fc.3c7c40e5.png"
   },
   "France|Le Havre AC": {
     "id": "le-havre-ac",
@@ -1884,10 +4218,46 @@
     "slug": "le-mans",
     "source": "football-logos"
   },
+  "France|Les Herbiers": {
+    "id": "les-herbiers",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/10691.png"
+  },
+  "France|Louhans-Cuiseaux FC": {
+    "id": "louhans-cuiseaux-fc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/louhans-cuiseaux-fc.898e4ed1.png"
+  },
+  "France|Luzenac AP": {
+    "id": "luzenac-ap",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/luzenac-ap.4797af04.png"
+  },
+  "France|Lyon-Duchère": {
+    "id": "lyon-duchere",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/lyon-la-duchere.55ffe379.png"
+  },
   "France|Marseille": {
     "id": "marseille",
     "slug": "marseille",
     "source": "football-logos"
+  },
+  "France|Montauban FC Tarn-et-Garonne": {
+    "id": "montauban-fc-tarn-et-garonne",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/montauban-fc-tarn-et-garonne.45c1a53c.png"
+  },
+  "France|Montluçon Football": {
+    "id": "montlucon-football",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/montlucon-football.91bd23fa.png"
   },
   "France|Montpellier": {
     "id": "montpellier",
@@ -1899,10 +4269,22 @@
     "slug": "montpellier",
     "source": "football-logos"
   },
+  "France|Nîmes Olympique": {
+    "id": "nimes-olympique",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/nimes-olympique.5a61c4fb.png"
+  },
   "France|OGC Nice": {
     "id": "nice",
     "slug": "nice",
     "source": "football-logos"
+  },
+  "France|Olympique Charleville Prix Ardenne Métropole": {
+    "id": "olympique-charleville-prix-ardenne-metropole",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/olympique-charleville-prix-ardenne-metropole.5285d07b.png"
   },
   "France|Olympique Lyon": {
     "id": "lyon",
@@ -1913,6 +4295,24 @@
     "id": "marseille",
     "slug": "marseille",
     "source": "football-logos"
+  },
+  "France|Orléans": {
+    "id": "orleans",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/17483.png"
+  },
+  "France|Pacy Ménilles Racing Club": {
+    "id": "pacy-menilles-racing-club",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/pacy-menilles-racing-club.7ff3c935.png"
+  },
+  "France|Paris 13 Atletico": {
+    "id": "paris-13-atletico",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/paris-13-atletico.ae417f4b.png"
   },
   "France|Paris FC": {
     "id": "paris-fc",
@@ -1929,6 +4329,30 @@
     "slug": "paris-saint-germain",
     "source": "football-logos"
   },
+  "France|Pau FC": {
+    "id": "pau-fc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/pau.66f501ff.png"
+  },
+  "France|Périgueux Foot": {
+    "id": "perigueux-foot",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/perigueux-foot.da52d16c.png"
+  },
+  "France|Quevilly Rouen Métropole": {
+    "id": "quevilly-rouen-metropole",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/quevilly-rouen-metropole.64afc286.png"
+  },
+  "France|RC Fléchois": {
+    "id": "rc-flechois",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/rc-flechois.a6fbbce9.png"
+  },
   "France|RC Lens": {
     "id": "rc-lens",
     "slug": "rc-lens",
@@ -1939,15 +4363,129 @@
     "slug": "rc-strasbourg-alsace",
     "source": "football-logos"
   },
+  "France|Racing Besançon": {
+    "id": "racing-besancon",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/racing-besancon.133d0a1e.png"
+  },
+  "France|Raon-l'Etape": {
+    "id": "raon-l-etape",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/us-raon-l-etape.ddd175f0.png"
+  },
+  "France|Reims Sainte-Anne": {
+    "id": "reims-sainte-anne",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/reims-sainte-anne.d0c16d08.png"
+  },
+  "France|Riviera FC": {
+    "id": "riviera-fc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/riviera-fc.1dcf6e2f.png"
+  },
+  "France|Rodez AF": {
+    "id": "rodez-af",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/rodez-af.a9ee7782.png"
+  },
+  "France|SC Amiens": {
+    "id": "sc-amiens",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3335.png"
+  },
+  "France|SC Douai": {
+    "id": "sc-douai",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/sc-douai.44cab601.png"
+  },
+  "France|SC Draguignan": {
+    "id": "sc-draguignan",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/sc-draguignan.2e46e517.png"
+  },
+  "France|SC Schiltigheim": {
+    "id": "sc-schiltigheim",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/sc-schiltigheim.5631e693.png"
+  },
+  "France|SC Sélestat": {
+    "id": "sc-selestat",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/sc-selestat.ce137925.png"
+  },
   "France|SCO Angers": {
     "id": "angers",
     "slug": "angers",
     "source": "football-logos"
   },
+  "France|SO Châtellerault": {
+    "id": "so-chatellerault",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/so-chatellerault.dccda37d.png"
+  },
+  "France|Sablé FC": {
+    "id": "sable-fc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/sable-fc.84260182.png"
+  },
+  "France|Salon Bel Air Foot": {
+    "id": "salon-bel-air-foot",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/salon-bel-air-foot.f37e92d9.png"
+  },
+  "France|Sarreguemines FC": {
+    "id": "sarreguemines-fc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/sarreguemines-fc.1fc04933.png"
+  },
+  "France|Sochaux": {
+    "id": "sochaux",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/272.png"
+  },
+  "France|Sologne Foot Romorantin 41": {
+    "id": "sologne-foot-romorantin-41",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/so-romorantin.2669f5d2.png"
+  },
+  "France|Sporting Club Toulon": {
+    "id": "sporting-club-toulon",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/sporting-club-toulon.dddf0ccb.png"
+  },
   "France|Stade Brestois 29": {
     "id": "brest",
     "slug": "brest",
     "source": "football-logos"
+  },
+  "France|Stade Briochin": {
+    "id": "stade-briochin",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/stade-briochin.33f6a593.png"
+  },
+  "France|Stade Laval": {
+    "id": "stade-laval",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3266.png"
   },
   "France|Stade Reims": {
     "id": "stade-de-reims",
@@ -1964,10 +4502,178 @@
     "slug": "rennes",
     "source": "football-logos"
   },
+  "France|TA Rennes": {
+    "id": "ta-rennes",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/ta-rennes.3e48d64a.png"
+  },
+  "France|Tarbes Pyrénées Football": {
+    "id": "tarbes-pyrenees-football",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/tarbes-pyrenees-football.51c931d2.png"
+  },
+  "France|Thonon Évian Grand Genève FC": {
+    "id": "thonon-evian-grand-geneve-fc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/thonon-evian-grand-geneve-fc.b5b9d441.png"
+  },
+  "France|Thouars Foot 79": {
+    "id": "thouars-foot-79",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/thouars-foot-79.74176b3a.png"
+  },
+  "France|US Chauvigny": {
+    "id": "us-chauvigny",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/us-chauvigny.8782f6ee.png"
+  },
+  "France|US Colomiers Football": {
+    "id": "us-colomiers-football",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/us-colomiers-football.9362f7af.png"
+  },
+  "France|US Ivry Football": {
+    "id": "us-ivry-football",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/us-ivry-football.b4c27630.png"
+  },
+  "France|US Laon (FFF 277)": {
+    "id": "us-laon",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/us-laon.587de84f.png"
+  },
+  "France|US Lesquin": {
+    "id": "us-lesquin",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/us-lesquin.565067af.png"
+  },
+  "France|US Lège-Cap-Ferret": {
+    "id": "us-lege-cap-ferret",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/us-lege-cap-ferret.724fa7ce.png"
+  },
+  "France|US Marseille Endoume Catalans": {
+    "id": "us-marseille-endoume-catalans",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/us-marseille-endoume-catalans.8b8916e8.png"
+  },
+  "France|US Maubeuge": {
+    "id": "us-maubeuge",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/us-maubeuge.266c2d10.png"
+  },
+  "France|US Mer": {
+    "id": "us-mer",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/us-mer.460b7508.png"
+  },
+  "France|US Pays de Cassel": {
+    "id": "us-pays-de-cassel",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/us-pays-de-cassel.44bf62bb.png"
+  },
+  "France|US Pont-de-Roide Vermondans": {
+    "id": "us-pont-de-roide-vermondans",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/us-pont-de-roide-vermondans.925b4473.png"
+  },
+  "France|US Reipertswiller": {
+    "id": "us-reipertswiller",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/us-reipertswiller.6cee843e.png"
+  },
+  "France|US Sarre-Union": {
+    "id": "us-sarre-union",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/us-sarre-union.db82ec1e.png"
+  },
+  "France|US Thionville Lusitanos": {
+    "id": "us-thionville-lusitanos",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/us-thionville-lusitanos.7db7e90d.png"
+  },
+  "France|USF Fécamp": {
+    "id": "usf-fecamp",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/usf-fecamp.b48e7001.png"
+  },
+  "France|Valenciennes FC": {
+    "id": "valenciennes-fc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/valenciennes.a46f6daf.png"
+  },
+  "France|Vendée Poiré-sur-Vie Football": {
+    "id": "vendee-poire-sur-vie-football",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/le-poire-sur-vie.1a13dd57.png"
+  },
+  "France|Vierzon FC": {
+    "id": "vierzon-fc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/vierzon-fc.a15bab3d.png"
+  },
+  "France|Voltigeurs de Châteaubriant": {
+    "id": "voltigeurs-de-chateaubriant",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/voltigeurs-de-chateaubriant.b83cf914.png"
+  },
+  "France|Écommoy FC": {
+    "id": "ecommoy-fc",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/ecommoy-fc.0ecd5603.png"
+  },
+  "France|Évreux FC 27": {
+    "id": "evreux-fc-27",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/france/1500x1500/evreux-fc-27.2ac806d9.png"
+  },
   "Germany|1. FC Köln": {
     "id": "koln",
     "slug": "koln",
     "source": "football-logos"
+  },
+  "Germany|1. FC Magdeburg": {
+    "id": "magdeburg",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/256x256/1-fc-magdeburg.d286014d.png"
+  },
+  "Germany|1. FC Nürnberg": {
+    "id": "nurnberg",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/256x256/fc-nurnberg.7688006f.png"
+  },
+  "Germany|1. FC Phönix Lübeck": {
+    "id": "phonix-lubeck",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/256x256/1-fc-phonix-lubeck.2bf71f84.png"
   },
   "Germany|1.FC Heidenheim 1846": {
     "id": "fc-heidenheim",
@@ -1994,6 +4700,12 @@
     "slug": "arminia-bielefeld",
     "source": "football-logos"
   },
+  "Germany|Bahlinger SC": {
+    "id": "bahlinger",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/bahlinger-sc.8830aff0.png"
+  },
   "Germany|Bayer 04 Leverkusen": {
     "id": "bayer-leverkusen",
     "slug": "bayer-leverkusen",
@@ -2019,6 +4731,12 @@
     "slug": "borussia-monchengladbach",
     "source": "football-logos"
   },
+  "Germany|Dynamo Dresden": {
+    "id": "dynamo-dresden",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/256x256/dynamo-dresden.01813977.png"
+  },
   "Germany|E. Frankfurt": {
     "id": "eintracht-frankfurt",
     "slug": "eintracht-frankfurt",
@@ -2028,6 +4746,18 @@
     "id": "eintracht-frankfurt",
     "slug": "eintracht-frankfurt",
     "source": "football-logos"
+  },
+  "Germany|Eintracht Trier": {
+    "id": "eintracht-trier",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/256x256/eintracht-trier.7021128c.png"
+  },
+  "Germany|Energie Cottbus": {
+    "id": "energie-cottbus",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/256x256/energie-cottbus.185c4200.png"
   },
   "Germany|FC Augsburg": {
     "id": "augsburg",
@@ -2039,6 +4769,18 @@
     "slug": "bayern-munchen",
     "source": "football-logos"
   },
+  "Germany|FC Carl Zeiss Jena": {
+    "id": "carl-zeiss-jena",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9865.png"
+  },
+  "Germany|FC Erzgebirge Aue": {
+    "id": "erzgebirge-aue",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3849.png"
+  },
   "Germany|FC Schalke 04": {
     "id": "schalke-04",
     "slug": "schalke-04",
@@ -2049,15 +4791,51 @@
     "slug": "st-pauli",
     "source": "football-logos"
   },
+  "Germany|Fortuna Düsseldorf": {
+    "id": "fortuna-dusseldorf",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/256x256/fortuna-dusseldorf.e6e456f0.png"
+  },
   "Germany|Greuther Fürth": {
     "id": "spvgg-greuther-furth",
     "slug": "spvgg-greuther-furth",
     "source": "football-logos"
   },
+  "Germany|HEBC Hamburg": {
+    "id": "hebc-hamburg",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/hebc.59ae00fc.png"
+  },
+  "Germany|Hallescher FC": {
+    "id": "hallescher",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/256x256/hallescher.534007d9.png"
+  },
   "Germany|Hamburger SV": {
     "id": "hamburger-sv",
     "slug": "hamburger-sv",
     "source": "football-logos"
+  },
+  "Germany|Hannover 96": {
+    "id": "hannover-96",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/256x256/hannover-96.0da3807f.png"
+  },
+  "Germany|Hansa Rostock": {
+    "id": "hansa-rostock",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/256x256/hansa-rostock.0e79d560.png"
+  },
+  "Germany|Hemelingen": {
+    "id": "hemelingen",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/256x256/sv-hemelingen.cb1a94da.png"
   },
   "Germany|Hertha BSC": {
     "id": "hertha-bsc",
@@ -2069,10 +4847,46 @@
     "slug": "holstein-kiel",
     "source": "football-logos"
   },
+  "Germany|Kaiserslautern": {
+    "id": "kaiserslautern",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/256x256/fc-kaiserslautern.dd69845b.png"
+  },
+  "Germany|Karlsruher SC": {
+    "id": "karlsruher",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/256x256/karlsruher.c1e834ee.png"
+  },
+  "Germany|Lüneburger SK Hansa": {
+    "id": "luneburger-hansa",
+    "source": "url",
+    "slug": null,
+    "url": "https://raw.githubusercontent.com/JoseArroyave/football-logos/refs/heads/main/logos/germany/L%C3%BCneburger_SK_Hansa.svg"
+  },
+  "Germany|MSV Duisburg": {
+    "id": "msv-duisburg",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/256x256/msv-duisburg.f0d2398e.png"
+  },
+  "Germany|Preußen Münster": {
+    "id": "preussen-munster",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/256x256/preussen-munster.ac6722b7.png"
+  },
   "Germany|RB Leipzig": {
     "id": "rb-leipzig",
     "slug": "rb-leipzig",
     "source": "football-logos"
+  },
+  "Germany|Rot-Weiss Essen": {
+    "id": "rot-weiss-essen",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/essen.9adb1d5a.png"
   },
   "Germany|SC Freiburg": {
     "id": "freiburg",
@@ -2084,6 +4898,30 @@
     "slug": "paderborn",
     "source": "football-logos"
   },
+  "Germany|SC St. Tönis": {
+    "id": "st-tonis",
+    "source": "url",
+    "slug": null,
+    "url": "https://sc-sttoenis.de/wp-content/uploads/2022/06/logo1.png"
+  },
+  "Germany|SC Verl": {
+    "id": "verl",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/sc-verl.692be90d.png"
+  },
+  "Germany|SG Sonnenhof Großaspach": {
+    "id": "sg-sonnenhof-grossaspach",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/sg-sonnenhof-grossaspach.d0ad5e8d.png"
+  },
+  "Germany|SSV Jeddeloh II": {
+    "id": "ssv-jeddeloh-ii",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/256x256/ssv-jeddeloh-ii.2b3fc2f1.png"
+  },
   "Germany|SV 07 Elversberg": {
     "id": "sv-elversberg",
     "slug": "sv-elversberg",
@@ -2094,15 +4932,63 @@
     "slug": "darmstadt",
     "source": "football-logos"
   },
+  "Germany|SV Waldhof Mannheim": {
+    "id": "waldhof-mannheim",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/256x256/sv-waldhof-mannheim.f1601d05.png"
+  },
+  "Germany|SV Wehen Wiesbaden": {
+    "id": "wehen-wiesbaden",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/256x256/sv-wehen-wiesbaden.079c092a.png"
+  },
   "Germany|SV Werder Bremen": {
     "id": "werder-bremen",
     "slug": "werder-bremen",
     "source": "football-logos"
   },
+  "Germany|Saarbrücken": {
+    "id": "saarbrucken",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/256x256/saarbrucken.3e24707f.png"
+  },
   "Germany|TSG 1899 Hoffenheim": {
     "id": "hoffenheim",
     "slug": "hoffenheim",
     "source": "football-logos"
+  },
+  "Germany|TSV 1860 Munich": {
+    "id": "tsv-1860-munich",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/135.png"
+  },
+  "Germany|TSV Eintracht Braunschweig": {
+    "id": "tsv-eintracht-braunschweig",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3067.png"
+  },
+  "Germany|TSV Schott Mainz": {
+    "id": "tsv-schott-mainz",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/1500x1500/tsv-schott-mainz.d9ad510d.png"
+  },
+  "Germany|VFB Krieschow": {
+    "id": "krieschow",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/256x256/vfb-krieschow.85f4311d.png"
+  },
+  "Germany|VSG Altglienicke": {
+    "id": "vsg-altglienicke",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/256x256/vsg-altglienicke.43f528ee.png"
   },
   "Germany|VfB Stuttgart": {
     "id": "vfb-stuttgart",
@@ -2114,10 +5000,34 @@
     "slug": "vfl-bochum",
     "source": "football-logos"
   },
+  "Germany|VfL Osnabruck": {
+    "id": "osnabruck",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/256x256/osnabruck.0848c2dc.png"
+  },
   "Germany|VfL Wolfsburg": {
     "id": "wolfsburg",
     "slug": "wolfsburg",
     "source": "football-logos"
+  },
+  "Germany|Viktoria Köln": {
+    "id": "viktoria-koln",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/256x256/fc-viktoria-koln.440e6c5e.png"
+  },
+  "Germany|Westfalia Rhynern": {
+    "id": "westfalia-rhynern",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/256x256/westfalia-rhynern.227cd804.png"
+  },
+  "Germany|Würzburger Kickers": {
+    "id": "wurzburger-kickers",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/germany/256x256/wurzburger-kickers.49bfe174.png"
   },
   "Greece|AE Kifisia": {
     "id": "kifisia",
@@ -2556,10 +5466,28 @@
     "slug": null,
     "source": "luukhopman"
   },
+  "Italy|Arezzo": {
+    "id": "arezzo",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/italy/256x256/arezzo.9858d5d3.png"
+  },
+  "Italy|Ascoli": {
+    "id": "ascoli",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/italy/256x256/ascoli.b80b3939.png"
+  },
   "Italy|Atalanta BC": {
     "id": "atalanta",
     "slug": "atalanta",
     "source": "football-logos"
+  },
+  "Italy|Benevento": {
+    "id": "benevento",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/italy/256x256/benevento.ecdcc981.png"
   },
   "Italy|Bologna FC 1909": {
     "id": "bologna",
@@ -2570,6 +5498,30 @@
     "id": "cagliari",
     "slug": "cagliari",
     "source": "football-logos"
+  },
+  "Italy|Carrarese": {
+    "id": "carrarese",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/italy/256x256/carrarese.512584be.png"
+  },
+  "Italy|Catania": {
+    "id": "catania",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/italy/256x256/catania.a99af832.png"
+  },
+  "Italy|Catanzaro": {
+    "id": "catanzaro",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/italy/256x256/catanzaro.2deb6417.png"
+  },
+  "Italy|Cesena": {
+    "id": "cesena",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/italy/256x256/cesena.f6a73bf8.png"
   },
   "Italy|Como 1907": {
     "id": "como-1907",
@@ -2601,6 +5553,18 @@
     "slug": "inter",
     "source": "football-logos"
   },
+  "Italy|Internazionale": {
+    "id": "inter",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png"
+  },
+  "Italy|Juve Stabia": {
+    "id": "juve-stabia",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/italy/256x256/juve-stabia.d44cbe92.png"
+  },
   "Italy|Juventus": {
     "id": "juventus",
     "slug": "juventus",
@@ -2616,6 +5580,30 @@
     "slug": "lazio",
     "source": "football-logos"
   },
+  "Italy|Mantova": {
+    "id": "mantova",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3991.png"
+  },
+  "Italy|Modena": {
+    "id": "modena",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/italy/256x256/modena.13041e43.png"
+  },
+  "Italy|Padova": {
+    "id": "padova",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/italy/256x256/padova.a69e0bf7.png"
+  },
+  "Italy|Palermo": {
+    "id": "palermo",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/italy/256x256/palermo.46444a50.png"
+  },
   "Italy|Parma Calcio 1913": {
     "id": "parma",
     "slug": "parma",
@@ -2625,6 +5613,18 @@
     "id": "pisa",
     "slug": "pisa",
     "source": "football-logos"
+  },
+  "Italy|Potenza": {
+    "id": "potenza",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/italy/256x256/potenza.226a9303.png"
+  },
+  "Italy|Ravenna": {
+    "id": "ravenna",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/italy/256x256/ravenna.40473d3c.png"
   },
   "Italy|SS Lazio": {
     "id": "lazio",
@@ -2651,6 +5651,12 @@
     "slug": "spezia",
     "source": "football-logos"
   },
+  "Italy|Sudtirol": {
+    "id": "sudtirol",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/11139.png"
+  },
   "Italy|Torino FC": {
     "id": "torino",
     "slug": "torino",
@@ -2660,6 +5666,12 @@
     "id": "sampdoria",
     "slug": "sampdoria",
     "source": "football-logos"
+  },
+  "Italy|US Avellino": {
+    "id": "avellino",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/4055.png"
   },
   "Italy|US Cremonese": {
     "id": "cremonese",
@@ -2686,6 +5698,12 @@
     "slug": "udinese",
     "source": "football-logos"
   },
+  "Italy|Union Brescia": {
+    "id": "union-brescia",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/italy/256x256/union-brescia.14bc62b2.png"
+  },
   "Italy|Venezia": {
     "id": "venezia",
     "slug": "venezia",
@@ -2695,6 +5713,18 @@
     "id": "venezia",
     "slug": "venezia",
     "source": "football-logos"
+  },
+  "Italy|Vicenza": {
+    "id": "vicenza",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/italy/256x256/vicenza.7df775fd.png"
+  },
+  "Italy|Virtus Entella": {
+    "id": "virtus-entella",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/italy/256x256/virtus-entella.0a884c1d.png"
   },
   "Mexico|América": {
     "id": "america",
@@ -4254,10 +7284,46 @@
     "slug": "zeleznicar-pancevo",
     "source": "football-logos"
   },
+  "Spain|AD Ceuta FC": {
+    "id": "ad-ceuta",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/5404.png"
+  },
+  "Spain|AD Sporting Hortaleza": {
+    "id": "ad-sporting-hortaleza",
+    "source": "url",
+    "slug": null,
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/32/AD_Sporting_Hortaleza.png/250px-AD_Sporting_Hortaleza.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  "Spain|AE Prat": {
+    "id": "ae-prat",
+    "source": "url",
+    "slug": null,
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/f3/AE_Prat.png/250px-AE_Prat.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
   "Spain|Alavés": {
     "id": "alaves",
     "slug": "deportivo",
     "source": "football-logos"
+  },
+  "Spain|Albacete Balompié": {
+    "id": "albacete-balompie",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2737.png"
+  },
+  "Spain|Antequera CF": {
+    "id": "antequera",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/antequera.32456f70.png"
+  },
+  "Spain|Arosa SC": {
+    "id": "arosa",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/arosa-sc.bd702af5.png"
   },
   "Spain|Athletic": {
     "id": "athletic-club",
@@ -4269,35 +7335,347 @@
     "slug": "athletic-club",
     "source": "football-logos"
   },
+  "Spain|Atlético Calatayud": {
+    "id": "atletico-calatayud",
+    "source": "url",
+    "slug": null,
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/8/89/Atl%C3%A9tico_Calatayud.png/250px-Atl%C3%A9tico_Calatayud.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  "Spain|Atlético Melilla CF": {
+    "id": "atletico-melilla",
+    "source": "url",
+    "slug": null,
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/5a/Atl%C3%A9tico_Melilla_CF.png/250px-Atl%C3%A9tico_Melilla_CF.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  "Spain|Atlético Tordesillas": {
+    "id": "atletico-tordesillas",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/atletico-tordesillas.84b8fcf6.png"
+  },
+  "Spain|Atlético Unión Güímar": {
+    "id": "atletico-union-guimar",
+    "source": "url",
+    "slug": null,
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/47/Atl%C3%A9tico_Uni%C3%B3n_G%C3%BC%C3%ADmar.png/250px-Atl%C3%A9tico_Uni%C3%B3n_G%C3%BC%C3%ADmar.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
   "Spain|Atlético de Madrid": {
     "id": "atletico-madrid",
     "slug": "atletico-madrid",
     "source": "football-logos"
+  },
+  "Spain|Auriense CA": {
+    "id": "auriense",
+    "source": "url",
+    "slug": null,
+    "url": "https://kickingdata.com/wp-content/uploads/2026/10/28410.png"
+  },
+  "Spain|Barakaldo CF": {
+    "id": "barakaldo",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/barakaldo.24ef1f1f.png"
   },
   "Spain|Barcelona": {
     "id": "barcelona",
     "slug": "barcelona",
     "source": "football-logos"
   },
+  "Spain|Burgos CF": {
+    "id": "burgos",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/12597.png"
+  },
   "Spain|CA Osasuna": {
     "id": "osasuna",
     "slug": "osasuna",
     "source": "football-logos"
+  },
+  "Spain|CD Alcoyano": {
+    "id": "alcoyano",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/alcoyano.93f581ae.png"
+  },
+  "Spain|CD Anaitasuna": {
+    "id": "anaitasuna",
+    "source": "url",
+    "slug": null,
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/d8/CD_Anaitasuna.png/250px-CD_Anaitasuna.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  "Spain|CD Atlético Baleares": {
+    "id": "atletico-baleares",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/atletico-baleares.51ab17f4.png"
+  },
+  "Spain|CD Atlético Paso": {
+    "id": "atletico-paso",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/cd-atletico-paso.94b3d15b.png"
+  },
+  "Spain|CD Badajoz": {
+    "id": "badajoz",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/cd-badajoz.72b9e02b.png"
+  },
+  "Spain|CD Baztán KE": {
+    "id": "baztan-ke",
+    "source": "url",
+    "slug": null,
+    "url": "https://upload.wikimedia.org/wikipedia/en/2/27/CD_Bazt%C3%A1n_logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled"
+  },
+  "Spain|CD Castellón": {
+    "id": "castellon",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/4438.png"
+  },
+  "Spain|CD Ceuta 6 de Junio": {
+    "id": "ceuta-6-de-junio",
+    "source": "url",
+    "slug": null,
+    "url": "https://futbol-regional.es/media/historico/escudos/31357.png"
+  },
+  "Spain|CD Cieza": {
+    "id": "cieza",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/cd-cieza.8168fd26.png"
+  },
+  "Spain|CD Ciudad Lucena": {
+    "id": "ciudad-lucena",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/cd-ciudad-de-lucena.e0132440.png"
+  },
+  "Spain|CD Coria": {
+    "id": "coria",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/cd-coria.9df72c8b.png"
+  },
+  "Spain|CD Covadonga": {
+    "id": "covadonga",
+    "source": "url",
+    "slug": null,
+    "url": "https://upload.wikimedia.org/wikipedia/en/8/86/CDCovadonga.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled"
+  },
+  "Spain|CD Cuarte": {
+    "id": "cuarte",
+    "source": "url",
+    "slug": null,
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c7/CD_Cuarte_Industrial.png/250px-CD_Cuarte_Industrial.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  "Spain|CD Don Benito": {
+    "id": "don-benito",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/cd-don-benito.018d6b9d.png"
+  },
+  "Spain|CD Eldense": {
+    "id": "eldense",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7320.png"
+  },
+  "Spain|CD Extremadura": {
+    "id": "extremadura",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/cd-extremadura.c811e1a0.png"
+  },
+  "Spain|CD Guijuelo": {
+    "id": "guijuelo",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/guijuelo.9d93f7af.png"
+  },
+  "Spain|CD Laredo": {
+    "id": "laredo",
+    "source": "url",
+    "slug": null,
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/30/CD_Laredo.png/250px-CD_Laredo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
   },
   "Spain|CD Leganés": {
     "id": "leganes",
     "slug": "leganes",
     "source": "football-logos"
   },
+  "Spain|CD Manacor": {
+    "id": "manacor",
+    "source": "url",
+    "slug": null,
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c0/CD_Manacor.png/250px-CD_Manacor.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  "Spain|CD Minera": {
+    "id": "minera",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/deportiva-minera.7e58e407.png"
+  },
+  "Spain|CD Mirandés": {
+    "id": "mirandes",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/4515.png"
+  },
+  "Spain|CD Numancia de Soria": {
+    "id": "numancia-de-soria",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/100.png"
+  },
+  "Spain|CD Pamplona": {
+    "id": "pamplona",
+    "source": "url",
+    "slug": null,
+    "url": "https://upload.wikimedia.org/wikipedia/en/1/1b/CD_Pamplona_logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled"
+  },
+  "Spain|CD San José": {
+    "id": "san-jose",
+    "source": "url",
+    "slug": null,
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/30/CD_San_Jos%C3%A9.png/250px-CD_San_Jos%C3%A9.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  "Spain|CD Tarancón": {
+    "id": "tarancon",
+    "source": "url",
+    "slug": null,
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/a/a3/CD_Taranc%C3%B3n_logo.png/250px-CD_Taranc%C3%B3n_logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  "Spain|CD Tedeón": {
+    "id": "tedeon",
+    "source": "url",
+    "slug": null,
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/df/CD_Tede%C3%B3n_EF.png/250px-CD_Tede%C3%B3n_EF.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  "Spain|CD Tenerife": {
+    "id": "tenerife",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/245.png"
+  },
+  "Spain|CD Tudelano": {
+    "id": "tudelano",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/cd-tudelano.67f84c5c.png"
+  },
+  "Spain|CD Varea": {
+    "id": "varea",
+    "source": "url",
+    "slug": null,
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/fd/CD_Varea.png/250px-CD_Varea.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  "Spain|CDA Navalcarnero": {
+    "id": "cda-navalcarnero",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/cda-navalcarnero.221bb323.png"
+  },
+  "Spain|CE Europa": {
+    "id": "ce-europa",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/ce-europa.9e82674a.png"
+  },
+  "Spain|CE Manresa": {
+    "id": "ce-manresa",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/manresa.a4097aeb.png"
+  },
+  "Spain|CE Sabadell FC": {
+    "id": "ce-sabadell",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/11487.png"
+  },
+  "Spain|CF Calamocha": {
+    "id": "calamocha",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/cf-calamocha.ca47f737.png"
+  },
+  "Spain|CF Rayo Majadahonda": {
+    "id": "rayo-majadahonda",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9028.png"
+  },
+  "Spain|CF San Rafael": {
+    "id": "san-rafael",
+    "source": "url",
+    "slug": null,
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/8/86/CF_Sant_Rafel.png/250px-CF_Sant_Rafel.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  "Spain|CF Trival Valderas Alcorcón": {
+    "id": "trival-valderas-alcorcon",
+    "source": "url",
+    "slug": null,
+    "url": "https://api.clupik.com/clubs/10724/images/clubTransparent.png"
+  },
+  "Spain|CF UE Tavernes de la Valldigna": {
+    "id": "ue-tavernes-de-la-valldigna",
+    "source": "url",
+    "slug": null,
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/73/CF_UE_Tavernes_de_la_Valldigna.png/250px-CF_UE_Tavernes_de_la_Valldigna.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  "Spain|CP Mijas-Las Lagunas": {
+    "id": "cp-mijas-las-lagunas",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/mijas-las-lagunas.49540783.png"
+  },
+  "Spain|CP Talayuela": {
+    "id": "cp-talayuela",
+    "source": "url",
+    "slug": null,
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/2/22/CP_Talayuela.png/250px-CP_Talayuela.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  "Spain|CS Puertollano CF": {
+    "id": "cs-puertollano",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/calvo-sotelo-puertollano-cf.fe81ae1b.png"
+  },
   "Spain|Celta de Vigo": {
     "id": "celta",
     "slug": "celta",
     "source": "football-logos"
   },
+  "Spain|Club Portugalete": {
+    "id": "club-portugalete",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/portugalete.d008e7ea.png"
+  },
+  "Spain|Coruxo FC": {
+    "id": "coruxo",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/coruxo.36883d2f.png"
+  },
+  "Spain|CyD Leonesa": {
+    "id": "cyd-leonesa",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/10629.png"
+  },
   "Spain|Cádiz CF": {
     "id": "cadiz",
     "slug": "cadiz",
     "source": "football-logos"
+  },
+  "Spain|Córdoba CF": {
+    "id": "cordoba",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/8447.png"
   },
   "Spain|Deportivo A Coruña": {
     "id": "deportivo-la-coruna",
@@ -4309,6 +7687,12 @@
     "slug": "deportivo",
     "source": "football-logos"
   },
+  "Spain|EMERS Sporting de Alcázar CF": {
+    "id": "emers-sporting-de-alcazar",
+    "source": "url",
+    "slug": null,
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/bb/Sporting_de_Alc%C3%A1zar_CF.png/250px-Sporting_de_Alc%C3%A1zar_CF.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
   "Spain|Elche CF": {
     "id": "elche",
     "slug": "elche",
@@ -4319,15 +7703,33 @@
     "slug": "espanyol",
     "source": "football-logos"
   },
+  "Spain|FC Andorra": {
+    "id": "andorra",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20179.png"
+  },
   "Spain|FC Barcelona": {
     "id": "barcelona",
     "slug": "barcelona",
     "source": "football-logos"
   },
+  "Spain|FC Cartagena": {
+    "id": "cartagena",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/5419.png"
+  },
   "Spain|Getafe CF": {
     "id": "getafe",
     "slug": "getafe",
     "source": "football-logos"
+  },
+  "Spain|Gimnástica Segoviana CF": {
+    "id": "gimnastica-segoviana",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/gimnastica-segoviana.08bfd2df.png"
   },
   "Spain|Girona FC": {
     "id": "girona",
@@ -4349,6 +7751,24 @@
     "slug": "malaga",
     "source": "football-logos"
   },
+  "Spain|Peña Sport FC": {
+    "id": "pena-sport",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/pena-sport.6e1e869b.png"
+  },
+  "Spain|Pontevedra CF": {
+    "id": "pontevedra",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/pontevedra-cf.34bde7a8.png"
+  },
+  "Spain|RC Recreativo de Huelva": {
+    "id": "recreativo-de-huelva",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/recreativo-huelva.aa5a989e.png"
+  },
   "Spain|RCD Espanyol Barcelona": {
     "id": "espanyol",
     "slug": "espanyol",
@@ -4358,6 +7778,18 @@
     "id": "mallorca",
     "slug": "mallorca",
     "source": "football-logos"
+  },
+  "Spain|RS Gimnástica de Torrelavega": {
+    "id": "rs-gimnastica-de-torrelavega",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/gimnastica-torrelavega.daae303b.png"
+  },
+  "Spain|RSD Alcalá": {
+    "id": "rsd-alcala",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/rsd-alcala.d094d1c4.png"
   },
   "Spain|Racing Santander": {
     "id": "racing",
@@ -4374,6 +7806,12 @@
     "slug": "real-betis",
     "source": "football-logos"
   },
+  "Spain|Real Jaén CF": {
+    "id": "real-jaen",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/real-jaen-cf.e4f2e3de.png"
+  },
   "Spain|Real Madrid": {
     "id": "real-madrid",
     "slug": "real-madrid",
@@ -4389,25 +7827,181 @@
     "slug": "real-sociedad",
     "source": "football-logos"
   },
+  "Spain|Real Sporting de Gijón": {
+    "id": "real-sporting-de-gijon",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3788.png"
+  },
+  "Spain|Real Unión Club": {
+    "id": "real-union-club",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/real-union.b1d534d0.png"
+  },
   "Spain|Real Valladolid CF": {
     "id": "valladolid",
     "slug": "valladolid",
     "source": "football-logos"
+  },
+  "Spain|Real Zaragoza": {
+    "id": "real-zaragoza",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/91.png"
+  },
+  "Spain|Real Ávila CF": {
+    "id": "real-avila",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/real-avila.b7d21464.png"
+  },
+  "Spain|Reus FC Reddis": {
+    "id": "reus-reddis",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/reus-fc-reddis.ddf3bc7c.png"
+  },
+  "Spain|Ribadesella CF": {
+    "id": "ribadesella",
+    "source": "url",
+    "slug": null,
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/e/e0/Ribadesella_CF.png/250px-Ribadesella_CF.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  "Spain|SD Amorebieta": {
+    "id": "amorebieta",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/12587.png"
+  },
+  "Spain|SD Eibar": {
+    "id": "eibar",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3752.png"
+  },
+  "Spain|SD Huesca": {
+    "id": "huesca",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/5413.png"
+  },
+  "Spain|SD Noja": {
+    "id": "noja",
+    "source": "url",
+    "slug": null,
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c2/SD_Noja.png/250px-SD_Noja.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  "Spain|SD Ponferradina": {
+    "id": "ponferradina",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/5463.png"
+  },
+  "Spain|Salamanca CF UDS": {
+    "id": "salamanca-uds",
+    "source": "url",
+    "slug": null,
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/da/Salamanca_CF_UDS_logo.svg/250px-Salamanca_CF_UDS_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  "Spain|Sestao River Club": {
+    "id": "sestao-river-club",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/sestao-river.caa0c470.png"
   },
   "Spain|Sevilla FC": {
     "id": "sevilla",
     "slug": "sevilla",
     "source": "football-logos"
   },
+  "Spain|UB Conquense": {
+    "id": "ub-conquense",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/ub-conquense.c14c0d63.png"
+  },
+  "Spain|UB Lebrijana": {
+    "id": "ub-lebrijana",
+    "source": "url",
+    "slug": null,
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/37/UB_Lebrijana_logo.png/250px-UB_Lebrijana_logo.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
   "Spain|UD Almería": {
     "id": "almeria",
     "slug": "almeria",
     "source": "football-logos"
   },
+  "Spain|UD Castellonense": {
+    "id": "castellonense",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/castellonense.43b4056c.png"
+  },
   "Spain|UD Las Palmas": {
     "id": "las-palmas",
     "slug": "las-palmas",
     "source": "football-logos"
+  },
+  "Spain|UD Llanera": {
+    "id": "llanera",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/ud-llanera.d0b70a00.png"
+  },
+  "Spain|UD Logroñés": {
+    "id": "logrones",
+    "source": "url",
+    "slug": null,
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7206.png"
+  },
+  "Spain|UD Maracena": {
+    "id": "maracena",
+    "source": "url",
+    "slug": null,
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/6/60/UD_Maracena.png/250px-UD_Maracena.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  "Spain|UD Ourense": {
+    "id": "ourense",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/ud-ourense.81d4ce0d.png"
+  },
+  "Spain|UD Pinatar": {
+    "id": "pinatar",
+    "source": "url",
+    "slug": null,
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/71/UD_Pinatar.svg/250px-UD_Pinatar.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  "Spain|UD Poblense": {
+    "id": "poblense",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/poblense.fb9e823e.png"
+  },
+  "Spain|UD San Sebastián de los Reyes": {
+    "id": "san-sebastian-de-los-reyes",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/ud-san-sebastian-de-los-reyes.04376673.png"
+  },
+  "Spain|UE Sant Andreu": {
+    "id": "ue-sant-andreu",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/sant-andreu.ba13ec4e.png"
+  },
+  "Spain|Unionistas de Salamanca CF": {
+    "id": "unionistas-de-salamanca",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/unionistas-de-salamanca.01ec9b69.png"
+  },
+  "Spain|Utebo FC": {
+    "id": "utebo",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/utebo.75babcfb.png"
   },
   "Spain|Valencia": {
     "id": "valencia",
@@ -4423,6 +8017,24 @@
     "id": "villarreal",
     "slug": "villarreal",
     "source": "football-logos"
+  },
+  "Spain|Xerez CD": {
+    "id": "xerez",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/xerez-cd.49be6c18.png"
+  },
+  "Spain|Zamora CF": {
+    "id": "zamora-es",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/zamora.f4d98fba.png"
+  },
+  "Spain|Águilas FC": {
+    "id": "aguilas",
+    "source": "url",
+    "slug": null,
+    "url": "https://assets.football-logos.cc/logos/spain/700x700/aguilas-fc.6f6cef43.png"
   },
   "Sweden|AIK": {
     "id": "aik",

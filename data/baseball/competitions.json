@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "competitions": [
+    {
+      "id": "mlb",
+      "name": "Major League Baseball",
+      "aliases": [
+        "MLB"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "north-america",
+      "country": null,
+      "logo": "baseball/competitions/north-america/mlb.png"
+    }
+  ]
+}

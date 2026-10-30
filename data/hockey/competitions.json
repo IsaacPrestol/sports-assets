@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "competitions": [
+    {
+      "id": "nhl",
+      "name": "National Hockey League",
+      "aliases": [
+        "NHL"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "north-america",
+      "country": null,
+      "logo": "hockey/competitions/north-america/nhl.png"
+    }
+  ]
+}

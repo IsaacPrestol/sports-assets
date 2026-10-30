@@ -18,6 +18,10 @@ sports-assets/
 ├── ufc/
 │   ├── fighters/
 │   └── logos/
+├── baseball/                            # MLB: competitions/ y teams/<país>/
+├── basketball/                          # NBA: competitions/ y teams/<país>/
+├── hockey/                              # NHL: competitions/ y teams/<país>/
+├── american-football/                   # NFL: competitions/ y teams/us/
 ├── data/
 │   ├── football/
 │   │   ├── competitions.json          # catálogo (fuente de verdad, se edita a mano)
@@ -25,7 +29,8 @@ sports-assets/
 │   │   ├── clubs.json                 # catálogo de clubes (lo actualiza sync_clubs.py)
 │   │   ├── clubs-mapping.json         # emparejamientos club → escudo, revisados
 │   │   ├── rosters.json               # clubes por liga y temporada de las ligas de América (a mano)
-│   │   └── clubs-lookup.json          # generado: país → nombre normalizado → id
+│   │   ├── clubs-lookup.json          # generado: país → nombre normalizado → id
+│   │   └── domestic-coverage.json     # auditoría de ligas y copas, incluidos clasificatorios
 │   ├── fighters.json
 │   ├── ufc-logos.json
 │   ├── ufc-fighters-seed.json
@@ -121,7 +126,9 @@ Después actualiza `logo` en el catálogo, registra el origen en `data/sources.j
 
 ## Clubes de fútbol
 
-Escudos de los clubes de 41 ligas: los de la temporada actual y los que han jugado en ellas desde 2021/22 (Europa) o 2022 (América).
+Clubes de 41 ligas (temporada actual e historial desde 2021/22 en Europa o 2022
+en América), además de participantes en las copas domésticas de Inglaterra,
+España, Italia, Alemania y Francia, incluidas sus rondas clasificatorias.
 
 - **Europa (25 ligas):** la lista de clubes viene de [luukhopman/football-logos](https://github.com/luukhopman/football-logos).
 - **América (16 ligas: los 10 países de CONMEBOL, Liga MX, MLS, Canadian Premier League, Costa Rica, Guatemala y Panamá):** la lista de clubes está en `data/football/rosters.json`, mantenido a mano a partir de Wikipedia.
@@ -176,6 +183,185 @@ En América, antes de `plan` hay que añadir la temporada nueva de cada liga a `
 - La temporada es `AAAA` en las ligas de año natural y `AAAA-AA` en Liga MX, Costa Rica y Guatemala (Apertura y Clausura juntos). La más reciente es la actual.
 - Usa el nombre del club tal como aparece en la Wikipedia en inglés y escríbelo igual en todas las temporadas.
 - Si football-logos.cc no tiene el escudo, pon en `clubs-mapping.json` `"source": "url"` con la URL https de un PNG de Wikipedia/Wikimedia, o `"source": "none"` si no hay ninguno.
+
+### Cobertura de las competiciones domésticas de fútbol
+
+`data/football/domestic-coverage.json` conserva la auditoría de 2026/27,
+comprobada el 30 de octubre de 2026: fuentes, ids de clubes por competición,
+fase de entrada cuando está disponible y lista explícita de escudos pendientes.
+
+| Competición | Entrantes catalogados | Cobertura de la lista |
+|---|---:|---|
+| Premier League / LaLiga / Serie A | 20 cada una | completa |
+| Bundesliga / Ligue 1 | 18 cada una | completa |
+| FA Cup | 743 | lista oficial de admitidos, desde extra preliminary round |
+| EFL Cup | 92 | completa |
+| Copa del Rey | 126 | incluye los 20 de la previa y sus 10 perdedores |
+| Coppa Italia | 44 | incluye el turno preliminar; sin equipos ficticios TBD |
+| DFB-Pokal | 64 | completa |
+| Supercopas de los cinco países | 2 cada una; España 4 | participantes ya cubiertos |
+| Coupe de France | 7.031 | parcial: 7.002 identidades FFF regionales más otros entrantes nacionales |
+
+`complete` se refiere a la **lista de participantes**, no a la disponibilidad
+de sus imágenes. Un club sin escudo transparente verificado usa `logo: null`;
+no se publica como recurso visual en `all-assets.json`. No se usan imágenes
+genéricas, escudos de otro club ni fondos blancos convertidos automáticamente.
+
+En Francia se consultaron 190 páginas de partidos de 19 grupos, incluidas
+Mayotte y Réunion, mediante el espejo TheFootData de la competición FFF 449168.
+La lista no sustituye al registro completo: por ejemplo, LAURA ofrece 892
+clubes en partidos frente a 897 inscritos oficialmente. Faltan reconciliaciones
+de bajas antes de jugar, exentos y fases locales de Nueva Caledonia, Polinesia
+y Saint-Pierre-et-Miquelon. El archivo marca esta competición como incompleta.
+
+La participación en una copa va en la auditoría; `league` conserva solo la
+liga actual o `null` para los clubes fuera de las ligas cubiertas. Las cinco
+primeras divisiones se revisaron con listas de 2026/27. Los campos opcionales
+`external_ids.espn` y `external_ids.fff` registran identidades del proveedor,
+sin reemplazar el id estable del CDN.
+
+Se mantienen separados AFC Liverpool y Liverpool FC, AFC Mansfield y Mansfield
+Town, o AS Strasbourg y RC Strasbourg. Las grafías con AFC al final (Leeds United
+AFC, Wrexham AFC, etc.) son alias del mismo club. Si dos clubes FFF tienen un
+nombre indistinguible, el catálogo añade su identificador FFF como desambiguación
+y evita un alias ambiguo.
+
+Para mejorar un escudo pendiente, identifica primero el club en la fuente de la
+auditoría, registra el origen en `data/sources.json`, normaliza el PNG con
+`scripts/normalize_logo.py` y actualiza `logo`. Regenera los índices y actualiza
+`missing_logos` en la auditoría. Los tests protegen la cobertura y la separación
+de clubes distintos. El flujo `sync_clubs.py` conserva los clubes y alias
+existentes editados a mano.
+
+## MLB — béisbol
+
+Los 30 equipos de MLB y el logo de la liga siguen las convenciones de los
+catálogos de fútbol: ids estables, alias explícitos, PNG transparente recortado,
+lado mayor de 1024 px como máximo y origen en `data/sources.json`.
+Las imágenes actuales proceden de ESPN (500 px antes del recorte, sin ampliar);
+los nombres, ids y divisiones se contrastaron con MLB Stats API para 2026.
+
+```text
+baseball/
+├── competitions/north-america/mlb.png
+└── teams/
+    ├── us/<id>.png
+    └── ca/toronto-blue-jays.png
+data/baseball/
+├── competitions.json
+├── competitions-lookup.json       # generado: nombre normalizado → id
+├── teams.json
+└── teams-lookup.json              # generado: liga → nombre normalizado → id
+```
+
+`competitions.json` y `teams.json` son los catálogos editables, con `version: 1`
+y listas `competitions` / `teams`. Cada equipo tiene `id`, `name`, `aliases`,
+`abbreviation`, `mlb_id`, `country`, `league`, `division` y `logo`.
+`mlb_id` es el identificador numérico oficial; `league` es `mlb` y `division`
+usa `AL East`, `AL Central`, `AL West`, `NL East`, `NL Central` o `NL West`.
+Aquí `country` indica la ubicación del equipo: Toronto usa `CA`, los demás `US`.
+MLB tiene `country: null` porque incluye equipos de ambos países.
+
+Normaliza el nombre con las mismas reglas que fútbol y busca en
+`teams-lookup.json["mlb"]`: `"nyy"` → `"new-york-yankees"`.
+Después toma `logo` del catálogo. Las abreviaturas también se indexan.
+El nombre actual es `Athletics`; `Oakland Athletics`, `OAK` y `A's` son alias
+del mismo equipo, no entradas históricas ni logos antiguos.
+
+```text
+https://cdn.jsdelivr.net/gh/IsaacPrestol/sports-assets@main/baseball/teams/us/new-york-yankees.png
+https://cdn.jsdelivr.net/gh/IsaacPrestol/sports-assets@main/baseball/competitions/north-america/mlb.png
+```
+
+`data/all-assets.json` añade las colecciones `baseball-teams` y
+`baseball-competitions`, con la misma forma `{id: {name, path}}` que fútbol.
+
+Para actualizar:
+
+1. Revisa nombres, alias, divisiones y equipos en el catálogo contra MLB.
+   Conserva los ids publicados y añade los nombres anteriores como alias.
+2. Revisa las URLs de los logos en `data/sources.json` antes de cambiarlas.
+3. Ejecuta `python scripts/sync_mlb.py` para descargar los logos que falten.
+   Usa `--force` para sustituir todos los existentes desde las URLs revisadas.
+   El script normaliza imágenes, registra la fecha y regenera los índices.
+4. Revisa visualmente los logos y ejecuta
+   `python -m unittest discover -s tests` y `python scripts/validate_assets.py`.
+
+Para cambios solo de metadatos, basta `python scripts/build_index.py`.
+La validación detecta rutas incorrectas, archivos ausentes o huérfanos,
+alias ambiguos dentro de la liga, ids duplicados y logos opacos o mayores de
+1024 px. Los logos siguen siendo marcas de sus propietarios; su descarga
+no concede una licencia de redistribución.
+
+## NBA, NHL y NFL
+
+Los tres deportes siguen la estructura de MLB, con PNG transparentes recortados,
+sin ampliar y con lado mayor de 1024 px como máximo:
+
+| Liga | Equipos actuales | Carpeta de imágenes | Carpeta de catálogos |
+|---|---|---|---|
+| NBA | 30 | `basketball/` | `data/basketball/` |
+| NHL | 32 | `hockey/` | `data/hockey/` |
+| NFL | 32 | `american-football/` | `data/american-football/` |
+
+Cada carpeta de imágenes contiene `competitions/north-america/<liga>.png` y
+`teams/<país>/<id>.png`. `american-football` distingue NFL del fútbol de
+`football/`. El país indica la ubicación del equipo: `CA` para Toronto Raptors
+y los siete equipos canadienses de NHL, `US` para los demás.
+
+Los catálogos editables son `competitions.json` y `teams.json`, con `version: 1`
+y listas `competitions` / `teams`, igual que MLB. Los equipos tienen `id`,
+`name`, `aliases`, `abbreviation`, `espn_id`, `country`, `league`, `conference`,
+`division` y `logo`. `espn_id` identifica al equipo en ESPN; no es un id oficial
+de NBA, NHL o NFL. NBA y NHL usan `Eastern` / `Western`; NFL usa `AFC` / `NFC`.
+`division` contiene el nombre de la división sin repetir la conferencia.
+
+`build_index.py` genera `competitions-lookup.json` y `teams-lookup.json` dentro
+de cada carpeta de datos. Usa la misma normalización que fútbol y MLB:
+`teams_lookup["nba"]["gsw"]` → `golden-state-warriors`;
+`teams_lookup["nhl"]["utah hockey club"]` → `utah-mammoth`.
+Los alias antiguos resuelven al logo actual, no a una variante histórica.
+El índice general añade `<deporte>-teams` y `<deporte>-competitions`, con
+`{id: {name, path}}` igual que MLB.
+
+Ejemplos de rutas para jsDelivr:
+
+```text
+https://cdn.jsdelivr.net/gh/IsaacPrestol/sports-assets@main/basketball/teams/us/los-angeles-lakers.png
+https://cdn.jsdelivr.net/gh/IsaacPrestol/sports-assets@main/hockey/teams/us/utah-mammoth.png
+https://cdn.jsdelivr.net/gh/IsaacPrestol/sports-assets@main/american-football/teams/us/kansas-city-chiefs.png
+```
+
+Para actualizar, revisa primero los nombres y las divisiones en los directorios
+oficiales de [NBA](https://www.nba.com/teams),
+[NHL](https://www.nhl.com/info/teams/) y [NFL](https://www.nfl.com/teams/).
+Conserva los ids publicados y edita los alias explícitamente. Revisa las URLs
+de las imágenes en `data/sources.json` antes de descargar:
+
+```bash
+python scripts/sync_league.py nba
+python scripts/sync_league.py nhl
+python scripts/sync_league.py nfl
+```
+
+El comando descarga los archivos ausentes y regenera los índices. `--force`
+sustituye todos los logos de la liga seleccionada desde las URLs revisadas.
+Para cambios solo de metadatos, usa `python scripts/build_index.py`.
+Los logos iniciales proceden de ESPN a 500 px antes del recorte y las fuentes
+incluyen la URL de verificación del directorio oficial. Los catálogos iniciales
+se verificaron el 30 de octubre de 2026; NBA/NHL corresponden a 2026-27 y NFL a
+2026. Las marcas pertenecen a sus propietarios, igual que los recursos de MLB.
+
+Después de cualquier actualización, revisa las imágenes visualmente y ejecuta:
+
+```bash
+python -m unittest discover -s tests
+python scripts/validate_assets.py
+```
+
+La validación detecta ids y alias duplicados, ligas o divisiones incorrectas,
+rutas inválidas, archivos ausentes o huérfanos y PNG opacos, vacíos o mayores
+de 1024 px. El comando rechaza catálogos inválidos antes de descargar.
 
 ## Descargar imágenes de peleadores UFC
 

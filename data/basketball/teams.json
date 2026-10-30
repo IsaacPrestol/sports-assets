@@ -1,0 +1,433 @@
+{
+  "version": 1,
+  "teams": [
+    {
+      "id": "toronto-raptors",
+      "name": "Toronto Raptors",
+      "aliases": [
+        "Raptors"
+      ],
+      "abbreviation": "TOR",
+      "espn_id": 28,
+      "country": "CA",
+      "league": "nba",
+      "conference": "Eastern",
+      "division": "Atlantic",
+      "logo": "basketball/teams/ca/toronto-raptors.png"
+    },
+    {
+      "id": "atlanta-hawks",
+      "name": "Atlanta Hawks",
+      "aliases": [
+        "Hawks"
+      ],
+      "abbreviation": "ATL",
+      "espn_id": 1,
+      "country": "US",
+      "league": "nba",
+      "conference": "Eastern",
+      "division": "Southeast",
+      "logo": "basketball/teams/us/atlanta-hawks.png"
+    },
+    {
+      "id": "boston-celtics",
+      "name": "Boston Celtics",
+      "aliases": [
+        "Celtics"
+      ],
+      "abbreviation": "BOS",
+      "espn_id": 2,
+      "country": "US",
+      "league": "nba",
+      "conference": "Eastern",
+      "division": "Atlantic",
+      "logo": "basketball/teams/us/boston-celtics.png"
+    },
+    {
+      "id": "brooklyn-nets",
+      "name": "Brooklyn Nets",
+      "aliases": [
+        "Nets"
+      ],
+      "abbreviation": "BKN",
+      "espn_id": 17,
+      "country": "US",
+      "league": "nba",
+      "conference": "Eastern",
+      "division": "Atlantic",
+      "logo": "basketball/teams/us/brooklyn-nets.png"
+    },
+    {
+      "id": "charlotte-hornets",
+      "name": "Charlotte Hornets",
+      "aliases": [
+        "Hornets"
+      ],
+      "abbreviation": "CHA",
+      "espn_id": 30,
+      "country": "US",
+      "league": "nba",
+      "conference": "Eastern",
+      "division": "Southeast",
+      "logo": "basketball/teams/us/charlotte-hornets.png"
+    },
+    {
+      "id": "chicago-bulls",
+      "name": "Chicago Bulls",
+      "aliases": [
+        "Bulls"
+      ],
+      "abbreviation": "CHI",
+      "espn_id": 4,
+      "country": "US",
+      "league": "nba",
+      "conference": "Eastern",
+      "division": "Central",
+      "logo": "basketball/teams/us/chicago-bulls.png"
+    },
+    {
+      "id": "cleveland-cavaliers",
+      "name": "Cleveland Cavaliers",
+      "aliases": [
+        "Cavaliers"
+      ],
+      "abbreviation": "CLE",
+      "espn_id": 5,
+      "country": "US",
+      "league": "nba",
+      "conference": "Eastern",
+      "division": "Central",
+      "logo": "basketball/teams/us/cleveland-cavaliers.png"
+    },
+    {
+      "id": "dallas-mavericks",
+      "name": "Dallas Mavericks",
+      "aliases": [
+        "Mavericks"
+      ],
+      "abbreviation": "DAL",
+      "espn_id": 6,
+      "country": "US",
+      "league": "nba",
+      "conference": "Western",
+      "division": "Southwest",
+      "logo": "basketball/teams/us/dallas-mavericks.png"
+    },
+    {
+      "id": "denver-nuggets",
+      "name": "Denver Nuggets",
+      "aliases": [
+        "Nuggets"
+      ],
+      "abbreviation": "DEN",
+      "espn_id": 7,
+      "country": "US",
+      "league": "nba",
+      "conference": "Western",
+      "division": "Northwest",
+      "logo": "basketball/teams/us/denver-nuggets.png"
+    },
+    {
+      "id": "detroit-pistons",
+      "name": "Detroit Pistons",
+      "aliases": [
+        "Pistons"
+      ],
+      "abbreviation": "DET",
+      "espn_id": 8,
+      "country": "US",
+      "league": "nba",
+      "conference": "Eastern",
+      "division": "Central",
+      "logo": "basketball/teams/us/detroit-pistons.png"
+    },
+    {
+      "id": "golden-state-warriors",
+      "name": "Golden State Warriors",
+      "aliases": [
+        "Warriors",
+        "GSW"
+      ],
+      "abbreviation": "GS",
+      "espn_id": 9,
+      "country": "US",
+      "league": "nba",
+      "conference": "Western",
+      "division": "Pacific",
+      "logo": "basketball/teams/us/golden-state-warriors.png"
+    },
+    {
+      "id": "houston-rockets",
+      "name": "Houston Rockets",
+      "aliases": [
+        "Rockets"
+      ],
+      "abbreviation": "HOU",
+      "espn_id": 10,
+      "country": "US",
+      "league": "nba",
+      "conference": "Western",
+      "division": "Southwest",
+      "logo": "basketball/teams/us/houston-rockets.png"
+    },
+    {
+      "id": "indiana-pacers",
+      "name": "Indiana Pacers",
+      "aliases": [
+        "Pacers"
+      ],
+      "abbreviation": "IND",
+      "espn_id": 11,
+      "country": "US",
+      "league": "nba",
+      "conference": "Eastern",
+      "division": "Central",
+      "logo": "basketball/teams/us/indiana-pacers.png"
+    },
+    {
+      "id": "los-angeles-clippers",
+      "name": "LA Clippers",
+      "aliases": [
+        "Clippers",
+        "Los Angeles Clippers"
+      ],
+      "abbreviation": "LAC",
+      "espn_id": 12,
+      "country": "US",
+      "league": "nba",
+      "conference": "Western",
+      "division": "Pacific",
+      "logo": "basketball/teams/us/los-angeles-clippers.png"
+    },
+    {
+      "id": "los-angeles-lakers",
+      "name": "Los Angeles Lakers",
+      "aliases": [
+        "Lakers"
+      ],
+      "abbreviation": "LAL",
+      "espn_id": 13,
+      "country": "US",
+      "league": "nba",
+      "conference": "Western",
+      "division": "Pacific",
+      "logo": "basketball/teams/us/los-angeles-lakers.png"
+    },
+    {
+      "id": "memphis-grizzlies",
+      "name": "Memphis Grizzlies",
+      "aliases": [
+        "Grizzlies"
+      ],
+      "abbreviation": "MEM",
+      "espn_id": 29,
+      "country": "US",
+      "league": "nba",
+      "conference": "Western",
+      "division": "Southwest",
+      "logo": "basketball/teams/us/memphis-grizzlies.png"
+    },
+    {
+      "id": "miami-heat",
+      "name": "Miami Heat",
+      "aliases": [
+        "Heat"
+      ],
+      "abbreviation": "MIA",
+      "espn_id": 14,
+      "country": "US",
+      "league": "nba",
+      "conference": "Eastern",
+      "division": "Southeast",
+      "logo": "basketball/teams/us/miami-heat.png"
+    },
+    {
+      "id": "milwaukee-bucks",
+      "name": "Milwaukee Bucks",
+      "aliases": [
+        "Bucks"
+      ],
+      "abbreviation": "MIL",
+      "espn_id": 15,
+      "country": "US",
+      "league": "nba",
+      "conference": "Eastern",
+      "division": "Central",
+      "logo": "basketball/teams/us/milwaukee-bucks.png"
+    },
+    {
+      "id": "minnesota-timberwolves",
+      "name": "Minnesota Timberwolves",
+      "aliases": [
+        "Timberwolves"
+      ],
+      "abbreviation": "MIN",
+      "espn_id": 16,
+      "country": "US",
+      "league": "nba",
+      "conference": "Western",
+      "division": "Northwest",
+      "logo": "basketball/teams/us/minnesota-timberwolves.png"
+    },
+    {
+      "id": "new-orleans-pelicans",
+      "name": "New Orleans Pelicans",
+      "aliases": [
+        "Pelicans",
+        "NOP"
+      ],
+      "abbreviation": "NO",
+      "espn_id": 3,
+      "country": "US",
+      "league": "nba",
+      "conference": "Western",
+      "division": "Southwest",
+      "logo": "basketball/teams/us/new-orleans-pelicans.png"
+    },
+    {
+      "id": "new-york-knicks",
+      "name": "New York Knicks",
+      "aliases": [
+        "Knicks",
+        "NYK"
+      ],
+      "abbreviation": "NY",
+      "espn_id": 18,
+      "country": "US",
+      "league": "nba",
+      "conference": "Eastern",
+      "division": "Atlantic",
+      "logo": "basketball/teams/us/new-york-knicks.png"
+    },
+    {
+      "id": "oklahoma-city-thunder",
+      "name": "Oklahoma City Thunder",
+      "aliases": [
+        "Thunder"
+      ],
+      "abbreviation": "OKC",
+      "espn_id": 25,
+      "country": "US",
+      "league": "nba",
+      "conference": "Western",
+      "division": "Northwest",
+      "logo": "basketball/teams/us/oklahoma-city-thunder.png"
+    },
+    {
+      "id": "orlando-magic",
+      "name": "Orlando Magic",
+      "aliases": [
+        "Magic"
+      ],
+      "abbreviation": "ORL",
+      "espn_id": 19,
+      "country": "US",
+      "league": "nba",
+      "conference": "Eastern",
+      "division": "Southeast",
+      "logo": "basketball/teams/us/orlando-magic.png"
+    },
+    {
+      "id": "philadelphia-76ers",
+      "name": "Philadelphia 76ers",
+      "aliases": [
+        "76ers"
+      ],
+      "abbreviation": "PHI",
+      "espn_id": 20,
+      "country": "US",
+      "league": "nba",
+      "conference": "Eastern",
+      "division": "Atlantic",
+      "logo": "basketball/teams/us/philadelphia-76ers.png"
+    },
+    {
+      "id": "phoenix-suns",
+      "name": "Phoenix Suns",
+      "aliases": [
+        "Suns",
+        "PHO"
+      ],
+      "abbreviation": "PHX",
+      "espn_id": 21,
+      "country": "US",
+      "league": "nba",
+      "conference": "Western",
+      "division": "Pacific",
+      "logo": "basketball/teams/us/phoenix-suns.png"
+    },
+    {
+      "id": "portland-trail-blazers",
+      "name": "Portland Trail Blazers",
+      "aliases": [
+        "Trail Blazers"
+      ],
+      "abbreviation": "POR",
+      "espn_id": 22,
+      "country": "US",
+      "league": "nba",
+      "conference": "Western",
+      "division": "Northwest",
+      "logo": "basketball/teams/us/portland-trail-blazers.png"
+    },
+    {
+      "id": "sacramento-kings",
+      "name": "Sacramento Kings",
+      "aliases": [
+        "Kings"
+      ],
+      "abbreviation": "SAC",
+      "espn_id": 23,
+      "country": "US",
+      "league": "nba",
+      "conference": "Western",
+      "division": "Pacific",
+      "logo": "basketball/teams/us/sacramento-kings.png"
+    },
+    {
+      "id": "san-antonio-spurs",
+      "name": "San Antonio Spurs",
+      "aliases": [
+        "Spurs",
+        "SAS"
+      ],
+      "abbreviation": "SA",
+      "espn_id": 24,
+      "country": "US",
+      "league": "nba",
+      "conference": "Western",
+      "division": "Southwest",
+      "logo": "basketball/teams/us/san-antonio-spurs.png"
+    },
+    {
+      "id": "utah-jazz",
+      "name": "Utah Jazz",
+      "aliases": [
+        "Jazz",
+        "UTA"
+      ],
+      "abbreviation": "UTAH",
+      "espn_id": 26,
+      "country": "US",
+      "league": "nba",
+      "conference": "Western",
+      "division": "Northwest",
+      "logo": "basketball/teams/us/utah-jazz.png"
+    },
+    {
+      "id": "washington-wizards",
+      "name": "Washington Wizards",
+      "aliases": [
+        "Wizards",
+        "WAS"
+      ],
+      "abbreviation": "WSH",
+      "espn_id": 27,
+      "country": "US",
+      "league": "nba",
+      "conference": "Eastern",
+      "division": "Southeast",
+      "logo": "basketball/teams/us/washington-wizards.png"
+    }
+  ]
+}

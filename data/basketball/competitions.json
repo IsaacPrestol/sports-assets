@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "competitions": [
+    {
+      "id": "nba",
+      "name": "National Basketball Association",
+      "aliases": [
+        "NBA"
+      ],
+      "type": "league",
+      "scope": "club",
+      "continent": "north-america",
+      "country": null,
+      "logo": "basketball/competitions/north-america/nba.png"
+    }
+  ]
+}
