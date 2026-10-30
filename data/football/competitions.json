@@ -520,7 +520,8 @@
       "name": "Coppa Italia",
       "aliases": [
         "Italian Cup",
-        "Coppa Italia Frecciarossa"
+        "Coppa Italia Frecciarossa",
+        "Copa Italia"
       ],
       "type": "cup",
       "scope": "club",
@@ -723,7 +724,9 @@
       "name": "Liga AUF Uruguaya",
       "aliases": [
         "Uruguayan Primera División",
-        "Campeonato Uruguayo"
+        "Campeonato Uruguayo",
+        "Liga Uruguaya",
+        "Liga Uruguay"
       ],
       "type": "league",
       "scope": "club",
@@ -739,7 +742,8 @@
       "aliases": [
         "Liga BetPlay",
         "Liga BetPlay Dimayor",
-        "Colombian Primera A"
+        "Colombian Primera A",
+        "Liga Colombia"
       ],
       "type": "league",
       "scope": "club",
@@ -800,7 +804,8 @@
       "name": "LigaPro Serie A",
       "aliases": [
         "Ecuadorian Serie A",
-        "LigaPro"
+        "LigaPro",
+        "LigaPro Ecuador"
       ],
       "type": "league",
       "scope": "club",

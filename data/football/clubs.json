@@ -108,7 +108,9 @@
     {
       "id": "estudiantes-de-la-plata",
       "name": "Estudiantes de La Plata",
-      "aliases": [],
+      "aliases": [
+        "Estudiantes"
+      ],
       "country": "AR",
       "league": "liga-profesional-argentina",
       "logo": "football/clubs/ar/estudiantes-de-la-plata.png"
@@ -279,7 +281,8 @@
       "id": "talleres",
       "name": "Talleres de Córdoba",
       "aliases": [
-        "Talleres"
+        "Talleres",
+        "Talleres Córdoba"
       ],
       "country": "AR",
       "league": "liga-profesional-argentina",
@@ -995,7 +998,9 @@
     {
       "id": "real-tomayapo",
       "name": "Real Tomayapo",
-      "aliases": [],
+      "aliases": [
+        "Tomayapo"
+      ],
       "country": "BO",
       "league": "bolivian-primera-division",
       "logo": "football/clubs/bo/real-tomayapo.png"
@@ -1297,7 +1302,9 @@
     {
       "id": "atletico-ottawa",
       "name": "Atlético Ottawa",
-      "aliases": [],
+      "aliases": [
+        "Atl. Ottawa"
+      ],
       "country": "CA",
       "league": "canadian-premier-league",
       "logo": "football/clubs/ca/atletico-ottawa.png"
@@ -1894,7 +1901,8 @@
       "id": "internacional-de-bogota",
       "name": "Internacional de Bogotá",
       "aliases": [
-        "La Equidad"
+        "La Equidad",
+        "Inter Bogotá"
       ],
       "country": "CO",
       "league": "colombian-primera-a",
@@ -55106,7 +55114,8 @@
       "id": "lyon",
       "name": "Olympique Lyon",
       "aliases": [
-        "Lyon"
+        "Lyon",
+        "Olympique Lyonnais"
       ],
       "country": "FR",
       "league": "ligue-1",
@@ -64956,7 +64965,8 @@
       "id": "paris-saint-germain",
       "name": "Paris Saint-Germain",
       "aliases": [
-        "Paris SG"
+        "Paris SG",
+        "PSG"
       ],
       "country": "FR",
       "league": "ligue-1",
@@ -103087,7 +103097,8 @@
       "id": "unam-pumas",
       "name": "Pumas UNAM",
       "aliases": [
-        "Unam Pumas"
+        "Unam Pumas",
+        "Pumas"
       ],
       "country": "MX",
       "league": "liga-mx",
@@ -104483,7 +104494,9 @@
     {
       "id": "nacional",
       "name": "Nacional",
-      "aliases": [],
+      "aliases": [
+        "Nacional Asunción"
+      ],
       "country": "PY",
       "league": "paraguayan-primera-division",
       "logo": "football/clubs/py/nacional.png"
@@ -106297,7 +106310,9 @@
     {
       "id": "sporting-kansas-city",
       "name": "Sporting Kansas City",
-      "aliases": [],
+      "aliases": [
+        "Sporting KC"
+      ],
       "country": "US",
       "league": "mls",
       "logo": "football/clubs/us/sporting-kansas-city.png"
@@ -106391,7 +106406,9 @@
     {
       "id": "defensor-sporting",
       "name": "Defensor Sporting",
-      "aliases": [],
+      "aliases": [
+        "Defensor Sp."
+      ],
       "country": "UY",
       "league": "uruguayan-primera-division",
       "logo": "football/clubs/uy/defensor-sporting.png"
