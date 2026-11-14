@@ -723,6 +723,1548 @@
     "metadata_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams?limit=100",
     "verification_url": "https://www.nba.com/teams"
   },
+  "flags/ad.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Andorra.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Andorra.svg; author: Original: Napoleon III Vector: HansenBCN; flag chosen via Wikidata Q228"
+  },
+  "flags/ae.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_United_Arab_Emirates.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the United Arab Emirates.svg; author: Abdulla Mohammed Al Maainah; flag chosen via Wikidata Q878"
+  },
+  "flags/af.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Afghanistan_%282013%E2%80%932021%29.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Afghanistan (2013–2021).svg; author: Unknown author Unknown author; flag chosen via Wikidata Q889"
+  },
+  "flags/ag.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Antigua_and_Barbuda.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Antigua and Barbuda.svg; author: Original: Sir Reginald Samuel Vector: David Benbennick; flag chosen via Wikidata Q781"
+  },
+  "flags/ai.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Anguilla.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Anguilla.svg; author: This work created by the United Kingdom Government is in the public domain . This is because it is one of the following : It is a photograph taken prior to 1 June 1957; or It was published prior to 1976; or It is an artistic work other than a photograph or engraving (e.g. a painting) which was created prior to 1976. HMSO has declared that the expiry of Crown Copyrights applies worldwide (ref: HMSO Email Reply ) More information . See also Copyright and Crown copyright artistic works .; flag chosen via Wikidata Q25228"
+  },
+  "flags/al.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Albania.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Albania.svg; author: Sadik Kaceli; flag chosen via Wikidata Q222"
+  },
+  "flags/am.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Armenia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Armenia.svg; author: Original: Stepan Malkhasyants Vector: SKopp; flag chosen via Wikidata Q399"
+  },
+  "flags/ao.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Angola.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Angola.svg; author: Original: Henrique de Carvalho Santos Vector: SKopp; flag chosen via Wikidata Q916"
+  },
+  "flags/aq.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Antarctic_Treaty.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "CC BY-SA 3.0",
+    "notes": "Wikimedia Commons, File:Flag of the Antarctic Treaty.svg; author: Antarctic_Treaty_flag.svg : Alakasam . derivative work: B1mbo ( talk ); flag chosen via Wikidata Q10372207"
+  },
+  "flags/ar.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Argentina.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Argentina.svg; author: Manuel Belgrano; flag chosen via Wikidata Q414"
+  },
+  "flags/as.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_American_Samoa.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of American Samoa.svg; author: by Tobias Jakobs; flag chosen via Wikidata Q16641"
+  },
+  "flags/at.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Austria.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Austria.svg; author: Bundesministerium für Landesverteidigung; flag chosen via Wikidata Q40"
+  },
+  "flags/au.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Australia_%28converted%29.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Australia (converted).svg; author: Unknown (Vector graphics image by Ian Fieggen ) (only minor code changes by uploader.); flag chosen via Wikidata Q408"
+  },
+  "flags/aw.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Aruba.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Aruba.svg; author: Original: Whitney Smith Vector: Wester; flag chosen via Wikidata Q21203"
+  },
+  "flags/ax.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_%C3%85land.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Åland.svg; author: created by Zscout370; flag chosen via Wikidata Q5689"
+  },
+  "flags/az.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Azerbaijan.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Azerbaijan.svg; author: SKopp and others; flag chosen via Wikidata Q227"
+  },
+  "flags/ba.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Bosnia_and_Herzegovina.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Bosnia and Herzegovina.svg; author: Mladen Kolobarić; flag chosen via Wikidata Q225"
+  },
+  "flags/bb.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Barbados.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Barbados.svg; author: User:Denelson83; flag chosen via Wikidata Q244"
+  },
+  "flags/bd.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Bangladesh.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Bangladesh.svg; author: See File history below for details.; flag chosen via Wikidata Q902"
+  },
+  "flags/be.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Belgium.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Belgium.svg; author: Dbenbenn and others; flag chosen via Wikidata Q31"
+  },
+  "flags/bf.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Burkina_Faso.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Burkina Faso.svg; author: Drawn by SKopp , rewritten by Gabbe and Андрей Перцев; flag chosen via Wikidata Q965"
+  },
+  "flags/bg.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Bulgaria.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Bulgaria.svg; author: SKopp; flag chosen via Wikidata Q219"
+  },
+  "flags/bh.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Bahrain.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Bahrain.svg; author: Source: Drawn by SKopp , rewritten by Zscout370; flag chosen via Wikidata Q398"
+  },
+  "flags/bi.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Burundi.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Burundi.svg; author: See File history below for details.; flag chosen via Wikidata Q967"
+  },
+  "flags/bj.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Benin.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Benin.svg; author: Drawn by User:SKopp , rewritten by User:Gabbe; flag chosen via Wikidata Q962"
+  },
+  "flags/bl.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Saint_Barth%C3%A9lemy_%28local%29.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "CC BY 2.5",
+    "notes": "Wikimedia Commons, File:Flag of Saint Barthélemy (local).svg; author: The arms are from User:Manassas 's Image:Blason St Barthélémy TOM entire.svg .; flag chosen via Wikidata Q25362"
+  },
+  "flags/bm.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Bermuda.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Bermuda.svg; author: Version 1: Made by Caleb Moore from the Open Clip Art website and uploaded by Nightstallion Version 2: Made by Nameneko from version 1 of File:Flag of Bermuda.svg and version 2 of File:Coat of arms of Bermuda.svg by Cronholm144 .; flag chosen via Wikidata Q23635"
+  },
+  "flags/bn.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Brunei.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Brunei.svg; author: Nightstallion; flag chosen via Wikidata Q921"
+  },
+  "flags/bo.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Bolivia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Bolivia.svg; author: See file history' below for details.; flag chosen via Wikidata Q750"
+  },
+  "flags/bq.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Netherlands.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the Netherlands.svg; author: Zscout370; flag chosen via Wikidata Q27561"
+  },
+  "flags/br.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Brazil.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Brazil.svg; author: Raimundo Teixeira Mendes; flag chosen via Wikidata Q155"
+  },
+  "flags/bs.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Bahamas.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the Bahamas.svg; author: Government of Bahamas; flag chosen via Wikidata Q778"
+  },
+  "flags/bt.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Bhutan.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Bhutan.svg; author: See File history below for details.; flag chosen via Wikidata Q917"
+  },
+  "flags/bv.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Norway.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Norway.svg; author: Original: Fredrik Meltzer Vector: Gutten på Hemsen; flag chosen via Wikidata Q23408"
+  },
+  "flags/bw.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Botswana.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Botswana.svg; author: SKopp , Gabbe , Madden; flag chosen via Wikidata Q963"
+  },
+  "flags/by.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Belarus.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Belarus.svg; author: Nikolai Gusev; flag chosen via Wikidata Q184"
+  },
+  "flags/bz.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Belize.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Belize.svg; author: Caleb Moore; flag chosen via Wikidata Q242"
+  },
+  "flags/ca.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Canada_%28Pantone%29.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Canada (Pantone).svg; author: Original: George F. G. Stanley Modified by: The original uploader was Illegitimate Barrister at Wikimedia Commons . The current SVG encoding is a rewrite performed by MapGrid .; flag chosen via Wikidata Q16"
+  },
+  "flags/cc.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Australia_%28converted%29.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Australia (converted).svg; author: Unknown (Vector graphics image by Ian Fieggen ) (only minor code changes by uploader.); flag chosen via Wikidata Q36004"
+  },
+  "flags/cd.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Democratic_Republic_of_the_Congo.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the Democratic Republic of the Congo.svg; author: Nightstallion; flag chosen via Wikidata Q974"
+  },
+  "flags/cf.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Central_African_Republic.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the Central African Republic.svg; author: Barthélemy Boganda; flag chosen via Wikidata Q929"
+  },
+  "flags/cg.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Republic_of_the_Congo.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the Republic of the Congo.svg; author: See File history below for details.; flag chosen via Wikidata Q971"
+  },
+  "flags/ch.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Switzerland.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Switzerland.svg; author: Original: Unknown Vector: User:Marc Mongenet Credits: User:-xfi- User:Zscout370; flag chosen via Wikidata Q39"
+  },
+  "flags/ci.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_C%C3%B4te_d%27Ivoire.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Côte d'Ivoire.svg; author: See File history below for details.; flag chosen via Wikidata Q1008"
+  },
+  "flags/ck.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Cook_Islands.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the Cook Islands.svg; flag chosen via Wikidata Q26988"
+  },
+  "flags/cl.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Chile.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Chile.svg; author: See file history below for details.; flag chosen via Wikidata Q298"
+  },
+  "flags/cm.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Cameroon.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Cameroon.svg; author: (of code) -xfi-; flag chosen via Wikidata Q1009"
+  },
+  "flags/cn.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_People%27s_Republic_of_China.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the People's Republic of China.svg; author: Zeng Liansong; flag chosen via Wikidata Q148"
+  },
+  "flags/co.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Colombia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Colombia.svg; author: See File history below for details.; flag chosen via Wikidata Q739"
+  },
+  "flags/cr.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Costa_Rica.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Costa Rica.svg; author: See File history below for details.; flag chosen via Wikidata Q800"
+  },
+  "flags/cu.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Cuba.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Cuba.svg; author: Miguel Teurbe Tolón and Narciso López; flag chosen via Wikidata Q241"
+  },
+  "flags/cv.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Cape_Verde_%2810-17%29.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Cape Verde (10-17).svg; author: Original: Pedro Gregório Vector: SKopp; flag chosen via Wikidata Q1011"
+  },
+  "flags/cw.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Cura%C3%A7ao.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Curaçao.svg; author: Original: Unknown Vector: David Benbennick; flag chosen via Wikidata Q25279"
+  },
+  "flags/cx.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Christmas_Island.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Christmas Island.svg; author: Tony Couch; flag chosen via Wikidata Q31063"
+  },
+  "flags/cy.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Cyprus.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Cyprus.svg; author: İsmet Güney , SVG by User:Vzb83~commonswiki; flag chosen via Wikidata Q229"
+  },
+  "flags/cz.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Czech_Republic.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the Czech Republic.svg; author: Jaroslav Kursa; flag chosen via Wikidata Q213"
+  },
+  "flags/de.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Germany.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Germany.svg; author: User:SKopp , User:Madden , and other users; flag chosen via Wikidata Q183"
+  },
+  "flags/dj.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Djibouti.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Djibouti.svg; author: Unknown author Unknown author; flag chosen via Wikidata Q977"
+  },
+  "flags/dk.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Denmark.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Denmark.svg; author: Madden and others; flag chosen via Wikidata Q35"
+  },
+  "flags/dm.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Dominica.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Dominica.svg; author: Alwin Bully; flag chosen via Wikidata Q784"
+  },
+  "flags/do.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Dominican_Republic.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the Dominican Republic.svg; author: Juan Pablo Duarte; flag chosen via Wikidata Q786"
+  },
+  "flags/dz.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Algeria.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Algeria.svg; author: Original: National Liberation Front of Algeria Vector: SKopp; flag chosen via Wikidata Q262"
+  },
+  "flags/ec.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Ecuador.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Ecuador.svg; author: President of the Republic of Ecuador, first uploaded by Denelson83 as Flag of Ecuador.svg, modifications by Husunqu, Zscout370; flag chosen via Wikidata Q736"
+  },
+  "flags/ee.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Estonia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Estonia.svg; author: Original: Unknown author Vector: SKopp , PeepP and ‍others; flag chosen via Wikidata Q191"
+  },
+  "flags/eg.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Egypt.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Egypt.svg; author: See File history below for details.; flag chosen via Wikidata Q79"
+  },
+  "flags/eh.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the Sahrawi Arab Democratic Republic.svg; author: El Uali Mustafá Sayed from Polisario Front; flag chosen via Wikidata Q6250"
+  },
+  "flags/er.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Eritrea.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Eritrea.svg; author: Unknown author Unknown author; flag chosen via Wikidata Q986"
+  },
+  "flags/es-ct.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Catalonia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Catalonia.svg; author: Motoroil; flag chosen via Wikidata Q5705"
+  },
+  "flags/es-ga.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Galicia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Galicia.svg; author: Pedro A. Gracia Fajardo; flag chosen via Wikidata Q3908"
+  },
+  "flags/es-pv.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Basque_Country.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "CC BY-SA 2.5",
+    "notes": "Wikimedia Commons, File:Flag of the Basque Country.svg; author: Daniele Schirmo aka Frankie688; flag chosen via Wikidata Q3995"
+  },
+  "flags/es.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Spain.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Spain.svg; author: RelShot 263 , Echando una mano ; earlier version was Pedro A. Gracia Fajardo, escudo de Manual de Imagen Institucional de la Administración General del Estado; flag chosen via Wikidata Q29"
+  },
+  "flags/et.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Ethiopia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Ethiopia.svg; author: Drawn by User:SKopp; flag chosen via Wikidata Q115"
+  },
+  "flags/fi.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Finland.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Finland.svg; author: Unknown; flag chosen via Wikidata Q33"
+  },
+  "flags/fj.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Fiji.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Fiji.svg; author: Tessa Mackenzie; flag chosen via Wikidata Q712"
+  },
+  "flags/fk.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Falkland_Islands.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the Falkland Islands.svg; author: Original: Government of the United Kingdom Vector: Nightstallion and Echando una mano; flag chosen via Wikidata Q9648"
+  },
+  "flags/fm.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Federated_States_of_Micronesia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the Federated States of Micronesia.svg; flag chosen via Wikidata Q702"
+  },
+  "flags/fo.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Faroe_Islands.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the Faroe Islands.svg; author: It was made by User:IceKarma (Jeffrey Connell), who released it to the public domain.; flag chosen via Wikidata Q4628"
+  },
+  "flags/fr.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_France.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of France.svg; author: Original: Unknown Vector: SKopp; flag chosen via Wikidata Q142"
+  },
+  "flags/ga.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Gabon.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Gabon.svg; author: Léon Augé and Pierre Claver Eyeghe; flag chosen via Wikidata Q1000"
+  },
+  "flags/gb-eng.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_England.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of England.svg; author: Original: traditional Vector: Nicholas Shanks; flag chosen via Wikidata Q21"
+  },
+  "flags/gb-nir.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Northern_Ireland_%281953%E2%80%931972%29.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Northern Ireland (1953–1972).svg; author: Mamadou; flag chosen via Wikidata Q26"
+  },
+  "flags/gb-sct.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Scotland.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Scotland.svg; author: none known; flag chosen via Wikidata Q22"
+  },
+  "flags/gb-wls.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Wales.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Wales.svg; author: Unknown Vector graphics by Tobias Jakobs; flag chosen via Wikidata Q25"
+  },
+  "flags/gb.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_United_Kingdom_%283-5%29.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the United Kingdom (3-5).svg; author: Original: Acts of Union 1800 Vector: Yaddah; flag chosen via Wikidata Q145"
+  },
+  "flags/gd.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Grenada.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Grenada.svg; author: See file history below for details.; flag chosen via Wikidata Q769"
+  },
+  "flags/ge.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Georgia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Georgia.svg; author: Last update by MapGrid SKopp; flag chosen via Wikidata Q230"
+  },
+  "flags/gf.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_France.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of France.svg; author: Original: Unknown Vector: SKopp; flag chosen via Wikidata Q3769"
+  },
+  "flags/gg.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Guernsey.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "CC0",
+    "notes": "Wikimedia Commons, File:Flag of Guernsey.svg; author: User:Nightstallion; flag chosen via Wikidata Q25230"
+  },
+  "flags/gh.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Ghana.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Ghana.svg; author: Theodosia Okoh; flag chosen via Wikidata Q117"
+  },
+  "flags/gi.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Gibraltar.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Gibraltar.svg; author: Created on behalf of Isabella I of Castile in 1502; this version uploaded by Denelson83 ( talk · contribs ); flag chosen via Wikidata Q1410"
+  },
+  "flags/gl.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Greenland.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Greenland.svg; author: Jeffrey Connell ( IceKarma ); flag chosen via Wikidata Q223"
+  },
+  "flags/gm.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_The_Gambia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of The Gambia.svg; author: Vzb83 i The source code of the previous SVG was invalid due to 39 errors.; flag chosen via Wikidata Q1005"
+  },
+  "flags/gn.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Guinea.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Guinea.svg; flag chosen via Wikidata Q1006"
+  },
+  "flags/gp.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_France.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of France.svg; author: Original: Unknown Vector: SKopp; official flag of France (Wikidata lists a regional logo)"
+  },
+  "flags/gq.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Equatorial_Guinea.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Equatorial Guinea.svg; author: See File history below for details.; flag chosen via Wikidata Q983"
+  },
+  "flags/gr.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Greece.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Greece.svg; author: Unknown author Unknown author; flag chosen via Wikidata Q41"
+  },
+  "flags/gs.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "CC0",
+    "notes": "Wikimedia Commons, File:Flag of South Georgia and the South Sandwich Islands.svg; flag chosen via Wikidata Q35086"
+  },
+  "flags/gt.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Guatemala.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Guatemala.svg; author: K21edgo; flag chosen via Wikidata Q774"
+  },
+  "flags/gu.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Guam.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Guam.svg; author: Xrmap; flag chosen via Wikidata Q16635"
+  },
+  "flags/gw.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Guinea-Bissau.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Guinea-Bissau.svg; flag chosen via Wikidata Q1007"
+  },
+  "flags/gy.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Guyana.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Guyana.svg; author: Whitney Smith; flag chosen via Wikidata Q734"
+  },
+  "flags/hk.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Hong_Kong.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Hong Kong.svg; author: Designed by Tao Ho SVG code of 24 November 2005 version copied from Open Clip Art SVG code of 20 August 2011 version by Alkari SVG code of 6 September 2021 version by Mike Rohsopht; flag chosen via Wikidata Q8646"
+  },
+  "flags/hm.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Australia_%28converted%29.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Australia (converted).svg; author: Unknown (Vector graphics image by Ian Fieggen ) (only minor code changes by uploader.); flag chosen via Wikidata Q131198"
+  },
+  "flags/hn.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Honduras_%281949%E2%80%932022%2C_2026%E2%80%93present%29.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Honduras (1949–2022, 2026–present).svg; author: Kes47; flag chosen via Wikidata Q783"
+  },
+  "flags/hr.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Croatia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Croatia.svg; author: Nightstallion, Elephantus, Neoneo13, Denelson83, Rainman, R-41, Minestrone, Lupo, Zscout370, Ma Ga (based on Decision of the Parliament ); flag chosen via Wikidata Q224"
+  },
+  "flags/ht.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Haiti.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Haiti.svg; author: (colours and size changes of the now deleted versions) Madden , Vzb83 , Denelson83 , Chanheigeorge , Zscout370 and Nightstallion Coat of arms : Lokal_Profil and Myriam Thyes; flag chosen via Wikidata Q790"
+  },
+  "flags/hu.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Hungary.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Hungary.svg; author: SKopp; flag chosen via Wikidata Q28"
+  },
+  "flags/id.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Indonesia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Indonesia.svg; author: Jayakatwang; flag chosen via Wikidata Q252"
+  },
+  "flags/ie.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Ireland.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Ireland.svg; author: Éire; flag chosen via Wikidata Q27"
+  },
+  "flags/il.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Israel.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Israel.svg; author: Israel Belkind and Fanny Abramovitch (original) “The Provisional Council of State Proclamation of the Flag of the State of Israel” of 25 Tishrei 5709 (28 October 1948) provides the official specification for the design of the Israeli flag. The color of the Magen David and the stripes of the Israeli flag is not precisely specified by the above legislation. The color depicted in the current version of the image is typical of flags used in Israel today, although individual flags can and do vary. The flag legislation officially specifies dimensions of 220 cm × 160 cm. However, the sizes of actual flags vary (although the aspect ratio is usually retained).; flag chosen via Wikidata Q801"
+  },
+  "flags/im.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Isle_of_Man.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "CC0",
+    "notes": "Wikimedia Commons, File:Flag of the Isle of Man.svg; author: Edited by Reisio , Alkari , e.a.; flag chosen via Wikidata Q9676"
+  },
+  "flags/in.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_India.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of India.svg; author: Government of India; flag chosen via Wikidata Q668"
+  },
+  "flags/io.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Commissioner_of_the_British_Indian_Ocean_Territory.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "CC0",
+    "notes": "Wikimedia Commons, File:Flag of the Commissioner of the British Indian Ocean Territory.svg; author: Unknown author Unknown author; flag chosen via Wikidata Q43448"
+  },
+  "flags/iq.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Iraq.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Iraq.svg; author: See File history below for details.; flag chosen via Wikidata Q796"
+  },
+  "flags/ir.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Iran.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Iran.svg; author: SVG file: SiBr 4 Designer: Hamid Nadimi Construction: ISIRI; flag chosen via Wikidata Q794"
+  },
+  "flags/is.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Iceland.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Iceland.svg; author: Original: Matthías Þórðarson Vector: Árni Dagur and Magasjukur2; flag chosen via Wikidata Q189"
+  },
+  "flags/it.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Italy.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Italy.svg; author: See below.; flag chosen via Wikidata Q38"
+  },
+  "flags/je.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Jersey.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Jersey.svg; flag chosen via Wikidata Q785"
+  },
+  "flags/jm.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Jamaica.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Jamaica.svg; author: The SVG code is valid . This vector image was created with Inkscape by SKopp , and then manually edited by Zscout370 , Madden and others.; flag chosen via Wikidata Q766"
+  },
+  "flags/jo.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Jordan.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Jordan.svg; author: Unknown; flag chosen via Wikidata Q810"
+  },
+  "flags/jp.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Japan.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Japan.svg; author: Various; flag chosen via Wikidata Q17"
+  },
+  "flags/ke.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Kenya.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Kenya.svg; author: User:Pumbaa80; flag chosen via Wikidata Q114"
+  },
+  "flags/kg.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Kyrgyzstan.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Kyrgyzstan.svg; author: Shakiev N.T., Primov U.B.; flag chosen via Wikidata Q813"
+  },
+  "flags/kh.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Cambodia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Cambodia.svg; author: Unknown author Unknown author; flag chosen via Wikidata Q424"
+  },
+  "flags/ki.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Kiribati.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Kiribati.svg; author: User:Hanzlan; flag chosen via Wikidata Q710"
+  },
+  "flags/km.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Comoros.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the Comoros.svg; author: Original : Comoros ; Vector : see file history; flag chosen via Wikidata Q970"
+  },
+  "flags/kn.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Saint_Kitts_and_Nevis.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Saint Kitts and Nevis.svg; author: Edrice Lewis; flag chosen via Wikidata Q763"
+  },
+  "flags/kp.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_North_Korea.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of North Korea.svg; author: Original: Unknown author Vector: Zscout370; flag chosen via Wikidata Q423"
+  },
+  "flags/kr.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_South_Korea.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of South Korea.svg; author: Original: Government of the Republic of Korea Vector: Great Brightstar and others; flag chosen via Wikidata Q884"
+  },
+  "flags/kw.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Kuwait.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Kuwait.svg; flag chosen via Wikidata Q817"
+  },
+  "flags/ky.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Cayman_Islands.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the Cayman Islands.svg; author: Unknown author Unknown author; flag chosen via Wikidata Q5785"
+  },
+  "flags/kz.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Kazakhstan.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Kazakhstan.svg; author: Shaken Niyazbekop; flag chosen via Wikidata Q232"
+  },
+  "flags/la.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Laos.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Laos.svg; author: SKopp; flag chosen via Wikidata Q819"
+  },
+  "flags/lb.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Lebanon.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Lebanon.svg; author: Henri Pharaon; flag chosen via Wikidata Q822"
+  },
+  "flags/lc.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Saint_Lucia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Saint Lucia.svg; author: Dunstan St Omer; flag chosen via Wikidata Q760"
+  },
+  "flags/li.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Liechtenstein.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Liechtenstein.svg; author: Mnmazur and others; flag chosen via Wikidata Q347"
+  },
+  "flags/lk.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Sri_Lanka.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Sri Lanka.svg; author: Original: Sri Lanka Vectorization: Zscout370, Mike Rohsopht; flag chosen via Wikidata Q854"
+  },
+  "flags/lr.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Liberia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Liberia.svg; author: Government of Liberia; flag chosen via Wikidata Q1014"
+  },
+  "flags/ls.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Lesotho.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Lesotho.svg; author: See File history below for details.; flag chosen via Wikidata Q1013"
+  },
+  "flags/lt.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Lithuania.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Lithuania.svg; author: Original: Jonas Basanavičius, Tadas Daugirdas and Antanas Žmuidzinavičius Vector: SKopp The SVG code is valid . This flag was created with a text editor . Previous version had been created with Inkscape (1930 bytes) f now 14.15% of previous size Please do not replace the simplified code of this file with a version created with Inkscape or any other graphical vector graphics editor; flag chosen via Wikidata Q37"
+  },
+  "flags/lu.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Luxembourg.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Luxembourg.svg; author: Drawn by User:SKopp; flag chosen via Wikidata Q32"
+  },
+  "flags/lv.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Latvia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Latvia.svg; author: Original: Ansis Cīrulis Vector: SKopp; flag chosen via Wikidata Q211"
+  },
+  "flags/ly.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Libya.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Libya.svg; author: Various The SVG code is valid . This vector image was created with a text editor .; flag chosen via Wikidata Q1016"
+  },
+  "flags/ma.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Morocco.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Morocco.svg; author: Denelson83 , Zscout370; flag chosen via Wikidata Q1028"
+  },
+  "flags/mc.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Monaco.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Monaco.svg; author: Drawn by User:SKopp; flag chosen via Wikidata Q235"
+  },
+  "flags/md.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Moldova.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Moldova.svg; author: Gheorghe Vrabie; flag chosen via Wikidata Q217"
+  },
+  "flags/me.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Montenegro.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Montenegro.svg; author: B1mbo , Froztbyte , Great Brightstar; flag chosen via Wikidata Q236"
+  },
+  "flags/mf.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_France.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of France.svg; author: Original: Unknown Vector: SKopp; flag chosen via Wikidata Q126125"
+  },
+  "flags/mg.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Madagascar.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Madagascar.svg; flag chosen via Wikidata Q1019"
+  },
+  "flags/mh.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Marshall_Islands.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the Marshall Islands.svg; author: No machine-readable author provided. SKopp assumed (based on copyright claims).; flag chosen via Wikidata Q709"
+  },
+  "flags/mk.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_North_Macedonia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of North Macedonia.svg; author: User:SKopp , redrawn by User:Gabbe; flag chosen via Wikidata Q221"
+  },
+  "flags/ml.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Mali.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Mali.svg; author: SKopp; flag chosen via Wikidata Q912"
+  },
+  "flags/mm.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Myanmar.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Myanmar.svg; author: Unknown author Unknown author; flag chosen via Wikidata Q836"
+  },
+  "flags/mn.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Mongolia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Mongolia.svg; author: See File history below for details.; flag chosen via Wikidata Q711"
+  },
+  "flags/mo.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Macau.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Macau.svg; author: see File history; flag chosen via Wikidata Q14773"
+  },
+  "flags/mp.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Northern_Mariana_Islands.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the Northern Mariana Islands.svg; flag chosen via Wikidata Q16644"
+  },
+  "flags/mq.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag-of-Martinique.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag-of-Martinique.svg; author: User:MapGrid / User:HapHaxion / User:Femfem5 / User:Triton , based on work by User:Carport; flag chosen via Wikidata Q17054"
+  },
+  "flags/mr.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Mauritania.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Mauritania.svg; author: See File history below for details.; flag chosen via Wikidata Q1025"
+  },
+  "flags/ms.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Montserrat.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Montserrat.svg; flag chosen via Wikidata Q13353"
+  },
+  "flags/mt.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Malta.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Malta.svg; author: See File history below for details.; flag chosen via Wikidata Q233"
+  },
+  "flags/mu.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Mauritius.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Mauritius.svg; author: Zscout370; flag chosen via Wikidata Q1027"
+  },
+  "flags/mv.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Maldives.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Maldives.svg; author: See File history , below, for details.; flag chosen via Wikidata Q826"
+  },
+  "flags/mw.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Malawi.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Malawi.svg; author: Original: Unknown author Vector: Achim1999; flag chosen via Wikidata Q1020"
+  },
+  "flags/mx.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Mexico.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Mexico.svg; author: Omar Alejandro Covarrubias Neri , 9 April 2006. Based on the 1968 arms by Francisco Eppens Helguera and Juan Manuel Gabino Villascán.; flag chosen via Wikidata Q96"
+  },
+  "flags/my.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Malaysia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Malaysia.svg; author: MapGrid (old version SKopp , Zscout370 and Ranking Update ); flag chosen via Wikidata Q833"
+  },
+  "flags/mz.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Mozambique.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Mozambique.svg; author: FRELIMO; flag chosen via Wikidata Q1029"
+  },
+  "flags/na.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Namibia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Namibia.svg; author: SVG by Vzb83~commonswiki et al.; flag chosen via Wikidata Q1030"
+  },
+  "flags/nc.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_FLNKS.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of FLNKS.svg; author: User:WarX; flag chosen via Wikidata Q33788"
+  },
+  "flags/ne.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Niger.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Niger.svg; author: Made by: Philippe Verdy User:verdy_p , see also fr:Utilisateur:verdy_p .; flag chosen via Wikidata Q1032"
+  },
+  "flags/nf.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Norfolk_Island.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "CC0",
+    "notes": "Wikimedia Commons, File:Flag of Norfolk Island.svg; flag chosen via Wikidata Q31057"
+  },
+  "flags/ng.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nigeria.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Nigeria.svg; author: Jon Harald Søby .; flag chosen via Wikidata Q1033"
+  },
+  "flags/ni.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nicaragua.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Nicaragua.svg; author: C records; flag chosen via Wikidata Q811"
+  },
+  "flags/nl.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Netherlands.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the Netherlands.svg; author: Zscout370; flag chosen via Wikidata Q29999"
+  },
+  "flags/no.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Norway.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Norway.svg; author: Original: Fredrik Meltzer Vector: Gutten på Hemsen; flag chosen via Wikidata Q20"
+  },
+  "flags/np.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Nepal.svg; author: Drawn by Pumbaa80 , Achim1999; flag chosen via Wikidata Q837"
+  },
+  "flags/nr.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nauru.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Nauru.svg; author: User:Skimel; flag chosen via Wikidata Q697"
+  },
+  "flags/nu.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Niue.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Niue.svg; author: SKopp; flag chosen via Wikidata Q34020"
+  },
+  "flags/nz.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_New_Zealand.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of New Zealand.svg; author: Original: Albert Hastings Markham Vector: Zscout370 , Hugh Jass , s. File history; flag chosen via Wikidata Q664"
+  },
+  "flags/om.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Oman.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "OGL-om 1.0",
+    "notes": "Wikimedia Commons, File:Flag of Oman.svg; author: See File history below for details.; flag chosen via Wikidata Q842"
+  },
+  "flags/pa.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Panama.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Panama.svg; author: Zscout370 et al.; flag chosen via Wikidata Q804"
+  },
+  "flags/pe.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Peru.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Peru.svg; author: David Benbennick; flag chosen via Wikidata Q419"
+  },
+  "flags/pf.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_French_Polynesia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "CC0",
+    "notes": "Wikimedia Commons, File:Flag of French Polynesia.svg; author: Nightstallion; flag chosen via Wikidata Q30971"
+  },
+  "flags/pg.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Papua_New_Guinea.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Papua New Guinea.svg; author: User:Nightstallion; flag chosen via Wikidata Q691"
+  },
+  "flags/ph.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Philippines.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the Philippines.svg; author: See File history below for details.; flag chosen via Wikidata Q928"
+  },
+  "flags/pk.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Pakistan.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Pakistan.svg; author: User:Zscout370; flag chosen via Wikidata Q843"
+  },
+  "flags/pl.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Poland.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Poland.svg; author: See below.; flag chosen via Wikidata Q36"
+  },
+  "flags/pm.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Saint-Pierre_and_Miquelon.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Saint-Pierre and Miquelon.svg; author: André Paturel; flag chosen via Wikidata Q34617"
+  },
+  "flags/pn.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Pitcairn_Islands.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the Pitcairn Islands.svg; author: User:Dbenbenn; flag chosen via Wikidata Q35672"
+  },
+  "flags/pr.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Puerto_Rico.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Puerto Rico.svg; author: Original: Unknown Vector: Cerejota; flag chosen via Wikidata Q1183"
+  },
+  "flags/ps.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Palestine.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Palestine.svg; author: Orionist , previous versions by Makaristos , Mysid , etc.; flag chosen via Wikidata Q219060"
+  },
+  "flags/pt.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Portugal_%28official%29.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Portugal (official).svg; author: Original: Columbano Bordalo Pinheiro Vector: Vítor Luís Rodrigues, António Martins-Tuválkin; flag chosen via Wikidata Q45"
+  },
+  "flags/pw.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Palau.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Palau.svg; author: Original: John Blau Skebong Vector: Nightstallion; flag chosen via Wikidata Q695"
+  },
+  "flags/py.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Paraguay.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Paraguay.svg; author: Republica del Paraguay; flag chosen via Wikidata Q733"
+  },
+  "flags/qa.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Qatar.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Qatar.svg; author: See File history below for details.; flag chosen via Wikidata Q846"
+  },
+  "flags/re.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_France.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of France.svg; author: Original: Unknown Vector: SKopp; flag chosen via Wikidata Q17070"
+  },
+  "flags/ro.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Romania.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Romania.svg; author: AdiJapan; flag chosen via Wikidata Q218"
+  },
+  "flags/rs.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Serbia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Serbia.svg; author: See File history below for details.; flag chosen via Wikidata Q403"
+  },
+  "flags/ru.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Russia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Russia.svg; author: Peter the Great; flag chosen via Wikidata Q159"
+  },
+  "flags/rw.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Rwanda.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Rwanda.svg; author: Original: Unknown Vector: Zscout370; flag chosen via Wikidata Q1037"
+  },
+  "flags/sa.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Saudi_Arabia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Saudi Arabia.svg; author: The Shura Council; flag chosen via Wikidata Q851"
+  },
+  "flags/sb.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Solomon_Islands.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the Solomon Islands.svg; author: User:SKopp; flag chosen via Wikidata Q685"
+  },
+  "flags/sc.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Seychelles.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Seychelles.svg; author: User:Vxb83; flag chosen via Wikidata Q1042"
+  },
+  "flags/sd.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Sudan.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Sudan.svg; author: See File history below for details.; flag chosen via Wikidata Q1049"
+  },
+  "flags/se.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Sweden.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Sweden.svg; author: Jon Harald Søby and others.; flag chosen via Wikidata Q34"
+  },
+  "flags/sg.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Singapore.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Singapore.svg; author: Original: Government of Singapore Vector: Zscout370; flag chosen via Wikidata Q334"
+  },
+  "flags/sh.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_United_Kingdom_%281-2%29.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the United Kingdom (1-2).svg; author: Original: Acts of Union 1800 Vector: Zscout370; flag chosen via Wikidata Q192184"
+  },
+  "flags/si.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Slovenia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Slovenia.svg; author: Original: Marko Pogačnik Vector: Achim1999; flag chosen via Wikidata Q215"
+  },
+  "flags/sj.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Norway.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Norway.svg; author: Original: Fredrik Meltzer Vector: Gutten på Hemsen; flag chosen via Wikidata Q842829"
+  },
+  "flags/sk.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Slovakia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Slovakia.svg; author: Original: Ladislav Čisárik and Ladislav Vrtel Vector: SKopp; flag chosen via Wikidata Q214"
+  },
+  "flags/sl.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Sierra_Leone.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Sierra Leone.svg; author: Zscout370; flag chosen via Wikidata Q1044"
+  },
+  "flags/sm.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_San_Marino.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of San Marino.svg; author: Zscout370; flag chosen via Wikidata Q238"
+  },
+  "flags/sn.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Senegal.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Senegal.svg; author: Original upload by Nightstallion; flag chosen via Wikidata Q1041"
+  },
+  "flags/so.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Somalia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Somalia.svg; author: see upload history; flag chosen via Wikidata Q1045"
+  },
+  "flags/sr.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Suriname.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Suriname.svg; author: See File history below for details.; flag chosen via Wikidata Q730"
+  },
+  "flags/ss.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_South_Sudan.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of South Sudan.svg; author: Achim1999; flag chosen via Wikidata Q958"
+  },
+  "flags/st.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of São Tomé and Príncipe.svg; author: See File history below for details.; flag chosen via Wikidata Q1039"
+  },
+  "flags/sv.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_El_Salvador.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of El Salvador.svg; author: See File history below for details.; flag chosen via Wikidata Q792"
+  },
+  "flags/sx.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Sint_Maarten.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Sint Maarten.svg; author: User:Shervinafshar , based on work of User:Washiucho . Earlier non-PD versions by User:SiBr4 , User:Fry1989 , and User:Andrwsc .; flag chosen via Wikidata Q26273"
+  },
+  "flags/sy.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Syria_%282025-%29.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Syria (2025-).svg; author: Modification by AnonMoos of PD image File:Flag of Syria (1930–1958, 1961–1963).svg (previous non-vector versions were by Coup de crayon 2011); flag chosen via Wikidata Q858"
+  },
+  "flags/sz.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Eswatini.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Eswatini.svg; author: Sobhuza II; flag chosen via Wikidata Q1050"
+  },
+  "flags/tc.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Turks_and_Caicos_Islands.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the Turks and Caicos Islands.svg; author: Unknown author Unknown author; flag chosen via Wikidata Q18221"
+  },
+  "flags/td.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Chad.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Chad.svg; author: SKopp & others (see upload log); flag chosen via Wikidata Q657"
+  },
+  "flags/tf.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_French_Southern_and_Antarctic_Lands.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the French Southern and Antarctic Lands.svg; author: Académie de Grenoble; flag chosen via Wikidata Q129003"
+  },
+  "flags/tg.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Togo_%283-2%29.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Togo (3-2).svg; author: Sangjinhwa; flag chosen via Wikidata Q945"
+  },
+  "flags/th.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Thailand.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Thailand.svg; author: Zscout370; flag chosen via Wikidata Q869"
+  },
+  "flags/tj.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Tajikistan.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Tajikistan.svg; author: Unknown author Unknown author; flag chosen via Wikidata Q863"
+  },
+  "flags/tk.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Tokelau.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Tokelau.svg; author: Original: Unknown Vector: Andrwsc; flag chosen via Wikidata Q36823"
+  },
+  "flags/tl.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_East_Timor.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of East Timor.svg; author: See File history , below, for details.; flag chosen via Wikidata Q574"
+  },
+  "flags/tm.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Turkmenistan.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Turkmenistan.svg; flag chosen via Wikidata Q874"
+  },
+  "flags/tn.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Tunisia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Tunisia.svg; author: Various Wikimedia Commons' contributors; flag chosen via Wikidata Q948"
+  },
+  "flags/to.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Tonga.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Tonga.svg; author: Uelingatoni Ngu Tupoumalohi; flag chosen via Wikidata Q678"
+  },
+  "flags/tr.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Turkey.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Turkey.svg; author: David Benbennick (original author); flag chosen via Wikidata Q43"
+  },
+  "flags/tt.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Trinidad_and_Tobago.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Trinidad and Tobago.svg; author: See File history , below, for details .; flag chosen via Wikidata Q754"
+  },
+  "flags/tv.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Tuvalu.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Tuvalu.svg; author: Unknown author Unknown author; flag chosen via Wikidata Q672"
+  },
+  "flags/tw.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Republic_of_China.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the Republic of China.svg; author: Sun Yat-sen; flag chosen via Wikidata Q865"
+  },
+  "flags/tz.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Tanzania.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Tanzania.svg; flag chosen via Wikidata Q924"
+  },
+  "flags/ua.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Ukraine.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Ukraine.svg; author: Government of Ukraine; flag chosen via Wikidata Q212"
+  },
+  "flags/ug.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Uganda.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Uganda.svg; author: tobias; flag chosen via Wikidata Q1036"
+  },
+  "flags/um.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_United_States.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the United States.svg; author: Uploaded by Dbenbenn ; edited by users such as Zscout370 , Jacobolus , Indolences , and Technion .; flag chosen via Wikidata Q16645"
+  },
+  "flags/us.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_United_States_%28DDD-F-416E_specifications%29.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the United States (DDD-F-416E specifications).svg; author: Vector file created by Dbenbenn , Zscout370 , Jacobolus , Indolences , and Technion .; flag chosen via Wikidata Q30"
+  },
+  "flags/uy.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Uruguay.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Uruguay.svg; author: See File history below for details.; flag chosen via Wikidata Q77"
+  },
+  "flags/uz.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Uzbekistan.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Uzbekistan.svg; author: Farhod Yoʻldoshev; flag chosen via Wikidata Q265"
+  },
+  "flags/va.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Vatican_City_%282023%E2%80%93present%29.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Vatican City (2023–present).svg; author: Goran_tek-en; flag chosen via Wikidata Q237"
+  },
+  "flags/vc.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Saint_Vincent_and_the_Grenadines.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Saint Vincent and the Grenadines.svg; author: No machine-readable author provided. SKopp assumed (based on copyright claims).; flag chosen via Wikidata Q757"
+  },
+  "flags/ve.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Venezuela.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Venezuela.svg; author: Various, see File history below for details.; flag chosen via Wikidata Q717"
+  },
+  "flags/vg.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_British_Virgin_Islands.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the British Virgin Islands.svg; author: No machine-readable author provided. Dbenbenn assumed (based on copyright claims).; flag chosen via Wikidata Q25305"
+  },
+  "flags/vi.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_United_States_Virgin_Islands.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of the United States Virgin Islands.svg; author: Percival Wilson Sparks . sparksfamilyassn.org . Retrieved on 2026-05-26 .; flag chosen via Wikidata Q11703"
+  },
+  "flags/vn.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Vietnam.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Vietnam.svg; author: See File history below for details.; flag chosen via Wikidata Q881"
+  },
+  "flags/vu.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Vanuatu.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Vanuatu.svg; author: Kalontas Mahlon; flag chosen via Wikidata Q686"
+  },
+  "flags/wf.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Wallis_and_Futuna.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Wallis and Futuna.svg; flag chosen via Wikidata Q35555"
+  },
+  "flags/ws.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Samoa.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Samoa.svg; author: Original: Malietoa Tanumafili II and Tupua Tamasese Meaʻole Vector: See the file history below for details.; flag chosen via Wikidata Q683"
+  },
+  "flags/xk.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Kosovo.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Kosovo.svg; author: Cradel (current version), earlier version by Ningyou; flag chosen via Wikidata Q1246"
+  },
+  "flags/ye.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Yemen.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Yemen.svg; author: Nightstallion et al., see File history below for details.; flag chosen via Wikidata Q805"
+  },
+  "flags/yt.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_France.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of France.svg; author: Original: Unknown Vector: SKopp; official flag of France (Wikidata lists a regional logo)"
+  },
+  "flags/za.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_South_Africa.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of South Africa.svg; author: Flag design by Frederick Brownell , image by Wikimedia Commons users; flag chosen via Wikidata Q258"
+  },
+  "flags/zm.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Zambia.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Zambia.svg; author: Gabriel Ellison; flag chosen via Wikidata Q953"
+  },
+  "flags/zw.png": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Zimbabwe.svg?width=1280",
+    "retrieved": "2026-11-14",
+    "license": "Public domain",
+    "notes": "Wikimedia Commons, File:Flag of Zimbabwe.svg; author: See File history below for details.; flag chosen via Wikidata Q954"
+  },
   "football/clubs/ar/aldosivi.png": {
     "license": null,
     "notes": "Via github.com/Leo4815162342/football-logos (football-logos.cc)",

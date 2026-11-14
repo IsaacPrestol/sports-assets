@@ -1,0 +1,3597 @@
+{
+  "version": 1,
+  "flags": [
+    {
+      "id": "ad",
+      "code": "AD",
+      "name": "Andorra",
+      "aliases": [
+        "Andorre",
+        "AND"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ad.png"
+    },
+    {
+      "id": "ae",
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "aliases": [
+        "Emiratos Árabes Unidos",
+        "Émirats arabes unis",
+        "Vereinigte Arabische Emirate",
+        "Emirati Arabi Uniti",
+        "Emirados Árabes Unidos",
+        "ARE",
+        "UAE"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ae.png"
+    },
+    {
+      "id": "af",
+      "code": "AF",
+      "name": "Afghanistan",
+      "aliases": [
+        "Afganistán",
+        "Afeganistão",
+        "AFG"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/af.png"
+    },
+    {
+      "id": "ag",
+      "code": "AG",
+      "name": "Antigua and Barbuda",
+      "aliases": [
+        "Antigua y Barbuda",
+        "Antigua-et-Barbuda",
+        "Antigua und Barbuda",
+        "Antigua e Barbuda",
+        "ATG"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ag.png"
+    },
+    {
+      "id": "ai",
+      "code": "AI",
+      "name": "Anguilla",
+      "aliases": [
+        "Anguila",
+        "AIA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ai.png"
+    },
+    {
+      "id": "al",
+      "code": "AL",
+      "name": "Albania",
+      "aliases": [
+        "Albanie",
+        "Albanien",
+        "ALB"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/al.png"
+    },
+    {
+      "id": "am",
+      "code": "AM",
+      "name": "Armenia",
+      "aliases": [
+        "Arménie",
+        "Armenien",
+        "ARM"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/am.png"
+    },
+    {
+      "id": "ao",
+      "code": "AO",
+      "name": "Angola",
+      "aliases": [
+        "AGO",
+        "ANG"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ao.png"
+    },
+    {
+      "id": "aq",
+      "code": "AQ",
+      "name": "Antarctica",
+      "aliases": [
+        "Antártida",
+        "Antarctique",
+        "Antarktis",
+        "Región del Tratado Antártico",
+        "région du Traité sur l'Antarctique",
+        "Gebiet des Antarktis-Vertrags",
+        "regione del Trattato Antartico",
+        "Sistema do Tratado da Antártica",
+        "Antarctic Treaty area",
+        "ATA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/aq.png"
+    },
+    {
+      "id": "ar",
+      "code": "AR",
+      "name": "Argentina",
+      "aliases": [
+        "Argentine",
+        "Argentinien",
+        "ARG"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ar.png"
+    },
+    {
+      "id": "as",
+      "code": "AS",
+      "name": "American Samoa",
+      "aliases": [
+        "Samoa Americana",
+        "Samoa américaines",
+        "Amerikanisch-Samoa",
+        "Samoa Americane",
+        "ASM",
+        "ASA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/as.png"
+    },
+    {
+      "id": "at",
+      "code": "AT",
+      "name": "Austria",
+      "aliases": [
+        "Autriche",
+        "Österreich",
+        "AUT"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/at.png"
+    },
+    {
+      "id": "au",
+      "code": "AU",
+      "name": "Australia",
+      "aliases": [
+        "Australie",
+        "Australien",
+        "AUS"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/au.png"
+    },
+    {
+      "id": "aw",
+      "code": "AW",
+      "name": "Aruba",
+      "aliases": [
+        "ABW",
+        "ARU"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/aw.png"
+    },
+    {
+      "id": "ax",
+      "code": "AX",
+      "name": "Åland",
+      "aliases": [
+        "Isole Åland",
+        "ALA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ax.png"
+    },
+    {
+      "id": "az",
+      "code": "AZ",
+      "name": "Azerbaijan",
+      "aliases": [
+        "Azerbaiyán",
+        "Azerbaïdjan",
+        "Aserbaidschan",
+        "Azerbaigian",
+        "Azerbaijão",
+        "AZE"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/az.png"
+    },
+    {
+      "id": "ba",
+      "code": "BA",
+      "name": "Bosnia and Herzegovina",
+      "aliases": [
+        "Bosnia y Herzegovina",
+        "Bosnie-Herzégovine",
+        "Bosnien und Herzegowina",
+        "Bosnia ed Erzegovina",
+        "Bósnia e Herzegovina",
+        "BIH"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ba.png"
+    },
+    {
+      "id": "bb",
+      "code": "BB",
+      "name": "Barbados",
+      "aliases": [
+        "Barbade",
+        "BRB"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/bb.png"
+    },
+    {
+      "id": "bd",
+      "code": "BD",
+      "name": "Bangladesh",
+      "aliases": [
+        "Bangladés",
+        "Bangladesch",
+        "BGD",
+        "BAN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/bd.png"
+    },
+    {
+      "id": "be",
+      "code": "BE",
+      "name": "Belgium",
+      "aliases": [
+        "Bélgica",
+        "Belgique",
+        "Belgien",
+        "Belgio",
+        "BEL"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/be.png"
+    },
+    {
+      "id": "bf",
+      "code": "BF",
+      "name": "Burkina Faso",
+      "aliases": [
+        "Burquina Fasso",
+        "BFA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/bf.png"
+    },
+    {
+      "id": "bg",
+      "code": "BG",
+      "name": "Bulgaria",
+      "aliases": [
+        "Bulgarie",
+        "Bulgarien",
+        "BGR",
+        "BUL"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/bg.png"
+    },
+    {
+      "id": "bh",
+      "code": "BH",
+      "name": "Bahrain",
+      "aliases": [
+        "Baréin",
+        "Bahreïn",
+        "BHR"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/bh.png"
+    },
+    {
+      "id": "bi",
+      "code": "BI",
+      "name": "Burundi",
+      "aliases": [
+        "BDI"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/bi.png"
+    },
+    {
+      "id": "bj",
+      "code": "BJ",
+      "name": "Benin",
+      "aliases": [
+        "Benim",
+        "BEN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/bj.png"
+    },
+    {
+      "id": "bl",
+      "code": "BL",
+      "name": "Saint Barthélemy",
+      "aliases": [
+        "San Bartolomé",
+        "São Bartolomeu",
+        "BLM"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/bl.png"
+    },
+    {
+      "id": "bm",
+      "code": "BM",
+      "name": "Bermuda",
+      "aliases": [
+        "Bermudas",
+        "Bermudes",
+        "BMU",
+        "BER"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/bm.png"
+    },
+    {
+      "id": "bn",
+      "code": "BN",
+      "name": "Brunei",
+      "aliases": [
+        "BRN",
+        "BRU"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/bn.png"
+    },
+    {
+      "id": "bo",
+      "code": "BO",
+      "name": "Bolivia",
+      "aliases": [
+        "Bolivie",
+        "Bolivien",
+        "BOL"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/bo.png"
+    },
+    {
+      "id": "bq",
+      "code": "BQ",
+      "name": "Caribbean Netherlands",
+      "aliases": [
+        "Caribe neerlandés",
+        "Pays-Bas caribéens",
+        "Karibische Niederlande",
+        "Paesi Bassi caraibici",
+        "Países Baixos Caribenhos",
+        "BES"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/bq.png"
+    },
+    {
+      "id": "br",
+      "code": "BR",
+      "name": "Brazil",
+      "aliases": [
+        "Brasil",
+        "Brésil",
+        "Brasilien",
+        "Brasile",
+        "BRA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/br.png"
+    },
+    {
+      "id": "bs",
+      "code": "BS",
+      "name": "The Bahamas",
+      "aliases": [
+        "Bahamas",
+        "BHS",
+        "BAH"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/bs.png"
+    },
+    {
+      "id": "bt",
+      "code": "BT",
+      "name": "Bhutan",
+      "aliases": [
+        "Bután",
+        "Bhoutan",
+        "Butão",
+        "BTN",
+        "BHU"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/bt.png"
+    },
+    {
+      "id": "bv",
+      "code": "BV",
+      "name": "Bouvet Island",
+      "aliases": [
+        "Isla Bouvet",
+        "île Bouvet",
+        "Bouvetinsel",
+        "isola Bouvet",
+        "Ilha Bouvet",
+        "BVT"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/bv.png"
+    },
+    {
+      "id": "bw",
+      "code": "BW",
+      "name": "Botswana",
+      "aliases": [
+        "Botsuana",
+        "BWA",
+        "BOT"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/bw.png"
+    },
+    {
+      "id": "by",
+      "code": "BY",
+      "name": "Belarus",
+      "aliases": [
+        "Bielorrusia",
+        "Biélorussie",
+        "Bielorussia",
+        "Bielorrússia",
+        "BLR"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/by.png"
+    },
+    {
+      "id": "bz",
+      "code": "BZ",
+      "name": "Belize",
+      "aliases": [
+        "Belice",
+        "BLZ"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/bz.png"
+    },
+    {
+      "id": "ca",
+      "code": "CA",
+      "name": "Canada",
+      "aliases": [
+        "Kanada",
+        "CAN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ca.png"
+    },
+    {
+      "id": "cc",
+      "code": "CC",
+      "name": "Cocos (Keeling) Islands",
+      "aliases": [
+        "islas Cocos",
+        "îles Cocos",
+        "Kokosinseln",
+        "Isole Cocos",
+        "Ilhas Cocos",
+        "CCK"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/cc.png"
+    },
+    {
+      "id": "cd",
+      "code": "CD",
+      "name": "Democratic Republic of the Congo",
+      "aliases": [
+        "República Democrática del Congo",
+        "République démocratique du Congo",
+        "Demokratische Republik Kongo",
+        "Repubblica Democratica del Congo",
+        "República Democrática do Congo",
+        "COD"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/cd.png"
+    },
+    {
+      "id": "cf",
+      "code": "CF",
+      "name": "Central African Republic",
+      "aliases": [
+        "República Centroafricana",
+        "République centrafricaine",
+        "Zentralafrikanische Republik",
+        "Repubblica Centrafricana",
+        "República Centro-Africana",
+        "CAF",
+        "CTA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/cf.png"
+    },
+    {
+      "id": "cg",
+      "code": "CG",
+      "name": "Republic of the Congo",
+      "aliases": [
+        "Congo",
+        "République du Congo",
+        "Republik Kongo",
+        "Repubblica del Congo",
+        "República do Congo",
+        "COG",
+        "CGO"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/cg.png"
+    },
+    {
+      "id": "ch",
+      "code": "CH",
+      "name": "Switzerland",
+      "aliases": [
+        "Suiza",
+        "Suisse",
+        "Schweiz",
+        "Svizzera",
+        "Suíça",
+        "CHE",
+        "SUI"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ch.png"
+    },
+    {
+      "id": "ci",
+      "code": "CI",
+      "name": "Ivory Coast",
+      "aliases": [
+        "Costa de Marfil",
+        "Côte d'Ivoire",
+        "Elfenbeinküste",
+        "Costa d'Avorio",
+        "Costa do Marfim",
+        "CIV"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ci.png"
+    },
+    {
+      "id": "ck",
+      "code": "CK",
+      "name": "Cook Islands",
+      "aliases": [
+        "Islas Cook",
+        "Îles Cook",
+        "Cookinseln",
+        "Isole Cook",
+        "Ilhas Cook",
+        "COK"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ck.png"
+    },
+    {
+      "id": "cl",
+      "code": "CL",
+      "name": "Chile",
+      "aliases": [
+        "Chili",
+        "Cile",
+        "CHL",
+        "CHI"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/cl.png"
+    },
+    {
+      "id": "cm",
+      "code": "CM",
+      "name": "Cameroon",
+      "aliases": [
+        "Camerún",
+        "Cameroun",
+        "Kamerun",
+        "Camarões",
+        "CMR"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/cm.png"
+    },
+    {
+      "id": "cn",
+      "code": "CN",
+      "name": "China",
+      "aliases": [
+        "República Popular China",
+        "République populaire de Chine",
+        "Volksrepublik China",
+        "Cina",
+        "People's Republic of China",
+        "CHN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/cn.png"
+    },
+    {
+      "id": "co",
+      "code": "CO",
+      "name": "Colombia",
+      "aliases": [
+        "Colombie",
+        "Kolumbien",
+        "COL"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/co.png"
+    },
+    {
+      "id": "cr",
+      "code": "CR",
+      "name": "Costa Rica",
+      "aliases": [
+        "CRI",
+        "CRC"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/cr.png"
+    },
+    {
+      "id": "cu",
+      "code": "CU",
+      "name": "Cuba",
+      "aliases": [
+        "Kuba",
+        "CUB"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/cu.png"
+    },
+    {
+      "id": "cv",
+      "code": "CV",
+      "name": "Cape Verde",
+      "aliases": [
+        "Cabo Verde",
+        "Cap-Vert",
+        "Kap Verde",
+        "Capo Verde",
+        "CPV"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/cv.png"
+    },
+    {
+      "id": "cw",
+      "code": "CW",
+      "name": "Curaçao",
+      "aliases": [
+        "Curazao",
+        "Curaçau",
+        "CUW"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/cw.png"
+    },
+    {
+      "id": "cx",
+      "code": "CX",
+      "name": "Christmas Island",
+      "aliases": [
+        "Isla de Navidad",
+        "île Christmas",
+        "Weihnachtsinsel",
+        "Isola di Natale",
+        "Ilha Christmas",
+        "CXR"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/cx.png"
+    },
+    {
+      "id": "cy",
+      "code": "CY",
+      "name": "Cyprus",
+      "aliases": [
+        "Chipre",
+        "Chypre",
+        "Zypern",
+        "Cipro",
+        "CYP"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/cy.png"
+    },
+    {
+      "id": "cz",
+      "code": "CZ",
+      "name": "Czech Republic",
+      "aliases": [
+        "República Checa",
+        "Tchéquie",
+        "Tschechien",
+        "Repubblica Ceca",
+        "Chéquia",
+        "CZE"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/cz.png"
+    },
+    {
+      "id": "de",
+      "code": "DE",
+      "name": "Germany",
+      "aliases": [
+        "Alemania",
+        "Allemagne",
+        "Deutschland",
+        "Germania",
+        "Alemanha",
+        "DEU",
+        "GER"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/de.png"
+    },
+    {
+      "id": "dj",
+      "code": "DJ",
+      "name": "Djibouti",
+      "aliases": [
+        "Yibuti",
+        "Dschibuti",
+        "Gibuti",
+        "DJI"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/dj.png"
+    },
+    {
+      "id": "dk",
+      "code": "DK",
+      "name": "Denmark",
+      "aliases": [
+        "Dinamarca",
+        "Danemark",
+        "Danimarca",
+        "DNK",
+        "DEN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/dk.png"
+    },
+    {
+      "id": "dm",
+      "code": "DM",
+      "name": "Dominica",
+      "aliases": [
+        "Dominique",
+        "DMA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/dm.png"
+    },
+    {
+      "id": "do",
+      "code": "DO",
+      "name": "Dominican Republic",
+      "aliases": [
+        "República Dominicana",
+        "République dominicaine",
+        "Dominikanische Republik",
+        "Repubblica Dominicana",
+        "DOM"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/do.png"
+    },
+    {
+      "id": "dz",
+      "code": "DZ",
+      "name": "Algeria",
+      "aliases": [
+        "Argelia",
+        "Algérie",
+        "Algerien",
+        "DZA",
+        "ALG"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/dz.png"
+    },
+    {
+      "id": "ec",
+      "code": "EC",
+      "name": "Ecuador",
+      "aliases": [
+        "Équateur",
+        "Equador",
+        "ECU"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ec.png"
+    },
+    {
+      "id": "ee",
+      "code": "EE",
+      "name": "Estonia",
+      "aliases": [
+        "Estonie",
+        "Estland",
+        "EST"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ee.png"
+    },
+    {
+      "id": "eg",
+      "code": "EG",
+      "name": "Egypt",
+      "aliases": [
+        "Egipto",
+        "Égypte",
+        "Ägypten",
+        "Egitto",
+        "Egito",
+        "EGY"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/eg.png"
+    },
+    {
+      "id": "eh",
+      "code": "EH",
+      "name": "Western Sahara",
+      "aliases": [
+        "Sahara Occidental",
+        "Westsahara",
+        "Sahara Occidentale",
+        "Sara Ocidental",
+        "ESH"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/eh.png"
+    },
+    {
+      "id": "er",
+      "code": "ER",
+      "name": "Eritrea",
+      "aliases": [
+        "Érythrée",
+        "Eritreia",
+        "ERI"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/er.png"
+    },
+    {
+      "id": "es",
+      "code": "ES",
+      "name": "Spain",
+      "aliases": [
+        "España",
+        "Espagne",
+        "Spanien",
+        "Spagna",
+        "Espanha",
+        "ESP"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/es.png"
+    },
+    {
+      "id": "es-ct",
+      "code": "ES-CT",
+      "name": "Catalonia",
+      "aliases": [
+        "Catalunya",
+        "Cataluña",
+        "Catalogne",
+        "Katalonien",
+        "Catalogna",
+        "Catalunha"
+      ],
+      "type": "subdivision",
+      "parent": "es",
+      "flag": "flags/es-ct.png"
+    },
+    {
+      "id": "es-ga",
+      "code": "ES-GA",
+      "name": "Galicia",
+      "aliases": [
+        "Galiza",
+        "Galice",
+        "Galicien",
+        "Galizia"
+      ],
+      "type": "subdivision",
+      "parent": "es",
+      "flag": "flags/es-ga.png"
+    },
+    {
+      "id": "es-pv",
+      "code": "ES-PV",
+      "name": "Basque Country",
+      "aliases": [
+        "Euskadi",
+        "País Vasco",
+        "Euskal Herria",
+        "Pays basque",
+        "Baskenland",
+        "Paesi Baschi",
+        "Comunidade Autónoma do País Basco",
+        "Euskal Autonomia Erkidegoa"
+      ],
+      "type": "subdivision",
+      "parent": "es",
+      "flag": "flags/es-pv.png"
+    },
+    {
+      "id": "et",
+      "code": "ET",
+      "name": "Ethiopia",
+      "aliases": [
+        "Etiopía",
+        "Éthiopie",
+        "Äthiopien",
+        "ETH"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/et.png"
+    },
+    {
+      "id": "fi",
+      "code": "FI",
+      "name": "Finland",
+      "aliases": [
+        "Finlandia",
+        "Finlande",
+        "Finnland",
+        "FIN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/fi.png"
+    },
+    {
+      "id": "fj",
+      "code": "FJ",
+      "name": "Fiji",
+      "aliases": [
+        "Fiyi",
+        "Fidji",
+        "Fidschi",
+        "Figi",
+        "FJI",
+        "FIJ"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/fj.png"
+    },
+    {
+      "id": "fk",
+      "code": "FK",
+      "name": "Falkland Islands",
+      "aliases": [
+        "Islas Malvinas",
+        "îles Malouines",
+        "Falklandinseln",
+        "Isole Falkland",
+        "Ilhas Malvinas",
+        "FLK"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/fk.png"
+    },
+    {
+      "id": "fm",
+      "code": "FM",
+      "name": "Federated States of Micronesia",
+      "aliases": [
+        "Estados Federados de Micronesia",
+        "États fédérés de Micronésie",
+        "Föderierte Staaten von Mikronesien",
+        "Stati Federati di Micronesia",
+        "Micronésia",
+        "FSM"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/fm.png"
+    },
+    {
+      "id": "fo",
+      "code": "FO",
+      "name": "Faroe Islands",
+      "aliases": [
+        "Islas Feroe",
+        "îles Féroé",
+        "Färöer",
+        "Fær Øer",
+        "Ilhas Feroe",
+        "FRO"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/fo.png"
+    },
+    {
+      "id": "fr",
+      "code": "FR",
+      "name": "France",
+      "aliases": [
+        "Francia",
+        "Frankreich",
+        "França",
+        "FRA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/fr.png"
+    },
+    {
+      "id": "ga",
+      "code": "GA",
+      "name": "Gabon",
+      "aliases": [
+        "Gabun",
+        "Gabão",
+        "GAB"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ga.png"
+    },
+    {
+      "id": "gb",
+      "code": "GB",
+      "name": "United Kingdom",
+      "aliases": [
+        "UK",
+        "Great Britain",
+        "Reino Unido",
+        "Royaume-Uni",
+        "Vereinigtes Königreich",
+        "Regno Unito",
+        "GBR"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/gb.png"
+    },
+    {
+      "id": "gb-eng",
+      "code": "GB-ENG",
+      "name": "England",
+      "aliases": [
+        "Inglaterra",
+        "Angleterre",
+        "Inghilterra",
+        "ENG"
+      ],
+      "type": "subdivision",
+      "parent": "gb",
+      "flag": "flags/gb-eng.png"
+    },
+    {
+      "id": "gb-nir",
+      "code": "GB-NIR",
+      "name": "Northern Ireland",
+      "aliases": [
+        "Irlanda del Norte",
+        "Irlande du Nord",
+        "Nordirland",
+        "Irlanda del Nord",
+        "Irlanda do Norte",
+        "Tuaisceart Éireann",
+        "NIR"
+      ],
+      "type": "subdivision",
+      "parent": "gb",
+      "flag": "flags/gb-nir.png"
+    },
+    {
+      "id": "gb-sct",
+      "code": "GB-SCT",
+      "name": "Scotland",
+      "aliases": [
+        "Escocia",
+        "Écosse",
+        "Schottland",
+        "Scozia",
+        "Alba",
+        "SCO"
+      ],
+      "type": "subdivision",
+      "parent": "gb",
+      "flag": "flags/gb-sct.png"
+    },
+    {
+      "id": "gb-wls",
+      "code": "GB-WLS",
+      "name": "Wales",
+      "aliases": [
+        "Gales",
+        "pays de Galles",
+        "Galles",
+        "País de Gales",
+        "Cymru",
+        "WAL"
+      ],
+      "type": "subdivision",
+      "parent": "gb",
+      "flag": "flags/gb-wls.png"
+    },
+    {
+      "id": "gd",
+      "code": "GD",
+      "name": "Grenada",
+      "aliases": [
+        "Granada",
+        "Grenade",
+        "GRD",
+        "GRN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/gd.png"
+    },
+    {
+      "id": "ge",
+      "code": "GE",
+      "name": "Georgia",
+      "aliases": [
+        "Géorgie",
+        "Georgien",
+        "GEO"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ge.png"
+    },
+    {
+      "id": "gf",
+      "code": "GF",
+      "name": "French Guiana",
+      "aliases": [
+        "Guayana Francesa",
+        "Guyane",
+        "Französisch-Guayana",
+        "Guyana francese",
+        "Guiana Francesa",
+        "GUF"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/gf.png"
+    },
+    {
+      "id": "gg",
+      "code": "GG",
+      "name": "Guernsey",
+      "aliases": [
+        "Guernesey",
+        "GGY"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/gg.png"
+    },
+    {
+      "id": "gh",
+      "code": "GH",
+      "name": "Ghana",
+      "aliases": [
+        "Gana",
+        "GHA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/gh.png"
+    },
+    {
+      "id": "gi",
+      "code": "GI",
+      "name": "Gibraltar",
+      "aliases": [
+        "Gibilterra",
+        "GIB"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/gi.png"
+    },
+    {
+      "id": "gl",
+      "code": "GL",
+      "name": "Greenland",
+      "aliases": [
+        "Groenlandia",
+        "Groenland",
+        "Grönland",
+        "Gronelândia",
+        "GRL"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/gl.png"
+    },
+    {
+      "id": "gm",
+      "code": "GM",
+      "name": "The Gambia",
+      "aliases": [
+        "Gambia",
+        "Gambie",
+        "GMB",
+        "GAM"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/gm.png"
+    },
+    {
+      "id": "gn",
+      "code": "GN",
+      "name": "Guinea",
+      "aliases": [
+        "Guinée",
+        "Guiné",
+        "GIN",
+        "GUI"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/gn.png"
+    },
+    {
+      "id": "gp",
+      "code": "GP",
+      "name": "Guadeloupe",
+      "aliases": [
+        "Guadalupe",
+        "Guadalupa",
+        "GLP"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/gp.png"
+    },
+    {
+      "id": "gq",
+      "code": "GQ",
+      "name": "Equatorial Guinea",
+      "aliases": [
+        "Guinea Ecuatorial",
+        "Guinée équatoriale",
+        "Äquatorialguinea",
+        "Guinea Equatoriale",
+        "Guiné Equatorial",
+        "GNQ",
+        "EQG"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/gq.png"
+    },
+    {
+      "id": "gr",
+      "code": "GR",
+      "name": "Greece",
+      "aliases": [
+        "Grecia",
+        "Grèce",
+        "Griechenland",
+        "GRC",
+        "GRE"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/gr.png"
+    },
+    {
+      "id": "gs",
+      "code": "GS",
+      "name": "South Georgia and the South Sandwich Islands",
+      "aliases": [
+        "Islas Georgias del Sur y Sandwich del Sur",
+        "Géorgie du Sud-et-les Îles Sandwich du Sud",
+        "Südgeorgien und die Südlichen Sandwichinseln",
+        "Georgia del Sud e isole Sandwich meridionali",
+        "Ilhas Geórgia do Sul e Sandwich do Sul",
+        "SGS"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/gs.png"
+    },
+    {
+      "id": "gt",
+      "code": "GT",
+      "name": "Guatemala",
+      "aliases": [
+        "GTM",
+        "GUA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/gt.png"
+    },
+    {
+      "id": "gu",
+      "code": "GU",
+      "name": "Guam",
+      "aliases": [
+        "GUM"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/gu.png"
+    },
+    {
+      "id": "gw",
+      "code": "GW",
+      "name": "Guinea-Bissau",
+      "aliases": [
+        "Guinea-Bisáu",
+        "Guinée-Bissau",
+        "Guiné-Bissau",
+        "GNB"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/gw.png"
+    },
+    {
+      "id": "gy",
+      "code": "GY",
+      "name": "Guyana",
+      "aliases": [
+        "Guiana",
+        "GUY"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/gy.png"
+    },
+    {
+      "id": "hk",
+      "code": "HK",
+      "name": "Hong Kong",
+      "aliases": [
+        "Hongkong",
+        "HKG"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/hk.png"
+    },
+    {
+      "id": "hm",
+      "code": "HM",
+      "name": "Heard Island and McDonald Islands",
+      "aliases": [
+        "Islas Heard y McDonald",
+        "îles Heard-et-MacDonald",
+        "Heard und McDonaldinseln",
+        "Isole Heard e McDonald",
+        "Ilha Heard e Ilhas McDonald",
+        "HMD"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/hm.png"
+    },
+    {
+      "id": "hn",
+      "code": "HN",
+      "name": "Honduras",
+      "aliases": [
+        "HND",
+        "HON"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/hn.png"
+    },
+    {
+      "id": "hr",
+      "code": "HR",
+      "name": "Croatia",
+      "aliases": [
+        "Croacia",
+        "Croatie",
+        "Kroatien",
+        "Croazia",
+        "HRV",
+        "CRO"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/hr.png"
+    },
+    {
+      "id": "ht",
+      "code": "HT",
+      "name": "Haiti",
+      "aliases": [
+        "HTI",
+        "HAI"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ht.png"
+    },
+    {
+      "id": "hu",
+      "code": "HU",
+      "name": "Hungary",
+      "aliases": [
+        "Hungría",
+        "Hongrie",
+        "Ungarn",
+        "Ungheria",
+        "HUN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/hu.png"
+    },
+    {
+      "id": "id",
+      "code": "ID",
+      "name": "Indonesia",
+      "aliases": [
+        "Indonésie",
+        "Indonesien",
+        "IDN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/id.png"
+    },
+    {
+      "id": "ie",
+      "code": "IE",
+      "name": "Ireland",
+      "aliases": [
+        "Irlanda",
+        "Irlande",
+        "Irland",
+        "IRL"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ie.png"
+    },
+    {
+      "id": "il",
+      "code": "IL",
+      "name": "Israel",
+      "aliases": [
+        "Israele",
+        "ISR"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/il.png"
+    },
+    {
+      "id": "im",
+      "code": "IM",
+      "name": "Isle of Man",
+      "aliases": [
+        "Isla de Man",
+        "Île de Man",
+        "isola di Man",
+        "Ilha de Man",
+        "IMN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/im.png"
+    },
+    {
+      "id": "in",
+      "code": "IN",
+      "name": "India",
+      "aliases": [
+        "Inde",
+        "Indien",
+        "IND"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/in.png"
+    },
+    {
+      "id": "io",
+      "code": "IO",
+      "name": "British Indian Ocean Territory",
+      "aliases": [
+        "Territorio Británico del Océano Índico",
+        "Territoire britannique de l’océan Indien",
+        "Britisches Territorium im Indischen Ozean",
+        "Territorio Britannico dell'Oceano Indiano",
+        "Território Britânico do Oceano Índico",
+        "IOT"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/io.png"
+    },
+    {
+      "id": "iq",
+      "code": "IQ",
+      "name": "Iraq",
+      "aliases": [
+        "Irak",
+        "Iraque",
+        "IRQ"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/iq.png"
+    },
+    {
+      "id": "ir",
+      "code": "IR",
+      "name": "Iran",
+      "aliases": [
+        "Irão",
+        "IRN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ir.png"
+    },
+    {
+      "id": "is",
+      "code": "IS",
+      "name": "Iceland",
+      "aliases": [
+        "Islandia",
+        "Islande",
+        "Island",
+        "Islanda",
+        "ISL"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/is.png"
+    },
+    {
+      "id": "it",
+      "code": "IT",
+      "name": "Italy",
+      "aliases": [
+        "Italia",
+        "Italie",
+        "Italien",
+        "ITA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/it.png"
+    },
+    {
+      "id": "je",
+      "code": "JE",
+      "name": "Jersey",
+      "aliases": [
+        "JEY"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/je.png"
+    },
+    {
+      "id": "jm",
+      "code": "JM",
+      "name": "Jamaica",
+      "aliases": [
+        "Jamaïque",
+        "Jamaika",
+        "Giamaica",
+        "JAM"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/jm.png"
+    },
+    {
+      "id": "jo",
+      "code": "JO",
+      "name": "Jordan",
+      "aliases": [
+        "Jordania",
+        "Jordanie",
+        "Jordanien",
+        "Giordania",
+        "JOR"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/jo.png"
+    },
+    {
+      "id": "jp",
+      "code": "JP",
+      "name": "Japan",
+      "aliases": [
+        "Japón",
+        "Giappone",
+        "Japão",
+        "JPN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/jp.png"
+    },
+    {
+      "id": "ke",
+      "code": "KE",
+      "name": "Kenya",
+      "aliases": [
+        "Kenia",
+        "Quénia",
+        "KEN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ke.png"
+    },
+    {
+      "id": "kg",
+      "code": "KG",
+      "name": "Kyrgyzstan",
+      "aliases": [
+        "Kirguistán",
+        "Kirghizistan",
+        "Kirgisistan",
+        "Quirguistão",
+        "KGZ"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/kg.png"
+    },
+    {
+      "id": "kh",
+      "code": "KH",
+      "name": "Cambodia",
+      "aliases": [
+        "Camboya",
+        "Cambodge",
+        "Kambodscha",
+        "Cambogia",
+        "Camboja",
+        "KHM",
+        "CAM"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/kh.png"
+    },
+    {
+      "id": "ki",
+      "code": "KI",
+      "name": "Kiribati",
+      "aliases": [
+        "Quiribáti",
+        "KIR"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ki.png"
+    },
+    {
+      "id": "km",
+      "code": "KM",
+      "name": "Comoros",
+      "aliases": [
+        "Comoras",
+        "Comores",
+        "Komoren",
+        "Comore",
+        "COM"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/km.png"
+    },
+    {
+      "id": "kn",
+      "code": "KN",
+      "name": "Saint Kitts and Nevis",
+      "aliases": [
+        "San Cristóbal y Nieves",
+        "Saint-Christophe-et-Niévès",
+        "St. Kitts und Nevis",
+        "Saint Kitts e Nevis",
+        "São Cristóvão e Neves",
+        "KNA",
+        "SKN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/kn.png"
+    },
+    {
+      "id": "kp",
+      "code": "KP",
+      "name": "North Korea",
+      "aliases": [
+        "Corea del Norte",
+        "Corée du Nord",
+        "Nordkorea",
+        "Corea del Nord",
+        "Coreia do Norte",
+        "PRK"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/kp.png"
+    },
+    {
+      "id": "kr",
+      "code": "KR",
+      "name": "South Korea",
+      "aliases": [
+        "Corea del Sur",
+        "Corée du Sud",
+        "Südkorea",
+        "Corea del Sud",
+        "Coreia do Sul",
+        "KOR"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/kr.png"
+    },
+    {
+      "id": "kw",
+      "code": "KW",
+      "name": "Kuwait",
+      "aliases": [
+        "Koweït",
+        "KWT"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/kw.png"
+    },
+    {
+      "id": "ky",
+      "code": "KY",
+      "name": "Cayman Islands",
+      "aliases": [
+        "Islas Caimán",
+        "îles Caïmans",
+        "Isole Cayman",
+        "Ilhas Cayman",
+        "CYM",
+        "CAY"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ky.png"
+    },
+    {
+      "id": "kz",
+      "code": "KZ",
+      "name": "Kazakhstan",
+      "aliases": [
+        "Kazajistán",
+        "Kasachstan",
+        "Kazakistan",
+        "Cazaquistão",
+        "KAZ"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/kz.png"
+    },
+    {
+      "id": "la",
+      "code": "LA",
+      "name": "Laos",
+      "aliases": [
+        "LAO"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/la.png"
+    },
+    {
+      "id": "lb",
+      "code": "LB",
+      "name": "Lebanon",
+      "aliases": [
+        "Líbano",
+        "Liban",
+        "Libanon",
+        "LBN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/lb.png"
+    },
+    {
+      "id": "lc",
+      "code": "LC",
+      "name": "Saint Lucia",
+      "aliases": [
+        "Santa Lucía",
+        "Sainte-Lucie",
+        "St. Lucia",
+        "LCA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/lc.png"
+    },
+    {
+      "id": "li",
+      "code": "LI",
+      "name": "Liechtenstein",
+      "aliases": [
+        "LIE"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/li.png"
+    },
+    {
+      "id": "lk",
+      "code": "LK",
+      "name": "Sri Lanka",
+      "aliases": [
+        "LKA",
+        "SRI"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/lk.png"
+    },
+    {
+      "id": "lr",
+      "code": "LR",
+      "name": "Liberia",
+      "aliases": [
+        "LBR"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/lr.png"
+    },
+    {
+      "id": "ls",
+      "code": "LS",
+      "name": "Lesotho",
+      "aliases": [
+        "Lesoto",
+        "LSO",
+        "LES"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ls.png"
+    },
+    {
+      "id": "lt",
+      "code": "LT",
+      "name": "Lithuania",
+      "aliases": [
+        "Lituania",
+        "Lituanie",
+        "Litauen",
+        "LTU"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/lt.png"
+    },
+    {
+      "id": "lu",
+      "code": "LU",
+      "name": "Luxembourg",
+      "aliases": [
+        "Luxemburgo",
+        "Luxemburg",
+        "Lussemburgo",
+        "LUX"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/lu.png"
+    },
+    {
+      "id": "lv",
+      "code": "LV",
+      "name": "Latvia",
+      "aliases": [
+        "Letonia",
+        "Lettonie",
+        "Lettland",
+        "Lettonia",
+        "LVA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/lv.png"
+    },
+    {
+      "id": "ly",
+      "code": "LY",
+      "name": "Libya",
+      "aliases": [
+        "Libia",
+        "Libye",
+        "Libyen",
+        "LBY"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ly.png"
+    },
+    {
+      "id": "ma",
+      "code": "MA",
+      "name": "Morocco",
+      "aliases": [
+        "Marruecos",
+        "Maroc",
+        "Marokko",
+        "Marocco",
+        "Marrocos",
+        "MAR"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ma.png"
+    },
+    {
+      "id": "mc",
+      "code": "MC",
+      "name": "Monaco",
+      "aliases": [
+        "Principato di Monaco",
+        "MCO"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/mc.png"
+    },
+    {
+      "id": "md",
+      "code": "MD",
+      "name": "Moldova",
+      "aliases": [
+        "Moldavia",
+        "Moldavie",
+        "Moldau",
+        "MDA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/md.png"
+    },
+    {
+      "id": "me",
+      "code": "ME",
+      "name": "Montenegro",
+      "aliases": [
+        "MNE"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/me.png"
+    },
+    {
+      "id": "mf",
+      "code": "MF",
+      "name": "Saint Martin",
+      "aliases": [
+        "MAF"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/mf.png"
+    },
+    {
+      "id": "mg",
+      "code": "MG",
+      "name": "Madagascar",
+      "aliases": [
+        "Madagaskar",
+        "MDG",
+        "MAD"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/mg.png"
+    },
+    {
+      "id": "mh",
+      "code": "MH",
+      "name": "Marshall Islands",
+      "aliases": [
+        "Islas Marshall",
+        "Îles Marshall",
+        "Marshallinseln",
+        "Isole Marshall",
+        "Ilhas Marshall",
+        "MHL"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/mh.png"
+    },
+    {
+      "id": "mk",
+      "code": "MK",
+      "name": "North Macedonia",
+      "aliases": [
+        "Macedonia del Norte",
+        "Macédoine du Nord",
+        "Nordmazedonien",
+        "Macedonia del Nord",
+        "Macedónia do Norte",
+        "MKD"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/mk.png"
+    },
+    {
+      "id": "ml",
+      "code": "ML",
+      "name": "Mali",
+      "aliases": [
+        "MLI"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ml.png"
+    },
+    {
+      "id": "mm",
+      "code": "MM",
+      "name": "Myanmar",
+      "aliases": [
+        "Birmania",
+        "Birmanie",
+        "MMR",
+        "MYA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/mm.png"
+    },
+    {
+      "id": "mn",
+      "code": "MN",
+      "name": "Mongolia",
+      "aliases": [
+        "Mongolie",
+        "Mongolei",
+        "MNG"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/mn.png"
+    },
+    {
+      "id": "mo",
+      "code": "MO",
+      "name": "Macau",
+      "aliases": [
+        "Macao",
+        "MAC"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/mo.png"
+    },
+    {
+      "id": "mp",
+      "code": "MP",
+      "name": "Northern Mariana Islands",
+      "aliases": [
+        "Islas Marianas del Norte",
+        "îles Mariannes du Nord",
+        "Nördliche Marianen",
+        "Isole Marianne Settentrionali",
+        "Marianas Setentrionais",
+        "MNP"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/mp.png"
+    },
+    {
+      "id": "mq",
+      "code": "MQ",
+      "name": "Martinique",
+      "aliases": [
+        "Martinica",
+        "MTQ"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/mq.png"
+    },
+    {
+      "id": "mr",
+      "code": "MR",
+      "name": "Mauritania",
+      "aliases": [
+        "Mauritanie",
+        "Mauretanien",
+        "MRT",
+        "MTN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/mr.png"
+    },
+    {
+      "id": "ms",
+      "code": "MS",
+      "name": "Montserrat",
+      "aliases": [
+        "Monserrate",
+        "MSR"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ms.png"
+    },
+    {
+      "id": "mt",
+      "code": "MT",
+      "name": "Malta",
+      "aliases": [
+        "Malte",
+        "MLT"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/mt.png"
+    },
+    {
+      "id": "mu",
+      "code": "MU",
+      "name": "Mauritius",
+      "aliases": [
+        "Mauricio",
+        "Maurice",
+        "Maurícia",
+        "MUS",
+        "MRI"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/mu.png"
+    },
+    {
+      "id": "mv",
+      "code": "MV",
+      "name": "Maldives",
+      "aliases": [
+        "Maldivas",
+        "Malediven",
+        "Maldive",
+        "MDV"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/mv.png"
+    },
+    {
+      "id": "mw",
+      "code": "MW",
+      "name": "Malawi",
+      "aliases": [
+        "Malaui",
+        "MWI"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/mw.png"
+    },
+    {
+      "id": "mx",
+      "code": "MX",
+      "name": "Mexico",
+      "aliases": [
+        "Mexique",
+        "Mexiko",
+        "Messico",
+        "MEX"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/mx.png"
+    },
+    {
+      "id": "my",
+      "code": "MY",
+      "name": "Malaysia",
+      "aliases": [
+        "Malasia",
+        "Malaisie",
+        "MYS",
+        "MAS"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/my.png"
+    },
+    {
+      "id": "mz",
+      "code": "MZ",
+      "name": "Mozambique",
+      "aliases": [
+        "Mosambik",
+        "Mozambico",
+        "Moçambique",
+        "MOZ"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/mz.png"
+    },
+    {
+      "id": "na",
+      "code": "NA",
+      "name": "Namibia",
+      "aliases": [
+        "Namibie",
+        "NAM"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/na.png"
+    },
+    {
+      "id": "nc",
+      "code": "NC",
+      "name": "New Caledonia",
+      "aliases": [
+        "Nueva Caledonia",
+        "Nouvelle-Calédonie",
+        "Neukaledonien",
+        "Nuova Caledonia",
+        "Nova Caledónia",
+        "NCL"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/nc.png"
+    },
+    {
+      "id": "ne",
+      "code": "NE",
+      "name": "Niger",
+      "aliases": [
+        "NER",
+        "NIG"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ne.png"
+    },
+    {
+      "id": "nf",
+      "code": "NF",
+      "name": "Norfolk Island",
+      "aliases": [
+        "Isla Norfolk",
+        "île Norfolk",
+        "Norfolkinsel",
+        "Isola Norfolk",
+        "Ilha Norfolk",
+        "NFK"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/nf.png"
+    },
+    {
+      "id": "ng",
+      "code": "NG",
+      "name": "Nigeria",
+      "aliases": [
+        "NGA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ng.png"
+    },
+    {
+      "id": "ni",
+      "code": "NI",
+      "name": "Nicaragua",
+      "aliases": [
+        "NIC",
+        "NCA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ni.png"
+    },
+    {
+      "id": "nl",
+      "code": "NL",
+      "name": "Netherlands",
+      "aliases": [
+        "Holland",
+        "Holanda",
+        "Países Bajos",
+        "Reino de los Países Bajos",
+        "Royaume des Pays-Bas",
+        "Königreich der Niederlande",
+        "Regno dei Paesi Bassi",
+        "Reino dos Países Baixos",
+        "Kingdom of the Netherlands",
+        "NLD"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/nl.png"
+    },
+    {
+      "id": "no",
+      "code": "NO",
+      "name": "Norway",
+      "aliases": [
+        "Noruega",
+        "Norvège",
+        "Norwegen",
+        "Norvegia",
+        "NOR"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/no.png"
+    },
+    {
+      "id": "np",
+      "code": "NP",
+      "name": "Nepal",
+      "aliases": [
+        "NPL",
+        "NEP"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/np.png"
+    },
+    {
+      "id": "nr",
+      "code": "NR",
+      "name": "Nauru",
+      "aliases": [
+        "Naoero",
+        "NRU"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/nr.png"
+    },
+    {
+      "id": "nu",
+      "code": "NU",
+      "name": "Niue",
+      "aliases": [
+        "NIU"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/nu.png"
+    },
+    {
+      "id": "nz",
+      "code": "NZ",
+      "name": "New Zealand",
+      "aliases": [
+        "Nueva Zelanda",
+        "Nouvelle-Zélande",
+        "Neuseeland",
+        "Nuova Zelanda",
+        "Nova Zelândia",
+        "NZL"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/nz.png"
+    },
+    {
+      "id": "om",
+      "code": "OM",
+      "name": "Oman",
+      "aliases": [
+        "Omã",
+        "OMN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/om.png"
+    },
+    {
+      "id": "pa",
+      "code": "PA",
+      "name": "Panama",
+      "aliases": [
+        "PAN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/pa.png"
+    },
+    {
+      "id": "pe",
+      "code": "PE",
+      "name": "Peru",
+      "aliases": [
+        "Pérou",
+        "PER"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/pe.png"
+    },
+    {
+      "id": "pf",
+      "code": "PF",
+      "name": "French Polynesia",
+      "aliases": [
+        "Tahiti",
+        "Polinesia Francesa",
+        "Polynésie française",
+        "Französisch-Polynesien",
+        "Polinesia francese",
+        "PYF",
+        "TAH"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/pf.png"
+    },
+    {
+      "id": "pg",
+      "code": "PG",
+      "name": "Papua New Guinea",
+      "aliases": [
+        "Papúa Nueva Guinea",
+        "Papouasie-Nouvelle-Guinée",
+        "Papua-Neuguinea",
+        "Papua Nuova Guinea",
+        "Papua-Nova Guiné",
+        "PNG"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/pg.png"
+    },
+    {
+      "id": "ph",
+      "code": "PH",
+      "name": "Philippines",
+      "aliases": [
+        "Filipinas",
+        "Philippinen",
+        "Filippine",
+        "PHL",
+        "PHI"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ph.png"
+    },
+    {
+      "id": "pk",
+      "code": "PK",
+      "name": "Pakistan",
+      "aliases": [
+        "Paquistão",
+        "PAK"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/pk.png"
+    },
+    {
+      "id": "pl",
+      "code": "PL",
+      "name": "Poland",
+      "aliases": [
+        "Polonia",
+        "Pologne",
+        "Polen",
+        "POL"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/pl.png"
+    },
+    {
+      "id": "pm",
+      "code": "PM",
+      "name": "Saint Pierre and Miquelon",
+      "aliases": [
+        "San Pedro y Miquelón",
+        "Saint-Pierre-et-Miquelon",
+        "Saint-Pierre und Miquelon",
+        "Saint-Pierre e Miquelon",
+        "SPM"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/pm.png"
+    },
+    {
+      "id": "pn",
+      "code": "PN",
+      "name": "Pitcairn Islands",
+      "aliases": [
+        "Islas Pitcairn",
+        "îles Pitcairn",
+        "Pitcairninseln",
+        "Isole Pitcairn",
+        "Ilhas Pitcairn",
+        "PCN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/pn.png"
+    },
+    {
+      "id": "pr",
+      "code": "PR",
+      "name": "Puerto Rico",
+      "aliases": [
+        "Porto Rico",
+        "PRI",
+        "PUR"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/pr.png"
+    },
+    {
+      "id": "ps",
+      "code": "PS",
+      "name": "Palestine",
+      "aliases": [
+        "Palestina",
+        "État de Palestine",
+        "Palästina",
+        "Stato di Palestina",
+        "Estado da Palestina",
+        "PSE",
+        "PLE"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ps.png"
+    },
+    {
+      "id": "pt",
+      "code": "PT",
+      "name": "Portugal",
+      "aliases": [
+        "Portogallo",
+        "PRT",
+        "POR"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/pt.png"
+    },
+    {
+      "id": "pw",
+      "code": "PW",
+      "name": "Palau",
+      "aliases": [
+        "Palaos",
+        "PLW"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/pw.png"
+    },
+    {
+      "id": "py",
+      "code": "PY",
+      "name": "Paraguay",
+      "aliases": [
+        "Paraguai",
+        "PRY",
+        "PAR"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/py.png"
+    },
+    {
+      "id": "qa",
+      "code": "QA",
+      "name": "Qatar",
+      "aliases": [
+        "Catar",
+        "Katar",
+        "QAT"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/qa.png"
+    },
+    {
+      "id": "re",
+      "code": "RE",
+      "name": "Réunion",
+      "aliases": [
+        "La Réunion",
+        "Riunione",
+        "Reunião",
+        "REU"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/re.png"
+    },
+    {
+      "id": "ro",
+      "code": "RO",
+      "name": "Romania",
+      "aliases": [
+        "Rumania",
+        "Roumanie",
+        "Rumänien",
+        "Roménia",
+        "ROU"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ro.png"
+    },
+    {
+      "id": "rs",
+      "code": "RS",
+      "name": "Serbia",
+      "aliases": [
+        "Serbie",
+        "Serbien",
+        "Sérvia",
+        "SRB"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/rs.png"
+    },
+    {
+      "id": "ru",
+      "code": "RU",
+      "name": "Russia",
+      "aliases": [
+        "Rusia",
+        "Russie",
+        "Russland",
+        "RUS"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ru.png"
+    },
+    {
+      "id": "rw",
+      "code": "RW",
+      "name": "Rwanda",
+      "aliases": [
+        "Ruanda",
+        "RWA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/rw.png"
+    },
+    {
+      "id": "sa",
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "aliases": [
+        "Arabia Saudí",
+        "Arabie saoudite",
+        "Saudi-Arabien",
+        "Arabia Saudita",
+        "SAU",
+        "KSA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/sa.png"
+    },
+    {
+      "id": "sb",
+      "code": "SB",
+      "name": "Solomon Islands",
+      "aliases": [
+        "Islas Salomón",
+        "Îles Salomon",
+        "Salomonen",
+        "Isole Salomone",
+        "Ilhas Salomão",
+        "SLB",
+        "SOL"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/sb.png"
+    },
+    {
+      "id": "sc",
+      "code": "SC",
+      "name": "Seychelles",
+      "aliases": [
+        "Seychellen",
+        "SYC",
+        "SEY"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/sc.png"
+    },
+    {
+      "id": "sd",
+      "code": "SD",
+      "name": "Sudan",
+      "aliases": [
+        "Soudan",
+        "Sudão",
+        "SDN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/sd.png"
+    },
+    {
+      "id": "se",
+      "code": "SE",
+      "name": "Sweden",
+      "aliases": [
+        "Suecia",
+        "Suède",
+        "Schweden",
+        "Svezia",
+        "SWE"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/se.png"
+    },
+    {
+      "id": "sg",
+      "code": "SG",
+      "name": "Singapore",
+      "aliases": [
+        "Singapur",
+        "Singapour",
+        "Singapura",
+        "SGP"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/sg.png"
+    },
+    {
+      "id": "sh",
+      "code": "SH",
+      "name": "Saint Helena, Ascension and Tristan da Cunha",
+      "aliases": [
+        "Santa Elena, Ascensión y Tristán de Acuña",
+        "Sainte-Hélène, Ascension et Tristan da Cunha",
+        "St. Helena, Ascension und Tristan da Cunha",
+        "Sant'Elena, Ascensione e Tristan da Cunha",
+        "Santa Helena, Ascensão e Tristão da Cunha",
+        "SHN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/sh.png"
+    },
+    {
+      "id": "si",
+      "code": "SI",
+      "name": "Slovenia",
+      "aliases": [
+        "Eslovenia",
+        "Slovénie",
+        "Slowenien",
+        "SVN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/si.png"
+    },
+    {
+      "id": "sj",
+      "code": "SJ",
+      "name": "Svalbard and Jan Mayen",
+      "aliases": [
+        "Svalbard y Jan Mayen",
+        "Svalbard et Jan Mayen",
+        "Svalbard und Jan Mayen",
+        "Svalbard e Jan Mayen",
+        "SJM"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/sj.png"
+    },
+    {
+      "id": "sk",
+      "code": "SK",
+      "name": "Slovakia",
+      "aliases": [
+        "Eslovaquia",
+        "Slovaquie",
+        "Slowakei",
+        "Slovacchia",
+        "SVK"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/sk.png"
+    },
+    {
+      "id": "sl",
+      "code": "SL",
+      "name": "Sierra Leone",
+      "aliases": [
+        "Sierra Leona",
+        "Serra Leoa",
+        "SLE"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/sl.png"
+    },
+    {
+      "id": "sm",
+      "code": "SM",
+      "name": "San Marino",
+      "aliases": [
+        "Saint-Marin",
+        "SMR"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/sm.png"
+    },
+    {
+      "id": "sn",
+      "code": "SN",
+      "name": "Senegal",
+      "aliases": [
+        "SEN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/sn.png"
+    },
+    {
+      "id": "so",
+      "code": "SO",
+      "name": "Somalia",
+      "aliases": [
+        "Somalie",
+        "SOM"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/so.png"
+    },
+    {
+      "id": "sr",
+      "code": "SR",
+      "name": "Suriname",
+      "aliases": [
+        "Surinam",
+        "SUR"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/sr.png"
+    },
+    {
+      "id": "ss",
+      "code": "SS",
+      "name": "South Sudan",
+      "aliases": [
+        "Sudán del Sur",
+        "Soudan du Sud",
+        "Südsudan",
+        "Sudan del Sud",
+        "Sudão do Sul",
+        "SSD"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ss.png"
+    },
+    {
+      "id": "st",
+      "code": "ST",
+      "name": "São Tomé and Príncipe",
+      "aliases": [
+        "Santo Tomé y Príncipe",
+        "Sao Tomé-et-Principe",
+        "São Tomé und Príncipe",
+        "São Tomé e Príncipe",
+        "STP"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/st.png"
+    },
+    {
+      "id": "sv",
+      "code": "SV",
+      "name": "El Salvador",
+      "aliases": [
+        "Salvador",
+        "SLV"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/sv.png"
+    },
+    {
+      "id": "sx",
+      "code": "SX",
+      "name": "Sint Maarten",
+      "aliases": [
+        "SXM"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/sx.png"
+    },
+    {
+      "id": "sy",
+      "code": "SY",
+      "name": "Syria",
+      "aliases": [
+        "Siria",
+        "Syrie",
+        "Syrien",
+        "SYR"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/sy.png"
+    },
+    {
+      "id": "sz",
+      "code": "SZ",
+      "name": "Eswatini",
+      "aliases": [
+        "Suazilandia",
+        "Essuatíni",
+        "SWZ"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/sz.png"
+    },
+    {
+      "id": "tc",
+      "code": "TC",
+      "name": "Turks and Caicos Islands",
+      "aliases": [
+        "Islas Turcas y Caicos",
+        "Îles Turques et Caïques",
+        "Turks- und Caicosinseln",
+        "Turks e Caicos",
+        "Ilhas Turcas e Caicos",
+        "TCA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/tc.png"
+    },
+    {
+      "id": "td",
+      "code": "TD",
+      "name": "Chad",
+      "aliases": [
+        "Tchad",
+        "Tschad",
+        "Ciad",
+        "Chade",
+        "TCD",
+        "CHA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/td.png"
+    },
+    {
+      "id": "tf",
+      "code": "TF",
+      "name": "French Southern and Antarctic Lands",
+      "aliases": [
+        "Tierras Australes y Antárticas Francesas",
+        "Terres australes et antarctiques françaises",
+        "Französische Süd- und Antarktisgebiete",
+        "Terre Australi e Antartiche Francesi",
+        "Terras Austrais e Antárticas Francesas",
+        "ATF"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/tf.png"
+    },
+    {
+      "id": "tg",
+      "code": "TG",
+      "name": "Togo",
+      "aliases": [
+        "TGO",
+        "TOG"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/tg.png"
+    },
+    {
+      "id": "th",
+      "code": "TH",
+      "name": "Thailand",
+      "aliases": [
+        "Tailandia",
+        "Thaïlande",
+        "THA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/th.png"
+    },
+    {
+      "id": "tj",
+      "code": "TJ",
+      "name": "Tajikistan",
+      "aliases": [
+        "Tayikistán",
+        "Tadjikistan",
+        "Tadschikistan",
+        "Tagikistan",
+        "Tajiquistão",
+        "TJK"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/tj.png"
+    },
+    {
+      "id": "tk",
+      "code": "TK",
+      "name": "Tokelau",
+      "aliases": [
+        "TKL"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/tk.png"
+    },
+    {
+      "id": "tl",
+      "code": "TL",
+      "name": "Timor-Leste",
+      "aliases": [
+        "Timor Oriental",
+        "Osttimor",
+        "Timor Est",
+        "TLS"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/tl.png"
+    },
+    {
+      "id": "tm",
+      "code": "TM",
+      "name": "Turkmenistan",
+      "aliases": [
+        "Turquemenistão",
+        "TKM"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/tm.png"
+    },
+    {
+      "id": "tn",
+      "code": "TN",
+      "name": "Tunisia",
+      "aliases": [
+        "Túnez",
+        "Tunisie",
+        "Tunesien",
+        "TUN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/tn.png"
+    },
+    {
+      "id": "to",
+      "code": "TO",
+      "name": "Tonga",
+      "aliases": [
+        "TON",
+        "TGA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/to.png"
+    },
+    {
+      "id": "tr",
+      "code": "TR",
+      "name": "Turkey",
+      "aliases": [
+        "Turquía",
+        "Turquie",
+        "Türkei",
+        "Turchia",
+        "TUR"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/tr.png"
+    },
+    {
+      "id": "tt",
+      "code": "TT",
+      "name": "Trinidad and Tobago",
+      "aliases": [
+        "Trinidad y Tobago",
+        "Trinité-et-Tobago",
+        "Trinidad und Tobago",
+        "Trinidad e Tobago",
+        "Trindade e Tobago",
+        "TTO",
+        "TRI"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/tt.png"
+    },
+    {
+      "id": "tv",
+      "code": "TV",
+      "name": "Tuvalu",
+      "aliases": [
+        "TUV"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/tv.png"
+    },
+    {
+      "id": "tw",
+      "code": "TW",
+      "name": "Taiwan",
+      "aliases": [
+        "República de China",
+        "TWN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/tw.png"
+    },
+    {
+      "id": "tz",
+      "code": "TZ",
+      "name": "Tanzania",
+      "aliases": [
+        "Tanzanie",
+        "Tansania",
+        "TZA",
+        "TAN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/tz.png"
+    },
+    {
+      "id": "ua",
+      "code": "UA",
+      "name": "Ukraine",
+      "aliases": [
+        "Ucrania",
+        "Ucraina",
+        "UKR"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ua.png"
+    },
+    {
+      "id": "ug",
+      "code": "UG",
+      "name": "Uganda",
+      "aliases": [
+        "Ouganda",
+        "UGA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ug.png"
+    },
+    {
+      "id": "um",
+      "code": "UM",
+      "name": "United States Minor Outlying Islands",
+      "aliases": [
+        "Islas ultramarinas de Estados Unidos",
+        "îles mineures éloignées des États-Unis",
+        "Kleinere Amerikanische Überseeinseln",
+        "Isole minori esterne degli Stati Uniti d'America",
+        "Ilhas Menores Distantes dos Estados Unidos",
+        "UMI"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/um.png"
+    },
+    {
+      "id": "us",
+      "code": "US",
+      "name": "United States",
+      "aliases": [
+        "USA",
+        "United States of America",
+        "Estados Unidos",
+        "États-Unis",
+        "Vereinigte Staaten",
+        "Stati Uniti"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/us.png"
+    },
+    {
+      "id": "uy",
+      "code": "UY",
+      "name": "Uruguay",
+      "aliases": [
+        "Uruguai",
+        "URY",
+        "URU"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/uy.png"
+    },
+    {
+      "id": "uz",
+      "code": "UZ",
+      "name": "Uzbekistan",
+      "aliases": [
+        "Ouzbékistan",
+        "Usbekistan",
+        "Usbequistão",
+        "UZB"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/uz.png"
+    },
+    {
+      "id": "va",
+      "code": "VA",
+      "name": "Vatican City",
+      "aliases": [
+        "Ciudad del Vaticano",
+        "Vatican",
+        "Vatikanstadt",
+        "Città del Vaticano",
+        "Vaticano",
+        "VAT"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/va.png"
+    },
+    {
+      "id": "vc",
+      "code": "VC",
+      "name": "Saint Vincent and the Grenadines",
+      "aliases": [
+        "San Vicente y las Granadinas",
+        "Saint-Vincent-et-les-Grenadines",
+        "St. Vincent und die Grenadinen",
+        "Saint Vincent e Grenadine",
+        "São Vicente e Granadinas",
+        "VCT",
+        "VIN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/vc.png"
+    },
+    {
+      "id": "ve",
+      "code": "VE",
+      "name": "Venezuela",
+      "aliases": [
+        "VEN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ve.png"
+    },
+    {
+      "id": "vg",
+      "code": "VG",
+      "name": "British Virgin Islands",
+      "aliases": [
+        "Islas Vírgenes Británicas",
+        "îles Vierges britanniques",
+        "Britische Jungferninseln",
+        "Isole Vergini Britanniche",
+        "Ilhas Virgens Britânicas",
+        "VGB"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/vg.png"
+    },
+    {
+      "id": "vi",
+      "code": "VI",
+      "name": "United States Virgin Islands",
+      "aliases": [
+        "Islas Vírgenes de los Estados Unidos",
+        "îles Vierges des États-Unis",
+        "Amerikanische Jungferninseln",
+        "Isole Vergini degli Stati Uniti",
+        "Ilhas Virgens Americanas",
+        "VIR"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/vi.png"
+    },
+    {
+      "id": "vn",
+      "code": "VN",
+      "name": "Vietnam",
+      "aliases": [
+        "Vietname",
+        "VNM",
+        "VIE"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/vn.png"
+    },
+    {
+      "id": "vu",
+      "code": "VU",
+      "name": "Vanuatu",
+      "aliases": [
+        "VUT",
+        "VAN"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/vu.png"
+    },
+    {
+      "id": "wf",
+      "code": "WF",
+      "name": "Wallis and Futuna",
+      "aliases": [
+        "Wallis y Futuna",
+        "Wallis-et-Futuna",
+        "Wallis und Futuna",
+        "Wallis e Futuna",
+        "WLF"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/wf.png"
+    },
+    {
+      "id": "ws",
+      "code": "WS",
+      "name": "Samoa",
+      "aliases": [
+        "WSM",
+        "SAM"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ws.png"
+    },
+    {
+      "id": "xk",
+      "code": "XK",
+      "name": "Kosovo",
+      "aliases": [
+        "Kosova",
+        "XKS",
+        "KVX"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/xk.png"
+    },
+    {
+      "id": "ye",
+      "code": "YE",
+      "name": "Yemen",
+      "aliases": [
+        "Jemen",
+        "Iémen",
+        "YEM"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/ye.png"
+    },
+    {
+      "id": "yt",
+      "code": "YT",
+      "name": "Mayotte",
+      "aliases": [
+        "MYT"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/yt.png"
+    },
+    {
+      "id": "za",
+      "code": "ZA",
+      "name": "South Africa",
+      "aliases": [
+        "Sudáfrica",
+        "Afrique du Sud",
+        "Südafrika",
+        "África do Sul",
+        "ZAF",
+        "RSA"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/za.png"
+    },
+    {
+      "id": "zm",
+      "code": "ZM",
+      "name": "Zambia",
+      "aliases": [
+        "Zambie",
+        "Sambia",
+        "ZMB",
+        "ZAM"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/zm.png"
+    },
+    {
+      "id": "zw",
+      "code": "ZW",
+      "name": "Zimbabwe",
+      "aliases": [
+        "Zimbabue",
+        "Simbabwe",
+        "ZWE",
+        "ZIM"
+      ],
+      "type": "country",
+      "parent": null,
+      "flag": "flags/zw.png"
+    }
+  ]
+}

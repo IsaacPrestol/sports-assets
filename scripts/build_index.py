@@ -6,6 +6,7 @@ from football_catalog import LOOKUP_FILE, build_lookup, competition_assets, load
 from football_clubs import CLUBS_FILE, CLUBS_LOOKUP_FILE, build_club_lookup, club_assets, load_json
 from baseball_catalog import DATA as BASEBALL_DATA, baseball_assets, build_team_lookup, load_baseball
 from league_catalog import LEAGUES, load_league, catalog_assets
+from flags_catalog import FLAGS_LOOKUP_FILE, flag_assets, load_flags
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
@@ -99,6 +100,14 @@ def main():
         sys.exit(1)
     write_json(CLUBS_LOOKUP_FILE, club_lookup)
 
+    flags = load_flags()["flags"]
+    flag_lookup, flag_errors = build_lookup(flags)
+    if flag_errors:
+        for error in flag_errors:
+            print("ERROR:", error)
+        sys.exit(1)
+    write_json(FLAGS_LOOKUP_FILE, flag_lookup)
+
     all_assets = {
         **league_assets,
         'baseball-competitions': baseball_assets(baseball_competitions['competitions']),
@@ -107,6 +116,7 @@ def main():
         "competitions": competition_assets(competitions),
         "clubs": club_assets(clubs),
         "ufc-logos": build_collection(COLLECTIONS["ufc-logos"]),
+        "flags": flag_assets(flags),
     }
     for collection in COLLECTIONS:
         write_json(DATA / f"{collection}.json", all_assets[collection])
@@ -117,6 +127,7 @@ def main():
         print(f"  {collection}: {len(items)} asset(s)")
     print(f"  competition lookup: {len(lookup)} name(s)")
     print(f"  club lookup: {sum(len(t) for t in club_lookup.values())} name(s)")
+    print(f"  flag lookup: {len(flag_lookup)} name(s)")
 
 
 if __name__ == "__main__":

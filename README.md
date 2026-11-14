@@ -1,6 +1,6 @@
 # Sports Assets CDN
 
-Logos, crests and images for football, MLB, NBA, NHL, NFL and UFC, with JSON
+Logos, crests, flags and images for football, MLB, NBA, NHL, NFL and UFC, with JSON
 catalogs that turn a name like `"Atlético de Madrid"` or `"GSW"` into a stable id and an
 image URL. Everything is served from GitHub Pages, which publishes `main` to a
 CDN after every validated push, so there is nothing to host.
@@ -20,6 +20,7 @@ https://isaacprestol.github.io/sports-assets/football/clubs/es/real-madrid.png
 | NHL | 32 teams + league | `hockey/` | `data/hockey/` |
 | NFL | 32 teams + league | `american-football/` | `data/american-football/` |
 | UFC | fighter photos and logos (none downloaded yet) | `ufc/` | `data/fighters.json`, `data/ufc-logos.json` |
+| Flags | 250 countries and territories + 7 regions | `flags/<code>.png` | `data/flags.json` |
 
 Football clubs cover 41 leagues (the current season plus every club that has
 played in them since 2021/22 in Europe or 2022 in the Americas) and the full
@@ -28,8 +29,9 @@ including qualifying rounds. Clubs without a verified transparent crest are
 still in the catalog with `logo: null`, so you can recognise them and fall back
 to your own placeholder.
 
-All images are transparent PNGs, trimmed, never upscaled, with the longest side
-at most 1024 px.
+All logos are transparent PNGs, trimmed, never upscaled, with the longest side
+at most 1024 px. Flags follow the same size rule but are opaque rectangles in
+their official proportions.
 
 ## Using the ids
 
@@ -73,6 +75,7 @@ leagues) abbreviations are all indexed.
 | Football clubs | `data/football/clubs-lookup.json` | `lookup[country][name]` |
 | MLB / NBA / NHL / NFL teams | `data/<sport>/teams-lookup.json` | `lookup[league][name]` |
 | MLB / NBA / NHL / NFL leagues | `data/<sport>/competitions-lookup.json` | `lookup[name]` |
+| Flags | `data/flags-lookup.json` | `lookup[name]` |
 
 Football clubs must be looked up **inside their country**, because names like
 "Sporting", "Dinamo" or "Liverpool" exist in several countries. The country
@@ -210,7 +213,7 @@ only file you need.
 Collections: `competitions`, `clubs`, `baseball-teams`, `baseball-competitions`,
 `basketball-teams`, `basketball-competitions`, `hockey-teams`,
 `hockey-competitions`, `american-football-teams`,
-`american-football-competitions`, `fighters`, `ufc-logos`. Clubs with
+`american-football-competitions`, `fighters`, `ufc-logos`, `flags`. Clubs with
 `logo: null` are not included.
 
 ### Example: JavaScript
@@ -449,6 +452,56 @@ official [NBA](https://www.nba.com/teams), [NHL](https://www.nhl.com/info/teams/
 and [NFL](https://www.nfl.com/teams/) directories: 2026 for MLB and NFL,
 2026-27 for NBA and NHL.
 
+## Flags
+
+`data/flags.json` has a flag for every current ISO 3166-1 country and territory
+(249), Kosovo (`XK`), and seven regions with their own flag and, often, their
+own teams: England, Scotland, Wales, Northern Ireland, the Basque Country,
+Catalonia and Galicia.
+
+```json
+{
+  "id": "es-pv",
+  "code": "ES-PV",
+  "name": "Basque Country",
+  "aliases": ["Euskadi", "País Vasco", "Euskal Herria", "..."],
+  "type": "subdivision",
+  "parent": "es",
+  "flag": "flags/es-pv.png"
+}
+```
+
+| Field | Description |
+|---|---|
+| `id` | the code in lowercase; matches the file name |
+| `code` | ISO 3166-1 alpha-2 (`ES`), ISO 3166-2 for regions (`ES-PV`, `GB-ENG`), or `XK` for Kosovo |
+| `name` | English name |
+| `aliases` | names in Spanish, French, German, Italian and Portuguese (and the region's own language), the ISO alpha-3 code and the FIFA code (`ESP`, `GER`, `SCO`) |
+| `type` | `country` or `subdivision` |
+| `parent` | for a region, the id of its country; `null` for countries |
+| `flag` | image path, or `null` |
+
+- **A `country` field is a flag id.** Every catalog uses the same codes, so a
+  club in `GB-ENG` or a team in `CA` gets `flags/gb-eng.png` or `flags/ca.png`
+  by lowercasing it. Validation fails if a catalog uses a country with no flag.
+- **Names and codes resolve through the lookup**: `"España"`, `"ESP"`,
+  `"Euskadi"`, `"Catalunya"`, `"GER"` or `"SCO"` → `es`, `es`, `es-pv`, `es-ct`,
+  `de`, `gb-sct`. Aliases that would match two flags (for example "San Martín"
+  for Saint Martin and Sint Maarten) are left out.
+- **Territories without a flag of their own** use their country's official
+  flag: Bouvet Island and Svalbard (Norway), French Guiana, Guadeloupe,
+  Mayotte, Réunion and Saint Martin (France), Caribbean Netherlands
+  (Netherlands), and so on.
+- **Disputed or unofficial flags.** Northern Ireland has no official flag; it
+  uses the Ulster Banner, as its football and Commonwealth Games teams do.
+  Afghanistan uses the 2013–2021 tricolour, still used by FIFA and the IOC.
+  Western Sahara uses the flag of the Sahrawi Arab Democratic Republic, and
+  Antarctica the flag of the Antarctic Treaty. To change one, edit its `url` in
+  `data/sources.json` and run `python scripts/sync_flags.py download --force`.
+
+Flags are rendered from Wikimedia Commons SVGs (almost all public domain).
+`data/sources.json` records the file, author and license of each one.
+
 ## UFC
 
 `scripts/download_ufc_fighters.py` searches Wikimedia Commons for reusable
@@ -482,6 +535,7 @@ sports-assets/
 ├── ufc/
 │   ├── fighters/
 │   └── logos/
+├── flags/<code>.png                    # es, gb-eng, es-pv…
 ├── data/
 │   ├── football/
 │   │   ├── competitions.json          # catalog (source of truth, edited by hand)
@@ -494,6 +548,8 @@ sports-assets/
 │   ├── baseball/ basketball/ hockey/ american-football/
 │   │   ├── competitions.json, teams.json              # catalogs
 │   │   └── competitions-lookup.json, teams-lookup.json  # generated
+│   ├── flags.json                     # flag catalog (edited by hand, seeded by sync_flags.py)
+│   ├── flags-lookup.json              # generated: normalized name → flag id
 │   ├── fighters.json
 │   ├── ufc-logos.json
 │   ├── ufc-fighters-seed.json
@@ -597,6 +653,19 @@ For the Americas, add the new season of each league to
    ```
 
 For metadata-only changes, `python scripts/build_index.py` is enough.
+
+### Update flags
+
+```bash
+python scripts/sync_flags.py seed              # add new ISO codes / regions from Wikidata to data/flags.json
+python scripts/sync_flags.py download          # download missing flags from Wikimedia Commons
+python scripts/sync_flags.py download --force  # re-download every flag from its reviewed URL
+```
+
+`seed` never changes entries already in `data/flags.json`, so names and aliases
+edited by hand are kept. To add another region, add its ISO 3166-2 code to
+`SUBDIVISIONS` in `scripts/sync_flags.py` and run `seed`. Review new flags by eye
+before committing: Wikidata sometimes lists a regional logo instead of a flag.
 
 ## Licensing
 
