@@ -6,6 +6,7 @@ import sys
 from football_catalog import CATALOG_FILE, load_catalog, validate_catalog
 from baseball_catalog import load_baseball, validate_baseball
 from league_catalog import LEAGUES, load_league, validate_league
+from flags_catalog import FLAGS_FILE, load_flags, missing_country_flags, validate_flags
 from football_clubs import (
     CLUBS_FILE, MAPPING_FILE, ROSTERS_FILE, load_json, roster_errors, roster_sync_errors, validate_clubs,
 )
@@ -20,6 +21,7 @@ ASSET_DIRS = [
     ROOT / "football" / "clubs",
     ROOT / "ufc" / "fighters",
     ROOT / "ufc" / "logos",
+    ROOT / "flags",
 ]
 ALLOWED = {".png", ".webp", ".jpg", ".jpeg", ".svg"}
 NAME_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*\.(?:png|webp|jpg|jpeg|svg)$")
@@ -115,6 +117,30 @@ def check_rosters(errors: list, warnings: list) -> None:
     errors.extend(problems or roster_sync_errors(rosters, competitions, mapping, clubs))
 
 
+def check_flags(errors: list, warnings: list) -> None:
+    try:
+        catalog = load_flags()
+    except (OSError, ValueError) as exc:
+        errors.append(f"Cannot read {FLAGS_FILE.relative_to(ROOT).as_posix()}: {exc}")
+        return
+    flag_errors, flag_warnings = validate_flags(ROOT, catalog)
+    errors.extend(flag_errors)
+    warnings.extend(flag_warnings)
+    if flag_errors:
+        return
+    # Every country used by another catalog must have a flag.
+    try:
+        entries = load_json(CLUBS_FILE, {"clubs": []})["clubs"] + load_catalog()["competitions"]
+        for competitions, teams in [load_baseball(), *(load_league(league) for league in LEAGUES)]:
+            entries += competitions["competitions"] + teams["teams"]
+        countries = {entry["country"] for entry in entries}
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        errors.append(f"Cannot read country codes for flags: {exc}")
+        return
+    for code in missing_country_flags(catalog["flags"], countries):
+        errors.append(f"Country '{code}' is used by a catalog but has no entry in data/flags.json")
+
+
 def main():
     errors = []
     warnings = []
@@ -135,6 +161,7 @@ def main():
     check_catalog(errors, warnings)
     check_clubs(errors, warnings)
     check_rosters(errors, warnings)
+    check_flags(errors, warnings)
 
     for warning in warnings:
         print("WARNING:", warning)
